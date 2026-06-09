@@ -1,0 +1,2101 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Nottingham
+  competition: Vitality Blast Men
+  dates:
+  - '2025-05-30'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Nottinghamshire
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Birmingham Bears:
+    - AL Davies
+    - TWM Latham
+    - RM Yates
+    - SR Hain
+    - EG Barnard
+    - GHS Garton
+    - K Smith
+    - DR Briggs
+    - CN Miles
+    - JB Lintott
+    - AR Sylvester
+    Nottinghamshire:
+    - JM Clarke
+    - LW James
+    - JA Haynes
+    - MC Henriques
+    - TJ Moores
+    - M Montgomery
+    - DR Sams
+    - CG Harrison
+    - LA Patterson-White
+    - C McKerr
+    - DY Pennington
+  registry:
+    people:
+      AL Davies: 29ede60b
+      AR Sylvester: 909b090d
+      C McKerr: 5ccdb14f
+      CG Harrison: f655d740
+      CN Miles: 5fed6272
+      Chris Watts: 3cfb1554
+      DR Briggs: f3abd0c9
+      DR Sams: caf69bf7
+      DY Pennington: 219cc59e
+      EG Barnard: a510bdd3
+      GHS Garton: be869ccf
+      Hassan Adnan: 56ca7a8c
+      JA Haynes: fe4ebca0
+      JB Lintott: e5218454
+      JM Clarke: 2eca67f5
+      K Smith: ee6ebf47
+      LA Patterson-White: d48c0f40
+      LW James: 2baad3bd
+      M Montgomery: 7671203a
+      MC Henriques: 32198ae0
+      PM Such: c9f1892c
+      RM Yates: 3581a798
+      SR Hain: 67b9536c
+      TJ Moores: 85dcb721
+      TWM Latham: e824e6ee
+  teams:
+  - Birmingham Bears
+  - Nottinghamshire
+  toss:
+    winner: Nottinghamshire
+    decision: field
+  umpires:
+  - Chris Watts
+  - Hassan Adnan
+  venue: Trent Bridge, Nottingham
+innings:
+- 1st innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.2:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.3:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 0.4:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TWM Latham
+    - 0.5:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 0.6:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 1.1:
+        non_striker: TWM Latham
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 1.2:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TWM Latham
+    - 1.3:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 1.4:
+        non_striker: TWM Latham
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.5:
+        non_striker: TWM Latham
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 1.6:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+        wicket:
+          player_out: TWM Latham
+          kind: lbw
+    - 1.7:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 2.1:
+        non_striker: RM Yates
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 2.2:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 2.3:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+        wicket:
+          player_out: RM Yates
+          kind: bowled
+    - 2.4:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 2.5:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 2.6:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 3.1:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 3.2:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 3.3:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 3.4:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 3.5:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 3.6:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 4.1:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 4.2:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 4.3:
+        non_striker: AL Davies
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 4.4:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 4.5:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 4.6:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 5.1:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.2:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 5.3:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 5.4:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.5:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 5.6:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AL Davies
+    - 6.1:
+        non_striker: AL Davies
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.2:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 6.3:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 6.4:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 6.5:
+        non_striker: AL Davies
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.6:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          fielders:
+          - JA Haynes
+          kind: caught
+    - 7.1:
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: EG Barnard
+        batsman: SR Hain
+    - 7.2:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 7.3:
+        non_striker: EG Barnard
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 7.4:
+        non_striker: EG Barnard
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.5:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 7.6:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 8.1:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 8.2:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.3:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 8.4:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: SR Hain
+    - 8.5:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 8.6:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 9.1:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 9.2:
+        non_striker: EG Barnard
+        bowler: MC Henriques
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: SR Hain
+    - 9.3:
+        non_striker: EG Barnard
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 9.4:
+        non_striker: EG Barnard
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.5:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 9.6:
+        non_striker: EG Barnard
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.7:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 10.1:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 10.2:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 10.3:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 10.4:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.5:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 10.6:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 11.1:
+        non_striker: EG Barnard
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.2:
+        non_striker: SR Hain
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 11.3:
+        non_striker: SR Hain
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 11.4:
+        non_striker: EG Barnard
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.5:
+        non_striker: SR Hain
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 11.6:
+        non_striker: SR Hain
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 12.1:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 12.2:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EG Barnard
+    - 12.3:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 12.4:
+        non_striker: EG Barnard
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 12.5:
+        non_striker: EG Barnard
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.6:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 12.7:
+        non_striker: SR Hain
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 13.1:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 13.2:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 13.3:
+        non_striker: SR Hain
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 13.4:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 13.5:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 13.6:
+        non_striker: EG Barnard
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.1:
+        non_striker: EG Barnard
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.2:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 14.3:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 14.4:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 14.5:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+        wicket:
+          player_out: EG Barnard
+          fielders:
+          - CG Harrison
+          kind: caught
+    - 14.6:
+        non_striker: SR Hain
+        bowler: MC Henriques
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 15.1:
+        non_striker: GHS Garton
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.2:
+        non_striker: SR Hain
+        bowler: LW James
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GHS Garton
+    - 15.3:
+        non_striker: SR Hain
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 15.4:
+        non_striker: SR Hain
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 15.5:
+        non_striker: GHS Garton
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.6:
+        non_striker: SR Hain
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 15.7:
+        non_striker: GHS Garton
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 16.1:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 16.2:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 16.3:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SR Hain
+    - 16.4:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 16.5:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SR Hain
+    - 16.6:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 16.7:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 16.8:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 17.1:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 17.2:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 17.3:
+        non_striker: GHS Garton
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SR Hain
+    - 17.4:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 17.5:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GHS Garton
+    - 17.6:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          kind: bowled
+    - 18.1:
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: K Smith
+        batsman: SR Hain
+    - 18.2:
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: K Smith
+        batsman: SR Hain
+    - 18.3:
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: K Smith
+        batsman: SR Hain
+    - 18.4:
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: K Smith
+        batsman: SR Hain
+    - 18.5:
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: K Smith
+        batsman: SR Hain
+    - 18.6:
+        non_striker: K Smith
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 19.1:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Smith
+    - 19.2:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Smith
+    - 19.3:
+        non_striker: K Smith
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 19.4:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: K Smith
+    - 19.5:
+        non_striker: K Smith
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 19.6:
+        non_striker: K Smith
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+- 2nd innings:
+    team: Nottinghamshire
+    deliveries:
+    - 0.1:
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: LW James
+        batsman: JM Clarke
+    - 0.2:
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: LW James
+        batsman: JM Clarke
+    - 0.3:
+        non_striker: JM Clarke
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 0.4:
+        non_striker: JM Clarke
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 0.5:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 0.6:
+        non_striker: JM Clarke
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LW James
+    - 1.1:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.2:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.3:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 1.4:
+        non_striker: JM Clarke
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 1.5:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 1.6:
+        non_striker: JM Clarke
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 2.1:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 2.2:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 2.3:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 2.4:
+        non_striker: JM Clarke
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 2.5:
+        non_striker: JM Clarke
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 2.6:
+        non_striker: JM Clarke
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 3.1:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 3.2:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 3.3:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 3.4:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 3.5:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Clarke
+    - 3.6:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 3.7:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: JM Clarke
+    - 3.8:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Clarke
+    - 3.9:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 4.1:
+        non_striker: JM Clarke
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 4.2:
+        non_striker: JM Clarke
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 4.3:
+        non_striker: JM Clarke
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 4.4:
+        non_striker: JM Clarke
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LW James
+    - 4.5:
+        non_striker: JM Clarke
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 4.6:
+        non_striker: LW James
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 5.1:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Clarke
+    - 5.2:
+        non_striker: JM Clarke
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: LW James
+    - 5.3:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 5.4:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 5.5:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 5.6:
+        non_striker: LW James
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 6.1:
+        non_striker: JM Clarke
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 6.2:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+        wicket:
+          player_out: JM Clarke
+          fielders:
+          - EG Barnard
+          kind: caught
+    - 6.3:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 6.4:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 6.5:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 6.6:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 7.1:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 7.2:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.3:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+        wicket:
+          player_out: LW James
+          fielders:
+          - RM Yates
+          kind: caught
+    - 7.4:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 7.5:
+        non_striker: MC Henriques
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.6:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 8.1:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 8.2:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 8.3:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 8.4:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 8.5:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Henriques
+    - 8.6:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 9.1:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 9.2:
+        non_striker: MC Henriques
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 9.3:
+        non_striker: MC Henriques
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 9.4:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Henriques
+    - 9.5:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 9.6:
+        non_striker: MC Henriques
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 10.1:
+        non_striker: MC Henriques
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 10.2:
+        non_striker: JA Haynes
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Henriques
+    - 10.3:
+        non_striker: JA Haynes
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 10.4:
+        non_striker: MC Henriques
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 10.5:
+        non_striker: MC Henriques
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 10.6:
+        non_striker: JA Haynes
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 11.1:
+        non_striker: JA Haynes
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 11.2:
+        non_striker: MC Henriques
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 11.3:
+        non_striker: MC Henriques
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 11.4:
+        non_striker: MC Henriques
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 11.5:
+        non_striker: JA Haynes
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 11.6:
+        non_striker: MC Henriques
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 12.1:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 12.2:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 12.3:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 12.4:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 12.5:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 12.6:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 13.1:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 13.2:
+        non_striker: MC Henriques
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 13.3:
+        non_striker: MC Henriques
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 13.4:
+        non_striker: MC Henriques
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 13.5:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MC Henriques
+    - 13.6:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 14.1:
+        non_striker: JA Haynes
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 14.2:
+        non_striker: MC Henriques
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 14.3:
+        non_striker: JA Haynes
+        bowler: EG Barnard
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: MC Henriques
+    - 14.4:
+        non_striker: JA Haynes
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 14.5:
+        non_striker: MC Henriques
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 14.6:
+        non_striker: MC Henriques
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 15.1:
+        non_striker: MC Henriques
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 15.2:
+        non_striker: MC Henriques
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 15.3:
+        non_striker: JA Haynes
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MC Henriques
+    - 15.4:
+        non_striker: JA Haynes
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 15.5:
+        non_striker: MC Henriques
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 15.6:
+        non_striker: MC Henriques
+        bowler: AR Sylvester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 16.1:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MC Henriques
+    - 16.2:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Henriques
+    - 16.3:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Henriques
+    - 16.4:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 16.5:
+        non_striker: MC Henriques
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 16.6:
+        non_striker: JA Haynes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Henriques
+        wicket:
+          player_out: MC Henriques
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 17.1:
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TJ Moores
+        batsman: JA Haynes
+    - 17.2:
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TJ Moores
+        batsman: JA Haynes
+    - 17.3:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 17.4:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 17.5:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 17.6:
+        non_striker: JA Haynes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 18.1:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 18.2:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 18.3:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 18.4:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 18.5:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 18.6:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: JA Haynes
+    - 19.1:
+        non_striker: JA Haynes
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores

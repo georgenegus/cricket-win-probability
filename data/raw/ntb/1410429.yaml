@@ -1,0 +1,2099 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-21'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2024-06-20'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gloucestershire
+    by:
+      wickets: 2
+  overs: 20
+  players:
+    Glamorgan:
+    - KS Carlson
+    - SA Northeast
+    - M Labuschagne
+    - CA Ingram
+    - CB Cooke
+    - BI Kellaway
+    - DA Douthwaite
+    - T van der Gugten
+    - MS Crane
+    - AW Gorvin
+    - JP McIlroy
+    Gloucestershire:
+    - Miles Hammond
+    - CT Bancroft
+    - James Bracey
+    - BJ Webster
+    - JMR Taylor
+    - BG Charlesworth
+    - GL van Buuren
+    - MD Taylor
+    - M de Lange
+    - J Shaw
+    - DA Payne
+  registry:
+    people:
+      AW Gorvin: 7d7233a9
+      BG Charlesworth: ffdba4e2
+      BI Kellaway: eafe8a94
+      BJ Webster: 56b93d46
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      CT Bancroft: 399b0b94
+      DA Douthwaite: 03df7a25
+      DA Payne: 6c79c098
+      GL van Buuren: ba377b40
+      J Shaw: b82e3032
+      JJ Whitaker: 4ea85016
+      JMR Taylor: aed5be04
+      JP McIlroy: 80e44dc5
+      James Bracey: 5bfdc77a
+      KS Carlson: 9e707e02
+      M Labuschagne: fa433be6
+      M de Lange: d4eef961
+      MD Taylor: 01a95383
+      MS Crane: f0a0204e
+      Miles Hammond: c88bc84a
+      PK Baldwin: 6bb53c12
+      RJ Warren: 9d1c62d7
+      SA Northeast: 7e4c8ba3
+      T van der Gugten: d99cc23a
+  teams:
+  - Glamorgan
+  - Gloucestershire
+  toss:
+    winner: Glamorgan
+    decision: bat
+  umpires:
+  - PK Baldwin
+  - RJ Warren
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 0.4:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 0.5:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 0.6:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.1:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 1.2:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - MD Taylor
+          kind: caught
+    - 1.3:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 1.4:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 1.5:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 1.6:
+        non_striker: M Labuschagne
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.1:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 2.2:
+        non_striker: M Labuschagne
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.3:
+        non_striker: M Labuschagne
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.4:
+        non_striker: M Labuschagne
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 2.5:
+        non_striker: M Labuschagne
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.6:
+        non_striker: M Labuschagne
+        bowler: DA Payne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SA Northeast
+    - 2.7:
+        non_striker: M Labuschagne
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.1:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 3.2:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 3.3:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 3.4:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 3.5:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.6:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 4.1:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.2:
+        non_striker: M Labuschagne
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 4.3:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.4:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 4.5:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.6:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 5.1:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 5.2:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: M Labuschagne
+    - 5.3:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 5.4:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: M Labuschagne
+          fielders:
+          - James Bracey
+          kind: caught
+    - 5.5:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.6:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.1:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.2:
+        non_striker: CA Ingram
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 6.3:
+        non_striker: CA Ingram
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 6.4:
+        non_striker: CA Ingram
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.5:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.6:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 7.1:
+        non_striker: CA Ingram
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.2:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.3:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.4:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 7.5:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.6:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 8.1:
+        non_striker: CA Ingram
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.2:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.3:
+        non_striker: CA Ingram
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.4:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.5:
+        non_striker: CA Ingram
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 8.6:
+        non_striker: CA Ingram
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 9.1:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 9.2:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.3:
+        non_striker: CA Ingram
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 9.4:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 9.5:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.6:
+        non_striker: CA Ingram
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 10.1:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 10.2:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 10.3:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 10.4:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 10.5:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 10.6:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 11.1:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 11.2:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 11.3:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 11.4:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - JMR Taylor
+          kind: caught
+    - 11.5:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - James Bracey
+          kind: caught
+    - 11.6:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 12.1:
+        non_striker: BI Kellaway
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 12.2:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 12.3:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 12.4:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BI Kellaway
+    - 12.5:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+        wicket:
+          player_out: BI Kellaway
+          fielders:
+          - BG Charlesworth
+          kind: caught
+    - 12.6:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 13.1:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 13.2:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 13.3:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 13.4:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Douthwaite
+    - 13.5:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Douthwaite
+    - 13.6:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Douthwaite
+    - 14.1:
+        non_striker: DA Douthwaite
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 14.2:
+        non_striker: DA Douthwaite
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 14.3:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 14.4:
+        non_striker: DA Douthwaite
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 14.5:
+        non_striker: DA Douthwaite
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 14.6:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 15.1:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 15.2:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 15.3:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 15.4:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 15.5:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 15.6:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 16.1:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 16.2:
+        non_striker: DA Douthwaite
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 16.3:
+        non_striker: DA Douthwaite
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 16.4:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 16.5:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Douthwaite
+    - 16.6:
+        non_striker: SA Northeast
+        bowler: M de Lange
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 17.1:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 17.2:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+        wicket:
+          player_out: DA Douthwaite
+          fielders:
+          - JMR Taylor
+          kind: caught
+    - 17.3:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 17.4:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 17.5:
+        non_striker: T van der Gugten
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 17.6:
+        non_striker: SA Northeast
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 18.1:
+        non_striker: T van der Gugten
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 18.2:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 18.3:
+        non_striker: T van der Gugten
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 18.4:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T van der Gugten
+    - 18.5:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 18.6:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 19.1:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 19.2:
+        non_striker: T van der Gugten
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 19.3:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 19.4:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 19.5:
+        non_striker: SA Northeast
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 19.6:
+        non_striker: T van der Gugten
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+- 2nd innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: CT Bancroft
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.2:
+        non_striker: CT Bancroft
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 0.3:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 0.4:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CT Bancroft
+    - 0.5:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 0.6:
+        non_striker: CT Bancroft
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 1.1:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+        wicket:
+          player_out: CT Bancroft
+          kind: bowled
+    - 1.2:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 1.3:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 1.4:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 1.5:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 1.6:
+        non_striker: James Bracey
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.1:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 2.2:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 2.3:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Miles Hammond
+    - 2.4:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 2.5:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          kind: bowled
+    - 2.6:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 3.1:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 3.2:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 3.3:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+        wicket:
+          player_out: James Bracey
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 3.4:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 3.5:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 3.6:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 4.1:
+        non_striker: JMR Taylor
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Webster
+    - 4.2:
+        non_striker: JMR Taylor
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 4.3:
+        non_striker: JMR Taylor
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 4.4:
+        non_striker: JMR Taylor
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 4.5:
+        non_striker: BJ Webster
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 4.6:
+        non_striker: BJ Webster
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 5.1:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Webster
+    - 5.2:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: BJ Webster
+    - 5.3:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 5.4:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 5.5:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 5.6:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 6.1:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 6.2:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 6.3:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 6.4:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 6.5:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+        wicket:
+          player_out: BJ Webster
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 6.6:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 7.1:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 7.2:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 7.3:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 7.4:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 7.5:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 7.6:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 8.1:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 8.2:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 8.3:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 8.4:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 8.5:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BG Charlesworth
+    - 8.6:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 9.1:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          fielders:
+          - M Labuschagne
+          kind: caught
+    - 9.2:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 9.3:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 9.4:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 9.5:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 9.6:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 10.1:
+        non_striker: GL van Buuren
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 10.2:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 10.3:
+        non_striker: GL van Buuren
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 10.4:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 10.5:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: GL van Buuren
+    - 10.6:
+        non_striker: GL van Buuren
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 11.1:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 11.2:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 11.3:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 11.4:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 11.5:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 11.6:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.1:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.2:
+        non_striker: GL van Buuren
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 12.3:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.4:
+        non_striker: GL van Buuren
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 12.5:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.6:
+        non_striker: GL van Buuren
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 13.1:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 13.2:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 13.3:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 13.4:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 13.5:
+        non_striker: GL van Buuren
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 13.6:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.1:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.2:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 14.3:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 14.4:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.5:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JMR Taylor
+    - 14.6:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 14.7:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+        wicket:
+          player_out: GL van Buuren
+          kind: bowled
+    - 15.1:
+        non_striker: MD Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 15.2:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 15.3:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 15.4:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 15.5:
+        non_striker: MD Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JMR Taylor
+    - 15.6:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+        wicket:
+          player_out: MD Taylor
+          fielders:
+          - JP McIlroy
+          kind: caught
+    - 16.1:
+        non_striker: M de Lange
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 16.2:
+        non_striker: M de Lange
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 16.3:
+        non_striker: M de Lange
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 16.4:
+        non_striker: M de Lange
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 16.5:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M de Lange
+    - 16.6:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M de Lange
+    - 17.1:
+        non_striker: M de Lange
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 17.2:
+        non_striker: M de Lange
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 17.3:
+        non_striker: M de Lange
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 17.4:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M de Lange
+    - 17.5:
+        non_striker: M de Lange
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 17.6:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M de Lange
+    - 18.1:
+        non_striker: M de Lange
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 18.2:
+        non_striker: M de Lange
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 18.3:
+        non_striker: M de Lange
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 18.4:
+        non_striker: JMR Taylor
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M de Lange
+    - 18.5:
+        non_striker: M de Lange
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 18.6:
+        non_striker: M de Lange
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 19.1:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M de Lange
+    - 19.2:
+        non_striker: M de Lange
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 19.3:
+        non_striker: M de Lange
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 19.4:
+        non_striker: M de Lange
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+        wicket:
+          player_out: JMR Taylor
+          fielders:
+          - SA Northeast
+          kind: run out
+    - 19.5:
+        non_striker: M de Lange
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Shaw
+    - 19.6:
+        non_striker: M de Lange
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Shaw

@@ -1,0 +1,1767 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Birmingham
+  competition: Vitality Blast
+  dates:
+  - '2024-07-12'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Worcestershire
+    by:
+      runs: 55
+  overs: 20
+  players:
+    Worcestershire:
+    - EJ Pollock
+    - Kashif Ali
+    - JJ Cobb
+    - AJ Hose
+    - EA Brookes
+    - GH Roderick
+    - NG Smith
+    - MJ Waite
+    - RP Jones
+    - TAI Taylor
+    - HR Walsh
+    Birmingham Bears:
+    - AL Davies
+    - RM Yates
+    - DR Mousley
+    - SR Hain
+    - MM Ali
+    - CG Benjamin
+    - JG Bethell
+    - ZGF Foulkes
+    - GHS Garton
+    - DR Briggs
+    - JB Lintott
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      AL Davies: 29ede60b
+      CG Benjamin: 95a15317
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      EA Brookes: 6ce9f3eb
+      EJ Pollock: d6663a9a
+      GD Lloyd: 36e0770d
+      GH Roderick: 7081848a
+      GHS Garton: be869ccf
+      HR Walsh: 1ac2a995
+      JB Lintott: e5218454
+      JG Bethell: 3c55c703
+      JJ Cobb: 58c481c6
+      Kashif Ali: f3b26fe4
+      MJ Waite: a4b810d0
+      MM Ali: bb351c23
+      NG Smith: 05b1aef8
+      Phil Whitticase: 99d5f6fa
+      RM Yates: 3581a798
+      RP Jones: ad8cb396
+      SR Hain: 67b9536c
+      Surendiran Shanmugam: 2ef5fc2b
+      TAI Taylor: 867a45a7
+      ZGF Foulkes: 30f92334
+  teams:
+  - Worcestershire
+  - Birmingham Bears
+  toss:
+    winner: Worcestershire
+    decision: bat
+  umpires:
+  - GD Lloyd
+  - Surendiran Shanmugam
+  venue: Edgbaston, Birmingham
+innings:
+- 1st innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 0.2:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+        wicket:
+          player_out: EJ Pollock
+          fielders:
+          - SR Hain
+          kind: caught
+    - 0.3:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 0.4:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 0.5:
+        non_striker: JJ Cobb
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 0.6:
+        non_striker: JJ Cobb
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 1.1:
+        non_striker: JJ Cobb
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 1.2:
+        non_striker: JJ Cobb
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kashif Ali
+    - 1.3:
+        non_striker: JJ Cobb
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Kashif Ali
+    - 1.4:
+        non_striker: JJ Cobb
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 1.5:
+        non_striker: JJ Cobb
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 1.6:
+        non_striker: JJ Cobb
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 1.7:
+        non_striker: JJ Cobb
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 2.1:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Cobb
+    - 2.2:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Cobb
+    - 2.3:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Cobb
+    - 2.4:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 2.5:
+        non_striker: JJ Cobb
+        bowler: ZGF Foulkes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Kashif Ali
+    - 2.6:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: JJ Cobb
+    - 2.7:
+        non_striker: Kashif Ali
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 3.1:
+        non_striker: Kashif Ali
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 3.2:
+        non_striker: Kashif Ali
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Cobb
+    - 3.3:
+        non_striker: Kashif Ali
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 3.4:
+        non_striker: JJ Cobb
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 3.5:
+        non_striker: JJ Cobb
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 3.6:
+        non_striker: Kashif Ali
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 4.1:
+        non_striker: JJ Cobb
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 4.2:
+        non_striker: JJ Cobb
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kashif Ali
+    - 4.3:
+        non_striker: JJ Cobb
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 4.4:
+        non_striker: JJ Cobb
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 4.5:
+        non_striker: JJ Cobb
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 4.6:
+        non_striker: Kashif Ali
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 5.1:
+        non_striker: Kashif Ali
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 5.2:
+        non_striker: JJ Cobb
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 5.3:
+        non_striker: Kashif Ali
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Cobb
+    - 5.4:
+        non_striker: Kashif Ali
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+        wicket:
+          player_out: JJ Cobb
+          fielders:
+          - RM Yates
+          kind: caught
+    - 5.5:
+        non_striker: Kashif Ali
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 5.6:
+        non_striker: AJ Hose
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 6.1:
+        non_striker: AJ Hose
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 6.2:
+        non_striker: AJ Hose
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 6.3:
+        non_striker: AJ Hose
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 6.4:
+        non_striker: AJ Hose
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 6.5:
+        non_striker: AJ Hose
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 6.6:
+        non_striker: AJ Hose
+        bowler: DR Briggs
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: Kashif Ali
+    - 6.7:
+        non_striker: Kashif Ali
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.1:
+        non_striker: Kashif Ali
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 7.2:
+        non_striker: Kashif Ali
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.3:
+        non_striker: AJ Hose
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 7.4:
+        non_striker: Kashif Ali
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.5:
+        non_striker: AJ Hose
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kashif Ali
+    - 7.6:
+        non_striker: AJ Hose
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 8.1:
+        non_striker: AJ Hose
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 8.2:
+        non_striker: Kashif Ali
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.3:
+        non_striker: AJ Hose
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 8.4:
+        non_striker: Kashif Ali
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.5:
+        non_striker: AJ Hose
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 8.6:
+        non_striker: Kashif Ali
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 9.1:
+        non_striker: AJ Hose
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+        wicket:
+          player_out: Kashif Ali
+          fielders:
+          - CG Benjamin
+          kind: caught
+    - 9.2:
+        non_striker: AJ Hose
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 9.3:
+        non_striker: AJ Hose
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EA Brookes
+    - 9.4:
+        non_striker: AJ Hose
+        bowler: MM Ali
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: EA Brookes
+    - 9.5:
+        non_striker: EA Brookes
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 9.6:
+        non_striker: AJ Hose
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 9.7:
+        non_striker: EA Brookes
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 10.1:
+        non_striker: EA Brookes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          fielders:
+          - RM Yates
+          kind: caught
+    - 10.2:
+        non_striker: EA Brookes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 10.3:
+        non_striker: GH Roderick
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 10.4:
+        non_striker: EA Brookes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+        wicket:
+          player_out: GH Roderick
+          fielders:
+          - AL Davies
+          kind: caught
+    - 10.5:
+        non_striker: EA Brookes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 10.6:
+        non_striker: NG Smith
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 11.1:
+        non_striker: NG Smith
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 11.2:
+        non_striker: EA Brookes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 11.3:
+        non_striker: NG Smith
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EA Brookes
+    - 11.4:
+        non_striker: NG Smith
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 11.5:
+        non_striker: EA Brookes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NG Smith
+    - 11.6:
+        non_striker: EA Brookes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 12.1:
+        non_striker: EA Brookes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 12.2:
+        non_striker: NG Smith
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 12.3:
+        non_striker: EA Brookes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NG Smith
+    - 12.4:
+        non_striker: EA Brookes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 12.5:
+        non_striker: NG Smith
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EA Brookes
+    - 12.6:
+        non_striker: NG Smith
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 13.1:
+        non_striker: NG Smith
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 13.2:
+        non_striker: EA Brookes
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 13.3:
+        non_striker: NG Smith
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 13.4:
+        non_striker: EA Brookes
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 13.5:
+        non_striker: EA Brookes
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NG Smith
+    - 13.6:
+        non_striker: EA Brookes
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NG Smith
+    - 14.1:
+        non_striker: NG Smith
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 14.2:
+        non_striker: EA Brookes
+        bowler: ZGF Foulkes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: NG Smith
+    - 14.3:
+        non_striker: EA Brookes
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NG Smith
+    - 14.4:
+        non_striker: EA Brookes
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NG Smith
+    - 14.5:
+        non_striker: EA Brookes
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 14.6:
+        non_striker: NG Smith
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 14.7:
+        non_striker: EA Brookes
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NG Smith
+    - 15.1:
+        non_striker: NG Smith
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 15.2:
+        non_striker: EA Brookes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+        wicket:
+          player_out: NG Smith
+          fielders:
+          - JB Lintott
+          kind: caught
+    - 15.3:
+        non_striker: EA Brookes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 15.4:
+        non_striker: MJ Waite
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EA Brookes
+    - 15.5:
+        non_striker: MJ Waite
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 15.6:
+        non_striker: EA Brookes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 16.1:
+        non_striker: EA Brookes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Waite
+    - 16.2:
+        non_striker: EA Brookes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Waite
+    - 16.3:
+        non_striker: EA Brookes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Waite
+    - 16.4:
+        non_striker: EA Brookes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Waite
+    - 16.5:
+        non_striker: EA Brookes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Waite
+    - 16.6:
+        non_striker: EA Brookes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Waite
+- 2nd innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        non_striker: RM Yates
+        bowler: TAI Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AL Davies
+    - 0.2:
+        non_striker: RM Yates
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          kind: bowled
+    - 0.3:
+        non_striker: RM Yates
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 0.4:
+        non_striker: RM Yates
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 0.5:
+        non_striker: RM Yates
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 0.6:
+        non_striker: RM Yates
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 0.7:
+        non_striker: RM Yates
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 1.1:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 1.2:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+        wicket:
+          player_out: RM Yates
+          kind: caught and bowled
+    - 1.3:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 1.4:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 1.5:
+        non_striker: SR Hain
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 1.6:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 2.1:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 2.2:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 2.3:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 2.4:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 2.5:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+        wicket:
+          player_out: SR Hain
+          kind: bowled
+    - 2.6:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 3.1:
+        non_striker: MM Ali
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.2:
+        non_striker: MM Ali
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.3:
+        non_striker: MM Ali
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 3.4:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 3.5:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 3.6:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 4.1:
+        non_striker: MM Ali
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.2:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 4.3:
+        non_striker: MM Ali
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 4.4:
+        non_striker: MM Ali
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.5:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 4.6:
+        non_striker: MM Ali
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.1:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 5.2:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.3:
+        non_striker: DR Mousley
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 5.4:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.5:
+        non_striker: DR Mousley
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 5.6:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.1:
+        non_striker: MM Ali
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.2:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 6.3:
+        non_striker: MM Ali
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.4:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 6.5:
+        non_striker: MM Ali
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.6:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MM Ali
+    - 7.1:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 7.2:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 7.3:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 7.4:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.5:
+        non_striker: DR Mousley
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 7.6:
+        non_striker: MM Ali
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.1:
+        non_striker: MM Ali
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.2:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MM Ali
+    - 8.3:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: MM Ali
+    - 8.4:
+        non_striker: MM Ali
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 8.5:
+        non_striker: MM Ali
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.6:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+        wicket:
+          player_out: MM Ali
+          kind: bowled
+    - 9.1:
+        non_striker: CG Benjamin
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 9.2:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CG Benjamin
+    - 9.3:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 9.4:
+        non_striker: CG Benjamin
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 9.5:
+        non_striker: DR Mousley
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 9.6:
+        non_striker: CG Benjamin
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 10.1:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 10.2:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 10.3:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 10.4:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 10.5:
+        non_striker: CG Benjamin
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 10.6:
+        non_striker: DR Mousley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+        wicket:
+          player_out: CG Benjamin
+          fielders:
+          - TAI Taylor
+          kind: caught
+    - 11.1:
+        non_striker: JG Bethell
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.2:
+        non_striker: DR Mousley
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 11.3:
+        non_striker: JG Bethell
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.4:
+        non_striker: DR Mousley
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JG Bethell
+    - 11.5:
+        non_striker: DR Mousley
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 11.6:
+        non_striker: DR Mousley
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 12.1:
+        non_striker: JG Bethell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 12.2:
+        non_striker: JG Bethell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 12.3:
+        non_striker: JG Bethell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 12.4:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 12.5:
+        non_striker: JG Bethell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 12.6:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 13.1:
+        non_striker: JG Bethell
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 13.2:
+        non_striker: JG Bethell
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 13.3:
+        non_striker: DR Mousley
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 13.4:
+        non_striker: JG Bethell
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 13.5:
+        non_striker: JG Bethell
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 13.6:
+        non_striker: JG Bethell
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 14.1:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+        wicket:
+          player_out: JG Bethell
+          fielders:
+          - RP Jones
+          kind: caught
+    - 14.2:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ZGF Foulkes
+    - 14.3:
+        non_striker: ZGF Foulkes
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 14.4:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ZGF Foulkes
+        wicket:
+          player_out: ZGF Foulkes
+          kind: bowled
+    - 14.5:
+        non_striker: DR Mousley
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: DR Mousley
+          fielders:
+          - TAI Taylor
+          kind: run out
+    - 14.6:
+        non_striker: GHS Garton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Briggs
+    - 15.1:
+        non_striker: DR Briggs
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          kind: bowled
+    - 15.2:
+        non_striker: DR Briggs
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JB Lintott
+        wicket:
+          player_out: JB Lintott
+          kind: lbw

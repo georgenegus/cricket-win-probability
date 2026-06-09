@@ -1,0 +1,2140 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-08'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Northampton
+  competition: Vitality Blast
+  dates:
+  - '2024-07-07'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Northamptonshire
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Durham:
+    - G Clark
+    - AZ Lees
+    - OG Robinson
+    - CN Ackermann
+    - BA Raine
+    - AJ Turner
+    - BFW de Leede
+    - MA Jones
+    - BJ Dwarshuis
+    - CF Parkinson
+    - NA Sowter
+    Northamptonshire:
+    - R Vasconcelos
+    - MP Breetzke
+    - DJ Willey
+    - RS Bopara
+    - SA Zaib
+    - LD McManus
+    - AC Agar
+    - AH Miller
+    - BW Sanderson
+    - RA Weatherall
+    - FJ Heldreich
+  registry:
+    people:
+      AC Agar: a2421394
+      AH Miller: 693af62a
+      AJ Turner: ff1e12a0
+      AZ Lees: c9c0fe50
+      BA Raine: 4c0f3806
+      BFW de Leede: fc4375ef
+      BJ Debenham: 524a3a82
+      BJ Dwarshuis: e1b9f3a9
+      BW Sanderson: e871a7a1
+      CF Parkinson: aa1210d8
+      CN Ackermann: e734d090
+      DJ Willey: 7f048519
+      FJ Heldreich: 56ef4f99
+      G Clark: 4fd09cfc
+      JC Tredwell: 49b6c09f
+      LD McManus: 6feb46a4
+      MA Jones: 05f96194
+      MP Breetzke: 35f173a0
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      R Vasconcelos: efe3fcc5
+      RA Weatherall: acb94221
+      RS Bopara: 7ca5e05d
+      SA Zaib: ab01e323
+      SJ Davis: bc71b0b2
+  teams:
+  - Durham
+  - Northamptonshire
+  toss:
+    winner: Northamptonshire
+    decision: field
+  umpires:
+  - BJ Debenham
+  - JC Tredwell
+  venue: County Ground, Northampton
+innings:
+- 1st innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        non_striker: AZ Lees
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.2:
+        non_striker: AZ Lees
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.3:
+        non_striker: AZ Lees
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.4:
+        non_striker: AZ Lees
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.5:
+        non_striker: AZ Lees
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.6:
+        non_striker: AZ Lees
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.1:
+        non_striker: G Clark
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.2:
+        non_striker: G Clark
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          fielders:
+          - LD McManus
+          kind: caught
+    - 1.3:
+        non_striker: G Clark
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 1.4:
+        non_striker: G Clark
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+        wicket:
+          player_out: OG Robinson
+          kind: bowled
+    - 1.5:
+        non_striker: G Clark
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 1.6:
+        non_striker: G Clark
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 2.1:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 2.2:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 2.3:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 2.4:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - AH Miller
+          kind: caught
+    - 2.5:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 2.6:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 3.1:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 3.2:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 3.3:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 3.4:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 3.5:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 3.6:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 4.1:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 4.2:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 4.3:
+        non_striker: BA Raine
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 4.4:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 4.5:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BA Raine
+    - 4.6:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 4.7:
+        non_striker: CN Ackermann
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 5.1:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 5.2:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 5.3:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 5.4:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 5.5:
+        non_striker: BA Raine
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 5.6:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 6.1:
+        non_striker: BA Raine
+        bowler: AH Miller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 6.2:
+        non_striker: CN Ackermann
+        bowler: AH Miller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 6.3:
+        non_striker: CN Ackermann
+        bowler: AH Miller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 6.4:
+        non_striker: BA Raine
+        bowler: AH Miller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 6.5:
+        non_striker: BA Raine
+        bowler: AH Miller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 6.6:
+        non_striker: BA Raine
+        bowler: AH Miller
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 7.1:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BA Raine
+    - 7.2:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 7.3:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 7.4:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+        wicket:
+          player_out: BA Raine
+          fielders:
+          - R Vasconcelos
+          kind: caught
+    - 7.5:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 7.6:
+        non_striker: AJ Turner
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 7.7:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 8.1:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 8.2:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 8.3:
+        non_striker: AJ Turner
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 8.4:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 8.5:
+        non_striker: AJ Turner
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 8.6:
+        non_striker: AJ Turner
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.1:
+        non_striker: AJ Turner
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.2:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 9.3:
+        non_striker: AJ Turner
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 9.4:
+        non_striker: AJ Turner
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 9.5:
+        non_striker: AJ Turner
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.6:
+        non_striker: CN Ackermann
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 10.1:
+        non_striker: AJ Turner
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 10.2:
+        non_striker: AJ Turner
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 10.3:
+        non_striker: AJ Turner
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 10.4:
+        non_striker: AJ Turner
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 10.5:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    - 10.6:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 11.1:
+        non_striker: AJ Turner
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Ackermann
+    - 11.2:
+        non_striker: AJ Turner
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 11.3:
+        non_striker: AJ Turner
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.4:
+        non_striker: CN Ackermann
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 11.5:
+        non_striker: AJ Turner
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.6:
+        non_striker: CN Ackermann
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 12.1:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 12.2:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 12.3:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+        wicket:
+          player_out: AJ Turner
+          fielders:
+          - R Vasconcelos
+          kind: caught
+    - 12.4:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+    - 12.5:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BFW de Leede
+    - 12.6:
+        non_striker: BFW de Leede
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 13.1:
+        non_striker: BFW de Leede
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 13.2:
+        non_striker: BFW de Leede
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 13.3:
+        non_striker: BFW de Leede
+        bowler: AC Agar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CN Ackermann
+    - 13.4:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BFW de Leede
+    - 13.5:
+        non_striker: BFW de Leede
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 13.6:
+        non_striker: BFW de Leede
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 14.1:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BFW de Leede
+    - 14.2:
+        non_striker: BFW de Leede
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 14.3:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+    - 14.4:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+        wicket:
+          player_out: BFW de Leede
+          kind: bowled
+    - 14.5:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+        wicket:
+          player_out: MA Jones
+          fielders:
+          - AC Agar
+          kind: caught
+    - 14.6:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 15.1:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 15.2:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 15.3:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 15.4:
+        non_striker: BJ Dwarshuis
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 15.5:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BJ Dwarshuis
+    - 15.6:
+        non_striker: CN Ackermann
+        bowler: AC Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 16.1:
+        non_striker: BJ Dwarshuis
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Ackermann
+    - 16.2:
+        non_striker: BJ Dwarshuis
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 16.3:
+        non_striker: BJ Dwarshuis
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 16.4:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJ Dwarshuis
+    - 16.5:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BJ Dwarshuis
+    - 16.6:
+        non_striker: CN Ackermann
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 17.1:
+        non_striker: CN Ackermann
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 17.2:
+        non_striker: CN Ackermann
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 17.3:
+        non_striker: BJ Dwarshuis
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 17.4:
+        non_striker: CN Ackermann
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 17.5:
+        non_striker: BJ Dwarshuis
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 17.6:
+        non_striker: CN Ackermann
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 18.1:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Dwarshuis
+    - 18.2:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+        wicket:
+          player_out: BJ Dwarshuis
+          fielders:
+          - LD McManus
+          kind: caught
+    - 18.3:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 18.4:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+        wicket:
+          player_out: CF Parkinson
+          kind: bowled
+    - 18.5:
+        non_striker: CN Ackermann
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Sowter
+    - 18.6:
+        non_striker: NA Sowter
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 19.1:
+        non_striker: NA Sowter
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Ackermann
+    - 19.2:
+        non_striker: NA Sowter
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 19.3:
+        non_striker: NA Sowter
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Ackermann
+    - 19.4:
+        non_striker: NA Sowter
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 19.5:
+        non_striker: NA Sowter
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 19.6:
+        non_striker: NA Sowter
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+        wicket:
+          player_out: CN Ackermann
+          fielders:
+          - DJ Willey
+          kind: caught
+- 2nd innings:
+    team: Northamptonshire
+    deliveries:
+    - 0.1:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 0.2:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 0.3:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 0.4:
+        non_striker: R Vasconcelos
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 0.5:
+        non_striker: R Vasconcelos
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 0.6:
+        non_striker: R Vasconcelos
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 1.1:
+        non_striker: MP Breetzke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Vasconcelos
+    - 1.2:
+        non_striker: MP Breetzke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 1.3:
+        non_striker: R Vasconcelos
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 1.4:
+        non_striker: R Vasconcelos
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 1.5:
+        non_striker: R Vasconcelos
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 1.6:
+        non_striker: MP Breetzke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 2.1:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.2:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.3:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.4:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 2.5:
+        non_striker: R Vasconcelos
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 2.6:
+        non_striker: R Vasconcelos
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 3.1:
+        non_striker: R Vasconcelos
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 3.2:
+        non_striker: R Vasconcelos
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 3.3:
+        non_striker: R Vasconcelos
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: MP Breetzke
+    - 3.4:
+        non_striker: MP Breetzke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Vasconcelos
+    - 3.5:
+        non_striker: MP Breetzke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 3.6:
+        non_striker: MP Breetzke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 4.1:
+        non_striker: R Vasconcelos
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 4.2:
+        non_striker: R Vasconcelos
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 4.3:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 4.4:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 4.5:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 4.6:
+        non_striker: MP Breetzke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 5.1:
+        non_striker: R Vasconcelos
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MP Breetzke
+    - 5.2:
+        non_striker: R Vasconcelos
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 5.3:
+        non_striker: R Vasconcelos
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+        wicket:
+          player_out: MP Breetzke
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 5.4:
+        non_striker: R Vasconcelos
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 5.5:
+        non_striker: DJ Willey
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 5.6:
+        non_striker: DJ Willey
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 6.1:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 6.2:
+        non_striker: DJ Willey
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 6.3:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 6.4:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 6.5:
+        non_striker: DJ Willey
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 6.6:
+        non_striker: DJ Willey
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 7.1:
+        non_striker: DJ Willey
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 7.2:
+        non_striker: R Vasconcelos
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 7.3:
+        non_striker: DJ Willey
+        bowler: NA Sowter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: R Vasconcelos
+    - 7.4:
+        non_striker: DJ Willey
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 7.5:
+        non_striker: DJ Willey
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 7.6:
+        non_striker: DJ Willey
+        bowler: NA Sowter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: R Vasconcelos
+    - 7.7:
+        non_striker: R Vasconcelos
+        bowler: NA Sowter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Willey
+    - 7.8:
+        non_striker: R Vasconcelos
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 8.1:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 8.2:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Willey
+    - 8.3:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 8.4:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Willey
+    - 8.5:
+        non_striker: R Vasconcelos
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 8.6:
+        non_striker: DJ Willey
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 9.1:
+        non_striker: R Vasconcelos
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 9.2:
+        non_striker: DJ Willey
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 9.3:
+        non_striker: DJ Willey
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 9.4:
+        non_striker: R Vasconcelos
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Willey
+    - 9.5:
+        non_striker: R Vasconcelos
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+        wicket:
+          player_out: DJ Willey
+          kind: caught and bowled
+    - 9.6:
+        non_striker: R Vasconcelos
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 10.1:
+        non_striker: R Vasconcelos
+        bowler: CF Parkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RS Bopara
+    - 10.2:
+        non_striker: RS Bopara
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 10.3:
+        non_striker: RS Bopara
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 10.4:
+        non_striker: RS Bopara
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 10.5:
+        non_striker: R Vasconcelos
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 10.6:
+        non_striker: RS Bopara
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+        wicket:
+          player_out: R Vasconcelos
+          kind: lbw
+    - 11.1:
+        non_striker: SA Zaib
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 11.2:
+        non_striker: SA Zaib
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.3:
+        non_striker: RS Bopara
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 11.4:
+        non_striker: SA Zaib
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 11.5:
+        non_striker: SA Zaib
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.6:
+        non_striker: RS Bopara
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 12.1:
+        non_striker: RS Bopara
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 12.2:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 12.3:
+        non_striker: RS Bopara
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 12.4:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 12.5:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RS Bopara
+    - 12.6:
+        non_striker: RS Bopara
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 13.1:
+        non_striker: RS Bopara
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 13.2:
+        non_striker: RS Bopara
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 13.3:
+        non_striker: SA Zaib
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 13.4:
+        non_striker: RS Bopara
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 13.5:
+        non_striker: RS Bopara
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 13.6:
+        non_striker: SA Zaib
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+        wicket:
+          player_out: RS Bopara
+          fielders:
+          - AJ Turner
+          kind: caught
+    - 14.1:
+        non_striker: LD McManus
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 14.2:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD McManus
+    - 14.3:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD McManus
+    - 14.4:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 14.5:
+        non_striker: LD McManus
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 14.6:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LD McManus
+    - 14.7:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 15.1:
+        non_striker: SA Zaib
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LD McManus
+    - 15.2:
+        non_striker: SA Zaib
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 15.3:
+        non_striker: LD McManus
+        bowler: CN Ackermann
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SA Zaib
+    - 15.4:
+        non_striker: SA Zaib
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 15.5:
+        non_striker: LD McManus
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 15.6:
+        non_striker: LD McManus
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 16.1:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 16.2:
+        non_striker: LD McManus
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 16.3:
+        non_striker: LD McManus
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 16.4:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LD McManus
+    - 16.5:
+        non_striker: SA Zaib
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 16.6:
+        non_striker: LD McManus
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 17.1:
+        non_striker: SA Zaib
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 17.2:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 17.3:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+        wicket:
+          player_out: SA Zaib
+          fielders:
+          - MA Jones
+          kind: caught
+    - 17.4:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AC Agar
+    - 17.5:
+        non_striker: AC Agar
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD McManus
+    - 17.6:
+        non_striker: AC Agar
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 18.1:
+        non_striker: AC Agar
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LD McManus
+    - 18.2:
+        non_striker: AC Agar
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LD McManus
+    - 18.3:
+        non_striker: AC Agar
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LD McManus
+    - 18.4:
+        non_striker: LD McManus
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AC Agar
+    - 18.5:
+        non_striker: AC Agar
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 18.6:
+        non_striker: LD McManus
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AC Agar
+    - 18.7:
+        non_striker: LD McManus
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AC Agar
+    - 19.1:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AC Agar
+    - 19.2:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AC Agar
+    - 19.3:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AC Agar
+    - 19.4:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AC Agar
+    - 19.5:
+        non_striker: LD McManus
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AC Agar

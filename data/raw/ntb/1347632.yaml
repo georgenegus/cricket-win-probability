@@ -1,0 +1,2069 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-11'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2023-06-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Essex
+    by:
+      runs: 51
+  overs: 20
+  players:
+    Essex:
+    - FIN Khushi
+    - RJ Das
+    - MS Pepper
+    - JS Rymell
+    - PI Walter
+    - MJJ Critchley
+    - DR Sams
+    - SR Harmer
+    - WEL Buttleman
+    - S Snater
+    - SJ Cook
+    Glamorgan:
+    - KS Carlson
+    - SA Northeast
+    - CA Ingram
+    - CB Cooke
+    - Callum Taylor
+    - WT Root
+    - Zain-ul-Hassan
+    - T van der Gugten
+    - RAJ Smith
+    - JP McIlroy
+    - P Hatzoglou
+  registry:
+    people:
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      Callum Taylor: 5a42a396
+      DA Cosker: aac9f784
+      DR Sams: caf69bf7
+      FIN Khushi: 4f034a50
+      GD Lloyd: 36e0770d
+      JP McIlroy: 80e44dc5
+      JS Rymell: ecf9fb2e
+      KS Carlson: 9e707e02
+      MJJ Critchley: c5cc48bc
+      MS Pepper: 270e4c23
+      P Hatzoglou: 6f95e5fa
+      PI Walter: 57590dbb
+      RAJ Smith: 6daf5e8c
+      RJ Das: 734344b3
+      S Snater: a790df98
+      SA Northeast: 7e4c8ba3
+      SJ Cook: 679cd31e
+      SR Harmer: '23638956'
+      T van der Gugten: d99cc23a
+      Tom Lungley: 75169b8c
+      WEL Buttleman: e855546b
+      WT Root: '72898514'
+      Zain-ul-Hassan: d12cead8
+  teams:
+  - Essex
+  - Glamorgan
+  toss:
+    winner: Essex
+    decision: bat
+  umpires:
+  - GD Lloyd
+  - Tom Lungley
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Essex
+    deliveries:
+    - 0.1:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 0.2:
+        non_striker: FIN Khushi
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Das
+    - 0.3:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FIN Khushi
+    - 0.4:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FIN Khushi
+    - 0.5:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 0.6:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 1.1:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RJ Das
+    - 1.2:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Das
+    - 1.3:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Das
+    - 1.4:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Das
+    - 1.5:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Das
+    - 1.6:
+        non_striker: RJ Das
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 2.1:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 2.2:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FIN Khushi
+    - 2.3:
+        non_striker: RJ Das
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 2.4:
+        non_striker: FIN Khushi
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Das
+    - 2.5:
+        non_striker: FIN Khushi
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RJ Das
+    - 2.6:
+        non_striker: FIN Khushi
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Das
+        wicket:
+          player_out: RJ Das
+          fielders:
+          - P Hatzoglou
+          kind: caught
+    - 3.1:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: FIN Khushi
+    - 3.2:
+        non_striker: FIN Khushi
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 3.3:
+        non_striker: FIN Khushi
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 3.4:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 3.5:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FIN Khushi
+    - 3.6:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 4.1:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 4.2:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 4.3:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 4.4:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MS Pepper
+    - 4.5:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 4.6:
+        non_striker: FIN Khushi
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+    - 5.1:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 5.2:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+        wicket:
+          player_out: FIN Khushi
+          fielders:
+          - CA Ingram
+          kind: caught
+    - 5.3:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JS Rymell
+    - 5.4:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JS Rymell
+    - 5.5:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JS Rymell
+    - 5.6:
+        non_striker: MS Pepper
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JS Rymell
+        wicket:
+          player_out: JS Rymell
+          fielders:
+          - T van der Gugten
+          kind: caught
+    - 6.1:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 6.2:
+        non_striker: MS Pepper
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+    - 6.3:
+        non_striker: MS Pepper
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PI Walter
+    - 6.4:
+        non_striker: MS Pepper
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 6.5:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 6.6:
+        non_striker: MS Pepper
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 7.1:
+        non_striker: MS Pepper
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 7.2:
+        non_striker: PI Walter
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 7.3:
+        non_striker: MS Pepper
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PI Walter
+    - 7.4:
+        non_striker: MS Pepper
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+    - 7.5:
+        non_striker: MS Pepper
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 7.6:
+        non_striker: PI Walter
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 8.1:
+        non_striker: PI Walter
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+    - 8.2:
+        non_striker: PI Walter
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 8.3:
+        non_striker: MS Pepper
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+    - 8.4:
+        non_striker: MS Pepper
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+    - 8.5:
+        non_striker: MS Pepper
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 8.6:
+        non_striker: MS Pepper
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+    - 9.1:
+        non_striker: PI Walter
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 9.2:
+        non_striker: MS Pepper
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 9.3:
+        non_striker: PI Walter
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 9.4:
+        non_striker: PI Walter
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 9.5:
+        non_striker: MS Pepper
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PI Walter
+    - 9.6:
+        non_striker: MS Pepper
+        bowler: Zain-ul-Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 10.1:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 10.2:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+        wicket:
+          player_out: MS Pepper
+          kind: lbw
+    - 10.3:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 10.4:
+        non_striker: MJJ Critchley
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 10.5:
+        non_striker: MJJ Critchley
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 10.6:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJJ Critchley
+    - 11.1:
+        non_striker: MJJ Critchley
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PI Walter
+    - 11.2:
+        non_striker: MJJ Critchley
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 11.3:
+        non_striker: PI Walter
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJJ Critchley
+    - 11.4:
+        non_striker: PI Walter
+        bowler: KS Carlson
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: MJJ Critchley
+    - 11.5:
+        non_striker: MJJ Critchley
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PI Walter
+    - 11.6:
+        non_striker: MJJ Critchley
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 11.7:
+        non_striker: PI Walter
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 12.1:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJJ Critchley
+    - 12.2:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MJJ Critchley
+    - 12.3:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MJJ Critchley
+    - 12.4:
+        non_striker: MJJ Critchley
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 12.5:
+        non_striker: MJJ Critchley
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 12.6:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 12.7:
+        non_striker: MJJ Critchley
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PI Walter
+    - 13.1:
+        non_striker: PI Walter
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 13.2:
+        non_striker: MJJ Critchley
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PI Walter
+    - 13.3:
+        non_striker: MJJ Critchley
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 13.4:
+        non_striker: PI Walter
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJJ Critchley
+    - 13.5:
+        non_striker: PI Walter
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJJ Critchley
+        wicket:
+          player_out: MJJ Critchley
+          fielders:
+          - JP McIlroy
+          kind: caught
+    - 13.6:
+        non_striker: PI Walter
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 14.1:
+        non_striker: PI Walter
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Sams
+    - 14.2:
+        non_striker: PI Walter
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 14.3:
+        non_striker: PI Walter
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 14.4:
+        non_striker: DR Sams
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+    - 14.5:
+        non_striker: DR Sams
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 14.6:
+        non_striker: DR Sams
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 15.1:
+        non_striker: PI Walter
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Sams
+    - 15.2:
+        non_striker: PI Walter
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 15.3:
+        non_striker: DR Sams
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PI Walter
+    - 15.4:
+        non_striker: DR Sams
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PI Walter
+    - 15.5:
+        non_striker: DR Sams
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 15.6:
+        non_striker: PI Walter
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 16.1:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 16.2:
+        non_striker: DR Sams
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 16.3:
+        non_striker: PI Walter
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 16.4:
+        non_striker: DR Sams
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+        wicket:
+          player_out: PI Walter
+          fielders:
+          - CA Ingram
+          kind: caught
+    - 16.5:
+        non_striker: DR Sams
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Harmer
+    - 16.6:
+        non_striker: SR Harmer
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 17.1:
+        non_striker: SR Harmer
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 17.2:
+        non_striker: SR Harmer
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 17.3:
+        non_striker: DR Sams
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Harmer
+    - 17.4:
+        non_striker: SR Harmer
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 17.5:
+        non_striker: DR Sams
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Harmer
+    - 17.6:
+        non_striker: SR Harmer
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 18.1:
+        non_striker: SR Harmer
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Sams
+    - 18.2:
+        non_striker: SR Harmer
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Sams
+    - 18.3:
+        non_striker: SR Harmer
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 18.4:
+        non_striker: SR Harmer
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Sams
+    - 18.5:
+        non_striker: SR Harmer
+        bowler: RAJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DR Sams
+    - 18.6:
+        non_striker: SR Harmer
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 18.7:
+        non_striker: SR Harmer
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+        wicket:
+          player_out: DR Sams
+          kind: bowled
+    - 19.1:
+        non_striker: WEL Buttleman
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Harmer
+    - 19.2:
+        non_striker: WEL Buttleman
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Harmer
+        wicket:
+          player_out: SR Harmer
+          fielders:
+          - SA Northeast
+          kind: caught
+    - 19.3:
+        non_striker: WEL Buttleman
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Snater
+    - 19.4:
+        non_striker: S Snater
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WEL Buttleman
+    - 19.5:
+        non_striker: S Snater
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WEL Buttleman
+    - 19.6:
+        non_striker: S Snater
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WEL Buttleman
+        wicket:
+          player_out: S Snater
+          fielders:
+          - CB Cooke
+          kind: run out
+    - 19.7:
+        non_striker: SJ Cook
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: WEL Buttleman
+- 2nd innings:
+    team: Glamorgan
+    absent_hurt:
+    - P Hatzoglou
+    deliveries:
+    - 0.1:
+        non_striker: SA Northeast
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: KS Carlson
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 0.4:
+        non_striker: KS Carlson
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 0.5:
+        non_striker: SA Northeast
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: SA Northeast
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 1.1:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.6:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.1:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.3:
+        non_striker: KS Carlson
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 2.4:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.5:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 2.6:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 3.1:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.2:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 3.3:
+        non_striker: SA Northeast
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 3.4:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 2
+          total: 6
+          batsman: 4
+        extras:
+          noballs: 2
+        batsman: SA Northeast
+    - 3.5:
+        non_striker: KS Carlson
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 3.6:
+        non_striker: SA Northeast
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 3.7:
+        non_striker: SA Northeast
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 4.1:
+        non_striker: KS Carlson
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 4.2:
+        non_striker: SA Northeast
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 4.3:
+        non_striker: SA Northeast
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 4.4:
+        non_striker: SA Northeast
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 4.5:
+        non_striker: KS Carlson
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 4.6:
+        non_striker: SA Northeast
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 5.1:
+        non_striker: KS Carlson
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.2:
+        non_striker: KS Carlson
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.3:
+        non_striker: KS Carlson
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 5.4:
+        non_striker: KS Carlson
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 5.5:
+        non_striker: SA Northeast
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 5.6:
+        non_striker: SA Northeast
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 6.1:
+        non_striker: KS Carlson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 6.2:
+        non_striker: KS Carlson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 6.3:
+        non_striker: KS Carlson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 6.4:
+        non_striker: KS Carlson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 6.5:
+        non_striker: KS Carlson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.6:
+        non_striker: SA Northeast
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - SJ Cook
+          kind: caught
+    - 7.1:
+        non_striker: CA Ingram
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.2:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 7.3:
+        non_striker: CA Ingram
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.4:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 7.5:
+        non_striker: CA Ingram
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.6:
+        non_striker: SA Northeast
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 8.1:
+        non_striker: CA Ingram
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.2:
+        non_striker: SA Northeast
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.3:
+        non_striker: CA Ingram
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.4:
+        non_striker: SA Northeast
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 8.5:
+        non_striker: SA Northeast
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 8.6:
+        non_striker: SA Northeast
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.1:
+        non_striker: SA Northeast
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 9.2:
+        non_striker: SA Northeast
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.3:
+        non_striker: CA Ingram
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 9.4:
+        non_striker: CA Ingram
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 9.5:
+        non_striker: SA Northeast
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 9.6:
+        non_striker: SA Northeast
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 10.1:
+        non_striker: CA Ingram
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 10.2:
+        non_striker: CA Ingram
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 10.3:
+        non_striker: CA Ingram
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.4:
+        non_striker: SA Northeast
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 10.5:
+        non_striker: CA Ingram
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 10.6:
+        non_striker: CA Ingram
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 11.1:
+        non_striker: CA Ingram
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          kind: bowled
+    - 11.2:
+        non_striker: CA Ingram
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 11.3:
+        non_striker: CA Ingram
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.4:
+        non_striker: CB Cooke
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 11.5:
+        non_striker: CB Cooke
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 11.6:
+        non_striker: CB Cooke
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 12.1:
+        non_striker: CA Ingram
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.2:
+        non_striker: CB Cooke
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 12.3:
+        non_striker: CB Cooke
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 12.4:
+        non_striker: CB Cooke
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 12.5:
+        non_striker: CB Cooke
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 12.6:
+        non_striker: CA Ingram
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 13.1:
+        non_striker: CA Ingram
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 13.2:
+        non_striker: CB Cooke
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 13.3:
+        non_striker: CA Ingram
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 13.4:
+        non_striker: CA Ingram
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 13.5:
+        non_striker: CB Cooke
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - MJJ Critchley
+          kind: caught
+    - 13.6:
+        non_striker: CB Cooke
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Callum Taylor
+    - 14.1:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 14.2:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 14.3:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 14.4:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 14.5:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 14.6:
+        non_striker: CB Cooke
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Callum Taylor
+    - 15.1:
+        non_striker: CB Cooke
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Callum Taylor
+    - 15.2:
+        non_striker: Callum Taylor
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          kind: caught and bowled
+    - 15.3:
+        non_striker: Callum Taylor
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+        wicket:
+          player_out: WT Root
+          kind: caught and bowled
+    - 15.4:
+        non_striker: Callum Taylor
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zain-ul-Hassan
+    - 15.5:
+        non_striker: Zain-ul-Hassan
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Callum Taylor
+    - 15.6:
+        non_striker: Zain-ul-Hassan
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Callum Taylor
+    - 16.1:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zain-ul-Hassan
+    - 16.2:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zain-ul-Hassan
+    - 16.3:
+        non_striker: Zain-ul-Hassan
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Callum Taylor
+    - 16.4:
+        non_striker: Callum Taylor
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zain-ul-Hassan
+    - 16.5:
+        non_striker: Zain-ul-Hassan
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Callum Taylor
+    - 16.6:
+        non_striker: Zain-ul-Hassan
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Callum Taylor
+        wicket:
+          player_out: Callum Taylor
+          kind: lbw
+    - 17.1:
+        non_striker: T van der Gugten
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Zain-ul-Hassan
+    - 17.2:
+        non_striker: T van der Gugten
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Zain-ul-Hassan
+    - 17.3:
+        non_striker: T van der Gugten
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zain-ul-Hassan
+        wicket:
+          player_out: Zain-ul-Hassan
+          fielders:
+          - JS Rymell
+          kind: caught
+    - 17.4:
+        non_striker: T van der Gugten
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+        wicket:
+          player_out: RAJ Smith
+          fielders:
+          - S Snater
+          kind: caught
+    - 17.5:
+        non_striker: T van der Gugten
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+    - 17.6:
+        non_striker: T van der Gugten
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+    - 18.1:
+        non_striker: JP McIlroy
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 18.2:
+        non_striker: T van der Gugten
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+    - 18.3:
+        non_striker: T van der Gugten
+        bowler: SJ Cook
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+        wicket:
+          player_out: JP McIlroy
+          kind: bowled

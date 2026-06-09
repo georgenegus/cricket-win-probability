@@ -1,0 +1,1799 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-16'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Taunton
+  competition: Vitality Blast
+  dates:
+  - '2024-06-16'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      runs: 108
+  overs: 20
+  players:
+    Somerset:
+    - T Banton
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - C Overton
+    - RE van der Merwe
+    - RP Meredith
+    - JT Ball
+    Glamorgan:
+    - KS Carlson
+    - EJ Byrom
+    - SA Northeast
+    - M Labuschagne
+    - CA Ingram
+    - CB Cooke
+    - DA Douthwaite
+    - T van der Gugten
+    - AW Gorvin
+    - MS Crane
+    - JP McIlroy
+  registry:
+    people:
+      AM Smith: a0bc360f
+      AW Gorvin: 7d7233a9
+      BGF Green: 34b37279
+      C Overton: e9987a94
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      DA Douthwaite: 03df7a25
+      EJ Byrom: 9e1b7792
+      JD Shantry: 70fdd428
+      JP McIlroy: 80e44dc5
+      JT Ball: 3d0ed2f9
+      KS Carlson: 9e707e02
+      L Gregory: 06c2de82
+      M Burns: b3bd0666
+      M Labuschagne: fa433be6
+      MS Crane: f0a0204e
+      RE van der Merwe: 05c2ca46
+      RP Meredith: '64775749'
+      SA Northeast: 7e4c8ba3
+      SR Dickson: 2344bdd1
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      T van der Gugten: d99cc23a
+      TB Abell: ba9258a7
+      WCF Smeed: 4e18e961
+  teams:
+  - Somerset
+  - Glamorgan
+  toss:
+    winner: Glamorgan
+    decision: field
+  umpires:
+  - JD Shantry
+  - M Burns
+  venue: The Cooper Associates County Ground, Taunton
+innings:
+- 1st innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T Banton
+    - 0.2:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Banton
+    - 0.3:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.4:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 0.5:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 0.6:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 0.7:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 1.1:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.2:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 1.3:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.4:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.5:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.6:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 2.1:
+        non_striker: T Banton
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 2.2:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 2.3:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 2.4:
+        non_striker: T Banton
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WCF Smeed
+    - 2.5:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 2.6:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 3.1:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.2:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 3.3:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.4:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 3.5:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          kind: bowled
+    - 3.6:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.1:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 4.2:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.3:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.4:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.5:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.6:
+        non_striker: WCF Smeed
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.1:
+        non_striker: T Kohler-Cadmore
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 5.2:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.3:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 5.4:
+        non_striker: T Kohler-Cadmore
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 5.5:
+        non_striker: T Kohler-Cadmore
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 5.6:
+        non_striker: T Kohler-Cadmore
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 6.1:
+        non_striker: WCF Smeed
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 6.2:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 6.3:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 6.4:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 6.5:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 6.6:
+        non_striker: WCF Smeed
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 7.1:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 7.2:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.3:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 7.4:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 7.5:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.6:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 8.1:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 8.2:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.3:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 8.4:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 8.5:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 8.6:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 9.1:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 9.2:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 9.3:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 9.4:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - M Labuschagne
+          kind: caught
+    - 9.5:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.6:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 10.1:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 10.2:
+        non_striker: WCF Smeed
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 10.3:
+        non_striker: WCF Smeed
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.4:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 10.5:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WCF Smeed
+    - 10.6:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 11.1:
+        non_striker: TB Abell
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 11.2:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          kind: bowled
+    - 11.3:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 11.4:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+        wicket:
+          player_out: SR Dickson
+          fielders:
+          - JP McIlroy
+          kind: caught
+    - 11.5:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Gregory
+    - 11.6:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+        wicket:
+          player_out: L Gregory
+          fielders:
+          - MS Crane
+          kind: caught
+    - 12.1:
+        non_striker: BGF Green
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 12.2:
+        non_striker: WCF Smeed
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+        wicket:
+          player_out: BGF Green
+          kind: caught and bowled
+    - 12.3:
+        non_striker: WCF Smeed
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 12.4:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 12.5:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 12.6:
+        non_striker: WCF Smeed
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Overton
+    - 13.1:
+        non_striker: C Overton
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 13.2:
+        non_striker: WCF Smeed
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 13.3:
+        non_striker: C Overton
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 13.4:
+        non_striker: C Overton
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 13.5:
+        non_striker: C Overton
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+        wicket:
+          player_out: WCF Smeed
+          kind: bowled
+    - 13.6:
+        non_striker: C Overton
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RE van der Merwe
+    - 14.1:
+        non_striker: RE van der Merwe
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 14.2:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 14.3:
+        non_striker: RE van der Merwe
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Overton
+    - 14.4:
+        non_striker: RE van der Merwe
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Overton
+    - 14.5:
+        non_striker: RE van der Merwe
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 14.6:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RE van der Merwe
+    - 15.1:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Overton
+    - 15.2:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Overton
+    - 15.3:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 15.4:
+        non_striker: C Overton
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 15.5:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: C Overton
+    - 15.6:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 16.1:
+        non_striker: RE van der Merwe
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 16.2:
+        non_striker: C Overton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 16.3:
+        non_striker: RE van der Merwe
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Overton
+    - 16.4:
+        non_striker: RE van der Merwe
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 16.5:
+        non_striker: C Overton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 16.6:
+        non_striker: RE van der Merwe
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 17.1:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 17.2:
+        non_striker: C Overton
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 17.3:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 17.4:
+        non_striker: C Overton
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 17.5:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: C Overton
+    - 17.6:
+        non_striker: RE van der Merwe
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Overton
+    - 18.1:
+        non_striker: C Overton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RE van der Merwe
+    - 18.2:
+        non_striker: C Overton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 18.3:
+        non_striker: RE van der Merwe
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 18.4:
+        non_striker: C Overton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RE van der Merwe
+    - 18.5:
+        non_striker: C Overton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 18.6:
+        non_striker: RE van der Merwe
+        bowler: T van der Gugten
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: C Overton
+    - 18.7:
+        non_striker: RE van der Merwe
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 19.1:
+        non_striker: RE van der Merwe
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: C Overton
+    - 19.2:
+        non_striker: RE van der Merwe
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 19.3:
+        non_striker: C Overton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RE van der Merwe
+        wicket:
+          player_out: C Overton
+          fielders:
+          - CB Cooke
+          kind: run out
+    - 19.4:
+        non_striker: RP Meredith
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RE van der Merwe
+    - 19.5:
+        non_striker: RP Meredith
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RE van der Merwe
+    - 19.6:
+        non_striker: RE van der Merwe
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RP Meredith
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: EJ Byrom
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: EJ Byrom
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: EJ Byrom
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 0.4:
+        non_striker: EJ Byrom
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.5:
+        non_striker: EJ Byrom
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: EJ Byrom
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - WCF Smeed
+          kind: caught
+    - 1.1:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 1.2:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 1.3:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 1.4:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 1.5:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 1.6:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+        wicket:
+          player_out: EJ Byrom
+          fielders:
+          - T Banton
+          kind: caught
+    - 2.1:
+        non_striker: M Labuschagne
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SA Northeast
+    - 2.2:
+        non_striker: M Labuschagne
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.3:
+        non_striker: M Labuschagne
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 2.4:
+        non_striker: M Labuschagne
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 2.5:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 2.6:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 2.7:
+        non_striker: M Labuschagne
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.1:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 3.2:
+        non_striker: M Labuschagne
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.3:
+        non_striker: M Labuschagne
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.4:
+        non_striker: M Labuschagne
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 3.5:
+        non_striker: M Labuschagne
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 3.6:
+        non_striker: SA Northeast
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.1:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.2:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 4.3:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.4:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.5:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.6:
+        non_striker: M Labuschagne
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 5.1:
+        non_striker: SA Northeast
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: M Labuschagne
+    - 5.2:
+        non_striker: M Labuschagne
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 5.3:
+        non_striker: SA Northeast
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 5.4:
+        non_striker: M Labuschagne
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 5.5:
+        non_striker: SA Northeast
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 5.6:
+        non_striker: SA Northeast
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 6.1:
+        non_striker: M Labuschagne
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.2:
+        non_striker: SA Northeast
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: M Labuschagne
+          kind: lbw
+    - 6.3:
+        non_striker: SA Northeast
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.4:
+        non_striker: SA Northeast
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.5:
+        non_striker: SA Northeast
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.6:
+        non_striker: SA Northeast
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.1:
+        non_striker: CA Ingram
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.2:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 7.3:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - SR Dickson
+          kind: caught
+    - 7.4:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 7.5:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 7.6:
+        non_striker: SA Northeast
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 8.1:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 8.2:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          fielders:
+          - JT Ball
+          kind: caught
+    - 8.3:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 8.4:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 8.5:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 8.6:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 9.1:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 9.2:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.3:
+        non_striker: CB Cooke
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 9.4:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.5:
+        non_striker: CB Cooke
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 9.6:
+        non_striker: CB Cooke
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 10.1:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+        wicket:
+          player_out: DA Douthwaite
+          kind: caught and bowled
+    - 10.2:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T van der Gugten
+    - 10.3:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 10.4:
+        non_striker: T van der Gugten
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 10.5:
+        non_striker: T van der Gugten
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 10.6:
+        non_striker: T van der Gugten
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.1:
+        non_striker: T van der Gugten
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.2:
+        non_striker: CB Cooke
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          fielders:
+          - L Gregory
+          kind: caught
+    - 11.3:
+        non_striker: CB Cooke
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 11.4:
+        non_striker: CB Cooke
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 11.5:
+        non_striker: AW Gorvin
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 11.6:
+        non_striker: AW Gorvin
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - BGF Green
+          kind: caught
+    - 12.1:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 12.2:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AW Gorvin
+    - 12.3:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 12.4:
+        non_striker: AW Gorvin
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 12.5:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AW Gorvin
+    - 12.6:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 13.1:
+        non_striker: AW Gorvin
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+        wicket:
+          player_out: MS Crane
+          fielders:
+          - T Banton
+          kind: stumped
+    - 13.2:
+        non_striker: AW Gorvin
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+        wicket:
+          player_out: JP McIlroy
+          kind: bowled

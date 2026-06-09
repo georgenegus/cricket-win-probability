@@ -1,0 +1,1069 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-08'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: London
+  competition: Vitality Blast
+  dates:
+  - '2024-07-07'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Surrey
+    by:
+      runs: 5
+    method: D/L
+  overs: 20
+  players:
+    Surrey:
+    - RS Patel
+    - DP Sibley
+    - LJ Evans
+    - CJ Jordan
+    - RJ Burns
+    - J Clark
+    - BBA Geddes
+    - OFM Sykes
+    - CT Steel
+    - DJ Worrall
+    - RJW Topley
+    Kent:
+    - DJ Bell-Drummond
+    - FIN Khushi
+    - TS Muyeye
+    - SW Billings
+    - TS Rogers
+    - JDM Evison
+    - JA Leaning
+    - MK O'Riordan
+    - G Stewart
+    - MW Parkinson
+    - NN Gilchrist
+  registry:
+    people:
+      BBA Geddes: 305c31f2
+      CJ Jordan: ffe699c0
+      CT Steel: 5899dceb
+      DJ Bell-Drummond: 8f938a32
+      DJ Worrall: 208f22ea
+      DP Sibley: 97e434a6
+      FIN Khushi: 4f034a50
+      G Stewart: a77472dc
+      J Clark: c672e80e
+      JA Leaning: f2ab7a69
+      JDM Evison: 00cada13
+      LJ Evans: 1c513d54
+      MJ Saggers: 402d5937
+      MK O'Riordan: 94db3502
+      MW Parkinson: '19708692'
+      N Pratt: 01f65cd3
+      NN Gilchrist: 93cad673
+      OFM Sykes: 0bde8443
+      PM Such: c9f1892c
+      RJ Burns: 29e8a62e
+      RJW Topley: 8db7f47f
+      RS Patel: 97905e64
+      SW Billings: c16d4035
+      TS Muyeye: 10b79140
+      TS Rogers: 1b04e02b
+  teams:
+  - Surrey
+  - Kent
+  toss:
+    winner: Kent
+    decision: field
+  umpires:
+  - MJ Saggers
+  - N Pratt
+  venue: Kennington Oval, London
+innings:
+- 1st innings:
+    team: Surrey
+    deliveries:
+    - 0.1:
+        non_striker: DP Sibley
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Patel
+    - 0.2:
+        non_striker: RS Patel
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 0.3:
+        non_striker: DP Sibley
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Patel
+    - 0.4:
+        non_striker: DP Sibley
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Patel
+    - 0.5:
+        non_striker: DP Sibley
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Patel
+    - 0.6:
+        non_striker: DP Sibley
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Patel
+        wicket:
+          player_out: RS Patel
+          fielders:
+          - SW Billings
+          kind: caught
+    - 1.1:
+        non_striker: LJ Evans
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 1.2:
+        non_striker: DP Sibley
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 1.3:
+        non_striker: DP Sibley
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 1.4:
+        non_striker: LJ Evans
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 1.5:
+        non_striker: DP Sibley
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 1.6:
+        non_striker: DP Sibley
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.1:
+        non_striker: DP Sibley
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 2.2:
+        non_striker: DP Sibley
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 2.3:
+        non_striker: DP Sibley
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.4:
+        non_striker: LJ Evans
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Sibley
+    - 2.5:
+        non_striker: LJ Evans
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Sibley
+    - 2.6:
+        non_striker: LJ Evans
+        bowler: NN Gilchrist
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: DP Sibley
+    - 2.7:
+        non_striker: LJ Evans
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 3.1:
+        non_striker: LJ Evans
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Sibley
+    - 3.2:
+        non_striker: LJ Evans
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 3.3:
+        non_striker: DP Sibley
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 3.4:
+        non_striker: LJ Evans
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 3.5:
+        non_striker: DP Sibley
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 3.6:
+        non_striker: LJ Evans
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 4.1:
+        non_striker: LJ Evans
+        bowler: MK O'Riordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DP Sibley
+    - 4.2:
+        non_striker: LJ Evans
+        bowler: MK O'Riordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DP Sibley
+    - 4.3:
+        non_striker: DP Sibley
+        bowler: MK O'Riordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 4.4:
+        non_striker: DP Sibley
+        bowler: MK O'Riordan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 4.5:
+        non_striker: DP Sibley
+        bowler: MK O'Riordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 4.6:
+        non_striker: DP Sibley
+        bowler: MK O'Riordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+        wicket:
+          player_out: LJ Evans
+          fielders:
+          - TS Rogers
+          kind: caught
+    - 5.1:
+        non_striker: CJ Jordan
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 5.2:
+        non_striker: DP Sibley
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Jordan
+    - 5.3:
+        non_striker: DP Sibley
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Jordan
+    - 5.4:
+        non_striker: DP Sibley
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Jordan
+    - 5.5:
+        non_striker: DP Sibley
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Jordan
+    - 5.6:
+        non_striker: CJ Jordan
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DP Sibley
+    - 6.1:
+        non_striker: DP Sibley
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Jordan
+    - 6.2:
+        non_striker: DP Sibley
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Jordan
+    - 6.3:
+        non_striker: CJ Jordan
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Sibley
+        wicket:
+          player_out: DP Sibley
+          fielders:
+          - TS Muyeye
+          kind: caught
+    - 6.4:
+        non_striker: CJ Jordan
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 6.5:
+        non_striker: RJ Burns
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Jordan
+    - 6.6:
+        non_striker: RJ Burns
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Jordan
+    - 7.1:
+        non_striker: RJ Burns
+        bowler: TS Rogers
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CJ Jordan
+    - 7.2:
+        non_striker: RJ Burns
+        bowler: TS Rogers
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CJ Jordan
+    - 7.3:
+        non_striker: CJ Jordan
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RJ Burns
+    - 7.4:
+        non_striker: CJ Jordan
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 7.5:
+        non_striker: CJ Jordan
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 7.6:
+        non_striker: CJ Jordan
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 7.7:
+        non_striker: CJ Jordan
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 8.1:
+        non_striker: RJ Burns
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Jordan
+    - 8.2:
+        non_striker: CJ Jordan
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RJ Burns
+    - 8.3:
+        non_striker: CJ Jordan
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 8.4:
+        non_striker: RJ Burns
+        bowler: NN Gilchrist
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: CJ Jordan
+    - 8.5:
+        non_striker: RJ Burns
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Jordan
+        wicket:
+          player_out: CJ Jordan
+          fielders:
+          - TS Rogers
+          kind: caught
+    - 8.6:
+        non_striker: RJ Burns
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Clark
+    - 9.1:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Clark
+    - 9.2:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Clark
+    - 9.3:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: J Clark
+    - 9.4:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: J Clark
+    - 9.5:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Clark
+        wicket:
+          player_out: J Clark
+          fielders:
+          - TS Rogers
+          kind: caught
+    - 9.6:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 9.7:
+        non_striker: BBA Geddes
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 9.8:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 2
+          total: 8
+          batsman: 6
+        extras:
+          noballs: 2
+        batsman: BBA Geddes
+    - 9.9:
+        non_striker: RJ Burns
+        bowler: G Stewart
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: BBA Geddes
+- 2nd innings:
+    team: Kent
+    deliveries:
+    - 0.1:
+        non_striker: FIN Khushi
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 0.2:
+        non_striker: FIN Khushi
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+        wicket:
+          player_out: DJ Bell-Drummond
+          fielders:
+          - BBA Geddes
+          kind: caught
+    - 0.3:
+        non_striker: FIN Khushi
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Muyeye
+    - 0.4:
+        non_striker: FIN Khushi
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 0.5:
+        non_striker: TS Muyeye
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 0.6:
+        non_striker: FIN Khushi
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 1.1:
+        non_striker: FIN Khushi
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 1.2:
+        non_striker: FIN Khushi
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Muyeye
+    - 1.3:
+        non_striker: FIN Khushi
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 1.4:
+        non_striker: TS Muyeye
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 1.5:
+        non_striker: TS Muyeye
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 1.6:
+        non_striker: FIN Khushi
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TS Muyeye
+    - 2.1:
+        non_striker: TS Muyeye
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FIN Khushi
+    - 2.2:
+        non_striker: TS Muyeye
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 2.3:
+        non_striker: TS Muyeye
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 2.4:
+        non_striker: FIN Khushi
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TS Muyeye
+    - 2.5:
+        non_striker: FIN Khushi
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 2.6:
+        non_striker: FIN Khushi
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 3.1:
+        non_striker: FIN Khushi
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 3.2:
+        non_striker: TS Muyeye
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 3.3:
+        non_striker: FIN Khushi
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 3.4:
+        non_striker: TS Muyeye
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 3.5:
+        non_striker: FIN Khushi
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+        wicket:
+          player_out: TS Muyeye
+          kind: bowled
+    - 3.6:
+        non_striker: FIN Khushi
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 4.1:
+        non_striker: SW Billings
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FIN Khushi
+    - 4.2:
+        non_striker: SW Billings
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 4.3:
+        non_striker: SW Billings
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 4.4:
+        non_striker: FIN Khushi
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 4.5:
+        non_striker: FIN Khushi
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 4.6:
+        non_striker: FIN Khushi
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 5.1:
+        non_striker: SW Billings
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FIN Khushi
+    - 5.2:
+        non_striker: SW Billings
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FIN Khushi
+    - 5.3:
+        non_striker: SW Billings
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FIN Khushi
+    - 5.4:
+        non_striker: SW Billings
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FIN Khushi
+    - 5.5:
+        non_striker: FIN Khushi
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 5.6:
+        non_striker: FIN Khushi
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 6.1:
+        non_striker: FIN Khushi
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SW Billings
+    - 6.2:
+        non_striker: FIN Khushi
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 6.3:
+        non_striker: SW Billings
+        bowler: RJW Topley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: FIN Khushi
+    - 6.4:
+        non_striker: SW Billings
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FIN Khushi
+    - 6.5:
+        non_striker: SW Billings
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FIN Khushi
+    - 6.6:
+        non_striker: SW Billings
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FIN Khushi
+    - 6.7:
+        non_striker: SW Billings
+        bowler: RJW Topley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+        wicket:
+          player_out: FIN Khushi
+          fielders:
+          - CT Steel
+          kind: caught
+    - 7.1:
+        non_striker: TS Rogers
+        bowler: CJ Jordan
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        extras:
+          legbyes: 1
+          noballs: 2
+        batsman: SW Billings
+    - 7.2:
+        non_striker: SW Billings
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Rogers
+    - 7.3:
+        non_striker: SW Billings
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Rogers
+    - 7.4:
+        non_striker: SW Billings
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Rogers
+    - 7.5:
+        non_striker: TS Rogers
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 7.6:
+        non_striker: SW Billings
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Rogers
+    - 7.7:
+        non_striker: TS Rogers
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings

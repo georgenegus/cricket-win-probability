@@ -1,0 +1,1898 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Southampton
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Hampshire
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Gloucestershire:
+    - Miles Hammond
+    - CT Bancroft
+    - DJM Short
+    - OJ Price
+    - JMR Taylor
+    - BG Charlesworth
+    - James Bracey
+    - MD Taylor
+    - DA Payne
+    - AS Dale
+    - TMJ Smith
+    Hampshire:
+    - TE Albert
+    - JM Vince
+    - TJ Prest
+    - JJ Weatherley
+    - D Brevis
+    - BAC Howell
+    - JK Fuller
+    - BC Fortuin
+    - SW Currie
+    - CP Wood
+    - JA Turner
+  registry:
+    people:
+      AC Harris: ef14c0ec
+      AS Dale: 27e60d6e
+      BAC Howell: 0bec3a6c
+      BC Fortuin: 9a2fc964
+      BG Charlesworth: ffdba4e2
+      CP Wood: 1cfac535
+      CT Bancroft: 399b0b94
+      D Brevis: 844e79d1
+      DA Payne: 6c79c098
+      DJM Short: 1a156c88
+      JA Turner: cdd875d9
+      JJ Weatherley: a05d0552
+      JK Fuller: dda5aae5
+      JM Vince: a15618fe
+      JMR Taylor: aed5be04
+      James Bracey: 5bfdc77a
+      MD Taylor: 01a95383
+      Miles Hammond: c88bc84a
+      OJ Price: dfc3f02d
+      PK Baldwin: 6bb53c12
+      SJ Davis: bc71b0b2
+      SW Currie: c5f40e35
+      TE Albert: a6c17509
+      TJ Prest: 0207ff32
+      TMJ Smith: 0a12e736
+  teams:
+  - Gloucestershire
+  - Hampshire
+  toss:
+    winner: Gloucestershire
+    decision: bat
+  umpires:
+  - AC Harris
+  - PK Baldwin
+  venue: The Rose Bowl, Southampton
+innings:
+- 1st innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: CT Bancroft
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.2:
+        non_striker: CT Bancroft
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.3:
+        non_striker: CT Bancroft
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 0.4:
+        non_striker: Miles Hammond
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 0.5:
+        non_striker: CT Bancroft
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.6:
+        non_striker: CT Bancroft
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.1:
+        non_striker: Miles Hammond
+        bowler: JK Fuller
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: CT Bancroft
+    - 1.2:
+        non_striker: Miles Hammond
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 1.3:
+        non_striker: Miles Hammond
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 1.4:
+        non_striker: Miles Hammond
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 1.5:
+        non_striker: CT Bancroft
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.6:
+        non_striker: CT Bancroft
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 1.7:
+        non_striker: CT Bancroft
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.1:
+        non_striker: CT Bancroft
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.2:
+        non_striker: Miles Hammond
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 2.3:
+        non_striker: Miles Hammond
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 2.4:
+        non_striker: CT Bancroft
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 2.5:
+        non_striker: CT Bancroft
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          fielders:
+          - JM Vince
+          kind: caught
+    - 2.6:
+        non_striker: CT Bancroft
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 3.1:
+        non_striker: DJM Short
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 3.2:
+        non_striker: DJM Short
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 3.3:
+        non_striker: DJM Short
+        bowler: CP Wood
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: CT Bancroft
+    - 3.4:
+        non_striker: DJM Short
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CT Bancroft
+    - 3.5:
+        non_striker: DJM Short
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CT Bancroft
+    - 3.6:
+        non_striker: DJM Short
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 4.1:
+        non_striker: DJM Short
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 4.2:
+        non_striker: DJM Short
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 4.3:
+        non_striker: DJM Short
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CT Bancroft
+    - 4.4:
+        non_striker: DJM Short
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 4.5:
+        non_striker: DJM Short
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CT Bancroft
+    - 4.6:
+        non_striker: DJM Short
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+        wicket:
+          player_out: CT Bancroft
+          fielders:
+          - JK Fuller
+          kind: caught
+    - 5.1:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 5.2:
+        non_striker: DJM Short
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 5.3:
+        non_striker: DJM Short
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 5.4:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 5.5:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 5.6:
+        non_striker: DJM Short
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 6.1:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 6.2:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJM Short
+    - 6.3:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 6.4:
+        non_striker: DJM Short
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 6.5:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJM Short
+    - 6.6:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 7.1:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 7.2:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 7.3:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 7.4:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 7.5:
+        non_striker: DJM Short
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 7.6:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJM Short
+    - 8.1:
+        non_striker: DJM Short
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 8.2:
+        non_striker: DJM Short
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 8.3:
+        non_striker: DJM Short
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 8.4:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 8.5:
+        non_striker: DJM Short
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 8.6:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 9.1:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 9.2:
+        non_striker: DJM Short
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 9.3:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 9.4:
+        non_striker: OJ Price
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJM Short
+    - 9.5:
+        non_striker: DJM Short
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Price
+    - 9.6:
+        non_striker: DJM Short
+        bowler: BC Fortuin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Price
+    - 10.1:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+        wicket:
+          player_out: DJM Short
+          fielders:
+          - JJ Weatherley
+          kind: caught
+    - 10.2:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 10.3:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 10.4:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 10.5:
+        non_striker: JMR Taylor
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 10.6:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 11.1:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 11.2:
+        non_striker: JMR Taylor
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 11.3:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 11.4:
+        non_striker: JMR Taylor
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 11.5:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 11.6:
+        non_striker: OJ Price
+        bowler: SW Currie
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JMR Taylor
+    - 11.7:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 12.1:
+        non_striker: JMR Taylor
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 12.2:
+        non_striker: JMR Taylor
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 12.3:
+        non_striker: OJ Price
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 12.4:
+        non_striker: JMR Taylor
+        bowler: JA Turner
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: OJ Price
+    - 12.5:
+        non_striker: JMR Taylor
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 12.6:
+        non_striker: OJ Price
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 12.7:
+        non_striker: OJ Price
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 13.1:
+        non_striker: JMR Taylor
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 13.2:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 13.3:
+        non_striker: JMR Taylor
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 13.4:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 13.5:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+        wicket:
+          player_out: JMR Taylor
+          fielders:
+          - JM Vince
+          kind: caught
+    - 13.6:
+        non_striker: OJ Price
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 14.1:
+        non_striker: BG Charlesworth
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Price
+    - 14.2:
+        non_striker: BG Charlesworth
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: OJ Price
+    - 14.3:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 14.4:
+        non_striker: BG Charlesworth
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 14.5:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 14.6:
+        non_striker: OJ Price
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          fielders:
+          - D Brevis
+          kind: caught
+    - 15.1:
+        non_striker: James Bracey
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Price
+    - 15.2:
+        non_striker: James Bracey
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 15.3:
+        non_striker: James Bracey
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 15.4:
+        non_striker: James Bracey
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 15.5:
+        non_striker: OJ Price
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 15.6:
+        non_striker: OJ Price
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 16.1:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 16.2:
+        non_striker: James Bracey
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 16.3:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 16.4:
+        non_striker: James Bracey
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 16.5:
+        non_striker: James Bracey
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 16.6:
+        non_striker: OJ Price
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+        wicket:
+          player_out: James Bracey
+          fielders:
+          - BAC Howell
+          kind: caught
+    - 17.1:
+        non_striker: MD Taylor
+        bowler: JA Turner
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: OJ Price
+    - 17.2:
+        non_striker: MD Taylor
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 17.3:
+        non_striker: OJ Price
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 17.4:
+        non_striker: MD Taylor
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 17.5:
+        non_striker: MD Taylor
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 17.6:
+        non_striker: MD Taylor
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 17.7:
+        non_striker: OJ Price
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+        wicket:
+          player_out: MD Taylor
+          fielders:
+          - BAC Howell
+          kind: caught
+    - 18.1:
+        non_striker: DA Payne
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 18.2:
+        non_striker: DA Payne
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Price
+    - 18.3:
+        non_striker: DA Payne
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Price
+    - 18.4:
+        non_striker: DA Payne
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 18.5:
+        non_striker: DA Payne
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+        wicket:
+          player_out: OJ Price
+          fielders:
+          - TE Albert
+          kind: caught
+    - 18.6:
+        non_striker: DA Payne
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Dale
+    - 19.1:
+        non_striker: DA Payne
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AS Dale
+    - 19.2:
+        non_striker: DA Payne
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AS Dale
+        wicket:
+          player_out: AS Dale
+          fielders:
+          - BAC Howell
+          kind: caught
+    - 19.3:
+        non_striker: DA Payne
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TMJ Smith
+    - 19.4:
+        non_striker: DA Payne
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 19.5:
+        non_striker: TMJ Smith
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+        wicket:
+          player_out: DA Payne
+          fielders:
+          - BAC Howell
+          kind: caught
+- 2nd innings:
+    team: Hampshire
+    deliveries:
+    - 0.1:
+        non_striker: JM Vince
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 0.2:
+        non_striker: JM Vince
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 0.3:
+        non_striker: JM Vince
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 0.4:
+        non_striker: JM Vince
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 0.5:
+        non_striker: JM Vince
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 0.6:
+        non_striker: JM Vince
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 1.1:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 1.2:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 1.3:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TE Albert
+    - 1.4:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 1.5:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 1.6:
+        non_striker: JM Vince
+        bowler: AS Dale
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: TE Albert
+    - 1.7:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 2.1:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.2:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 2.3:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.4:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.5:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 2.6:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 3.1:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 3.2:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 3.3:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 3.4:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 3.5:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JM Vince
+    - 3.6:
+        non_striker: JM Vince
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 4.1:
+        non_striker: TE Albert
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 4.2:
+        non_striker: JM Vince
+        bowler: AS Dale
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: TE Albert
+    - 4.3:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 4.4:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TE Albert
+    - 4.5:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 4.6:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 4.7:
+        non_striker: JM Vince
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 5.1:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Vince
+    - 5.2:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 5.3:
+        non_striker: JM Vince
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 5.4:
+        non_striker: JM Vince
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TE Albert
+    - 5.5:
+        non_striker: JM Vince
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 5.6:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 6.1:
+        non_striker: JM Vince
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 6.2:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+        wicket:
+          player_out: JM Vince
+          fielders:
+          - JMR Taylor
+          kind: caught
+    - 6.3:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Prest
+    - 6.4:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Prest
+    - 6.5:
+        non_striker: TJ Prest
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 6.6:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Prest
+    - 7.1:
+        non_striker: TJ Prest
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 7.2:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Prest
+    - 7.3:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Prest
+    - 7.4:
+        non_striker: TJ Prest
+        bowler: DJM Short
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: TE Albert
+    - 7.5:
+        non_striker: TJ Prest
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 7.6:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Prest
+    - 7.7:
+        non_striker: TJ Prest
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 8.1:
+        non_striker: TJ Prest
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 8.2:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Prest
+    - 8.3:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Prest
+    - 8.4:
+        non_striker: TJ Prest
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 8.5:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Prest
+    - 8.6:
+        non_striker: TJ Prest
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 9.1:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Prest
+    - 9.2:
+        non_striker: TJ Prest
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 9.3:
+        non_striker: TJ Prest
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 9.4:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Prest
+        wicket:
+          player_out: TJ Prest
+          fielders:
+          - BG Charlesworth
+          kind: caught
+    - 9.5:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 9.6:
+        non_striker: TE Albert
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Weatherley
+    - 10.1:
+        non_striker: JJ Weatherley
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 10.2:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Weatherley
+    - 10.3:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 10.4:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 10.5:
+        non_striker: TE Albert
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 10.6:
+        non_striker: JJ Weatherley
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 11.1:
+        non_striker: JJ Weatherley
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TE Albert
+    - 11.2:
+        non_striker: JJ Weatherley
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 11.3:
+        non_striker: JJ Weatherley
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 11.4:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 11.5:
+        non_striker: JJ Weatherley
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 11.6:
+        non_striker: TE Albert
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 12.1:
+        non_striker: JJ Weatherley
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 12.2:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 12.3:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Weatherley
+    - 12.4:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 12.5:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+        wicket:
+          player_out: JJ Weatherley
+          fielders:
+          - James Bracey
+          kind: caught
+    - 12.6:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Brevis
+    - 13.1:
+        non_striker: D Brevis
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 13.2:
+        non_striker: D Brevis
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 13.3:
+        non_striker: TE Albert
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Brevis
+    - 13.4:
+        non_striker: TE Albert
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Brevis
+    - 13.5:
+        non_striker: D Brevis
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 13.6:
+        non_striker: D Brevis
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 14.1:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Brevis
+    - 14.2:
+        non_striker: D Brevis
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 14.3:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Brevis
+    - 14.4:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Brevis
+    - 14.5:
+        non_striker: TE Albert
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Brevis
+    - 14.6:
+        non_striker: D Brevis
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert

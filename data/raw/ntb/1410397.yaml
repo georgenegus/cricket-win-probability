@@ -1,0 +1,2137 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-09'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Manchester
+  competition: Vitality Blast
+  dates:
+  - '2024-06-07'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Lancashire
+    by:
+      runs: 8
+  overs: 20
+  players:
+    Lancashire:
+    - JJ Bohannon
+    - LWP Wells
+    - KK Jennings
+    - TC Bruce
+    - MF Hurst
+    - SJ Croft
+    - CJ Green
+    - L Wood
+    - JM Blatherwick
+    - MT Stanley
+    - S Mahmood
+    Birmingham Bears:
+    - AL Davies
+    - RM Yates
+    - CG Benjamin
+    - SR Hain
+    - DR Mousley
+    - JG Bethell
+    - GHS Garton
+    - Hasan Ali
+    - DR Briggs
+    - JB Lintott
+    - RJ Gleeson
+  registry:
+    people:
+      AJ Swann: f9d218a7
+      AL Davies: 29ede60b
+      CG Benjamin: 95a15317
+      CJ Green: 19b9f399
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      GHS Garton: be869ccf
+      Hasan Ali: 2911de16
+      JB Lintott: e5218454
+      JG Bethell: 3c55c703
+      JJ Bohannon: fd96de7c
+      JM Blatherwick: 35c08a29
+      KK Jennings: 8479a24a
+      L Wood: 65b6943c
+      LWP Wells: 1957c6b7
+      MF Hurst: 40e4cf47
+      MT Stanley: faa8cfba
+      PJ Hartley: 17c7ff26
+      RJ Gleeson: 402f8494
+      RM Yates: 3581a798
+      S Mahmood: 0f6db197
+      SJ Croft: ab474682
+      SR Hain: 67b9536c
+      TC Bruce: f92c9151
+      Tom Lungley: 75169b8c
+  teams:
+  - Lancashire
+  - Birmingham Bears
+  toss:
+    winner: Birmingham Bears
+    decision: field
+  umpires:
+  - PJ Hartley
+  - Tom Lungley
+  venue: Old Trafford, Manchester
+innings:
+- 1st innings:
+    team: Lancashire
+    deliveries:
+    - 0.1:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 0.2:
+        non_striker: JJ Bohannon
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 0.3:
+        non_striker: JJ Bohannon
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 0.4:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 0.5:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Bohannon
+    - 0.6:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 1.1:
+        non_striker: JJ Bohannon
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.2:
+        non_striker: JJ Bohannon
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.3:
+        non_striker: JJ Bohannon
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.4:
+        non_striker: JJ Bohannon
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.5:
+        non_striker: JJ Bohannon
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LWP Wells
+    - 1.6:
+        non_striker: JJ Bohannon
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 2.1:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JJ Bohannon
+    - 2.2:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Bohannon
+    - 2.3:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 2.4:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+        wicket:
+          player_out: JJ Bohannon
+          kind: bowled
+    - 2.5:
+        non_striker: LWP Wells
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 2.6:
+        non_striker: KK Jennings
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 3.1:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 2
+          total: 8
+          batsman: 6
+        extras:
+          noballs: 2
+        batsman: LWP Wells
+    - 3.2:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LWP Wells
+    - 3.3:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LWP Wells
+    - 3.4:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LWP Wells
+    - 3.5:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 3.6:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 3.7:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 3.8:
+        non_striker: LWP Wells
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 4.1:
+        non_striker: LWP Wells
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 4.2:
+        non_striker: LWP Wells
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 4.3:
+        non_striker: LWP Wells
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 4.4:
+        non_striker: LWP Wells
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 4.5:
+        non_striker: KK Jennings
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LWP Wells
+    - 4.6:
+        non_striker: KK Jennings
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 5.1:
+        non_striker: KK Jennings
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LWP Wells
+    - 5.2:
+        non_striker: KK Jennings
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 5.3:
+        non_striker: LWP Wells
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 5.4:
+        non_striker: KK Jennings
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 5.5:
+        non_striker: KK Jennings
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 5.6:
+        non_striker: KK Jennings
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LWP Wells
+    - 6.1:
+        non_striker: LWP Wells
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 6.2:
+        non_striker: KK Jennings
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 6.3:
+        non_striker: LWP Wells
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 6.4:
+        non_striker: LWP Wells
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 6.5:
+        non_striker: LWP Wells
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 6.6:
+        non_striker: KK Jennings
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 7.1:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LWP Wells
+    - 7.2:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 7.3:
+        non_striker: LWP Wells
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 7.4:
+        non_striker: LWP Wells
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 7.5:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 7.6:
+        non_striker: KK Jennings
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 8.1:
+        non_striker: LWP Wells
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 8.2:
+        non_striker: KK Jennings
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 8.3:
+        non_striker: LWP Wells
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 8.4:
+        non_striker: LWP Wells
+        bowler: JB Lintott
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KK Jennings
+        wicket:
+          player_out: KK Jennings
+          fielders:
+          - AL Davies
+          kind: stumped
+    - 8.5:
+        non_striker: LWP Wells
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 8.6:
+        non_striker: LWP Wells
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 8.7:
+        non_striker: TC Bruce
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 9.1:
+        non_striker: LWP Wells
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 9.2:
+        non_striker: LWP Wells
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 9.3:
+        non_striker: TC Bruce
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 9.4:
+        non_striker: LWP Wells
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TC Bruce
+    - 9.5:
+        non_striker: LWP Wells
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TC Bruce
+    - 9.6:
+        non_striker: LWP Wells
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 10.1:
+        non_striker: LWP Wells
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 10.2:
+        non_striker: LWP Wells
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 10.3:
+        non_striker: TC Bruce
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+        wicket:
+          player_out: LWP Wells
+          fielders:
+          - AL Davies
+          kind: stumped
+    - 10.4:
+        non_striker: TC Bruce
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.5:
+        non_striker: MF Hurst
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 10.6:
+        non_striker: TC Bruce
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 11.1:
+        non_striker: TC Bruce
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 11.2:
+        non_striker: MF Hurst
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+        wicket:
+          player_out: TC Bruce
+          fielders:
+          - GHS Garton
+          kind: caught
+    - 11.3:
+        non_striker: MF Hurst
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 11.4:
+        non_striker: MF Hurst
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 11.5:
+        non_striker: MF Hurst
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 11.6:
+        non_striker: MF Hurst
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 12.1:
+        non_striker: MF Hurst
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 12.2:
+        non_striker: MF Hurst
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 12.3:
+        non_striker: SJ Croft
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 12.4:
+        non_striker: SJ Croft
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 12.5:
+        non_striker: MF Hurst
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SJ Croft
+    - 12.6:
+        non_striker: MF Hurst
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 13.1:
+        non_striker: MF Hurst
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 13.2:
+        non_striker: SJ Croft
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 13.3:
+        non_striker: MF Hurst
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+        wicket:
+          player_out: MF Hurst
+          fielders:
+          - GHS Garton
+          kind: run out
+    - 13.4:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 13.5:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: SJ Croft
+    - 13.6:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 14.1:
+        non_striker: CJ Green
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 14.2:
+        non_striker: SJ Croft
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 14.3:
+        non_striker: SJ Croft
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.4:
+        non_striker: CJ Green
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 14.5:
+        non_striker: SJ Croft
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.6:
+        non_striker: CJ Green
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 15.1:
+        non_striker: SJ Croft
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.2:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 15.3:
+        non_striker: SJ Croft
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 15.4:
+        non_striker: SJ Croft
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.5:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 15.6:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 16.1:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 16.2:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 16.3:
+        non_striker: SJ Croft
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 16.4:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 16.5:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SJ Croft
+    - 16.6:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 16.7:
+        non_striker: SJ Croft
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 17.1:
+        non_striker: CJ Green
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 17.2:
+        non_striker: SJ Croft
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 17.3:
+        non_striker: CJ Green
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SJ Croft
+    - 17.4:
+        non_striker: CJ Green
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SJ Croft
+    - 17.5:
+        non_striker: CJ Green
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 17.6:
+        non_striker: CJ Green
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 18.1:
+        non_striker: SJ Croft
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 18.2:
+        non_striker: SJ Croft
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 18.3:
+        non_striker: SJ Croft
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 18.4:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SJ Croft
+    - 18.5:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SJ Croft
+    - 18.6:
+        non_striker: CJ Green
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 18.7:
+        non_striker: SJ Croft
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 19.1:
+        non_striker: CJ Green
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+        wicket:
+          player_out: SJ Croft
+          fielders:
+          - JG Bethell
+          kind: caught
+    - 19.2:
+        non_striker: CJ Green
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Wood
+    - 19.3:
+        non_striker: CJ Green
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Wood
+    - 19.4:
+        non_striker: L Wood
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+        wicket:
+          player_out: CJ Green
+          fielders:
+          - JG Bethell
+          kind: caught
+    - 19.5:
+        non_striker: L Wood
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 19.6:
+        non_striker: JM Blatherwick
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Wood
+        wicket:
+          player_out: L Wood
+          fielders:
+          - GHS Garton
+          kind: caught
+- 2nd innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        non_striker: RM Yates
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 0.2:
+        non_striker: RM Yates
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 0.3:
+        non_striker: RM Yates
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AL Davies
+    - 0.4:
+        non_striker: RM Yates
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 0.5:
+        non_striker: RM Yates
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 0.6:
+        non_striker: RM Yates
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 1.1:
+        non_striker: AL Davies
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Yates
+    - 1.2:
+        non_striker: AL Davies
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Yates
+    - 1.3:
+        non_striker: AL Davies
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 1.4:
+        non_striker: RM Yates
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 1.5:
+        non_striker: RM Yates
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.6:
+        non_striker: RM Yates
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          fielders:
+          - JJ Bohannon
+          kind: caught
+    - 2.1:
+        non_striker: CG Benjamin
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 2.2:
+        non_striker: CG Benjamin
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+        wicket:
+          player_out: RM Yates
+          fielders:
+          - JM Blatherwick
+          kind: caught
+    - 2.3:
+        non_striker: CG Benjamin
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 2.4:
+        non_striker: CG Benjamin
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 2.5:
+        non_striker: CG Benjamin
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: SR Hain
+    - 2.6:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 3.1:
+        non_striker: CG Benjamin
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 3.2:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 3.3:
+        non_striker: CG Benjamin
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 3.4:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 3.5:
+        non_striker: CG Benjamin
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 3.6:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 4.1:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 4.2:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 4.3:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 4.4:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 4.5:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 4.6:
+        non_striker: CG Benjamin
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 5.1:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 5.2:
+        non_striker: CG Benjamin
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.3:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 5.4:
+        non_striker: CG Benjamin
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 5.5:
+        non_striker: CG Benjamin
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.6:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 6.1:
+        non_striker: CG Benjamin
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.2:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 6.3:
+        non_striker: CG Benjamin
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.4:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+        wicket:
+          player_out: CG Benjamin
+          kind: bowled
+    - 6.5:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.6:
+        non_striker: DR Mousley
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.1:
+        non_striker: DR Mousley
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.2:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.3:
+        non_striker: DR Mousley
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.4:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.5:
+        non_striker: DR Mousley
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.6:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 8.1:
+        non_striker: DR Mousley
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.2:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.3:
+        non_striker: DR Mousley
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 8.4:
+        non_striker: DR Mousley
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.5:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.6:
+        non_striker: DR Mousley
+        bowler: LWP Wells
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SR Hain
+    - 9.1:
+        non_striker: DR Mousley
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.2:
+        non_striker: SR Hain
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 9.3:
+        non_striker: DR Mousley
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.4:
+        non_striker: SR Hain
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 9.5:
+        non_striker: SR Hain
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 9.6:
+        non_striker: SR Hain
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 10.1:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+        wicket:
+          player_out: DR Mousley
+          fielders:
+          - LWP Wells
+          kind: caught
+    - 10.2:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 10.3:
+        non_striker: JG Bethell
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.4:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 10.5:
+        non_striker: JG Bethell
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.6:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 11.1:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 11.2:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 11.3:
+        non_striker: JG Bethell
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.4:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 11.5:
+        non_striker: JG Bethell
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.6:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 12.1:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JG Bethell
+    - 12.2:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JG Bethell
+    - 12.3:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 12.4:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 12.5:
+        non_striker: JG Bethell
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.6:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JG Bethell
+    - 13.1:
+        non_striker: JG Bethell
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 13.2:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JG Bethell
+    - 13.3:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JG Bethell
+    - 13.4:
+        non_striker: SR Hain
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 13.5:
+        non_striker: JG Bethell
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 13.6:
+        non_striker: JG Bethell
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.1:
+        non_striker: JG Bethell
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 14.2:
+        non_striker: JG Bethell
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 14.3:
+        non_striker: JG Bethell
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 14.4:
+        non_striker: JG Bethell
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.5:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 14.6:
+        non_striker: JG Bethell
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.1:
+        non_striker: JG Bethell
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.2:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JG Bethell
+    - 15.3:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 15.4:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 15.5:
+        non_striker: JG Bethell
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.6:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 16.1:
+        non_striker: JG Bethell
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 16.2:
+        non_striker: JG Bethell
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 16.3:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 16.4:
+        non_striker: JG Bethell
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 16.5:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+        wicket:
+          player_out: JG Bethell
+          fielders:
+          - MF Hurst
+          kind: caught
+    - 16.6:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 17.1:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: GHS Garton
+    - 17.2:
+        non_striker: GHS Garton
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 17.3:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 17.4:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 17.5:
+        non_striker: GHS Garton
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 17.6:
+        non_striker: GHS Garton
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 18.1:
+        non_striker: GHS Garton
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+        wicket:
+          player_out: SR Hain
+          fielders:
+          - LWP Wells
+          kind: caught
+    - 18.2:
+        non_striker: GHS Garton
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 18.3:
+        non_striker: Hasan Ali
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 18.4:
+        non_striker: GHS Garton
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hasan Ali
+    - 18.5:
+        non_striker: GHS Garton
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 18.6:
+        non_striker: Hasan Ali
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 19.1:
+        non_striker: Hasan Ali
+        bowler: S Mahmood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GHS Garton
+    - 19.2:
+        non_striker: Hasan Ali
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 19.3:
+        non_striker: GHS Garton
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    - 19.4:
+        non_striker: GHS Garton
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    - 19.5:
+        non_striker: GHS Garton
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hasan Ali
+    - 19.6:
+        non_striker: GHS Garton
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hasan Ali
+    - 19.7:
+        non_striker: GHS Garton
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali

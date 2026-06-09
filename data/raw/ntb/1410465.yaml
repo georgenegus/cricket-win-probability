@@ -1,0 +1,2156 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chester-le-Street
+  competition: Vitality Blast
+  dates:
+  - '2024-07-12'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Durham
+    by:
+      runs: 30
+  overs: 20
+  players:
+    Durham:
+    - G Clark
+    - AZ Lees
+    - OG Robinson
+    - CN Ackermann
+    - AJ Turner
+    - MA Jones
+    - BFW de Leede
+    - BA Raine
+    - BJ Dwarshuis
+    - CF Parkinson
+    - NA Sowter
+    Nottinghamshire:
+    - BJR Martindale
+    - JM Clarke
+    - BT Slater
+    - JA Haynes
+    - TJ Moores
+    - M Montgomery
+    - LW James
+    - LA Patterson-White
+    - CG Harrison
+    - OP Stone
+    - Fazalhaq Farooqi
+  registry:
+    people:
+      AJ Turner: ff1e12a0
+      AZ Lees: c9c0fe50
+      BA Raine: 4c0f3806
+      BFW de Leede: fc4375ef
+      BJ Dwarshuis: e1b9f3a9
+      BJR Martindale: a81cac82
+      BT Slater: c5f1d2a1
+      CF Parkinson: aa1210d8
+      CG Harrison: f655d740
+      CN Ackermann: e734d090
+      Fazalhaq Farooqi: e9c7f0d0
+      G Clark: 4fd09cfc
+      IL Herbert: 125f9f05
+      JA Haynes: fe4ebca0
+      JM Clarke: 2eca67f5
+      LA Patterson-White: d48c0f40
+      LW James: 2baad3bd
+      M Montgomery: 7671203a
+      MA Jones: 05f96194
+      N Pratt: 01f65cd3
+      NA Mallender: 3b5dfcd4
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      OP Stone: 3f659464
+      TJ Moores: 85dcb721
+  teams:
+  - Durham
+  - Nottinghamshire
+  toss:
+    winner: Nottinghamshire
+    decision: field
+  umpires:
+  - NA Mallender
+  - N Pratt
+  venue: Riverside Ground, Chester-le-Street
+innings:
+- 1st innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        non_striker: AZ Lees
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 0.2:
+        non_striker: G Clark
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 0.3:
+        non_striker: G Clark
+        bowler: M Montgomery
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: AZ Lees
+    - 0.4:
+        non_striker: AZ Lees
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.5:
+        non_striker: AZ Lees
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 0.6:
+        non_striker: G Clark
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 0.7:
+        non_striker: AZ Lees
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 1.1:
+        non_striker: G Clark
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 1.2:
+        non_striker: G Clark
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.3:
+        non_striker: G Clark
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 1.4:
+        non_striker: AZ Lees
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          kind: bowled
+    - 1.5:
+        non_striker: AZ Lees
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 1.6:
+        non_striker: AZ Lees
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: OG Robinson
+    - 1.7:
+        non_striker: OG Robinson
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 2.1:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 2.2:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 2.3:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 2.4:
+        non_striker: OG Robinson
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 2.5:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 2.6:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 3.1:
+        non_striker: OG Robinson
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.2:
+        non_striker: AZ Lees
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 3.3:
+        non_striker: AZ Lees
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OG Robinson
+    - 3.4:
+        non_striker: AZ Lees
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 3.5:
+        non_striker: OG Robinson
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AZ Lees
+    - 3.6:
+        non_striker: OG Robinson
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.7:
+        non_striker: AZ Lees
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 4.1:
+        non_striker: OG Robinson
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.2:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 4.3:
+        non_striker: OG Robinson
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.4:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 4.5:
+        non_striker: OG Robinson
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.6:
+        non_striker: AZ Lees
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 5.1:
+        non_striker: OG Robinson
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 5.2:
+        non_striker: AZ Lees
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OG Robinson
+    - 5.3:
+        non_striker: AZ Lees
+        bowler: M Montgomery
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OG Robinson
+    - 5.4:
+        non_striker: AZ Lees
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 5.5:
+        non_striker: OG Robinson
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 5.6:
+        non_striker: OG Robinson
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 5.7:
+        non_striker: OG Robinson
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 6.1:
+        non_striker: OG Robinson
+        bowler: LW James
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: AZ Lees
+    - 6.2:
+        non_striker: OG Robinson
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 6.3:
+        non_striker: OG Robinson
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 6.4:
+        non_striker: OG Robinson
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 6.5:
+        non_striker: AZ Lees
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 6.6:
+        non_striker: OG Robinson
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.1:
+        non_striker: OG Robinson
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.2:
+        non_striker: AZ Lees
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 7.3:
+        non_striker: OG Robinson
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.4:
+        non_striker: AZ Lees
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 7.5:
+        non_striker: AZ Lees
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 7.6:
+        non_striker: AZ Lees
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 8.1:
+        non_striker: AZ Lees
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 8.2:
+        non_striker: OG Robinson
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 8.3:
+        non_striker: AZ Lees
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+        wicket:
+          player_out: OG Robinson
+          fielders:
+          - BJR Martindale
+          kind: caught
+    - 8.4:
+        non_striker: AZ Lees
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 8.5:
+        non_striker: AZ Lees
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 8.6:
+        non_striker: CN Ackermann
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          kind: bowled
+    - 9.1:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.2:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 9.3:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 9.4:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.5:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 9.6:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 10.1:
+        non_striker: AJ Turner
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 10.2:
+        non_striker: AJ Turner
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 10.3:
+        non_striker: CN Ackermann
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 10.4:
+        non_striker: AJ Turner
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 10.5:
+        non_striker: CN Ackermann
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 10.6:
+        non_striker: AJ Turner
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.1:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.2:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AJ Turner
+    - 11.3:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.4:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 11.5:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 11.6:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 12.1:
+        non_striker: CN Ackermann
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 12.2:
+        non_striker: AJ Turner
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 12.3:
+        non_striker: CN Ackermann
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 12.4:
+        non_striker: AJ Turner
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 12.5:
+        non_striker: CN Ackermann
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 12.6:
+        non_striker: AJ Turner
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 13.1:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 13.2:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 13.3:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.4:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 13.5:
+        non_striker: CN Ackermann
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.6:
+        non_striker: AJ Turner
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 14.1:
+        non_striker: CN Ackermann
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 14.2:
+        non_striker: AJ Turner
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+        wicket:
+          player_out: CN Ackermann
+          fielders:
+          - CG Harrison
+          kind: caught
+    - 14.3:
+        non_striker: AJ Turner
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 14.4:
+        non_striker: MA Jones
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 14.5:
+        non_striker: AJ Turner
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 14.6:
+        non_striker: AJ Turner
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+        wicket:
+          player_out: MA Jones
+          fielders:
+          - M Montgomery
+          kind: caught
+    - 15.1:
+        non_striker: BFW de Leede
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 15.2:
+        non_striker: BFW de Leede
+        bowler: LW James
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AJ Turner
+    - 15.3:
+        non_striker: BFW de Leede
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 15.4:
+        non_striker: AJ Turner
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+        wicket:
+          player_out: BFW de Leede
+          fielders:
+          - CG Harrison
+          kind: caught
+    - 15.5:
+        non_striker: AJ Turner
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 15.6:
+        non_striker: BA Raine
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 15.7:
+        non_striker: BA Raine
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 16.1:
+        non_striker: BA Raine
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 16.2:
+        non_striker: AJ Turner
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BA Raine
+    - 16.3:
+        non_striker: AJ Turner
+        bowler: OP Stone
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: BA Raine
+    - 16.4:
+        non_striker: AJ Turner
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 16.5:
+        non_striker: AJ Turner
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 16.6:
+        non_striker: AJ Turner
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BA Raine
+    - 17.1:
+        non_striker: BA Raine
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 17.2:
+        non_striker: AJ Turner
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 17.3:
+        non_striker: BA Raine
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 17.4:
+        non_striker: AJ Turner
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 17.5:
+        non_striker: AJ Turner
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 17.6:
+        non_striker: AJ Turner
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 18.1:
+        non_striker: BA Raine
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 18.2:
+        non_striker: BA Raine
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 18.3:
+        non_striker: BA Raine
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 18.4:
+        non_striker: BA Raine
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 18.5:
+        non_striker: AJ Turner
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 18.6:
+        non_striker: AJ Turner
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Raine
+    - 19.1:
+        non_striker: BA Raine
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 19.2:
+        non_striker: BA Raine
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 19.3:
+        non_striker: BA Raine
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 19.4:
+        non_striker: AJ Turner
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: BA Raine
+    - 19.5:
+        non_striker: BA Raine
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 19.6:
+        non_striker: BA Raine
+        bowler: Fazalhaq Farooqi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+- 2nd innings:
+    team: Nottinghamshire
+    deliveries:
+    - 0.1:
+        non_striker: JM Clarke
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJR Martindale
+    - 0.2:
+        non_striker: JM Clarke
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJR Martindale
+    - 0.3:
+        non_striker: BJR Martindale
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 0.4:
+        non_striker: BJR Martindale
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 0.5:
+        non_striker: BJR Martindale
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 0.6:
+        non_striker: BJR Martindale
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.1:
+        non_striker: JM Clarke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJR Martindale
+    - 1.2:
+        non_striker: JM Clarke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJR Martindale
+    - 1.3:
+        non_striker: BJR Martindale
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.4:
+        non_striker: BJR Martindale
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.5:
+        non_striker: BJR Martindale
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.6:
+        non_striker: BJR Martindale
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 2.1:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJR Martindale
+        wicket:
+          player_out: BJR Martindale
+          fielders:
+          - OG Robinson
+          kind: caught
+    - 2.2:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BT Slater
+    - 2.3:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BT Slater
+    - 2.4:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BT Slater
+    - 2.5:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BT Slater
+    - 2.6:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BT Slater
+    - 3.1:
+        non_striker: JM Clarke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BT Slater
+    - 3.2:
+        non_striker: BT Slater
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 3.3:
+        non_striker: BT Slater
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 3.4:
+        non_striker: BT Slater
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 3.5:
+        non_striker: JM Clarke
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BT Slater
+    - 3.6:
+        non_striker: BT Slater
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Clarke
+    - 4.1:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BT Slater
+    - 4.2:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BT Slater
+    - 4.3:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BT Slater
+    - 4.4:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BT Slater
+    - 4.5:
+        non_striker: JM Clarke
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BT Slater
+    - 4.6:
+        non_striker: BT Slater
+        bowler: BFW de Leede
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Clarke
+    - 5.1:
+        non_striker: BT Slater
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 5.2:
+        non_striker: BT Slater
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 5.3:
+        non_striker: BT Slater
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 5.4:
+        non_striker: BT Slater
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 5.5:
+        non_striker: BT Slater
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+        wicket:
+          player_out: JM Clarke
+          fielders:
+          - AZ Lees
+          kind: caught
+    - 5.6:
+        non_striker: BT Slater
+        bowler: BA Raine
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: JA Haynes
+    - 5.7:
+        non_striker: BT Slater
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 6.1:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BT Slater
+        wicket:
+          player_out: BT Slater
+          kind: lbw
+    - 6.2:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          byes: 2
+        batsman: TJ Moores
+    - 6.3:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+        wicket:
+          player_out: TJ Moores
+          fielders:
+          - OG Robinson
+          kind: caught
+    - 6.4:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 6.5:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 6.6:
+        non_striker: M Montgomery
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.1:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.2:
+        non_striker: JA Haynes
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 7.3:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.4:
+        non_striker: JA Haynes
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 7.5:
+        non_striker: JA Haynes
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 7.6:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 8.1:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 8.2:
+        non_striker: M Montgomery
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 8.3:
+        non_striker: M Montgomery
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+        wicket:
+          player_out: JA Haynes
+          fielders:
+          - AZ Lees
+          kind: caught
+    - 8.4:
+        non_striker: M Montgomery
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 8.5:
+        non_striker: LW James
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 8.6:
+        non_striker: LW James
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 9.1:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 9.2:
+        non_striker: LW James
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 9.3:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 9.4:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 9.5:
+        non_striker: LW James
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 9.6:
+        non_striker: LW James
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 10.1:
+        non_striker: LW James
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 10.2:
+        non_striker: LW James
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 10.3:
+        non_striker: M Montgomery
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.4:
+        non_striker: LW James
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 10.5:
+        non_striker: M Montgomery
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.6:
+        non_striker: LW James
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Montgomery
+    - 11.1:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 11.2:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.3:
+        non_striker: LW James
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 11.4:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.5:
+        non_striker: LW James
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 11.6:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+        wicket:
+          player_out: LW James
+          kind: bowled
+    - 12.1:
+        non_striker: LA Patterson-White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 12.2:
+        non_striker: LA Patterson-White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 12.3:
+        non_striker: LA Patterson-White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 12.4:
+        non_striker: LA Patterson-White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 12.5:
+        non_striker: LA Patterson-White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 12.6:
+        non_striker: M Montgomery
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 13.1:
+        non_striker: LA Patterson-White
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 13.2:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 13.3:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 13.4:
+        non_striker: M Montgomery
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 13.5:
+        non_striker: LA Patterson-White
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+        wicket:
+          player_out: M Montgomery
+          fielders:
+          - G Clark
+          kind: caught
+    - 13.6:
+        non_striker: LA Patterson-White
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Harrison
+    - 14.1:
+        non_striker: LA Patterson-White
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Harrison
+    - 14.2:
+        non_striker: CG Harrison
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 14.3:
+        non_striker: CG Harrison
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 14.4:
+        non_striker: CG Harrison
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 14.5:
+        non_striker: CG Harrison
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+        wicket:
+          player_out: LA Patterson-White
+          fielders:
+          - BFW de Leede
+          kind: caught
+    - 14.6:
+        non_striker: CG Harrison
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 15.1:
+        non_striker: OP Stone
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Harrison
+        wicket:
+          player_out: CG Harrison
+          fielders:
+          - G Clark
+          kind: caught
+    - 15.2:
+        non_striker: OP Stone
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fazalhaq Farooqi
+    - 15.3:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 15.4:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OP Stone
+    - 15.5:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 15.6:
+        non_striker: OP Stone
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Fazalhaq Farooqi
+    - 16.1:
+        non_striker: Fazalhaq Farooqi
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 16.2:
+        non_striker: OP Stone
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fazalhaq Farooqi
+    - 16.3:
+        non_striker: Fazalhaq Farooqi
+        bowler: CN Ackermann
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: OP Stone
+    - 16.4:
+        non_striker: OP Stone
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Fazalhaq Farooqi
+    - 16.5:
+        non_striker: OP Stone
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fazalhaq Farooqi
+    - 16.6:
+        non_striker: Fazalhaq Farooqi
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 17.1:
+        non_striker: OP Stone
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fazalhaq Farooqi
+    - 17.2:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OP Stone
+    - 17.3:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 17.4:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 17.5:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 17.6:
+        non_striker: Fazalhaq Farooqi
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 18.1:
+        non_striker: Fazalhaq Farooqi
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 18.2:
+        non_striker: Fazalhaq Farooqi
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 18.3:
+        non_striker: OP Stone
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fazalhaq Farooqi
+    - 18.4:
+        non_striker: OP Stone
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fazalhaq Farooqi
+    - 18.5:
+        non_striker: Fazalhaq Farooqi
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 18.6:
+        non_striker: OP Stone
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fazalhaq Farooqi
+    - 19.1:
+        non_striker: Fazalhaq Farooqi
+        bowler: BFW de Leede
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OP Stone
+    - 19.2:
+        non_striker: Fazalhaq Farooqi
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OP Stone
+    - 19.3:
+        non_striker: Fazalhaq Farooqi
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 19.4:
+        non_striker: OP Stone
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fazalhaq Farooqi
+    - 19.5:
+        non_striker: OP Stone
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fazalhaq Farooqi
+    - 19.6:
+        non_striker: OP Stone
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fazalhaq Farooqi
+    - 19.7:
+        non_striker: Fazalhaq Farooqi
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OP Stone

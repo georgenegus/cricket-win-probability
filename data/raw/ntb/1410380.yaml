@@ -1,0 +1,2118 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-05-31'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Taunton
+  competition: Vitality Blast
+  dates:
+  - '2024-05-31'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 4
+  overs: 20
+  player_of_match:
+  - L Gregory
+  players:
+    Essex:
+    - AM Rossington
+    - D Elgar
+    - MS Pepper
+    - JM Cox
+    - PI Walter
+    - DR Sams
+    - MJJ Critchley
+    - SR Harmer
+    - LM Benkenstein
+    - BMJ Allison
+    - Aaron Beard
+    Somerset:
+    - T Banton
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - C Overton
+    - RE van der Merwe
+    - JT Ball
+    - RP Meredith
+  registry:
+    people:
+      AM Rossington: 7bcde3fe
+      AM Smith: a0bc360f
+      Aaron Beard: eab74985
+      BGF Green: 34b37279
+      BMJ Allison: 39e2c0fd
+      C Overton: e9987a94
+      D Elgar: 33085ffb
+      DR Sams: caf69bf7
+      ID Blackwell: 818e8bf2
+      JM Cox: ff154ecd
+      JT Ball: 3d0ed2f9
+      L Gregory: 06c2de82
+      LM Benkenstein: c2e5539b
+      MJJ Critchley: c5cc48bc
+      MS Pepper: 270e4c23
+      PI Walter: 57590dbb
+      PK Baldwin: 6bb53c12
+      RE van der Merwe: 05c2ca46
+      RP Meredith: '64775749'
+      Rob White: 59b91222
+      SR Dickson: 2344bdd1
+      SR Harmer: '23638956'
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      TB Abell: ba9258a7
+      WCF Smeed: 4e18e961
+  teams:
+  - Essex
+  - Somerset
+  toss:
+    winner: Somerset
+    decision: field
+  umpires:
+  - ID Blackwell
+  - Rob White
+  venue: The Cooper Associates County Ground, Taunton
+innings:
+- 1st innings:
+    team: Essex
+    deliveries:
+    - 0.1:
+        non_striker: D Elgar
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 0.2:
+        non_striker: D Elgar
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 0.3:
+        non_striker: D Elgar
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AM Rossington
+    - 0.4:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 0.5:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 0.6:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 1.1:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 1.2:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 1.3:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AM Rossington
+    - 1.4:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 1.5:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 1.6:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 2.1:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 2.2:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 2.3:
+        non_striker: D Elgar
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 2.4:
+        non_striker: D Elgar
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AM Rossington
+    - 2.5:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 2.6:
+        non_striker: D Elgar
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 3.1:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 3.2:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: D Elgar
+    - 3.3:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 3.4:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 3.5:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: AM Rossington
+    - 3.6:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 3.7:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: D Elgar
+    - 4.1:
+        non_striker: D Elgar
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 4.2:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 4.3:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Elgar
+    - 4.4:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 4.5:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 4.6:
+        non_striker: AM Rossington
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 5.1:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 5.2:
+        non_striker: AM Rossington
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 5.3:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 5.4:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 5.5:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 5.6:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 6.1:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 6.2:
+        non_striker: AM Rossington
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 6.3:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 6.4:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 6.5:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rossington
+    - 6.6:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 7.1:
+        non_striker: AM Rossington
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Elgar
+    - 7.2:
+        non_striker: AM Rossington
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 7.3:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+        wicket:
+          player_out: AM Rossington
+          kind: bowled
+    - 7.4:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Pepper
+    - 7.5:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+    - 7.6:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 8.1:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 8.2:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+    - 8.3:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+        wicket:
+          player_out: MS Pepper
+          fielders:
+          - BGF Green
+          kind: caught
+    - 8.4:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 8.5:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 8.6:
+        non_striker: JM Cox
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 9.1:
+        non_striker: D Elgar
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 9.2:
+        non_striker: JM Cox
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 9.3:
+        non_striker: D Elgar
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 9.4:
+        non_striker: D Elgar
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 9.5:
+        non_striker: JM Cox
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 9.6:
+        non_striker: JM Cox
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 10.1:
+        non_striker: JM Cox
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 10.2:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Cox
+    - 10.3:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 10.4:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Cox
+    - 10.5:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 10.6:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 11.1:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 11.2:
+        non_striker: JM Cox
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 11.3:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 11.4:
+        non_striker: JM Cox
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 11.5:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: JM Cox
+    - 11.6:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 11.7:
+        non_striker: JM Cox
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Elgar
+    - 12.1:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 12.2:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 12.3:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 12.4:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 12.5:
+        non_striker: JM Cox
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 12.6:
+        non_striker: D Elgar
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 13.1:
+        non_striker: D Elgar
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Cox
+    - 13.2:
+        non_striker: JM Cox
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Elgar
+    - 13.3:
+        non_striker: JM Cox
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 13.4:
+        non_striker: JM Cox
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: D Elgar
+    - 13.5:
+        non_striker: D Elgar
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 13.6:
+        non_striker: JM Cox
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 14.1:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 14.2:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+        wicket:
+          player_out: JM Cox
+          fielders:
+          - JT Ball
+          kind: caught
+    - 14.3:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+    - 14.4:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 14.5:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PI Walter
+    - 14.6:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PI Walter
+    - 15.1:
+        non_striker: PI Walter
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 15.2:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 15.3:
+        non_striker: PI Walter
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 15.4:
+        non_striker: D Elgar
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PI Walter
+    - 15.5:
+        non_striker: PI Walter
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 15.6:
+        non_striker: PI Walter
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 16.1:
+        non_striker: PI Walter
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 16.2:
+        non_striker: PI Walter
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 16.3:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: PI Walter
+    - 16.4:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PI Walter
+    - 16.5:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PI Walter
+        wicket:
+          player_out: PI Walter
+          kind: bowled
+    - 16.6:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 16.7:
+        non_striker: DR Sams
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 17.1:
+        non_striker: DR Sams
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 17.2:
+        non_striker: DR Sams
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 17.3:
+        non_striker: DR Sams
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 17.4:
+        non_striker: D Elgar
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+        wicket:
+          player_out: DR Sams
+          kind: bowled
+    - 17.5:
+        non_striker: D Elgar
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 17.6:
+        non_striker: MJJ Critchley
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Elgar
+    - 18.1:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 18.2:
+        non_striker: MJJ Critchley
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: D Elgar
+    - 18.3:
+        non_striker: MJJ Critchley
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 18.4:
+        non_striker: MJJ Critchley
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 18.5:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 18.6:
+        non_striker: MJJ Critchley
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 18.7:
+        non_striker: D Elgar
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 19.1:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 19.2:
+        non_striker: MJJ Critchley
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 19.3:
+        non_striker: D Elgar
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJJ Critchley
+    - 19.4:
+        non_striker: MJJ Critchley
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+        wicket:
+          player_out: D Elgar
+          fielders:
+          - T Kohler-Cadmore
+          kind: caught
+    - 19.5:
+        non_striker: MJJ Critchley
+        bowler: L Gregory
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: SR Harmer
+    - 19.6:
+        non_striker: SR Harmer
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJJ Critchley
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        non_striker: WCF Smeed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.2:
+        non_striker: WCF Smeed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.3:
+        non_striker: T Banton
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 0.4:
+        non_striker: T Banton
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 0.5:
+        non_striker: WCF Smeed
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T Banton
+    - 0.6:
+        non_striker: WCF Smeed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 0.7:
+        non_striker: WCF Smeed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 1.1:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.2:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.3:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 1.4:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.5:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: T Banton
+    - 1.6:
+        non_striker: T Banton
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.1:
+        non_striker: WCF Smeed
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 2.2:
+        non_striker: WCF Smeed
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 2.3:
+        non_striker: WCF Smeed
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 2.4:
+        non_striker: T Banton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 2.5:
+        non_striker: T Banton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 2.6:
+        non_striker: WCF Smeed
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 3.1:
+        non_striker: T Banton
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 3.2:
+        non_striker: T Banton
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.3:
+        non_striker: T Banton
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 3.4:
+        non_striker: T Banton
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.5:
+        non_striker: T Banton
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 3.6:
+        non_striker: T Banton
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 4.1:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          fielders:
+          - BMJ Allison
+          kind: caught
+    - 4.2:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.3:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.4:
+        non_striker: WCF Smeed
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 4.5:
+        non_striker: T Kohler-Cadmore
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 4.6:
+        non_striker: T Kohler-Cadmore
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 5.1:
+        non_striker: T Kohler-Cadmore
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 5.2:
+        non_striker: T Kohler-Cadmore
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 5.3:
+        non_striker: T Kohler-Cadmore
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+        wicket:
+          player_out: WCF Smeed
+          fielders:
+          - SR Harmer
+          kind: caught
+    - 5.4:
+        non_striker: T Kohler-Cadmore
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 5.5:
+        non_striker: TB Abell
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.6:
+        non_striker: TB Abell
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 6.1:
+        non_striker: T Kohler-Cadmore
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 6.2:
+        non_striker: T Kohler-Cadmore
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 6.3:
+        non_striker: T Kohler-Cadmore
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.4:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 6.5:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - SR Harmer
+          kind: caught
+    - 6.6:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 7.1:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 7.2:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.3:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 7.4:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.5:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 7.6:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.1:
+        non_striker: SR Dickson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.2:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 8.3:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 8.4:
+        non_striker: SR Dickson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 8.5:
+        non_striker: SR Dickson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.6:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 9.1:
+        non_striker: TB Abell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 9.2:
+        non_striker: SR Dickson
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.3:
+        non_striker: TB Abell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 9.4:
+        non_striker: SR Dickson
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.5:
+        non_striker: TB Abell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 9.6:
+        non_striker: SR Dickson
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.1:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 10.2:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.3:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 10.4:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.5:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Dickson
+    - 10.6:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 11.1:
+        non_striker: SR Dickson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 11.2:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 11.3:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 11.4:
+        non_striker: SR Dickson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 11.5:
+        non_striker: SR Dickson
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 11.6:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 12.1:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.2:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 12.3:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 12.4:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 12.5:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 12.6:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 12.7:
+        non_striker: SR Dickson
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.8:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SR Dickson
+    - 12.9:
+        non_striker: TB Abell
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 13.1:
+        non_striker: SR Dickson
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.2:
+        non_striker: TB Abell
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+        wicket:
+          player_out: SR Dickson
+          fielders:
+          - BMJ Allison
+          kind: caught
+    - 13.3:
+        non_striker: TB Abell
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 13.4:
+        non_striker: L Gregory
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.5:
+        non_striker: TB Abell
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 13.6:
+        non_striker: TB Abell
+        bowler: Aaron Beard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 14.1:
+        non_striker: L Gregory
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.2:
+        non_striker: TB Abell
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 14.3:
+        non_striker: TB Abell
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 14.4:
+        non_striker: L Gregory
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.5:
+        non_striker: TB Abell
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 14.6:
+        non_striker: L Gregory
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.1:
+        non_striker: L Gregory
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.2:
+        non_striker: TB Abell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Gregory
+    - 15.3:
+        non_striker: TB Abell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 15.4:
+        non_striker: TB Abell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 15.5:
+        non_striker: L Gregory
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 15.6:
+        non_striker: L Gregory
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TB Abell
+    - 16.1:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 16.2:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 16.3:
+        non_striker: L Gregory
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 16.4:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 16.5:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 16.6:
+        non_striker: TB Abell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.1:
+        non_striker: TB Abell
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.2:
+        non_striker: L Gregory
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 17.3:
+        non_striker: TB Abell
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 17.4:
+        non_striker: TB Abell
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Gregory
+    - 17.5:
+        non_striker: TB Abell
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.6:
+        non_striker: L Gregory
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 18.1:
+        non_striker: L Gregory
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 18.2:
+        non_striker: L Gregory
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          fielders:
+          - AM Rossington
+          kind: caught
+    - 18.3:
+        non_striker: L Gregory
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 18.4:
+        non_striker: BGF Green
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 18.5:
+        non_striker: BGF Green
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+        wicket:
+          player_out: L Gregory
+          kind: caught and bowled
+    - 18.6:
+        non_striker: BGF Green
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 19.1:
+        non_striker: BGF Green
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Overton

@@ -1,0 +1,2164 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: London
+  competition: Vitality Blast
+  dates:
+  - '2023-06-20'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Surrey
+    by:
+      runs: 81
+  overs: 20
+  players:
+    Surrey:
+    - WG Jacks
+    - LJ Evans
+    - SP Narine
+    - SM Curran
+    - J Overton
+    - TK Curran
+    - J Blake
+    - SA Abbott
+    - CJ Jordan
+    - CT Steel
+    - AAP Atkinson
+    Glamorgan:
+    - KS Carlson
+    - WT Smale
+    - WT Root
+    - SA Northeast
+    - CB Cooke
+    - CD Fletcher
+    - T van der Gugten
+    - AW Gorvin
+    - RAJ Smith
+    - P Hatzoglou
+    - JP McIlroy
+  registry:
+    people:
+      AAP Atkinson: 70d57519
+      AW Gorvin: 7d7233a9
+      CB Cooke: 6755cd5c
+      CD Fletcher: 4af9f5d4
+      CJ Jordan: ffe699c0
+      CT Steel: 5899dceb
+      J Blake: 3385b875
+      J Overton: 59559bc2
+      JJ Whitaker: 4ea85016
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      LJ Evans: 1c513d54
+      NJ Llong: 573fb985
+      P Hatzoglou: 6f95e5fa
+      PR Pollard: 85d884bb
+      RAJ Smith: 6daf5e8c
+      SA Abbott: 1a2676c5
+      SA Northeast: 7e4c8ba3
+      SM Curran: e94915e6
+      SP Narine: 9d430b40
+      T van der Gugten: d99cc23a
+      TK Curran: e86754b2
+      WG Jacks: 9caf69a1
+      WT Root: '72898514'
+      WT Smale: 97da28bd
+  teams:
+  - Surrey
+  - Glamorgan
+  toss:
+    winner: Glamorgan
+    decision: field
+  umpires:
+  - NJ Llong
+  - PR Pollard
+  venue: Kennington Oval, London
+innings:
+- 1st innings:
+    team: Surrey
+    deliveries:
+    - 0.1:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WG Jacks
+    - 0.2:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 0.3:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 0.4:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 0.5:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LJ Evans
+    - 0.6:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 0.7:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 1.1:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 1.2:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 1.3:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 1.4:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 1.5:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 1.6:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.1:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.2:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WG Jacks
+    - 2.3:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 2.4:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 2.5:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.6:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 3.1:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 3.2:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 3.3:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 3.4:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 3.5:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 3.6:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 4.1:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 4.2:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 4.3:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 4.4:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 4.5:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 4.6:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WG Jacks
+    - 5.1:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 5.2:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 5.3:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 5.4:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 5.5:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 5.6:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 6.1:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 6.2:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+        wicket:
+          player_out: LJ Evans
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 6.3:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 6.4:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 6.5:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 6.6:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 7.1:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 7.2:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 7.3:
+        non_striker: WG Jacks
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 7.4:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 7.5:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 7.6:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 8.1:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WG Jacks
+    - 8.2:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 8.3:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 8.4:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 8.5:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 8.6:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Narine
+    - 8.7:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 9.1:
+        non_striker: WG Jacks
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+    - 9.2:
+        non_striker: WG Jacks
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 9.3:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 9.4:
+        non_striker: WG Jacks
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Narine
+    - 9.5:
+        non_striker: WG Jacks
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 9.6:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WG Jacks
+    - 10.1:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 10.2:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 10.3:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 10.4:
+        non_striker: WG Jacks
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 10.5:
+        non_striker: SP Narine
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 10.6:
+        non_striker: SP Narine
+        bowler: T van der Gugten
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: WG Jacks
+    - 10.7:
+        non_striker: SP Narine
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 11.1:
+        non_striker: SP Narine
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 11.2:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Narine
+    - 11.3:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 11.4:
+        non_striker: SP Narine
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WG Jacks
+    - 11.5:
+        non_striker: SP Narine
+        bowler: RAJ Smith
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: WG Jacks
+    - 11.6:
+        non_striker: SP Narine
+        bowler: RAJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WG Jacks
+    - 11.7:
+        non_striker: SP Narine
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 11.8:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 12.1:
+        non_striker: WG Jacks
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Narine
+    - 12.2:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 12.3:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 12.4:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WG Jacks
+    - 12.5:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 12.6:
+        non_striker: SP Narine
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 13.1:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+        wicket:
+          player_out: WG Jacks
+          fielders:
+          - T van der Gugten
+          kind: caught
+    - 13.2:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 13.3:
+        non_striker: SP Narine
+        bowler: P Hatzoglou
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: SM Curran
+    - 13.4:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Narine
+    - 13.5:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Narine
+        wicket:
+          player_out: SP Narine
+          fielders:
+          - WT Smale
+          kind: caught
+    - 13.6:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: J Overton
+    - 13.7:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Overton
+    - 13.8:
+        non_striker: J Overton
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 14.1:
+        non_striker: SM Curran
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Overton
+    - 14.2:
+        non_striker: SM Curran
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Overton
+    - 14.3:
+        non_striker: SM Curran
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Overton
+        wicket:
+          player_out: J Overton
+          fielders:
+          - CD Fletcher
+          kind: caught
+    - 14.4:
+        non_striker: SM Curran
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 14.5:
+        non_striker: SM Curran
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 14.6:
+        non_striker: TK Curran
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 15.1:
+        non_striker: SM Curran
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 15.2:
+        non_striker: SM Curran
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 15.3:
+        non_striker: TK Curran
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 15.4:
+        non_striker: TK Curran
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 15.5:
+        non_striker: SM Curran
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 15.6:
+        non_striker: TK Curran
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 16.1:
+        non_striker: SM Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 16.2:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 16.3:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 16.4:
+        non_striker: SM Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TK Curran
+    - 16.5:
+        non_striker: SM Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TK Curran
+    - 16.6:
+        non_striker: SM Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TK Curran
+    - 17.1:
+        non_striker: TK Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 17.2:
+        non_striker: TK Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 17.3:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 17.4:
+        non_striker: TK Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 17.5:
+        non_striker: TK Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 17.6:
+        non_striker: TK Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 18.1:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TK Curran
+    - 18.2:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 18.3:
+        non_striker: TK Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 18.4:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 18.5:
+        non_striker: TK Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 18.6:
+        non_striker: TK Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 19.1:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 19.2:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 19.3:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 19.4:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 19.5:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 19.6:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+        wicket:
+          player_out: SM Curran
+          kind: bowled
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: WT Smale
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: WT Smale
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: SM Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WT Smale
+    - 0.4:
+        non_striker: KS Carlson
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 0.5:
+        non_striker: KS Carlson
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 0.6:
+        non_striker: KS Carlson
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 0.7:
+        non_striker: KS Carlson
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.1:
+        non_striker: WT Smale
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.6:
+        non_striker: KS Carlson
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Smale
+    - 2.1:
+        non_striker: WT Smale
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 2.2:
+        non_striker: WT Smale
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 2.3:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 2.4:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 2.5:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 2.6:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 3.1:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 3.2:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.3:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          fielders:
+          - TK Curran
+          kind: caught
+    - 3.4:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 3.5:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.6:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 4.1:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 4.2:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 4.3:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 4.4:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 4.5:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 4.6:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Root
+    - 5.1:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.2:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.3:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.4:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 5.5:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.6:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 6.1:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 6.2:
+        non_striker: WT Root
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.3:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 6.4:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 6.5:
+        non_striker: WT Root
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 6.6:
+        non_striker: WT Root
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.1:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.2:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 7.3:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 7.4:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 7.5:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          fielders:
+          - J Blake
+          kind: caught
+    - 7.6:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 8.1:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CB Cooke
+    - 8.2:
+        non_striker: CB Cooke
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Root
+    - 8.3:
+        non_striker: CB Cooke
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Root
+    - 8.4:
+        non_striker: CB Cooke
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 8.5:
+        non_striker: CB Cooke
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 8.6:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.1:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 9.2:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 9.3:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.4:
+        non_striker: CB Cooke
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 9.5:
+        non_striker: CB Cooke
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: WT Root
+    - 9.6:
+        non_striker: WT Root
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 10.1:
+        non_striker: WT Root
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 10.2:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 10.3:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Root
+    - 10.4:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 10.5:
+        non_striker: WT Root
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 10.6:
+        non_striker: WT Root
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.1:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CB Cooke
+    - 11.2:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.3:
+        non_striker: CB Cooke
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Root
+    - 11.4:
+        non_striker: CB Cooke
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Root
+    - 11.5:
+        non_striker: CB Cooke
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 11.6:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 11.7:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.1:
+        non_striker: WT Root
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 12.2:
+        non_striker: WT Root
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.3:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+        wicket:
+          player_out: WT Root
+          kind: bowled
+    - 12.4:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 12.5:
+        non_striker: CD Fletcher
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.6:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 13.1:
+        non_striker: CD Fletcher
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 13.2:
+        non_striker: CD Fletcher
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 13.3:
+        non_striker: CD Fletcher
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 13.4:
+        non_striker: CD Fletcher
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 13.5:
+        non_striker: CD Fletcher
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 13.6:
+        non_striker: CD Fletcher
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 14.1:
+        non_striker: CD Fletcher
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 14.2:
+        non_striker: CD Fletcher
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 14.3:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+        wicket:
+          player_out: CD Fletcher
+          fielders:
+          - CT Steel
+          kind: caught
+    - 14.4:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 14.5:
+        non_striker: T van der Gugten
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 14.6:
+        non_striker: T van der Gugten
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 15.1:
+        non_striker: CB Cooke
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.2:
+        non_striker: T van der Gugten
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 15.3:
+        non_striker: CB Cooke
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.4:
+        non_striker: T van der Gugten
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - TK Curran
+          kind: caught
+    - 15.5:
+        non_striker: T van der Gugten
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 15.6:
+        non_striker: AW Gorvin
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          fielders:
+          - J Blake
+          kind: caught
+    - 16.1:
+        non_striker: RAJ Smith
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 16.2:
+        non_striker: RAJ Smith
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 16.3:
+        non_striker: RAJ Smith
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 16.4:
+        non_striker: AW Gorvin
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RAJ Smith
+    - 16.5:
+        non_striker: RAJ Smith
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 16.6:
+        non_striker: RAJ Smith
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 17.1:
+        non_striker: RAJ Smith
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 17.2:
+        non_striker: AW Gorvin
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RAJ Smith
+    - 17.3:
+        non_striker: RAJ Smith
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AW Gorvin
+    - 17.4:
+        non_striker: RAJ Smith
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+        wicket:
+          player_out: AW Gorvin
+          fielders:
+          - J Blake
+          kind: caught
+    - 17.5:
+        non_striker: RAJ Smith
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: P Hatzoglou
+    - 17.6:
+        non_striker: P Hatzoglou
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+    - 18.1:
+        non_striker: RAJ Smith
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Hatzoglou
+    - 18.2:
+        non_striker: RAJ Smith
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 18.3:
+        non_striker: P Hatzoglou
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+    - 18.4:
+        non_striker: P Hatzoglou
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RAJ Smith
+    - 18.5:
+        non_striker: RAJ Smith
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Hatzoglou
+    - 18.6:
+        non_striker: RAJ Smith
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Hatzoglou
+    - 19.1:
+        non_striker: P Hatzoglou
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RAJ Smith
+    - 19.2:
+        non_striker: RAJ Smith
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Hatzoglou
+    - 19.3:
+        non_striker: RAJ Smith
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Hatzoglou
+    - 19.4:
+        non_striker: RAJ Smith
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 19.5:
+        non_striker: P Hatzoglou
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+    - 19.6:
+        non_striker: P Hatzoglou
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith

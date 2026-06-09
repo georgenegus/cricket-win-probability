@@ -1,0 +1,2111 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-09'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Nottingham
+  competition: Vitality Blast
+  dates:
+  - '2024-06-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Lancashire
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Nottinghamshire:
+    - JM Clarke
+    - AD Hales
+    - WA Young
+    - JA Haynes
+    - M Montgomery
+    - LW James
+    - TJ Moores
+    - LA Patterson-White
+    - CG Harrison
+    - OP Stone
+    - BG Lister
+    Lancashire:
+    - JJ Bohannon
+    - LWP Wells
+    - KK Jennings
+    - TC Bruce
+    - MF Hurst
+    - SJ Croft
+    - CJ Green
+    - L Wood
+    - JP Morley
+    - JM Blatherwick
+    - S Mahmood
+  registry:
+    people:
+      AD Hales: 92aeac25
+      AM Smith: a0bc360f
+      BG Lister: 79f5bc26
+      CG Harrison: f655d740
+      CJ Green: 19b9f399
+      GD Lloyd: 36e0770d
+      JA Haynes: fe4ebca0
+      JJ Bohannon: fd96de7c
+      JM Blatherwick: 35c08a29
+      JM Clarke: 2eca67f5
+      JP Morley: 7a8a0237
+      KK Jennings: 8479a24a
+      L Wood: 65b6943c
+      LA Patterson-White: d48c0f40
+      LW James: 2baad3bd
+      LWP Wells: 1957c6b7
+      M Montgomery: 7671203a
+      MF Hurst: 40e4cf47
+      OP Stone: 3f659464
+      S Mahmood: 0f6db197
+      SJ Croft: ab474682
+      SJ O'Shaughnessy: 4d4fdf4a
+      TC Bruce: f92c9151
+      TJ Moores: 85dcb721
+      WA Young: 8afe73e2
+  teams:
+  - Nottinghamshire
+  - Lancashire
+  toss:
+    winner: Nottinghamshire
+    decision: bat
+  umpires:
+  - GD Lloyd
+  - SJ O'Shaughnessy
+  venue: Trent Bridge, Nottingham
+innings:
+- 1st innings:
+    team: Nottinghamshire
+    deliveries:
+    - 0.1:
+        non_striker: AD Hales
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Clarke
+    - 0.2:
+        non_striker: JM Clarke
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 0.3:
+        non_striker: JM Clarke
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 0.4:
+        non_striker: JM Clarke
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Hales
+    - 0.5:
+        non_striker: JM Clarke
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+        wicket:
+          player_out: JM Clarke
+          fielders:
+          - LWP Wells
+          kind: run out
+    - 0.6:
+        non_striker: AD Hales
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 0.7:
+        non_striker: WA Young
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 1.1:
+        non_striker: WA Young
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 1.2:
+        non_striker: WA Young
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 1.3:
+        non_striker: WA Young
+        bowler: S Mahmood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AD Hales
+    - 1.4:
+        non_striker: AD Hales
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+        wicket:
+          player_out: WA Young
+          fielders:
+          - MF Hurst
+          kind: caught
+    - 1.5:
+        non_striker: AD Hales
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 1.6:
+        non_striker: AD Hales
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 2.1:
+        non_striker: AD Hales
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 2.2:
+        non_striker: JA Haynes
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 2.3:
+        non_striker: AD Hales
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 2.4:
+        non_striker: AD Hales
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 2.5:
+        non_striker: AD Hales
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 2.6:
+        non_striker: JA Haynes
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 3.1:
+        non_striker: AD Hales
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 3.2:
+        non_striker: JA Haynes
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 3.3:
+        non_striker: JA Haynes
+        bowler: S Mahmood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Hales
+    - 3.4:
+        non_striker: JA Haynes
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 3.5:
+        non_striker: AD Hales
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 3.6:
+        non_striker: AD Hales
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: JA Haynes
+    - 3.7:
+        non_striker: JA Haynes
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+        wicket:
+          player_out: AD Hales
+          fielders:
+          - JM Blatherwick
+          kind: caught
+    - 4.1:
+        non_striker: M Montgomery
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 4.2:
+        non_striker: M Montgomery
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 4.3:
+        non_striker: JA Haynes
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 4.4:
+        non_striker: JA Haynes
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 4.5:
+        non_striker: JA Haynes
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 4.6:
+        non_striker: M Montgomery
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JA Haynes
+    - 5.1:
+        non_striker: M Montgomery
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 5.2:
+        non_striker: M Montgomery
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 5.3:
+        non_striker: M Montgomery
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 5.4:
+        non_striker: M Montgomery
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 5.5:
+        non_striker: JA Haynes
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 5.6:
+        non_striker: JA Haynes
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 6.1:
+        non_striker: M Montgomery
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 6.2:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 6.3:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 6.4:
+        non_striker: M Montgomery
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 6.5:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 6.6:
+        non_striker: M Montgomery
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.1:
+        non_striker: M Montgomery
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 7.2:
+        non_striker: M Montgomery
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.3:
+        non_striker: JA Haynes
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 7.4:
+        non_striker: M Montgomery
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 7.5:
+        non_striker: M Montgomery
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 7.6:
+        non_striker: JA Haynes
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 8.1:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 8.2:
+        non_striker: M Montgomery
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 8.3:
+        non_striker: M Montgomery
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 8.4:
+        non_striker: M Montgomery
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 8.5:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+        wicket:
+          player_out: M Montgomery
+          kind: lbw
+    - 8.6:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 9.1:
+        non_striker: JA Haynes
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 9.2:
+        non_striker: LW James
+        bowler: JM Blatherwick
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: JA Haynes
+    - 9.3:
+        non_striker: JA Haynes
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 9.4:
+        non_striker: LW James
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 9.5:
+        non_striker: JA Haynes
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 9.6:
+        non_striker: JA Haynes
+        bowler: JM Blatherwick
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LW James
+    - 9.7:
+        non_striker: LW James
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 10.1:
+        non_striker: LW James
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 10.2:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LW James
+    - 10.3:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.4:
+        non_striker: LW James
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 10.5:
+        non_striker: LW James
+        bowler: LWP Wells
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JA Haynes
+    - 10.6:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.1:
+        non_striker: JA Haynes
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.2:
+        non_striker: LW James
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 11.3:
+        non_striker: JA Haynes
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 11.4:
+        non_striker: JA Haynes
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 11.5:
+        non_striker: JA Haynes
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.6:
+        non_striker: LW James
+        bowler: JP Morley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 12.1:
+        non_striker: JA Haynes
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+        wicket:
+          player_out: LW James
+          kind: bowled
+    - 12.2:
+        non_striker: JA Haynes
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 12.3:
+        non_striker: TJ Moores
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 12.4:
+        non_striker: JA Haynes
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 12.5:
+        non_striker: JA Haynes
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 12.6:
+        non_striker: TJ Moores
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 13.1:
+        non_striker: JA Haynes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+        wicket:
+          player_out: JA Haynes
+          fielders:
+          - S Mahmood
+          kind: run out
+    - 13.2:
+        non_striker: LA Patterson-White
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 13.3:
+        non_striker: TJ Moores
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 13.4:
+        non_striker: TJ Moores
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 13.5:
+        non_striker: LA Patterson-White
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 13.6:
+        non_striker: LA Patterson-White
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 14.1:
+        non_striker: TJ Moores
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 14.2:
+        non_striker: TJ Moores
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 14.3:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TJ Moores
+    - 14.4:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 14.5:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 14.6:
+        non_striker: TJ Moores
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 15.1:
+        non_striker: TJ Moores
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Patterson-White
+    - 15.2:
+        non_striker: TJ Moores
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Patterson-White
+    - 15.3:
+        non_striker: TJ Moores
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 15.4:
+        non_striker: LA Patterson-White
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 15.5:
+        non_striker: TJ Moores
+        bowler: JM Blatherwick
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: LA Patterson-White
+    - 15.6:
+        non_striker: TJ Moores
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Patterson-White
+    - 15.7:
+        non_striker: TJ Moores
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Patterson-White
+    - 16.1:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TJ Moores
+    - 16.2:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 16.3:
+        non_striker: TJ Moores
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 16.4:
+        non_striker: TJ Moores
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 16.5:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TJ Moores
+    - 16.6:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TJ Moores
+    - 16.7:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+        wicket:
+          player_out: TJ Moores
+          fielders:
+          - JM Blatherwick
+          kind: caught
+    - 17.1:
+        non_striker: CG Harrison
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 17.2:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Harrison
+    - 17.3:
+        non_striker: CG Harrison
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 17.4:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Harrison
+    - 17.5:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CG Harrison
+    - 17.6:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Harrison
+        wicket:
+          player_out: CG Harrison
+          fielders:
+          - LWP Wells
+          kind: caught
+    - 17.7:
+        non_striker: LA Patterson-White
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OP Stone
+    - 18.1:
+        non_striker: OP Stone
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 18.2:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OP Stone
+    - 18.3:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 18.4:
+        non_striker: LA Patterson-White
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 18.5:
+        non_striker: OP Stone
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Patterson-White
+    - 18.6:
+        non_striker: OP Stone
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 19.1:
+        non_striker: OP Stone
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 19.2:
+        non_striker: LA Patterson-White
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OP Stone
+    - 19.3:
+        non_striker: LA Patterson-White
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OP Stone
+    - 19.4:
+        non_striker: LA Patterson-White
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OP Stone
+    - 19.5:
+        non_striker: OP Stone
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Patterson-White
+    - 19.6:
+        non_striker: OP Stone
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Patterson-White
+- 2nd innings:
+    team: Lancashire
+    deliveries:
+    - 0.1:
+        non_striker: LWP Wells
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 0.2:
+        non_striker: LWP Wells
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 0.3:
+        non_striker: JJ Bohannon
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 0.4:
+        non_striker: JJ Bohannon
+        bowler: M Montgomery
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LWP Wells
+    - 0.5:
+        non_striker: JJ Bohannon
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 0.6:
+        non_striker: JJ Bohannon
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 0.7:
+        non_striker: JJ Bohannon
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 1.1:
+        non_striker: JJ Bohannon
+        bowler: BG Lister
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LWP Wells
+    - 1.2:
+        non_striker: LWP Wells
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Bohannon
+    - 1.3:
+        non_striker: LWP Wells
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 1.4:
+        non_striker: LWP Wells
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JJ Bohannon
+    - 1.5:
+        non_striker: LWP Wells
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 1.6:
+        non_striker: JJ Bohannon
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 2.1:
+        non_striker: JJ Bohannon
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+        wicket:
+          player_out: LWP Wells
+          fielders:
+          - WA Young
+          kind: caught
+    - 2.2:
+        non_striker: JJ Bohannon
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 2.3:
+        non_striker: JJ Bohannon
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 2.4:
+        non_striker: JJ Bohannon
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 2.5:
+        non_striker: JJ Bohannon
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 2.6:
+        non_striker: JJ Bohannon
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 3.1:
+        non_striker: KK Jennings
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 3.2:
+        non_striker: JJ Bohannon
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 3.3:
+        non_striker: KK Jennings
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Bohannon
+    - 3.4:
+        non_striker: KK Jennings
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 3.5:
+        non_striker: JJ Bohannon
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 3.6:
+        non_striker: JJ Bohannon
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 4.1:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 4.2:
+        non_striker: JJ Bohannon
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 4.3:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+        wicket:
+          player_out: JJ Bohannon
+          fielders:
+          - JA Haynes
+          kind: caught
+    - 4.4:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 4.5:
+        non_striker: TC Bruce
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 4.6:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TC Bruce
+    - 5.1:
+        non_striker: TC Bruce
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Jennings
+    - 5.2:
+        non_striker: TC Bruce
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 5.3:
+        non_striker: TC Bruce
+        bowler: OP Stone
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KK Jennings
+    - 5.4:
+        non_striker: TC Bruce
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 5.5:
+        non_striker: TC Bruce
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 5.6:
+        non_striker: TC Bruce
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 5.7:
+        non_striker: TC Bruce
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 6.1:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: TC Bruce
+    - 6.2:
+        non_striker: TC Bruce
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 6.3:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 6.4:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 6.5:
+        non_striker: TC Bruce
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 6.6:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 6.7:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 7.1:
+        non_striker: KK Jennings
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 7.2:
+        non_striker: TC Bruce
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 7.3:
+        non_striker: TC Bruce
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 7.4:
+        non_striker: KK Jennings
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 7.5:
+        non_striker: TC Bruce
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 7.6:
+        non_striker: KK Jennings
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 8.1:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TC Bruce
+    - 8.2:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TC Bruce
+    - 8.3:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 8.4:
+        non_striker: TC Bruce
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 8.5:
+        non_striker: KK Jennings
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 8.6:
+        non_striker: TC Bruce
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 9.1:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 9.2:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+        wicket:
+          player_out: TC Bruce
+          kind: bowled
+    - 9.3:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 9.4:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 9.5:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 9.6:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 10.1:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 10.2:
+        non_striker: KK Jennings
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.3:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Jennings
+    - 10.4:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 10.5:
+        non_striker: KK Jennings
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.6:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KK Jennings
+    - 10.7:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 11.1:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 11.2:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 11.3:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 11.4:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 11.5:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 11.6:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 12.1:
+        non_striker: MF Hurst
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 12.2:
+        non_striker: KK Jennings
+        bowler: LW James
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MF Hurst
+    - 12.3:
+        non_striker: MF Hurst
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 12.4:
+        non_striker: KK Jennings
+        bowler: LW James
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MF Hurst
+    - 12.5:
+        non_striker: KK Jennings
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 12.6:
+        non_striker: MF Hurst
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 12.7:
+        non_striker: MF Hurst
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 13.1:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 13.2:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 13.3:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 13.4:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 13.5:
+        non_striker: KK Jennings
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 13.6:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 14.1:
+        non_striker: MF Hurst
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 14.2:
+        non_striker: MF Hurst
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 14.3:
+        non_striker: MF Hurst
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 14.4:
+        non_striker: KK Jennings
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 14.5:
+        non_striker: MF Hurst
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 14.6:
+        non_striker: KK Jennings
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 15.1:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 15.2:
+        non_striker: KK Jennings
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 15.3:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 15.4:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 15.5:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 15.6:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+        wicket:
+          player_out: KK Jennings
+          kind: bowled
+    - 16.1:
+        non_striker: SJ Croft
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 16.2:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 16.3:
+        non_striker: SJ Croft
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MF Hurst
+    - 16.4:
+        non_striker: SJ Croft
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 16.5:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 16.6:
+        non_striker: MF Hurst
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 17.1:
+        non_striker: SJ Croft
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 17.2:
+        non_striker: SJ Croft
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 17.3:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: SJ Croft
+    - 17.4:
+        non_striker: SJ Croft
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 17.5:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 17.6:
+        non_striker: MF Hurst
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 18.1:
+        non_striker: SJ Croft
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 18.2:
+        non_striker: MF Hurst
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 18.3:
+        non_striker: SJ Croft
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst

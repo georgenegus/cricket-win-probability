@@ -1,0 +1,2069 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-07'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leicester
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Birmingham Bears
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Leicestershire:
+    - RK Patel
+    - SG Budinger
+    - Shan Masood
+    - Rehan Ahmed
+    - LPJ Kimber
+    - OB Cox
+    - L Trevaskis
+    - LV van Beek
+    - TAR Scriven
+    - SB Wood
+    - J Hull
+    Birmingham Bears:
+    - AL Davies
+    - TWM Latham
+    - DR Mousley
+    - SR Hain
+    - MM Ali
+    - EG Barnard
+    - RM Yates
+    - Hasan Ali
+    - RJ Gleeson
+    - GHS Garton
+    - DR Briggs
+  registry:
+    people:
+      AL Davies: 29ede60b
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      EG Barnard: a510bdd3
+      GHS Garton: be869ccf
+      Hasan Ali: 2911de16
+      Hassan Adnan: 56ca7a8c
+      IL Herbert: 125f9f05
+      J Hull: 1cc0a83d
+      L Trevaskis: b5781ac3
+      LPJ Kimber: 9f812582
+      LV van Beek: 782fb776
+      MM Ali: bb351c23
+      OB Cox: 324a6ee1
+      RJ Gleeson: 402f8494
+      RK Patel: 4531f249
+      RM Yates: 3581a798
+      Rehan Ahmed: 0ecb4de6
+      SB Wood: c2d9b9cd
+      SG Budinger: bfc60227
+      SR Hain: 67b9536c
+      Shan Masood: 6843a783
+      TAR Scriven: ac3c3cab
+      TWM Latham: e824e6ee
+      Tom Lungley: 75169b8c
+  teams:
+  - Leicestershire
+  - Birmingham Bears
+  toss:
+    winner: Birmingham Bears
+    decision: field
+  umpires:
+  - Hassan Adnan
+  - Tom Lungley
+  venue: Grace Road, Leicester
+innings:
+- 1st innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: SG Budinger
+        batsman: RK Patel
+    - 0.2:
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: SG Budinger
+        batsman: RK Patel
+    - 0.3:
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: SG Budinger
+        batsman: RK Patel
+    - 0.4:
+        non_striker: RK Patel
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 0.5:
+        non_striker: RK Patel
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 0.6:
+        non_striker: RK Patel
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.1:
+        non_striker: RK Patel
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 1.2:
+        non_striker: RK Patel
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 1.3:
+        non_striker: RK Patel
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.4:
+        non_striker: SG Budinger
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 1.5:
+        non_striker: SG Budinger
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 1.6:
+        non_striker: SG Budinger
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 2.1:
+        non_striker: RK Patel
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SG Budinger
+    - 2.2:
+        non_striker: RK Patel
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 2.3:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          fielders:
+          - MM Ali
+          kind: caught
+    - 2.4:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+        wicket:
+          player_out: Shan Masood
+          fielders:
+          - SR Hain
+          kind: caught
+    - 2.5:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rehan Ahmed
+    - 2.6:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 2.7:
+        non_striker: Rehan Ahmed
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 3.1:
+        non_striker: SG Budinger
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 3.2:
+        non_striker: SG Budinger
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 3.3:
+        non_striker: SG Budinger
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 3.4:
+        non_striker: SG Budinger
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 3.5:
+        non_striker: SG Budinger
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 3.6:
+        non_striker: SG Budinger
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 4.1:
+        non_striker: Rehan Ahmed
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 4.2:
+        non_striker: Rehan Ahmed
+        bowler: DR Mousley
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: SG Budinger
+    - 4.3:
+        non_striker: SG Budinger
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 4.4:
+        non_striker: Rehan Ahmed
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 4.5:
+        non_striker: Rehan Ahmed
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SG Budinger
+    - 4.6:
+        non_striker: Rehan Ahmed
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 4.7:
+        non_striker: Rehan Ahmed
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 5.1:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+        wicket:
+          player_out: Rehan Ahmed
+          kind: bowled
+    - 5.2:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 5.3:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 5.4:
+        non_striker: LPJ Kimber
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 5.5:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+        wicket:
+          player_out: LPJ Kimber
+          kind: lbw
+    - 5.6:
+        non_striker: SG Budinger
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 6.1:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 6.2:
+        non_striker: SG Budinger
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 6.3:
+        non_striker: SG Budinger
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 6.4:
+        non_striker: SG Budinger
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 6.5:
+        non_striker: SG Budinger
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 6.6:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 7.1:
+        non_striker: OB Cox
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SG Budinger
+    - 7.2:
+        non_striker: OB Cox
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 7.3:
+        non_striker: OB Cox
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 7.4:
+        non_striker: SG Budinger
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 7.5:
+        non_striker: OB Cox
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 7.6:
+        non_striker: SG Budinger
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 8.1:
+        non_striker: SG Budinger
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 8.2:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 8.3:
+        non_striker: SG Budinger
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 8.4:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 8.5:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+        wicket:
+          player_out: SG Budinger
+          fielders:
+          - GHS Garton
+          kind: caught
+    - 8.6:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 9.1:
+        non_striker: OB Cox
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 9.2:
+        non_striker: L Trevaskis
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 9.3:
+        non_striker: L Trevaskis
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 9.4:
+        non_striker: L Trevaskis
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 9.5:
+        non_striker: L Trevaskis
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 9.6:
+        non_striker: L Trevaskis
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.1:
+        non_striker: L Trevaskis
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.2:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 10.3:
+        non_striker: L Trevaskis
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.4:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Trevaskis
+    - 10.5:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Trevaskis
+    - 10.6:
+        non_striker: OB Cox
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Trevaskis
+        wicket:
+          player_out: L Trevaskis
+          fielders:
+          - SR Hain
+          kind: caught
+    - 11.1:
+        bowler: RJ Gleeson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: LV van Beek
+        batsman: OB Cox
+    - 11.2:
+        non_striker: LV van Beek
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+        wicket:
+          player_out: OB Cox
+          kind: bowled
+    - 11.3:
+        non_striker: LV van Beek
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+    - 11.4:
+        non_striker: LV van Beek
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 11.5:
+        non_striker: TAR Scriven
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+    - 11.6:
+        non_striker: TAR Scriven
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+    - 11.7:
+        non_striker: TAR Scriven
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+    - 12.1:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+    - 12.2:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 12.3:
+        non_striker: TAR Scriven
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+    - 12.4:
+        non_striker: TAR Scriven
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 12.5:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAR Scriven
+    - 12.6:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 13.1:
+        non_striker: LV van Beek
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 13.2:
+        non_striker: TAR Scriven
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 13.3:
+        non_striker: LV van Beek
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 13.4:
+        non_striker: TAR Scriven
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 13.5:
+        non_striker: LV van Beek
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 13.6:
+        non_striker: TAR Scriven
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 14.1:
+        non_striker: TAR Scriven
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+    - 14.2:
+        non_striker: TAR Scriven
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 14.3:
+        non_striker: LV van Beek
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 14.4:
+        non_striker: TAR Scriven
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LV van Beek
+    - 14.5:
+        non_striker: TAR Scriven
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 14.6:
+        non_striker: LV van Beek
+        bowler: DR Mousley
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: TAR Scriven
+    - 14.7:
+        non_striker: TAR Scriven
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 15.1:
+        non_striker: TAR Scriven
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 15.2:
+        non_striker: LV van Beek
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+    - 15.3:
+        non_striker: LV van Beek
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAR Scriven
+    - 15.4:
+        non_striker: LV van Beek
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 15.5:
+        non_striker: TAR Scriven
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 15.6:
+        non_striker: LV van Beek
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 16.1:
+        non_striker: LV van Beek
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 16.2:
+        non_striker: TAR Scriven
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 16.3:
+        non_striker: LV van Beek
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 16.4:
+        non_striker: TAR Scriven
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 16.5:
+        non_striker: LV van Beek
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+        wicket:
+          player_out: TAR Scriven
+          fielders:
+          - TWM Latham
+          kind: caught
+    - 16.6:
+        non_striker: LV van Beek
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wood
+    - 17.1:
+        non_striker: SB Wood
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 17.2:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SB Wood
+    - 17.3:
+        non_striker: SB Wood
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 17.4:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wood
+    - 17.5:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SB Wood
+    - 17.6:
+        non_striker: LV van Beek
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wood
+    - 18.1:
+        non_striker: SB Wood
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 18.2:
+        non_striker: LV van Beek
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Wood
+    - 18.3:
+        non_striker: SB Wood
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 18.4:
+        non_striker: LV van Beek
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Wood
+    - 18.5:
+        non_striker: SB Wood
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 18.6:
+        non_striker: LV van Beek
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wood
+        wicket:
+          player_out: SB Wood
+          fielders:
+          - GHS Garton
+          kind: caught
+    - 19.1:
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: J Hull
+        batsman: LV van Beek
+    - 19.2:
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: J Hull
+        batsman: LV van Beek
+    - 19.3:
+        non_striker: J Hull
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+        wicket:
+          player_out: LV van Beek
+          fielders:
+          - Hasan Ali
+          kind: caught
+- 2nd innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.2:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.3:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.4:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.5:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.6:
+        non_striker: TWM Latham
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 1.1:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TWM Latham
+    - 1.2:
+        non_striker: TWM Latham
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.3:
+        non_striker: TWM Latham
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AL Davies
+    - 1.4:
+        non_striker: TWM Latham
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.5:
+        non_striker: TWM Latham
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 1.6:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 2.1:
+        non_striker: AL Davies
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+        wicket:
+          player_out: TWM Latham
+          fielders:
+          - TAR Scriven
+          kind: caught
+    - 2.2:
+        non_striker: AL Davies
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 2.3:
+        non_striker: AL Davies
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 2.4:
+        non_striker: AL Davies
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 2.5:
+        non_striker: AL Davies
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 2.6:
+        non_striker: AL Davies
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 3.1:
+        non_striker: DR Mousley
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 3.2:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DR Mousley
+    - 3.3:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 3.4:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DR Mousley
+    - 3.5:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.6:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.7:
+        non_striker: AL Davies
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 3.8:
+        non_striker: DR Mousley
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 4.1:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 4.2:
+        non_striker: AL Davies
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 4.3:
+        non_striker: AL Davies
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.4:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          fielders:
+          - OB Cox
+          kind: caught
+    - 4.5:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 4.6:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.1:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.2:
+        non_striker: SR Hain
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.3:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 5.4:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 5.5:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 5.6:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 6.1:
+        non_striker: SR Hain
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 6.2:
+        non_striker: SR Hain
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.3:
+        non_striker: DR Mousley
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.4:
+        non_striker: SR Hain
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.5:
+        non_striker: DR Mousley
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 6.6:
+        non_striker: DR Mousley
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 7.1:
+        non_striker: SR Hain
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.2:
+        non_striker: DR Mousley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 7.3:
+        non_striker: DR Mousley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.4:
+        non_striker: SR Hain
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 7.5:
+        non_striker: SR Hain
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.6:
+        non_striker: DR Mousley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.1:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: SR Hain
+    - 8.2:
+        non_striker: SR Hain
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.3:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.4:
+        non_striker: SR Hain
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.5:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 8.6:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.7:
+        non_striker: SR Hain
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 9.1:
+        non_striker: SR Hain
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 9.2:
+        non_striker: DR Mousley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.3:
+        non_striker: SR Hain
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 9.4:
+        non_striker: DR Mousley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.5:
+        non_striker: SR Hain
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 9.6:
+        non_striker: SR Hain
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 10.1:
+        non_striker: SR Hain
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 10.2:
+        non_striker: SR Hain
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 10.3:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.4:
+        non_striker: SR Hain
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 10.5:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.6:
+        non_striker: SR Hain
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.1:
+        non_striker: SR Hain
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 11.2:
+        non_striker: SR Hain
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.3:
+        non_striker: DR Mousley
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.4:
+        non_striker: SR Hain
+        bowler: J Hull
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DR Mousley
+    - 11.5:
+        non_striker: SR Hain
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 11.6:
+        non_striker: SR Hain
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.7:
+        non_striker: DR Mousley
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.1:
+        non_striker: DR Mousley
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.2:
+        non_striker: SR Hain
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 12.3:
+        non_striker: DR Mousley
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.4:
+        non_striker: SR Hain
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 12.5:
+        non_striker: DR Mousley
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.6:
+        non_striker: SR Hain
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 13.1:
+        non_striker: SR Hain
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 13.2:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 13.3:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SR Hain
+    - 13.4:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 13.5:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 13.6:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 13.7:
+        non_striker: SR Hain
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 14.1:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.2:
+        non_striker: SR Hain
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 14.3:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.4:
+        non_striker: SR Hain
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 14.5:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 14.6:
+        non_striker: DR Mousley
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 15.1:
+        non_striker: SR Hain
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 15.2:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 15.3:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.4:
+        non_striker: SR Hain
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 15.5:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 15.6:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+        wicket:
+          player_out: SR Hain
+          fielders:
+          - L Trevaskis
+          kind: caught
+    - 16.1:
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: MM Ali
+        batsman: DR Mousley
+    - 16.2:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 16.3:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MM Ali
+    - 16.4:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 16.5:
+        non_striker: DR Mousley
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 16.6:
+        non_striker: MM Ali
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 16.7:
+        non_striker: MM Ali
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 17.1:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+        wicket:
+          player_out: MM Ali
+          kind: caught and bowled
+    - 17.2:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 17.3:
+        non_striker: EG Barnard
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 17.4:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 17.5:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 17.6:
+        non_striker: DR Mousley
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 18.1:
+        non_striker: EG Barnard
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 18.2:
+        non_striker: EG Barnard
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley

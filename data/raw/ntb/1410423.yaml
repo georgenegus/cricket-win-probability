@@ -1,0 +1,2258 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-16'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chester-le-Street
+  competition: Vitality Blast
+  dates:
+  - '2024-06-16'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Durham
+    by:
+      runs: 2
+  overs: 20
+  players:
+    Durham:
+    - G Clark
+    - AZ Lees
+    - DG Bedingham
+    - AJ Turner
+    - OG Robinson
+    - BS McKinney
+    - BA Raine
+    - P Coughlin
+    - MJ Potts
+    - CF Parkinson
+    - NA Sowter
+    Lancashire:
+    - LWP Wells
+    - JJ Bohannon
+    - KK Jennings
+    - MF Hurst
+    - TC Bruce
+    - SJ Croft
+    - CJ Green
+    - GP Balderson
+    - JM Blatherwick
+    - L Wood
+    - S Mahmood
+  registry:
+    people:
+      AJ Turner: ff1e12a0
+      AZ Lees: c9c0fe50
+      BA Raine: 4c0f3806
+      BS McKinney: 1db6e336
+      CF Parkinson: aa1210d8
+      CJ Green: 19b9f399
+      DG Bedingham: a1b69936
+      G Clark: 4fd09cfc
+      GP Balderson: 23dee937
+      JJ Bohannon: fd96de7c
+      JM Blatherwick: 35c08a29
+      KK Jennings: 8479a24a
+      L Wood: 65b6943c
+      LWP Wells: 1957c6b7
+      MF Hurst: 40e4cf47
+      MJ Potts: 894b2d25
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      P Coughlin: '71440756'
+      S Mahmood: 0f6db197
+      SJ Croft: ab474682
+      SJ O'Shaughnessy: 4d4fdf4a
+      TC Bruce: f92c9151
+      Tom Lungley: 75169b8c
+      WR Smith: ad962377
+  teams:
+  - Durham
+  - Lancashire
+  toss:
+    winner: Durham
+    decision: bat
+  umpires:
+  - SJ O'Shaughnessy
+  - Tom Lungley
+  venue: Riverside Ground, Chester-le-Street
+innings:
+- 1st innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.2:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.3:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 0.4:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.5:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 0.6:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.1:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 1.2:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 1.3:
+        non_striker: AZ Lees
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.4:
+        non_striker: AZ Lees
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 1.5:
+        non_striker: AZ Lees
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 1.6:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AZ Lees
+    - 2.1:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 2.2:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 2.3:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 2.4:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 2.5:
+        non_striker: AZ Lees
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.6:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.1:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 3.2:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 3.3:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.4:
+        non_striker: AZ Lees
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: G Clark
+    - 3.5:
+        non_striker: AZ Lees
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 3.6:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 3.7:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.1:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.2:
+        non_striker: AZ Lees
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 4.3:
+        non_striker: AZ Lees
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 4.4:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 4.5:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: AZ Lees
+    - 4.6:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 4.7:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 5.1:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 5.2:
+        non_striker: AZ Lees
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 5.3:
+        non_striker: AZ Lees
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 5.4:
+        non_striker: AZ Lees
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 5.5:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AZ Lees
+    - 5.6:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 6.1:
+        non_striker: AZ Lees
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 6.2:
+        non_striker: AZ Lees
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 6.3:
+        non_striker: AZ Lees
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 6.4:
+        non_striker: AZ Lees
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 6.5:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 6.6:
+        non_striker: AZ Lees
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 7.1:
+        non_striker: AZ Lees
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 7.2:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.3:
+        non_striker: AZ Lees
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 7.4:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          fielders:
+          - SJ Croft
+          kind: caught
+    - 7.5:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DG Bedingham
+    - 7.6:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 8.1:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 8.2:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 8.3:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 8.4:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 8.5:
+        non_striker: DG Bedingham
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 8.6:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 9.1:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 9.2:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 9.3:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 9.4:
+        non_striker: DG Bedingham
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 9.5:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 9.6:
+        non_striker: DG Bedingham
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 10.1:
+        non_striker: DG Bedingham
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 10.2:
+        non_striker: DG Bedingham
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 10.3:
+        non_striker: DG Bedingham
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 10.4:
+        non_striker: DG Bedingham
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 10.5:
+        non_striker: G Clark
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 10.6:
+        non_striker: DG Bedingham
+        bowler: JM Blatherwick
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: G Clark
+    - 10.7:
+        non_striker: DG Bedingham
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 11.1:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 11.2:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 11.3:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 11.4:
+        non_striker: DG Bedingham
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 11.5:
+        non_striker: G Clark
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 11.6:
+        non_striker: DG Bedingham
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 12.1:
+        non_striker: DG Bedingham
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 12.2:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 12.3:
+        non_striker: DG Bedingham
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 12.4:
+        non_striker: DG Bedingham
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 12.5:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DG Bedingham
+    - 12.6:
+        non_striker: DG Bedingham
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 13.1:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 13.2:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 13.3:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 13.4:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 13.5:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 13.6:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DG Bedingham
+    - 13.7:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 14.1:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 14.2:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: G Clark
+    - 14.3:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 14.4:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 14.5:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 14.6:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DG Bedingham
+    - 14.7:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 14.8:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 15.1:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DG Bedingham
+    - 15.2:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 15.3:
+        non_striker: DG Bedingham
+        bowler: LWP Wells
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: G Clark
+    - 15.4:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 15.5:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 15.6:
+        non_striker: G Clark
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 15.7:
+        non_striker: DG Bedingham
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 16.1:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 16.2:
+        non_striker: DG Bedingham
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 16.3:
+        non_striker: DG Bedingham
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 16.4:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 16.5:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 16.6:
+        non_striker: G Clark
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 17.1:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: G Clark
+    - 17.2:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 17.3:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 17.4:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 17.5:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DG Bedingham
+    - 17.6:
+        non_striker: G Clark
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 17.7:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 17.8:
+        non_striker: DG Bedingham
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 18.1:
+        non_striker: G Clark
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 18.2:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: G Clark
+    - 18.3:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - GP Balderson
+          kind: caught
+    - 18.4:
+        non_striker: DG Bedingham
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 18.5:
+        non_striker: AJ Turner
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 18.6:
+        non_striker: AJ Turner
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 18.7:
+        non_striker: AJ Turner
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 19.1:
+        non_striker: AJ Turner
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 19.2:
+        non_striker: AJ Turner
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 19.3:
+        non_striker: DG Bedingham
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 19.4:
+        non_striker: AJ Turner
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DG Bedingham
+    - 19.5:
+        non_striker: AJ Turner
+        bowler: JM Blatherwick
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: DG Bedingham
+    - 19.6:
+        non_striker: AJ Turner
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+        wicket:
+          player_out: DG Bedingham
+          fielders:
+          - CJ Green
+          kind: caught
+    - 19.7:
+        non_striker: AJ Turner
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+- 2nd innings:
+    team: Lancashire
+    deliveries:
+    - 0.1:
+        non_striker: JJ Bohannon
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 0.2:
+        non_striker: LWP Wells
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Bohannon
+    - 0.3:
+        non_striker: LWP Wells
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 0.4:
+        non_striker: LWP Wells
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+        wicket:
+          player_out: JJ Bohannon
+          kind: bowled
+    - 0.5:
+        non_striker: LWP Wells
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 0.6:
+        non_striker: KK Jennings
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 1.1:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LWP Wells
+    - 1.2:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.3:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 1.4:
+        non_striker: LWP Wells
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 1.5:
+        non_striker: LWP Wells
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 1.6:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LWP Wells
+    - 1.7:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 2.1:
+        non_striker: LWP Wells
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 2.2:
+        non_striker: LWP Wells
+        bowler: AJ Turner
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        extras:
+          wides: 3
+        batsman: KK Jennings
+    - 2.3:
+        non_striker: LWP Wells
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 2.4:
+        non_striker: KK Jennings
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+        wicket:
+          player_out: LWP Wells
+          fielders:
+          - P Coughlin
+          kind: caught
+    - 2.5:
+        non_striker: KK Jennings
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: MF Hurst
+    - 2.6:
+        non_striker: MF Hurst
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 2.7:
+        non_striker: KK Jennings
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 3.1:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 3.2:
+        non_striker: MF Hurst
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 3.3:
+        non_striker: MF Hurst
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 3.4:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 3.5:
+        non_striker: KK Jennings
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 3.6:
+        non_striker: MF Hurst
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 4.1:
+        non_striker: KK Jennings
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 4.2:
+        non_striker: KK Jennings
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 4.3:
+        non_striker: KK Jennings
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MF Hurst
+    - 4.4:
+        non_striker: KK Jennings
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 4.5:
+        non_striker: MF Hurst
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 4.6:
+        non_striker: MF Hurst
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 5.1:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 5.2:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 5.3:
+        non_striker: MF Hurst
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 5.4:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 5.5:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 5.6:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 6.1:
+        non_striker: MF Hurst
+        bowler: P Coughlin
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: KK Jennings
+    - 6.2:
+        non_striker: MF Hurst
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 6.3:
+        non_striker: KK Jennings
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 6.4:
+        non_striker: KK Jennings
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 6.5:
+        non_striker: KK Jennings
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+        wicket:
+          player_out: MF Hurst
+          kind: caught and bowled
+    - 6.6:
+        non_striker: KK Jennings
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 6.7:
+        non_striker: KK Jennings
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 7.1:
+        non_striker: TC Bruce
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 7.2:
+        non_striker: KK Jennings
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 7.3:
+        non_striker: KK Jennings
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 7.4:
+        non_striker: TC Bruce
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 7.5:
+        non_striker: KK Jennings
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TC Bruce
+    - 7.6:
+        non_striker: KK Jennings
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 8.1:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 8.2:
+        non_striker: TC Bruce
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 8.3:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 8.4:
+        non_striker: TC Bruce
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: KK Jennings
+    - 8.5:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TC Bruce
+    - 8.6:
+        non_striker: KK Jennings
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 9.1:
+        non_striker: TC Bruce
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+        wicket:
+          player_out: KK Jennings
+          fielders:
+          - BS McKinney
+          kind: caught
+    - 9.2:
+        non_striker: TC Bruce
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 9.3:
+        non_striker: SJ Croft
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 9.4:
+        non_striker: SJ Croft
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 9.5:
+        non_striker: TC Bruce
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 9.6:
+        non_striker: SJ Croft
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TC Bruce
+    - 10.1:
+        non_striker: SJ Croft
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 10.2:
+        non_striker: SJ Croft
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 10.3:
+        non_striker: SJ Croft
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TC Bruce
+    - 10.4:
+        non_striker: SJ Croft
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+        wicket:
+          player_out: TC Bruce
+          kind: bowled
+    - 10.5:
+        non_striker: SJ Croft
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 10.6:
+        non_striker: CJ Green
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 11.1:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 11.2:
+        non_striker: SJ Croft
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 11.3:
+        non_striker: SJ Croft
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 11.4:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SJ Croft
+    - 11.5:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: SJ Croft
+    - 11.6:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 12.1:
+        non_striker: CJ Green
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+        wicket:
+          player_out: SJ Croft
+          fielders:
+          - AJ Turner
+          kind: caught
+    - 12.2:
+        non_striker: CJ Green
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 12.3:
+        non_striker: GP Balderson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 12.4:
+        non_striker: CJ Green
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GP Balderson
+    - 12.5:
+        non_striker: CJ Green
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 12.6:
+        non_striker: GP Balderson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 13.1:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GP Balderson
+    - 13.2:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 13.3:
+        non_striker: GP Balderson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 13.4:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 13.5:
+        non_striker: GP Balderson
+        bowler: NA Sowter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CJ Green
+    - 13.6:
+        non_striker: CJ Green
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GP Balderson
+    - 14.1:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 14.2:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 14.3:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.4:
+        non_striker: CJ Green
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 14.5:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 14.6:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 15.1:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GP Balderson
+    - 15.2:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GP Balderson
+    - 15.3:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: GP Balderson
+    - 15.4:
+        non_striker: GP Balderson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.5:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 15.6:
+        non_striker: GP Balderson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.7:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 16.1:
+        non_striker: CJ Green
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 16.2:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Green
+    - 16.3:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Green
+    - 16.4:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 16.5:
+        non_striker: CJ Green
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GP Balderson
+    - 16.6:
+        non_striker: CJ Green
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 17.1:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GP Balderson
+    - 17.2:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GP Balderson
+    - 17.3:
+        non_striker: CJ Green
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 17.4:
+        non_striker: GP Balderson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+        wicket:
+          player_out: CJ Green
+          fielders:
+          - G Clark
+          kind: caught
+    - 17.5:
+        non_striker: GP Balderson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 17.6:
+        non_striker: JM Blatherwick
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 17.7:
+        non_striker: GP Balderson
+        bowler: BA Raine
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        extras:
+          legbyes: 3
+        batsman: JM Blatherwick
+    - 18.1:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Blatherwick
+    - 18.2:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Blatherwick
+    - 18.3:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 18.4:
+        non_striker: JM Blatherwick
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GP Balderson
+    - 18.5:
+        non_striker: JM Blatherwick
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GP Balderson
+    - 18.6:
+        non_striker: JM Blatherwick
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 18.7:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: JM Blatherwick
+    - 18.8:
+        non_striker: GP Balderson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 18.9:
+        non_striker: JM Blatherwick
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GP Balderson
+    - 19.1:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Blatherwick
+    - 19.2:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Blatherwick
+    - 19.3:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Blatherwick
+        wicket:
+          player_out: JM Blatherwick
+          kind: bowled
+    - 19.4:
+        non_striker: GP Balderson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Wood
+    - 19.5:
+        non_striker: L Wood
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GP Balderson
+    - 19.6:
+        non_striker: L Wood
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson

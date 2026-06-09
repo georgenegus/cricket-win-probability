@@ -1,0 +1,1885 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leicester
+  competition: Vitality Blast
+  dates:
+  - '2023-06-18'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Worcestershire
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Leicestershire:
+    - NR Welch
+    - PSP Handscomb
+    - RK Patel
+    - CN Ackermann
+    - LPJ Kimber
+    - PWA Mulder
+    - Rehan Ahmed
+    - TAR Scriven
+    - MG Finan
+    - CF Parkinson
+    - MET Salisbury
+    Worcestershire:
+    - BL D'Oliveira
+    - JA Haynes
+    - MJ Santner
+    - AJ Hose
+    - Kashif Ali
+    - OB Cox
+    - EJ Pollock
+    - Usama Mir
+    - JC Tongue
+    - DY Pennington
+    - PR Brown
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      BL D'Oliveira: 9679838c
+      CF Parkinson: aa1210d8
+      CN Ackermann: e734d090
+      DJ Millns: 46ecfe40
+      DY Pennington: 219cc59e
+      EJ Pollock: d6663a9a
+      JA Haynes: fe4ebca0
+      JC Tongue: 1f1b4c89
+      JJ Swift: 78deed6e
+      Kashif Ali: f3b26fe4
+      LPJ Kimber: 9f812582
+      MET Salisbury: e05b2a5b
+      MG Finan: 8c9d3000
+      MJ Santner: e4a0deae
+      NA Mallender: 3b5dfcd4
+      NR Welch: 74c6c6e0
+      OB Cox: 324a6ee1
+      PR Brown: 1efd12d1
+      PSP Handscomb: ada15e88
+      PWA Mulder: c96f6ac5
+      RK Patel: 4531f249
+      Rehan Ahmed: 0ecb4de6
+      TAR Scriven: ac3c3cab
+      Usama Mir: 6dd8b88c
+  teams:
+  - Leicestershire
+  - Worcestershire
+  toss:
+    winner: Worcestershire
+    decision: field
+  umpires:
+  - DJ Millns
+  - NA Mallender
+  venue: Grace Road, Leicester
+innings:
+- 1st innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 0.2:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 0.3:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NR Welch
+    - 0.4:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+        wicket:
+          player_out: NR Welch
+          fielders:
+          - Usama Mir
+          kind: caught
+    - 0.5:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 0.6:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 1.1:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 1.2:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 1.3:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 1.4:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 1.5:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 1.6:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: RK Patel
+    - 1.7:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 2.1:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PSP Handscomb
+    - 2.2:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PSP Handscomb
+    - 2.3:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 2.4:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 2.5:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 2.6:
+        non_striker: PSP Handscomb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 3.1:
+        non_striker: RK Patel
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 3.2:
+        non_striker: RK Patel
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PSP Handscomb
+    - 3.3:
+        non_striker: RK Patel
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PSP Handscomb
+    - 3.4:
+        non_striker: RK Patel
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PSP Handscomb
+    - 3.5:
+        non_striker: RK Patel
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 3.6:
+        non_striker: RK Patel
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 4.1:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 4.2:
+        non_striker: RK Patel
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 4.3:
+        non_striker: RK Patel
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 4.4:
+        non_striker: RK Patel
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PSP Handscomb
+    - 4.5:
+        non_striker: RK Patel
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PSP Handscomb
+    - 4.6:
+        non_striker: PSP Handscomb
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 5.1:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 5.2:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PSP Handscomb
+    - 5.3:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PSP Handscomb
+    - 5.4:
+        non_striker: PSP Handscomb
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 5.5:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PSP Handscomb
+    - 5.6:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 6.1:
+        non_striker: PSP Handscomb
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 6.2:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PSP Handscomb
+    - 6.3:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PSP Handscomb
+    - 6.4:
+        non_striker: PSP Handscomb
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 6.5:
+        non_striker: PSP Handscomb
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 6.6:
+        non_striker: PSP Handscomb
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 7.1:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+        wicket:
+          player_out: PSP Handscomb
+          kind: bowled
+    - 7.2:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 7.3:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 7.4:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 7.5:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 7.6:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 8.1:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 8.2:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 8.3:
+        non_striker: CN Ackermann
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 8.4:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+        wicket:
+          player_out: CN Ackermann
+          fielders:
+          - OB Cox
+          kind: caught
+    - 8.5:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 8.6:
+        non_striker: LPJ Kimber
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          kind: lbw
+    - 9.1:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 9.2:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 9.3:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 9.4:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 9.5:
+        non_striker: LPJ Kimber
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 9.6:
+        non_striker: LPJ Kimber
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 10.1:
+        non_striker: PWA Mulder
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+        wicket:
+          player_out: LPJ Kimber
+          kind: bowled
+    - 10.2:
+        non_striker: PWA Mulder
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 10.3:
+        non_striker: Rehan Ahmed
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 10.4:
+        non_striker: PWA Mulder
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 10.5:
+        non_striker: PWA Mulder
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 10.6:
+        non_striker: Rehan Ahmed
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 11.1:
+        non_striker: Rehan Ahmed
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 11.2:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 11.3:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 11.4:
+        non_striker: Rehan Ahmed
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 11.5:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+        wicket:
+          player_out: Rehan Ahmed
+          fielders:
+          - AJ Hose
+          kind: caught
+    - 11.6:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 12.1:
+        non_striker: PWA Mulder
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+    - 12.2:
+        non_striker: PWA Mulder
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 12.3:
+        non_striker: TAR Scriven
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 12.4:
+        non_striker: TAR Scriven
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PWA Mulder
+    - 12.5:
+        non_striker: TAR Scriven
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 12.6:
+        non_striker: TAR Scriven
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PWA Mulder
+    - 13.1:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+    - 13.2:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+    - 13.3:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 13.4:
+        non_striker: TAR Scriven
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 13.5:
+        non_striker: TAR Scriven
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 13.6:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAR Scriven
+    - 14.1:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAR Scriven
+    - 14.2:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+    - 14.3:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAR Scriven
+        wicket:
+          player_out: TAR Scriven
+          fielders:
+          - AJ Hose
+          kind: caught
+    - 14.4:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Finan
+        wicket:
+          player_out: MG Finan
+          kind: bowled
+    - 14.5:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 14.6:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 15.1:
+        non_striker: CF Parkinson
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 15.2:
+        non_striker: PWA Mulder
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 15.3:
+        non_striker: CF Parkinson
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 15.4:
+        non_striker: CF Parkinson
+        bowler: JC Tongue
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: PWA Mulder
+    - 15.5:
+        non_striker: CF Parkinson
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 15.6:
+        non_striker: PWA Mulder
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 15.7:
+        non_striker: CF Parkinson
+        bowler: JC Tongue
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+        wicket:
+          player_out: PWA Mulder
+          fielders:
+          - DY Pennington
+          kind: caught
+    - 16.1:
+        non_striker: MET Salisbury
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CF Parkinson
+    - 16.2:
+        non_striker: MET Salisbury
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 16.3:
+        non_striker: MET Salisbury
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 16.4:
+        non_striker: MET Salisbury
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 16.5:
+        non_striker: CF Parkinson
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MET Salisbury
+    - 16.6:
+        non_striker: CF Parkinson
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MET Salisbury
+    - 17.1:
+        non_striker: MET Salisbury
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 17.2:
+        non_striker: MET Salisbury
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 17.3:
+        non_striker: MET Salisbury
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CF Parkinson
+    - 17.4:
+        non_striker: MET Salisbury
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 17.5:
+        non_striker: CF Parkinson
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MET Salisbury
+    - 17.6:
+        non_striker: CF Parkinson
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MET Salisbury
+    - 18.1:
+        non_striker: MET Salisbury
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 18.2:
+        non_striker: MET Salisbury
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+        wicket:
+          player_out: CF Parkinson
+          fielders:
+          - BL D'Oliveira
+          kind: caught
+- 2nd innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.2:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.3:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 0.4:
+        non_striker: JA Haynes
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 0.5:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 0.6:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 1.1:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 1.2:
+        non_striker: JA Haynes
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 1.3:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 1.4:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Haynes
+    - 1.5:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 1.6:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 1.7:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 2.1:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 2.2:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 2.3:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 2.4:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 2.5:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 2.6:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 3.1:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 3.2:
+        non_striker: JA Haynes
+        bowler: MET Salisbury
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BL D'Oliveira
+    - 3.3:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 3.4:
+        non_striker: JA Haynes
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 3.5:
+        non_striker: JA Haynes
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 3.6:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+        wicket:
+          player_out: JA Haynes
+          fielders:
+          - LPJ Kimber
+          kind: caught
+    - 4.1:
+        non_striker: MJ Santner
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 4.2:
+        non_striker: MJ Santner
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 4.3:
+        non_striker: BL D'Oliveira
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 4.4:
+        non_striker: BL D'Oliveira
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 4.5:
+        non_striker: MJ Santner
+        bowler: MG Finan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BL D'Oliveira
+    - 4.6:
+        non_striker: MJ Santner
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 4.7:
+        non_striker: MJ Santner
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 5.1:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MJ Santner
+    - 5.2:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 5.3:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 5.4:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 5.5:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 5.6:
+        non_striker: MJ Santner
+        bowler: MET Salisbury
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BL D'Oliveira
+    - 5.7:
+        non_striker: MJ Santner
+        bowler: MET Salisbury
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BL D'Oliveira
+    - 5.8:
+        non_striker: BL D'Oliveira
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 6.1:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 6.2:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 6.3:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 6.4:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 6.5:
+        non_striker: MJ Santner
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.6:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 7.1:
+        non_striker: MJ Santner
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: BL D'Oliveira
+    - 7.2:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 7.3:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 7.4:
+        non_striker: MJ Santner
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 7.5:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 7.6:
+        non_striker: MJ Santner
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.1:
+        non_striker: MJ Santner
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 8.2:
+        non_striker: MJ Santner
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.3:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 8.4:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+        wicket:
+          player_out: MJ Santner
+          fielders:
+          - PWA Mulder
+          kind: caught
+    - 8.5:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.6:
+        non_striker: AJ Hose
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 9.1:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 9.2:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 9.3:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          kind: bowled
+    - 9.4:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.5:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 9.6:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 10.1:
+        non_striker: Kashif Ali
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 10.2:
+        non_striker: Kashif Ali
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 10.3:
+        non_striker: Kashif Ali
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 10.4:
+        non_striker: Kashif Ali
+        bowler: MG Finan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BL D'Oliveira
+    - 10.5:
+        non_striker: Kashif Ali
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 10.6:
+        non_striker: BL D'Oliveira
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 10.7:
+        non_striker: BL D'Oliveira
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 11.1:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 11.2:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 11.3:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 11.4:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 11.5:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 11.6:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 12.1:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 12.2:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 12.3:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 12.4:
+        non_striker: BL D'Oliveira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 12.5:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 12.6:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 13.1:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 13.2:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 13.3:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 13.4:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 13.5:
+        non_striker: Kashif Ali
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 13.6:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 14.1:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+        wicket:
+          player_out: Kashif Ali
+          fielders:
+          - CF Parkinson
+          kind: caught
+    - 14.2:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 14.3:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 14.4:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 14.5:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 14.6:
+        non_striker: BL D'Oliveira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 15.1:
+        non_striker: OB Cox
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 15.2:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 15.3:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.4:
+        non_striker: OB Cox
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 15.5:
+        non_striker: OB Cox
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 15.6:
+        non_striker: BL D'Oliveira
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 16.1:
+        non_striker: OB Cox
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BL D'Oliveira
+    - 16.2:
+        non_striker: OB Cox
+        bowler: MG Finan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira

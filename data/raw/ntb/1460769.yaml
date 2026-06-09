@@ -1,0 +1,1879 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Brighton
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-01'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sussex
+    by:
+      runs: 80
+  overs: 20
+  players:
+    Sussex:
+    - HD Ward
+    - DP Hughes
+    - JA Simpson
+    - JM Coles
+    - TP Alsop
+    - TGR Clark
+    - JJ Carson
+    - N McAndrew
+    - OE Robinson
+    - TS Mills
+    - BJ Currie
+    Gloucestershire:
+    - Miles Hammond
+    - CT Bancroft
+    - DJM Short
+    - OJ Price
+    - JMR Taylor
+    - BG Charlesworth
+    - James Bracey
+    - MD Taylor
+    - DA Payne
+    - AA Rao
+    - TMJ Smith
+  registry:
+    people:
+      AA Rao: c57f5c4c
+      BG Charlesworth: ffdba4e2
+      BJ Currie: 2ecd844a
+      BJ Peverall: 3e04e05a
+      CT Bancroft: 399b0b94
+      DA Payne: 6c79c098
+      DJM Short: 1a156c88
+      DP Hughes: f3982af9
+      HD Ward: 9f7932a7
+      JA Simpson: f05fe9b1
+      JJ Carson: 344c6d55
+      JJ Swift: 78deed6e
+      JM Coles: 9c643d7b
+      JMR Taylor: aed5be04
+      James Bracey: 5bfdc77a
+      M Burns: b3bd0666
+      MD Taylor: 01a95383
+      Miles Hammond: c88bc84a
+      N McAndrew: 38c276e1
+      OE Robinson: 0f3ee070
+      OJ Price: dfc3f02d
+      TGR Clark: ed8faea2
+      TMJ Smith: 0a12e736
+      TP Alsop: 961b8ff1
+      TS Mills: 245c97cb
+  teams:
+  - Sussex
+  - Gloucestershire
+  toss:
+    winner: Gloucestershire
+    decision: field
+  umpires:
+  - BJ Peverall
+  - M Burns
+  venue: County Ground, Hove
+innings:
+- 1st innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DP Hughes
+        batsman: HD Ward
+    - 0.2:
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: DP Hughes
+        batsman: HD Ward
+    - 0.3:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 0.4:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 0.5:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 0.6:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 1.1:
+        non_striker: DP Hughes
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.2:
+        non_striker: DP Hughes
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.3:
+        non_striker: DP Hughes
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.4:
+        non_striker: DP Hughes
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+        wicket:
+          player_out: HD Ward
+          kind: bowled
+    - 1.5:
+        non_striker: DP Hughes
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 1.6:
+        non_striker: JA Simpson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 2.1:
+        non_striker: JA Simpson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DP Hughes
+    - 2.2:
+        non_striker: JA Simpson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 2.3:
+        non_striker: JA Simpson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 2.4:
+        non_striker: JA Simpson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 2.5:
+        non_striker: DP Hughes
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 2.6:
+        non_striker: JA Simpson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 3.1:
+        non_striker: JA Simpson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 3.2:
+        non_striker: JA Simpson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 3.3:
+        non_striker: DP Hughes
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 3.4:
+        non_striker: JA Simpson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DP Hughes
+    - 3.5:
+        non_striker: JA Simpson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 3.6:
+        non_striker: JA Simpson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 4.1:
+        non_striker: DP Hughes
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Simpson
+    - 4.2:
+        non_striker: DP Hughes
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 4.3:
+        non_striker: JA Simpson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 4.4:
+        non_striker: JA Simpson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DP Hughes
+    - 4.5:
+        non_striker: JA Simpson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 4.6:
+        non_striker: JA Simpson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+        wicket:
+          player_out: DP Hughes
+          fielders:
+          - JMR Taylor
+          kind: caught
+    - 5.1:
+        non_striker: JM Coles
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+        wicket:
+          player_out: JA Simpson
+          fielders:
+          - Miles Hammond
+          kind: caught
+    - 5.2:
+        non_striker: JM Coles
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 5.3:
+        non_striker: JM Coles
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 5.4:
+        non_striker: JM Coles
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 5.5:
+        non_striker: TP Alsop
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 5.6:
+        non_striker: JM Coles
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 6.1:
+        non_striker: TP Alsop
+        bowler: AA Rao
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Coles
+    - 6.2:
+        non_striker: TP Alsop
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 6.3:
+        non_striker: JM Coles
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 6.4:
+        non_striker: TP Alsop
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 6.5:
+        non_striker: TP Alsop
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 6.6:
+        non_striker: JM Coles
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 6.7:
+        non_striker: JM Coles
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 7.1:
+        non_striker: JM Coles
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 7.2:
+        non_striker: TP Alsop
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 7.3:
+        non_striker: TP Alsop
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 7.4:
+        non_striker: TP Alsop
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 7.5:
+        non_striker: JM Coles
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TP Alsop
+    - 7.6:
+        non_striker: JM Coles
+        bowler: DJM Short
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 8.1:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Coles
+    - 8.2:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 8.3:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 8.4:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 8.5:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 8.6:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 8.7:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 9.1:
+        non_striker: TP Alsop
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 9.2:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 9.3:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 9.4:
+        non_striker: TP Alsop
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 9.5:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 9.6:
+        non_striker: TP Alsop
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 10.1:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 10.2:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TP Alsop
+    - 10.3:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 10.4:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TP Alsop
+    - 10.5:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 10.6:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+    - 11.1:
+        non_striker: JM Coles
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 11.2:
+        non_striker: JM Coles
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 11.3:
+        non_striker: TP Alsop
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+    - 11.4:
+        non_striker: TP Alsop
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 11.5:
+        non_striker: JM Coles
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TP Alsop
+    - 11.6:
+        non_striker: JM Coles
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: TP Alsop
+    - 12.1:
+        non_striker: JM Coles
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 12.2:
+        non_striker: TP Alsop
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+    - 12.3:
+        non_striker: TP Alsop
+        bowler: MD Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Coles
+    - 12.4:
+        non_striker: JM Coles
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 12.5:
+        non_striker: TP Alsop
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 12.6:
+        non_striker: TP Alsop
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+    - 13.1:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 13.2:
+        non_striker: TP Alsop
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 13.3:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 13.4:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 13.5:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 13.6:
+        non_striker: JM Coles
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 14.1:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Coles
+    - 14.2:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.3:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 14.4:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.5:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 14.6:
+        non_striker: JM Coles
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 14.7:
+        non_striker: TP Alsop
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 15.1:
+        non_striker: TP Alsop
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 15.2:
+        non_striker: JM Coles
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+        wicket:
+          player_out: TP Alsop
+          fielders:
+          - AA Rao
+          kind: caught
+    - 15.3:
+        non_striker: JM Coles
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 15.4:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+        wicket:
+          player_out: JM Coles
+          fielders:
+          - OJ Price
+          kind: caught
+    - 15.5:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Carson
+    - 15.6:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Carson
+    - 16.1:
+        non_striker: TGR Clark
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Carson
+    - 16.2:
+        non_striker: TGR Clark
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Carson
+    - 16.3:
+        non_striker: JJ Carson
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 16.4:
+        non_striker: JJ Carson
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 16.5:
+        non_striker: TGR Clark
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Carson
+    - 16.6:
+        non_striker: JJ Carson
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          kind: caught and bowled
+    - 17.1:
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: N McAndrew
+        batsman: JJ Carson
+    - 17.2:
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: N McAndrew
+        batsman: JJ Carson
+    - 17.3:
+        non_striker: N McAndrew
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Carson
+        wicket:
+          player_out: JJ Carson
+          fielders:
+          - Miles Hammond
+          kind: caught
+    - 17.4:
+        non_striker: N McAndrew
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OE Robinson
+    - 17.5:
+        non_striker: OE Robinson
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N McAndrew
+    - 17.6:
+        non_striker: OE Robinson
+        bowler: AA Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 18.1:
+        non_striker: OE Robinson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+        wicket:
+          player_out: N McAndrew
+          fielders:
+          - OJ Price
+          kind: caught
+    - 18.2:
+        non_striker: OE Robinson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Mills
+    - 18.3:
+        non_striker: TS Mills
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+    - 18.4:
+        non_striker: TS Mills
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+    - 18.5:
+        non_striker: TS Mills
+        bowler: DA Payne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OE Robinson
+    - 18.6:
+        non_striker: TS Mills
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OE Robinson
+    - 18.7:
+        non_striker: OE Robinson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+    - 19.1:
+        non_striker: TS Mills
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OE Robinson
+    - 19.2:
+        non_striker: TS Mills
+        bowler: MD Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OE Robinson
+    - 19.3:
+        non_striker: TS Mills
+        bowler: MD Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OE Robinson
+    - 19.4:
+        non_striker: TS Mills
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+        wicket:
+          player_out: OE Robinson
+          fielders:
+          - James Bracey
+          kind: caught
+    - 19.5:
+        non_striker: TS Mills
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Currie
+    - 19.6:
+        non_striker: TS Mills
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Currie
+    - 19.7:
+        non_striker: BJ Currie
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+    - 19.8:
+        non_striker: BJ Currie
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+        wicket:
+          player_out: TS Mills
+          fielders:
+          - OJ Price
+          kind: caught
+- 2nd innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: CT Bancroft
+        batsman: Miles Hammond
+    - 0.2:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 0.3:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 0.4:
+        non_striker: CT Bancroft
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.5:
+        non_striker: CT Bancroft
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.6:
+        non_striker: CT Bancroft
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 1.1:
+        non_striker: CT Bancroft
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.2:
+        non_striker: CT Bancroft
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 1.3:
+        non_striker: Miles Hammond
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 1.4:
+        non_striker: CT Bancroft
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Miles Hammond
+    - 1.5:
+        non_striker: CT Bancroft
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.6:
+        non_striker: CT Bancroft
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Miles Hammond
+    - 2.1:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CT Bancroft
+    - 2.2:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 2.3:
+        non_striker: CT Bancroft
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.4:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+        wicket:
+          player_out: CT Bancroft
+          kind: bowled
+    - 2.5:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 2.6:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 3.1:
+        non_striker: DJM Short
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 3.2:
+        non_striker: DJM Short
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Miles Hammond
+    - 3.3:
+        non_striker: DJM Short
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 3.4:
+        non_striker: DJM Short
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 3.5:
+        non_striker: Miles Hammond
+        bowler: BJ Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJM Short
+    - 3.6:
+        non_striker: Miles Hammond
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+    - 3.7:
+        non_striker: Miles Hammond
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJM Short
+        wicket:
+          player_out: DJM Short
+          fielders:
+          - TP Alsop
+          kind: caught
+    - 4.1:
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: OJ Price
+        batsman: Miles Hammond
+    - 4.2:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 4.3:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 4.4:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 4.5:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 4.6:
+        non_striker: Miles Hammond
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 5.1:
+        non_striker: Miles Hammond
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 5.2:
+        non_striker: OJ Price
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 5.3:
+        non_striker: OJ Price
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          fielders:
+          - JM Coles
+          kind: caught
+    - 5.4:
+        non_striker: OJ Price
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 5.5:
+        non_striker: OJ Price
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 5.6:
+        non_striker: JMR Taylor
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 6.1:
+        non_striker: OJ Price
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+        wicket:
+          player_out: JMR Taylor
+          kind: bowled
+    - 6.2:
+        non_striker: OJ Price
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 6.3:
+        non_striker: BG Charlesworth
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Price
+    - 6.4:
+        non_striker: BG Charlesworth
+        bowler: JM Coles
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: OJ Price
+    - 6.5:
+        non_striker: OJ Price
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 6.6:
+        non_striker: BG Charlesworth
+        bowler: JM Coles
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OJ Price
+    - 6.7:
+        non_striker: BG Charlesworth
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 7.1:
+        non_striker: OJ Price
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 7.2:
+        non_striker: OJ Price
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          fielders:
+          - TP Alsop
+          kind: caught
+    - 7.3:
+        non_striker: OJ Price
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 7.4:
+        non_striker: James Bracey
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+        wicket:
+          player_out: OJ Price
+          fielders:
+          - JA Simpson
+          kind: caught
+    - 7.5:
+        non_striker: James Bracey
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 7.6:
+        non_striker: James Bracey
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 8.1:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 8.2:
+        non_striker: MD Taylor
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 8.3:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 8.4:
+        non_striker: MD Taylor
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 8.5:
+        non_striker: MD Taylor
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 8.6:
+        non_striker: MD Taylor
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 9.1:
+        non_striker: MD Taylor
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 9.2:
+        non_striker: MD Taylor
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 9.3:
+        non_striker: James Bracey
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Taylor
+    - 9.4:
+        non_striker: James Bracey
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 9.5:
+        non_striker: MD Taylor
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: James Bracey
+    - 9.6:
+        non_striker: MD Taylor
+        bowler: JJ Carson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 10.1:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 10.2:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 10.3:
+        non_striker: James Bracey
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 10.4:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 10.5:
+        non_striker: James Bracey
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+        wicket:
+          player_out: MD Taylor
+          fielders:
+          - JA Simpson
+          kind: stumped
+    - 10.6:
+        non_striker: James Bracey
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DA Payne
+    - 11.1:
+        non_striker: DA Payne
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 11.2:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne
+    - 11.3:
+        non_striker: DA Payne
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 11.4:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+    - 11.5:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+        wicket:
+          player_out: DA Payne
+          kind: bowled
+    - 11.6:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AA Rao
+    - 12.1:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Rao
+    - 12.2:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Rao
+    - 12.3:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Rao
+    - 12.4:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Rao
+        wicket:
+          player_out: AA Rao
+          fielders:
+          - JM Coles
+          kind: caught
+    - 12.5:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TMJ Smith
+    - 12.6:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 13.1:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 13.2:
+        non_striker: TMJ Smith
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: James Bracey
+    - 13.3:
+        non_striker: TMJ Smith
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 13.4:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TMJ Smith
+        wicket:
+          player_out: TMJ Smith
+          fielders:
+          - N McAndrew
+          kind: caught

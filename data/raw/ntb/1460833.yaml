@@ -1,0 +1,2098 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-07'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Brighton
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-05'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Hampshire
+    by:
+      runs: 62
+  overs: 20
+  player_of_match:
+  - BAC Howell
+  players:
+    Hampshire:
+    - JM Vince
+    - CA Lynn
+    - TE Albert
+    - JJ Weatherley
+    - HWR Cartwright
+    - JK Fuller
+    - BAC Howell
+    - LA Dawson
+    - CP Wood
+    - SW Currie
+    - S Baker
+    Sussex:
+    - HD Ward
+    - DP Hughes
+    - TGR Clark
+    - JM Coles
+    - JA Simpson
+    - FJ Hudson-Prentice
+    - DJ Lamb
+    - N McAndrew
+    - OE Robinson
+    - TS Mills
+    - HT Crocombe
+  registry:
+    people:
+      BAC Howell: 0bec3a6c
+      CA Lynn: 45eda7c8
+      CP Wood: 1cfac535
+      DJ Lamb: 27c5a793
+      DP Hughes: f3982af9
+      FJ Hudson-Prentice: 932d3cc9
+      HD Ward: 9f7932a7
+      HT Crocombe: 27fc5808
+      HWR Cartwright: ab965cad
+      ID Blackwell: 818e8bf2
+      JA Simpson: f05fe9b1
+      JJ Weatherley: a05d0552
+      JK Fuller: dda5aae5
+      JM Coles: 9c643d7b
+      JM Vince: a15618fe
+      LA Dawson: 4a461c24
+      Mark Newell: b33f0fa1
+      N McAndrew: 38c276e1
+      NL Bainton: cd219cb3
+      OE Robinson: 0f3ee070
+      S Baker: 78c12883
+      SJ Davis: bc71b0b2
+      SW Currie: c5f40e35
+      TE Albert: a6c17509
+      TGR Clark: ed8faea2
+      TS Mills: 245c97cb
+  teams:
+  - Hampshire
+  - Sussex
+  toss:
+    winner: Sussex
+    decision: field
+  umpires:
+  - ID Blackwell
+  - Mark Newell
+  venue: County Ground, Hove
+innings:
+- 1st innings:
+    team: Hampshire
+    deliveries:
+    - 0.1:
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: CA Lynn
+        batsman: JM Vince
+    - 0.2:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 0.3:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 0.4:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 0.5:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 0.6:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 1.1:
+        non_striker: CA Lynn
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 1.2:
+        non_striker: JM Vince
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 1.3:
+        non_striker: CA Lynn
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 1.4:
+        non_striker: CA Lynn
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 1.5:
+        non_striker: JM Vince
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Lynn
+    - 1.6:
+        non_striker: JM Vince
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 2.1:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.2:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.3:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 2.4:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Lynn
+    - 2.5:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Lynn
+    - 2.6:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Lynn
+    - 3.1:
+        non_striker: CA Lynn
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 3.2:
+        non_striker: CA Lynn
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Vince
+    - 3.3:
+        non_striker: CA Lynn
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 3.4:
+        non_striker: JM Vince
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Lynn
+    - 3.5:
+        non_striker: JM Vince
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Lynn
+    - 3.6:
+        non_striker: JM Vince
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 3.7:
+        non_striker: JM Vince
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 4.1:
+        non_striker: JM Vince
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 4.2:
+        non_striker: JM Vince
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 4.3:
+        non_striker: CA Lynn
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 4.4:
+        non_striker: JM Vince
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Lynn
+    - 4.5:
+        non_striker: JM Vince
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Lynn
+    - 4.6:
+        non_striker: JM Vince
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CA Lynn
+    - 4.7:
+        non_striker: JM Vince
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 5.1:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Vince
+    - 5.2:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 5.3:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 5.4:
+        non_striker: JM Vince
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 5.5:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 5.6:
+        non_striker: CA Lynn
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 6.1:
+        non_striker: CA Lynn
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 6.2:
+        non_striker: CA Lynn
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 6.3:
+        non_striker: CA Lynn
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 6.4:
+        non_striker: JM Vince
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Lynn
+    - 6.5:
+        non_striker: JM Vince
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 6.6:
+        non_striker: CA Lynn
+        bowler: DJ Lamb
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Vince
+    - 6.7:
+        non_striker: CA Lynn
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 7.1:
+        non_striker: CA Lynn
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 7.2:
+        non_striker: JM Vince
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Lynn
+    - 7.3:
+        non_striker: JM Vince
+        bowler: JM Coles
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CA Lynn
+    - 7.4:
+        non_striker: CA Lynn
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+        wicket:
+          player_out: JM Vince
+          fielders:
+          - HD Ward
+          kind: caught
+    - 7.5:
+        non_striker: CA Lynn
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 7.6:
+        non_striker: TE Albert
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 8.1:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Lynn
+    - 8.2:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+        wicket:
+          player_out: CA Lynn
+          fielders:
+          - HD Ward
+          kind: caught
+    - 8.3:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 8.4:
+        non_striker: JJ Weatherley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 8.5:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Weatherley
+    - 8.6:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 9.1:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 9.2:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 9.3:
+        non_striker: TE Albert
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 9.4:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+    - 9.5:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 9.6:
+        non_striker: TE Albert
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 10.1:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 10.2:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+        wicket:
+          player_out: JJ Weatherley
+          kind: bowled
+    - 10.3:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HWR Cartwright
+    - 10.4:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HWR Cartwright
+    - 10.5:
+        non_striker: TE Albert
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HWR Cartwright
+    - 10.6:
+        non_striker: HWR Cartwright
+        bowler: HT Crocombe
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TE Albert
+    - 10.7:
+        non_striker: HWR Cartwright
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TE Albert
+    - 11.1:
+        non_striker: TE Albert
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HWR Cartwright
+    - 11.2:
+        non_striker: HWR Cartwright
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 11.3:
+        non_striker: TE Albert
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HWR Cartwright
+    - 11.4:
+        non_striker: HWR Cartwright
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TE Albert
+    - 11.5:
+        non_striker: HWR Cartwright
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TE Albert
+    - 11.6:
+        non_striker: HWR Cartwright
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 12.1:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 12.2:
+        non_striker: TE Albert
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: HWR Cartwright
+    - 12.3:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TE Albert
+    - 12.4:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+        wicket:
+          player_out: TE Albert
+          fielders:
+          - JM Coles
+          kind: caught
+    - 12.5:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 12.6:
+        non_striker: JK Fuller
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HWR Cartwright
+    - 12.7:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 13.1:
+        non_striker: HWR Cartwright
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 13.2:
+        non_striker: HWR Cartwright
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 13.3:
+        non_striker: JK Fuller
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HWR Cartwright
+    - 13.4:
+        non_striker: HWR Cartwright
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JK Fuller
+    - 13.5:
+        non_striker: HWR Cartwright
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 13.6:
+        non_striker: JK Fuller
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HWR Cartwright
+    - 14.1:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 14.2:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JK Fuller
+    - 14.3:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 14.4:
+        non_striker: JK Fuller
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HWR Cartwright
+    - 14.5:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 14.6:
+        non_striker: HWR Cartwright
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JK Fuller
+    - 15.1:
+        non_striker: JK Fuller
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HWR Cartwright
+    - 15.2:
+        non_striker: JK Fuller
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HWR Cartwright
+    - 15.3:
+        non_striker: JK Fuller
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HWR Cartwright
+    - 15.4:
+        non_striker: JK Fuller
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HWR Cartwright
+    - 15.5:
+        non_striker: JK Fuller
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HWR Cartwright
+        wicket:
+          player_out: HWR Cartwright
+          kind: lbw
+    - 15.6:
+        non_striker: JK Fuller
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 16.1:
+        non_striker: JK Fuller
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BAC Howell
+    - 16.2:
+        non_striker: JK Fuller
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+    - 16.3:
+        non_striker: JK Fuller
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BAC Howell
+    - 16.4:
+        non_striker: JK Fuller
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 16.5:
+        non_striker: BAC Howell
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JK Fuller
+        wicket:
+          player_out: JK Fuller
+          fielders:
+          - JA Simpson
+          kind: run out
+    - 16.6:
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: LA Dawson
+        batsman: BAC Howell
+    - 16.7:
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: LA Dawson
+        batsman: BAC Howell
+    - 16.8:
+        non_striker: BAC Howell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LA Dawson
+    - 17.1:
+        non_striker: LA Dawson
+        bowler: HT Crocombe
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BAC Howell
+    - 17.2:
+        non_striker: LA Dawson
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+    - 17.3:
+        non_striker: LA Dawson
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 17.4:
+        non_striker: BAC Howell
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 17.5:
+        non_striker: LA Dawson
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 17.6:
+        non_striker: BAC Howell
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 17.7:
+        non_striker: BAC Howell
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 18.1:
+        non_striker: BAC Howell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 18.2:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BAC Howell
+    - 18.3:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BAC Howell
+    - 18.4:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BAC Howell
+    - 18.5:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BAC Howell
+    - 18.6:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 18.7:
+        non_striker: BAC Howell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LA Dawson
+    - 19.1:
+        non_striker: LA Dawson
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BAC Howell
+    - 19.2:
+        non_striker: LA Dawson
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 19.3:
+        non_striker: BAC Howell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+        wicket:
+          player_out: LA Dawson
+          fielders:
+          - JM Coles
+          kind: caught
+    - 19.4:
+        non_striker: BAC Howell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+        wicket:
+          player_out: CP Wood
+          fielders:
+          - DP Hughes
+          kind: caught
+    - 19.5:
+        non_striker: BAC Howell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Currie
+    - 19.6:
+        non_striker: SW Currie
+        bowler: N McAndrew
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: BAC Howell
+- 2nd innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: DP Hughes
+        batsman: HD Ward
+    - 0.2:
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DP Hughes
+        batsman: HD Ward
+    - 0.3:
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DP Hughes
+        batsman: HD Ward
+    - 0.4:
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: DP Hughes
+        batsman: HD Ward
+    - 0.5:
+        non_striker: HD Ward
+        bowler: CP Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DP Hughes
+    - 0.6:
+        non_striker: DP Hughes
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+        wicket:
+          player_out: HD Ward
+          fielders:
+          - HWR Cartwright
+          kind: caught
+    - 1.1:
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TGR Clark
+        batsman: DP Hughes
+    - 1.2:
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TGR Clark
+        batsman: DP Hughes
+    - 1.3:
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TGR Clark
+        batsman: DP Hughes
+    - 1.4:
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: TGR Clark
+        batsman: DP Hughes
+    - 1.5:
+        bowler: S Baker
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: TGR Clark
+        batsman: DP Hughes
+    - 1.6:
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TGR Clark
+        batsman: DP Hughes
+    - 1.7:
+        non_striker: DP Hughes
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 2.1:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 2.2:
+        non_striker: DP Hughes
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 2.3:
+        non_striker: DP Hughes
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 2.4:
+        non_striker: DP Hughes
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 2.5:
+        non_striker: DP Hughes
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 2.6:
+        non_striker: DP Hughes
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 3.1:
+        non_striker: DP Hughes
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 3.2:
+        non_striker: TGR Clark
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 3.3:
+        non_striker: DP Hughes
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          kind: bowled
+    - 3.4:
+        non_striker: DP Hughes
+        bowler: SW Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Coles
+    - 3.5:
+        non_striker: DP Hughes
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 3.6:
+        non_striker: DP Hughes
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 3.7:
+        non_striker: JM Coles
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+        wicket:
+          player_out: DP Hughes
+          fielders:
+          - HWR Cartwright
+          kind: run out
+    - 4.1:
+        non_striker: JM Coles
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Simpson
+    - 4.2:
+        non_striker: JM Coles
+        bowler: S Baker
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Simpson
+    - 4.3:
+        non_striker: JM Coles
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 4.4:
+        non_striker: JM Coles
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 4.5:
+        non_striker: JA Simpson
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 4.6:
+        non_striker: JA Simpson
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 4.7:
+        non_striker: JA Simpson
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 5.1:
+        non_striker: JM Coles
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 5.2:
+        non_striker: JM Coles
+        bowler: SW Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Simpson
+    - 5.3:
+        non_striker: JM Coles
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Simpson
+    - 5.4:
+        non_striker: JM Coles
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 5.5:
+        non_striker: JM Coles
+        bowler: SW Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JA Simpson
+    - 5.6:
+        non_striker: JA Simpson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 5.7:
+        non_striker: JM Coles
+        bowler: SW Currie
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: JA Simpson
+    - 5.8:
+        non_striker: JA Simpson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 6.1:
+        non_striker: JM Coles
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 6.2:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 6.3:
+        non_striker: JM Coles
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 6.4:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 6.5:
+        non_striker: JM Coles
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 6.6:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+        wicket:
+          player_out: JM Coles
+          fielders:
+          - JM Vince
+          kind: caught
+    - 7.1:
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: FJ Hudson-Prentice
+        batsman: JA Simpson
+    - 7.2:
+        non_striker: JA Simpson
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 7.3:
+        non_striker: FJ Hudson-Prentice
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 7.4:
+        non_striker: JA Simpson
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 7.5:
+        non_striker: FJ Hudson-Prentice
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 7.6:
+        non_striker: JA Simpson
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 8.1:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Hudson-Prentice
+        wicket:
+          player_out: FJ Hudson-Prentice
+          kind: caught and bowled
+    - 8.2:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+    - 8.3:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+    - 8.4:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+    - 8.5:
+        non_striker: JA Simpson
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 8.6:
+        non_striker: DJ Lamb
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 9.1:
+        non_striker: DJ Lamb
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 9.2:
+        non_striker: JA Simpson
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 9.3:
+        non_striker: DJ Lamb
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+        wicket:
+          player_out: JA Simpson
+          fielders:
+          - JM Vince
+          kind: caught
+    - 9.4:
+        non_striker: DJ Lamb
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+    - 9.5:
+        non_striker: DJ Lamb
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 9.6:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 10.1:
+        non_striker: N McAndrew
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 10.2:
+        non_striker: DJ Lamb
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+    - 10.3:
+        non_striker: DJ Lamb
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N McAndrew
+    - 10.4:
+        non_striker: DJ Lamb
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+    - 10.5:
+        non_striker: DJ Lamb
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N McAndrew
+    - 10.6:
+        non_striker: DJ Lamb
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N McAndrew
+    - 11.1:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Lamb
+    - 11.2:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Lamb
+    - 11.3:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 11.4:
+        non_striker: DJ Lamb
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 11.5:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Lamb
+    - 11.6:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+    - 12.1:
+        non_striker: DJ Lamb
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 12.2:
+        non_striker: N McAndrew
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 12.3:
+        non_striker: DJ Lamb
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N McAndrew
+    - 12.4:
+        non_striker: DJ Lamb
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N McAndrew
+    - 12.5:
+        non_striker: DJ Lamb
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 12.6:
+        non_striker: N McAndrew
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+        wicket:
+          player_out: DJ Lamb
+          fielders:
+          - JM Vince
+          kind: caught
+    - 13.1:
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: OE Robinson
+        batsman: N McAndrew
+    - 13.2:
+        non_striker: N McAndrew
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+    - 13.3:
+        non_striker: N McAndrew
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+    - 13.4:
+        non_striker: N McAndrew
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OE Robinson
+    - 13.5:
+        non_striker: OE Robinson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N McAndrew
+    - 13.6:
+        non_striker: OE Robinson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+    - 14.1:
+        non_striker: N McAndrew
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+    - 14.2:
+        non_striker: N McAndrew
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+    - 14.3:
+        non_striker: N McAndrew
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OE Robinson
+    - 14.4:
+        non_striker: N McAndrew
+        bowler: CP Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OE Robinson
+    - 14.5:
+        non_striker: N McAndrew
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OE Robinson
+    - 14.6:
+        non_striker: N McAndrew
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OE Robinson
+        wicket:
+          player_out: OE Robinson
+          kind: bowled
+    - 14.7:
+        non_striker: N McAndrew
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+    - 15.1:
+        non_striker: TS Mills
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 15.2:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+    - 15.3:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TS Mills
+    - 15.4:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+    - 15.5:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Mills
+    - 15.6:
+        non_striker: N McAndrew
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+        wicket:
+          player_out: TS Mills
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 16.1:
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: HT Crocombe
+        batsman: N McAndrew
+    - 16.2:
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: HT Crocombe
+        batsman: N McAndrew
+    - 16.3:
+        non_striker: N McAndrew
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HT Crocombe
+    - 16.4:
+        non_striker: N McAndrew
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HT Crocombe
+    - 16.5:
+        non_striker: N McAndrew
+        bowler: S Baker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HT Crocombe
+        wicket:
+          player_out: HT Crocombe
+          fielders:
+          - LA Dawson
+          kind: caught

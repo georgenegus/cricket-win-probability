@@ -1,0 +1,1766 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-07'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Glamorgan
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Kent:
+    - TS Muyeye
+    - DJ Bell-Drummond
+    - HZ Finch
+    - JL Denly
+    - SW Billings
+    - JDM Evison
+    - JA Leaning
+    - TS Rogers
+    - FJ Klaassen
+    - NN Gilchrist
+    - MW Parkinson
+    Glamorgan:
+    - KS Carlson
+    - WT Smale
+    - AJ Horton
+    - BI Kellaway
+    - CA Ingram
+    - AM Tribe
+    - DA Douthwaite
+    - Imad Wasim
+    - EO Leonard
+    - AW Gorvin
+    - JP McIlroy
+  registry:
+    people:
+      AC Harris: ef14c0ec
+      AJ Horton: cdc3e595
+      AM Smith: a0bc360f
+      AM Tribe: 86f84b37
+      AW Gorvin: 7d7233a9
+      BI Kellaway: eafe8a94
+      CA Ingram: c995d726
+      DA Douthwaite: 03df7a25
+      DJ Bell-Drummond: 8f938a32
+      EO Leonard: 660538af
+      FJ Klaassen: c042b412
+      HZ Finch: 6b16f8ba
+      Imad Wasim: 9cb8d7a6
+      JA Leaning: f2ab7a69
+      JDM Evison: 00cada13
+      JL Denly: bdadf7da
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      MW Parkinson: '19708692'
+      NN Gilchrist: 93cad673
+      Rob White: 59b91222
+      SW Billings: c16d4035
+      TS Muyeye: 10b79140
+      TS Rogers: 1b04e02b
+      WT Smale: 97da28bd
+  teams:
+  - Kent
+  - Glamorgan
+  toss:
+    winner: Glamorgan
+    decision: field
+  umpires:
+  - AC Harris
+  - Rob White
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Kent
+    deliveries:
+    - 0.1:
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DJ Bell-Drummond
+        batsman: TS Muyeye
+    - 0.2:
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DJ Bell-Drummond
+        batsman: TS Muyeye
+    - 0.3:
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DJ Bell-Drummond
+        batsman: TS Muyeye
+    - 0.4:
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: DJ Bell-Drummond
+        batsman: TS Muyeye
+    - 0.5:
+        non_striker: TS Muyeye
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 0.6:
+        non_striker: TS Muyeye
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 1.1:
+        non_striker: TS Muyeye
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 1.2:
+        non_striker: TS Muyeye
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 1.3:
+        non_striker: DJ Bell-Drummond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TS Muyeye
+    - 1.4:
+        non_striker: DJ Bell-Drummond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TS Muyeye
+    - 1.5:
+        non_striker: DJ Bell-Drummond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 1.6:
+        non_striker: DJ Bell-Drummond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 2.1:
+        non_striker: TS Muyeye
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 2.2:
+        non_striker: TS Muyeye
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+        wicket:
+          player_out: DJ Bell-Drummond
+          fielders:
+          - WT Smale
+          kind: caught
+    - 2.3:
+        non_striker: TS Muyeye
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HZ Finch
+    - 2.4:
+        non_striker: TS Muyeye
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HZ Finch
+    - 2.5:
+        non_striker: HZ Finch
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 2.6:
+        non_striker: HZ Finch
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 3.1:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+        wicket:
+          player_out: TS Muyeye
+          fielders:
+          - CA Ingram
+          kind: caught
+    - 3.2:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Denly
+    - 3.3:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 3.4:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 3.5:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 3.6:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 4.1:
+        non_striker: HZ Finch
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 4.2:
+        non_striker: HZ Finch
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 4.3:
+        non_striker: JL Denly
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HZ Finch
+    - 4.4:
+        non_striker: JL Denly
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HZ Finch
+    - 4.5:
+        non_striker: JL Denly
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HZ Finch
+    - 4.6:
+        non_striker: JL Denly
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HZ Finch
+    - 5.1:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Denly
+    - 5.2:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JL Denly
+    - 5.3:
+        non_striker: HZ Finch
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 5.4:
+        non_striker: JL Denly
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HZ Finch
+        wicket:
+          player_out: HZ Finch
+          kind: bowled
+    - 5.5:
+        non_striker: JL Denly
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 5.6:
+        non_striker: SW Billings
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 6.1:
+        non_striker: JL Denly
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 6.2:
+        non_striker: SW Billings
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 6.3:
+        non_striker: JL Denly
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 6.4:
+        non_striker: SW Billings
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 6.5:
+        non_striker: SW Billings
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 6.6:
+        non_striker: SW Billings
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Denly
+    - 7.1:
+        non_striker: JL Denly
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 7.2:
+        non_striker: JL Denly
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 7.3:
+        non_striker: SW Billings
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Denly
+    - 7.4:
+        non_striker: SW Billings
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 7.5:
+        non_striker: SW Billings
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 7.6:
+        non_striker: JL Denly
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 8.1:
+        non_striker: JL Denly
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+        wicket:
+          player_out: SW Billings
+          kind: bowled
+    - 8.2:
+        non_striker: JL Denly
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 8.3:
+        non_striker: JDM Evison
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+        wicket:
+          player_out: JL Denly
+          kind: bowled
+    - 8.4:
+        non_striker: JDM Evison
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 8.5:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JDM Evison
+    - 8.6:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JDM Evison
+    - 9.1:
+        non_striker: JDM Evison
+        bowler: EO Leonard
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Leaning
+    - 9.2:
+        non_striker: JDM Evison
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 9.3:
+        non_striker: JA Leaning
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 9.4:
+        non_striker: JDM Evison
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 9.5:
+        non_striker: JDM Evison
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 9.6:
+        non_striker: JDM Evison
+        bowler: EO Leonard
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Leaning
+    - 9.7:
+        non_striker: JDM Evison
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 9.8:
+        non_striker: JA Leaning
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+        wicket:
+          player_out: JDM Evison
+          fielders:
+          - AJ Horton
+          kind: caught
+    - 10.1:
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TS Rogers
+        batsman: JA Leaning
+    - 10.2:
+        non_striker: JA Leaning
+        bowler: Imad Wasim
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TS Rogers
+    - 10.3:
+        non_striker: JA Leaning
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Rogers
+    - 10.4:
+        non_striker: TS Rogers
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 10.5:
+        non_striker: TS Rogers
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 10.6:
+        non_striker: TS Rogers
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 10.7:
+        non_striker: JA Leaning
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Rogers
+    - 11.1:
+        non_striker: TS Rogers
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Leaning
+    - 11.2:
+        non_striker: TS Rogers
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 11.3:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Rogers
+    - 11.4:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Rogers
+    - 11.5:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TS Rogers
+    - 11.6:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Rogers
+    - 12.1:
+        non_striker: TS Rogers
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 12.2:
+        non_striker: TS Rogers
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 12.3:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Rogers
+        wicket:
+          player_out: TS Rogers
+          fielders:
+          - AJ Horton
+          kind: caught
+    - 12.4:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+    - 12.5:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 12.6:
+        non_striker: FJ Klaassen
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 13.1:
+        non_striker: JA Leaning
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 13.2:
+        non_striker: FJ Klaassen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 13.3:
+        non_striker: FJ Klaassen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 13.4:
+        non_striker: FJ Klaassen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 13.5:
+        non_striker: FJ Klaassen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 13.6:
+        non_striker: FJ Klaassen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 14.1:
+        non_striker: FJ Klaassen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 14.2:
+        non_striker: JA Leaning
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FJ Klaassen
+    - 14.3:
+        non_striker: JA Leaning
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+    - 14.4:
+        non_striker: JA Leaning
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 14.5:
+        non_striker: FJ Klaassen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 14.6:
+        non_striker: FJ Klaassen
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 15.1:
+        non_striker: FJ Klaassen
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 15.2:
+        non_striker: FJ Klaassen
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 15.3:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 15.4:
+        non_striker: FJ Klaassen
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 15.5:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+    - 15.6:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: FJ Klaassen
+    - 15.7:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 16.1:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+        wicket:
+          player_out: FJ Klaassen
+          kind: caught and bowled
+    - 16.2:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Gilchrist
+    - 16.3:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Gilchrist
+    - 16.4:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Gilchrist
+    - 16.5:
+        non_striker: NN Gilchrist
+        bowler: AW Gorvin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Leaning
+    - 16.6:
+        non_striker: NN Gilchrist
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 16.7:
+        non_striker: JA Leaning
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Gilchrist
+    - 17.1:
+        non_striker: JA Leaning
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Gilchrist
+    - 17.2:
+        non_striker: NN Gilchrist
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 17.3:
+        non_striker: NN Gilchrist
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Leaning
+    - 17.4:
+        non_striker: NN Gilchrist
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 17.5:
+        non_striker: JA Leaning
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Gilchrist
+        wicket:
+          player_out: NN Gilchrist
+          fielders:
+          - WT Smale
+          kind: caught
+    - 17.6:
+        non_striker: JA Leaning
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Parkinson
+    - 18.1:
+        non_striker: MW Parkinson
+        bowler: DA Douthwaite
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: JA Leaning
+    - 18.2:
+        non_striker: MW Parkinson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 18.3:
+        non_striker: MW Parkinson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 18.4:
+        non_striker: MW Parkinson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 18.5:
+        non_striker: MW Parkinson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 18.6:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Parkinson
+    - 18.7:
+        non_striker: JA Leaning
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Parkinson
+    - 19.1:
+        non_striker: MW Parkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Leaning
+    - 19.2:
+        non_striker: MW Parkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 19.3:
+        non_striker: MW Parkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 19.4:
+        non_striker: MW Parkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 19.5:
+        non_striker: MW Parkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 19.6:
+        non_striker: MW Parkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Leaning
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.2:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.3:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.4:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.5:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: KS Carlson
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.1:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Smale
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WT Smale
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.6:
+        non_striker: WT Smale
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.7:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 2.1:
+        non_striker: WT Smale
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: KS Carlson
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 2.3:
+        non_striker: WT Smale
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 2.4:
+        non_striker: WT Smale
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.5:
+        non_striker: WT Smale
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 2.6:
+        non_striker: WT Smale
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 3.1:
+        non_striker: WT Smale
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 3.2:
+        non_striker: WT Smale
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 3.3:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 3.4:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: WT Smale
+    - 3.5:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.6:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 3.7:
+        non_striker: WT Smale
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 4.1:
+        non_striker: KS Carlson
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 4.2:
+        non_striker: KS Carlson
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 4.3:
+        non_striker: WT Smale
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 4.4:
+        non_striker: KS Carlson
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          fielders:
+          - TS Rogers
+          kind: caught
+    - 4.5:
+        non_striker: KS Carlson
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Horton
+    - 4.6:
+        non_striker: KS Carlson
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Horton
+    - 5.1:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Horton
+    - 5.2:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Horton
+    - 5.3:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Horton
+    - 5.4:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Horton
+    - 5.5:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Horton
+    - 5.6:
+        non_striker: KS Carlson
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Horton
+    - 6.1:
+        non_striker: AJ Horton
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 6.2:
+        non_striker: AJ Horton
+        bowler: FJ Klaassen
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KS Carlson
+    - 6.3:
+        non_striker: AJ Horton
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 6.4:
+        non_striker: AJ Horton
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 6.5:
+        non_striker: AJ Horton
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - TS Rogers
+          kind: caught
+    - 6.6:
+        non_striker: AJ Horton
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 6.7:
+        non_striker: BI Kellaway
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Horton
+    - 7.1:
+        non_striker: BI Kellaway
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Horton
+        wicket:
+          player_out: AJ Horton
+          fielders:
+          - HZ Finch
+          kind: caught
+    - 7.2:
+        non_striker: BI Kellaway
+        bowler: NN Gilchrist
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CA Ingram
+    - 7.3:
+        non_striker: CA Ingram
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 7.4:
+        non_striker: BI Kellaway
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.5:
+        non_striker: BI Kellaway
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 7.6:
+        non_striker: BI Kellaway
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 8.1:
+        non_striker: CA Ingram
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 8.2:
+        non_striker: CA Ingram
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BI Kellaway
+    - 8.3:
+        non_striker: CA Ingram
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 8.4:
+        non_striker: BI Kellaway
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.5:
+        non_striker: CA Ingram
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 8.6:
+        non_striker: BI Kellaway
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 9.1:
+        non_striker: CA Ingram
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 9.2:
+        non_striker: BI Kellaway
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 9.3:
+        non_striker: BI Kellaway
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.4:
+        non_striker: CA Ingram
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BI Kellaway
+    - 9.5:
+        non_striker: CA Ingram
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 9.6:
+        non_striker: BI Kellaway
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 10.1:
+        non_striker: BI Kellaway
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 10.2:
+        non_striker: CA Ingram
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 10.3:
+        non_striker: BI Kellaway
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 10.4:
+        non_striker: BI Kellaway
+        bowler: MW Parkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CA Ingram
+    - 10.5:
+        non_striker: BI Kellaway
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 10.6:
+        non_striker: BI Kellaway
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 10.7:
+        non_striker: BI Kellaway
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - HZ Finch
+          kind: caught
+    - 11.1:
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: AM Tribe
+        batsman: BI Kellaway
+    - 11.2:
+        non_striker: BI Kellaway
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 11.3:
+        non_striker: BI Kellaway
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 11.4:
+        non_striker: BI Kellaway
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Tribe

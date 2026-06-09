@@ -1,0 +1,2134 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-05-31'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2024-05-31'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Surrey
+    by:
+      runs: 19
+  overs: 20
+  players:
+    Surrey:
+    - LJ Evans
+    - DW Lawrence
+    - JJ Roy
+    - OJ Pope
+    - JL Smith
+    - J Clark
+    - TK Curran
+    - SA Abbott
+    - CT Steel
+    - AAP Atkinson
+    - SH Johnson
+    Glamorgan:
+    - EJ Byrom
+    - KS Carlson
+    - SA Northeast
+    - CA Ingram
+    - M Labuschagne
+    - CB Cooke
+    - DA Douthwaite
+    - TR Bevan
+    - T van der Gugten
+    - MS Crane
+    - JP McIlroy
+  registry:
+    people:
+      AAP Atkinson: 70d57519
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      CT Steel: 5899dceb
+      DA Douthwaite: 03df7a25
+      DW Lawrence: 4b685e2d
+      EJ Byrom: 9e1b7792
+      J Clark: c672e80e
+      JD Shantry: 70fdd428
+      JJ Roy: d1c36f5c
+      JL Smith: c834c290
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      LJ Evans: 1c513d54
+      M Labuschagne: fa433be6
+      MS Crane: f0a0204e
+      OJ Pope: e94bc520
+      Phil Whitticase: 99d5f6fa
+      SA Abbott: 1a2676c5
+      SA Northeast: 7e4c8ba3
+      SH Johnson: 83c3e8e3
+      T van der Gugten: d99cc23a
+      TK Curran: e86754b2
+      TR Bevan: 6c7349c4
+      Tom Lungley: 75169b8c
+  teams:
+  - Surrey
+  - Glamorgan
+  toss:
+    winner: Glamorgan
+    decision: field
+  umpires:
+  - JD Shantry
+  - Tom Lungley
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Surrey
+    deliveries:
+    - 0.1:
+        non_striker: DW Lawrence
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 0.2:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DW Lawrence
+    - 0.3:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DW Lawrence
+    - 0.4:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DW Lawrence
+    - 0.5:
+        non_striker: DW Lawrence
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 0.6:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DW Lawrence
+    - 1.1:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DW Lawrence
+    - 1.2:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DW Lawrence
+    - 1.3:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DW Lawrence
+    - 1.4:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DW Lawrence
+    - 1.5:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DW Lawrence
+    - 1.6:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DW Lawrence
+    - 2.1:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DW Lawrence
+    - 2.2:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DW Lawrence
+        wicket:
+          player_out: DW Lawrence
+          fielders:
+          - M Labuschagne
+          kind: caught
+    - 2.3:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: JJ Roy
+    - 2.4:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Roy
+    - 2.5:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 2.6:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Roy
+    - 3.1:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 3.2:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Roy
+    - 3.3:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+    - 3.4:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Roy
+        wicket:
+          player_out: JJ Roy
+          kind: bowled
+    - 3.5:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Pope
+    - 3.6:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Pope
+    - 4.1:
+        non_striker: OJ Pope
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 4.2:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Pope
+        wicket:
+          player_out: OJ Pope
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 4.3:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 4.4:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 4.5:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 4.6:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Smith
+    - 5.1:
+        non_striker: JL Smith
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 5.2:
+        non_striker: JL Smith
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 5.3:
+        non_striker: JL Smith
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 5.4:
+        non_striker: JL Smith
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 5.5:
+        non_striker: JL Smith
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 5.6:
+        non_striker: LJ Evans
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 6.1:
+        non_striker: LJ Evans
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 6.2:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 6.3:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 6.4:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 6.5:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 6.6:
+        non_striker: LJ Evans
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 7.1:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Smith
+    - 7.2:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 7.3:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JL Smith
+    - 7.4:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 7.5:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Smith
+    - 7.6:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 8.1:
+        non_striker: JL Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 8.2:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 8.3:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 8.4:
+        non_striker: JL Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 8.5:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JL Smith
+    - 8.6:
+        non_striker: JL Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 9.1:
+        non_striker: LJ Evans
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Smith
+    - 9.2:
+        non_striker: LJ Evans
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 9.3:
+        non_striker: LJ Evans
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 9.4:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 9.5:
+        non_striker: LJ Evans
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 9.6:
+        non_striker: LJ Evans
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Smith
+    - 10.1:
+        non_striker: JL Smith
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 10.2:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 10.3:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 10.4:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 10.5:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Smith
+    - 10.6:
+        non_striker: LJ Evans
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 11.1:
+        non_striker: JL Smith
+        bowler: TR Bevan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 11.2:
+        non_striker: JL Smith
+        bowler: TR Bevan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+        wicket:
+          player_out: LJ Evans
+          fielders:
+          - CA Ingram
+          kind: caught
+    - 11.3:
+        non_striker: JL Smith
+        bowler: TR Bevan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Clark
+    - 11.4:
+        non_striker: J Clark
+        bowler: TR Bevan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 11.5:
+        non_striker: JL Smith
+        bowler: TR Bevan
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: J Clark
+    - 11.6:
+        non_striker: JL Smith
+        bowler: TR Bevan
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: J Clark
+    - 11.7:
+        non_striker: J Clark
+        bowler: TR Bevan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 12.1:
+        non_striker: J Clark
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 12.2:
+        non_striker: JL Smith
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Clark
+    - 12.3:
+        non_striker: JL Smith
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Clark
+        wicket:
+          player_out: J Clark
+          kind: bowled
+    - 12.4:
+        non_striker: JL Smith
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 12.5:
+        non_striker: JL Smith
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 12.6:
+        non_striker: JL Smith
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 13.1:
+        non_striker: TK Curran
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 13.2:
+        non_striker: TK Curran
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 13.3:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TK Curran
+    - 13.4:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TK Curran
+    - 13.5:
+        non_striker: TK Curran
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Smith
+    - 13.6:
+        non_striker: JL Smith
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+    - 14.1:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 14.2:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 14.3:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Smith
+    - 14.4:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Smith
+    - 14.5:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+    - 14.6:
+        non_striker: TK Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Smith
+        wicket:
+          player_out: JL Smith
+          fielders:
+          - SA Northeast
+          kind: caught
+    - 15.1:
+        non_striker: SA Abbott
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TK Curran
+        wicket:
+          player_out: TK Curran
+          kind: bowled
+    - 15.2:
+        non_striker: SA Abbott
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CT Steel
+    - 15.3:
+        non_striker: SA Abbott
+        bowler: M Labuschagne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CT Steel
+    - 15.4:
+        non_striker: CT Steel
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Abbott
+    - 15.5:
+        non_striker: CT Steel
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Abbott
+    - 15.6:
+        non_striker: SA Abbott
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Steel
+    - 16.1:
+        non_striker: SA Abbott
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Steel
+    - 16.2:
+        non_striker: CT Steel
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Abbott
+    - 16.3:
+        non_striker: SA Abbott
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Steel
+    - 16.4:
+        non_striker: SA Abbott
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Steel
+    - 16.5:
+        non_striker: CT Steel
+        bowler: DA Douthwaite
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: SA Abbott
+    - 16.6:
+        non_striker: SA Abbott
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CT Steel
+    - 16.7:
+        non_striker: SA Abbott
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CT Steel
+    - 17.1:
+        non_striker: CT Steel
+        bowler: MS Crane
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SA Abbott
+    - 17.2:
+        non_striker: CT Steel
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Abbott
+    - 17.3:
+        non_striker: CT Steel
+        bowler: MS Crane
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SA Abbott
+    - 17.4:
+        non_striker: SA Abbott
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Steel
+        wicket:
+          player_out: CT Steel
+          kind: bowled
+    - 17.5:
+        non_striker: SA Abbott
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AAP Atkinson
+    - 17.6:
+        non_striker: SA Abbott
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AAP Atkinson
+    - 17.7:
+        non_striker: AAP Atkinson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Abbott
+    - 18.1:
+        non_striker: AAP Atkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Abbott
+    - 18.2:
+        non_striker: AAP Atkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Abbott
+    - 18.3:
+        non_striker: AAP Atkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Abbott
+    - 18.4:
+        non_striker: SA Abbott
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AAP Atkinson
+    - 18.5:
+        non_striker: SA Abbott
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AAP Atkinson
+    - 18.6:
+        non_striker: AAP Atkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 2
+          total: 4
+          batsman: 2
+        extras:
+          noballs: 2
+        batsman: SA Abbott
+    - 18.7:
+        non_striker: AAP Atkinson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Abbott
+    - 19.1:
+        non_striker: SA Abbott
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AAP Atkinson
+    - 19.2:
+        non_striker: AAP Atkinson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Abbott
+    - 19.3:
+        non_striker: AAP Atkinson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Abbott
+    - 19.4:
+        non_striker: SA Abbott
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AAP Atkinson
+    - 19.5:
+        non_striker: SA Abbott
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AAP Atkinson
+    - 19.6:
+        non_striker: AAP Atkinson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Abbott
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 0.2:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EJ Byrom
+    - 0.4:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 0.5:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Byrom
+    - 0.6:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Byrom
+    - 1.1:
+        non_striker: EJ Byrom
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+        wicket:
+          player_out: EJ Byrom
+          fielders:
+          - J Clark
+          kind: caught
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.6:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.1:
+        non_striker: SA Northeast
+        bowler: SH Johnson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 2.3:
+        non_striker: KS Carlson
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 2.4:
+        non_striker: SA Northeast
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - CT Steel
+          kind: caught
+    - 2.5:
+        non_striker: SA Northeast
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 2.6:
+        non_striker: SA Northeast
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 3.1:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 3.2:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 3.3:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 3.4:
+        non_striker: CA Ingram
+        bowler: AAP Atkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SA Northeast
+    - 3.5:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 3.6:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 4.1:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 4.2:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 4.3:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 4.4:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          fielders:
+          - SH Johnson
+          kind: caught
+    - 4.5:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.6:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: M Labuschagne
+    - 5.1:
+        non_striker: CA Ingram
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 5.2:
+        non_striker: CA Ingram
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 5.3:
+        non_striker: CA Ingram
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 5.4:
+        non_striker: CA Ingram
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 5.5:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.6:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.1:
+        non_striker: CA Ingram
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 6.2:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.3:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.4:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.5:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 6.6:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 7.1:
+        non_striker: CA Ingram
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 7.2:
+        non_striker: CA Ingram
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 7.3:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 7.4:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.5:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.6:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 8.1:
+        non_striker: CA Ingram
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 8.2:
+        non_striker: CA Ingram
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 8.3:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 8.4:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.5:
+        non_striker: CA Ingram
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 8.6:
+        non_striker: M Labuschagne
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.1:
+        non_striker: M Labuschagne
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.2:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: M Labuschagne
+    - 9.3:
+        non_striker: M Labuschagne
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 9.4:
+        non_striker: M Labuschagne
+        bowler: J Clark
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CA Ingram
+    - 9.5:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 9.6:
+        non_striker: M Labuschagne
+        bowler: J Clark
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CA Ingram
+    - 10.1:
+        non_striker: M Labuschagne
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 10.2:
+        non_striker: CA Ingram
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 10.3:
+        non_striker: CA Ingram
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 10.4:
+        non_striker: CA Ingram
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 10.5:
+        non_striker: M Labuschagne
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 10.6:
+        non_striker: M Labuschagne
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 11.1:
+        non_striker: M Labuschagne
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 11.2:
+        non_striker: M Labuschagne
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 11.3:
+        non_striker: M Labuschagne
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 11.4:
+        non_striker: CA Ingram
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 11.5:
+        non_striker: CA Ingram
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 11.6:
+        non_striker: CA Ingram
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 12.1:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 12.2:
+        non_striker: CA Ingram
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 12.3:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 12.4:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 12.5:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 12.6:
+        non_striker: M Labuschagne
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 13.1:
+        non_striker: CA Ingram
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 13.2:
+        non_striker: CA Ingram
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 13.3:
+        non_striker: CA Ingram
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 13.4:
+        non_striker: CA Ingram
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Labuschagne
+    - 13.5:
+        non_striker: CA Ingram
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 13.6:
+        non_striker: CA Ingram
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 14.1:
+        non_striker: M Labuschagne
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 14.2:
+        non_striker: M Labuschagne
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 14.3:
+        non_striker: CA Ingram
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Labuschagne
+    - 14.4:
+        non_striker: CA Ingram
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 14.5:
+        non_striker: M Labuschagne
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 14.6:
+        non_striker: M Labuschagne
+        bowler: SH Johnson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 15.1:
+        non_striker: CA Ingram
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - OJ Pope
+          kind: run out
+    - 15.2:
+        non_striker: M Labuschagne
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 15.3:
+        non_striker: CB Cooke
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 15.4:
+        non_striker: M Labuschagne
+        bowler: J Clark
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CB Cooke
+    - 15.5:
+        non_striker: CB Cooke
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Labuschagne
+    - 15.6:
+        non_striker: CB Cooke
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 16.1:
+        non_striker: CB Cooke
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: M Labuschagne
+          fielders:
+          - JL Smith
+          kind: caught
+    - 16.2:
+        non_striker: CB Cooke
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 16.3:
+        non_striker: DA Douthwaite
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 16.4:
+        non_striker: DA Douthwaite
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 16.5:
+        non_striker: DA Douthwaite
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 16.6:
+        non_striker: DA Douthwaite
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 17.1:
+        non_striker: CB Cooke
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 17.2:
+        non_striker: CB Cooke
+        bowler: AAP Atkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DA Douthwaite
+    - 17.3:
+        non_striker: DA Douthwaite
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 17.4:
+        non_striker: DA Douthwaite
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 17.5:
+        non_striker: DA Douthwaite
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 17.6:
+        non_striker: CB Cooke
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 18.1:
+        non_striker: DA Douthwaite
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 18.2:
+        non_striker: DA Douthwaite
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 18.3:
+        non_striker: DA Douthwaite
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 18.4:
+        non_striker: DA Douthwaite
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 18.5:
+        non_striker: CB Cooke
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 18.6:
+        non_striker: CB Cooke
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+        wicket:
+          player_out: DA Douthwaite
+          fielders:
+          - SH Johnson
+          kind: caught
+    - 19.1:
+        non_striker: TR Bevan
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 19.2:
+        non_striker: TR Bevan
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 19.3:
+        non_striker: CB Cooke
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TR Bevan
+        wicket:
+          player_out: TR Bevan
+          kind: bowled
+    - 19.4:
+        non_striker: CB Cooke
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 19.5:
+        non_striker: CB Cooke
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 19.6:
+        non_striker: CB Cooke
+        bowler: DW Lawrence
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten

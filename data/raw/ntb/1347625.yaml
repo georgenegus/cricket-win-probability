@@ -1,0 +1,2098 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-11'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2023-06-07'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Surrey
+    by:
+      runs: 65
+  overs: 20
+  players:
+    Surrey:
+    - WG Jacks
+    - LJ Evans
+    - SM Curran
+    - J Overton
+    - SP Narine
+    - JL Smith
+    - SA Abbott
+    - TK Curran
+    - CJ Jordan
+    - CT Steel
+    - AAP Atkinson
+    Glamorgan:
+    - KS Carlson
+    - SA Northeast
+    - Callum Taylor
+    - CA Ingram
+    - CB Cooke
+    - WT Root
+    - P Sisodiya
+    - RAJ Smith
+    - P Hatzoglou
+    - JP McIlroy
+    - DA Douthwaite
+  registry:
+    people:
+      AAP Atkinson: 70d57519
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      CJ Jordan: ffe699c0
+      CT Steel: 5899dceb
+      Callum Taylor: 5a42a396
+      DA Douthwaite: 03df7a25
+      ID Blackwell: 818e8bf2
+      J Overton: 59559bc2
+      JL Smith: c834c290
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      LJ Evans: 1c513d54
+      P Hatzoglou: 6f95e5fa
+      P Sisodiya: dd9de7ad
+      PK Baldwin: 6bb53c12
+      Phil Whitticase: 99d5f6fa
+      RAJ Smith: 6daf5e8c
+      SA Abbott: 1a2676c5
+      SA Northeast: 7e4c8ba3
+      SM Curran: e94915e6
+      SP Narine: 9d430b40
+      TK Curran: e86754b2
+      WG Jacks: 9caf69a1
+      WT Root: '72898514'
+  teams:
+  - Surrey
+  - Glamorgan
+  toss:
+    winner: Surrey
+    decision: bat
+  umpires:
+  - ID Blackwell
+  - PK Baldwin
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Surrey
+    deliveries:
+    - 0.1:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 0.2:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 0.3:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 0.4:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 0.5:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 0.6:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 1.1:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 1.2:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 1.3:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 1.4:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 1.5:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 1.6:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 2.1:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 2.2:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 2.3:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.4:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 2.5:
+        non_striker: WG Jacks
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.6:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WG Jacks
+    - 3.1:
+        non_striker: WG Jacks
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 3.2:
+        non_striker: WG Jacks
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 3.3:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 3.4:
+        non_striker: WG Jacks
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 3.5:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 3.6:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 4.1:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: WG Jacks
+    - 4.2:
+        non_striker: WG Jacks
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 4.3:
+        non_striker: WG Jacks
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 4.4:
+        non_striker: WG Jacks
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 4.5:
+        non_striker: WG Jacks
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 4.6:
+        non_striker: WG Jacks
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 5.1:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 5.2:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 5.3:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 5.4:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 5.5:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 5.6:
+        non_striker: WG Jacks
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 6.1:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 6.2:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 6.3:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 6.4:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 6.5:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 6.6:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 7.1:
+        non_striker: WG Jacks
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 7.2:
+        non_striker: LJ Evans
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 7.3:
+        non_striker: WG Jacks
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 7.4:
+        non_striker: WG Jacks
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 7.5:
+        non_striker: WG Jacks
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 7.6:
+        non_striker: LJ Evans
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 8.1:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 8.2:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 8.3:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 8.4:
+        non_striker: WG Jacks
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 8.5:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WG Jacks
+    - 8.6:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 9.1:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WG Jacks
+    - 9.2:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WG Jacks
+    - 9.3:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 9.4:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 9.5:
+        non_striker: LJ Evans
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 9.6:
+        non_striker: WG Jacks
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        replacements:
+          role:
+          - in: KS Carlson
+            out: DA Douthwaite
+            reason: injury
+            role: bowler
+        batsman: LJ Evans
+    - 9.7:
+        non_striker: WG Jacks
+        bowler: KS Carlson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 10.1:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 10.2:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 10.3:
+        non_striker: WG Jacks
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LJ Evans
+    - 10.4:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+        wicket:
+          player_out: WG Jacks
+          kind: lbw
+    - 10.5:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 10.6:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 11.1:
+        non_striker: SM Curran
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 11.2:
+        non_striker: LJ Evans
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 11.3:
+        non_striker: SM Curran
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 11.4:
+        non_striker: SM Curran
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 11.5:
+        non_striker: SM Curran
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 11.6:
+        non_striker: SM Curran
+        bowler: Callum Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 12.1:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 12.2:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 12.3:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 12.4:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LJ Evans
+    - 12.5:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 12.6:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 12.7:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 13.1:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 13.2:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 13.3:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 13.4:
+        non_striker: SM Curran
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 13.5:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 13.6:
+        non_striker: SM Curran
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 14.1:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 14.2:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 14.3:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 14.4:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 14.5:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 14.6:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 15.1:
+        non_striker: SM Curran
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 15.2:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 15.3:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 15.4:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 15.5:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 15.6:
+        non_striker: LJ Evans
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 16.1:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 16.2:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 16.3:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 16.4:
+        non_striker: SM Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 16.5:
+        non_striker: SM Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 16.6:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 17.1:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 17.2:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 17.3:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 17.4:
+        non_striker: SM Curran
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 17.5:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 17.6:
+        non_striker: LJ Evans
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 18.1:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 18.2:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 18.3:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LJ Evans
+    - 18.4:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 18.5:
+        non_striker: SM Curran
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 18.6:
+        non_striker: LJ Evans
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 19.1:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 19.2:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 19.3:
+        non_striker: SM Curran
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 19.4:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+        wicket:
+          player_out: SM Curran
+          fielders:
+          - CA Ingram
+          kind: caught
+    - 19.5:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Overton
+    - 19.6:
+        non_striker: LJ Evans
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Overton
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.4:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.5:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.1:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.6:
+        non_striker: KS Carlson
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.1:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: KS Carlson
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 2.3:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 2.4:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 2.5:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 2.6:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 3.1:
+        non_striker: KS Carlson
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 3.2:
+        non_striker: KS Carlson
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 3.3:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 3.4:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - AAP Atkinson
+          kind: caught
+    - 3.5:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Callum Taylor
+    - 3.6:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Callum Taylor
+    - 4.1:
+        non_striker: Callum Taylor
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 4.2:
+        non_striker: Callum Taylor
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 4.3:
+        non_striker: Callum Taylor
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 4.4:
+        non_striker: Callum Taylor
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 4.5:
+        non_striker: Callum Taylor
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 4.6:
+        non_striker: Callum Taylor
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.1:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Callum Taylor
+        wicket:
+          player_out: Callum Taylor
+          kind: bowled
+    - 5.2:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.3:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CA Ingram
+    - 5.4:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 5.5:
+        non_striker: CA Ingram
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.6:
+        non_striker: CA Ingram
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 5.7:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.1:
+        non_striker: CA Ingram
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.2:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.3:
+        non_striker: CA Ingram
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.4:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 6.5:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.6:
+        non_striker: CA Ingram
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.1:
+        non_striker: CA Ingram
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.2:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 7.3:
+        non_striker: CA Ingram
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 7.4:
+        non_striker: CA Ingram
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.5:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 6
+          total: 6
+          batsman: 0
+        extras:
+          byes: 4
+          noballs: 2
+        batsman: CA Ingram
+    - 7.6:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 7.7:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.1:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - SM Curran
+          kind: caught
+    - 8.2:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 8.3:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.4:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 8.5:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 8.6:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 9.1:
+        non_striker: CB Cooke
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 9.2:
+        non_striker: CB Cooke
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 9.3:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 9.4:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 9.5:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.6:
+        non_striker: CB Cooke
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.1:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.2:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 10.3:
+        non_striker: CB Cooke
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.4:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 10.5:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 10.6:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.1:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          kind: bowled
+    - 11.2:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 11.3:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 11.4:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 11.5:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 11.6:
+        non_striker: WT Root
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 12.1:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Root
+    - 12.2:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Root
+    - 12.3:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 12.4:
+        non_striker: WT Root
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 12.5:
+        non_striker: WT Root
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 12.6:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Root
+    - 13.1:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 13.2:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 13.3:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 13.4:
+        non_striker: WT Root
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 13.5:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 13.6:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+        wicket:
+          player_out: WT Root
+          kind: bowled
+    - 14.1:
+        non_striker: P Sisodiya
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 14.2:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Sisodiya
+    - 14.3:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Sisodiya
+    - 14.4:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Sisodiya
+    - 14.5:
+        non_striker: P Sisodiya
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 14.6:
+        non_striker: SA Northeast
+        bowler: SP Narine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+    - 15.1:
+        non_striker: P Sisodiya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 15.2:
+        non_striker: P Sisodiya
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 15.3:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+    - 15.4:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+    - 15.5:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Sisodiya
+    - 15.6:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Sisodiya
+    - 16.1:
+        non_striker: P Sisodiya
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 16.2:
+        non_striker: P Sisodiya
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 16.3:
+        non_striker: P Sisodiya
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 16.4:
+        non_striker: P Sisodiya
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 16.5:
+        non_striker: P Sisodiya
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 16.6:
+        non_striker: SA Northeast
+        bowler: SM Curran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Sisodiya
+    - 17.1:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Sisodiya
+    - 17.2:
+        non_striker: P Sisodiya
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 17.3:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Sisodiya
+    - 17.4:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Sisodiya
+    - 17.5:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+    - 17.6:
+        non_striker: SA Northeast
+        bowler: AAP Atkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+        wicket:
+          player_out: P Sisodiya
+          fielders:
+          - CJ Jordan
+          kind: caught
+    - 18.1:
+        non_striker: RAJ Smith
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 18.2:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+        wicket:
+          player_out: RAJ Smith
+          fielders:
+          - CT Steel
+          kind: caught
+    - 18.3:
+        non_striker: SA Northeast
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 18.4:
+        non_striker: P Hatzoglou
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 18.5:
+        non_striker: P Hatzoglou
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 18.6:
+        non_striker: P Hatzoglou
+        bowler: SA Abbott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 19.1:
+        non_striker: SA Northeast
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 19.2:
+        non_striker: P Hatzoglou
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 19.3:
+        non_striker: P Hatzoglou
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 19.4:
+        non_striker: P Hatzoglou
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 19.5:
+        non_striker: P Hatzoglou
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          kind: bowled
+    - 19.6:
+        non_striker: P Hatzoglou
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy

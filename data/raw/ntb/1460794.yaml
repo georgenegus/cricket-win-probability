@@ -1,0 +1,2103 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-13'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Taunton
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-12'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Middlesex:
+    - SS Eskinazi
+    - KS Williamson
+    - MDE Holden
+    - BBA Geddes
+    - JL du Plooy
+    - RF Higgins
+    - JLB Davies
+    - LBK Hollman
+    - Zafar Gohar
+    - TG Helm
+    - NB Cornwell
+    Somerset:
+    - T Banton
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - C Overton
+    - LP Goldsworthy
+    - MJ Henry
+    - RP Meredith
+  registry:
+    people:
+      AC Harris: ef14c0ec
+      BBA Geddes: 305c31f2
+      BGF Green: 34b37279
+      C Overton: e9987a94
+      JJ Swift: 78deed6e
+      JL du Plooy: 6e6fb538
+      JLB Davies: 76dc16d4
+      KS Williamson: d027ba9f
+      L Gregory: 06c2de82
+      LBK Hollman: bdc0670a
+      LP Goldsworthy: ed47cb25
+      MDE Holden: d34a2268
+      MJ Henry: e84ac20c
+      Mark Newell: b33f0fa1
+      NB Cornwell: 8f08313a
+      RF Higgins: ad212f96
+      RP Meredith: '64775749'
+      SR Dickson: 2344bdd1
+      SS Eskinazi: 75cbed9b
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      TB Abell: ba9258a7
+      TG Helm: 74a274cc
+      WCF Smeed: 4e18e961
+      Zafar Gohar: 9fd3a210
+  teams:
+  - Middlesex
+  - Somerset
+  toss:
+    winner: Somerset
+    decision: field
+  umpires:
+  - AC Harris
+  - Mark Newell
+  venue: The Cooper Associates County Ground, Taunton
+innings:
+- 1st innings:
+    team: Middlesex
+    deliveries:
+    - 0.1:
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: KS Williamson
+        batsman: SS Eskinazi
+    - 0.2:
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: KS Williamson
+        batsman: SS Eskinazi
+    - 0.3:
+        non_striker: SS Eskinazi
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Williamson
+    - 0.4:
+        non_striker: SS Eskinazi
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Williamson
+    - 0.5:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 0.6:
+        non_striker: SS Eskinazi
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Williamson
+    - 1.1:
+        non_striker: KS Williamson
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Eskinazi
+    - 1.2:
+        non_striker: KS Williamson
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 1.3:
+        non_striker: SS Eskinazi
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Williamson
+    - 1.4:
+        non_striker: SS Eskinazi
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Williamson
+    - 1.5:
+        non_striker: SS Eskinazi
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Williamson
+    - 1.6:
+        non_striker: SS Eskinazi
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Williamson
+    - 2.1:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 2.2:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SS Eskinazi
+    - 2.3:
+        non_striker: SS Eskinazi
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Williamson
+    - 2.4:
+        non_striker: SS Eskinazi
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Williamson
+    - 2.5:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 2.6:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Eskinazi
+    - 3.1:
+        non_striker: SS Eskinazi
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Williamson
+    - 3.2:
+        non_striker: SS Eskinazi
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Williamson
+    - 3.3:
+        non_striker: SS Eskinazi
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Williamson
+    - 3.4:
+        non_striker: KS Williamson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Eskinazi
+    - 3.5:
+        non_striker: KS Williamson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 3.6:
+        non_striker: KS Williamson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+        wicket:
+          player_out: SS Eskinazi
+          kind: bowled
+    - 4.1:
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: MDE Holden
+        batsman: KS Williamson
+    - 4.2:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDE Holden
+    - 4.3:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 4.4:
+        non_striker: MDE Holden
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Williamson
+    - 4.5:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 4.6:
+        non_striker: KS Williamson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDE Holden
+    - 5.1:
+        non_striker: MDE Holden
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Williamson
+    - 5.2:
+        non_striker: MDE Holden
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Williamson
+    - 5.3:
+        non_striker: KS Williamson
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 5.4:
+        non_striker: MDE Holden
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Williamson
+        wicket:
+          player_out: KS Williamson
+          fielders:
+          - TB Abell
+          kind: caught
+    - 5.5:
+        non_striker: MDE Holden
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BBA Geddes
+    - 5.6:
+        non_striker: MDE Holden
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BBA Geddes
+    - 6.1:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 6.2:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 6.3:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 6.4:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 6.5:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 6.6:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 7.1:
+        non_striker: BBA Geddes
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MDE Holden
+    - 7.2:
+        non_striker: BBA Geddes
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 7.3:
+        non_striker: MDE Holden
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 7.4:
+        non_striker: BBA Geddes
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 7.5:
+        non_striker: MDE Holden
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BBA Geddes
+    - 7.6:
+        non_striker: MDE Holden
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BBA Geddes
+    - 8.1:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 8.2:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDE Holden
+    - 8.3:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 8.4:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 8.5:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 8.6:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 9.1:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 9.2:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDE Holden
+    - 9.3:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 9.4:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BBA Geddes
+    - 9.5:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BBA Geddes
+    - 9.6:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 10.1:
+        non_striker: MDE Holden
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BBA Geddes
+    - 10.2:
+        non_striker: MDE Holden
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 10.3:
+        non_striker: BBA Geddes
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 10.4:
+        non_striker: BBA Geddes
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 10.5:
+        non_striker: MDE Holden
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BBA Geddes
+    - 10.6:
+        non_striker: MDE Holden
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BBA Geddes
+    - 11.1:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 11.2:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 11.3:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 11.4:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 11.5:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 11.6:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 12.1:
+        non_striker: BBA Geddes
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 12.2:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BBA Geddes
+    - 12.3:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BBA Geddes
+    - 12.4:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BBA Geddes
+    - 12.5:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: BBA Geddes
+    - 12.6:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 13.1:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 13.2:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 13.3:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BBA Geddes
+    - 13.4:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 13.5:
+        non_striker: BBA Geddes
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 13.6:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BBA Geddes
+    - 14.1:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 14.2:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 14.3:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 14.4:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BBA Geddes
+    - 14.5:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BBA Geddes
+    - 14.6:
+        non_striker: BBA Geddes
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 15.1:
+        non_striker: BBA Geddes
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDE Holden
+    - 15.2:
+        non_striker: BBA Geddes
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 15.3:
+        non_striker: BBA Geddes
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 15.4:
+        non_striker: BBA Geddes
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MDE Holden
+    - 15.5:
+        non_striker: BBA Geddes
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDE Holden
+    - 15.6:
+        non_striker: BBA Geddes
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 16.1:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BBA Geddes
+        wicket:
+          player_out: BBA Geddes
+          fielders:
+          - MJ Henry
+          kind: caught
+    - 16.2:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL du Plooy
+        wicket:
+          player_out: JL du Plooy
+          fielders:
+          - C Overton
+          kind: caught
+    - 16.3:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RF Higgins
+    - 16.4:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RF Higgins
+    - 16.5:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RF Higgins
+    - 16.6:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RF Higgins
+    - 16.7:
+        non_striker: RF Higgins
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 17.1:
+        non_striker: RF Higgins
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 17.2:
+        non_striker: RF Higgins
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MDE Holden
+    - 17.3:
+        non_striker: RF Higgins
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 17.4:
+        non_striker: RF Higgins
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 17.5:
+        non_striker: RF Higgins
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 17.6:
+        non_striker: MDE Holden
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RF Higgins
+    - 18.1:
+        non_striker: RF Higgins
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MDE Holden
+    - 18.2:
+        non_striker: RF Higgins
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 18.3:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RF Higgins
+    - 18.4:
+        non_striker: RF Higgins
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 18.5:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RF Higgins
+    - 18.6:
+        non_striker: MDE Holden
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RF Higgins
+        wicket:
+          player_out: RF Higgins
+          fielders:
+          - T Banton
+          kind: caught
+    - 19.1:
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        non_striker: JLB Davies
+        batsman: MDE Holden
+    - 19.2:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JLB Davies
+    - 19.3:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JLB Davies
+    - 19.4:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JLB Davies
+    - 19.5:
+        non_striker: JLB Davies
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MDE Holden
+    - 19.6:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JLB Davies
+    - 19.7:
+        non_striker: MDE Holden
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JLB Davies
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: WCF Smeed
+        batsman: T Banton
+    - 0.2:
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        non_striker: WCF Smeed
+        batsman: T Banton
+    - 0.3:
+        non_striker: T Banton
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 0.4:
+        non_striker: T Banton
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 0.5:
+        non_striker: T Banton
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+        wicket:
+          player_out: WCF Smeed
+          kind: bowled
+    - 0.6:
+        non_striker: T Banton
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 1.1:
+        non_striker: T Banton
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 1.2:
+        non_striker: T Kohler-Cadmore
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.3:
+        non_striker: T Kohler-Cadmore
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 1.4:
+        non_striker: T Banton
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 1.5:
+        non_striker: T Banton
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 1.6:
+        non_striker: T Kohler-Cadmore
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 2.1:
+        non_striker: T Banton
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 2.2:
+        non_striker: T Kohler-Cadmore
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 2.3:
+        non_striker: T Banton
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 2.4:
+        non_striker: T Banton
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 2.5:
+        non_striker: T Kohler-Cadmore
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 2.6:
+        non_striker: T Banton
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 3.1:
+        non_striker: T Kohler-Cadmore
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 3.2:
+        non_striker: T Kohler-Cadmore
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          fielders:
+          - LBK Hollman
+          kind: caught
+    - 3.3:
+        non_striker: T Kohler-Cadmore
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 3.4:
+        non_striker: T Kohler-Cadmore
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 3.5:
+        non_striker: T Kohler-Cadmore
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 3.6:
+        non_striker: T Kohler-Cadmore
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 4.1:
+        non_striker: TB Abell
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          kind: bowled
+    - 4.2:
+        non_striker: TB Abell
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 4.3:
+        non_striker: SR Dickson
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 4.4:
+        non_striker: TB Abell
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 4.5:
+        non_striker: TB Abell
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 4.6:
+        non_striker: SR Dickson
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 5.1:
+        non_striker: SR Dickson
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 5.2:
+        non_striker: SR Dickson
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 5.3:
+        non_striker: TB Abell
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 5.4:
+        non_striker: SR Dickson
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 5.5:
+        non_striker: SR Dickson
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 5.6:
+        non_striker: TB Abell
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 6.1:
+        non_striker: TB Abell
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 6.2:
+        non_striker: SR Dickson
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.3:
+        non_striker: TB Abell
+        bowler: TG Helm
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SR Dickson
+    - 6.4:
+        non_striker: SR Dickson
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.5:
+        non_striker: TB Abell
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 6.6:
+        non_striker: TB Abell
+        bowler: TG Helm
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SR Dickson
+    - 6.7:
+        non_striker: TB Abell
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 7.1:
+        non_striker: TB Abell
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 7.2:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.3:
+        non_striker: TB Abell
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 7.4:
+        non_striker: TB Abell
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 7.5:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 7.6:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.7:
+        non_striker: TB Abell
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Dickson
+    - 8.1:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 8.2:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TB Abell
+    - 8.3:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 8.4:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 8.5:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 8.6:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          fielders:
+          - JL du Plooy
+          kind: caught
+    - 9.1:
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: L Gregory
+        batsman: SR Dickson
+    - 9.2:
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: L Gregory
+        batsman: SR Dickson
+    - 9.3:
+        non_striker: SR Dickson
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 9.4:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 9.5:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 9.6:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 10.1:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 10.2:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 10.3:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 10.4:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SR Dickson
+    - 10.5:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: L Gregory
+    - 10.6:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 10.7:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 11.1:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 11.2:
+        non_striker: L Gregory
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Dickson
+    - 11.3:
+        non_striker: L Gregory
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 11.4:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 11.5:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 11.6:
+        non_striker: L Gregory
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 12.1:
+        non_striker: SR Dickson
+        bowler: LBK Hollman
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: L Gregory
+    - 12.2:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 12.3:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 12.4:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 12.5:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 12.6:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 12.7:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 13.1:
+        non_striker: L Gregory
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 13.2:
+        non_striker: L Gregory
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 13.3:
+        non_striker: L Gregory
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 13.4:
+        non_striker: SR Dickson
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 13.5:
+        non_striker: SR Dickson
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 13.6:
+        non_striker: L Gregory
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 14.1:
+        non_striker: L Gregory
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 14.2:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 14.3:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 14.4:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 14.5:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 14.6:
+        non_striker: SR Dickson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 15.1:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 15.2:
+        non_striker: SR Dickson
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 15.3:
+        non_striker: SR Dickson
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 15.4:
+        non_striker: SR Dickson
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 15.5:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 15.6:
+        non_striker: SR Dickson
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 16.1:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+        wicket:
+          player_out: SR Dickson
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 16.2:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 16.3:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 16.4:
+        non_striker: BGF Green
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 16.5:
+        non_striker: L Gregory
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 16.6:
+        non_striker: BGF Green
+        bowler: LBK Hollman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 17.1:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 17.2:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BGF Green
+    - 17.3:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 17.4:
+        non_striker: BGF Green
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.5:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 17.6:
+        non_striker: L Gregory
+        bowler: RF Higgins
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 18.1:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BGF Green
+    - 18.2:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 18.3:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BGF Green
+    - 18.4:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 18.5:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 18.6:
+        non_striker: L Gregory
+        bowler: TG Helm
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 19.1:
+        non_striker: L Gregory
+        bowler: NB Cornwell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BGF Green
+    - 19.2:
+        non_striker: BGF Green
+        bowler: NB Cornwell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: L Gregory
+    - 19.3:
+        non_striker: BGF Green
+        bowler: NB Cornwell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory

@@ -1,0 +1,2087 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Derby
+  competition: Vitality Blast
+  dates:
+  - '2024-07-19'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Durham
+    by:
+      wickets: 8
+  overs: 20
+  players:
+    Derbyshire:
+    - LM Reece
+    - AHT Donald
+    - DL Lloyd
+    - WL Madsen
+    - BD Guest
+    - SR Patel
+    - RA Whiteley
+    - AT Thomson
+    - Mohammad Amir
+    - DM Dupavillon
+    - PR Brown
+    Durham:
+    - G Clark
+    - AZ Lees
+    - DG Bedingham
+    - CN Ackermann
+    - OG Robinson
+    - AJ Turner
+    - BA Raine
+    - P Coughlin
+    - MJ Potts
+    - NA Sowter
+    - CF Parkinson
+  registry:
+    people:
+      AHT Donald: '72918338'
+      AJ Turner: ff1e12a0
+      AT Thomson: ad286dcc
+      AZ Lees: c9c0fe50
+      BA Raine: 4c0f3806
+      BD Guest: 8159d5fc
+      CF Parkinson: aa1210d8
+      CN Ackermann: e734d090
+      DG Bedingham: a1b69936
+      DJ Millns: 46ecfe40
+      DL Lloyd: 0c7f11be
+      DM Dupavillon: 7cb2d9d2
+      G Clark: 4fd09cfc
+      Hassan Adnan: 56ca7a8c
+      LM Reece: 9789e56e
+      MJ Potts: 894b2d25
+      Mohammad Amir: e174dadd
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      P Coughlin: '71440756'
+      PM Such: c9f1892c
+      PR Brown: 1efd12d1
+      RA Whiteley: d346d939
+      SR Patel: 18fac429
+      WL Madsen: 86e0f3f0
+  teams:
+  - Derbyshire
+  - Durham
+  toss:
+    winner: Durham
+    decision: field
+  umpires:
+  - DJ Millns
+  - Hassan Adnan
+  venue: County Ground, Derby
+innings:
+- 1st innings:
+    team: Derbyshire
+    deliveries:
+    - 0.1:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LM Reece
+    - 0.2:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LM Reece
+    - 0.3:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LM Reece
+        wicket:
+          player_out: LM Reece
+          kind: bowled
+    - 0.4:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Lloyd
+    - 0.5:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Lloyd
+    - 0.6:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Lloyd
+    - 1.1:
+        non_striker: AHT Donald
+        bowler: P Coughlin
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: DL Lloyd
+    - 1.2:
+        non_striker: AHT Donald
+        bowler: P Coughlin
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: DL Lloyd
+    - 1.3:
+        non_striker: AHT Donald
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Lloyd
+    - 1.4:
+        non_striker: DL Lloyd
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AHT Donald
+    - 1.5:
+        non_striker: AHT Donald
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DL Lloyd
+    - 1.6:
+        non_striker: AHT Donald
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DL Lloyd
+    - 1.7:
+        non_striker: AHT Donald
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Lloyd
+    - 1.8:
+        non_striker: DL Lloyd
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AHT Donald
+    - 2.1:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Lloyd
+    - 2.2:
+        non_striker: AHT Donald
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Lloyd
+    - 2.3:
+        non_striker: DL Lloyd
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AHT Donald
+    - 2.4:
+        non_striker: DL Lloyd
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AHT Donald
+    - 2.5:
+        non_striker: DL Lloyd
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AHT Donald
+        wicket:
+          player_out: AHT Donald
+          fielders:
+          - BA Raine
+          kind: caught
+    - 2.6:
+        non_striker: DL Lloyd
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WL Madsen
+    - 3.1:
+        non_striker: WL Madsen
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DL Lloyd
+    - 3.2:
+        non_striker: DL Lloyd
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 3.3:
+        non_striker: DL Lloyd
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WL Madsen
+    - 3.4:
+        non_striker: DL Lloyd
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 3.5:
+        non_striker: WL Madsen
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Lloyd
+    - 3.6:
+        non_striker: DL Lloyd
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 4.1:
+        non_striker: WL Madsen
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DL Lloyd
+    - 4.2:
+        non_striker: WL Madsen
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Lloyd
+    - 4.3:
+        non_striker: DL Lloyd
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WL Madsen
+    - 4.4:
+        non_striker: DL Lloyd
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 4.5:
+        non_striker: DL Lloyd
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 4.6:
+        non_striker: WL Madsen
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Lloyd
+        wicket:
+          player_out: DL Lloyd
+          fielders:
+          - OG Robinson
+          kind: caught
+    - 5.1:
+        non_striker: BD Guest
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 5.2:
+        non_striker: BD Guest
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 5.3:
+        non_striker: BD Guest
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 5.4:
+        non_striker: BD Guest
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WL Madsen
+    - 5.5:
+        non_striker: BD Guest
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 5.6:
+        non_striker: BD Guest
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 6.1:
+        non_striker: WL Madsen
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BD Guest
+    - 6.2:
+        non_striker: WL Madsen
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BD Guest
+    - 6.3:
+        non_striker: WL Madsen
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BD Guest
+    - 6.4:
+        non_striker: BD Guest
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+        wicket:
+          player_out: WL Madsen
+          fielders:
+          - AJ Turner
+          kind: caught
+    - 6.5:
+        non_striker: BD Guest
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 6.6:
+        non_striker: BD Guest
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 7.1:
+        non_striker: SR Patel
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BD Guest
+    - 7.2:
+        non_striker: BD Guest
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Patel
+    - 7.3:
+        non_striker: BD Guest
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 7.4:
+        non_striker: SR Patel
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BD Guest
+    - 7.5:
+        non_striker: SR Patel
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BD Guest
+    - 7.6:
+        non_striker: SR Patel
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BD Guest
+    - 8.1:
+        non_striker: BD Guest
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 8.2:
+        non_striker: BD Guest
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 8.3:
+        non_striker: BD Guest
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 8.4:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BD Guest
+    - 8.5:
+        non_striker: BD Guest
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 8.6:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BD Guest
+    - 9.1:
+        non_striker: SR Patel
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BD Guest
+    - 9.2:
+        non_striker: SR Patel
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BD Guest
+    - 9.3:
+        non_striker: BD Guest
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 9.4:
+        non_striker: SR Patel
+        bowler: P Coughlin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BD Guest
+    - 9.5:
+        non_striker: SR Patel
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BD Guest
+        wicket:
+          player_out: BD Guest
+          fielders:
+          - OG Robinson
+          kind: caught
+    - 9.6:
+        non_striker: SR Patel
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 9.7:
+        non_striker: RA Whiteley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 10.1:
+        non_striker: RA Whiteley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 10.2:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 10.3:
+        non_striker: RA Whiteley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 10.4:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 10.5:
+        non_striker: RA Whiteley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 10.6:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 11.1:
+        non_striker: SR Patel
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 11.2:
+        non_striker: RA Whiteley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Patel
+    - 11.3:
+        non_striker: RA Whiteley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 11.4:
+        non_striker: SR Patel
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 11.5:
+        non_striker: SR Patel
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 11.6:
+        non_striker: RA Whiteley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 12.1:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Whiteley
+    - 12.2:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 12.3:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 12.4:
+        non_striker: RA Whiteley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 12.5:
+        non_striker: SR Patel
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 12.6:
+        non_striker: RA Whiteley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+        wicket:
+          player_out: SR Patel
+          kind: lbw
+    - 13.1:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 13.2:
+        non_striker: RA Whiteley
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Thomson
+    - 13.3:
+        non_striker: RA Whiteley
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 13.4:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+        wicket:
+          player_out: RA Whiteley
+          fielders:
+          - OG Robinson
+          kind: caught
+    - 13.5:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohammad Amir
+    - 13.6:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Amir
+    - 14.1:
+        non_striker: Mohammad Amir
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 14.2:
+        non_striker: AT Thomson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Amir
+    - 14.3:
+        non_striker: Mohammad Amir
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Thomson
+    - 14.4:
+        non_striker: Mohammad Amir
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 14.5:
+        non_striker: AT Thomson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Amir
+    - 14.6:
+        non_striker: Mohammad Amir
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 15.1:
+        non_striker: Mohammad Amir
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 15.2:
+        non_striker: AT Thomson
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Amir
+    - 15.3:
+        non_striker: Mohammad Amir
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Thomson
+    - 15.4:
+        non_striker: Mohammad Amir
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Thomson
+    - 15.5:
+        non_striker: Mohammad Amir
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AT Thomson
+    - 15.6:
+        non_striker: Mohammad Amir
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AT Thomson
+    - 16.1:
+        non_striker: AT Thomson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohammad Amir
+    - 16.2:
+        non_striker: AT Thomson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Amir
+    - 16.3:
+        non_striker: AT Thomson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Amir
+    - 16.4:
+        non_striker: Mohammad Amir
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Thomson
+    - 16.5:
+        non_striker: Mohammad Amir
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 16.6:
+        non_striker: AT Thomson
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Amir
+    - 17.1:
+        non_striker: Mohammad Amir
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Thomson
+    - 17.2:
+        non_striker: Mohammad Amir
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 17.3:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammad Amir
+    - 17.4:
+        non_striker: Mohammad Amir
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AT Thomson
+    - 17.5:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammad Amir
+        wicket:
+          player_out: Mohammad Amir
+          kind: bowled
+    - 17.6:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DM Dupavillon
+    - 18.1:
+        non_striker: DM Dupavillon
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AT Thomson
+    - 18.2:
+        non_striker: DM Dupavillon
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Thomson
+    - 18.3:
+        non_striker: DM Dupavillon
+        bowler: MJ Potts
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: AT Thomson
+    - 18.4:
+        non_striker: DM Dupavillon
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 18.5:
+        non_striker: AT Thomson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DM Dupavillon
+    - 18.6:
+        non_striker: DM Dupavillon
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Thomson
+    - 18.7:
+        non_striker: DM Dupavillon
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AT Thomson
+    - 18.8:
+        non_striker: AT Thomson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DM Dupavillon
+    - 19.1:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DM Dupavillon
+    - 19.2:
+        non_striker: DM Dupavillon
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 19.3:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DM Dupavillon
+    - 19.4:
+        non_striker: DM Dupavillon
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Thomson
+    - 19.5:
+        non_striker: AT Thomson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DM Dupavillon
+    - 19.6:
+        non_striker: DM Dupavillon
+        bowler: BA Raine
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AT Thomson
+- 2nd innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 0.2:
+        non_striker: G Clark
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 0.3:
+        non_striker: G Clark
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 0.4:
+        non_striker: G Clark
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 0.5:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.6:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.1:
+        non_striker: G Clark
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 1.2:
+        non_striker: G Clark
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 1.3:
+        non_striker: G Clark
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.4:
+        non_striker: G Clark
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 1.5:
+        non_striker: G Clark
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 1.6:
+        non_striker: AZ Lees
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.1:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.2:
+        non_striker: G Clark
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 2.3:
+        non_striker: G Clark
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 2.4:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 2.5:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.6:
+        non_striker: G Clark
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.1:
+        non_striker: G Clark
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 3.2:
+        non_striker: G Clark
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 3.3:
+        non_striker: G Clark
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.4:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 3.5:
+        non_striker: G Clark
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.6:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 4.1:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.2:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 4.3:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 4.4:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 4.5:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - Mohammad Amir
+          kind: caught
+    - 4.6:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 5.1:
+        non_striker: DG Bedingham
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 5.2:
+        non_striker: DG Bedingham
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 5.3:
+        non_striker: DG Bedingham
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 5.4:
+        non_striker: DG Bedingham
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 5.5:
+        non_striker: DG Bedingham
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 5.6:
+        non_striker: DG Bedingham
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 6.1:
+        non_striker: DG Bedingham
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 6.2:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 6.3:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DG Bedingham
+    - 6.4:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 6.5:
+        non_striker: DG Bedingham
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 6.6:
+        non_striker: DG Bedingham
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 6.7:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DG Bedingham
+    - 7.1:
+        non_striker: DG Bedingham
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 7.2:
+        non_striker: DG Bedingham
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.3:
+        non_striker: AZ Lees
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 7.4:
+        non_striker: DG Bedingham
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 7.5:
+        non_striker: DG Bedingham
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.6:
+        non_striker: AZ Lees
+        bowler: SR Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DG Bedingham
+    - 8.1:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 8.2:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 8.3:
+        non_striker: DG Bedingham
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 8.4:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 8.5:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+        wicket:
+          player_out: DG Bedingham
+          fielders:
+          - SR Patel
+          kind: caught
+    - 8.6:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 9.1:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 9.2:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 9.3:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 9.4:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 9.5:
+        non_striker: AZ Lees
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.6:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 10.1:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 10.2:
+        non_striker: CN Ackermann
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 10.3:
+        non_striker: CN Ackermann
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 10.4:
+        non_striker: CN Ackermann
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 10.5:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 10.6:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.1:
+        non_striker: AZ Lees
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 11.2:
+        non_striker: AZ Lees
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.3:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 11.4:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 11.5:
+        non_striker: AZ Lees
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.6:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 12.1:
+        non_striker: CN Ackermann
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 12.2:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 12.3:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Ackermann
+    - 12.4:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 12.5:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Ackermann
+    - 12.6:
+        non_striker: AZ Lees
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 13.1:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 13.2:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 13.3:
+        non_striker: CN Ackermann
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 13.4:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 13.5:
+        non_striker: CN Ackermann
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 13.6:
+        non_striker: CN Ackermann
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 14.1:
+        non_striker: CN Ackermann
+        bowler: LM Reece
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AZ Lees
+    - 14.2:
+        non_striker: CN Ackermann
+        bowler: LM Reece
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 14.3:
+        non_striker: CN Ackermann
+        bowler: LM Reece
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 14.4:
+        non_striker: AZ Lees
+        bowler: LM Reece
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 14.5:
+        non_striker: CN Ackermann
+        bowler: LM Reece
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 14.6:
+        non_striker: CN Ackermann
+        bowler: LM Reece
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 14.7:
+        non_striker: AZ Lees
+        bowler: LM Reece
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Ackermann
+    - 15.1:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 15.2:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 15.3:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 15.4:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 15.5:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 15.6:
+        non_striker: CN Ackermann
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 16.1:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 16.2:
+        non_striker: CN Ackermann
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 16.3:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 16.4:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 16.5:
+        non_striker: CN Ackermann
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 16.6:
+        non_striker: AZ Lees
+        bowler: Mohammad Amir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 17.1:
+        non_striker: CN Ackermann
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 17.2:
+        non_striker: CN Ackermann
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 17.3:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 17.4:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CN Ackermann
+    - 17.5:
+        non_striker: CN Ackermann
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 17.6:
+        non_striker: AZ Lees
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 18.1:
+        non_striker: AZ Lees
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 18.2:
+        non_striker: AZ Lees
+        bowler: DM Dupavillon
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CN Ackermann
+    - 18.3:
+        non_striker: AZ Lees
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 18.4:
+        non_striker: AZ Lees
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 18.5:
+        non_striker: AZ Lees
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 18.6:
+        non_striker: AZ Lees
+        bowler: DM Dupavillon
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann

@@ -1,0 +1,2189 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-07'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leeds
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Yorkshire
+    by:
+      runs: 41
+  overs: 20
+  players:
+    Yorkshire:
+    - JM Bairstow
+    - DJ Malan
+    - W Luxton
+    - JH Wharton
+    - W Sutherland
+    - JA Thompson
+    - ML Revis
+    - JA Chohan
+    - DM Bess
+    - ME Milnes
+    - W O'Rourke
+    Worcestershire:
+    - Isaac Mohammed
+    - BL D'Oliveira
+    - Kashif Ali
+    - AJ Hose
+    - EA Brookes
+    - GH Roderick
+    - BJ Dwarshuis
+    - MJ Waite
+    - TAI Taylor
+    - BMJ Allison
+    - F Singh
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      AJ Swann: f9d218a7
+      BJ Dwarshuis: e1b9f3a9
+      BL D'Oliveira: 9679838c
+      BMJ Allison: 39e2c0fd
+      DJ Malan: ad9c32a2
+      DM Bess: ad46c747
+      EA Brookes: 6ce9f3eb
+      F Singh: 1d48795b
+      GD Lloyd: 36e0770d
+      GH Roderick: 7081848a
+      Isaac Mohammed: 2c1a21f0
+      JA Chohan: 58be5e46
+      JA Thompson: 1d2f290a
+      JH Wharton: 42a5c1c7
+      JM Bairstow: abb83e27
+      Kashif Ali: f3b26fe4
+      ME Milnes: 3dcd1e8d
+      MJ Waite: a4b810d0
+      ML Revis: 28217d89
+      PJ Hartley: 17c7ff26
+      TAI Taylor: 867a45a7
+      W Luxton: c15fb753
+      W O'Rourke: cb9b8664
+      W Sutherland: bc2d4f2e
+  teams:
+  - Yorkshire
+  - Worcestershire
+  toss:
+    winner: Worcestershire
+    decision: field
+  umpires:
+  - GD Lloyd
+  - PJ Hartley
+  venue: Headingley, Leeds
+innings:
+- 1st innings:
+    team: Yorkshire
+    deliveries:
+    - 0.1:
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DJ Malan
+        batsman: JM Bairstow
+    - 0.2:
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: DJ Malan
+        batsman: JM Bairstow
+    - 0.3:
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DJ Malan
+        batsman: JM Bairstow
+    - 0.4:
+        non_striker: DJ Malan
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+        wicket:
+          player_out: JM Bairstow
+          fielders:
+          - BJ Dwarshuis
+          kind: caught
+    - 0.5:
+        non_striker: DJ Malan
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Luxton
+    - 0.6:
+        non_striker: DJ Malan
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Luxton
+    - 1.1:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 1.2:
+        non_striker: DJ Malan
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 1.3:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 1.4:
+        non_striker: DJ Malan
+        bowler: BMJ Allison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: W Luxton
+    - 1.5:
+        non_striker: DJ Malan
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Luxton
+    - 1.6:
+        non_striker: DJ Malan
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 1.7:
+        non_striker: DJ Malan
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 2.1:
+        non_striker: W Luxton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 2.2:
+        non_striker: DJ Malan
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 2.3:
+        non_striker: W Luxton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 2.4:
+        non_striker: DJ Malan
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: W Luxton
+    - 2.5:
+        non_striker: DJ Malan
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 2.6:
+        non_striker: W Luxton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.1:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 3.2:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 3.3:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: W Luxton
+    - 3.4:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 3.5:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Luxton
+    - 3.6:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Luxton
+    - 4.1:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 4.2:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+        wicket:
+          player_out: DJ Malan
+          fielders:
+          - EA Brookes
+          kind: caught
+    - 4.3:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JH Wharton
+    - 4.4:
+        non_striker: JH Wharton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Luxton
+    - 4.5:
+        non_striker: JH Wharton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 4.6:
+        non_striker: JH Wharton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Luxton
+    - 5.1:
+        non_striker: W Luxton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 5.2:
+        non_striker: W Luxton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 5.3:
+        non_striker: W Luxton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 5.4:
+        non_striker: W Luxton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 5.5:
+        non_striker: W Luxton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JH Wharton
+    - 5.6:
+        non_striker: W Luxton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 5.7:
+        non_striker: W Luxton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 6.1:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 6.2:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 6.3:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: JH Wharton
+    - 6.4:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 6.5:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 6.6:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Luxton
+    - 7.1:
+        non_striker: W Luxton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 7.2:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 7.3:
+        non_striker: W Luxton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 7.4:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 7.5:
+        non_striker: W Luxton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 7.6:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 8.1:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 8.2:
+        non_striker: W Luxton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 8.3:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 8.4:
+        non_striker: W Luxton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 8.5:
+        non_striker: W Luxton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 8.6:
+        non_striker: W Luxton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 9.1:
+        non_striker: W Luxton
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 9.2:
+        non_striker: JH Wharton
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 9.3:
+        non_striker: W Luxton
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 9.4:
+        non_striker: W Luxton
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 9.5:
+        non_striker: JH Wharton
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 9.6:
+        non_striker: W Luxton
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 10.1:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 10.2:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 10.3:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 10.4:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 10.5:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 10.6:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Luxton
+    - 11.1:
+        non_striker: W Luxton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 11.2:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Luxton
+    - 11.3:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 11.4:
+        non_striker: W Luxton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 11.5:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: W Luxton
+    - 11.6:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Luxton
+    - 11.7:
+        non_striker: JH Wharton
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 12.1:
+        non_striker: JH Wharton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 12.2:
+        non_striker: W Luxton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 12.3:
+        non_striker: W Luxton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 12.4:
+        non_striker: JH Wharton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: W Luxton
+    - 12.5:
+        non_striker: JH Wharton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: W Luxton
+    - 12.6:
+        non_striker: JH Wharton
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 13.1:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Luxton
+    - 13.2:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: W Luxton
+    - 13.3:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 13.4:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: W Luxton
+    - 13.5:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 13.6:
+        non_striker: W Luxton
+        bowler: F Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JH Wharton
+    - 13.7:
+        non_striker: JH Wharton
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 14.1:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 14.2:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 14.3:
+        non_striker: W Luxton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 14.4:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 14.5:
+        non_striker: W Luxton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 14.6:
+        non_striker: W Luxton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 15.1:
+        non_striker: JH Wharton
+        bowler: BMJ Allison
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: W Luxton
+    - 15.2:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 15.3:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 15.4:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JH Wharton
+    - 15.5:
+        non_striker: W Luxton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 15.6:
+        non_striker: JH Wharton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Luxton
+    - 15.7:
+        non_striker: JH Wharton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+        wicket:
+          player_out: W Luxton
+          fielders:
+          - Kashif Ali
+          kind: caught
+    - 16.1:
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: W Sutherland
+        batsman: JH Wharton
+    - 16.2:
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: W Sutherland
+        batsman: JH Wharton
+    - 16.3:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Sutherland
+    - 16.4:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Sutherland
+    - 16.5:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Sutherland
+    - 16.6:
+        non_striker: W Sutherland
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 16.7:
+        non_striker: W Sutherland
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 17.1:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W Sutherland
+    - 17.2:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Sutherland
+    - 17.3:
+        non_striker: W Sutherland
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 17.4:
+        non_striker: W Sutherland
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 17.5:
+        non_striker: W Sutherland
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 17.6:
+        non_striker: W Sutherland
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 18.1:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: W Sutherland
+    - 18.2:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Sutherland
+        wicket:
+          player_out: W Sutherland
+          fielders:
+          - Kashif Ali
+          kind: caught
+    - 18.3:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 18.4:
+        non_striker: JA Thompson
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 18.5:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Thompson
+    - 18.6:
+        non_striker: JH Wharton
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 18.7:
+        non_striker: JA Thompson
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 19.1:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Thompson
+    - 19.2:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Thompson
+    - 19.3:
+        non_striker: JH Wharton
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+        wicket:
+          player_out: JH Wharton
+          fielders:
+          - MJ Waite
+          kind: run out
+    - 19.4:
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: ML Revis
+        batsman: JA Thompson
+    - 19.5:
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: ML Revis
+        batsman: JA Thompson
+    - 19.6:
+        non_striker: ML Revis
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+        wicket:
+          player_out: JA Thompson
+          fielders:
+          - BJ Dwarshuis
+          kind: run out
+- 2nd innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: BL D'Oliveira
+        batsman: Isaac Mohammed
+    - 0.2:
+        non_striker: Isaac Mohammed
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.3:
+        non_striker: Isaac Mohammed
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.4:
+        non_striker: Isaac Mohammed
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 0.5:
+        non_striker: Isaac Mohammed
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.6:
+        non_striker: Isaac Mohammed
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 1.1:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Isaac Mohammed
+    - 1.2:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Isaac Mohammed
+    - 1.3:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Isaac Mohammed
+    - 1.4:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Isaac Mohammed
+    - 1.5:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Isaac Mohammed
+    - 1.6:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Isaac Mohammed
+    - 2.1:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Isaac Mohammed
+        wicket:
+          player_out: Isaac Mohammed
+          fielders:
+          - JM Bairstow
+          kind: caught
+    - 2.2:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+        wicket:
+          player_out: Kashif Ali
+          fielders:
+          - W Sutherland
+          kind: caught
+    - 2.3:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: AJ Hose
+    - 2.4:
+        non_striker: AJ Hose
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 2.5:
+        non_striker: AJ Hose
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 2.6:
+        non_striker: AJ Hose
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 3.1:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 3.2:
+        non_striker: AJ Hose
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 3.3:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 3.4:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 3.5:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          fielders:
+          - W O'Rourke
+          kind: caught
+    - 3.6:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 4.1:
+        non_striker: EA Brookes
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 4.2:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 4.3:
+        non_striker: EA Brookes
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BL D'Oliveira
+    - 4.4:
+        non_striker: EA Brookes
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 4.5:
+        non_striker: EA Brookes
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 4.6:
+        non_striker: BL D'Oliveira
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 5.1:
+        non_striker: EA Brookes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 5.2:
+        non_striker: EA Brookes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 5.3:
+        non_striker: EA Brookes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BL D'Oliveira
+    - 5.4:
+        non_striker: EA Brookes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 5.5:
+        non_striker: EA Brookes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 5.6:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 6.1:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.2:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 6.3:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BL D'Oliveira
+    - 6.4:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.5:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 6.6:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 7.1:
+        non_striker: EA Brookes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 7.2:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EA Brookes
+    - 7.3:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 7.4:
+        non_striker: EA Brookes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 7.5:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 7.6:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 7.7:
+        non_striker: EA Brookes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.1:
+        non_striker: EA Brookes
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.2:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 8.3:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 8.4:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EA Brookes
+    - 8.5:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 8.6:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 2
+          total: 4
+          batsman: 2
+        extras:
+          noballs: 2
+        batsman: EA Brookes
+    - 8.7:
+        non_striker: BL D'Oliveira
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EA Brookes
+    - 9.1:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 9.2:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: EA Brookes
+    - 9.3:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 9.4:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 9.5:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 9.6:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 9.7:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BL D'Oliveira
+    - 9.8:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 10.1:
+        non_striker: EA Brookes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 10.2:
+        non_striker: EA Brookes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 10.3:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EA Brookes
+    - 10.4:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 10.5:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 10.6:
+        non_striker: BL D'Oliveira
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 11.1:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 11.2:
+        non_striker: EA Brookes
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 11.3:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+        wicket:
+          player_out: EA Brookes
+          kind: lbw
+    - 11.4:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 11.5:
+        non_striker: BL D'Oliveira
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 11.6:
+        non_striker: GH Roderick
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 12.1:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GH Roderick
+    - 12.2:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 12.3:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 12.4:
+        non_striker: GH Roderick
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 12.5:
+        non_striker: BL D'Oliveira
+        bowler: W O'Rourke
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: GH Roderick
+    - 12.6:
+        non_striker: GH Roderick
+        bowler: W O'Rourke
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BL D'Oliveira
+    - 12.7:
+        non_striker: GH Roderick
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          fielders:
+          - DM Bess
+          kind: caught
+    - 12.8:
+        non_striker: GH Roderick
+        bowler: W O'Rourke
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BJ Dwarshuis
+    - 13.1:
+        non_striker: GH Roderick
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BJ Dwarshuis
+    - 13.2:
+        non_striker: GH Roderick
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 13.3:
+        non_striker: BJ Dwarshuis
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 13.4:
+        non_striker: BJ Dwarshuis
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 13.5:
+        non_striker: GH Roderick
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJ Dwarshuis
+    - 13.6:
+        non_striker: GH Roderick
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 14.1:
+        non_striker: BJ Dwarshuis
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 14.2:
+        non_striker: GH Roderick
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Dwarshuis
+    - 14.3:
+        non_striker: GH Roderick
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJ Dwarshuis
+    - 14.4:
+        non_striker: GH Roderick
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Dwarshuis
+    - 14.5:
+        non_striker: GH Roderick
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Dwarshuis
+    - 14.6:
+        non_striker: GH Roderick
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BJ Dwarshuis
+    - 15.1:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 15.2:
+        non_striker: GH Roderick
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 15.3:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 15.4:
+        non_striker: GH Roderick
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 15.5:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 15.6:
+        non_striker: GH Roderick
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BJ Dwarshuis
+    - 16.1:
+        non_striker: BJ Dwarshuis
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 16.2:
+        non_striker: BJ Dwarshuis
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 16.3:
+        non_striker: BJ Dwarshuis
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 16.4:
+        non_striker: BJ Dwarshuis
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 16.5:
+        non_striker: BJ Dwarshuis
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+        wicket:
+          player_out: GH Roderick
+          fielders:
+          - JA Thompson
+          kind: caught
+    - 16.6:
+        non_striker: BJ Dwarshuis
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 17.1:
+        non_striker: MJ Waite
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJ Dwarshuis
+    - 17.2:
+        non_striker: MJ Waite
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 17.3:
+        non_striker: BJ Dwarshuis
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+        wicket:
+          player_out: MJ Waite
+          fielders:
+          - JH Wharton
+          kind: caught
+    - 17.4:
+        non_striker: BJ Dwarshuis
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+        wicket:
+          player_out: TAI Taylor
+          fielders:
+          - DJ Malan
+          kind: caught
+    - 17.5:
+        non_striker: BJ Dwarshuis
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BMJ Allison
+    - 17.6:
+        non_striker: BMJ Allison
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 18.1:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BMJ Allison
+    - 18.2:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BMJ Allison
+        wicket:
+          player_out: BMJ Allison
+          fielders:
+          - ME Milnes
+          kind: caught
+    - 18.3:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: F Singh
+    - 18.4:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F Singh
+    - 18.5:
+        non_striker: BJ Dwarshuis
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: F Singh
+    - 18.6:
+        non_striker: F Singh
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJ Dwarshuis
+    - 19.1:
+        non_striker: BJ Dwarshuis
+        bowler: W Sutherland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F Singh
+        wicket:
+          player_out: F Singh
+          fielders:
+          - DM Bess
+          kind: caught

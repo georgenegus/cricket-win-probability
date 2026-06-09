@@ -1,0 +1,2246 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-16'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leeds
+  competition: Vitality Blast
+  dates:
+  - '2024-06-16'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Leicestershire
+    by:
+      runs: 20
+  overs: 20
+  players:
+    Leicestershire:
+    - RK Patel
+    - HJ Swindells
+    - Rehan Ahmed
+    - LPJ Kimber
+    - PSP Handscomb
+    - PWA Mulder
+    - OB Cox
+    - BWM Mike
+    - LP Goldsworthy
+    - SW Currie
+    - J Hull
+    Yorkshire:
+    - A Lyth
+    - DJ Malan
+    - JE Root
+    - Shan Masood
+    - D Ferreira
+    - JA Thompson
+    - DM Bess
+    - ML Revis
+    - JA Chohan
+    - C McKerr
+    - D Moriarty
+  registry:
+    people:
+      A Lyth: 70b8fd28
+      BWM Mike: ed12fcd7
+      C McKerr: 5ccdb14f
+      D Ferreira: f0af99a7
+      D Moriarty: 6ea2710f
+      DJ Malan: ad9c32a2
+      DM Bess: ad46c747
+      GD Lloyd: 36e0770d
+      HJ Swindells: 95fd757d
+      J Hull: 1cc0a83d
+      JA Chohan: 58be5e46
+      JA Thompson: 1d2f290a
+      JE Root: a343262c
+      LP Goldsworthy: ed47cb25
+      LPJ Kimber: 9f812582
+      ML Revis: 28217d89
+      N Pratt: 01f65cd3
+      OB Cox: 324a6ee1
+      PSP Handscomb: ada15e88
+      PWA Mulder: c96f6ac5
+      Phil Whitticase: 99d5f6fa
+      RK Patel: 4531f249
+      Rehan Ahmed: 0ecb4de6
+      SW Currie: c5f40e35
+      Shan Masood: 6843a783
+  teams:
+  - Leicestershire
+  - Yorkshire
+  toss:
+    winner: Leicestershire
+    decision: bat
+  umpires:
+  - GD Lloyd
+  - N Pratt
+  venue: Headingley, Leeds
+innings:
+- 1st innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 0.2:
+        non_striker: RK Patel
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 0.3:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 0.4:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 0.5:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 0.6:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 1.1:
+        non_striker: RK Patel
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 1.2:
+        non_striker: HJ Swindells
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 1.3:
+        non_striker: HJ Swindells
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 1.4:
+        non_striker: HJ Swindells
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 1.5:
+        non_striker: HJ Swindells
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 1.6:
+        non_striker: HJ Swindells
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 2.1:
+        non_striker: RK Patel
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HJ Swindells
+    - 2.2:
+        non_striker: RK Patel
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 2.3:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 2.4:
+        non_striker: RK Patel
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 2.5:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 2.6:
+        non_striker: HJ Swindells
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 3.1:
+        non_striker: RK Patel
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HJ Swindells
+    - 3.2:
+        non_striker: RK Patel
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HJ Swindells
+    - 3.3:
+        non_striker: RK Patel
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HJ Swindells
+    - 3.4:
+        non_striker: RK Patel
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HJ Swindells
+    - 3.5:
+        non_striker: RK Patel
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HJ Swindells
+        wicket:
+          player_out: HJ Swindells
+          fielders:
+          - JE Root
+          kind: caught
+    - 3.6:
+        non_striker: RK Patel
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 4.1:
+        non_striker: Rehan Ahmed
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 4.2:
+        non_striker: Rehan Ahmed
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 4.3:
+        non_striker: Rehan Ahmed
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 4.4:
+        non_striker: Rehan Ahmed
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 4.5:
+        non_striker: Rehan Ahmed
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 4.6:
+        non_striker: Rehan Ahmed
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 4.7:
+        non_striker: Rehan Ahmed
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+        wicket:
+          player_out: Rehan Ahmed
+          fielders:
+          - C McKerr
+          kind: run out
+    - 4.8:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 4.9:
+        non_striker: LPJ Kimber
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 5.1:
+        non_striker: RK Patel
+        bowler: ML Revis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LPJ Kimber
+    - 5.2:
+        non_striker: LPJ Kimber
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 5.3:
+        non_striker: RK Patel
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LPJ Kimber
+    - 5.4:
+        non_striker: RK Patel
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 5.5:
+        non_striker: RK Patel
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+        wicket:
+          player_out: LPJ Kimber
+          fielders:
+          - DM Bess
+          kind: caught
+    - 5.6:
+        non_striker: RK Patel
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 6.1:
+        non_striker: PSP Handscomb
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 6.2:
+        non_striker: PSP Handscomb
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 6.3:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+    - 6.4:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PSP Handscomb
+    - 6.5:
+        non_striker: PSP Handscomb
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 6.6:
+        non_striker: PSP Handscomb
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.1:
+        non_striker: PSP Handscomb
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 7.2:
+        non_striker: PSP Handscomb
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.3:
+        non_striker: RK Patel
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PSP Handscomb
+    - 7.4:
+        non_striker: RK Patel
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PSP Handscomb
+    - 7.5:
+        non_striker: PSP Handscomb
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.6:
+        non_striker: RK Patel
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PSP Handscomb
+        wicket:
+          player_out: PSP Handscomb
+          fielders:
+          - D Ferreira
+          kind: caught
+    - 8.1:
+        non_striker: PWA Mulder
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 8.2:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PWA Mulder
+    - 8.3:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 8.4:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 8.5:
+        non_striker: PWA Mulder
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 8.6:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 9.1:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 9.2:
+        non_striker: PWA Mulder
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 9.3:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 9.4:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 9.5:
+        non_striker: PWA Mulder
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 9.6:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 10.1:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 10.2:
+        non_striker: PWA Mulder
+        bowler: JA Chohan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 10.3:
+        non_striker: PWA Mulder
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 10.4:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 10.5:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PWA Mulder
+    - 10.6:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 10.7:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+        wicket:
+          player_out: PWA Mulder
+          kind: lbw
+    - 11.1:
+        non_striker: OB Cox
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 11.2:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 11.3:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 11.4:
+        non_striker: OB Cox
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 11.5:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 11.6:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 12.1:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 12.2:
+        non_striker: OB Cox
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 12.3:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 12.4:
+        non_striker: OB Cox
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 12.5:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+        wicket:
+          player_out: OB Cox
+          kind: lbw
+    - 12.6:
+        non_striker: RK Patel
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 13.1:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 13.2:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 13.3:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 13.4:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 13.5:
+        non_striker: BWM Mike
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 13.6:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 14.1:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BWM Mike
+    - 14.2:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BWM Mike
+    - 14.3:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 14.4:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 14.5:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 14.6:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 14.7:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BWM Mike
+    - 14.8:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 15.1:
+        non_striker: BWM Mike
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 15.2:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 15.3:
+        non_striker: BWM Mike
+        bowler: DM Bess
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 15.4:
+        non_striker: BWM Mike
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 15.5:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 15.6:
+        non_striker: BWM Mike
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 15.7:
+        non_striker: RK Patel
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 16.1:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BWM Mike
+    - 16.2:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 16.3:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 16.4:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 16.5:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 16.6:
+        non_striker: RK Patel
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 16.7:
+        non_striker: BWM Mike
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 17.1:
+        non_striker: BWM Mike
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 17.2:
+        non_striker: BWM Mike
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          fielders:
+          - Shan Masood
+          kind: caught
+    - 17.3:
+        non_striker: BWM Mike
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 17.4:
+        non_striker: LP Goldsworthy
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BWM Mike
+    - 17.5:
+        non_striker: LP Goldsworthy
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 17.6:
+        non_striker: BWM Mike
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 18.1:
+        non_striker: BWM Mike
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LP Goldsworthy
+    - 18.2:
+        non_striker: BWM Mike
+        bowler: ML Revis
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: LP Goldsworthy
+    - 18.3:
+        non_striker: LP Goldsworthy
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 18.4:
+        non_striker: BWM Mike
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 18.5:
+        non_striker: LP Goldsworthy
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 18.6:
+        non_striker: BWM Mike
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 18.7:
+        non_striker: LP Goldsworthy
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+        wicket:
+          player_out: BWM Mike
+          fielders:
+          - D Ferreira
+          kind: caught
+    - 19.1:
+        non_striker: SW Currie
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 19.2:
+        non_striker: LP Goldsworthy
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SW Currie
+    - 19.3:
+        non_striker: LP Goldsworthy
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Currie
+        wicket:
+          player_out: SW Currie
+          kind: bowled
+    - 19.4:
+        non_striker: LP Goldsworthy
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Hull
+    - 19.5:
+        non_striker: J Hull
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 19.6:
+        non_striker: LP Goldsworthy
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Hull
+        wicket:
+          player_out: J Hull
+          fielders:
+          - D Ferreira
+          kind: run out
+- 2nd innings:
+    team: Yorkshire
+    deliveries:
+    - 0.1:
+        non_striker: DJ Malan
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 0.2:
+        non_striker: DJ Malan
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 0.3:
+        non_striker: DJ Malan
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Lyth
+    - 0.4:
+        non_striker: DJ Malan
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 0.5:
+        non_striker: A Lyth
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 0.6:
+        non_striker: A Lyth
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Malan
+    - 1.1:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 1.2:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 1.3:
+        non_striker: A Lyth
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 1.4:
+        non_striker: A Lyth
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 1.5:
+        non_striker: A Lyth
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 1.6:
+        non_striker: A Lyth
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 2.1:
+        non_striker: A Lyth
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 2.2:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Lyth
+    - 2.3:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 2.4:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 2.5:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 2.6:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 2.7:
+        non_striker: A Lyth
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 3.1:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 3.2:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Lyth
+    - 3.3:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Lyth
+    - 3.4:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: A Lyth
+    - 3.5:
+        non_striker: A Lyth
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 3.6:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 3.7:
+        non_striker: DJ Malan
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Lyth
+    - 4.1:
+        non_striker: A Lyth
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 4.2:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 4.3:
+        non_striker: A Lyth
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 4.4:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Lyth
+    - 4.5:
+        non_striker: DJ Malan
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 4.6:
+        non_striker: A Lyth
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 5.1:
+        non_striker: A Lyth
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 5.2:
+        non_striker: A Lyth
+        bowler: SW Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DJ Malan
+    - 5.3:
+        non_striker: DJ Malan
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 5.4:
+        non_striker: DJ Malan
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+        wicket:
+          player_out: A Lyth
+          kind: bowled
+    - 5.5:
+        non_striker: DJ Malan
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 5.6:
+        non_striker: JE Root
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 6.1:
+        non_striker: JE Root
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 6.2:
+        non_striker: JE Root
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 6.3:
+        non_striker: DJ Malan
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 6.4:
+        non_striker: JE Root
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 6.5:
+        non_striker: DJ Malan
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 6.6:
+        non_striker: JE Root
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 7.1:
+        non_striker: DJ Malan
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JE Root
+    - 7.2:
+        non_striker: DJ Malan
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JE Root
+    - 7.3:
+        non_striker: DJ Malan
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 7.4:
+        non_striker: JE Root
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 7.5:
+        non_striker: JE Root
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 7.6:
+        non_striker: DJ Malan
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 8.1:
+        non_striker: DJ Malan
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 8.2:
+        non_striker: JE Root
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 8.3:
+        non_striker: JE Root
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+        wicket:
+          player_out: DJ Malan
+          fielders:
+          - SW Currie
+          kind: caught
+    - 8.4:
+        non_striker: JE Root
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 8.5:
+        non_striker: Shan Masood
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 8.6:
+        non_striker: JE Root
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shan Masood
+    - 9.1:
+        non_striker: Shan Masood
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 9.2:
+        non_striker: JE Root
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 9.3:
+        non_striker: Shan Masood
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 9.4:
+        non_striker: JE Root
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 9.5:
+        non_striker: JE Root
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 9.6:
+        non_striker: Shan Masood
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 10.1:
+        non_striker: Shan Masood
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JE Root
+    - 10.2:
+        non_striker: Shan Masood
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 10.3:
+        non_striker: JE Root
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 10.4:
+        non_striker: Shan Masood
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JE Root
+    - 10.5:
+        non_striker: Shan Masood
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JE Root
+    - 10.6:
+        non_striker: Shan Masood
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 11.1:
+        non_striker: Shan Masood
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 11.2:
+        non_striker: JE Root
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 11.3:
+        non_striker: Shan Masood
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 11.4:
+        non_striker: JE Root
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 11.5:
+        non_striker: Shan Masood
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 11.6:
+        non_striker: JE Root
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 12.1:
+        non_striker: Shan Masood
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JE Root
+    - 12.2:
+        non_striker: JE Root
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 12.3:
+        non_striker: Shan Masood
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JE Root
+    - 12.4:
+        non_striker: Shan Masood
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JE Root
+    - 12.5:
+        non_striker: Shan Masood
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JE Root
+    - 12.6:
+        non_striker: Shan Masood
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JE Root
+        wicket:
+          player_out: JE Root
+          fielders:
+          - SW Currie
+          kind: caught
+    - 13.1:
+        non_striker: D Ferreira
+        bowler: SW Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Shan Masood
+    - 13.2:
+        non_striker: Shan Masood
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 13.3:
+        non_striker: D Ferreira
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 13.4:
+        non_striker: Shan Masood
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 13.5:
+        non_striker: D Ferreira
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+        wicket:
+          player_out: Shan Masood
+          fielders:
+          - LP Goldsworthy
+          kind: caught
+    - 13.6:
+        non_striker: D Ferreira
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 14.1:
+        non_striker: D Ferreira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 14.2:
+        non_striker: JA Thompson
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ferreira
+    - 14.3:
+        non_striker: JA Thompson
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 14.4:
+        non_striker: D Ferreira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Thompson
+    - 14.5:
+        non_striker: D Ferreira
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 14.6:
+        non_striker: JA Thompson
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 15.1:
+        non_striker: JA Thompson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Ferreira
+    - 15.2:
+        non_striker: JA Thompson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 15.3:
+        non_striker: D Ferreira
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 15.4:
+        non_striker: JA Thompson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 15.5:
+        non_striker: D Ferreira
+        bowler: SW Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Thompson
+    - 15.6:
+        non_striker: D Ferreira
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 15.7:
+        non_striker: JA Thompson
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 16.1:
+        non_striker: D Ferreira
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 16.2:
+        non_striker: JA Thompson
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 16.3:
+        non_striker: JA Thompson
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 16.4:
+        non_striker: D Ferreira
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+        wicket:
+          player_out: JA Thompson
+          fielders:
+          - LPJ Kimber
+          kind: caught
+    - 16.5:
+        non_striker: D Ferreira
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DM Bess
+        wicket:
+          player_out: DM Bess
+          fielders:
+          - BWM Mike
+          kind: run out
+    - 16.6:
+        non_striker: ML Revis
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 17.1:
+        non_striker: ML Revis
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 17.2:
+        non_striker: ML Revis
+        bowler: BWM Mike
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: D Ferreira
+    - 17.3:
+        non_striker: ML Revis
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 17.4:
+        non_striker: D Ferreira
+        bowler: BWM Mike
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: ML Revis
+    - 17.5:
+        non_striker: D Ferreira
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ML Revis
+        wicket:
+          player_out: ML Revis
+          fielders:
+          - PSP Handscomb
+          kind: caught
+    - 17.6:
+        non_striker: D Ferreira
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Chohan
+    - 17.7:
+        non_striker: D Ferreira
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Chohan
+    - 17.8:
+        non_striker: JA Chohan
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 18.1:
+        non_striker: JA Chohan
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+        wicket:
+          player_out: D Ferreira
+          fielders:
+          - OB Cox
+          kind: caught
+    - 18.2:
+        non_striker: JA Chohan
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C McKerr
+    - 18.3:
+        non_striker: C McKerr
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Chohan
+    - 18.4:
+        non_striker: C McKerr
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Chohan
+    - 18.5:
+        non_striker: JA Chohan
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C McKerr
+    - 18.6:
+        non_striker: JA Chohan
+        bowler: SW Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: C McKerr
+    - 19.1:
+        non_striker: C McKerr
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Chohan
+        wicket:
+          player_out: JA Chohan
+          fielders:
+          - PWA Mulder
+          kind: caught
+    - 19.2:
+        non_striker: C McKerr
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Moriarty
+    - 19.3:
+        non_striker: D Moriarty
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C McKerr
+    - 19.4:
+        non_striker: D Moriarty
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C McKerr
+    - 19.5:
+        non_striker: C McKerr
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Moriarty
+    - 19.6:
+        non_striker: D Moriarty
+        bowler: J Hull
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C McKerr

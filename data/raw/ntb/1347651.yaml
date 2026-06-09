@@ -1,0 +1,2142 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2023-06-18'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Glamorgan
+    by:
+      runs: 32
+  overs: 20
+  players:
+    Glamorgan:
+    - KS Carlson
+    - P Sisodiya
+    - WT Root
+    - SA Northeast
+    - CB Cooke
+    - T van der Gugten
+    - AG Salter
+    - Callum Taylor
+    - RAJ Smith
+    - P Hatzoglou
+    - JP McIlroy
+    Gloucestershire:
+    - G Roelofsen
+    - Miles Hammond
+    - BG Charlesworth
+    - BJJ Wells
+    - GL van Buuren
+    - TJ Price
+    - OJ Price
+    - MD Taylor
+    - DA Payne
+    - Zaman Akhter
+    - TMJ Smith
+  registry:
+    people:
+      AG Salter: 1a45b864
+      BG Charlesworth: ffdba4e2
+      BJJ Wells: ad9a3160
+      CB Cooke: 6755cd5c
+      Callum Taylor: 5a42a396
+      DA Payne: 6c79c098
+      DE Malcolm: 29c7ca03
+      G Roelofsen: ac688e55
+      GL van Buuren: ba377b40
+      ID Blackwell: 818e8bf2
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      MD Taylor: 01a95383
+      Miles Hammond: c88bc84a
+      OJ Price: dfc3f02d
+      P Hatzoglou: 6f95e5fa
+      P Sisodiya: dd9de7ad
+      RAJ Smith: 6daf5e8c
+      RK Illingworth: '20672246'
+      SA Northeast: 7e4c8ba3
+      T van der Gugten: d99cc23a
+      TJ Price: 269ff06e
+      TMJ Smith: 0a12e736
+      WT Root: '72898514'
+      Zaman Akhter: 63e1e352
+  teams:
+  - Glamorgan
+  - Gloucestershire
+  toss:
+    winner: Gloucestershire
+    decision: field
+  umpires:
+  - ID Blackwell
+  - RK Illingworth
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.4:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.5:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+    - 0.6:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+    - 1.1:
+        non_striker: P Sisodiya
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 1.2:
+        non_striker: P Sisodiya
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - G Roelofsen
+          kind: caught
+    - 1.3:
+        non_striker: P Sisodiya
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 1.4:
+        non_striker: WT Root
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Sisodiya
+    - 1.5:
+        non_striker: P Sisodiya
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Root
+    - 1.6:
+        non_striker: P Sisodiya
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 2.1:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Root
+    - 2.2:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: WT Root
+    - 2.3:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 2.4:
+        non_striker: P Sisodiya
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 2.5:
+        non_striker: WT Root
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+        wicket:
+          player_out: P Sisodiya
+          fielders:
+          - GL van Buuren
+          kind: caught
+    - 2.6:
+        non_striker: WT Root
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.7:
+        non_striker: WT Root
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.1:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 3.2:
+        non_striker: WT Root
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.3:
+        non_striker: WT Root
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 3.4:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 3.5:
+        non_striker: WT Root
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 3.6:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Root
+    - 4.1:
+        non_striker: WT Root
+        bowler: Zaman Akhter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SA Northeast
+    - 4.2:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 4.3:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 4.4:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Root
+    - 4.5:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Root
+    - 4.6:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: WT Root
+    - 5.1:
+        non_striker: WT Root
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 5.2:
+        non_striker: WT Root
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 5.3:
+        non_striker: WT Root
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 5.4:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 5.5:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 5.6:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Root
+    - 6.1:
+        non_striker: WT Root
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.2:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 6.3:
+        non_striker: WT Root
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 6.4:
+        non_striker: WT Root
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 6.5:
+        non_striker: WT Root
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.6:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 7.1:
+        non_striker: SA Northeast
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 7.2:
+        non_striker: SA Northeast
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Root
+    - 7.3:
+        non_striker: SA Northeast
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 7.4:
+        non_striker: WT Root
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 7.5:
+        non_striker: SA Northeast
+        bowler: OJ Price
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WT Root
+    - 7.6:
+        non_striker: WT Root
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.1:
+        non_striker: WT Root
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.2:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+        wicket:
+          player_out: WT Root
+          fielders:
+          - MD Taylor
+          kind: caught
+    - 8.3:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 8.4:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 8.5:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.6:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.1:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 9.2:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CB Cooke
+    - 9.3:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 9.4:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 9.5:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 9.6:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.7:
+        non_striker: CB Cooke
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.1:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 10.2:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.3:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 10.4:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.5:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 10.6:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 11.1:
+        non_striker: CB Cooke
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 11.2:
+        non_striker: SA Northeast
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 11.3:
+        non_striker: SA Northeast
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.4:
+        non_striker: CB Cooke
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 11.5:
+        non_striker: CB Cooke
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 11.6:
+        non_striker: SA Northeast
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.1:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.2:
+        non_striker: CB Cooke
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 12.3:
+        non_striker: CB Cooke
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 12.4:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.5:
+        non_striker: CB Cooke
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 12.6:
+        non_striker: CB Cooke
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 13.1:
+        non_striker: CB Cooke
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 13.2:
+        non_striker: CB Cooke
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 13.3:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 13.4:
+        non_striker: CB Cooke
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 13.5:
+        non_striker: CB Cooke
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 13.6:
+        non_striker: SA Northeast
+        bowler: Zaman Akhter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 14.1:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 14.2:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - BJJ Wells
+          kind: caught
+    - 14.3:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 14.4:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 14.5:
+        non_striker: T van der Gugten
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 14.6:
+        non_striker: SA Northeast
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 15.1:
+        non_striker: T van der Gugten
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 15.2:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T van der Gugten
+    - 15.3:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.4:
+        non_striker: T van der Gugten
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 15.5:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.6:
+        non_striker: T van der Gugten
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 16.1:
+        non_striker: T van der Gugten
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 16.2:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 16.3:
+        non_striker: T van der Gugten
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 16.4:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 16.5:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 16.6:
+        non_striker: T van der Gugten
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 17.1:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 17.2:
+        non_striker: T van der Gugten
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 17.3:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 17.4:
+        non_striker: SA Northeast
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 17.5:
+        non_striker: T van der Gugten
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 17.6:
+        non_striker: T van der Gugten
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 18.1:
+        non_striker: T van der Gugten
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 18.2:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 18.3:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 18.4:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 18.5:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          byes: 2
+        batsman: T van der Gugten
+    - 18.6:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 19.1:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T van der Gugten
+    - 19.2:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 19.3:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          fielders:
+          - GL van Buuren
+          kind: caught
+    - 19.4:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Salter
+    - 19.5:
+        non_striker: AG Salter
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 19.6:
+        non_striker: AG Salter
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 19.7:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: AG Salter
+- 2nd innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 0.2:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 0.3:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Roelofsen
+    - 0.4:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 0.5:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.6:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.1:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 1.2:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.3:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.4:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.5:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.6:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.1:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Miles Hammond
+    - 2.2:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.3:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 2.4:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 2.5:
+        non_striker: Miles Hammond
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 2.6:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 3.1:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          fielders:
+          - Callum Taylor
+          kind: caught
+    - 3.2:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 3.3:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 3.4:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 3.5:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 3.6:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 4.1:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 4.2:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 4.3:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Roelofsen
+    - 4.4:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 4.5:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 4.6:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 5.1:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 5.2:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 5.3:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 5.4:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 5.5:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 5.6:
+        non_striker: G Roelofsen
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 6.1:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 6.2:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 6.3:
+        non_striker: G Roelofsen
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BG Charlesworth
+    - 6.4:
+        non_striker: G Roelofsen
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 6.5:
+        non_striker: G Roelofsen
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 6.6:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 6.7:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 7.1:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 7.2:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 7.3:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 7.4:
+        non_striker: G Roelofsen
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 7.5:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Roelofsen
+    - 7.6:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 8.1:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+        wicket:
+          player_out: G Roelofsen
+          fielders:
+          - SA Northeast
+          kind: caught
+    - 8.2:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJJ Wells
+    - 8.3:
+        non_striker: BJJ Wells
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 8.4:
+        non_striker: BJJ Wells
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 8.5:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 8.6:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJJ Wells
+    - 9.1:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 9.2:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJJ Wells
+    - 9.3:
+        non_striker: BJJ Wells
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 9.4:
+        non_striker: BG Charlesworth
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJJ Wells
+    - 9.5:
+        non_striker: BJJ Wells
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BG Charlesworth
+    - 9.6:
+        non_striker: BJJ Wells
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 10.1:
+        non_striker: BJJ Wells
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 10.2:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJJ Wells
+    - 10.3:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJJ Wells
+    - 10.4:
+        non_striker: BJJ Wells
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 10.5:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 10.6:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 11.1:
+        non_striker: BJJ Wells
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 11.2:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJJ Wells
+    - 11.3:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BJJ Wells
+    - 11.4:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJJ Wells
+    - 11.5:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJJ Wells
+    - 11.6:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+        wicket:
+          player_out: BJJ Wells
+          kind: bowled
+    - 11.7:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 12.1:
+        non_striker: GL van Buuren
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 12.2:
+        non_striker: GL van Buuren
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 12.3:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.4:
+        non_striker: GL van Buuren
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 12.5:
+        non_striker: GL van Buuren
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 12.6:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GL van Buuren
+    - 13.1:
+        non_striker: GL van Buuren
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 13.2:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 13.3:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GL van Buuren
+    - 13.4:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 13.5:
+        non_striker: BG Charlesworth
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 13.6:
+        non_striker: GL van Buuren
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          fielders:
+          - WT Root
+          kind: caught
+    - 13.7:
+        non_striker: GL van Buuren
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Price
+    - 14.1:
+        non_striker: TJ Price
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.2:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Price
+    - 14.3:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Price
+    - 14.4:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TJ Price
+    - 14.5:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Price
+        wicket:
+          player_out: TJ Price
+          fielders:
+          - P Sisodiya
+          kind: caught
+    - 14.6:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 15.1:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GL van Buuren
+    - 15.2:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 15.3:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+        wicket:
+          player_out: GL van Buuren
+          fielders:
+          - P Hatzoglou
+          kind: caught
+    - 15.4:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+        wicket:
+          player_out: MD Taylor
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 15.5:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+    - 15.6:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Payne
+    - 16.1:
+        non_striker: DA Payne
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 16.2:
+        non_striker: OJ Price
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne
+    - 16.3:
+        non_striker: DA Payne
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 16.4:
+        non_striker: DA Payne
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 16.5:
+        non_striker: OJ Price
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne
+    - 16.6:
+        non_striker: DA Payne
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+        wicket:
+          player_out: OJ Price
+          fielders:
+          - Callum Taylor
+          kind: caught
+    - 17.1:
+        non_striker: Zaman Akhter
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+    - 17.2:
+        non_striker: Zaman Akhter
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DA Payne
+    - 17.3:
+        non_striker: DA Payne
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Akhter
+    - 17.4:
+        non_striker: DA Payne
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Zaman Akhter
+    - 17.5:
+        non_striker: DA Payne
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zaman Akhter
+    - 17.6:
+        non_striker: Zaman Akhter
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+    - 18.1:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zaman Akhter
+    - 18.2:
+        non_striker: Zaman Akhter
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DA Payne
+    - 18.3:
+        non_striker: Zaman Akhter
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne
+    - 18.4:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zaman Akhter
+    - 18.5:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zaman Akhter
+    - 18.6:
+        non_striker: Zaman Akhter
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne
+    - 19.1:
+        non_striker: Zaman Akhter
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne
+    - 19.2:
+        non_striker: DA Payne
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zaman Akhter
+    - 19.3:
+        non_striker: Zaman Akhter
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne
+    - 19.4:
+        non_striker: DA Payne
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Zaman Akhter
+    - 19.5:
+        non_striker: DA Payne
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zaman Akhter
+    - 19.6:
+        non_striker: Zaman Akhter
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Payne

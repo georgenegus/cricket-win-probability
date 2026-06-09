@@ -1,0 +1,2018 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-19'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leicester
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-19'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Leicestershire
+    by:
+      wickets: 4
+  overs: 20
+  player_of_match:
+  - Rehan Ahmed
+  players:
+    Nottinghamshire:
+    - JM Clarke
+    - LW James
+    - JA Haynes
+    - FW McCann
+    - TJ Moores
+    - M Montgomery
+    - DR Sams
+    - LA Patterson-White
+    - CG Harrison
+    - Farhan Ahmed
+    - DY Pennington
+    Leicestershire:
+    - RK Patel
+    - SG Budinger
+    - Shan Masood
+    - Rehan Ahmed
+    - LPJ Kimber
+    - OB Cox
+    - LV van Beek
+    - BWM Mike
+    - L Trevaskis
+    - TAR Scriven
+    - SB Wood
+  registry:
+    people:
+      BWM Mike: ed12fcd7
+      CG Harrison: f655d740
+      DR Sams: caf69bf7
+      DY Pennington: 219cc59e
+      FW McCann: 353de846
+      Farhan Ahmed: 26f1d66c
+      JA Haynes: fe4ebca0
+      JM Clarke: 2eca67f5
+      James Middlebrook: ddcd1520
+      L Trevaskis: b5781ac3
+      LA Patterson-White: d48c0f40
+      LPJ Kimber: 9f812582
+      LV van Beek: 782fb776
+      LW James: 2baad3bd
+      M Montgomery: 7671203a
+      MA Gough: 76752ac8
+      OB Cox: 324a6ee1
+      RK Patel: 4531f249
+      Rehan Ahmed: 0ecb4de6
+      SB Wood: c2d9b9cd
+      SG Budinger: bfc60227
+      Shan Masood: 6843a783
+      TAR Scriven: ac3c3cab
+      TJ Moores: 85dcb721
+      Tom Lungley: 75169b8c
+      WR Smith: ad962377
+  teams:
+  - Nottinghamshire
+  - Leicestershire
+  toss:
+    winner: Leicestershire
+    decision: field
+  umpires:
+  - MA Gough
+  - Tom Lungley
+  venue: Grace Road, Leicester
+innings:
+- 1st innings:
+    team: Nottinghamshire
+    deliveries:
+    - 0.1:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: LW James
+        batsman: JM Clarke
+    - 0.2:
+        non_striker: JM Clarke
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 0.3:
+        non_striker: JM Clarke
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 0.4:
+        non_striker: JM Clarke
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 0.5:
+        non_striker: JM Clarke
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 0.6:
+        non_striker: LW James
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 1.1:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 1.2:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Clarke
+    - 1.3:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: JM Clarke
+    - 1.4:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.5:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.6:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.7:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.8:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 2.1:
+        non_striker: JM Clarke
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 2.2:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 2.3:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 2.4:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+        wicket:
+          player_out: JM Clarke
+          fielders:
+          - TAR Scriven
+          kind: caught
+    - 2.5:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 2.6:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 3.1:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+        wicket:
+          player_out: JA Haynes
+          fielders:
+          - OB Cox
+          kind: caught
+    - 3.2:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 3.3:
+        non_striker: LW James
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FW McCann
+    - 3.4:
+        non_striker: FW McCann
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 3.5:
+        non_striker: FW McCann
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 3.6:
+        non_striker: FW McCann
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 4.1:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 4.2:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: FW McCann
+    - 4.3:
+        non_striker: FW McCann
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 4.4:
+        non_striker: FW McCann
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 4.5:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FW McCann
+    - 4.6:
+        non_striker: LW James
+        bowler: SB Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FW McCann
+    - 5.1:
+        non_striker: FW McCann
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 5.2:
+        non_striker: LW James
+        bowler: LV van Beek
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: FW McCann
+    - 5.3:
+        non_striker: FW McCann
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 5.4:
+        non_striker: FW McCann
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 5.5:
+        non_striker: LW James
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FW McCann
+    - 5.6:
+        non_striker: LW James
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 6.1:
+        non_striker: FW McCann
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 6.2:
+        non_striker: LW James
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 6.3:
+        non_striker: LW James
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+        wicket:
+          player_out: FW McCann
+          fielders:
+          - OB Cox
+          kind: stumped
+    - 6.4:
+        non_striker: LW James
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 6.5:
+        non_striker: LW James
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 6.6:
+        non_striker: TJ Moores
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 7.1:
+        non_striker: TJ Moores
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 7.2:
+        non_striker: LW James
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 7.3:
+        non_striker: TJ Moores
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 7.4:
+        non_striker: LW James
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 7.5:
+        non_striker: TJ Moores
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 7.6:
+        non_striker: LW James
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 8.1:
+        non_striker: LW James
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 8.2:
+        non_striker: TJ Moores
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 8.3:
+        non_striker: TJ Moores
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 8.4:
+        non_striker: TJ Moores
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 8.5:
+        non_striker: TJ Moores
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 8.6:
+        non_striker: LW James
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 9.1:
+        non_striker: LW James
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 9.2:
+        non_striker: LW James
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+        wicket:
+          player_out: TJ Moores
+          fielders:
+          - LV van Beek
+          kind: caught
+    - 9.3:
+        non_striker: LW James
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 9.4:
+        non_striker: M Montgomery
+        bowler: TAR Scriven
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LW James
+    - 9.5:
+        non_striker: M Montgomery
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 9.6:
+        non_striker: LW James
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 9.7:
+        non_striker: LW James
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 10.1:
+        non_striker: M Montgomery
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.2:
+        non_striker: LW James
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 10.3:
+        non_striker: LW James
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 10.4:
+        non_striker: LW James
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 10.5:
+        non_striker: M Montgomery
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.6:
+        non_striker: LW James
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 11.1:
+        non_striker: LW James
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 11.2:
+        non_striker: LW James
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 11.3:
+        non_striker: M Montgomery
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+        wicket:
+          player_out: LW James
+          fielders:
+          - TAR Scriven
+          kind: run out
+    - 11.4:
+        non_striker: M Montgomery
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 11.5:
+        non_striker: M Montgomery
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 11.6:
+        non_striker: DR Sams
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 12.1:
+        non_striker: M Montgomery
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Sams
+    - 12.2:
+        non_striker: M Montgomery
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 12.3:
+        non_striker: M Montgomery
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Sams
+    - 12.4:
+        non_striker: M Montgomery
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 12.5:
+        non_striker: M Montgomery
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Sams
+    - 12.6:
+        non_striker: M Montgomery
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 13.1:
+        non_striker: DR Sams
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Montgomery
+    - 13.2:
+        non_striker: DR Sams
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 13.3:
+        non_striker: DR Sams
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 13.4:
+        non_striker: M Montgomery
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 13.5:
+        non_striker: DR Sams
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 13.6:
+        non_striker: M Montgomery
+        bowler: BWM Mike
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DR Sams
+    - 14.1:
+        non_striker: M Montgomery
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 14.2:
+        non_striker: DR Sams
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 14.3:
+        non_striker: DR Sams
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 14.4:
+        non_striker: DR Sams
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 14.5:
+        non_striker: M Montgomery
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 14.6:
+        non_striker: DR Sams
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 15.1:
+        non_striker: DR Sams
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 15.2:
+        non_striker: M Montgomery
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Sams
+    - 15.3:
+        non_striker: M Montgomery
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 15.4:
+        non_striker: DR Sams
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+        wicket:
+          player_out: M Montgomery
+          fielders:
+          - LV van Beek
+          kind: caught
+    - 15.5:
+        non_striker: DR Sams
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 15.6:
+        non_striker: DR Sams
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 16.1:
+        non_striker: DR Sams
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+    - 16.2:
+        non_striker: DR Sams
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Patterson-White
+    - 16.3:
+        non_striker: LA Patterson-White
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 16.4:
+        non_striker: DR Sams
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Patterson-White
+        wicket:
+          player_out: LA Patterson-White
+          fielders:
+          - BWM Mike
+          kind: caught
+    - 16.5:
+        non_striker: DR Sams
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CG Harrison
+    - 16.6:
+        non_striker: DR Sams
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CG Harrison
+    - 17.1:
+        non_striker: CG Harrison
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+    - 17.2:
+        non_striker: CG Harrison
+        bowler: LV van Beek
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DR Sams
+    - 17.3:
+        non_striker: CG Harrison
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Sams
+        wicket:
+          player_out: DR Sams
+          fielders:
+          - OB Cox
+          kind: caught
+    - 17.4:
+        non_striker: CG Harrison
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Ahmed
+    - 17.5:
+        non_striker: Farhan Ahmed
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Harrison
+    - 17.6:
+        non_striker: Farhan Ahmed
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Harrison
+    - 17.7:
+        non_striker: Farhan Ahmed
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Harrison
+    - 18.1:
+        non_striker: Farhan Ahmed
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CG Harrison
+    - 18.2:
+        non_striker: Farhan Ahmed
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Harrison
+    - 18.3:
+        non_striker: CG Harrison
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Farhan Ahmed
+    - 18.4:
+        non_striker: CG Harrison
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Ahmed
+    - 18.5:
+        non_striker: Farhan Ahmed
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Harrison
+    - 18.6:
+        non_striker: CG Harrison
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Ahmed
+    - 19.1:
+        non_striker: CG Harrison
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Farhan Ahmed
+    - 19.2:
+        non_striker: Farhan Ahmed
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Harrison
+        wicket:
+          player_out: CG Harrison
+          fielders:
+          - SG Budinger
+          kind: caught
+    - 19.3:
+        non_striker: Farhan Ahmed
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DY Pennington
+        wicket:
+          player_out: DY Pennington
+          kind: bowled
+- 2nd innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: SG Budinger
+        batsman: RK Patel
+    - 0.2:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 0.3:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 0.4:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 0.5:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 0.6:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.1:
+        non_striker: RK Patel
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.2:
+        non_striker: SG Budinger
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 1.3:
+        non_striker: RK Patel
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.4:
+        non_striker: SG Budinger
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 1.5:
+        non_striker: RK Patel
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SG Budinger
+    - 1.6:
+        non_striker: RK Patel
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 2.1:
+        non_striker: RK Patel
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 2.2:
+        non_striker: RK Patel
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 2.3:
+        non_striker: RK Patel
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+        wicket:
+          player_out: SG Budinger
+          fielders:
+          - CG Harrison
+          kind: caught
+    - 2.4:
+        non_striker: RK Patel
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 2.5:
+        non_striker: Shan Masood
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 2.6:
+        non_striker: Shan Masood
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 3.1:
+        non_striker: RK Patel
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 3.2:
+        non_striker: RK Patel
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 3.3:
+        non_striker: RK Patel
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 3.4:
+        non_striker: RK Patel
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 3.5:
+        non_striker: Shan Masood
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          fielders:
+          - DY Pennington
+          kind: caught
+    - 3.6:
+        non_striker: Shan Masood
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 4.1:
+        non_striker: Shan Masood
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 4.2:
+        non_striker: Rehan Ahmed
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 4.3:
+        non_striker: Rehan Ahmed
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 4.4:
+        non_striker: Rehan Ahmed
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 4.5:
+        non_striker: Rehan Ahmed
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 4.6:
+        non_striker: Rehan Ahmed
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 5.1:
+        non_striker: Shan Masood
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 5.2:
+        non_striker: Shan Masood
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 5.3:
+        non_striker: Shan Masood
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 5.4:
+        non_striker: Shan Masood
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 5.5:
+        non_striker: Shan Masood
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 5.6:
+        non_striker: Rehan Ahmed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 6.1:
+        non_striker: Shan Masood
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 6.2:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 6.3:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 6.4:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 6.5:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 6.6:
+        non_striker: Shan Masood
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 7.1:
+        non_striker: Rehan Ahmed
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 7.2:
+        non_striker: Shan Masood
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 7.3:
+        non_striker: Rehan Ahmed
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 7.4:
+        non_striker: Rehan Ahmed
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shan Masood
+    - 7.5:
+        non_striker: Rehan Ahmed
+        bowler: Farhan Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shan Masood
+    - 7.6:
+        non_striker: Rehan Ahmed
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 7.7:
+        non_striker: Rehan Ahmed
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 8.1:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 8.2:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+        wicket:
+          player_out: Shan Masood
+          kind: bowled
+    - 8.3:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: LPJ Kimber
+    - 8.4:
+        non_striker: LPJ Kimber
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 8.5:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 8.6:
+        non_striker: LPJ Kimber
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 9.1:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rehan Ahmed
+    - 9.2:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 9.3:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 9.4:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LPJ Kimber
+    - 9.5:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 9.6:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 10.1:
+        non_striker: LPJ Kimber
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 10.2:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LPJ Kimber
+    - 10.3:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 10.4:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 10.5:
+        non_striker: LPJ Kimber
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 10.6:
+        non_striker: LPJ Kimber
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 11.1:
+        non_striker: Rehan Ahmed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 11.2:
+        non_striker: Rehan Ahmed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 11.3:
+        non_striker: Rehan Ahmed
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 11.4:
+        non_striker: LPJ Kimber
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 11.5:
+        non_striker: LPJ Kimber
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 11.6:
+        non_striker: LPJ Kimber
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 12.1:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 12.2:
+        non_striker: LPJ Kimber
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 12.3:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LPJ Kimber
+    - 12.4:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LPJ Kimber
+    - 12.5:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 12.6:
+        non_striker: LPJ Kimber
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 13.1:
+        non_striker: LPJ Kimber
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 13.2:
+        non_striker: LPJ Kimber
+        bowler: DY Pennington
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rehan Ahmed
+    - 13.3:
+        non_striker: LPJ Kimber
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 13.4:
+        non_striker: LPJ Kimber
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 13.5:
+        non_striker: LPJ Kimber
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 13.6:
+        non_striker: LPJ Kimber
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rehan Ahmed
+    - 13.7:
+        non_striker: LPJ Kimber
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 14.1:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 14.2:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 14.3:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 14.4:
+        non_striker: LPJ Kimber
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 14.5:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+        wicket:
+          player_out: LPJ Kimber
+          fielders:
+          - CG Harrison
+          kind: caught
+    - 14.6:
+        non_striker: Rehan Ahmed
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 15.1:
+        non_striker: OB Cox
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rehan Ahmed
+    - 15.2:
+        non_striker: OB Cox
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 15.3:
+        non_striker: Rehan Ahmed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.4:
+        non_striker: OB Cox
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+        wicket:
+          player_out: Rehan Ahmed
+          fielders:
+          - LW James
+          kind: caught
+    - 15.5:
+        non_striker: OB Cox
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+    - 15.6:
+        non_striker: OB Cox
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LV van Beek
+    - 16.1:
+        non_striker: LV van Beek
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 16.2:
+        non_striker: LV van Beek
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 16.3:
+        non_striker: OB Cox
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 16.4:
+        non_striker: LV van Beek
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 16.5:
+        non_striker: OB Cox
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LV van Beek
+    - 16.6:
+        non_striker: OB Cox
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 17.1:
+        non_striker: OB Cox
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LV van Beek
+    - 17.2:
+        non_striker: LV van Beek
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+        wicket:
+          player_out: OB Cox
+          fielders:
+          - CG Harrison
+          kind: caught
+    - 17.3:
+        non_striker: LV van Beek
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 17.4:
+        non_striker: LV van Beek
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BWM Mike

@@ -1,0 +1,2122 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Derby
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-10'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Worcestershire
+    by:
+      runs: 12
+  overs: 20
+  player_of_match:
+  - GH Roderick
+  players:
+    Worcestershire:
+    - BL D'Oliveira
+    - Isaac Mohammed
+    - GH Roderick
+    - Kashif Ali
+    - AJ Hose
+    - EA Brookes
+    - BJ Dwarshuis
+    - TAI Taylor
+    - F Singh
+    - AW Finch
+    - Khurram Shahzad
+    Derbyshire:
+    - AHT Donald
+    - CP Jewell
+    - HRC Came
+    - WL Madsen
+    - SR Patel
+    - RA Whiteley
+    - MK Andersson
+    - ZJ Chappell
+    - AT Thomson
+    - AM Ghazanfar
+    - PR Brown
+  registry:
+    people:
+      AHT Donald: '72918338'
+      AJ Hose: 104e88a4
+      AM Ghazanfar: 9ca68676
+      AT Thomson: ad286dcc
+      AW Finch: fc63d916
+      BJ Dwarshuis: e1b9f3a9
+      BL D'Oliveira: 9679838c
+      CP Jewell: 806c4e58
+      EA Brookes: 6ce9f3eb
+      F Singh: 1d48795b
+      GH Roderick: 7081848a
+      HRC Came: 0a7c6649
+      Isaac Mohammed: 2c1a21f0
+      James Middlebrook: ddcd1520
+      Kashif Ali: f3b26fe4
+      Khurram Shahzad: 27c5715d
+      MK Andersson: d26e0405
+      PR Brown: 1efd12d1
+      RA Whiteley: d346d939
+      Rob White: 59b91222
+      SR Patel: 18fac429
+      TAI Taylor: 867a45a7
+      Tom Lungley: 75169b8c
+      WL Madsen: 86e0f3f0
+      Wayne Noon: 736e1761
+      ZJ Chappell: fe5b4367
+  teams:
+  - Worcestershire
+  - Derbyshire
+  toss:
+    winner: Worcestershire
+    decision: bat
+  umpires:
+  - James Middlebrook
+  - Tom Lungley
+  venue: County Ground, Derby
+innings:
+- 1st innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Isaac Mohammed
+        batsman: BL D'Oliveira
+    - 0.2:
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: BL D'Oliveira
+        batsman: Isaac Mohammed
+    - 0.3:
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: BL D'Oliveira
+        batsman: Isaac Mohammed
+    - 0.4:
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: BL D'Oliveira
+        batsman: Isaac Mohammed
+    - 0.5:
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: BL D'Oliveira
+        batsman: Isaac Mohammed
+    - 0.6:
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: BL D'Oliveira
+        batsman: Isaac Mohammed
+        wicket:
+          player_out: Isaac Mohammed
+          fielders:
+          - PR Brown
+          kind: caught
+    - 1.1:
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: GH Roderick
+        batsman: BL D'Oliveira
+    - 1.2:
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: GH Roderick
+        batsman: BL D'Oliveira
+    - 1.3:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          fielders:
+          - WL Madsen
+          kind: caught
+    - 1.4:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 1.5:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 1.6:
+        non_striker: Kashif Ali
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 2.1:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 2.2:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+        wicket:
+          player_out: Kashif Ali
+          fielders:
+          - PR Brown
+          kind: caught
+    - 2.3:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          kind: bowled
+    - 2.4:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 2.5:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 2.6:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 3.1:
+        non_striker: EA Brookes
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 3.2:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 3.3:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 3.4:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 3.5:
+        non_striker: EA Brookes
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 3.6:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 4.1:
+        non_striker: EA Brookes
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 4.2:
+        non_striker: EA Brookes
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 4.3:
+        non_striker: EA Brookes
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 4.4:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 4.5:
+        non_striker: EA Brookes
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 4.6:
+        non_striker: EA Brookes
+        bowler: ZJ Chappell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GH Roderick
+    - 4.7:
+        non_striker: EA Brookes
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 5.1:
+        non_striker: GH Roderick
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 5.2:
+        non_striker: GH Roderick
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EA Brookes
+    - 5.3:
+        non_striker: GH Roderick
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 5.4:
+        non_striker: EA Brookes
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 5.5:
+        non_striker: EA Brookes
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 5.6:
+        non_striker: EA Brookes
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 6.1:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 6.2:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 6.3:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 6.4:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 6.5:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 6.6:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 7.1:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 7.2:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 7.3:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 7.4:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 7.5:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 7.6:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 8.1:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: GH Roderick
+    - 8.2:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 8.3:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 8.4:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 8.5:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 8.6:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 9.1:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 9.2:
+        non_striker: EA Brookes
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 9.3:
+        non_striker: EA Brookes
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 9.4:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 9.5:
+        non_striker: EA Brookes
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 9.6:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 10.1:
+        non_striker: EA Brookes
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 10.2:
+        non_striker: GH Roderick
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 10.3:
+        non_striker: GH Roderick
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EA Brookes
+    - 10.4:
+        non_striker: GH Roderick
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 10.5:
+        non_striker: EA Brookes
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 10.6:
+        non_striker: EA Brookes
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 11.1:
+        non_striker: GH Roderick
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 11.2:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 11.3:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 11.4:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 11.5:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 11.6:
+        non_striker: EA Brookes
+        bowler: MK Andersson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 12.1:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 12.2:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 12.3:
+        non_striker: EA Brookes
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 12.4:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 12.5:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+        wicket:
+          player_out: EA Brookes
+          kind: bowled
+    - 12.6:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 13.1:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 13.2:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 13.3:
+        non_striker: GH Roderick
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 13.4:
+        non_striker: GH Roderick
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 13.5:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 13.6:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 14.1:
+        non_striker: BJ Dwarshuis
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 14.2:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 14.3:
+        non_striker: BJ Dwarshuis
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 14.4:
+        non_striker: BJ Dwarshuis
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 14.5:
+        non_striker: BJ Dwarshuis
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 14.6:
+        non_striker: GH Roderick
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 15.1:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 15.2:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 15.3:
+        non_striker: GH Roderick
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Dwarshuis
+    - 15.4:
+        non_striker: GH Roderick
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 15.5:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Roderick
+    - 15.6:
+        non_striker: BJ Dwarshuis
+        bowler: AT Thomson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 16.1:
+        non_striker: BJ Dwarshuis
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 16.2:
+        non_striker: BJ Dwarshuis
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 16.3:
+        non_striker: BJ Dwarshuis
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 16.4:
+        non_striker: BJ Dwarshuis
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 16.5:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Dwarshuis
+    - 16.6:
+        non_striker: GH Roderick
+        bowler: AM Ghazanfar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+    - 17.1:
+        non_striker: BJ Dwarshuis
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 17.2:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 17.3:
+        non_striker: BJ Dwarshuis
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 17.4:
+        non_striker: GH Roderick
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 17.5:
+        non_striker: BJ Dwarshuis
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Roderick
+    - 17.6:
+        non_striker: BJ Dwarshuis
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+        wicket:
+          player_out: GH Roderick
+          kind: bowled
+    - 18.1:
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TAI Taylor
+        batsman: BJ Dwarshuis
+    - 18.2:
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: TAI Taylor
+        batsman: BJ Dwarshuis
+    - 18.3:
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TAI Taylor
+        batsman: BJ Dwarshuis
+    - 18.4:
+        non_striker: BJ Dwarshuis
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAI Taylor
+    - 18.5:
+        non_striker: BJ Dwarshuis
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TAI Taylor
+    - 18.6:
+        non_striker: BJ Dwarshuis
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAI Taylor
+    - 19.1:
+        non_striker: TAI Taylor
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Dwarshuis
+    - 19.2:
+        non_striker: TAI Taylor
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Dwarshuis
+    - 19.3:
+        non_striker: BJ Dwarshuis
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAI Taylor
+    - 19.4:
+        non_striker: BJ Dwarshuis
+        bowler: ZJ Chappell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TAI Taylor
+    - 19.5:
+        non_striker: TAI Taylor
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJ Dwarshuis
+    - 19.6:
+        non_striker: TAI Taylor
+        bowler: ZJ Chappell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BJ Dwarshuis
+- 2nd innings:
+    team: Derbyshire
+    deliveries:
+    - 0.1:
+        bowler: TAI Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: CP Jewell
+        batsman: AHT Donald
+    - 0.2:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AHT Donald
+        wicket:
+          player_out: AHT Donald
+          fielders:
+          - GH Roderick
+          kind: caught
+    - 0.3:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HRC Came
+    - 0.4:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HRC Came
+    - 0.5:
+        non_striker: HRC Came
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Jewell
+    - 0.6:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HRC Came
+    - 0.7:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HRC Came
+    - 0.8:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HRC Came
+    - 0.9:
+        non_striker: HRC Came
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Jewell
+    - 1.1:
+        non_striker: HRC Came
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Jewell
+    - 1.2:
+        non_striker: HRC Came
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Jewell
+    - 1.3:
+        non_striker: HRC Came
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Jewell
+    - 1.4:
+        non_striker: HRC Came
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CP Jewell
+    - 1.5:
+        non_striker: HRC Came
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Jewell
+    - 1.6:
+        non_striker: HRC Came
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Jewell
+    - 2.1:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HRC Came
+    - 2.2:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HRC Came
+        wicket:
+          player_out: HRC Came
+          kind: bowled
+    - 2.3:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 2.4:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Jewell
+    - 2.5:
+        non_striker: CP Jewell
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 2.6:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Jewell
+    - 3.1:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CP Jewell
+    - 3.2:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Jewell
+    - 3.3:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Jewell
+        wicket:
+          player_out: CP Jewell
+          kind: bowled
+    - 3.4:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 3.5:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Patel
+    - 3.6:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 4.1:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 4.2:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 4.3:
+        non_striker: SR Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 4.4:
+        non_striker: SR Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 4.5:
+        non_striker: SR Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 4.6:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 5.1:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 5.2:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 5.3:
+        non_striker: SR Patel
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 5.4:
+        non_striker: SR Patel
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 5.5:
+        non_striker: SR Patel
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 5.6:
+        non_striker: SR Patel
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 6.1:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 6.2:
+        non_striker: SR Patel
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WL Madsen
+    - 6.3:
+        non_striker: SR Patel
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 6.4:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 6.5:
+        non_striker: SR Patel
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 6.6:
+        non_striker: SR Patel
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 7.1:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 7.2:
+        non_striker: SR Patel
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 7.3:
+        non_striker: SR Patel
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 7.4:
+        non_striker: SR Patel
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 7.5:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Patel
+    - 7.6:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 8.1:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 8.2:
+        non_striker: SR Patel
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WL Madsen
+    - 8.3:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+        wicket:
+          player_out: SR Patel
+          fielders:
+          - AJ Hose
+          kind: caught
+    - 8.4:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 8.5:
+        non_striker: RA Whiteley
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 8.6:
+        non_striker: RA Whiteley
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 9.1:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 9.2:
+        non_striker: RA Whiteley
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 9.3:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 9.4:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 9.5:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 9.6:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 10.1:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Whiteley
+    - 10.2:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RA Whiteley
+    - 10.3:
+        non_striker: RA Whiteley
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 10.4:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 10.5:
+        non_striker: RA Whiteley
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 10.6:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: RA Whiteley
+    - 11.1:
+        non_striker: RA Whiteley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 11.2:
+        non_striker: WL Madsen
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 11.3:
+        non_striker: RA Whiteley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 11.4:
+        non_striker: WL Madsen
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 11.5:
+        non_striker: RA Whiteley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 11.6:
+        non_striker: RA Whiteley
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 12.1:
+        non_striker: RA Whiteley
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 12.2:
+        non_striker: RA Whiteley
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 12.3:
+        non_striker: RA Whiteley
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 12.4:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 12.5:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 12.6:
+        non_striker: RA Whiteley
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 13.1:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 13.2:
+        non_striker: RA Whiteley
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 13.3:
+        non_striker: RA Whiteley
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 13.4:
+        non_striker: RA Whiteley
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WL Madsen
+    - 13.5:
+        non_striker: RA Whiteley
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 13.6:
+        non_striker: WL Madsen
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+        wicket:
+          player_out: RA Whiteley
+          kind: bowled
+    - 14.1:
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: MK Andersson
+        batsman: WL Madsen
+    - 14.2:
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: MK Andersson
+        batsman: WL Madsen
+    - 14.3:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Andersson
+    - 14.4:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Andersson
+    - 14.5:
+        non_striker: WL Madsen
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Andersson
+    - 14.6:
+        non_striker: MK Andersson
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 15.1:
+        non_striker: MK Andersson
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 15.2:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Andersson
+    - 15.3:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MK Andersson
+    - 15.4:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Andersson
+    - 15.5:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Andersson
+    - 15.6:
+        non_striker: MK Andersson
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 16.1:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Andersson
+    - 16.2:
+        non_striker: MK Andersson
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 16.3:
+        non_striker: MK Andersson
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 16.4:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Andersson
+    - 16.5:
+        non_striker: MK Andersson
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 16.6:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Andersson
+    - 17.1:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MK Andersson
+    - 17.2:
+        non_striker: MK Andersson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 17.3:
+        non_striker: WL Madsen
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Andersson
+    - 17.4:
+        non_striker: MK Andersson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 17.5:
+        non_striker: MK Andersson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+        wicket:
+          player_out: MK Andersson
+          fielders:
+          - AJ Hose
+          kind: run out
+    - 17.6:
+        non_striker: ZJ Chappell
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 18.1:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: ZJ Chappell
+    - 18.2:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: ZJ Chappell
+    - 18.3:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ZJ Chappell
+    - 18.4:
+        non_striker: ZJ Chappell
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 18.5:
+        non_striker: WL Madsen
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ZJ Chappell
+    - 18.6:
+        non_striker: ZJ Chappell
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 18.7:
+        non_striker: ZJ Chappell
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WL Madsen
+    - 19.1:
+        non_striker: ZJ Chappell
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 19.2:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ZJ Chappell
+    - 19.3:
+        non_striker: ZJ Chappell
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WL Madsen
+    - 19.4:
+        non_striker: ZJ Chappell
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WL Madsen
+    - 19.5:
+        non_striker: ZJ Chappell
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WL Madsen
+    - 19.6:
+        non_striker: WL Madsen
+        bowler: Khurram Shahzad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ZJ Chappell

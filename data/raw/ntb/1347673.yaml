@@ -1,0 +1,2119 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2023-06-23'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sussex
+    by:
+      runs: 20
+  overs: 20
+  players:
+    Sussex:
+    - HD Ward
+    - TGR Clark
+    - OJ Carter
+    - RS Bopara
+    - Shadab Khan
+    - MGK Burgess
+    - JM Coles
+    - FJ Hudson-Prentice
+    - A Karvelas
+    - TS Mills
+    - BJ Currie
+    Glamorgan:
+    - KS Carlson
+    - SA Northeast
+    - WT Smale
+    - CD Fletcher
+    - CB Cooke
+    - T van der Gugten
+    - AG Salter
+    - AW Gorvin
+    - RAJ Smith
+    - P Hatzoglou
+    - JP McIlroy
+  registry:
+    people:
+      A Karvelas: a5735bd3
+      AG Salter: 1a45b864
+      AW Gorvin: 7d7233a9
+      BJ Currie: 2ecd844a
+      CB Cooke: 6755cd5c
+      CD Fletcher: 4af9f5d4
+      DA Cosker: aac9f784
+      FJ Hudson-Prentice: 932d3cc9
+      HD Ward: 9f7932a7
+      JM Coles: 9c643d7b
+      JP McIlroy: 80e44dc5
+      James Middlebrook: ddcd1520
+      KS Carlson: 9e707e02
+      M Burns: b3bd0666
+      MGK Burgess: 715941c3
+      OJ Carter: 26db69e6
+      P Hatzoglou: 6f95e5fa
+      RAJ Smith: 6daf5e8c
+      RS Bopara: 7ca5e05d
+      SA Northeast: 7e4c8ba3
+      Shadab Khan: 9de62878
+      T van der Gugten: d99cc23a
+      TGR Clark: ed8faea2
+      TS Mills: 245c97cb
+      WT Smale: 97da28bd
+  teams:
+  - Sussex
+  - Glamorgan
+  toss:
+    winner: Sussex
+    decision: bat
+  umpires:
+  - James Middlebrook
+  - M Burns
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: HD Ward
+    - 0.2:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 0.3:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 0.4:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 0.5:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 0.6:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 1.1:
+        non_striker: TGR Clark
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 1.2:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 1.3:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 1.4:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 1.5:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 1.6:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 2.1:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+        wicket:
+          player_out: HD Ward
+          fielders:
+          - WT Smale
+          kind: caught
+    - 2.2:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 2.3:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 2.4:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 2.5:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+        wicket:
+          player_out: OJ Carter
+          fielders:
+          - JP McIlroy
+          kind: caught
+    - 2.6:
+        non_striker: TGR Clark
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.1:
+        non_striker: RS Bopara
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 3.2:
+        non_striker: RS Bopara
+        bowler: RAJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TGR Clark
+    - 3.3:
+        non_striker: RS Bopara
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 3.4:
+        non_striker: RS Bopara
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 3.5:
+        non_striker: RS Bopara
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 3.6:
+        non_striker: TGR Clark
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.7:
+        non_striker: TGR Clark
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 4.1:
+        non_striker: RS Bopara
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          fielders:
+          - RAJ Smith
+          kind: caught
+    - 4.2:
+        non_striker: RS Bopara
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 4.3:
+        non_striker: RS Bopara
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 4.4:
+        non_striker: RS Bopara
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 4.5:
+        non_striker: Shadab Khan
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 4.6:
+        non_striker: Shadab Khan
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 5.1:
+        non_striker: RS Bopara
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 5.2:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RS Bopara
+    - 5.3:
+        non_striker: RS Bopara
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Shadab Khan
+    - 5.4:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+        wicket:
+          player_out: RS Bopara
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 5.5:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 5.6:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MGK Burgess
+    - 6.1:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 6.2:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 6.3:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 6.4:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 6.5:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 6.6:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 7.1:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 7.2:
+        non_striker: MGK Burgess
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 7.3:
+        non_striker: MGK Burgess
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 7.4:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 7.5:
+        non_striker: MGK Burgess
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 7.6:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 8.1:
+        non_striker: Shadab Khan
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 8.2:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 8.3:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 8.4:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 8.5:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 8.6:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 9.1:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 9.2:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 9.3:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 9.4:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 9.5:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 9.6:
+        non_striker: MGK Burgess
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 10.1:
+        non_striker: MGK Burgess
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 10.2:
+        non_striker: Shadab Khan
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 10.3:
+        non_striker: Shadab Khan
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 10.4:
+        non_striker: MGK Burgess
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 10.5:
+        non_striker: Shadab Khan
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 10.6:
+        non_striker: Shadab Khan
+        bowler: RAJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MGK Burgess
+    - 11.1:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 11.2:
+        non_striker: MGK Burgess
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 11.3:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 11.4:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 11.5:
+        non_striker: MGK Burgess
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 11.6:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 12.1:
+        non_striker: Shadab Khan
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 12.2:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 12.3:
+        non_striker: Shadab Khan
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MGK Burgess
+    - 12.4:
+        non_striker: Shadab Khan
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 12.5:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 12.6:
+        non_striker: MGK Burgess
+        bowler: AG Salter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 13.1:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 13.2:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+        wicket:
+          player_out: MGK Burgess
+          kind: bowled
+    - 13.3:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 13.4:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 13.5:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 13.6:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.1:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.2:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 14.3:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 14.4:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.5:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 14.6:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 15.1:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 15.2:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 15.3:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 15.4:
+        non_striker: Shadab Khan
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 15.5:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 15.6:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 16.1:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 16.2:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 16.3:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 16.4:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+    - 16.5:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 16.6:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 17.1:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 17.2:
+        non_striker: Shadab Khan
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Coles
+    - 17.3:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 17.4:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 17.5:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 17.6:
+        non_striker: JM Coles
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 18.1:
+        non_striker: Shadab Khan
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 18.2:
+        non_striker: Shadab Khan
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 18.3:
+        non_striker: JM Coles
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 18.4:
+        non_striker: JM Coles
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 18.5:
+        non_striker: JM Coles
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 18.6:
+        non_striker: JM Coles
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 19.1:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 19.2:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 19.3:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 19.4:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 19.5:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+        wicket:
+          player_out: JM Coles
+          kind: bowled
+    - 19.6:
+        non_striker: Shadab Khan
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FJ Hudson-Prentice
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 0.2:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 0.3:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Smale
+    - 0.4:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 0.5:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 0.6:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 1.1:
+        non_striker: WT Smale
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.2:
+        non_striker: WT Smale
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 1.3:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WT Smale
+    - 1.4:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.5:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.6:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.7:
+        non_striker: WT Smale
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.1:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 2.2:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 2.3:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 2.4:
+        non_striker: SA Northeast
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 2.5:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 2.6:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.1:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 3.2:
+        non_striker: WT Smale
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.3:
+        non_striker: WT Smale
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 3.4:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Smale
+    - 3.5:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.6:
+        non_striker: SA Northeast
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 4.1:
+        non_striker: WT Smale
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 4.2:
+        non_striker: SA Northeast
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          kind: bowled
+    - 4.3:
+        non_striker: SA Northeast
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 4.4:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 4.5:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 4.6:
+        non_striker: SA Northeast
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 5.1:
+        non_striker: CD Fletcher
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 5.2:
+        non_striker: SA Northeast
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CD Fletcher
+    - 5.3:
+        non_striker: SA Northeast
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 5.4:
+        non_striker: SA Northeast
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 5.5:
+        non_striker: CD Fletcher
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 5.6:
+        non_striker: CD Fletcher
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.1:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.2:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 6.3:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.4:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 6.5:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 6.6:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 7.1:
+        non_striker: SA Northeast
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 7.2:
+        non_striker: SA Northeast
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 7.3:
+        non_striker: CD Fletcher
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Northeast
+    - 7.4:
+        non_striker: CD Fletcher
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 7.5:
+        non_striker: CD Fletcher
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 7.6:
+        non_striker: CD Fletcher
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.1:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 8.2:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.3:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 8.4:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 8.5:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 8.6:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 9.1:
+        non_striker: SA Northeast
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 9.2:
+        non_striker: SA Northeast
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 9.3:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Northeast
+    - 9.4:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Northeast
+    - 9.5:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 9.6:
+        non_striker: SA Northeast
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 10.1:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 10.2:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 10.3:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 10.4:
+        non_striker: SA Northeast
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 10.5:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          fielders:
+          - HD Ward
+          kind: caught
+    - 10.6:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.1:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 11.2:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.3:
+        non_striker: CB Cooke
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 11.4:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.5:
+        non_striker: CB Cooke
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 11.6:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.1:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.2:
+        non_striker: CB Cooke
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 12.3:
+        non_striker: CD Fletcher
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.4:
+        non_striker: CB Cooke
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CD Fletcher
+    - 12.5:
+        non_striker: CB Cooke
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CD Fletcher
+    - 12.6:
+        non_striker: CB Cooke
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CD Fletcher
+    - 13.1:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 13.2:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 13.3:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 13.4:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 13.5:
+        non_striker: CB Cooke
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CD Fletcher
+    - 13.6:
+        non_striker: CB Cooke
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 14.1:
+        non_striker: CB Cooke
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - Shadab Khan
+          kind: run out
+    - 14.2:
+        non_striker: T van der Gugten
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 14.3:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 14.4:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 14.5:
+        non_striker: T van der Gugten
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 14.6:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.1:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.2:
+        non_striker: T van der Gugten
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CD Fletcher
+    - 15.3:
+        non_striker: T van der Gugten
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 15.4:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 15.5:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 15.6:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T van der Gugten
+    - 15.7:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.8:
+        non_striker: T van der Gugten
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 16.1:
+        non_striker: T van der Gugten
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 16.2:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 16.3:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          fielders:
+          - HD Ward
+          kind: caught
+    - 16.4:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Salter
+    - 16.5:
+        non_striker: AG Salter
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 16.6:
+        non_striker: CD Fletcher
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Salter
+    - 17.1:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Salter
+        wicket:
+          player_out: AG Salter
+          fielders:
+          - JM Coles
+          kind: caught
+    - 17.2:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AW Gorvin
+    - 17.3:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 17.4:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 17.5:
+        non_striker: AW Gorvin
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 17.6:
+        non_striker: CD Fletcher
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 18.1:
+        non_striker: CD Fletcher
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 18.2:
+        non_striker: CD Fletcher
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 18.3:
+        non_striker: CD Fletcher
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+        wicket:
+          player_out: AW Gorvin
+          fielders:
+          - FJ Hudson-Prentice
+          kind: caught
+    - 18.4:
+        non_striker: CD Fletcher
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RAJ Smith
+    - 18.5:
+        non_striker: RAJ Smith
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 18.6:
+        non_striker: CD Fletcher
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+    - 19.1:
+        non_striker: RAJ Smith
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CD Fletcher
+    - 19.2:
+        non_striker: CD Fletcher
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RAJ Smith
+    - 19.3:
+        non_striker: RAJ Smith
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CD Fletcher
+    - 19.4:
+        non_striker: RAJ Smith
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CD Fletcher
+    - 19.5:
+        non_striker: RAJ Smith
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+        wicket:
+          player_out: CD Fletcher
+          fielders:
+          - HD Ward
+          kind: caught
+    - 19.6:
+        non_striker: RAJ Smith
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Hatzoglou

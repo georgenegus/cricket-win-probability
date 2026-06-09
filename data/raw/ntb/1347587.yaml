@@ -1,0 +1,2193 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-30'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Worcester
+  competition: Vitality Blast
+  dates:
+  - '2023-05-29'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Worcestershire
+    by:
+      runs: 33
+  overs: 20
+  players:
+    Worcestershire:
+    - MG Bracewell
+    - BL D'Oliveira
+    - JA Haynes
+    - AJ Hose
+    - Kashif Ali
+    - OB Cox
+    - EJ Pollock
+    - Usama Mir
+    - AW Finch
+    - DY Pennington
+    - PR Brown
+    Leicestershire:
+    - NR Welch
+    - SG Budinger
+    - RK Patel
+    - CN Ackermann
+    - PWA Mulder
+    - AM Lilley
+    - Rehan Ahmed
+    - HJ Swindells
+    - CF Parkinson
+    - Naseem Shah
+    - WS Davis
+  registry:
+    people:
+      AG Wharf: 2e0fcc58
+      AJ Hose: 104e88a4
+      AM Lilley: 88a004e9
+      AW Finch: fc63d916
+      BL D'Oliveira: 9679838c
+      CF Parkinson: aa1210d8
+      CN Ackermann: e734d090
+      DY Pennington: 219cc59e
+      EJ Pollock: d6663a9a
+      HJ Swindells: 95fd757d
+      ID Blackwell: 818e8bf2
+      JA Haynes: fe4ebca0
+      Kashif Ali: f3b26fe4
+      MG Bracewell: e38bce7a
+      NR Welch: 74c6c6e0
+      Naseem Shah: 9c9af282
+      OB Cox: 324a6ee1
+      PR Brown: 1efd12d1
+      PWA Mulder: c96f6ac5
+      RK Patel: 4531f249
+      Rehan Ahmed: 0ecb4de6
+      SG Budinger: bfc60227
+      SG Hinks: 0bb4dc0d
+      Usama Mir: 6dd8b88c
+      WS Davis: '078ffbf2'
+  teams:
+  - Worcestershire
+  - Leicestershire
+  toss:
+    winner: Worcestershire
+    decision: bat
+  umpires:
+  - AG Wharf
+  - ID Blackwell
+  venue: County Ground, New Road, Worcester
+innings:
+- 1st innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: BL D'Oliveira
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 0.2:
+        non_striker: BL D'Oliveira
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MG Bracewell
+    - 0.3:
+        non_striker: BL D'Oliveira
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+        wicket:
+          player_out: MG Bracewell
+          kind: lbw
+    - 0.4:
+        non_striker: BL D'Oliveira
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 0.5:
+        non_striker: BL D'Oliveira
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 0.6:
+        non_striker: BL D'Oliveira
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 1.1:
+        non_striker: JA Haynes
+        bowler: PWA Mulder
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BL D'Oliveira
+    - 1.2:
+        non_striker: BL D'Oliveira
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 1.3:
+        non_striker: BL D'Oliveira
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 1.4:
+        non_striker: JA Haynes
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 1.5:
+        non_striker: JA Haynes
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          fielders:
+          - HJ Swindells
+          kind: caught
+    - 1.6:
+        non_striker: JA Haynes
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 2.1:
+        non_striker: AJ Hose
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 2.2:
+        non_striker: AJ Hose
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 2.3:
+        non_striker: AJ Hose
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 2.4:
+        non_striker: AJ Hose
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 2.5:
+        non_striker: AJ Hose
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 2.6:
+        non_striker: AJ Hose
+        bowler: Naseem Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Haynes
+    - 2.7:
+        non_striker: AJ Hose
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 3.1:
+        non_striker: JA Haynes
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 3.2:
+        non_striker: JA Haynes
+        bowler: PWA Mulder
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AJ Hose
+    - 3.3:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+        wicket:
+          player_out: JA Haynes
+          kind: lbw
+    - 3.4:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 3.5:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kashif Ali
+    - 3.6:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 4.1:
+        non_striker: Kashif Ali
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 4.2:
+        non_striker: Kashif Ali
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 4.3:
+        non_striker: Kashif Ali
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 4.4:
+        non_striker: AJ Hose
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 4.5:
+        non_striker: AJ Hose
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 4.6:
+        non_striker: Kashif Ali
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 5.1:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 5.2:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 5.3:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 5.4:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 5.5:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Kashif Ali
+    - 5.6:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 5.7:
+        non_striker: AJ Hose
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 6.1:
+        non_striker: AJ Hose
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 6.2:
+        non_striker: AJ Hose
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 6.3:
+        non_striker: AJ Hose
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 6.4:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 6.5:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 6.6:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 7.1:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 7.2:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 7.3:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 7.4:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 7.5:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.6:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 8.1:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.2:
+        non_striker: AJ Hose
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 8.3:
+        non_striker: AJ Hose
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 8.4:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 8.5:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          fielders:
+          - CN Ackermann
+          kind: caught
+    - 8.6:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 9.1:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.2:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 9.3:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 9.4:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.5:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 9.6:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.1:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 10.2:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 10.3:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.4:
+        non_striker: OB Cox
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 10.5:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 10.6:
+        non_striker: Kashif Ali
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 11.1:
+        non_striker: Kashif Ali
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 11.2:
+        non_striker: OB Cox
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 11.3:
+        non_striker: Kashif Ali
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 11.4:
+        non_striker: OB Cox
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 11.5:
+        non_striker: Kashif Ali
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 11.6:
+        non_striker: OB Cox
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 12.1:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kashif Ali
+    - 12.2:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 12.3:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 12.4:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 12.5:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 12.6:
+        non_striker: Kashif Ali
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 13.1:
+        non_striker: Kashif Ali
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 13.2:
+        non_striker: OB Cox
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 13.3:
+        non_striker: OB Cox
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kashif Ali
+    - 13.4:
+        non_striker: OB Cox
+        bowler: WS Davis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Kashif Ali
+    - 13.5:
+        non_striker: OB Cox
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 13.6:
+        non_striker: OB Cox
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 13.7:
+        non_striker: Kashif Ali
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 14.1:
+        non_striker: OB Cox
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 14.2:
+        non_striker: OB Cox
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 14.3:
+        non_striker: OB Cox
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 14.4:
+        non_striker: OB Cox
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 14.5:
+        non_striker: OB Cox
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 14.6:
+        non_striker: OB Cox
+        bowler: CF Parkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Kashif Ali
+    - 15.1:
+        non_striker: OB Cox
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+        wicket:
+          player_out: Kashif Ali
+          fielders:
+          - NR Welch
+          kind: caught
+    - 15.2:
+        non_striker: OB Cox
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+        wicket:
+          player_out: EJ Pollock
+          fielders:
+          - CN Ackermann
+          kind: run out
+    - 15.3:
+        non_striker: Usama Mir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.4:
+        non_striker: OB Cox
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 15.5:
+        non_striker: Usama Mir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.6:
+        non_striker: OB Cox
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 16.1:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 16.2:
+        non_striker: Usama Mir
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 16.3:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usama Mir
+    - 16.4:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usama Mir
+    - 16.5:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Usama Mir
+    - 16.6:
+        non_striker: OB Cox
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usama Mir
+    - 17.1:
+        non_striker: Usama Mir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 17.2:
+        non_striker: Usama Mir
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 17.3:
+        non_striker: Usama Mir
+        bowler: Naseem Shah
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: OB Cox
+    - 17.4:
+        non_striker: OB Cox
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usama Mir
+    - 17.5:
+        non_striker: OB Cox
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Usama Mir
+    - 17.6:
+        non_striker: OB Cox
+        bowler: Naseem Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 18.1:
+        non_striker: OB Cox
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 18.2:
+        non_striker: Usama Mir
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OB Cox
+    - 18.3:
+        non_striker: Usama Mir
+        bowler: WS Davis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OB Cox
+    - 18.4:
+        non_striker: Usama Mir
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+        wicket:
+          player_out: OB Cox
+          fielders:
+          - PWA Mulder
+          kind: caught
+    - 18.5:
+        non_striker: Usama Mir
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 18.6:
+        non_striker: AW Finch
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Usama Mir
+    - 18.7:
+        non_striker: AW Finch
+        bowler: WS Davis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 19.1:
+        non_striker: AW Finch
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 19.2:
+        non_striker: Usama Mir
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 19.3:
+        non_striker: AW Finch
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Usama Mir
+    - 19.4:
+        non_striker: Usama Mir
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Finch
+    - 19.5:
+        non_striker: Usama Mir
+        bowler: PWA Mulder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AW Finch
+    - 19.6:
+        non_striker: Usama Mir
+        bowler: PWA Mulder
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AW Finch
+    - 19.7:
+        non_striker: Usama Mir
+        bowler: PWA Mulder
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: AW Finch
+- 2nd innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        non_striker: SG Budinger
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NR Welch
+    - 0.2:
+        non_striker: SG Budinger
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 0.3:
+        non_striker: SG Budinger
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 0.4:
+        non_striker: SG Budinger
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NR Welch
+    - 0.5:
+        non_striker: SG Budinger
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 0.6:
+        non_striker: SG Budinger
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 1.1:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 1.2:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SG Budinger
+    - 1.3:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 1.4:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 1.5:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.6:
+        non_striker: SG Budinger
+        bowler: MG Bracewell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: NR Welch
+    - 1.7:
+        non_striker: SG Budinger
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 2.1:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 2.2:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 2.3:
+        non_striker: SG Budinger
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 2.4:
+        non_striker: SG Budinger
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 2.5:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 2.6:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 3.1:
+        non_striker: SG Budinger
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NR Welch
+    - 3.2:
+        non_striker: SG Budinger
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 3.3:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SG Budinger
+    - 3.4:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+        wicket:
+          player_out: SG Budinger
+          fielders:
+          - AJ Hose
+          kind: caught
+    - 3.5:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 3.6:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 3.7:
+        non_striker: NR Welch
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 4.1:
+        non_striker: NR Welch
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 4.2:
+        non_striker: NR Welch
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 4.3:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NR Welch
+    - 4.4:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 4.5:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 4.6:
+        non_striker: RK Patel
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 5.1:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: NR Welch
+    - 5.2:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 5.3:
+        non_striker: NR Welch
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 5.4:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 5.5:
+        non_striker: NR Welch
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 5.6:
+        non_striker: NR Welch
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 5.7:
+        non_striker: RK Patel
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NR Welch
+    - 6.1:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 6.2:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 6.3:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 6.4:
+        non_striker: NR Welch
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 6.5:
+        non_striker: RK Patel
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NR Welch
+    - 6.6:
+        non_striker: RK Patel
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 7.1:
+        non_striker: NR Welch
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.2:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NR Welch
+    - 7.3:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 7.4:
+        non_striker: NR Welch
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.5:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 7.6:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 8.1:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 8.2:
+        non_striker: NR Welch
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 8.3:
+        non_striker: NR Welch
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 8.4:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NR Welch
+    - 8.5:
+        non_striker: NR Welch
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 8.6:
+        non_striker: NR Welch
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 9.1:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+    - 9.2:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NR Welch
+        wicket:
+          player_out: NR Welch
+          fielders:
+          - JA Haynes
+          kind: caught
+    - 9.3:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.4:
+        non_striker: CN Ackermann
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 9.5:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+        wicket:
+          player_out: CN Ackermann
+          kind: bowled
+    - 9.6:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 10.1:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PWA Mulder
+    - 10.2:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 10.3:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 10.4:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 10.5:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 10.6:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+    - 11.1:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 11.2:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 11.3:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 11.4:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 11.5:
+        non_striker: RK Patel
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 11.6:
+        non_striker: PWA Mulder
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 12.1:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 12.2:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 12.3:
+        non_striker: RK Patel
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 12.4:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 12.5:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 12.6:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          fielders:
+          - OB Cox
+          kind: stumped
+    - 13.1:
+        non_striker: AM Lilley
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 13.2:
+        non_striker: PWA Mulder
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Lilley
+    - 13.3:
+        non_striker: AM Lilley
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 13.4:
+        non_striker: PWA Mulder
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Lilley
+    - 13.5:
+        non_striker: AM Lilley
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PWA Mulder
+    - 13.6:
+        non_striker: PWA Mulder
+        bowler: MG Bracewell
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: AM Lilley
+    - 14.1:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: AM Lilley
+    - 14.2:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AM Lilley
+    - 14.3:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Lilley
+    - 14.4:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Lilley
+    - 14.5:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Lilley
+    - 14.6:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Lilley
+        wicket:
+          player_out: AM Lilley
+          kind: lbw
+    - 14.7:
+        non_striker: PWA Mulder
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 15.1:
+        non_striker: Rehan Ahmed
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PWA Mulder
+        wicket:
+          player_out: PWA Mulder
+          fielders:
+          - PR Brown
+          kind: caught
+    - 15.2:
+        non_striker: Rehan Ahmed
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HJ Swindells
+    - 15.3:
+        non_striker: Rehan Ahmed
+        bowler: MG Bracewell
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          byes: 2
+        batsman: HJ Swindells
+    - 15.4:
+        non_striker: Rehan Ahmed
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 15.5:
+        non_striker: HJ Swindells
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 15.6:
+        non_striker: Rehan Ahmed
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HJ Swindells
+    - 16.1:
+        non_striker: HJ Swindells
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+        wicket:
+          player_out: Rehan Ahmed
+          kind: bowled
+    - 16.2:
+        non_striker: HJ Swindells
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 16.3:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 16.4:
+        non_striker: HJ Swindells
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 16.5:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HJ Swindells
+    - 16.6:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HJ Swindells
+    - 17.1:
+        non_striker: HJ Swindells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 17.2:
+        non_striker: CF Parkinson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 17.3:
+        non_striker: HJ Swindells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CF Parkinson
+    - 17.4:
+        non_striker: HJ Swindells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 17.5:
+        non_striker: HJ Swindells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 17.6:
+        non_striker: CF Parkinson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HJ Swindells
+    - 18.1:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HJ Swindells
+        wicket:
+          player_out: HJ Swindells
+          fielders:
+          - Kashif Ali
+          kind: caught
+    - 18.2:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Naseem Shah
+    - 18.3:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naseem Shah
+        wicket:
+          player_out: Naseem Shah
+          fielders:
+          - OB Cox
+          kind: caught
+    - 18.4:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WS Davis
+    - 18.5:
+        non_striker: CF Parkinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WS Davis
+    - 18.6:
+        non_striker: WS Davis
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 19.1:
+        non_striker: CF Parkinson
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WS Davis
+    - 19.2:
+        non_striker: CF Parkinson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WS Davis
+    - 19.3:
+        non_striker: WS Davis
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CF Parkinson
+    - 19.4:
+        non_striker: WS Davis
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 19.5:
+        non_striker: CF Parkinson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WS Davis
+    - 19.6:
+        non_striker: WS Davis
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 19.7:
+        non_striker: CF Parkinson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WS Davis

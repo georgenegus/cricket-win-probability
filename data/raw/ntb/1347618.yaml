@@ -1,0 +1,2101 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Worcester
+  competition: Vitality Blast
+  dates:
+  - '2023-06-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Northamptonshire
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Worcestershire:
+    - MG Bracewell
+    - BL D'Oliveira
+    - JA Haynes
+    - AJ Hose
+    - MJ Santner
+    - Kashif Ali
+    - OB Cox
+    - EJ Pollock
+    - AW Finch
+    - DY Pennington
+    - PR Brown
+    Northamptonshire:
+    - R Vasconcelos
+    - CA Lynn
+    - DJ Willey
+    - JJ Cobb
+    - SA Zaib
+    - LD McManus
+    - TAI Taylor
+    - AJ Tye
+    - JJG Sales
+    - BW Sanderson
+    - FJ Heldreich
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      AJ Tye: 7c7d63a2
+      AW Finch: fc63d916
+      BL D'Oliveira: 9679838c
+      BW Sanderson: e871a7a1
+      CA Lynn: 45eda7c8
+      DJ Willey: 7f048519
+      DY Pennington: 219cc59e
+      EJ Pollock: d6663a9a
+      FJ Heldreich: 56ef4f99
+      JA Haynes: fe4ebca0
+      JJ Cobb: 58c481c6
+      JJG Sales: a63dfe8a
+      Kashif Ali: f3b26fe4
+      LD McManus: 6feb46a4
+      MG Bracewell: e38bce7a
+      MJ Santner: e4a0deae
+      OB Cox: 324a6ee1
+      PK Baldwin: 6bb53c12
+      PR Brown: 1efd12d1
+      R Vasconcelos: efe3fcc5
+      RJ Bailey: 6bd04fa5
+      SA Zaib: ab01e323
+      SJ Davis: bc71b0b2
+      TAI Taylor: 867a45a7
+  teams:
+  - Worcestershire
+  - Northamptonshire
+  toss:
+    winner: Northamptonshire
+    decision: field
+  umpires:
+  - PK Baldwin
+  - RJ Bailey
+  venue: County Ground, New Road, Worcester
+innings:
+- 1st innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 0.2:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 0.3:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+    - 0.4:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Bracewell
+    - 0.5:
+        non_striker: MG Bracewell
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 0.6:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Bracewell
+        wicket:
+          player_out: MG Bracewell
+          fielders:
+          - FJ Heldreich
+          kind: caught
+    - 1.1:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 1.2:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BL D'Oliveira
+    - 1.3:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 1.4:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 1.5:
+        non_striker: BL D'Oliveira
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 1.6:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 1.7:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 2.1:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 2.2:
+        non_striker: JA Haynes
+        bowler: BW Sanderson
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: BL D'Oliveira
+    - 2.3:
+        non_striker: JA Haynes
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 2.4:
+        non_striker: JA Haynes
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 2.5:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 2.6:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 3.1:
+        non_striker: JA Haynes
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 3.2:
+        non_striker: JA Haynes
+        bowler: TAI Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BL D'Oliveira
+    - 3.3:
+        non_striker: BL D'Oliveira
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 3.4:
+        non_striker: BL D'Oliveira
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 3.5:
+        non_striker: BL D'Oliveira
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 3.6:
+        non_striker: JA Haynes
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 4.1:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 4.2:
+        non_striker: JA Haynes
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 4.3:
+        non_striker: JA Haynes
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 4.4:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 4.5:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 4.6:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JA Haynes
+    - 5.1:
+        non_striker: BL D'Oliveira
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 5.2:
+        non_striker: BL D'Oliveira
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 5.3:
+        non_striker: BL D'Oliveira
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JA Haynes
+    - 5.4:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 5.5:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 5.6:
+        non_striker: JA Haynes
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.1:
+        non_striker: JA Haynes
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.2:
+        non_striker: BL D'Oliveira
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 6.3:
+        non_striker: BL D'Oliveira
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+        wicket:
+          player_out: JA Haynes
+          fielders:
+          - FJ Heldreich
+          kind: caught
+    - 6.4:
+        non_striker: BL D'Oliveira
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 6.5:
+        non_striker: AJ Hose
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.6:
+        non_striker: BL D'Oliveira
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.1:
+        non_striker: BL D'Oliveira
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 7.2:
+        non_striker: BL D'Oliveira
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.3:
+        non_striker: AJ Hose
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 7.4:
+        non_striker: AJ Hose
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 7.5:
+        non_striker: AJ Hose
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 7.6:
+        non_striker: BL D'Oliveira
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          fielders:
+          - TAI Taylor
+          kind: caught
+    - 8.1:
+        non_striker: MJ Santner
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.2:
+        non_striker: BL D'Oliveira
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 8.3:
+        non_striker: MJ Santner
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 8.4:
+        non_striker: MJ Santner
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 8.5:
+        non_striker: MJ Santner
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.6:
+        non_striker: BL D'Oliveira
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 9.1:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 9.2:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          fielders:
+          - R Vasconcelos
+          kind: caught
+    - 9.3:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.4:
+        non_striker: Kashif Ali
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 9.5:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.6:
+        non_striker: Kashif Ali
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 10.1:
+        non_striker: MJ Santner
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 10.2:
+        non_striker: MJ Santner
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 10.3:
+        non_striker: MJ Santner
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 10.4:
+        non_striker: MJ Santner
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 10.5:
+        non_striker: Kashif Ali
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 10.6:
+        non_striker: MJ Santner
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 11.1:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+        wicket:
+          player_out: Kashif Ali
+          fielders:
+          - R Vasconcelos
+          kind: caught
+    - 11.2:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 11.3:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 11.4:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 11.5:
+        non_striker: OB Cox
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Santner
+    - 11.6:
+        non_striker: OB Cox
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 12.1:
+        non_striker: OB Cox
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 12.2:
+        non_striker: OB Cox
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 12.3:
+        non_striker: MJ Santner
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 12.4:
+        non_striker: MJ Santner
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 12.5:
+        non_striker: MJ Santner
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 12.6:
+        non_striker: MJ Santner
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 13.1:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 13.2:
+        non_striker: OB Cox
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 13.3:
+        non_striker: OB Cox
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 13.4:
+        non_striker: OB Cox
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Santner
+    - 13.5:
+        non_striker: OB Cox
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 13.6:
+        non_striker: MJ Santner
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 14.1:
+        non_striker: MJ Santner
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 14.2:
+        non_striker: MJ Santner
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 14.3:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 14.4:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 14.5:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 14.6:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 15.1:
+        non_striker: OB Cox
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 15.2:
+        non_striker: OB Cox
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 15.3:
+        non_striker: MJ Santner
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.4:
+        non_striker: OB Cox
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 15.5:
+        non_striker: MJ Santner
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 15.6:
+        non_striker: MJ Santner
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 16.1:
+        non_striker: OB Cox
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+        wicket:
+          player_out: MJ Santner
+          fielders:
+          - DJ Willey
+          kind: caught
+    - 16.2:
+        non_striker: OB Cox
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 16.3:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 16.4:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 16.5:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 16.6:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 17.1:
+        non_striker: OB Cox
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 17.2:
+        non_striker: EJ Pollock
+        bowler: AJ Tye
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OB Cox
+    - 17.3:
+        non_striker: EJ Pollock
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OB Cox
+    - 17.4:
+        non_striker: EJ Pollock
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 17.5:
+        non_striker: OB Cox
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 17.6:
+        non_striker: EJ Pollock
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 17.7:
+        non_striker: OB Cox
+        bowler: AJ Tye
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 18.1:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 18.2:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 18.3:
+        non_striker: OB Cox
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 18.4:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 18.5:
+        non_striker: EJ Pollock
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 18.6:
+        non_striker: OB Cox
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EJ Pollock
+    - 19.1:
+        non_striker: EJ Pollock
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 19.2:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EJ Pollock
+    - 19.3:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 19.4:
+        non_striker: EJ Pollock
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OB Cox
+    - 19.5:
+        non_striker: EJ Pollock
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 19.6:
+        non_striker: EJ Pollock
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 19.7:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EJ Pollock
+    - 19.8:
+        non_striker: OB Cox
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+- 2nd innings:
+    team: Northamptonshire
+    deliveries:
+    - 0.1:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 0.2:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 0.3:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 0.4:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CA Lynn
+    - 0.5:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 0.6:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 1.1:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 1.2:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 1.3:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 1.4:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 1.5:
+        non_striker: CA Lynn
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 1.6:
+        non_striker: CA Lynn
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.1:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 2.2:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 2.3:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.4:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.5:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.6:
+        non_striker: CA Lynn
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Vasconcelos
+    - 3.1:
+        non_striker: R Vasconcelos
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 3.2:
+        non_striker: R Vasconcelos
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 3.3:
+        non_striker: R Vasconcelos
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Lynn
+    - 3.4:
+        non_striker: R Vasconcelos
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 3.5:
+        non_striker: R Vasconcelos
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Lynn
+    - 3.6:
+        non_striker: CA Lynn
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 4.1:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 4.2:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+    - 4.3:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Lynn
+        wicket:
+          player_out: CA Lynn
+          fielders:
+          - BL D'Oliveira
+          kind: caught
+    - 4.4:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Willey
+    - 4.5:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 4.6:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 5.1:
+        non_striker: DJ Willey
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 5.2:
+        non_striker: DJ Willey
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 5.3:
+        non_striker: DJ Willey
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 5.4:
+        non_striker: DJ Willey
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Vasconcelos
+    - 5.5:
+        non_striker: DJ Willey
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 5.6:
+        non_striker: DJ Willey
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 6.1:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Willey
+    - 6.2:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Willey
+    - 6.3:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 6.4:
+        non_striker: DJ Willey
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 6.5:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 6.6:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 7.1:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 7.2:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 7.3:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 7.4:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Willey
+    - 7.5:
+        non_striker: R Vasconcelos
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 7.6:
+        non_striker: DJ Willey
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 8.1:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 8.2:
+        non_striker: DJ Willey
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 8.3:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 8.4:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+        wicket:
+          player_out: DJ Willey
+          fielders:
+          - DY Pennington
+          kind: caught
+    - 8.5:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 8.6:
+        non_striker: R Vasconcelos
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 9.1:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 9.2:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 9.3:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 9.4:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 9.5:
+        non_striker: R Vasconcelos
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 9.6:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+        wicket:
+          player_out: R Vasconcelos
+          fielders:
+          - PR Brown
+          kind: caught
+    - 10.1:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 10.2:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 10.3:
+        non_striker: JJ Cobb
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 10.4:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 10.5:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 10.6:
+        non_striker: JJ Cobb
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 11.1:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 11.2:
+        non_striker: SA Zaib
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Cobb
+    - 11.3:
+        non_striker: SA Zaib
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 11.4:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 11.5:
+        non_striker: SA Zaib
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 11.6:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 12.1:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 12.2:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 12.3:
+        non_striker: SA Zaib
+        bowler: MJ Santner
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JJ Cobb
+    - 12.4:
+        non_striker: SA Zaib
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JJ Cobb
+    - 12.5:
+        non_striker: SA Zaib
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 12.6:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 12.7:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 13.1:
+        non_striker: JJ Cobb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 13.2:
+        non_striker: JJ Cobb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 13.3:
+        non_striker: JJ Cobb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 13.4:
+        non_striker: JJ Cobb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 13.5:
+        non_striker: JJ Cobb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 13.6:
+        non_striker: JJ Cobb
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 14.1:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 14.2:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 14.3:
+        non_striker: SA Zaib
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Cobb
+    - 14.4:
+        non_striker: SA Zaib
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 14.5:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 14.6:
+        non_striker: JJ Cobb
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 15.1:
+        non_striker: SA Zaib
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 15.2:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 15.3:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 15.4:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 15.5:
+        non_striker: JJ Cobb
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 15.6:
+        non_striker: SA Zaib
+        bowler: MG Bracewell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Cobb
+    - 16.1:
+        non_striker: JJ Cobb
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 16.2:
+        non_striker: JJ Cobb
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 16.3:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 16.4:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 16.5:
+        non_striker: JJ Cobb
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 16.6:
+        non_striker: JJ Cobb
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 17.1:
+        non_striker: SA Zaib
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+        wicket:
+          player_out: JJ Cobb
+          fielders:
+          - MG Bracewell
+          kind: caught
+    - 17.2:
+        non_striker: SA Zaib
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 17.3:
+        non_striker: LD McManus
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 17.4:
+        non_striker: SA Zaib
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD McManus
+    - 17.5:
+        non_striker: SA Zaib
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LD McManus
+    - 17.6:
+        non_striker: SA Zaib
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LD McManus
+    - 18.1:
+        non_striker: LD McManus
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 18.2:
+        non_striker: LD McManus
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 18.3:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LD McManus
+    - 18.4:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LD McManus
+    - 18.5:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LD McManus
+    - 18.6:
+        non_striker: LD McManus
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 19.1:
+        non_striker: LD McManus
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 19.2:
+        non_striker: LD McManus
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Zaib
+    - 19.3:
+        non_striker: LD McManus
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Zaib
+    - 19.4:
+        non_striker: LD McManus
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib

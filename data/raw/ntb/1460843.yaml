@@ -1,0 +1,2072 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Birmingham
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Birmingham Bears
+    by:
+      runs: 36
+  overs: 20
+  players:
+    Birmingham Bears:
+    - AL Davies
+    - TWM Latham
+    - DR Mousley
+    - SR Hain
+    - EG Barnard
+    - RM Yates
+    - GHS Garton
+    - Hasan Ali
+    - DR Briggs
+    - CN Miles
+    - RJ Gleeson
+    Lancashire:
+    - PD Salt
+    - KK Jennings
+    - JC Buttler
+    - AJ Turner
+    - LWP Wells
+    - MA Jones
+    - CJ Green
+    - JM Blatherwick
+    - TW Hartley
+    - L Wood
+    - JM Anderson
+  registry:
+    people:
+      AJ Turner: ff1e12a0
+      AL Davies: 29ede60b
+      CJ Green: 19b9f399
+      CN Miles: 5fed6272
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      EG Barnard: a510bdd3
+      GHS Garton: be869ccf
+      Hasan Ali: 2911de16
+      JC Buttler: 99b75528
+      JM Anderson: d12143bf
+      JM Blatherwick: 35c08a29
+      KK Jennings: 8479a24a
+      L Wood: 65b6943c
+      LWP Wells: 1957c6b7
+      MA Jones: 05f96194
+      PD Salt: 3d284ca3
+      Phil Whitticase: 99d5f6fa
+      RJ Bailey: 6bd04fa5
+      RJ Gleeson: 402f8494
+      RM Yates: 3581a798
+      S Widdup: 65bf2837
+      SR Hain: 67b9536c
+      TW Hartley: 22b98d7c
+      TWM Latham: e824e6ee
+  teams:
+  - Birmingham Bears
+  - Lancashire
+  toss:
+    winner: Lancashire
+    decision: field
+  umpires:
+  - RJ Bailey
+  - S Widdup
+  venue: Edgbaston, Birmingham
+innings:
+- 1st innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.2:
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.3:
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.4:
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.5:
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.6:
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.7:
+        non_striker: TWM Latham
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          kind: bowled
+    - 1.1:
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: DR Mousley
+        batsman: TWM Latham
+    - 1.2:
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DR Mousley
+        batsman: TWM Latham
+    - 1.3:
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: DR Mousley
+        batsman: TWM Latham
+    - 1.4:
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DR Mousley
+        batsman: TWM Latham
+    - 1.5:
+        non_striker: DR Mousley
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+        wicket:
+          player_out: TWM Latham
+          fielders:
+          - AJ Turner
+          kind: caught
+    - 1.6:
+        non_striker: DR Mousley
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 2.1:
+        non_striker: DR Mousley
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 2.2:
+        non_striker: DR Mousley
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 2.3:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 2.4:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 2.5:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 2.6:
+        non_striker: DR Mousley
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 3.1:
+        non_striker: SR Hain
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.2:
+        non_striker: SR Hain
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 3.3:
+        non_striker: SR Hain
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.4:
+        non_striker: SR Hain
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 3.5:
+        non_striker: SR Hain
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.6:
+        non_striker: SR Hain
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 4.1:
+        non_striker: DR Mousley
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 4.2:
+        non_striker: DR Mousley
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 4.3:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.4:
+        non_striker: DR Mousley
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 4.5:
+        non_striker: DR Mousley
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 4.6:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 5.1:
+        non_striker: DR Mousley
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.2:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+        wicket:
+          player_out: DR Mousley
+          fielders:
+          - JM Anderson
+          kind: caught
+    - 5.3:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 5.4:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 5.5:
+        non_striker: EG Barnard
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.6:
+        non_striker: SR Hain
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 6.1:
+        non_striker: EG Barnard
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.2:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 6.3:
+        non_striker: EG Barnard
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.4:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 6.5:
+        non_striker: EG Barnard
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.6:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EG Barnard
+    - 6.7:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 7.1:
+        non_striker: SR Hain
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 7.2:
+        non_striker: SR Hain
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 7.3:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.4:
+        non_striker: SR Hain
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 7.5:
+        non_striker: SR Hain
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 7.6:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 8.1:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 8.2:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 8.3:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 8.4:
+        non_striker: EG Barnard
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.5:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 8.6:
+        non_striker: SR Hain
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 9.1:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 9.2:
+        non_striker: EG Barnard
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.3:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 9.4:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 9.5:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 9.6:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 10.1:
+        non_striker: EG Barnard
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 10.2:
+        non_striker: EG Barnard
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.3:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 10.4:
+        non_striker: EG Barnard
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.5:
+        non_striker: SR Hain
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 10.6:
+        non_striker: EG Barnard
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 11.1:
+        non_striker: SR Hain
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 11.2:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.3:
+        non_striker: SR Hain
+        bowler: TW Hartley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: EG Barnard
+    - 11.4:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 11.5:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.6:
+        non_striker: SR Hain
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 12.1:
+        non_striker: EG Barnard
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.2:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 12.3:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 12.4:
+        non_striker: EG Barnard
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.5:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 12.6:
+        non_striker: SR Hain
+        bowler: LWP Wells
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: EG Barnard
+    - 13.1:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+        wicket:
+          player_out: SR Hain
+          fielders:
+          - KK Jennings
+          kind: caught
+    - 13.2:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 13.3:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Yates
+    - 13.4:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Yates
+    - 13.5:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 13.6:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 14.1:
+        non_striker: EG Barnard
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 14.2:
+        non_striker: RM Yates
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 14.3:
+        non_striker: RM Yates
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 14.4:
+        non_striker: EG Barnard
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RM Yates
+    - 14.5:
+        non_striker: RM Yates
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 14.6:
+        non_striker: EG Barnard
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 15.1:
+        non_striker: RM Yates
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 15.2:
+        non_striker: EG Barnard
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 15.3:
+        non_striker: RM Yates
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+        wicket:
+          player_out: EG Barnard
+          fielders:
+          - AJ Turner
+          kind: caught
+    - 15.4:
+        non_striker: RM Yates
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 15.5:
+        non_striker: RM Yates
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GHS Garton
+    - 15.6:
+        non_striker: RM Yates
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 16.1:
+        non_striker: GHS Garton
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+    - 16.2:
+        non_striker: GHS Garton
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Yates
+    - 16.3:
+        non_striker: GHS Garton
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Yates
+    - 16.4:
+        non_striker: GHS Garton
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 16.5:
+        non_striker: RM Yates
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 16.6:
+        non_striker: RM Yates
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 17.1:
+        non_striker: GHS Garton
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+        wicket:
+          player_out: RM Yates
+          fielders:
+          - CJ Green
+          kind: run out
+    - 17.2:
+        non_striker: GHS Garton
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 17.3:
+        non_striker: Hasan Ali
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GHS Garton
+    - 17.4:
+        non_striker: Hasan Ali
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 17.5:
+        non_striker: Hasan Ali
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          fielders:
+          - CJ Green
+          kind: caught
+    - 17.6:
+        non_striker: Hasan Ali
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Briggs
+    - 18.1:
+        non_striker: Hasan Ali
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Briggs
+    - 18.2:
+        non_striker: DR Briggs
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 18.3:
+        non_striker: Hasan Ali
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Briggs
+    - 18.4:
+        non_striker: Hasan Ali
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Briggs
+    - 18.5:
+        non_striker: Hasan Ali
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Briggs
+    - 18.6:
+        non_striker: Hasan Ali
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Briggs
+    - 19.1:
+        non_striker: DR Briggs
+        bowler: JM Blatherwick
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hasan Ali
+    - 19.2:
+        non_striker: DR Briggs
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    - 19.3:
+        non_striker: DR Briggs
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+        wicket:
+          player_out: Hasan Ali
+          fielders:
+          - L Wood
+          kind: caught
+    - 19.4:
+        non_striker: DR Briggs
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CN Miles
+    - 19.5:
+        non_striker: DR Briggs
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Miles
+        wicket:
+          player_out: CN Miles
+          fielders:
+          - JC Buttler
+          kind: caught
+    - 19.6:
+        non_striker: DR Briggs
+        bowler: JM Blatherwick
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RJ Gleeson
+    - 19.7:
+        non_striker: RJ Gleeson
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Briggs
+- 2nd innings:
+    team: Lancashire
+    deliveries:
+    - 0.1:
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: KK Jennings
+        batsman: PD Salt
+    - 0.2:
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: KK Jennings
+        batsman: PD Salt
+    - 0.3:
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        non_striker: KK Jennings
+        batsman: PD Salt
+    - 0.4:
+        non_striker: PD Salt
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+        wicket:
+          player_out: KK Jennings
+          fielders:
+          - DR Mousley
+          kind: caught
+    - 0.5:
+        non_striker: PD Salt
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 0.6:
+        non_striker: PD Salt
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+    - 0.7:
+        non_striker: PD Salt
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JC Buttler
+        wicket:
+          player_out: JC Buttler
+          kind: lbw
+    - 1.1:
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: AJ Turner
+        batsman: PD Salt
+    - 1.2:
+        non_striker: PD Salt
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 1.3:
+        non_striker: PD Salt
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 1.4:
+        non_striker: PD Salt
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 1.5:
+        non_striker: AJ Turner
+        bowler: RJ Gleeson
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: PD Salt
+    - 1.6:
+        non_striker: PD Salt
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    - 1.7:
+        non_striker: PD Salt
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 2.1:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PD Salt
+    - 2.2:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 2.3:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PD Salt
+    - 2.4:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 2.5:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PD Salt
+    - 2.6:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PD Salt
+        wicket:
+          player_out: PD Salt
+          fielders:
+          - RM Yates
+          kind: caught
+    - 3.1:
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: LWP Wells
+        batsman: AJ Turner
+    - 3.2:
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: LWP Wells
+        batsman: AJ Turner
+    - 3.3:
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: LWP Wells
+        batsman: AJ Turner
+    - 3.4:
+        non_striker: AJ Turner
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 3.5:
+        non_striker: AJ Turner
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 3.6:
+        non_striker: AJ Turner
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 4.1:
+        non_striker: AJ Turner
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 4.2:
+        non_striker: AJ Turner
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 4.3:
+        non_striker: AJ Turner
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 4.4:
+        non_striker: AJ Turner
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 4.5:
+        non_striker: AJ Turner
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: LWP Wells
+    - 4.6:
+        non_striker: LWP Wells
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 5.1:
+        non_striker: LWP Wells
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 5.2:
+        non_striker: LWP Wells
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 5.3:
+        non_striker: AJ Turner
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 5.4:
+        non_striker: AJ Turner
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 5.5:
+        non_striker: LWP Wells
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 5.6:
+        non_striker: LWP Wells
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 6.1:
+        non_striker: LWP Wells
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 6.2:
+        non_striker: AJ Turner
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 6.3:
+        non_striker: AJ Turner
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 6.4:
+        non_striker: LWP Wells
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 6.5:
+        non_striker: AJ Turner
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+        wicket:
+          player_out: LWP Wells
+          fielders:
+          - TWM Latham
+          kind: caught
+    - 6.6:
+        non_striker: AJ Turner
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 7.1:
+        non_striker: MA Jones
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 7.2:
+        non_striker: MA Jones
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 7.3:
+        non_striker: AJ Turner
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 7.4:
+        non_striker: MA Jones
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+        wicket:
+          player_out: AJ Turner
+          fielders:
+          - SR Hain
+          kind: caught
+    - 7.5:
+        non_striker: MA Jones
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 7.6:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 8.1:
+        non_striker: CJ Green
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 8.2:
+        non_striker: MA Jones
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 8.3:
+        non_striker: CJ Green
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 8.4:
+        non_striker: MA Jones
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 8.5:
+        non_striker: CJ Green
+        bowler: CN Miles
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MA Jones
+    - 8.6:
+        non_striker: MA Jones
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Green
+    - 9.1:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 9.2:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Jones
+    - 9.3:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 9.4:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MA Jones
+    - 9.5:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 9.6:
+        non_striker: MA Jones
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 10.1:
+        non_striker: MA Jones
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 10.2:
+        non_striker: MA Jones
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Green
+    - 10.3:
+        non_striker: MA Jones
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 10.4:
+        non_striker: MA Jones
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 10.5:
+        non_striker: MA Jones
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 10.6:
+        non_striker: CJ Green
+        bowler: DR Mousley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MA Jones
+    - 11.1:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 11.2:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 11.3:
+        non_striker: MA Jones
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 11.4:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 11.5:
+        non_striker: CJ Green
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 11.6:
+        non_striker: MA Jones
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 12.1:
+        non_striker: CJ Green
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 12.2:
+        non_striker: MA Jones
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 12.3:
+        non_striker: MA Jones
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+        wicket:
+          player_out: CJ Green
+          fielders:
+          - DR Mousley
+          kind: caught
+    - 12.4:
+        non_striker: MA Jones
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Blatherwick
+    - 12.5:
+        non_striker: MA Jones
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 12.6:
+        non_striker: JM Blatherwick
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 13.1:
+        non_striker: JM Blatherwick
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Jones
+    - 13.2:
+        non_striker: JM Blatherwick
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+        wicket:
+          player_out: MA Jones
+          fielders:
+          - AL Davies
+          kind: caught
+    - 13.3:
+        non_striker: JM Blatherwick
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TW Hartley
+    - 13.4:
+        non_striker: JM Blatherwick
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 13.5:
+        non_striker: TW Hartley
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 13.6:
+        non_striker: JM Blatherwick
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 14.1:
+        non_striker: JM Blatherwick
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 14.2:
+        non_striker: TW Hartley
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 14.3:
+        non_striker: JM Blatherwick
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TW Hartley
+    - 14.4:
+        non_striker: JM Blatherwick
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 14.5:
+        non_striker: TW Hartley
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Blatherwick
+    - 14.6:
+        non_striker: TW Hartley
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Blatherwick
+    - 15.1:
+        non_striker: JM Blatherwick
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TW Hartley
+    - 15.2:
+        non_striker: JM Blatherwick
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TW Hartley
+    - 15.3:
+        non_striker: JM Blatherwick
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 15.4:
+        non_striker: TW Hartley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Blatherwick
+    - 15.5:
+        non_striker: JM Blatherwick
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TW Hartley
+    - 15.6:
+        non_striker: JM Blatherwick
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 16.1:
+        non_striker: JM Blatherwick
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TW Hartley
+    - 16.2:
+        non_striker: JM Blatherwick
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 16.3:
+        non_striker: TW Hartley
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Blatherwick
+        wicket:
+          player_out: JM Blatherwick
+          fielders:
+          - RM Yates
+          kind: caught
+    - 16.4:
+        non_striker: TW Hartley
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Wood
+    - 16.5:
+        non_striker: TW Hartley
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Wood
+    - 16.6:
+        non_striker: L Wood
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TW Hartley
+    - 17.1:
+        non_striker: TW Hartley
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Wood
+    - 17.2:
+        non_striker: L Wood
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TW Hartley
+    - 17.3:
+        non_striker: L Wood
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TW Hartley
+        wicket:
+          player_out: TW Hartley
+          fielders:
+          - DR Mousley
+          kind: caught
+    - 17.4:
+        non_striker: L Wood
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Anderson
+    - 17.5:
+        non_striker: JM Anderson
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Wood
+    - 17.6:
+        non_striker: L Wood
+        bowler: RJ Gleeson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Anderson
+    - 18.1:
+        non_striker: JM Anderson
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Wood
+        wicket:
+          player_out: L Wood
+          kind: lbw

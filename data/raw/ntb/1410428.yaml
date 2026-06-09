@@ -1,0 +1,1950 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-21'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chelmsford
+  competition: Vitality Blast
+  dates:
+  - '2024-06-20'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Essex
+    by:
+      wickets: 8
+  overs: 20
+  players:
+    Hampshire:
+    - JM Vince
+    - BR McDermott
+    - FS Middleton
+    - JJ Weatherley
+    - TE Albert
+    - BAC Howell
+    - JK Fuller
+    - MG Neser
+    - CP Wood
+    - BTJ Wheal
+    - JA Turner
+    Essex:
+    - AM Rossington
+    - D Elgar
+    - MS Pepper
+    - JM Cox
+    - PI Walter
+    - MJJ Critchley
+    - CWJ Allison
+    - SR Harmer
+    - LM Benkenstein
+    - S Snater
+    - BMJ Allison
+  registry:
+    people:
+      AC Harris: ef14c0ec
+      AM Rossington: 7bcde3fe
+      BAC Howell: 0bec3a6c
+      BMJ Allison: 39e2c0fd
+      BR McDermott: c41043e6
+      BTJ Wheal: 3f61a062
+      CP Wood: 1cfac535
+      CWJ Allison: 42ee1d76
+      D Elgar: 33085ffb
+      FS Middleton: 8492a4de
+      ID Blackwell: 818e8bf2
+      JA Turner: cdd875d9
+      JJ Weatherley: a05d0552
+      JK Fuller: dda5aae5
+      JM Cox: ff154ecd
+      JM Vince: a15618fe
+      LM Benkenstein: c2e5539b
+      MG Neser: 0164b064
+      MJJ Critchley: c5cc48bc
+      MS Pepper: 270e4c23
+      PI Walter: 57590dbb
+      PM Such: c9f1892c
+      S Snater: a790df98
+      SR Harmer: '23638956'
+      TE Albert: a6c17509
+  teams:
+  - Hampshire
+  - Essex
+  toss:
+    winner: Essex
+    decision: field
+  umpires:
+  - AC Harris
+  - ID Blackwell
+  venue: County Ground, Chelmsford
+innings:
+- 1st innings:
+    team: Hampshire
+    deliveries:
+    - 0.1:
+        non_striker: BR McDermott
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 0.2:
+        non_striker: BR McDermott
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 0.3:
+        non_striker: BR McDermott
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 0.4:
+        non_striker: JM Vince
+        bowler: SR Harmer
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BR McDermott
+    - 0.5:
+        non_striker: JM Vince
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+    - 0.6:
+        non_striker: JM Vince
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 0.7:
+        non_striker: BR McDermott
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 1.1:
+        non_striker: BR McDermott
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 1.2:
+        non_striker: BR McDermott
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Vince
+    - 1.3:
+        non_striker: BR McDermott
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 1.4:
+        non_striker: JM Vince
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 1.5:
+        non_striker: BR McDermott
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Vince
+    - 1.6:
+        non_striker: BR McDermott
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 2.1:
+        non_striker: BR McDermott
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.2:
+        non_striker: BR McDermott
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 2.3:
+        non_striker: BR McDermott
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 2.4:
+        non_striker: JM Vince
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 2.5:
+        non_striker: BR McDermott
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 2.6:
+        non_striker: JM Vince
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 3.1:
+        non_striker: JM Vince
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 3.2:
+        non_striker: BR McDermott
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Vince
+    - 3.3:
+        non_striker: JM Vince
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BR McDermott
+    - 3.4:
+        non_striker: JM Vince
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BR McDermott
+    - 3.5:
+        non_striker: JM Vince
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+        wicket:
+          player_out: BR McDermott
+          fielders:
+          - MS Pepper
+          kind: caught
+    - 3.6:
+        non_striker: JM Vince
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FS Middleton
+    - 4.1:
+        non_striker: FS Middleton
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+        wicket:
+          player_out: JM Vince
+          fielders:
+          - BMJ Allison
+          kind: caught
+    - 4.2:
+        non_striker: FS Middleton
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 4.3:
+        non_striker: JJ Weatherley
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FS Middleton
+    - 4.4:
+        non_striker: JJ Weatherley
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FS Middleton
+    - 4.5:
+        non_striker: JJ Weatherley
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 4.6:
+        non_striker: FS Middleton
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 5.1:
+        non_striker: FS Middleton
+        bowler: BMJ Allison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JJ Weatherley
+    - 5.2:
+        non_striker: FS Middleton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 5.3:
+        non_striker: FS Middleton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 5.4:
+        non_striker: FS Middleton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 5.5:
+        non_striker: FS Middleton
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 5.6:
+        non_striker: JJ Weatherley
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FS Middleton
+    - 5.7:
+        non_striker: JJ Weatherley
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FS Middleton
+    - 6.1:
+        non_striker: FS Middleton
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 6.2:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FS Middleton
+    - 6.3:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: FS Middleton
+    - 6.4:
+        non_striker: FS Middleton
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 6.5:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 6.6:
+        non_striker: FS Middleton
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 7.1:
+        non_striker: FS Middleton
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 7.2:
+        non_striker: FS Middleton
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 7.3:
+        non_striker: FS Middleton
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Weatherley
+    - 7.4:
+        non_striker: FS Middleton
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 7.5:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 7.6:
+        non_striker: FS Middleton
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: JJ Weatherley
+    - 8.1:
+        non_striker: FS Middleton
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 8.2:
+        non_striker: FS Middleton
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 8.3:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FS Middleton
+    - 8.4:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 8.5:
+        non_striker: FS Middleton
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 8.6:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 9.1:
+        non_striker: JJ Weatherley
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 9.2:
+        non_striker: FS Middleton
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 9.3:
+        non_striker: JJ Weatherley
+        bowler: LM Benkenstein
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: FS Middleton
+    - 9.4:
+        non_striker: JJ Weatherley
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 9.5:
+        non_striker: FS Middleton
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 9.6:
+        non_striker: FS Middleton
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: JJ Weatherley
+    - 9.7:
+        non_striker: JJ Weatherley
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FS Middleton
+    - 10.1:
+        non_striker: JJ Weatherley
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FS Middleton
+    - 10.2:
+        non_striker: JJ Weatherley
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FS Middleton
+        wicket:
+          player_out: FS Middleton
+          fielders:
+          - AM Rossington
+          kind: caught
+    - 10.3:
+        non_striker: JJ Weatherley
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 10.4:
+        non_striker: TE Albert
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 10.5:
+        non_striker: JJ Weatherley
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 10.6:
+        non_striker: TE Albert
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 11.1:
+        non_striker: TE Albert
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 11.2:
+        non_striker: TE Albert
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 11.3:
+        non_striker: JJ Weatherley
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 11.4:
+        non_striker: TE Albert
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 11.5:
+        non_striker: JJ Weatherley
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TE Albert
+    - 11.6:
+        non_striker: JJ Weatherley
+        bowler: LM Benkenstein
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TE Albert
+    - 12.1:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+        wicket:
+          player_out: TE Albert
+          fielders:
+          - CWJ Allison
+          kind: caught
+    - 12.2:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+    - 12.3:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+    - 12.4:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 12.5:
+        non_striker: BAC Howell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 12.6:
+        non_striker: BAC Howell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 13.1:
+        non_striker: BAC Howell
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 13.2:
+        non_striker: JJ Weatherley
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+    - 13.3:
+        non_striker: JJ Weatherley
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 13.4:
+        non_striker: BAC Howell
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 13.5:
+        non_striker: JJ Weatherley
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 13.6:
+        non_striker: BAC Howell
+        bowler: S Snater
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 14.1:
+        non_striker: BAC Howell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 14.2:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+    - 14.3:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 14.4:
+        non_striker: BAC Howell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 14.5:
+        non_striker: JJ Weatherley
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 14.6:
+        non_striker: BAC Howell
+        bowler: SR Harmer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 15.1:
+        non_striker: BAC Howell
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 15.2:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+        wicket:
+          player_out: BAC Howell
+          kind: lbw
+    - 15.3:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 15.4:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 15.5:
+        non_striker: JJ Weatherley
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 15.6:
+        non_striker: JK Fuller
+        bowler: MJJ Critchley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 16.1:
+        non_striker: JK Fuller
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 16.2:
+        non_striker: JJ Weatherley
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 16.3:
+        non_striker: JK Fuller
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 16.4:
+        non_striker: JK Fuller
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+        wicket:
+          player_out: JJ Weatherley
+          kind: lbw
+    - 16.5:
+        non_striker: JK Fuller
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MG Neser
+    - 16.6:
+        non_striker: JK Fuller
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Neser
+    - 17.1:
+        non_striker: JK Fuller
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Neser
+    - 17.2:
+        non_striker: JK Fuller
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MG Neser
+    - 17.3:
+        non_striker: JK Fuller
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MG Neser
+    - 17.4:
+        non_striker: JK Fuller
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MG Neser
+    - 17.5:
+        non_striker: MG Neser
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JK Fuller
+    - 17.6:
+        non_striker: MG Neser
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 18.1:
+        non_striker: MG Neser
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JK Fuller
+    - 18.2:
+        non_striker: MG Neser
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 18.3:
+        non_striker: MG Neser
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JK Fuller
+    - 18.4:
+        non_striker: MG Neser
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 18.5:
+        non_striker: JK Fuller
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MG Neser
+        wicket:
+          player_out: MG Neser
+          fielders:
+          - D Elgar
+          kind: caught
+    - 18.6:
+        non_striker: JK Fuller
+        bowler: BMJ Allison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+    - 19.1:
+        non_striker: CP Wood
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JK Fuller
+    - 19.2:
+        non_striker: CP Wood
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JK Fuller
+    - 19.3:
+        non_striker: CP Wood
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JK Fuller
+    - 19.4:
+        non_striker: CP Wood
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 19.5:
+        non_striker: CP Wood
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+    - 19.6:
+        non_striker: CP Wood
+        bowler: PI Walter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+- 2nd innings:
+    team: Essex
+    deliveries:
+    - 0.1:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 0.2:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 0.3:
+        non_striker: AM Rossington
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 0.4:
+        non_striker: AM Rossington
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 0.5:
+        non_striker: AM Rossington
+        bowler: MG Neser
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: D Elgar
+    - 0.6:
+        non_striker: AM Rossington
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 0.7:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+    - 1.1:
+        non_striker: AM Rossington
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 1.2:
+        non_striker: AM Rossington
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 1.3:
+        non_striker: AM Rossington
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 1.4:
+        non_striker: AM Rossington
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 1.5:
+        non_striker: AM Rossington
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Elgar
+    - 1.6:
+        non_striker: AM Rossington
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 2.1:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rossington
+    - 2.2:
+        non_striker: AM Rossington
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 2.3:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rossington
+    - 2.4:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rossington
+    - 2.5:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rossington
+    - 2.6:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rossington
+        wicket:
+          player_out: AM Rossington
+          fielders:
+          - JM Vince
+          kind: caught
+    - 3.1:
+        non_striker: MS Pepper
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 3.2:
+        non_striker: MS Pepper
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 3.3:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 3.4:
+        non_striker: MS Pepper
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 3.5:
+        non_striker: MS Pepper
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 3.6:
+        non_striker: MS Pepper
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 4.1:
+        non_striker: MS Pepper
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 4.2:
+        non_striker: MS Pepper
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 4.3:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 4.4:
+        non_striker: MS Pepper
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 4.5:
+        non_striker: MS Pepper
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 4.6:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MS Pepper
+    - 5.1:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+    - 5.2:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 5.3:
+        non_striker: MS Pepper
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 5.4:
+        non_striker: MS Pepper
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 5.5:
+        non_striker: MS Pepper
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 5.6:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 6.1:
+        non_striker: D Elgar
+        bowler: BTJ Wheal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 6.2:
+        non_striker: MS Pepper
+        bowler: BTJ Wheal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 6.3:
+        non_striker: D Elgar
+        bowler: BTJ Wheal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 6.4:
+        non_striker: MS Pepper
+        bowler: BTJ Wheal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 6.5:
+        non_striker: D Elgar
+        bowler: BTJ Wheal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MS Pepper
+    - 6.6:
+        non_striker: D Elgar
+        bowler: BTJ Wheal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Pepper
+    - 7.1:
+        non_striker: MS Pepper
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 7.2:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 7.3:
+        non_striker: MS Pepper
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 7.4:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Pepper
+    - 7.5:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MS Pepper
+    - 7.6:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Pepper
+    - 8.1:
+        non_striker: MS Pepper
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 8.2:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Pepper
+    - 8.3:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 8.4:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MS Pepper
+    - 8.5:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Pepper
+    - 8.6:
+        non_striker: D Elgar
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+    - 9.1:
+        non_striker: MS Pepper
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 9.2:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 9.3:
+        non_striker: MS Pepper
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 9.4:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 9.5:
+        non_striker: MS Pepper
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 9.6:
+        non_striker: MS Pepper
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 10.1:
+        non_striker: MS Pepper
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 10.2:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+    - 10.3:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Pepper
+    - 10.4:
+        non_striker: MS Pepper
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 10.5:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Pepper
+        wicket:
+          player_out: MS Pepper
+          fielders:
+          - MG Neser
+          kind: caught
+    - 10.6:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 11.1:
+        non_striker: JM Cox
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Elgar
+    - 11.2:
+        non_striker: JM Cox
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 11.3:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 11.4:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 11.5:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 11.6:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 12.1:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 12.2:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 12.3:
+        non_striker: JM Cox
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 12.4:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 12.5:
+        non_striker: JM Cox
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 12.6:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 13.1:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 13.2:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 13.3:
+        non_striker: JM Cox
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 13.4:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 13.5:
+        non_striker: JM Cox
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 13.6:
+        non_striker: D Elgar
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 14.1:
+        non_striker: JM Cox
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Elgar
+    - 14.2:
+        non_striker: JM Cox
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 14.3:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Cox
+    - 14.4:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Cox
+    - 14.5:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 14.6:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Cox
+    - 14.7:
+        non_striker: D Elgar
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 15.1:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Cox
+    - 15.2:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Cox
+    - 15.3:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 15.4:
+        non_striker: D Elgar
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 15.5:
+        non_striker: JM Cox
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 15.6:
+        non_striker: JM Cox
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Elgar
+    - 16.1:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Cox
+    - 16.2:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox
+    - 16.3:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Cox
+    - 16.4:
+        non_striker: JM Cox
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Elgar
+    - 16.5:
+        non_striker: D Elgar
+        bowler: MG Neser
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Cox

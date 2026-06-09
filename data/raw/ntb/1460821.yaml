@@ -1,0 +1,1950 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-25'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-20'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Glamorgan:
+    - KS Carlson
+    - WT Smale
+    - BI Kellaway
+    - CA Ingram
+    - CB Cooke
+    - AM Tribe
+    - DA Douthwaite
+    - Imad Wasim
+    - T van der Gugten
+    - EO Leonard
+    - MS Crane
+    Somerset:
+    - T Banton
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - LP Goldsworthy
+    - JH Davey
+    - MJ Henry
+    - RP Meredith
+  registry:
+    people:
+      AM Tribe: 86f84b37
+      BGF Green: 34b37279
+      BI Kellaway: eafe8a94
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      DA Douthwaite: 03df7a25
+      EO Leonard: 660538af
+      IL Herbert: 125f9f05
+      Imad Wasim: 9cb8d7a6
+      JH Davey: d3868bd0
+      KS Carlson: 9e707e02
+      L Gregory: 06c2de82
+      LP Goldsworthy: ed47cb25
+      MJ Henry: e84ac20c
+      MS Crane: f0a0204e
+      PK Baldwin: 6bb53c12
+      RP Meredith: '64775749'
+      SR Dickson: 2344bdd1
+      Surendiran Shanmugam: 2ef5fc2b
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      T van der Gugten: d99cc23a
+      TB Abell: ba9258a7
+      WCF Smeed: 4e18e961
+      WT Smale: 97da28bd
+  teams:
+  - Glamorgan
+  - Somerset
+  toss:
+    winner: Somerset
+    decision: field
+  umpires:
+  - PK Baldwin
+  - Surendiran Shanmugam
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.2:
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.3:
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.4:
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.5:
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 1.1:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.5:
+        non_striker: WT Smale
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 1.6:
+        non_striker: WT Smale
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: KS Carlson
+    - 2.1:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.3:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.4:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - WCF Smeed
+          kind: caught
+    - 2.5:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 2.6:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 3.1:
+        non_striker: BI Kellaway
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.2:
+        non_striker: BI Kellaway
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.3:
+        non_striker: BI Kellaway
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 3.4:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 3.5:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+        wicket:
+          player_out: BI Kellaway
+          fielders:
+          - WCF Smeed
+          kind: caught
+    - 3.6:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 4.1:
+        non_striker: CA Ingram
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 4.2:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 4.3:
+        non_striker: WT Smale
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 4.4:
+        non_striker: CA Ingram
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          kind: bowled
+    - 4.5:
+        non_striker: CA Ingram
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 4.6:
+        non_striker: CA Ingram
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 5.1:
+        non_striker: CB Cooke
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.2:
+        non_striker: CB Cooke
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.3:
+        non_striker: CB Cooke
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.4:
+        non_striker: CB Cooke
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 5.5:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 5.6:
+        non_striker: CB Cooke
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 6.1:
+        non_striker: CA Ingram
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 6.2:
+        non_striker: CA Ingram
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 6.3:
+        non_striker: CA Ingram
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 6.4:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.5:
+        non_striker: CA Ingram
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 6.6:
+        non_striker: CB Cooke
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          kind: bowled
+    - 7.1:
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: AM Tribe
+        batsman: CB Cooke
+    - 7.2:
+        non_striker: CB Cooke
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 7.3:
+        non_striker: CB Cooke
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 7.4:
+        non_striker: CB Cooke
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Tribe
+    - 7.5:
+        non_striker: CB Cooke
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 7.6:
+        non_striker: CB Cooke
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 8.1:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 8.2:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 8.3:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - T Banton
+          kind: caught
+    - 8.4:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 8.5:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Douthwaite
+    - 8.6:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 9.1:
+        non_striker: AM Tribe
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 9.2:
+        non_striker: AM Tribe
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 9.3:
+        non_striker: DA Douthwaite
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 9.4:
+        non_striker: AM Tribe
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 9.5:
+        non_striker: AM Tribe
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 9.6:
+        non_striker: AM Tribe
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 10.1:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 10.2:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 10.3:
+        non_striker: AM Tribe
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 10.4:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Tribe
+    - 10.5:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Tribe
+    - 10.6:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 11.1:
+        non_striker: DA Douthwaite
+        bowler: L Gregory
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AM Tribe
+    - 11.2:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 11.3:
+        non_striker: DA Douthwaite
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 11.4:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 11.5:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 11.6:
+        non_striker: AM Tribe
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Douthwaite
+    - 12.1:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 12.2:
+        non_striker: AM Tribe
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 12.3:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Tribe
+    - 12.4:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Tribe
+    - 12.5:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Tribe
+    - 12.6:
+        non_striker: DA Douthwaite
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 13.1:
+        non_striker: DA Douthwaite
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 13.2:
+        non_striker: AM Tribe
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 13.3:
+        non_striker: DA Douthwaite
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Tribe
+    - 13.4:
+        non_striker: DA Douthwaite
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: AM Tribe
+    - 13.5:
+        non_striker: AM Tribe
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 13.6:
+        non_striker: DA Douthwaite
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 14.1:
+        non_striker: DA Douthwaite
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 14.2:
+        non_striker: AM Tribe
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DA Douthwaite
+    - 14.3:
+        non_striker: AM Tribe
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 14.4:
+        non_striker: DA Douthwaite
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+        wicket:
+          player_out: AM Tribe
+          kind: bowled
+    - 14.5:
+        non_striker: DA Douthwaite
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Imad Wasim
+    - 14.6:
+        non_striker: DA Douthwaite
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 14.7:
+        non_striker: DA Douthwaite
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Imad Wasim
+    - 14.8:
+        non_striker: DA Douthwaite
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 15.1:
+        non_striker: Imad Wasim
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+        wicket:
+          player_out: DA Douthwaite
+          fielders:
+          - TB Abell
+          kind: caught
+    - 15.2:
+        non_striker: Imad Wasim
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 15.3:
+        non_striker: Imad Wasim
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T van der Gugten
+    - 15.4:
+        non_striker: Imad Wasim
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 15.5:
+        non_striker: Imad Wasim
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: T van der Gugten
+    - 15.6:
+        non_striker: T van der Gugten
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 15.7:
+        non_striker: T van der Gugten
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.1:
+        non_striker: T van der Gugten
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.2:
+        non_striker: Imad Wasim
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 16.3:
+        non_striker: Imad Wasim
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 16.4:
+        non_striker: T van der Gugten
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 16.5:
+        non_striker: T van der Gugten
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.6:
+        non_striker: Imad Wasim
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 17.1:
+        non_striker: T van der Gugten
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+        wicket:
+          player_out: Imad Wasim
+          fielders:
+          - MJ Henry
+          kind: caught
+    - 17.2:
+        non_striker: T van der Gugten
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EO Leonard
+    - 17.3:
+        non_striker: EO Leonard
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          fielders:
+          - T Kohler-Cadmore
+          kind: caught
+    - 17.4:
+        non_striker: EO Leonard
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 17.5:
+        non_striker: EO Leonard
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 17.6:
+        non_striker: EO Leonard
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 18.1:
+        non_striker: EO Leonard
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 18.2:
+        non_striker: EO Leonard
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 18.3:
+        non_striker: EO Leonard
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 18.4:
+        non_striker: EO Leonard
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 18.5:
+        non_striker: MS Crane
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EO Leonard
+    - 18.6:
+        non_striker: MS Crane
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EO Leonard
+    - 19.1:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EO Leonard
+    - 19.2:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EO Leonard
+    - 19.3:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EO Leonard
+    - 19.4:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EO Leonard
+    - 19.5:
+        non_striker: MS Crane
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EO Leonard
+    - 19.6:
+        non_striker: EO Leonard
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: WCF Smeed
+        batsman: T Banton
+    - 0.2:
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: WCF Smeed
+        batsman: T Banton
+    - 0.3:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 0.4:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 0.5:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.6:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.1:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 1.2:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.3:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.4:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WCF Smeed
+    - 1.5:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 1.6:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 2.1:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 2.2:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 2.3:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 2.4:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 2.5:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 2.6:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 3.1:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 3.2:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 3.3:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 3.4:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 3.5:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 3.6:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 4.1:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 4.2:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 4.3:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+        wicket:
+          player_out: WCF Smeed
+          fielders:
+          - EO Leonard
+          kind: caught
+    - 4.4:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 4.5:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 4.6:
+        non_striker: T Banton
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 5.1:
+        non_striker: T Banton
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.2:
+        non_striker: T Banton
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.3:
+        non_striker: T Banton
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.4:
+        non_striker: T Banton
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.5:
+        non_striker: T Banton
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 5.6:
+        non_striker: T Banton
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 6.1:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 6.2:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          kind: lbw
+    - 6.3:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.4:
+        non_striker: TB Abell
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 6.5:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 6.6:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 7.1:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.2:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.3:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 7.4:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.5:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.6:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.1:
+        non_striker: TB Abell
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.2:
+        non_striker: T Kohler-Cadmore
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.3:
+        non_striker: TB Abell
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.4:
+        non_striker: T Kohler-Cadmore
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 8.5:
+        non_striker: T Kohler-Cadmore
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.6:
+        non_striker: TB Abell
+        bowler: EO Leonard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.1:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 9.2:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.3:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.4:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 9.5:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 9.6:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 10.1:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          fielders:
+          - WT Smale
+          kind: caught
+    - 10.2:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 10.3:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 10.4:
+        non_striker: T Kohler-Cadmore
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 10.5:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 10.6:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 11.1:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 11.2:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 11.3:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 11.4:
+        non_striker: T Kohler-Cadmore
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 11.5:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 11.6:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 12.1:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 12.2:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 12.3:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - MS Crane
+          kind: caught
+    - 12.4:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 12.5:
+        non_striker: L Gregory
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 12.6:
+        non_striker: L Gregory
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 13.1:
+        non_striker: L Gregory
+        bowler: MS Crane
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SR Dickson
+    - 13.2:
+        non_striker: L Gregory
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 13.3:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 13.4:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 13.5:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 13.6:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 13.7:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 14.1:
+        non_striker: L Gregory
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 14.2:
+        non_striker: SR Dickson
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 14.3:
+        non_striker: L Gregory
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 14.4:
+        non_striker: SR Dickson
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 14.5:
+        non_striker: SR Dickson
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 14.6:
+        non_striker: L Gregory
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 15.1:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 15.2:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 15.3:
+        non_striker: SR Dickson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 15.4:
+        non_striker: L Gregory
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Dickson
+    - 15.5:
+        non_striker: L Gregory
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 15.6:
+        non_striker: L Gregory
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 16.1:
+        non_striker: L Gregory
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 16.2:
+        non_striker: SR Dickson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 16.3:
+        non_striker: L Gregory
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 16.4:
+        non_striker: SR Dickson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory

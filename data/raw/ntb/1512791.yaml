@@ -1,0 +1,2028 @@
+---
+meta:
+  data_version: 0.92
+  created: '2026-05-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Canterbury
+  competition: Vitality Blast Men
+  dates:
+  - '2026-05-25'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Kent
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Sussex:
+    - DP Hughes
+    - TGR Clark
+    - JM Coles
+    - JA Simpson
+    - TP Alsop
+    - JA Leaning
+    - DJ Lamb
+    - FJ Hudson-Prentice
+    - DR Briggs
+    - HT Crocombe
+    - TS Mills
+    Kent:
+    - TS Muyeye
+    - DJ Bell-Drummond
+    - Z Crawley
+    - SW Billings
+    - D Forrester
+    - JL Denly
+    - AM Foreman
+    - JB Lintott
+    - TS Rogers
+    - ME Milnes
+    - FJ Klaassen
+  registry:
+    people:
+      AM Foreman: bf659c0f
+      BJ Peverall: 3e04e05a
+      D Forrester: '23393635'
+      DJ Bell-Drummond: 8f938a32
+      DJ Lamb: 27c5a793
+      DP Hughes: f3982af9
+      DR Briggs: f3abd0c9
+      FJ Hudson-Prentice: 932d3cc9
+      FJ Klaassen: c042b412
+      HT Crocombe: 27fc5808
+      JA Leaning: f2ab7a69
+      JA Simpson: f05fe9b1
+      JB Lintott: e5218454
+      JL Denly: bdadf7da
+      JM Coles: 9c643d7b
+      ME Milnes: 3dcd1e8d
+      Mark Newell: b33f0fa1
+      PM Such: c9f1892c
+      SW Billings: c16d4035
+      TGR Clark: ed8faea2
+      TP Alsop: 961b8ff1
+      TS Mills: 245c97cb
+      TS Muyeye: 10b79140
+      TS Rogers: 1b04e02b
+      Z Crawley: 922e1b19
+  teams:
+  - Sussex
+  - Kent
+  toss:
+    winner: Sussex
+    decision: bat
+  umpires:
+  - BJ Peverall
+  - Mark Newell
+  venue: St Lawrence Ground, Canterbury
+innings:
+- 1st innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        non_striker: TGR Clark
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 0.2:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 0.3:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 0.4:
+        non_striker: TGR Clark
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 0.5:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 0.6:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 1.1:
+        non_striker: TGR Clark
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 1.2:
+        non_striker: TGR Clark
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 1.3:
+        non_striker: TGR Clark
+        bowler: TS Rogers
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DP Hughes
+    - 1.4:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 1.5:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 1.6:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 2.1:
+        non_striker: DP Hughes
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TGR Clark
+    - 2.2:
+        non_striker: DP Hughes
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 2.3:
+        non_striker: DP Hughes
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 2.4:
+        non_striker: TGR Clark
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 2.5:
+        non_striker: TGR Clark
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 2.6:
+        non_striker: TGR Clark
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 3.1:
+        non_striker: DP Hughes
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 3.2:
+        non_striker: DP Hughes
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 3.3:
+        non_striker: DP Hughes
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 3.4:
+        non_striker: DP Hughes
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 3.5:
+        non_striker: DP Hughes
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 3.6:
+        non_striker: DP Hughes
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 4.1:
+        non_striker: TGR Clark
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 4.2:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 4.3:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 4.4:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 4.5:
+        non_striker: DP Hughes
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 4.6:
+        non_striker: TGR Clark
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 5.1:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 5.2:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 5.3:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 5.4:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 5.5:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        batsman: TGR Clark
+    - 5.6:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: TGR Clark
+    - 5.7:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 5.8:
+        non_striker: DP Hughes
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 6.1:
+        non_striker: TGR Clark
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 6.2:
+        non_striker: TGR Clark
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 6.3:
+        non_striker: TGR Clark
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 6.4:
+        non_striker: TGR Clark
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 6.5:
+        non_striker: DP Hughes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 6.6:
+        non_striker: TGR Clark
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 7.1:
+        non_striker: DP Hughes
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          fielders:
+          - TS Muyeye
+          kind: caught
+    - 7.2:
+        non_striker: DP Hughes
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 7.3:
+        non_striker: JM Coles
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 7.4:
+        non_striker: JM Coles
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 7.5:
+        non_striker: DP Hughes
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 7.6:
+        non_striker: JM Coles
+        bowler: AM Foreman
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DP Hughes
+    - 7.7:
+        non_striker: JM Coles
+        bowler: AM Foreman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DP Hughes
+    - 8.1:
+        non_striker: DP Hughes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 8.2:
+        non_striker: DP Hughes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 8.3:
+        non_striker: JM Coles
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 8.4:
+        non_striker: DP Hughes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 8.5:
+        non_striker: DP Hughes
+        bowler: JB Lintott
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JM Coles
+    - 8.6:
+        non_striker: DP Hughes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 8.7:
+        non_striker: DP Hughes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 9.1:
+        non_striker: DP Hughes
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 9.2:
+        non_striker: DP Hughes
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 9.3:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+        wicket:
+          player_out: DP Hughes
+          fielders:
+          - DJ Bell-Drummond
+          kind: caught
+    - 9.4:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 9.5:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 9.6:
+        non_striker: JA Simpson
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 10.1:
+        non_striker: JM Coles
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 10.2:
+        non_striker: JA Simpson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 10.3:
+        non_striker: JA Simpson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 10.4:
+        non_striker: JM Coles
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 10.5:
+        non_striker: JA Simpson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 10.6:
+        non_striker: JM Coles
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 11.1:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+        wicket:
+          player_out: JA Simpson
+          fielders:
+          - JL Denly
+          kind: caught
+    - 11.2:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+        wicket:
+          player_out: TP Alsop
+          kind: caught and bowled
+    - 11.3:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 11.4:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 11.5:
+        non_striker: JM Coles
+        bowler: D Forrester
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JA Leaning
+    - 11.6:
+        non_striker: JA Leaning
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 12.1:
+        non_striker: JM Coles
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 12.2:
+        non_striker: JA Leaning
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 12.3:
+        non_striker: JM Coles
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 12.4:
+        non_striker: JM Coles
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 12.5:
+        non_striker: JM Coles
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 12.6:
+        non_striker: JA Leaning
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 13.1:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 13.2:
+        non_striker: JA Leaning
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 13.3:
+        non_striker: JA Leaning
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 13.4:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 13.5:
+        non_striker: JA Leaning
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 13.6:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 14.1:
+        non_striker: JA Leaning
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.2:
+        non_striker: JM Coles
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 14.3:
+        non_striker: JM Coles
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 14.4:
+        non_striker: JA Leaning
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 14.5:
+        non_striker: JA Leaning
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.6:
+        non_striker: JM Coles
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: JA Leaning
+    - 15.1:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Leaning
+    - 15.2:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 15.3:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 15.4:
+        non_striker: JA Leaning
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 15.5:
+        non_striker: JM Coles
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 15.6:
+        non_striker: JA Leaning
+        bowler: D Forrester
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 16.1:
+        non_striker: JM Coles
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 16.2:
+        non_striker: JM Coles
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Leaning
+    - 16.3:
+        non_striker: JM Coles
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 16.4:
+        non_striker: JA Leaning
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 16.5:
+        non_striker: JM Coles
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 16.6:
+        non_striker: JM Coles
+        bowler: FJ Klaassen
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JA Leaning
+    - 16.7:
+        non_striker: JM Coles
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Leaning
+    - 17.1:
+        non_striker: JA Leaning
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+        wicket:
+          player_out: JM Coles
+          fielders:
+          - JB Lintott
+          kind: caught
+    - 17.2:
+        non_striker: JA Leaning
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 17.3:
+        non_striker: DJ Lamb
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 17.4:
+        non_striker: DJ Lamb
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 17.5:
+        non_striker: JA Leaning
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+    - 17.6:
+        non_striker: JA Leaning
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 18.1:
+        non_striker: JA Leaning
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+    - 18.2:
+        non_striker: JA Leaning
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Lamb
+    - 18.3:
+        non_striker: JA Leaning
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Lamb
+    - 18.4:
+        non_striker: JA Leaning
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Lamb
+    - 18.5:
+        non_striker: JA Leaning
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 18.6:
+        non_striker: DJ Lamb
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+        wicket:
+          player_out: JA Leaning
+          fielders:
+          - TS Muyeye
+          kind: caught
+    - 19.1:
+        non_striker: FJ Hudson-Prentice
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Lamb
+    - 19.2:
+        non_striker: FJ Hudson-Prentice
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+    - 19.3:
+        non_striker: FJ Hudson-Prentice
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Lamb
+    - 19.4:
+        non_striker: DJ Lamb
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Hudson-Prentice
+    - 19.5:
+        non_striker: DJ Lamb
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 19.6:
+        non_striker: FJ Hudson-Prentice
+        bowler: ME Milnes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Lamb
+- 2nd innings:
+    team: Kent
+    deliveries:
+    - 0.1:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 0.2:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 0.3:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+    - 0.4:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TS Muyeye
+    - 0.5:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Muyeye
+    - 0.6:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 1.1:
+        non_striker: DJ Bell-Drummond
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TS Muyeye
+    - 1.2:
+        non_striker: DJ Bell-Drummond
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Muyeye
+    - 1.3:
+        non_striker: DJ Bell-Drummond
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 1.4:
+        non_striker: TS Muyeye
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 1.5:
+        non_striker: DJ Bell-Drummond
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 1.6:
+        non_striker: TS Muyeye
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 2.1:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 2.2:
+        non_striker: TS Muyeye
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 2.3:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Muyeye
+    - 2.4:
+        non_striker: DJ Bell-Drummond
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 2.5:
+        non_striker: TS Muyeye
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 2.6:
+        non_striker: TS Muyeye
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 3.1:
+        non_striker: TS Muyeye
+        bowler: HT Crocombe
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 3.2:
+        non_striker: DJ Bell-Drummond
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 3.3:
+        non_striker: TS Muyeye
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 3.4:
+        non_striker: TS Muyeye
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 3.5:
+        non_striker: TS Muyeye
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 3.6:
+        non_striker: DJ Bell-Drummond
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+        wicket:
+          player_out: TS Muyeye
+          kind: caught and bowled
+    - 4.1:
+        non_striker: Z Crawley
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 4.2:
+        non_striker: Z Crawley
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 4.3:
+        non_striker: DJ Bell-Drummond
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Z Crawley
+    - 4.4:
+        non_striker: DJ Bell-Drummond
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Z Crawley
+    - 4.5:
+        non_striker: DJ Bell-Drummond
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Z Crawley
+    - 4.6:
+        non_striker: DJ Bell-Drummond
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 5.1:
+        non_striker: DJ Bell-Drummond
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Z Crawley
+    - 5.2:
+        non_striker: DJ Bell-Drummond
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 5.3:
+        non_striker: Z Crawley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 5.4:
+        non_striker: Z Crawley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Bell-Drummond
+    - 5.5:
+        non_striker: Z Crawley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 5.6:
+        non_striker: Z Crawley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 6.1:
+        non_striker: DJ Bell-Drummond
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 6.2:
+        non_striker: Z Crawley
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 6.3:
+        non_striker: DJ Bell-Drummond
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Z Crawley
+    - 6.4:
+        non_striker: DJ Bell-Drummond
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 6.5:
+        non_striker: Z Crawley
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 6.6:
+        non_striker: Z Crawley
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 7.1:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+        wicket:
+          player_out: DJ Bell-Drummond
+          fielders:
+          - TS Mills
+          kind: caught
+    - 7.2:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 7.3:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 7.4:
+        non_striker: SW Billings
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Z Crawley
+    - 7.5:
+        non_striker: SW Billings
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 7.6:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 8.1:
+        non_striker: Z Crawley
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 8.2:
+        non_striker: Z Crawley
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 8.3:
+        non_striker: Z Crawley
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: SW Billings
+    - 8.4:
+        non_striker: SW Billings
+        bowler: DJ Lamb
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Z Crawley
+    - 8.5:
+        non_striker: SW Billings
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Z Crawley
+    - 8.6:
+        non_striker: SW Billings
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Z Crawley
+    - 9.1:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 9.2:
+        non_striker: SW Billings
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 9.3:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 9.4:
+        non_striker: SW Billings
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 9.5:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: SW Billings
+    - 9.6:
+        non_striker: SW Billings
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 10.1:
+        non_striker: SW Billings
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Z Crawley
+    - 10.2:
+        non_striker: SW Billings
+        bowler: JM Coles
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Z Crawley
+    - 10.3:
+        non_striker: Z Crawley
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 10.4:
+        non_striker: SW Billings
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Z Crawley
+    - 10.5:
+        non_striker: SW Billings
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 10.6:
+        non_striker: Z Crawley
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 11.1:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: SW Billings
+    - 11.2:
+        non_striker: SW Billings
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 11.3:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 11.4:
+        non_striker: SW Billings
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 11.5:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SW Billings
+    - 11.6:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 12.1:
+        non_striker: SW Billings
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 12.2:
+        non_striker: Z Crawley
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SW Billings
+    - 12.3:
+        non_striker: Z Crawley
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+        wicket:
+          player_out: SW Billings
+          fielders:
+          - DJ Lamb
+          kind: caught
+    - 12.4:
+        non_striker: Z Crawley
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 12.5:
+        non_striker: Z Crawley
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Forrester
+    - 12.6:
+        non_striker: Z Crawley
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Forrester
+    - 13.1:
+        non_striker: D Forrester
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 13.2:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 13.3:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Forrester
+    - 13.4:
+        non_striker: D Forrester
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 13.5:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 13.6:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Forrester
+    - 14.1:
+        non_striker: Z Crawley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 14.2:
+        non_striker: Z Crawley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Forrester
+    - 14.3:
+        non_striker: D Forrester
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Z Crawley
+    - 14.4:
+        non_striker: D Forrester
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 14.5:
+        non_striker: Z Crawley
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Forrester
+    - 14.6:
+        non_striker: D Forrester
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 15.1:
+        non_striker: D Forrester
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Z Crawley
+    - 15.2:
+        non_striker: D Forrester
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Z Crawley
+    - 15.3:
+        non_striker: D Forrester
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 15.4:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Forrester
+    - 15.5:
+        non_striker: D Forrester
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 15.6:
+        non_striker: Z Crawley
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Forrester
+    - 16.1:
+        non_striker: D Forrester
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Z Crawley
+    - 16.2:
+        non_striker: D Forrester
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 16.3:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Forrester
+    - 16.4:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Forrester
+    - 16.5:
+        non_striker: D Forrester
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 16.6:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Forrester
+    - 17.1:
+        non_striker: D Forrester
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Z Crawley
+    - 17.2:
+        non_striker: Z Crawley
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Forrester
+    - 17.3:
+        non_striker: D Forrester
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Z Crawley
+    - 17.4:
+        non_striker: D Forrester
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Z Crawley
+    - 17.5:
+        non_striker: D Forrester
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Z Crawley
+    - 17.6:
+        non_striker: D Forrester
+        bowler: DJ Lamb
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Z Crawley
+    - 18.1:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Forrester
+    - 18.2:
+        non_striker: Z Crawley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Forrester

@@ -1,0 +1,2149 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-09'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Northampton
+  competition: Vitality Blast
+  dates:
+  - '2024-06-07'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Northamptonshire
+    by:
+      runs: 6
+  overs: 20
+  player_of_match:
+  - SA Zaib
+  players:
+    Northamptonshire:
+    - R Vasconcelos
+    - MP Breetzke
+    - DJ Willey
+    - RS Bopara
+    - Sikandar Raza
+    - SA Zaib
+    - LD McManus
+    - GA Bartlett
+    - BW Sanderson
+    - FJ Heldreich
+    - RA Weatherall
+    Worcestershire:
+    - BL D'Oliveira
+    - MJ Waite
+    - EJ Pollock
+    - AJ Hose
+    - EA Brookes
+    - TAI Taylor
+    - NG Smith
+    - GH Roderick
+    - HR Walsh
+    - AW Finch
+    - Shoaib Bashir
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      AW Finch: fc63d916
+      BL D'Oliveira: 9679838c
+      BW Sanderson: e871a7a1
+      DJ Willey: 7f048519
+      EA Brookes: 6ce9f3eb
+      EJ Pollock: d6663a9a
+      FJ Heldreich: 56ef4f99
+      GA Bartlett: e2caec46
+      GH Roderick: 7081848a
+      HR Walsh: 1ac2a995
+      James Middlebrook: ddcd1520
+      LD McManus: 6feb46a4
+      MJ Waite: a4b810d0
+      MP Breetzke: 35f173a0
+      NG Smith: 05b1aef8
+      R Vasconcelos: efe3fcc5
+      RA Weatherall: acb94221
+      RJ Warren: 9d1c62d7
+      RS Bopara: 7ca5e05d
+      Rob White: 59b91222
+      SA Zaib: ab01e323
+      Shoaib Bashir: e36e9dd3
+      Sikandar Raza: 26d041c4
+      TAI Taylor: 867a45a7
+      Wayne Noon: 736e1761
+  teams:
+  - Northamptonshire
+  - Worcestershire
+  toss:
+    winner: Northamptonshire
+    decision: bat
+  umpires:
+  - James Middlebrook
+  - RJ Warren
+  venue: County Ground, Northampton
+innings:
+- 1st innings:
+    team: Northamptonshire
+    deliveries:
+    - 0.1:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 0.2:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 0.3:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 0.4:
+        non_striker: R Vasconcelos
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 0.5:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 0.6:
+        non_striker: R Vasconcelos
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 1.1:
+        non_striker: MP Breetzke
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 1.2:
+        non_striker: R Vasconcelos
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 1.3:
+        non_striker: R Vasconcelos
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Breetzke
+    - 1.4:
+        non_striker: R Vasconcelos
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Breetzke
+    - 1.5:
+        non_striker: R Vasconcelos
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 1.6:
+        non_striker: R Vasconcelos
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 2.1:
+        non_striker: R Vasconcelos
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 2.2:
+        non_striker: R Vasconcelos
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 2.3:
+        non_striker: MP Breetzke
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 2.4:
+        non_striker: MP Breetzke
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 2.5:
+        non_striker: R Vasconcelos
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 2.6:
+        non_striker: MP Breetzke
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 3.1:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+    - 3.2:
+        non_striker: R Vasconcelos
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 3.3:
+        non_striker: MP Breetzke
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 3.4:
+        non_striker: MP Breetzke
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 3.5:
+        non_striker: MP Breetzke
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 3.6:
+        non_striker: MP Breetzke
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 4.1:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 4.2:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: R Vasconcelos
+    - 4.3:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 4.4:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 4.5:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 4.6:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 4.7:
+        non_striker: MP Breetzke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 5.1:
+        non_striker: R Vasconcelos
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 5.2:
+        non_striker: MP Breetzke
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 5.3:
+        non_striker: MP Breetzke
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 5.4:
+        non_striker: R Vasconcelos
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 5.5:
+        non_striker: MP Breetzke
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vasconcelos
+    - 5.6:
+        non_striker: MP Breetzke
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 6.1:
+        non_striker: MP Breetzke
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vasconcelos
+    - 6.2:
+        non_striker: R Vasconcelos
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MP Breetzke
+    - 6.3:
+        non_striker: MP Breetzke
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+    - 6.4:
+        non_striker: MP Breetzke
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vasconcelos
+        wicket:
+          player_out: R Vasconcelos
+          kind: bowled
+    - 6.5:
+        non_striker: MP Breetzke
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 6.6:
+        non_striker: MP Breetzke
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 7.1:
+        non_striker: DJ Willey
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MP Breetzke
+    - 7.2:
+        non_striker: DJ Willey
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MP Breetzke
+        wicket:
+          player_out: MP Breetzke
+          fielders:
+          - NG Smith
+          kind: caught
+    - 7.3:
+        non_striker: DJ Willey
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 7.4:
+        non_striker: RS Bopara
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 7.5:
+        non_striker: DJ Willey
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 7.6:
+        non_striker: DJ Willey
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 8.1:
+        non_striker: DJ Willey
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 8.2:
+        non_striker: DJ Willey
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 8.3:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+    - 8.4:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 8.5:
+        non_striker: DJ Willey
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 8.6:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Willey
+    - 8.7:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Willey
+    - 9.1:
+        non_striker: RS Bopara
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Willey
+        wicket:
+          player_out: DJ Willey
+          fielders:
+          - AJ Hose
+          kind: caught
+    - 9.2:
+        non_striker: RS Bopara
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 9.3:
+        non_striker: Sikandar Raza
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 9.4:
+        non_striker: Sikandar Raza
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 9.5:
+        non_striker: RS Bopara
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 9.6:
+        non_striker: RS Bopara
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 10.1:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 10.2:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 10.3:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 10.4:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 10.5:
+        non_striker: Sikandar Raza
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 10.6:
+        non_striker: Sikandar Raza
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.1:
+        non_striker: Sikandar Raza
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 11.2:
+        non_striker: Sikandar Raza
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.3:
+        non_striker: RS Bopara
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 11.4:
+        non_striker: RS Bopara
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 11.5:
+        non_striker: Sikandar Raza
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.6:
+        non_striker: RS Bopara
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sikandar Raza
+    - 12.1:
+        non_striker: Sikandar Raza
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 12.2:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 12.3:
+        non_striker: Sikandar Raza
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 12.4:
+        non_striker: RS Bopara
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 12.5:
+        non_striker: Sikandar Raza
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 12.6:
+        non_striker: Sikandar Raza
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 13.1:
+        non_striker: RS Bopara
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 13.2:
+        non_striker: RS Bopara
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 13.3:
+        non_striker: RS Bopara
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 13.4:
+        non_striker: Sikandar Raza
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 13.5:
+        non_striker: Sikandar Raza
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 13.6:
+        non_striker: Sikandar Raza
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+        wicket:
+          player_out: RS Bopara
+          fielders:
+          - TAI Taylor
+          kind: caught
+    - 14.1:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 14.2:
+        non_striker: Sikandar Raza
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 14.3:
+        non_striker: Sikandar Raza
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 14.4:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 14.5:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sikandar Raza
+    - 14.6:
+        non_striker: SA Zaib
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 15.1:
+        non_striker: SA Zaib
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 15.2:
+        non_striker: Sikandar Raza
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 15.3:
+        non_striker: SA Zaib
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 15.4:
+        non_striker: Sikandar Raza
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 15.5:
+        non_striker: Sikandar Raza
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 15.6:
+        non_striker: Sikandar Raza
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 16.1:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Zaib
+    - 16.2:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 16.3:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 16.4:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 16.5:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 16.6:
+        non_striker: SA Zaib
+        bowler: NG Smith
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: Sikandar Raza
+    - 16.7:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 17.1:
+        non_striker: SA Zaib
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 17.2:
+        non_striker: Sikandar Raza
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 17.3:
+        non_striker: Sikandar Raza
+        bowler: TAI Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SA Zaib
+    - 17.4:
+        non_striker: SA Zaib
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 17.5:
+        non_striker: Sikandar Raza
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Zaib
+    - 17.6:
+        non_striker: Sikandar Raza
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Zaib
+    - 18.1:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 18.2:
+        non_striker: Sikandar Raza
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 18.3:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sikandar Raza
+    - 18.4:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sikandar Raza
+    - 18.5:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sikandar Raza
+    - 18.6:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 18.7:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sikandar Raza
+    - 18.8:
+        non_striker: SA Zaib
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sikandar Raza
+    - 19.1:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Zaib
+    - 19.2:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Zaib
+    - 19.3:
+        non_striker: SA Zaib
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sikandar Raza
+    - 19.4:
+        non_striker: SA Zaib
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sikandar Raza
+    - 19.5:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Zaib
+    - 19.6:
+        non_striker: Sikandar Raza
+        bowler: NG Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: SA Zaib
+- 2nd innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: MJ Waite
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 0.2:
+        non_striker: BL D'Oliveira
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 0.3:
+        non_striker: MJ Waite
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.4:
+        non_striker: MJ Waite
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 0.5:
+        non_striker: MJ Waite
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 0.6:
+        non_striker: BL D'Oliveira
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Waite
+    - 1.1:
+        non_striker: MJ Waite
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 1.2:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 1.3:
+        non_striker: MJ Waite
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 1.4:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 1.5:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Waite
+    - 1.6:
+        non_striker: BL D'Oliveira
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 2.1:
+        non_striker: MJ Waite
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 2.2:
+        non_striker: MJ Waite
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          fielders:
+          - DJ Willey
+          kind: caught
+    - 2.3:
+        non_striker: MJ Waite
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 2.4:
+        non_striker: MJ Waite
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 2.5:
+        non_striker: EJ Pollock
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 2.6:
+        non_striker: EJ Pollock
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 3.1:
+        non_striker: MJ Waite
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 3.2:
+        non_striker: MJ Waite
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 3.3:
+        non_striker: MJ Waite
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 3.4:
+        non_striker: MJ Waite
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 3.5:
+        non_striker: EJ Pollock
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Waite
+    - 3.6:
+        non_striker: EJ Pollock
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 4.1:
+        non_striker: EJ Pollock
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 4.2:
+        non_striker: MJ Waite
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 4.3:
+        non_striker: MJ Waite
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 4.4:
+        non_striker: MJ Waite
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 4.5:
+        non_striker: MJ Waite
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+        wicket:
+          player_out: EJ Pollock
+          kind: bowled
+    - 4.6:
+        non_striker: MJ Waite
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 5.1:
+        non_striker: AJ Hose
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+        wicket:
+          player_out: MJ Waite
+          fielders:
+          - LD McManus
+          kind: caught
+    - 5.2:
+        non_striker: AJ Hose
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 5.3:
+        non_striker: AJ Hose
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 5.4:
+        non_striker: AJ Hose
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 5.5:
+        non_striker: AJ Hose
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 5.6:
+        non_striker: EA Brookes
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 6.1:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 6.2:
+        non_striker: EA Brookes
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 6.3:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EA Brookes
+    - 6.4:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 6.5:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 6.6:
+        non_striker: EA Brookes
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.1:
+        non_striker: EA Brookes
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 7.2:
+        non_striker: EA Brookes
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 7.3:
+        non_striker: EA Brookes
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 7.4:
+        non_striker: EA Brookes
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 7.5:
+        non_striker: EA Brookes
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.6:
+        non_striker: AJ Hose
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 8.1:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 8.2:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 8.3:
+        non_striker: EA Brookes
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.4:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 8.5:
+        non_striker: AJ Hose
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 8.6:
+        non_striker: EA Brookes
+        bowler: Sikandar Raza
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 9.1:
+        non_striker: AJ Hose
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 9.2:
+        non_striker: AJ Hose
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+        wicket:
+          player_out: EA Brookes
+          kind: lbw
+    - 9.3:
+        non_striker: AJ Hose
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 9.4:
+        non_striker: AJ Hose
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 9.5:
+        non_striker: AJ Hose
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 9.6:
+        non_striker: TAI Taylor
+        bowler: RS Bopara
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: AJ Hose
+    - 9.7:
+        non_striker: TAI Taylor
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 10.1:
+        non_striker: AJ Hose
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 10.2:
+        non_striker: AJ Hose
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 10.3:
+        non_striker: TAI Taylor
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 10.4:
+        non_striker: AJ Hose
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 10.5:
+        non_striker: AJ Hose
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 10.6:
+        non_striker: TAI Taylor
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 11.1:
+        non_striker: TAI Taylor
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 11.2:
+        non_striker: TAI Taylor
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 11.3:
+        non_striker: TAI Taylor
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 11.4:
+        non_striker: AJ Hose
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 11.5:
+        non_striker: TAI Taylor
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 11.6:
+        non_striker: TAI Taylor
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 12.1:
+        non_striker: TAI Taylor
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          fielders:
+          - Sikandar Raza
+          kind: caught
+    - 12.2:
+        non_striker: TAI Taylor
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 12.3:
+        non_striker: TAI Taylor
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 12.4:
+        non_striker: NG Smith
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 12.5:
+        non_striker: TAI Taylor
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NG Smith
+    - 12.6:
+        non_striker: TAI Taylor
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 13.1:
+        non_striker: NG Smith
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 13.2:
+        non_striker: NG Smith
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 13.3:
+        non_striker: NG Smith
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 13.4:
+        non_striker: TAI Taylor
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 13.5:
+        non_striker: NG Smith
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 13.6:
+        non_striker: NG Smith
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 14.1:
+        non_striker: NG Smith
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TAI Taylor
+    - 14.2:
+        non_striker: NG Smith
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+        wicket:
+          player_out: TAI Taylor
+          kind: bowled
+    - 14.3:
+        non_striker: NG Smith
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 14.4:
+        non_striker: GH Roderick
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NG Smith
+    - 14.5:
+        non_striker: GH Roderick
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 14.6:
+        non_striker: NG Smith
+        bowler: SA Zaib
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 15.1:
+        non_striker: NG Smith
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 15.2:
+        non_striker: NG Smith
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: GH Roderick
+    - 15.3:
+        non_striker: GH Roderick
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+        wicket:
+          player_out: NG Smith
+          fielders:
+          - BW Sanderson
+          kind: caught
+    - 15.4:
+        non_striker: GH Roderick
+        bowler: FJ Heldreich
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: HR Walsh
+    - 15.5:
+        non_striker: GH Roderick
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HR Walsh
+        wicket:
+          player_out: HR Walsh
+          kind: bowled
+    - 15.6:
+        non_striker: GH Roderick
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 15.7:
+        non_striker: AW Finch
+        bowler: FJ Heldreich
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 16.1:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 16.2:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: GH Roderick
+    - 16.3:
+        non_striker: GH Roderick
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Finch
+    - 16.4:
+        non_striker: GH Roderick
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 16.5:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 16.6:
+        non_striker: GH Roderick
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 17.1:
+        non_striker: GH Roderick
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Finch
+    - 17.2:
+        non_striker: GH Roderick
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 17.3:
+        non_striker: AW Finch
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Roderick
+    - 17.4:
+        non_striker: AW Finch
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 17.5:
+        non_striker: GH Roderick
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 17.6:
+        non_striker: AW Finch
+        bowler: BW Sanderson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Roderick
+    - 18.1:
+        non_striker: GH Roderick
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Finch
+    - 18.2:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 18.3:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: GH Roderick
+    - 18.4:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 18.5:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Roderick
+    - 18.6:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 18.7:
+        non_striker: AW Finch
+        bowler: DJ Willey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 19.1:
+        non_striker: AW Finch
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 19.2:
+        non_striker: AW Finch
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 19.3:
+        non_striker: AW Finch
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 19.4:
+        non_striker: AW Finch
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 19.5:
+        non_striker: AW Finch
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+        wicket:
+          player_out: GH Roderick
+          kind: bowled
+    - 19.6:
+        non_striker: AW Finch
+        bowler: RA Weatherall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Bashir

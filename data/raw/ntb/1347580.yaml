@@ -1,0 +1,2086 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-28'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Bristol
+  competition: Vitality Blast
+  dates:
+  - '2023-05-26'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Glamorgan
+    by:
+      wickets: 2
+  overs: 20
+  players:
+    Gloucestershire:
+    - G Roelofsen
+    - CDJ Dent
+    - Miles Hammond
+    - OJ Price
+    - JMR Taylor
+    - BG Charlesworth
+    - GL van Buuren
+    - Zafar Gohar
+    - MD Taylor
+    - DA Payne
+    - TMJ Smith
+    Glamorgan:
+    - EJ Byrom
+    - SA Northeast
+    - KS Carlson
+    - CA Ingram
+    - CB Cooke
+    - BI Kellaway
+    - DA Douthwaite
+    - T van der Gugten
+    - P Sisodiya
+    - RAJ Smith
+    - JP McIlroy
+  registry:
+    people:
+      BG Charlesworth: ffdba4e2
+      BI Kellaway: eafe8a94
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      CDJ Dent: 10435ca2
+      DA Douthwaite: 03df7a25
+      DA Payne: 6c79c098
+      EJ Byrom: 9e1b7792
+      G Roelofsen: ac688e55
+      GL van Buuren: ba377b40
+      JMR Taylor: aed5be04
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      MD Taylor: 01a95383
+      Miles Hammond: c88bc84a
+      OJ Price: dfc3f02d
+      P Sisodiya: dd9de7ad
+      PK Baldwin: 6bb53c12
+      PR Pollard: 85d884bb
+      RAJ Smith: 6daf5e8c
+      SA Northeast: 7e4c8ba3
+      T van der Gugten: d99cc23a
+      TMJ Smith: 0a12e736
+      Wayne Noon: 736e1761
+      Zafar Gohar: 9fd3a210
+  teams:
+  - Gloucestershire
+  - Glamorgan
+  toss:
+    winner: Glamorgan
+    decision: field
+  umpires:
+  - PK Baldwin
+  - PR Pollard
+  venue: County Ground, Bristol
+innings:
+- 1st innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: CDJ Dent
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Roelofsen
+    - 0.2:
+        non_striker: CDJ Dent
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 0.3:
+        non_striker: G Roelofsen
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CDJ Dent
+    - 0.4:
+        non_striker: CDJ Dent
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 0.5:
+        non_striker: CDJ Dent
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 0.6:
+        non_striker: CDJ Dent
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 1.1:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CDJ Dent
+    - 1.2:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CDJ Dent
+    - 1.3:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CDJ Dent
+    - 1.4:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CDJ Dent
+    - 1.5:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CDJ Dent
+    - 1.6:
+        non_striker: G Roelofsen
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CDJ Dent
+        wicket:
+          player_out: CDJ Dent
+          fielders:
+          - CA Ingram
+          kind: caught
+    - 2.1:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 2.2:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+        wicket:
+          player_out: G Roelofsen
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 2.3:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 2.4:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 2.5:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 2.6:
+        non_striker: Miles Hammond
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 3.1:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          kind: lbw
+    - 3.2:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 3.3:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 3.4:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 3.5:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 3.6:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 4.1:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 4.2:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 4.3:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 4.4:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 4.5:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 4.6:
+        non_striker: OJ Price
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 5.1:
+        non_striker: JMR Taylor
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: OJ Price
+    - 5.2:
+        non_striker: OJ Price
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 5.3:
+        non_striker: JMR Taylor
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 5.4:
+        non_striker: JMR Taylor
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 5.5:
+        non_striker: OJ Price
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 5.6:
+        non_striker: OJ Price
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 6.1:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 6.2:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 6.3:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 6.4:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 6.5:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+        wicket:
+          player_out: JMR Taylor
+          fielders:
+          - SA Northeast
+          kind: caught
+    - 6.6:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 7.1:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 7.2:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 7.3:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 7.4:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 7.5:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 7.6:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 8.1:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 8.2:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 8.3:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 8.4:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 8.5:
+        non_striker: OJ Price
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 8.6:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 9.1:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 9.2:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 9.3:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 9.4:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 9.5:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 9.6:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 10.1:
+        non_striker: OJ Price
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 10.2:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Price
+    - 10.3:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 10.4:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 10.5:
+        non_striker: OJ Price
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 10.6:
+        non_striker: OJ Price
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 11.1:
+        non_striker: BG Charlesworth
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 11.2:
+        non_striker: BG Charlesworth
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 11.3:
+        non_striker: OJ Price
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 11.4:
+        non_striker: OJ Price
+        bowler: BI Kellaway
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BG Charlesworth
+    - 11.5:
+        non_striker: BG Charlesworth
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 11.6:
+        non_striker: OJ Price
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 12.1:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BG Charlesworth
+    - 12.2:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 12.3:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 12.4:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 12.5:
+        non_striker: OJ Price
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 12.6:
+        non_striker: BG Charlesworth
+        bowler: P Sisodiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 13.1:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 13.2:
+        non_striker: OJ Price
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 13.3:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+        wicket:
+          player_out: OJ Price
+          fielders:
+          - KS Carlson
+          kind: caught
+    - 13.4:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 13.5:
+        non_striker: GL van Buuren
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 13.6:
+        non_striker: GL van Buuren
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 14.1:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.2:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 14.3:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 14.4:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.5:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 14.6:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 15.1:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 15.2:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 15.3:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 15.4:
+        non_striker: BG Charlesworth
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 15.5:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 15.6:
+        non_striker: GL van Buuren
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 16.1:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 16.2:
+        non_striker: GL van Buuren
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 16.3:
+        non_striker: GL van Buuren
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 16.4:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 16.5:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GL van Buuren
+    - 16.6:
+        non_striker: BG Charlesworth
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 17.1:
+        non_striker: GL van Buuren
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 17.2:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 17.3:
+        non_striker: GL van Buuren
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 17.4:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: GL van Buuren
+    - 17.5:
+        non_striker: GL van Buuren
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 17.6:
+        non_striker: GL van Buuren
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 18.1:
+        non_striker: BG Charlesworth
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 18.2:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 18.3:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          kind: caught and bowled
+    - 18.4:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Gohar
+    - 18.5:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Gohar
+        wicket:
+          player_out: Zafar Gohar
+          fielders:
+          - RAJ Smith
+          kind: caught
+    - 18.6:
+        non_striker: GL van Buuren
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+        wicket:
+          player_out: MD Taylor
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 19.1:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GL van Buuren
+    - 19.2:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 19.3:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 19.4:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GL van Buuren
+    - 19.5:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 19.6:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 19.7:
+        non_striker: DA Payne
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+        wicket:
+          player_out: DA Payne
+          fielders:
+          - KS Carlson
+          kind: run out
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 0.2:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+    - 0.3:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EJ Byrom
+    - 0.4:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Byrom
+    - 0.5:
+        non_striker: EJ Byrom
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 0.6:
+        non_striker: SA Northeast
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Byrom
+    - 1.1:
+        non_striker: EJ Byrom
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 1.2:
+        non_striker: EJ Byrom
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 1.3:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Byrom
+        wicket:
+          player_out: EJ Byrom
+          fielders:
+          - GL van Buuren
+          kind: caught
+    - 1.4:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Northeast
+    - 1.6:
+        non_striker: SA Northeast
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 2.1:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 2.2:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          fielders:
+          - MD Taylor
+          kind: caught
+    - 2.3:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 2.4:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.5:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.6:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 3.1:
+        non_striker: KS Carlson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 3.2:
+        non_striker: KS Carlson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 3.3:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 3.4:
+        non_striker: KS Carlson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 3.5:
+        non_striker: KS Carlson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 3.6:
+        non_striker: KS Carlson
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 4.1:
+        non_striker: KS Carlson
+        bowler: BG Charlesworth
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: CA Ingram
+    - 4.2:
+        non_striker: CA Ingram
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 4.3:
+        non_striker: CA Ingram
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 4.4:
+        non_striker: KS Carlson
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 4.5:
+        non_striker: CA Ingram
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 4.6:
+        non_striker: CA Ingram
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 4.7:
+        non_striker: KS Carlson
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 5.1:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 5.2:
+        non_striker: KS Carlson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 5.3:
+        non_striker: KS Carlson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 5.4:
+        non_striker: KS Carlson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 5.5:
+        non_striker: KS Carlson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.6:
+        non_striker: KS Carlson
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.1:
+        non_striker: KS Carlson
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.2:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 6.3:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 6.4:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 6.5:
+        non_striker: KS Carlson
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 6.6:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 7.1:
+        non_striker: KS Carlson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 7.2:
+        non_striker: KS Carlson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 7.3:
+        non_striker: CA Ingram
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 7.4:
+        non_striker: CA Ingram
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 7.5:
+        non_striker: CA Ingram
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 7.6:
+        non_striker: KS Carlson
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 8.1:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 8.2:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - Zafar Gohar
+          kind: caught
+    - 8.3:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 8.4:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 8.5:
+        non_striker: CB Cooke
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.6:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 9.1:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.2:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 9.3:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.4:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 9.5:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 9.6:
+        non_striker: CB Cooke
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 10.1:
+        non_striker: CA Ingram
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 10.2:
+        non_striker: CA Ingram
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 10.3:
+        non_striker: CB Cooke
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 10.4:
+        non_striker: CA Ingram
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 10.5:
+        non_striker: CA Ingram
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 10.6:
+        non_striker: CB Cooke
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 11.1:
+        non_striker: CA Ingram
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.2:
+        non_striker: CB Cooke
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 11.3:
+        non_striker: CB Cooke
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 11.4:
+        non_striker: CA Ingram
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 11.5:
+        non_striker: CA Ingram
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 11.6:
+        non_striker: CB Cooke
+        bowler: BG Charlesworth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 12.1:
+        non_striker: CB Cooke
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 12.2:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 12.3:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 12.4:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 12.5:
+        non_striker: CB Cooke
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 12.6:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 13.1:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 13.2:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          kind: caught and bowled
+    - 13.3:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 13.4:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 13.5:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: BI Kellaway
+    - 13.6:
+        non_striker: BI Kellaway
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 14.1:
+        non_striker: BI Kellaway
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 14.2:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 14.3:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 14.4:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+        wicket:
+          player_out: BI Kellaway
+          kind: bowled
+    - 14.5:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 14.6:
+        non_striker: CA Ingram
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 15.1:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 15.2:
+        non_striker: CA Ingram
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 15.3:
+        non_striker: DA Douthwaite
+        bowler: OJ Price
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CA Ingram
+    - 15.4:
+        non_striker: DA Douthwaite
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - BG Charlesworth
+          kind: caught
+    - 15.5:
+        non_striker: DA Douthwaite
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.6:
+        non_striker: T van der Gugten
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 15.7:
+        non_striker: DA Douthwaite
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 16.1:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 16.2:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 16.3:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 16.4:
+        non_striker: T van der Gugten
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 16.5:
+        non_striker: DA Douthwaite
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 16.6:
+        non_striker: T van der Gugten
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+        wicket:
+          player_out: DA Douthwaite
+          fielders:
+          - CDJ Dent
+          kind: caught
+    - 17.1:
+        non_striker: P Sisodiya
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 17.2:
+        non_striker: T van der Gugten
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Sisodiya
+    - 17.3:
+        non_striker: P Sisodiya
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 17.4:
+        non_striker: P Sisodiya
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 17.5:
+        non_striker: T van der Gugten
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Sisodiya
+    - 17.6:
+        non_striker: P Sisodiya
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 18.1:
+        non_striker: T van der Gugten
+        bowler: Zafar Gohar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: P Sisodiya
+    - 18.2:
+        non_striker: P Sisodiya
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 18.3:
+        non_striker: T van der Gugten
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+    - 18.4:
+        non_striker: T van der Gugten
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Sisodiya
+        wicket:
+          player_out: P Sisodiya
+          kind: bowled
+    - 18.5:
+        non_striker: T van der Gugten
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+    - 18.6:
+        non_striker: T van der Gugten
+        bowler: Zafar Gohar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RAJ Smith
+    - 18.7:
+        non_striker: T van der Gugten
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RAJ Smith
+    - 19.1:
+        non_striker: RAJ Smith
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten

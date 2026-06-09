@@ -1,0 +1,2138 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-14'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Birmingham
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-14'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Nottinghamshire
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Birmingham Bears:
+    - AL Davies
+    - TWM Latham
+    - DR Mousley
+    - SR Hain
+    - GHS Garton
+    - EG Barnard
+    - MM Ali
+    - Hasan Ali
+    - K Smith
+    - DR Briggs
+    - JB Lintott
+    Nottinghamshire:
+    - JM Clarke
+    - LW James
+    - JPH Hayes
+    - FW McCann
+    - TJ Moores
+    - DR Sams
+    - M Montgomery
+    - CG Harrison
+    - LA Patterson-White
+    - Farhan Ahmed
+    - DY Pennington
+  registry:
+    people:
+      AL Davies: 29ede60b
+      CG Harrison: f655d740
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      DR Sams: caf69bf7
+      DY Pennington: 219cc59e
+      EG Barnard: a510bdd3
+      FW McCann: 353de846
+      Farhan Ahmed: 26f1d66c
+      GHS Garton: be869ccf
+      Hasan Ali: 2911de16
+      JB Lintott: e5218454
+      JM Clarke: 2eca67f5
+      JPH Hayes: b8529e99
+      James Middlebrook: ddcd1520
+      K Smith: ee6ebf47
+      LA Patterson-White: d48c0f40
+      LW James: 2baad3bd
+      M Montgomery: 7671203a
+      MM Ali: bb351c23
+      N Pratt: 01f65cd3
+      Phil Whitticase: 99d5f6fa
+      SR Hain: 67b9536c
+      TJ Moores: 85dcb721
+      TWM Latham: e824e6ee
+  teams:
+  - Birmingham Bears
+  - Nottinghamshire
+  toss:
+    winner: Nottinghamshire
+    decision: field
+  umpires:
+  - James Middlebrook
+  - N Pratt
+  venue: Edgbaston, Birmingham
+innings:
+- 1st innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.2:
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.3:
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.4:
+        non_striker: AL Davies
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 0.5:
+        non_striker: TWM Latham
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 0.6:
+        non_striker: TWM Latham
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 1.1:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 1.2:
+        non_striker: AL Davies
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 1.3:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 1.4:
+        non_striker: AL Davies
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 1.5:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.6:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          kind: bowled
+    - 2.1:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DR Mousley
+        batsman: TWM Latham
+    - 2.2:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DR Mousley
+        batsman: TWM Latham
+    - 2.3:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: DR Mousley
+        batsman: TWM Latham
+    - 2.4:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 2.5:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TWM Latham
+    - 2.6:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DR Mousley
+    - 3.1:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 3.2:
+        non_striker: DR Mousley
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 3.3:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 3.4:
+        non_striker: DR Mousley
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 3.5:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 3.6:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 4.1:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 4.2:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 4.3:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 4.4:
+        non_striker: TWM Latham
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.5:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TWM Latham
+    - 4.6:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 4.7:
+        non_striker: TWM Latham
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.1:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 5.2:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 5.3:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.4:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 5.5:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 5.6:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.1:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 6.2:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 6.3:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 6.4:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DR Mousley
+    - 6.5:
+        non_striker: DR Mousley
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 6.6:
+        non_striker: DR Mousley
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 7.1:
+        non_striker: DR Mousley
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 7.2:
+        non_striker: DR Mousley
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 7.3:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.4:
+        non_striker: DR Mousley
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 7.5:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 7.6:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 8.1:
+        non_striker: DR Mousley
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 8.2:
+        non_striker: DR Mousley
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 8.3:
+        non_striker: DR Mousley
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 8.4:
+        non_striker: DR Mousley
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 8.5:
+        non_striker: DR Mousley
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TWM Latham
+    - 8.6:
+        non_striker: DR Mousley
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 9.1:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 9.2:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 9.3:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 9.4:
+        non_striker: DR Mousley
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 9.5:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 9.6:
+        non_striker: TWM Latham
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Mousley
+    - 10.1:
+        non_striker: DR Mousley
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TWM Latham
+    - 10.2:
+        non_striker: DR Mousley
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TWM Latham
+    - 10.3:
+        non_striker: DR Mousley
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 10.4:
+        non_striker: DR Mousley
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 10.5:
+        non_striker: TWM Latham
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 10.6:
+        non_striker: TWM Latham
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.1:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 11.2:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.3:
+        non_striker: DR Mousley
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 11.4:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 11.5:
+        non_striker: DR Mousley
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 11.6:
+        non_striker: TWM Latham
+        bowler: Farhan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 12.1:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 12.2:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TWM Latham
+    - 12.3:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TWM Latham
+    - 12.4:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TWM Latham
+    - 12.5:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 12.6:
+        non_striker: TWM Latham
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 12.7:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TWM Latham
+    - 12.8:
+        non_striker: DR Mousley
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 13.1:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 13.2:
+        non_striker: TWM Latham
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 13.3:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+        wicket:
+          player_out: TWM Latham
+          fielders:
+          - CG Harrison
+          kind: caught
+    - 13.4:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 13.5:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 13.6:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.1:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.2:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 14.3:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.4:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 14.5:
+        non_striker: SR Hain
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 14.6:
+        non_striker: DR Mousley
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.1:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+        wicket:
+          player_out: SR Hain
+          kind: lbw
+    - 15.2:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GHS Garton
+    - 15.3:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 15.4:
+        non_striker: GHS Garton
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 15.5:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 15.6:
+        non_striker: DR Mousley
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          fielders:
+          - M Montgomery
+          kind: caught
+    - 16.1:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: EG Barnard
+        batsman: DR Mousley
+    - 16.2:
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: EG Barnard
+        batsman: DR Mousley
+    - 16.3:
+        non_striker: EG Barnard
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+        wicket:
+          player_out: DR Mousley
+          fielders:
+          - JM Clarke
+          kind: caught
+    - 16.4:
+        non_striker: EG Barnard
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MM Ali
+    - 16.5:
+        non_striker: EG Barnard
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 16.6:
+        non_striker: EG Barnard
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 17.1:
+        non_striker: EG Barnard
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MM Ali
+    - 17.2:
+        non_striker: EG Barnard
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MM Ali
+    - 17.3:
+        non_striker: EG Barnard
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MM Ali
+    - 17.4:
+        non_striker: MM Ali
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 17.5:
+        non_striker: MM Ali
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 17.6:
+        non_striker: EG Barnard
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MM Ali
+    - 18.1:
+        non_striker: MM Ali
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 18.2:
+        non_striker: MM Ali
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 18.3:
+        non_striker: MM Ali
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 18.4:
+        non_striker: MM Ali
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 18.5:
+        non_striker: MM Ali
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 18.6:
+        non_striker: MM Ali
+        bowler: DR Sams
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 19.1:
+        non_striker: EG Barnard
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MM Ali
+    - 19.2:
+        non_striker: EG Barnard
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+    - 19.3:
+        non_striker: EG Barnard
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MM Ali
+    - 19.4:
+        non_striker: EG Barnard
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MM Ali
+    - 19.5:
+        non_striker: EG Barnard
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MM Ali
+        wicket:
+          player_out: MM Ali
+          kind: bowled
+    - 19.6:
+        non_striker: EG Barnard
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+        wicket:
+          player_out: Hasan Ali
+          kind: caught and bowled
+- 2nd innings:
+    team: Nottinghamshire
+    deliveries:
+    - 0.1:
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: LW James
+        batsman: JM Clarke
+    - 0.2:
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: LW James
+        batsman: JM Clarke
+    - 0.3:
+        non_striker: JM Clarke
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 0.4:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 0.5:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 0.6:
+        non_striker: LW James
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.1:
+        non_striker: JM Clarke
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 1.2:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.3:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Clarke
+    - 1.4:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.5:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 1.6:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.7:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 2.1:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 2.2:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 2.3:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 2.4:
+        non_striker: JM Clarke
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 2.5:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 2.6:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 3.1:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 3.2:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 3.3:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+        wicket:
+          player_out: JM Clarke
+          kind: lbw
+    - 3.4:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JPH Hayes
+    - 3.5:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JPH Hayes
+    - 3.6:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JPH Hayes
+    - 4.1:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JPH Hayes
+    - 4.2:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JPH Hayes
+    - 4.3:
+        non_striker: JPH Hayes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 4.4:
+        non_striker: JPH Hayes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 4.5:
+        non_striker: JPH Hayes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 4.6:
+        non_striker: JPH Hayes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 5.1:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JPH Hayes
+        wicket:
+          player_out: JPH Hayes
+          kind: lbw
+    - 5.2:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 5.3:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FW McCann
+    - 5.4:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FW McCann
+    - 5.5:
+        non_striker: FW McCann
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 5.6:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FW McCann
+    - 6.1:
+        non_striker: FW McCann
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 6.2:
+        non_striker: FW McCann
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 6.3:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 6.4:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FW McCann
+    - 6.5:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: FW McCann
+    - 6.6:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FW McCann
+    - 6.7:
+        non_striker: FW McCann
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 7.1:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 7.2:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FW McCann
+    - 7.3:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FW McCann
+    - 7.4:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FW McCann
+    - 7.5:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 7.6:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: FW McCann
+    - 7.7:
+        non_striker: LW James
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FW McCann
+    - 8.1:
+        non_striker: LW James
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FW McCann
+    - 8.2:
+        non_striker: LW James
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FW McCann
+    - 8.3:
+        non_striker: FW McCann
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 8.4:
+        non_striker: FW McCann
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 8.5:
+        non_striker: LW James
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+    - 8.6:
+        non_striker: LW James
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FW McCann
+        wicket:
+          player_out: FW McCann
+          kind: lbw
+    - 9.1:
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TJ Moores
+        batsman: LW James
+    - 9.2:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 9.3:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 9.4:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 9.5:
+        non_striker: TJ Moores
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 9.6:
+        non_striker: TJ Moores
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.1:
+        non_striker: TJ Moores
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LW James
+    - 10.2:
+        non_striker: TJ Moores
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.3:
+        non_striker: LW James
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 10.4:
+        non_striker: TJ Moores
+        bowler: MM Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LW James
+    - 10.5:
+        non_striker: TJ Moores
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 10.6:
+        non_striker: LW James
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 10.7:
+        non_striker: TJ Moores
+        bowler: MM Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.1:
+        non_striker: TJ Moores
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.2:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TJ Moores
+    - 11.3:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 11.4:
+        non_striker: TJ Moores
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 11.5:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TJ Moores
+    - 11.6:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 12.1:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 12.2:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TJ Moores
+    - 12.3:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TJ Moores
+    - 12.4:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 12.5:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LW James
+    - 12.6:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 13.1:
+        non_striker: TJ Moores
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 13.2:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 13.3:
+        non_striker: TJ Moores
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 13.4:
+        non_striker: TJ Moores
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 13.5:
+        non_striker: TJ Moores
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 13.6:
+        non_striker: LW James
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 14.1:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 14.2:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 14.3:
+        non_striker: TJ Moores
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 14.4:
+        non_striker: TJ Moores
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 14.5:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 14.6:
+        non_striker: TJ Moores
+        bowler: DR Mousley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LW James
+    - 15.1:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 15.2:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 15.3:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 15.4:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 15.5:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 15.6:
+        non_striker: LW James
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 16.1:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 16.2:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TJ Moores
+    - 16.3:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 16.4:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 16.5:
+        non_striker: TJ Moores
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 16.6:
+        non_striker: LW James
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 17.1:
+        non_striker: TJ Moores
+        bowler: DR Mousley
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: LW James
+    - 17.2:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 17.3:
+        non_striker: TJ Moores
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LW James
+    - 17.4:
+        non_striker: TJ Moores
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 17.5:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TJ Moores
+    - 17.6:
+        non_striker: LW James
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 17.7:
+        non_striker: TJ Moores
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LW James
+    - 18.1:
+        non_striker: TJ Moores
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+    - 18.2:
+        non_striker: TJ Moores
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LW James
+        wicket:
+          player_out: LW James
+          fielders:
+          - Hasan Ali
+          kind: run out
+    - 18.3:
+        non_striker: TJ Moores
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 18.4:
+        non_striker: DR Sams
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TJ Moores
+    - 18.5:
+        non_striker: DR Sams
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TJ Moores
+    - 18.6:
+        non_striker: TJ Moores
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 19.1:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Sams
+    - 19.2:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 19.3:
+        non_striker: DR Sams
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 19.4:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Sams
+    - 19.5:
+        non_striker: TJ Moores
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Sams
+    - 19.6:
+        non_striker: DR Sams
+        bowler: EG Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TJ Moores

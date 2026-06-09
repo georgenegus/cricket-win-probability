@@ -1,0 +1,2098 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-09'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Birmingham
+  competition: Vitality Blast
+  dates:
+  - '2024-06-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Durham
+    by:
+      runs: 26
+  overs: 20
+  players:
+    Durham:
+    - G Clark
+    - AZ Lees
+    - DG Bedingham
+    - OG Robinson
+    - AJ Turner
+    - BA Raine
+    - HS Mustard
+    - P Coughlin
+    - MJ Potts
+    - CF Parkinson
+    - NA Sowter
+    Birmingham Bears:
+    - AL Davies
+    - RM Yates
+    - DR Mousley
+    - SR Hain
+    - JG Bethell
+    - CG Benjamin
+    - Aamer Jamal
+    - GHS Garton
+    - Hasan Ali
+    - JB Lintott
+    - DR Briggs
+  registry:
+    people:
+      AJ Turner: ff1e12a0
+      AL Davies: 29ede60b
+      AZ Lees: c9c0fe50
+      Aamer Jamal: a8e54ef4
+      BA Raine: 4c0f3806
+      CF Parkinson: aa1210d8
+      CG Benjamin: 95a15317
+      DG Bedingham: a1b69936
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      G Clark: 4fd09cfc
+      GHS Garton: be869ccf
+      HS Mustard: 24b07267
+      Hasan Ali: 2911de16
+      IL Herbert: 125f9f05
+      JB Lintott: e5218454
+      JG Bethell: 3c55c703
+      MJ Potts: 894b2d25
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      P Coughlin: '71440756'
+      RJ Bailey: 6bd04fa5
+      RM Yates: 3581a798
+      S Redfern: 5b038989
+      SR Hain: 67b9536c
+  teams:
+  - Durham
+  - Birmingham Bears
+  toss:
+    winner: Durham
+    decision: bat
+  umpires:
+  - RJ Bailey
+  - S Redfern
+  venue: Edgbaston, Birmingham
+innings:
+- 1st innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.2:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - JB Lintott
+          kind: caught
+    - 0.3:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 0.4:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 0.5:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 0.6:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 1.1:
+        non_striker: DG Bedingham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 1.2:
+        non_striker: DG Bedingham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.3:
+        non_striker: DG Bedingham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.4:
+        non_striker: DG Bedingham
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: AZ Lees
+    - 1.5:
+        non_striker: AZ Lees
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 1.6:
+        non_striker: AZ Lees
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 2.1:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 2.2:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 2.3:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 2.4:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 2.5:
+        non_striker: AZ Lees
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 2.6:
+        non_striker: DG Bedingham
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 3.1:
+        non_striker: AZ Lees
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 3.2:
+        non_striker: DG Bedingham
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 3.3:
+        non_striker: AZ Lees
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 3.4:
+        non_striker: AZ Lees
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 3.5:
+        non_striker: AZ Lees
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 3.6:
+        non_striker: DG Bedingham
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 4.1:
+        non_striker: AZ Lees
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+    - 4.2:
+        non_striker: AZ Lees
+        bowler: Aamer Jamal
+        runs:
+          extras: 2
+          total: 6
+          batsman: 4
+        extras:
+          noballs: 2
+        batsman: DG Bedingham
+    - 4.3:
+        non_striker: AZ Lees
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 4.4:
+        non_striker: DG Bedingham
+        bowler: Aamer Jamal
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: AZ Lees
+    - 4.5:
+        non_striker: AZ Lees
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 4.6:
+        non_striker: AZ Lees
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DG Bedingham
+    - 4.7:
+        non_striker: AZ Lees
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 4.8:
+        non_striker: AZ Lees
+        bowler: Aamer Jamal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 5.1:
+        non_striker: AZ Lees
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 5.2:
+        non_striker: DG Bedingham
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 5.3:
+        non_striker: AZ Lees
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 5.4:
+        non_striker: DG Bedingham
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 5.5:
+        non_striker: DG Bedingham
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          kind: lbw
+    - 5.6:
+        non_striker: DG Bedingham
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 6.1:
+        non_striker: OG Robinson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DG Bedingham
+    - 6.2:
+        non_striker: OG Robinson
+        bowler: JB Lintott
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DG Bedingham
+    - 6.3:
+        non_striker: OG Robinson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Bedingham
+    - 6.4:
+        non_striker: DG Bedingham
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 6.5:
+        non_striker: OG Robinson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Bedingham
+        wicket:
+          player_out: DG Bedingham
+          fielders:
+          - RM Yates
+          kind: caught
+    - 6.6:
+        non_striker: OG Robinson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 6.7:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 7.1:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 7.2:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 7.3:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AJ Turner
+    - 7.4:
+        non_striker: AJ Turner
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 7.5:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 7.6:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 8.1:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 8.2:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 8.3:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 8.4:
+        non_striker: OG Robinson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 8.5:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 8.6:
+        non_striker: OG Robinson
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 9.1:
+        non_striker: OG Robinson
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 9.2:
+        non_striker: OG Robinson
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    - 9.3:
+        non_striker: OG Robinson
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 9.4:
+        non_striker: AJ Turner
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 9.5:
+        non_striker: OG Robinson
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 9.6:
+        non_striker: AJ Turner
+        bowler: JG Bethell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 10.1:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 10.2:
+        non_striker: OG Robinson
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 10.3:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OG Robinson
+    - 10.4:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OG Robinson
+    - 10.5:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: OG Robinson
+    - 10.6:
+        non_striker: OG Robinson
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 11.1:
+        non_striker: AJ Turner
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 11.2:
+        non_striker: AJ Turner
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 11.3:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 11.4:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 11.5:
+        non_striker: OG Robinson
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 11.6:
+        non_striker: AJ Turner
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 12.1:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+        wicket:
+          player_out: OG Robinson
+          fielders:
+          - JG Bethell
+          kind: caught
+    - 12.2:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 12.3:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 12.4:
+        non_striker: BA Raine
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: AJ Turner
+    - 12.5:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 12.6:
+        non_striker: AJ Turner
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Raine
+    - 13.1:
+        non_striker: BA Raine
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 13.2:
+        non_striker: BA Raine
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.3:
+        non_striker: AJ Turner
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 13.4:
+        non_striker: BA Raine
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 13.5:
+        non_striker: BA Raine
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.6:
+        non_striker: AJ Turner
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 14.1:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 14.2:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BA Raine
+    - 14.3:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+        wicket:
+          player_out: BA Raine
+          kind: bowled
+    - 14.4:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: HS Mustard
+    - 14.5:
+        non_striker: HS Mustard
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 14.6:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HS Mustard
+    - 14.7:
+        non_striker: AJ Turner
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HS Mustard
+    - 15.1:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HS Mustard
+    - 15.2:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HS Mustard
+    - 15.3:
+        non_striker: AJ Turner
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HS Mustard
+    - 15.4:
+        non_striker: HS Mustard
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+        wicket:
+          player_out: AJ Turner
+          fielders:
+          - DR Briggs
+          kind: caught
+    - 15.5:
+        non_striker: HS Mustard
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Coughlin
+    - 15.6:
+        non_striker: HS Mustard
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 16.1:
+        non_striker: HS Mustard
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 16.2:
+        non_striker: P Coughlin
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HS Mustard
+    - 16.3:
+        non_striker: P Coughlin
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HS Mustard
+    - 16.4:
+        non_striker: P Coughlin
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HS Mustard
+    - 16.5:
+        non_striker: HS Mustard
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 16.6:
+        non_striker: P Coughlin
+        bowler: Hasan Ali
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: HS Mustard
+    - 16.7:
+        non_striker: P Coughlin
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HS Mustard
+        wicket:
+          player_out: HS Mustard
+          kind: bowled
+    - 17.1:
+        non_striker: MJ Potts
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 17.2:
+        non_striker: P Coughlin
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Potts
+    - 17.3:
+        non_striker: MJ Potts
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Coughlin
+    - 17.4:
+        non_striker: MJ Potts
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 17.5:
+        non_striker: P Coughlin
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Potts
+    - 17.6:
+        non_striker: MJ Potts
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 18.1:
+        non_striker: MJ Potts
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 18.2:
+        non_striker: P Coughlin
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Potts
+    - 18.3:
+        non_striker: MJ Potts
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: P Coughlin
+    - 18.4:
+        non_striker: MJ Potts
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Coughlin
+    - 18.5:
+        non_striker: MJ Potts
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Coughlin
+    - 18.6:
+        non_striker: MJ Potts
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Coughlin
+    - 18.7:
+        non_striker: P Coughlin
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Potts
+    - 19.1:
+        non_striker: MJ Potts
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Coughlin
+    - 19.2:
+        non_striker: MJ Potts
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Coughlin
+        wicket:
+          player_out: P Coughlin
+          fielders:
+          - SR Hain
+          kind: caught
+    - 19.3:
+        non_striker: MJ Potts
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 19.4:
+        non_striker: CF Parkinson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Potts
+    - 19.5:
+        non_striker: CF Parkinson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Potts
+    - 19.6:
+        non_striker: CF Parkinson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Potts
+        wicket:
+          player_out: MJ Potts
+          fielders:
+          - DR Mousley
+          kind: run out
+- 2nd innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        non_striker: RM Yates
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 0.2:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RM Yates
+    - 0.3:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+        wicket:
+          player_out: RM Yates
+          kind: lbw
+    - 0.4:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 0.5:
+        non_striker: DR Mousley
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 0.6:
+        non_striker: DR Mousley
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 0.7:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 1.1:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 1.2:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.3:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 1.4:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AL Davies
+    - 1.5:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.6:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 2.1:
+        non_striker: AL Davies
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 2.2:
+        non_striker: AL Davies
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 2.3:
+        non_striker: DR Mousley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 2.4:
+        non_striker: DR Mousley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 2.5:
+        non_striker: DR Mousley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 2.6:
+        non_striker: DR Mousley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 3.1:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 3.2:
+        non_striker: DR Mousley
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 3.3:
+        non_striker: DR Mousley
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 3.4:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.5:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 3.6:
+        non_striker: AL Davies
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.1:
+        non_striker: AL Davies
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 4.2:
+        non_striker: AL Davies
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.3:
+        non_striker: DR Mousley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AL Davies
+    - 4.4:
+        non_striker: DR Mousley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 4.5:
+        non_striker: AL Davies
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.6:
+        non_striker: DR Mousley
+        bowler: P Coughlin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 5.1:
+        non_striker: AL Davies
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.2:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 5.3:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 5.4:
+        non_striker: AL Davies
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 5.5:
+        non_striker: AL Davies
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.6:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 6.1:
+        non_striker: DR Mousley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 6.2:
+        non_striker: DR Mousley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 6.3:
+        non_striker: AL Davies
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.4:
+        non_striker: DR Mousley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 6.5:
+        non_striker: AL Davies
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 6.6:
+        non_striker: AL Davies
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.1:
+        non_striker: AL Davies
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 7.2:
+        non_striker: AL Davies
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.3:
+        non_striker: DR Mousley
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 7.4:
+        non_striker: AL Davies
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+        wicket:
+          player_out: DR Mousley
+          kind: lbw
+    - 7.5:
+        non_striker: AL Davies
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.6:
+        non_striker: SR Hain
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 8.1:
+        non_striker: AL Davies
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.2:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 8.3:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 8.4:
+        non_striker: AL Davies
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.5:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 8.6:
+        non_striker: AL Davies
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 9.1:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          fielders:
+          - OG Robinson
+          kind: stumped
+    - 9.2:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 9.3:
+        non_striker: JG Bethell
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.4:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 9.5:
+        non_striker: JG Bethell
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.6:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 10.1:
+        non_striker: SR Hain
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 10.2:
+        non_striker: JG Bethell
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.3:
+        non_striker: SR Hain
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JG Bethell
+    - 10.4:
+        non_striker: SR Hain
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 10.5:
+        non_striker: JG Bethell
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.6:
+        non_striker: SR Hain
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 11.1:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JG Bethell
+    - 11.2:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 11.3:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JG Bethell
+    - 11.4:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 11.5:
+        non_striker: JG Bethell
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.6:
+        non_striker: SR Hain
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 12.1:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 12.2:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JG Bethell
+    - 12.3:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 12.4:
+        non_striker: JG Bethell
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+        wicket:
+          player_out: SR Hain
+          fielders:
+          - MJ Potts
+          kind: caught
+    - 12.5:
+        non_striker: JG Bethell
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 12.6:
+        non_striker: CG Benjamin
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 13.1:
+        non_striker: CG Benjamin
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 13.2:
+        non_striker: CG Benjamin
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 13.3:
+        non_striker: JG Bethell
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 13.4:
+        non_striker: CG Benjamin
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 13.5:
+        non_striker: CG Benjamin
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JG Bethell
+    - 13.6:
+        non_striker: CG Benjamin
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 14.1:
+        non_striker: CG Benjamin
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 14.2:
+        non_striker: JG Bethell
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 14.3:
+        non_striker: CG Benjamin
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JG Bethell
+    - 14.4:
+        non_striker: CG Benjamin
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 14.5:
+        non_striker: JG Bethell
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 14.6:
+        non_striker: CG Benjamin
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JG Bethell
+    - 15.1:
+        non_striker: JG Bethell
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+        wicket:
+          player_out: CG Benjamin
+          kind: bowled
+    - 15.2:
+        non_striker: JG Bethell
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamer Jamal
+        wicket:
+          player_out: Aamer Jamal
+          kind: bowled
+    - 15.3:
+        non_striker: JG Bethell
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GHS Garton
+    - 15.4:
+        non_striker: JG Bethell
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 15.5:
+        non_striker: JG Bethell
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 15.6:
+        non_striker: GHS Garton
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 16.1:
+        non_striker: GHS Garton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 16.2:
+        non_striker: GHS Garton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JG Bethell
+    - 16.3:
+        non_striker: GHS Garton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 16.4:
+        non_striker: JG Bethell
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GHS Garton
+    - 16.5:
+        non_striker: JG Bethell
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 16.6:
+        non_striker: GHS Garton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 17.1:
+        non_striker: GHS Garton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 17.2:
+        non_striker: JG Bethell
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 17.3:
+        non_striker: GHS Garton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+        wicket:
+          player_out: JG Bethell
+          fielders:
+          - CF Parkinson
+          kind: caught
+    - 17.4:
+        non_striker: GHS Garton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+        wicket:
+          player_out: Hasan Ali
+          fielders:
+          - P Coughlin
+          kind: caught
+    - 17.5:
+        non_striker: GHS Garton
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JB Lintott
+    - 17.6:
+        non_striker: JB Lintott
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 18.1:
+        non_striker: GHS Garton
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JB Lintott
+        wicket:
+          player_out: JB Lintott
+          kind: bowled
+    - 18.2:
+        non_striker: GHS Garton
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Briggs
+    - 18.3:
+        non_striker: DR Briggs
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 18.4:
+        non_striker: DR Briggs
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          kind: bowled

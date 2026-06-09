@@ -1,0 +1,2169 @@
+---
+meta:
+  data_version: 0.92
+  created: '2026-06-01'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Manchester
+  competition: Vitality Blast Men
+  dates:
+  - '2026-05-29'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Leicestershire
+    by:
+      wickets: 2
+  overs: 20
+  players:
+    Lancashire:
+    - KK Jennings
+    - MF Hurst
+    - LS Livingstone
+    - BR McDermott
+    - J Moores
+    - CJ Green
+    - Harry Singh
+    - TW Hartley
+    - GP Balderson
+    - TH Aspinwall
+    - S Mahmood
+    Leicestershire:
+    - SS Eskinazi
+    - BWM Mike
+    - RK Patel
+    - NF Kelly
+    - AJ Turner
+    - OB Cox
+    - BGF Green
+    - L Trevaskis
+    - IG Holland
+    - JH Davey
+    - SG Budinger
+  registry:
+    people:
+      AJ Swann: f9d218a7
+      AJ Turner: ff1e12a0
+      BGF Green: 34b37279
+      BR McDermott: c41043e6
+      BWM Mike: ed12fcd7
+      CJ Green: 19b9f399
+      GP Balderson: 23dee937
+      Harry Singh: fdd5ba1e
+      IG Holland: 4167f30b
+      J Moores: e24cf4d5
+      JH Davey: d3868bd0
+      KK Jennings: 8479a24a
+      L Trevaskis: b5781ac3
+      LS Livingstone: 50c6bc2b
+      MF Hurst: 40e4cf47
+      NF Kelly: 97f437ed
+      Naeem Ashraf: 1866938c
+      OB Cox: 324a6ee1
+      PR Pollard: 85d884bb
+      RK Patel: 4531f249
+      S Mahmood: 0f6db197
+      SG Budinger: bfc60227
+      SS Eskinazi: 75cbed9b
+      TH Aspinwall: 00b195ae
+      TW Hartley: 22b98d7c
+  teams:
+  - Lancashire
+  - Leicestershire
+  toss:
+    winner: Lancashire
+    decision: bat
+  umpires:
+  - Naeem Ashraf
+  - PR Pollard
+  venue: Old Trafford, Manchester
+innings:
+- 1st innings:
+    team: Lancashire
+    deliveries:
+    - 0.1:
+        non_striker: MF Hurst
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 0.2:
+        non_striker: KK Jennings
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 0.3:
+        non_striker: MF Hurst
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 0.4:
+        non_striker: KK Jennings
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 0.5:
+        non_striker: KK Jennings
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+        wicket:
+          player_out: MF Hurst
+          fielders:
+          - RK Patel
+          kind: caught
+    - 0.6:
+        non_striker: KK Jennings
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 1.1:
+        non_striker: KK Jennings
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 1.2:
+        non_striker: KK Jennings
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 1.3:
+        non_striker: KK Jennings
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 1.4:
+        non_striker: KK Jennings
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 1.5:
+        non_striker: KK Jennings
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 1.6:
+        non_striker: KK Jennings
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LS Livingstone
+    - 2.1:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 2.2:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 2.3:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 2.4:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 2.5:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 2.6:
+        non_striker: KK Jennings
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+    - 3.1:
+        non_striker: LS Livingstone
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 3.2:
+        non_striker: LS Livingstone
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 3.3:
+        non_striker: LS Livingstone
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 3.4:
+        non_striker: KK Jennings
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 3.5:
+        non_striker: LS Livingstone
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+        wicket:
+          player_out: KK Jennings
+          kind: bowled
+    - 3.6:
+        non_striker: LS Livingstone
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+    - 4.1:
+        non_striker: BR McDermott
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LS Livingstone
+    - 4.2:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+    - 4.3:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+    - 4.4:
+        non_striker: LS Livingstone
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 4.5:
+        non_striker: BR McDermott
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LS Livingstone
+        wicket:
+          player_out: LS Livingstone
+          fielders:
+          - BWM Mike
+          kind: caught
+    - 4.6:
+        non_striker: BR McDermott
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 5.1:
+        non_striker: BR McDermott
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 5.2:
+        non_striker: BR McDermott
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 5.3:
+        non_striker: J Moores
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+    - 5.4:
+        non_striker: J Moores
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+    - 5.5:
+        non_striker: J Moores
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 5.6:
+        non_striker: BR McDermott
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 6.1:
+        non_striker: J Moores
+        bowler: BGF Green
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: BR McDermott
+    - 6.2:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+    - 6.3:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BR McDermott
+    - 6.4:
+        non_striker: J Moores
+        bowler: BGF Green
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: BR McDermott
+    - 6.5:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+        wicket:
+          player_out: BR McDermott
+          fielders:
+          - IG Holland
+          kind: caught
+    - 6.6:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 6.7:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 6.8:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 7.1:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 7.2:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 7.3:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 7.4:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 7.5:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 7.6:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 8.1:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 8.2:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 8.3:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 8.4:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 8.5:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Moores
+    - 8.6:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 9.1:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 9.2:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 9.3:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 9.4:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 9.5:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 9.6:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 10.1:
+        non_striker: CJ Green
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 10.2:
+        non_striker: J Moores
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 10.3:
+        non_striker: CJ Green
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 10.4:
+        non_striker: CJ Green
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Moores
+    - 10.5:
+        non_striker: CJ Green
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 10.6:
+        non_striker: CJ Green
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 11.1:
+        non_striker: J Moores
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 11.2:
+        non_striker: J Moores
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 11.3:
+        non_striker: CJ Green
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 11.4:
+        non_striker: CJ Green
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 11.5:
+        non_striker: CJ Green
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 11.6:
+        non_striker: J Moores
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 12.1:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Moores
+    - 12.2:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 12.3:
+        non_striker: J Moores
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 12.4:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 12.5:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Moores
+    - 12.6:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 13.1:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 13.2:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Moores
+    - 13.3:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+    - 13.4:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Moores
+    - 13.5:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: J Moores
+    - 13.6:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 14.1:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Moores
+    - 14.2:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 14.3:
+        non_striker: J Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.4:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Moores
+    - 14.5:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Moores
+    - 14.6:
+        non_striker: CJ Green
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 15.1:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Moores
+    - 15.2:
+        non_striker: J Moores
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.3:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Moores
+    - 15.4:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Moores
+        wicket:
+          player_out: J Moores
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 15.5:
+        non_striker: CJ Green
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harry Singh
+    - 15.6:
+        non_striker: Harry Singh
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 16.1:
+        non_striker: Harry Singh
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 16.2:
+        non_striker: CJ Green
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harry Singh
+    - 16.3:
+        non_striker: CJ Green
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harry Singh
+    - 16.4:
+        non_striker: CJ Green
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harry Singh
+    - 16.5:
+        non_striker: Harry Singh
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+        wicket:
+          player_out: CJ Green
+          fielders:
+          - NF Kelly
+          kind: caught
+    - 16.6:
+        non_striker: Harry Singh
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TW Hartley
+        wicket:
+          player_out: TW Hartley
+          fielders:
+          - OB Cox
+          kind: caught
+    - 17.1:
+        non_striker: GP Balderson
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harry Singh
+    - 17.2:
+        non_striker: Harry Singh
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GP Balderson
+    - 17.3:
+        non_striker: Harry Singh
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GP Balderson
+    - 17.4:
+        non_striker: Harry Singh
+        bowler: IG Holland
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GP Balderson
+    - 17.5:
+        non_striker: GP Balderson
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harry Singh
+    - 17.6:
+        non_striker: Harry Singh
+        bowler: IG Holland
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GP Balderson
+    - 17.7:
+        non_striker: Harry Singh
+        bowler: IG Holland
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 18.1:
+        non_striker: Harry Singh
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 18.2:
+        non_striker: GP Balderson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harry Singh
+    - 18.3:
+        non_striker: Harry Singh
+        bowler: JH Davey
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GP Balderson
+    - 18.4:
+        non_striker: Harry Singh
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GP Balderson
+    - 18.5:
+        non_striker: Harry Singh
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 18.6:
+        non_striker: GP Balderson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harry Singh
+        wicket:
+          player_out: Harry Singh
+          fielders:
+          - BWM Mike
+          - OB Cox
+          kind: run out
+    - 18.7:
+        non_striker: GP Balderson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH Aspinwall
+    - 19.1:
+        non_striker: TH Aspinwall
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GP Balderson
+    - 19.2:
+        non_striker: GP Balderson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH Aspinwall
+    - 19.3:
+        non_striker: GP Balderson
+        bowler: BGF Green
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: TH Aspinwall
+    - 19.4:
+        non_striker: TH Aspinwall
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GP Balderson
+    - 19.5:
+        non_striker: TH Aspinwall
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GP Balderson
+    - 19.6:
+        non_striker: TH Aspinwall
+        bowler: BGF Green
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GP Balderson
+    - 19.7:
+        non_striker: TH Aspinwall
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GP Balderson
+        wicket:
+          player_out: GP Balderson
+          kind: bowled
+- 2nd innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        non_striker: BWM Mike
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 0.2:
+        non_striker: BWM Mike
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 0.3:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 0.4:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 0.5:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 0.6:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BWM Mike
+    - 1.1:
+        non_striker: BWM Mike
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 1.2:
+        non_striker: BWM Mike
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 1.3:
+        non_striker: SS Eskinazi
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 1.4:
+        non_striker: SS Eskinazi
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BWM Mike
+    - 1.5:
+        non_striker: SS Eskinazi
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BWM Mike
+    - 1.6:
+        non_striker: BWM Mike
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 2.1:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BWM Mike
+    - 2.2:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BWM Mike
+    - 2.3:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BWM Mike
+    - 2.4:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+    - 2.5:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BWM Mike
+        wicket:
+          player_out: BWM Mike
+          fielders:
+          - GP Balderson
+          kind: caught
+    - 2.6:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 3.1:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 3.2:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Eskinazi
+    - 3.3:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 3.4:
+        non_striker: SS Eskinazi
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 3.5:
+        non_striker: SS Eskinazi
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 3.6:
+        non_striker: SS Eskinazi
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 4.1:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 4.2:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 4.3:
+        non_striker: SS Eskinazi
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 4.4:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 4.5:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 4.6:
+        non_striker: SS Eskinazi
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 5.1:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 5.2:
+        non_striker: RK Patel
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Eskinazi
+    - 5.3:
+        non_striker: RK Patel
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 5.4:
+        non_striker: RK Patel
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 5.5:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 5.6:
+        non_striker: SS Eskinazi
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 6.1:
+        non_striker: SS Eskinazi
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 6.2:
+        non_striker: SS Eskinazi
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 6.3:
+        non_striker: SS Eskinazi
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 6.4:
+        non_striker: SS Eskinazi
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 6.5:
+        non_striker: RK Patel
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 6.6:
+        non_striker: SS Eskinazi
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 7.1:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+    - 7.2:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Eskinazi
+    - 7.3:
+        non_striker: SS Eskinazi
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.4:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Eskinazi
+        wicket:
+          player_out: SS Eskinazi
+          fielders:
+          - J Moores
+          kind: caught
+    - 7.5:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NF Kelly
+    - 7.6:
+        non_striker: RK Patel
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 8.1:
+        non_striker: RK Patel
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 8.2:
+        non_striker: RK Patel
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 8.3:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 8.4:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 8.5:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RK Patel
+    - 8.6:
+        non_striker: RK Patel
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 9.1:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 9.2:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NF Kelly
+    - 9.3:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 9.4:
+        non_striker: RK Patel
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 9.5:
+        non_striker: NF Kelly
+        bowler: GP Balderson
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RK Patel
+    - 9.6:
+        non_striker: NF Kelly
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 9.7:
+        non_striker: NF Kelly
+        bowler: GP Balderson
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RK Patel
+    - 9.8:
+        non_striker: NF Kelly
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 10.1:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 10.2:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 10.3:
+        non_striker: RK Patel
+        bowler: CJ Green
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: NF Kelly
+    - 10.4:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 10.5:
+        non_striker: RK Patel
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 10.6:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 11.1:
+        non_striker: RK Patel
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 11.2:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 11.3:
+        non_striker: RK Patel
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 11.4:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 11.5:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          fielders:
+          - Harry Singh
+          kind: caught
+    - 11.6:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 12.1:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 12.2:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 12.3:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 12.4:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 12.5:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NF Kelly
+    - 12.6:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 13.1:
+        non_striker: AJ Turner
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 13.2:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 13.3:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.4:
+        non_striker: AJ Turner
+        bowler: LS Livingstone
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: NF Kelly
+    - 13.5:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    - 13.6:
+        non_striker: NF Kelly
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.7:
+        non_striker: AJ Turner
+        bowler: LS Livingstone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 14.1:
+        non_striker: AJ Turner
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 14.2:
+        non_striker: NF Kelly
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 14.3:
+        non_striker: AJ Turner
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 14.4:
+        non_striker: AJ Turner
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 14.5:
+        non_striker: AJ Turner
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 14.6:
+        non_striker: NF Kelly
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 15.1:
+        non_striker: NF Kelly
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 15.2:
+        non_striker: NF Kelly
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 15.3:
+        non_striker: AJ Turner
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 15.4:
+        non_striker: NF Kelly
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 15.5:
+        non_striker: NF Kelly
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 15.6:
+        non_striker: AJ Turner
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 16.1:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 16.2:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NF Kelly
+    - 16.3:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+    - 16.4:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NF Kelly
+    - 16.5:
+        non_striker: NF Kelly
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 16.6:
+        non_striker: AJ Turner
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NF Kelly
+        wicket:
+          player_out: NF Kelly
+          kind: bowled
+    - 17.1:
+        non_striker: OB Cox
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+        wicket:
+          player_out: AJ Turner
+          fielders:
+          - MF Hurst
+          kind: caught
+    - 17.2:
+        non_striker: OB Cox
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+        wicket:
+          player_out: BGF Green
+          fielders:
+          - Harry Singh
+          kind: caught
+    - 17.3:
+        non_striker: OB Cox
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Trevaskis
+    - 17.4:
+        non_striker: OB Cox
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Trevaskis
+    - 17.5:
+        non_striker: OB Cox
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 17.6:
+        non_striker: L Trevaskis
+        bowler: S Mahmood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 18.1:
+        non_striker: L Trevaskis
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 18.2:
+        non_striker: L Trevaskis
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+        wicket:
+          player_out: OB Cox
+          fielders:
+          - MF Hurst
+          kind: caught
+    - 18.3:
+        non_striker: L Trevaskis
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IG Holland
+    - 18.4:
+        non_striker: IG Holland
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Trevaskis
+        wicket:
+          player_out: L Trevaskis
+          fielders:
+          - LS Livingstone
+          kind: caught
+    - 18.5:
+        non_striker: IG Holland
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Davey
+    - 18.6:
+        non_striker: JH Davey
+        bowler: GP Balderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IG Holland
+    - 19.1:
+        non_striker: JH Davey
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: IG Holland
+    - 19.2:
+        non_striker: JH Davey
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IG Holland
+    - 19.3:
+        non_striker: JH Davey
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IG Holland
+    - 19.4:
+        non_striker: IG Holland
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Davey
+    - 19.5:
+        non_striker: IG Holland
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Davey

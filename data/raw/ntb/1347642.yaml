@@ -1,0 +1,2174 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-25'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Brighton
+  competition: Vitality Blast
+  dates:
+  - '2023-06-16'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sussex
+    by:
+      runs: 6
+  overs: 20
+  player_of_match:
+  - BJ Currie
+  players:
+    Sussex:
+    - HD Ward
+    - TGR Clark
+    - OJ Carter
+    - RS Bopara
+    - Shadab Khan
+    - MGK Burgess
+    - D Ibrahim
+    - GHS Garton
+    - A Karvelas
+    - TS Mills
+    - BJ Currie
+    Hampshire:
+    - BR McDermott
+    - JM Vince
+    - TE Albert
+    - JJ Weatherley
+    - RA Whiteley
+    - LA Dawson
+    - JK Fuller
+    - BAC Howell
+    - CP Wood
+    - NT Ellis
+    - JA Turner
+  registry:
+    people:
+      A Karvelas: a5735bd3
+      BAC Howell: 0bec3a6c
+      BJ Currie: 2ecd844a
+      BR McDermott: c41043e6
+      BV Taylor: '99760152'
+      CP Wood: 1cfac535
+      D Ibrahim: 457cab44
+      GHS Garton: be869ccf
+      HD Ward: 9f7932a7
+      JA Turner: cdd875d9
+      JJ Weatherley: a05d0552
+      JK Fuller: dda5aae5
+      JM Vince: a15618fe
+      LA Dawson: 4a461c24
+      MGK Burgess: 715941c3
+      NJ Llong: 573fb985
+      NT Ellis: 9eb1455b
+      OJ Carter: 26db69e6
+      PK Baldwin: 6bb53c12
+      PM Such: c9f1892c
+      RA Whiteley: d346d939
+      RS Bopara: 7ca5e05d
+      Shadab Khan: 9de62878
+      TE Albert: a6c17509
+      TGR Clark: ed8faea2
+      TS Mills: 245c97cb
+  teams:
+  - Sussex
+  - Hampshire
+  toss:
+    winner: Hampshire
+    decision: field
+  umpires:
+  - BV Taylor
+  - NJ Llong
+  venue: County Ground, Hove
+innings:
+- 1st innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 0.2:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 0.3:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 0.4:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 0.5:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 0.6:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.1:
+        non_striker: HD Ward
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 1.2:
+        non_striker: TGR Clark
+        bowler: JA Turner
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: HD Ward
+    - 1.3:
+        non_striker: TGR Clark
+        bowler: JA Turner
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HD Ward
+    - 1.4:
+        non_striker: TGR Clark
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 1.5:
+        non_striker: TGR Clark
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+        wicket:
+          player_out: HD Ward
+          kind: lbw
+    - 1.6:
+        non_striker: TGR Clark
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 1.7:
+        non_striker: TGR Clark
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 1.8:
+        non_striker: TGR Clark
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 2.1:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 2.2:
+        non_striker: TGR Clark
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 2.3:
+        non_striker: OJ Carter
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          fielders:
+          - JK Fuller
+          kind: caught
+    - 2.4:
+        non_striker: OJ Carter
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 2.5:
+        non_striker: OJ Carter
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 2.6:
+        non_striker: OJ Carter
+        bowler: CP Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RS Bopara
+    - 3.1:
+        non_striker: OJ Carter
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.2:
+        non_striker: OJ Carter
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.3:
+        non_striker: OJ Carter
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.4:
+        non_striker: OJ Carter
+        bowler: JA Turner
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        extras:
+          byes: 1
+          noballs: 2
+        batsman: RS Bopara
+    - 3.5:
+        non_striker: RS Bopara
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 3.6:
+        non_striker: RS Bopara
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 3.7:
+        non_striker: RS Bopara
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 4.1:
+        non_striker: OJ Carter
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 4.2:
+        non_striker: OJ Carter
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 4.3:
+        non_striker: OJ Carter
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 4.4:
+        non_striker: OJ Carter
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 4.5:
+        non_striker: OJ Carter
+        bowler: JK Fuller
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RS Bopara
+    - 4.6:
+        non_striker: RS Bopara
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 5.1:
+        non_striker: RS Bopara
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 5.2:
+        non_striker: RS Bopara
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 5.3:
+        non_striker: OJ Carter
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 5.4:
+        non_striker: OJ Carter
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 5.5:
+        non_striker: RS Bopara
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 5.6:
+        non_striker: RS Bopara
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 6.1:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 6.2:
+        non_striker: RS Bopara
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 6.3:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 6.4:
+        non_striker: RS Bopara
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Carter
+    - 6.5:
+        non_striker: RS Bopara
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 6.6:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: RS Bopara
+    - 6.7:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 7.1:
+        non_striker: OJ Carter
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 7.2:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 7.3:
+        non_striker: OJ Carter
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 7.4:
+        non_striker: OJ Carter
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 7.5:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 7.6:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 8.1:
+        non_striker: RS Bopara
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 8.2:
+        non_striker: RS Bopara
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Carter
+    - 8.3:
+        non_striker: RS Bopara
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Carter
+    - 8.4:
+        non_striker: RS Bopara
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Carter
+    - 8.5:
+        non_striker: RS Bopara
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Carter
+    - 8.6:
+        non_striker: RS Bopara
+        bowler: JK Fuller
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 9.1:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 9.2:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 9.3:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Carter
+    - 9.4:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 9.5:
+        non_striker: OJ Carter
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 9.6:
+        non_striker: RS Bopara
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 10.1:
+        non_striker: OJ Carter
+        bowler: NT Ellis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RS Bopara
+    - 10.2:
+        non_striker: RS Bopara
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 10.3:
+        non_striker: OJ Carter
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 10.4:
+        non_striker: OJ Carter
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 10.5:
+        non_striker: OJ Carter
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 10.6:
+        non_striker: OJ Carter
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.1:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 11.2:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 11.3:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+        wicket:
+          player_out: RS Bopara
+          kind: bowled
+    - 11.4:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 11.5:
+        non_striker: Shadab Khan
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 11.6:
+        non_striker: OJ Carter
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 12.1:
+        non_striker: Shadab Khan
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+        wicket:
+          player_out: OJ Carter
+          fielders:
+          - NT Ellis
+          kind: caught
+    - 12.2:
+        non_striker: Shadab Khan
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 12.3:
+        non_striker: Shadab Khan
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 12.4:
+        non_striker: MGK Burgess
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 12.5:
+        non_striker: Shadab Khan
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 12.6:
+        non_striker: Shadab Khan
+        bowler: JA Turner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MGK Burgess
+    - 13.1:
+        non_striker: MGK Burgess
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 13.2:
+        non_striker: MGK Burgess
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 13.3:
+        non_striker: MGK Burgess
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 13.4:
+        non_striker: Shadab Khan
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 13.5:
+        non_striker: Shadab Khan
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 13.6:
+        non_striker: MGK Burgess
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 14.1:
+        non_striker: Shadab Khan
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MGK Burgess
+    - 14.2:
+        non_striker: Shadab Khan
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 14.3:
+        non_striker: MGK Burgess
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 14.4:
+        non_striker: Shadab Khan
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 14.5:
+        non_striker: MGK Burgess
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+        wicket:
+          player_out: Shadab Khan
+          fielders:
+          - JK Fuller
+          kind: caught
+    - 14.6:
+        non_striker: MGK Burgess
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ibrahim
+    - 15.1:
+        non_striker: MGK Burgess
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ibrahim
+    - 15.2:
+        non_striker: MGK Burgess
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ibrahim
+    - 15.3:
+        non_striker: MGK Burgess
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ibrahim
+    - 15.4:
+        non_striker: D Ibrahim
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 15.5:
+        non_striker: D Ibrahim
+        bowler: LA Dawson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 15.6:
+        non_striker: D Ibrahim
+        bowler: LA Dawson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: MGK Burgess
+    - 16.1:
+        non_striker: D Ibrahim
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 16.2:
+        non_striker: MGK Burgess
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ibrahim
+    - 16.3:
+        non_striker: MGK Burgess
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ibrahim
+    - 16.4:
+        non_striker: D Ibrahim
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 16.5:
+        non_striker: D Ibrahim
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 16.6:
+        non_striker: MGK Burgess
+        bowler: BAC Howell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ibrahim
+    - 17.1:
+        non_striker: D Ibrahim
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 17.2:
+        non_striker: D Ibrahim
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MGK Burgess
+    - 17.3:
+        non_striker: D Ibrahim
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 17.4:
+        non_striker: MGK Burgess
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ibrahim
+    - 17.5:
+        non_striker: MGK Burgess
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ibrahim
+    - 17.6:
+        non_striker: MGK Burgess
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ibrahim
+    - 18.1:
+        non_striker: MGK Burgess
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ibrahim
+    - 18.2:
+        non_striker: D Ibrahim
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 18.3:
+        non_striker: D Ibrahim
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 18.4:
+        non_striker: MGK Burgess
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ibrahim
+    - 18.5:
+        non_striker: MGK Burgess
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ibrahim
+    - 18.6:
+        non_striker: D Ibrahim
+        bowler: CP Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 19.1:
+        non_striker: D Ibrahim
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MGK Burgess
+    - 19.2:
+        non_striker: D Ibrahim
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 19.3:
+        non_striker: D Ibrahim
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 19.4:
+        non_striker: MGK Burgess
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ibrahim
+    - 19.5:
+        non_striker: MGK Burgess
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ibrahim
+        wicket:
+          player_out: D Ibrahim
+          kind: bowled
+    - 19.6:
+        non_striker: MGK Burgess
+        bowler: NT Ellis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+- 2nd innings:
+    team: Hampshire
+    deliveries:
+    - 0.1:
+        non_striker: JM Vince
+        bowler: A Karvelas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BR McDermott
+    - 0.2:
+        non_striker: BR McDermott
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 0.3:
+        non_striker: BR McDermott
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 0.4:
+        non_striker: BR McDermott
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Vince
+    - 0.5:
+        non_striker: BR McDermott
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 0.6:
+        non_striker: BR McDermott
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+    - 1.1:
+        non_striker: JM Vince
+        bowler: BJ Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BR McDermott
+    - 1.2:
+        non_striker: JM Vince
+        bowler: BJ Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BR McDermott
+    - 1.3:
+        non_striker: JM Vince
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 1.4:
+        non_striker: BR McDermott
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Vince
+        wicket:
+          player_out: JM Vince
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 1.5:
+        non_striker: BR McDermott
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TE Albert
+        wicket:
+          player_out: TE Albert
+          kind: bowled
+    - 1.6:
+        non_striker: BR McDermott
+        bowler: BJ Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JJ Weatherley
+    - 1.7:
+        non_striker: BR McDermott
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 1.8:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR McDermott
+    - 1.9:
+        non_striker: BR McDermott
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 2.1:
+        non_striker: JJ Weatherley
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR McDermott
+        wicket:
+          player_out: BR McDermott
+          kind: lbw
+    - 2.2:
+        non_striker: JJ Weatherley
+        bowler: A Karvelas
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: RA Whiteley
+    - 2.3:
+        non_striker: JJ Weatherley
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 2.4:
+        non_striker: JJ Weatherley
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Whiteley
+    - 2.5:
+        non_striker: RA Whiteley
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 2.6:
+        non_striker: RA Whiteley
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 2.7:
+        non_striker: RA Whiteley
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 3.1:
+        non_striker: RA Whiteley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 3.2:
+        non_striker: RA Whiteley
+        bowler: BJ Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JJ Weatherley
+    - 3.3:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+    - 3.4:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Whiteley
+        wicket:
+          player_out: RA Whiteley
+          kind: bowled
+    - 3.5:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 3.6:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Dawson
+    - 4.1:
+        non_striker: LA Dawson
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 4.2:
+        non_striker: LA Dawson
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 4.3:
+        non_striker: LA Dawson
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 4.4:
+        non_striker: LA Dawson
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 4.5:
+        non_striker: LA Dawson
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 4.6:
+        non_striker: JJ Weatherley
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Dawson
+    - 5.1:
+        non_striker: LA Dawson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 5.2:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 5.3:
+        non_striker: LA Dawson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 5.4:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 5.5:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 5.6:
+        non_striker: JJ Weatherley
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Dawson
+    - 6.1:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 6.2:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 6.3:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 6.4:
+        non_striker: JJ Weatherley
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 6.5:
+        non_striker: JJ Weatherley
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 6.6:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 7.1:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 7.2:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 7.3:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 7.4:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 7.5:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 7.6:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 8.1:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 8.2:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 8.3:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+    - 8.4:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Weatherley
+    - 8.5:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 8.6:
+        non_striker: JJ Weatherley
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Dawson
+    - 9.1:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 9.2:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: LA Dawson
+    - 9.3:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 9.4:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Weatherley
+    - 9.5:
+        non_striker: LA Dawson
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Weatherley
+    - 9.6:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 9.7:
+        non_striker: JJ Weatherley
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 10.1:
+        non_striker: JJ Weatherley
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 10.2:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Weatherley
+        wicket:
+          player_out: JJ Weatherley
+          kind: lbw
+    - 10.3:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 10.4:
+        non_striker: JK Fuller
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LA Dawson
+    - 10.5:
+        non_striker: JK Fuller
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 10.6:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 11.1:
+        non_striker: LA Dawson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 11.2:
+        non_striker: JK Fuller
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 11.3:
+        non_striker: LA Dawson
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JK Fuller
+    - 11.4:
+        non_striker: JK Fuller
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Dawson
+    - 11.5:
+        non_striker: JK Fuller
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 11.6:
+        non_striker: LA Dawson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 12.1:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 12.2:
+        non_striker: JK Fuller
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 12.3:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 12.4:
+        non_striker: JK Fuller
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Dawson
+    - 12.5:
+        non_striker: JK Fuller
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 12.6:
+        non_striker: LA Dawson
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 13.1:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JK Fuller
+    - 13.2:
+        non_striker: JK Fuller
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Dawson
+    - 13.3:
+        non_striker: JK Fuller
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+    - 13.4:
+        non_striker: JK Fuller
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 13.5:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JK Fuller
+        wicket:
+          player_out: JK Fuller
+          fielders:
+          - TS Mills
+          kind: caught
+    - 13.6:
+        non_striker: LA Dawson
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BAC Howell
+    - 14.1:
+        non_striker: BAC Howell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 14.2:
+        non_striker: LA Dawson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 14.3:
+        non_striker: BAC Howell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LA Dawson
+    - 14.4:
+        non_striker: LA Dawson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 14.5:
+        non_striker: BAC Howell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LA Dawson
+    - 14.6:
+        non_striker: BAC Howell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LA Dawson
+        wicket:
+          player_out: LA Dawson
+          kind: bowled
+    - 15.1:
+        non_striker: CP Wood
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+    - 15.2:
+        non_striker: CP Wood
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 15.3:
+        non_striker: BAC Howell
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CP Wood
+    - 15.4:
+        non_striker: BAC Howell
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+    - 15.5:
+        non_striker: BAC Howell
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+    - 15.6:
+        non_striker: BAC Howell
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CP Wood
+    - 16.1:
+        non_striker: CP Wood
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 16.2:
+        non_striker: BAC Howell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CP Wood
+    - 16.3:
+        non_striker: BAC Howell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Wood
+    - 16.4:
+        non_striker: CP Wood
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: BAC Howell
+    - 16.5:
+        non_striker: BAC Howell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Wood
+    - 16.6:
+        non_striker: CP Wood
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 17.1:
+        non_striker: CP Wood
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BAC Howell
+    - 17.2:
+        non_striker: CP Wood
+        bowler: BJ Currie
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: BAC Howell
+    - 17.3:
+        non_striker: BAC Howell
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+    - 17.4:
+        non_striker: BAC Howell
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Wood
+    - 17.5:
+        non_striker: CP Wood
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BAC Howell
+    - 17.6:
+        non_striker: CP Wood
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BAC Howell
+    - 18.1:
+        non_striker: CP Wood
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BAC Howell
+    - 18.2:
+        non_striker: CP Wood
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BAC Howell
+        wicket:
+          player_out: BAC Howell
+          fielders:
+          - BJ Currie
+          kind: caught
+    - 18.3:
+        non_striker: CP Wood
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NT Ellis
+    - 18.4:
+        non_striker: NT Ellis
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+    - 18.5:
+        non_striker: NT Ellis
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+    - 18.6:
+        non_striker: NT Ellis
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Wood
+    - 19.1:
+        non_striker: CP Wood
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NT Ellis
+    - 19.2:
+        non_striker: CP Wood
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NT Ellis
+    - 19.3:
+        non_striker: CP Wood
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NT Ellis
+    - 19.4:
+        non_striker: CP Wood
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NT Ellis
+    - 19.5:
+        non_striker: CP Wood
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NT Ellis
+        wicket:
+          player_out: NT Ellis
+          kind: lbw
+    - 19.6:
+        non_striker: CP Wood
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Turner

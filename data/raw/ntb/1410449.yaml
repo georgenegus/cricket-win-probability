@@ -1,0 +1,2183 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leeds
+  competition: Vitality Blast
+  dates:
+  - '2024-07-05'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Birmingham Bears
+    by:
+      runs: 4
+  overs: 20
+  players:
+    Birmingham Bears:
+    - EG Barnard
+    - AL Davies
+    - DR Mousley
+    - SR Hain
+    - JG Bethell
+    - CG Benjamin
+    - GHS Garton
+    - ZGF Foulkes
+    - DR Briggs
+    - CN Miles
+    - JB Lintott
+    Yorkshire:
+    - A Lyth
+    - DJ Malan
+    - JH Wharton
+    - GCH Hill
+    - D Ferreira
+    - Shan Masood
+    - JA Thompson
+    - ML Revis
+    - DM Bess
+    - C McKerr
+    - D Moriarty
+  registry:
+    people:
+      A Lyth: 70b8fd28
+      AL Davies: 29ede60b
+      C McKerr: 5ccdb14f
+      CG Benjamin: 95a15317
+      CN Miles: 5fed6272
+      D Ferreira: f0af99a7
+      D Moriarty: 6ea2710f
+      DJ Malan: ad9c32a2
+      DM Bess: ad46c747
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      EG Barnard: a510bdd3
+      GCH Hill: 214f6461
+      GHS Garton: be869ccf
+      JA Thompson: 1d2f290a
+      JB Lintott: e5218454
+      JG Bethell: 3c55c703
+      JH Wharton: 42a5c1c7
+      JJ Whitaker: 4ea85016
+      ML Revis: 28217d89
+      PJ Hartley: 17c7ff26
+      SR Hain: 67b9536c
+      Shan Masood: 6843a783
+      Surendiran Shanmugam: 2ef5fc2b
+      ZGF Foulkes: 30f92334
+  teams:
+  - Birmingham Bears
+  - Yorkshire
+  toss:
+    winner: Birmingham Bears
+    decision: bat
+  umpires:
+  - PJ Hartley
+  - Surendiran Shanmugam
+  venue: Headingley, Leeds
+innings:
+- 1st innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        non_striker: AL Davies
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+        wicket:
+          player_out: EG Barnard
+          kind: bowled
+    - 0.2:
+        non_striker: AL Davies
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 0.3:
+        non_striker: DR Mousley
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AL Davies
+    - 0.4:
+        non_striker: DR Mousley
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 0.5:
+        non_striker: DR Mousley
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 0.6:
+        non_striker: DR Mousley
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 1.1:
+        non_striker: DR Mousley
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.2:
+        non_striker: DR Mousley
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 1.3:
+        non_striker: DR Mousley
+        bowler: C McKerr
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AL Davies
+    - 1.4:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 1.5:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 1.6:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 2.1:
+        non_striker: AL Davies
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 2.2:
+        non_striker: DR Mousley
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AL Davies
+    - 2.3:
+        non_striker: DR Mousley
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 2.4:
+        non_striker: DR Mousley
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 2.5:
+        non_striker: DR Mousley
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 2.6:
+        non_striker: DR Mousley
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 3.1:
+        non_striker: AL Davies
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 3.2:
+        non_striker: AL Davies
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 3.3:
+        non_striker: DR Mousley
+        bowler: ML Revis
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: AL Davies
+    - 3.4:
+        non_striker: DR Mousley
+        bowler: ML Revis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AL Davies
+    - 3.5:
+        non_striker: DR Mousley
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 3.6:
+        non_striker: DR Mousley
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 3.7:
+        non_striker: DR Mousley
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 3.8:
+        non_striker: DR Mousley
+        bowler: ML Revis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AL Davies
+    - 4.1:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 4.2:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 4.3:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 4.4:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 4.5:
+        non_striker: DR Mousley
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 4.6:
+        non_striker: AL Davies
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+        wicket:
+          player_out: DR Mousley
+          kind: bowled
+    - 5.1:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 5.2:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 5.3:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AL Davies
+    - 5.4:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 5.5:
+        non_striker: AL Davies
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.6:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 6.1:
+        non_striker: AL Davies
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 6.2:
+        non_striker: AL Davies
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.3:
+        non_striker: SR Hain
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 6.4:
+        non_striker: AL Davies
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.5:
+        non_striker: SR Hain
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AL Davies
+    - 6.6:
+        non_striker: AL Davies
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.1:
+        non_striker: AL Davies
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 7.2:
+        non_striker: AL Davies
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.3:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          kind: lbw
+    - 7.4:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 7.5:
+        non_striker: JG Bethell
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.6:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 8.1:
+        non_striker: JG Bethell
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.2:
+        non_striker: SR Hain
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 8.3:
+        non_striker: JG Bethell
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.4:
+        non_striker: SR Hain
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 8.5:
+        non_striker: JG Bethell
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 8.6:
+        non_striker: JG Bethell
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.1:
+        non_striker: JG Bethell
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 9.2:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+    - 9.3:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 9.4:
+        non_striker: JG Bethell
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 9.5:
+        non_striker: JG Bethell
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 9.6:
+        non_striker: JG Bethell
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 10.1:
+        non_striker: SR Hain
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 10.2:
+        non_striker: JG Bethell
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 10.3:
+        non_striker: JG Bethell
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.4:
+        non_striker: SR Hain
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JG Bethell
+    - 10.5:
+        non_striker: JG Bethell
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 10.6:
+        non_striker: SR Hain
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JG Bethell
+    - 11.1:
+        non_striker: JG Bethell
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 11.2:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JG Bethell
+        wicket:
+          player_out: JG Bethell
+          fielders:
+          - GCH Hill
+          kind: caught
+    - 11.3:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 11.4:
+        non_striker: CG Benjamin
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 11.5:
+        non_striker: CG Benjamin
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 11.6:
+        non_striker: CG Benjamin
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.1:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.2:
+        non_striker: SR Hain
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 12.3:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 12.4:
+        non_striker: SR Hain
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 12.5:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 12.6:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 13.1:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CG Benjamin
+    - 13.2:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 13.3:
+        non_striker: CG Benjamin
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 13.4:
+        non_striker: CG Benjamin
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 13.5:
+        non_striker: SR Hain
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 13.6:
+        non_striker: CG Benjamin
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.1:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 14.2:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 14.3:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 14.4:
+        non_striker: SR Hain
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 14.5:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 14.6:
+        non_striker: CG Benjamin
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.1:
+        non_striker: CG Benjamin
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 15.2:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+        wicket:
+          player_out: CG Benjamin
+          kind: bowled
+    - 15.3:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GHS Garton
+    - 15.4:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 15.5:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 15.6:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GHS Garton
+    - 16.1:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 16.2:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 16.3:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 16.4:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SR Hain
+    - 16.5:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 16.6:
+        non_striker: GHS Garton
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 16.7:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GHS Garton
+    - 16.8:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+    - 17.1:
+        non_striker: GHS Garton
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 17.2:
+        non_striker: GHS Garton
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 17.3:
+        non_striker: GHS Garton
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 17.4:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 17.5:
+        non_striker: GHS Garton
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 17.6:
+        non_striker: SR Hain
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 18.1:
+        non_striker: GHS Garton
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 18.2:
+        non_striker: SR Hain
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GHS Garton
+    - 18.3:
+        non_striker: SR Hain
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 18.4:
+        non_striker: GHS Garton
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 18.5:
+        non_striker: GHS Garton
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 18.6:
+        non_striker: SR Hain
+        bowler: GCH Hill
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 19.1:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GHS Garton
+    - 19.2:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GHS Garton
+    - 19.3:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          fielders:
+          - D Ferreira
+          kind: caught
+    - 19.4:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: ZGF Foulkes
+    - 19.5:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ZGF Foulkes
+        wicket:
+          player_out: ZGF Foulkes
+          fielders:
+          - D Ferreira
+          kind: run out
+    - 19.6:
+        non_striker: SR Hain
+        bowler: C McKerr
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Briggs
+- 2nd innings:
+    team: Yorkshire
+    deliveries:
+    - 0.1:
+        non_striker: DJ Malan
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 0.2:
+        non_striker: A Lyth
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 0.3:
+        non_striker: A Lyth
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Malan
+    - 0.4:
+        non_striker: A Lyth
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 0.5:
+        non_striker: A Lyth
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 0.6:
+        non_striker: DJ Malan
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 0.7:
+        non_striker: A Lyth
+        bowler: GHS Garton
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: DJ Malan
+    - 0.8:
+        non_striker: DJ Malan
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 1.1:
+        non_striker: A Lyth
+        bowler: ZGF Foulkes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Malan
+    - 1.2:
+        non_striker: A Lyth
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 1.3:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Lyth
+    - 1.4:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Lyth
+    - 1.5:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Lyth
+    - 1.6:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+        wicket:
+          player_out: A Lyth
+          fielders:
+          - AL Davies
+          kind: caught
+    - 1.7:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 1.8:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 1.9:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 2.1:
+        non_striker: DJ Malan
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 2.2:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 2.3:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 2.4:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 2.5:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 2.6:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 3.1:
+        non_striker: JH Wharton
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.2:
+        non_striker: JH Wharton
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 3.3:
+        non_striker: JH Wharton
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 3.4:
+        non_striker: JH Wharton
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.5:
+        non_striker: JH Wharton
+        bowler: CN Miles
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DJ Malan
+    - 3.6:
+        non_striker: DJ Malan
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 4.1:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 4.2:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 4.3:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 4.4:
+        non_striker: JH Wharton
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 4.5:
+        non_striker: DJ Malan
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JH Wharton
+    - 4.6:
+        non_striker: DJ Malan
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 5.1:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Malan
+    - 5.2:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 5.3:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 5.4:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 5.5:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JH Wharton
+    - 5.6:
+        non_striker: DJ Malan
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 6.1:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 6.2:
+        non_striker: JH Wharton
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 6.3:
+        non_striker: JH Wharton
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 6.4:
+        non_striker: JH Wharton
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 6.5:
+        non_striker: JH Wharton
+        bowler: JB Lintott
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: DJ Malan
+    - 6.6:
+        non_striker: JH Wharton
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 6.7:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 7.1:
+        non_striker: JH Wharton
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Malan
+    - 7.2:
+        non_striker: JH Wharton
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 7.3:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+        wicket:
+          player_out: JH Wharton
+          fielders:
+          - DR Mousley
+          kind: caught
+    - 7.4:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GCH Hill
+    - 7.5:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GCH Hill
+    - 7.6:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GCH Hill
+    - 8.1:
+        non_striker: GCH Hill
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 8.2:
+        non_striker: DJ Malan
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GCH Hill
+    - 8.3:
+        non_striker: GCH Hill
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 8.4:
+        non_striker: DJ Malan
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GCH Hill
+    - 8.5:
+        non_striker: DJ Malan
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GCH Hill
+    - 8.6:
+        non_striker: DJ Malan
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GCH Hill
+    - 9.1:
+        non_striker: GCH Hill
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 9.2:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GCH Hill
+    - 9.3:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GCH Hill
+    - 9.4:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GCH Hill
+        wicket:
+          player_out: GCH Hill
+          kind: bowled
+    - 9.5:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 9.6:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 10.1:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Malan
+    - 10.2:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 10.3:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 10.4:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 10.5:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 10.6:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 10.7:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 11.1:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 11.2:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 11.3:
+        non_striker: D Ferreira
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Malan
+    - 11.4:
+        non_striker: D Ferreira
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 11.5:
+        non_striker: DJ Malan
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 11.6:
+        non_striker: D Ferreira
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 12.1:
+        non_striker: D Ferreira
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 12.2:
+        non_striker: DJ Malan
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 12.3:
+        non_striker: D Ferreira
+        bowler: DR Mousley
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: DJ Malan
+    - 12.4:
+        non_striker: D Ferreira
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 12.5:
+        non_striker: DJ Malan
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ferreira
+    - 12.6:
+        non_striker: DJ Malan
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 12.7:
+        non_striker: DJ Malan
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 13.1:
+        non_striker: D Ferreira
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 13.2:
+        non_striker: DJ Malan
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 13.3:
+        non_striker: D Ferreira
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 13.4:
+        non_striker: DJ Malan
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 13.5:
+        non_striker: DJ Malan
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ferreira
+    - 13.6:
+        non_striker: DJ Malan
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 14.1:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 14.2:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 14.3:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Ferreira
+    - 14.4:
+        non_striker: DJ Malan
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 14.5:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 14.6:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 15.1:
+        non_striker: D Ferreira
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+        wicket:
+          player_out: DJ Malan
+          fielders:
+          - JG Bethell
+          kind: caught
+    - 15.2:
+        non_striker: D Ferreira
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 15.3:
+        non_striker: Shan Masood
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ferreira
+    - 15.4:
+        non_striker: Shan Masood
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 15.5:
+        non_striker: Shan Masood
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 15.6:
+        non_striker: D Ferreira
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 16.1:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 16.2:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 16.3:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 16.4:
+        non_striker: D Ferreira
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 16.5:
+        non_striker: Shan Masood
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 16.6:
+        non_striker: Shan Masood
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 17.1:
+        non_striker: D Ferreira
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 17.2:
+        non_striker: Shan Masood
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 17.3:
+        non_striker: Shan Masood
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 17.4:
+        non_striker: Shan Masood
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 17.5:
+        non_striker: Shan Masood
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 17.6:
+        non_striker: Shan Masood
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Ferreira
+    - 18.1:
+        non_striker: Shan Masood
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+        wicket:
+          player_out: D Ferreira
+          fielders:
+          - CN Miles
+          kind: caught
+    - 18.2:
+        non_striker: Shan Masood
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 18.3:
+        non_striker: JA Thompson
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 18.4:
+        non_striker: JA Thompson
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 18.5:
+        non_striker: Shan Masood
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 18.6:
+        non_striker: JA Thompson
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 19.1:
+        non_striker: Shan Masood
+        bowler: GHS Garton
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: JA Thompson
+    - 19.2:
+        non_striker: Shan Masood
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 19.3:
+        non_striker: Shan Masood
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 19.4:
+        non_striker: Shan Masood
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Thompson
+    - 19.5:
+        non_striker: Shan Masood
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 19.6:
+        non_striker: JA Thompson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood

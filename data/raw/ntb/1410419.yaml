@@ -1,0 +1,1867 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-06-14'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Worcester
+  competition: Vitality Blast
+  dates:
+  - '2024-06-14'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Nottinghamshire
+    by:
+      runs: 1
+    method: D/L
+  overs: 20
+  players:
+    Worcestershire:
+    - BL D'Oliveira
+    - MJ Waite
+    - JJ Cobb
+    - AJ Hose
+    - EA Brookes
+    - NG Smith
+    - EJ Pollock
+    - TAI Taylor
+    - GH Roderick
+    - HR Walsh
+    - AW Finch
+    Nottinghamshire:
+    - JM Clarke
+    - AD Hales
+    - WA Young
+    - JA Haynes
+    - TJ Moores
+    - M Montgomery
+    - LW James
+    - LA Patterson-White
+    - CG Harrison
+    - OP Stone
+    - BG Lister
+  registry:
+    people:
+      AD Hales: 92aeac25
+      AJ Hose: 104e88a4
+      AW Finch: fc63d916
+      BG Lister: 79f5bc26
+      BL D'Oliveira: 9679838c
+      CG Harrison: f655d740
+      EA Brookes: 6ce9f3eb
+      EJ Pollock: d6663a9a
+      GH Roderick: 7081848a
+      HR Walsh: 1ac2a995
+      JA Haynes: fe4ebca0
+      JJ Cobb: 58c481c6
+      JM Clarke: 2eca67f5
+      LA Patterson-White: d48c0f40
+      LW James: 2baad3bd
+      M Montgomery: 7671203a
+      MJ Waite: a4b810d0
+      NG Smith: 05b1aef8
+      OP Stone: 3f659464
+      Phil Whitticase: 99d5f6fa
+      RJ Bailey: 6bd04fa5
+      RJ Warren: 9d1c62d7
+      TAI Taylor: 867a45a7
+      TJ Moores: 85dcb721
+      WA Young: 8afe73e2
+  teams:
+  - Worcestershire
+  - Nottinghamshire
+  toss:
+    winner: Nottinghamshire
+    decision: field
+  umpires:
+  - RJ Bailey
+  - RJ Warren
+  venue: County Ground, New Road, Worcester
+innings:
+- 1st innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: MJ Waite
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.2:
+        non_striker: MJ Waite
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 0.3:
+        non_striker: BL D'Oliveira
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 0.4:
+        non_striker: BL D'Oliveira
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 0.5:
+        non_striker: BL D'Oliveira
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 0.6:
+        non_striker: BL D'Oliveira
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 1.1:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 1.2:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 1.3:
+        non_striker: BL D'Oliveira
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 1.4:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 1.5:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 1.6:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 2.1:
+        non_striker: MJ Waite
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 2.2:
+        non_striker: MJ Waite
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 2.3:
+        non_striker: BL D'Oliveira
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 2.4:
+        non_striker: BL D'Oliveira
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 2.5:
+        non_striker: BL D'Oliveira
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Waite
+    - 2.6:
+        non_striker: BL D'Oliveira
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 3.1:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 3.2:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          fielders:
+          - OP Stone
+          kind: caught
+    - 3.3:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 3.4:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: JJ Cobb
+    - 3.5:
+        non_striker: MJ Waite
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 3.6:
+        non_striker: JJ Cobb
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 4.1:
+        non_striker: MJ Waite
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 4.2:
+        non_striker: JJ Cobb
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 4.3:
+        non_striker: MJ Waite
+        bowler: M Montgomery
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JJ Cobb
+    - 4.4:
+        non_striker: MJ Waite
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Cobb
+    - 4.5:
+        non_striker: MJ Waite
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+        wicket:
+          player_out: JJ Cobb
+          kind: lbw
+    - 4.6:
+        non_striker: MJ Waite
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 4.7:
+        non_striker: AJ Hose
+        bowler: M Montgomery
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 5.1:
+        non_striker: AJ Hose
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+        wicket:
+          player_out: MJ Waite
+          fielders:
+          - LA Patterson-White
+          kind: caught
+    - 5.2:
+        non_striker: AJ Hose
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 5.3:
+        non_striker: EA Brookes
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 5.4:
+        non_striker: EA Brookes
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 5.5:
+        non_striker: EA Brookes
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 5.6:
+        non_striker: AJ Hose
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 6.1:
+        non_striker: EA Brookes
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 6.2:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 6.3:
+        non_striker: EA Brookes
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 6.4:
+        non_striker: EA Brookes
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 6.5:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 6.6:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 7.1:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 7.2:
+        non_striker: EA Brookes
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.3:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 7.4:
+        non_striker: EA Brookes
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.5:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EA Brookes
+    - 7.6:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 8.1:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 8.2:
+        non_striker: EA Brookes
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.3:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 8.4:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+        wicket:
+          player_out: EA Brookes
+          kind: bowled
+    - 8.5:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 8.6:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 9.1:
+        non_striker: NG Smith
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 9.2:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 9.3:
+        non_striker: NG Smith
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 9.4:
+        non_striker: NG Smith
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 9.5:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 9.6:
+        non_striker: NG Smith
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 10.1:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 10.2:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 10.3:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 10.4:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 10.5:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 10.6:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 11.1:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NG Smith
+    - 11.2:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 11.3:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NG Smith
+    - 11.4:
+        non_striker: AJ Hose
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 11.5:
+        non_striker: NG Smith
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 11.6:
+        non_striker: NG Smith
+        bowler: LW James
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 12.1:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 12.2:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NG Smith
+    - 12.3:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 12.4:
+        non_striker: NG Smith
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 12.5:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 12.6:
+        non_striker: NG Smith
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 13.1:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: NG Smith
+    - 13.2:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 13.3:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AJ Hose
+    - 13.4:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: NG Smith
+    - 13.5:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 13.6:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 13.7:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 14.1:
+        non_striker: NG Smith
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 14.2:
+        non_striker: NG Smith
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 14.3:
+        non_striker: NG Smith
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 14.4:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NG Smith
+    - 14.5:
+        non_striker: NG Smith
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 14.6:
+        non_striker: AJ Hose
+        bowler: LA Patterson-White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+    - 15.1:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 15.2:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NG Smith
+    - 15.3:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: NG Smith
+    - 15.4:
+        non_striker: NG Smith
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 15.5:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NG Smith
+    - 15.6:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NG Smith
+        wicket:
+          player_out: NG Smith
+          fielders:
+          - WA Young
+          kind: caught
+    - 15.7:
+        non_striker: AJ Hose
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 16.1:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 16.2:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 16.3:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EJ Pollock
+    - 16.4:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EJ Pollock
+    - 16.5:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 16.6:
+        non_striker: EJ Pollock
+        bowler: BG Lister
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AJ Hose
+    - 16.7:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 17.1:
+        non_striker: AJ Hose
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 17.2:
+        non_striker: AJ Hose
+        bowler: OP Stone
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: EJ Pollock
+    - 17.3:
+        non_striker: EJ Pollock
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 17.4:
+        non_striker: AJ Hose
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 17.5:
+        non_striker: EJ Pollock
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 17.6:
+        non_striker: EJ Pollock
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 18.1:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 18.2:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 18.3:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 18.4:
+        non_striker: AJ Hose
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 18.5:
+        non_striker: EJ Pollock
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          fielders:
+          - OP Stone
+          kind: caught
+    - 18.6:
+        non_striker: EJ Pollock
+        bowler: BG Lister
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 19.1:
+        non_striker: EJ Pollock
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 19.2:
+        non_striker: TAI Taylor
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EJ Pollock
+    - 19.3:
+        non_striker: TAI Taylor
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 19.4:
+        non_striker: EJ Pollock
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 19.5:
+        non_striker: TAI Taylor
+        bowler: OP Stone
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 19.6:
+        non_striker: TAI Taylor
+        bowler: OP Stone
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: EJ Pollock
+- 2nd innings:
+    team: Nottinghamshire
+    deliveries:
+    - 0.1:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 0.2:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 0.3:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 0.4:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AD Hales
+    - 0.5:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 0.6:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 1.1:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.2:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.3:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.4:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.5:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.6:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 2.1:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 2.2:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 2.3:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 2.4:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 2.5:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 2.6:
+        non_striker: JM Clarke
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 3.1:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 3.2:
+        non_striker: JM Clarke
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 3.3:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 3.4:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 3.5:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Clarke
+    - 3.6:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 4.1:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 4.2:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 4.3:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Clarke
+    - 4.4:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+        wicket:
+          player_out: JM Clarke
+          kind: bowled
+    - 4.5:
+        non_striker: AD Hales
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 4.6:
+        non_striker: WA Young
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 5.1:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 5.2:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 5.3:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 5.4:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 5.5:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 5.6:
+        non_striker: WA Young
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 6.1:
+        non_striker: AD Hales
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 6.2:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 6.3:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 6.4:
+        non_striker: AD Hales
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 6.5:
+        non_striker: AD Hales
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 6.6:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 7.1:
+        non_striker: WA Young
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 7.2:
+        non_striker: AD Hales
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WA Young
+    - 7.3:
+        non_striker: AD Hales
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WA Young
+    - 7.4:
+        non_striker: AD Hales
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 7.5:
+        non_striker: WA Young
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AD Hales
+    - 7.6:
+        non_striker: WA Young
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 8.1:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 8.2:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 8.3:
+        non_striker: AD Hales
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 8.4:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Hales
+    - 8.5:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 8.6:
+        non_striker: WA Young
+        bowler: EA Brookes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 9.1:
+        non_striker: WA Young
+        bowler: JJ Cobb
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AD Hales
+    - 9.2:
+        non_striker: AD Hales
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 9.3:
+        non_striker: WA Young
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Hales
+    - 9.4:
+        non_striker: WA Young
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 9.5:
+        non_striker: WA Young
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Hales
+    - 9.6:
+        non_striker: WA Young
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 10.1:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 10.2:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 10.3:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 10.4:
+        non_striker: AD Hales
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Young
+    - 10.5:
+        non_striker: WA Young
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AD Hales
+    - 10.6:
+        non_striker: WA Young
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AD Hales
+    - 10.7:
+        non_striker: WA Young
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 11.1:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 11.2:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+    - 11.3:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Young
+        wicket:
+          player_out: WA Young
+          kind: bowled
+    - 11.4:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 11.5:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 11.6:
+        non_striker: JA Haynes
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 12.1:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 12.2:
+        non_striker: JA Haynes
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 12.3:
+        non_striker: JA Haynes
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 12.4:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 12.5:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+    - 12.6:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 13.1:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+        wicket:
+          player_out: JA Haynes
+          kind: lbw
+    - 13.2:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 13.3:
+        non_striker: TJ Moores
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Hales
+    - 13.4:
+        non_striker: TJ Moores
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 13.5:
+        non_striker: AD Hales
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 13.6:
+        non_striker: TJ Moores
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Hales
+    - 14.1:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 14.2:
+        non_striker: TJ Moores
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 14.3:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 14.4:
+        non_striker: TJ Moores
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Hales
+    - 14.5:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 14.6:
+        non_striker: AD Hales
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores

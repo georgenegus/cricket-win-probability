@@ -1,0 +1,1995 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-15'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: York
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-15'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Durham
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Yorkshire:
+    - A Lyth
+    - DJ Malan
+    - JM Bairstow
+    - W Luxton
+    - JH Wharton
+    - W Sutherland
+    - JA Thompson
+    - DM Bess
+    - JA Chohan
+    - W O'Rourke
+    - CJ White
+    Durham:
+    - G Clark
+    - AZ Lees
+    - OG Robinson
+    - CN Ackermann
+    - WMH Rhodes
+    - JDS Neesham
+    - BA Raine
+    - ZGF Foulkes
+    - MJ Potts
+    - NA Sowter
+    - CF Parkinson
+  registry:
+    people:
+      A Lyth: 70b8fd28
+      AZ Lees: c9c0fe50
+      BA Raine: 4c0f3806
+      CF Parkinson: aa1210d8
+      CJ White: 5a74e559
+      CN Ackermann: e734d090
+      DJ Malan: ad9c32a2
+      DJ Millns: 46ecfe40
+      DM Bess: ad46c747
+      G Clark: 4fd09cfc
+      JA Chohan: 58be5e46
+      JA Thompson: 1d2f290a
+      JDS Neesham: 9219eff0
+      JH Wharton: 42a5c1c7
+      JJ Whitaker: 4ea85016
+      JM Bairstow: abb83e27
+      MA Gough: 76752ac8
+      MJ Potts: 894b2d25
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      W Luxton: c15fb753
+      W O'Rourke: cb9b8664
+      W Sutherland: bc2d4f2e
+      WMH Rhodes: f54dbda7
+      ZGF Foulkes: 30f92334
+  teams:
+  - Yorkshire
+  - Durham
+  toss:
+    winner: Durham
+    decision: field
+  umpires:
+  - DJ Millns
+  - MA Gough
+  venue: York Cricket Club
+innings:
+- 1st innings:
+    team: Yorkshire
+    deliveries:
+    - 0.1:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DJ Malan
+        batsman: A Lyth
+    - 0.2:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: DJ Malan
+        batsman: A Lyth
+    - 0.3:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: DJ Malan
+        batsman: A Lyth
+    - 0.4:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: DJ Malan
+        batsman: A Lyth
+    - 0.5:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: DJ Malan
+        batsman: A Lyth
+    - 0.6:
+        non_striker: A Lyth
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+        wicket:
+          player_out: DJ Malan
+          kind: lbw
+    - 1.1:
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: JM Bairstow
+        batsman: A Lyth
+    - 1.2:
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: JM Bairstow
+        batsman: A Lyth
+    - 1.3:
+        non_striker: A Lyth
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 1.4:
+        non_striker: A Lyth
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Bairstow
+    - 1.5:
+        non_striker: A Lyth
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+    - 1.6:
+        non_striker: A Lyth
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Bairstow
+        wicket:
+          player_out: JM Bairstow
+          fielders:
+          - MJ Potts
+          kind: caught
+    - 2.1:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: W Luxton
+        batsman: A Lyth
+    - 2.2:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: W Luxton
+        batsman: A Lyth
+    - 2.3:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: W Luxton
+        batsman: A Lyth
+    - 2.4:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: W Luxton
+        batsman: A Lyth
+    - 2.5:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: W Luxton
+        batsman: A Lyth
+    - 2.6:
+        non_striker: A Lyth
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W Luxton
+    - 2.7:
+        non_striker: A Lyth
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 3.1:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 3.2:
+        non_striker: A Lyth
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+    - 3.3:
+        non_striker: A Lyth
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 3.4:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+        wicket:
+          player_out: A Lyth
+          fielders:
+          - WMH Rhodes
+          kind: caught
+    - 3.5:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 3.6:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 4.1:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 4.2:
+        non_striker: W Luxton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 4.3:
+        non_striker: W Luxton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 4.4:
+        non_striker: W Luxton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 4.5:
+        non_striker: W Luxton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 4.6:
+        non_striker: W Luxton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 5.1:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 5.2:
+        non_striker: JH Wharton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 5.3:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JH Wharton
+    - 5.4:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 5.5:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 5.6:
+        non_striker: W Luxton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 6.1:
+        non_striker: W Luxton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 6.2:
+        non_striker: W Luxton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 6.3:
+        non_striker: W Luxton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 6.4:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 6.5:
+        non_striker: W Luxton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 6.6:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W Luxton
+    - 7.1:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Luxton
+        wicket:
+          player_out: W Luxton
+          kind: lbw
+    - 7.2:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Sutherland
+    - 7.3:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W Sutherland
+        wicket:
+          player_out: W Sutherland
+          fielders:
+          - JDS Neesham
+          kind: caught
+    - 7.4:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Thompson
+    - 7.5:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 7.6:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 8.1:
+        non_striker: JA Thompson
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 8.2:
+        non_striker: JA Thompson
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 8.3:
+        non_striker: JA Thompson
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 8.4:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 8.5:
+        non_striker: JA Thompson
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 8.6:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Thompson
+    - 8.7:
+        non_striker: JH Wharton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 9.1:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 9.2:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 9.3:
+        non_striker: JH Wharton
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 9.4:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 9.5:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+        wicket:
+          player_out: JH Wharton
+          fielders:
+          - G Clark
+          kind: caught
+    - 9.6:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DM Bess
+    - 10.1:
+        non_striker: DM Bess
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 10.2:
+        non_striker: JA Thompson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DM Bess
+    - 10.3:
+        non_striker: DM Bess
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 10.4:
+        non_striker: JA Thompson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DM Bess
+    - 10.5:
+        non_striker: JA Thompson
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DM Bess
+    - 10.6:
+        non_striker: DM Bess
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 11.1:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DM Bess
+    - 11.2:
+        non_striker: DM Bess
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 11.3:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DM Bess
+        wicket:
+          player_out: DM Bess
+          kind: lbw
+    - 11.4:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Chohan
+    - 11.5:
+        non_striker: JA Chohan
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 11.6:
+        non_striker: JA Chohan
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 12.1:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Chohan
+    - 12.2:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Chohan
+        wicket:
+          player_out: JA Chohan
+          kind: lbw
+    - 12.3:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 12.4:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W O'Rourke
+    - 12.5:
+        non_striker: W O'Rourke
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 12.6:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W O'Rourke
+    - 13.1:
+        non_striker: W O'Rourke
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 13.2:
+        non_striker: W O'Rourke
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Thompson
+    - 13.3:
+        non_striker: W O'Rourke
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 13.4:
+        non_striker: JA Thompson
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 13.5:
+        non_striker: JA Thompson
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: W O'Rourke
+    - 13.6:
+        non_striker: JA Thompson
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 14.1:
+        non_striker: W O'Rourke
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 14.2:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W O'Rourke
+    - 14.3:
+        non_striker: W O'Rourke
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+    - 14.4:
+        non_striker: W O'Rourke
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 14.5:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 14.6:
+        non_striker: JA Thompson
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 15.1:
+        non_striker: W O'Rourke
+        bowler: MJ Potts
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: JA Thompson
+    - 15.2:
+        non_striker: W O'Rourke
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Thompson
+    - 15.3:
+        non_striker: W O'Rourke
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 15.4:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: W O'Rourke
+    - 15.5:
+        non_striker: W O'Rourke
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Thompson
+    - 15.6:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 15.7:
+        non_striker: JA Thompson
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W O'Rourke
+    - 15.8:
+        non_striker: W O'Rourke
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Thompson
+        wicket:
+          player_out: JA Thompson
+          kind: lbw
+    - 16.1:
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: CJ White
+        batsman: W O'Rourke
+    - 16.2:
+        non_striker: W O'Rourke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ White
+    - 16.3:
+        non_striker: W O'Rourke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ White
+    - 16.4:
+        non_striker: W O'Rourke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ White
+    - 16.5:
+        non_striker: CJ White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 16.6:
+        non_striker: CJ White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 17.1:
+        non_striker: W O'Rourke
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ White
+    - 17.2:
+        non_striker: CJ White
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 17.3:
+        non_striker: CJ White
+        bowler: JDS Neesham
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: W O'Rourke
+    - 17.4:
+        non_striker: CJ White
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W O'Rourke
+    - 17.5:
+        non_striker: CJ White
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 17.6:
+        non_striker: CJ White
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W O'Rourke
+    - 17.7:
+        non_striker: CJ White
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: W O'Rourke
+    - 18.1:
+        non_striker: W O'Rourke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ White
+    - 18.2:
+        non_striker: CJ White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: W O'Rourke
+    - 18.3:
+        non_striker: CJ White
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: W O'Rourke
+    - 18.4:
+        non_striker: W O'Rourke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ White
+    - 18.5:
+        non_striker: W O'Rourke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ White
+    - 18.6:
+        non_striker: W O'Rourke
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ White
+        wicket:
+          player_out: CJ White
+          kind: bowled
+- 2nd innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: AZ Lees
+        batsman: G Clark
+    - 0.2:
+        non_striker: G Clark
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 0.3:
+        non_striker: G Clark
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 0.4:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.5:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 0.6:
+        non_striker: G Clark
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.1:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.2:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 1.3:
+        non_striker: G Clark
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.4:
+        non_striker: G Clark
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 1.5:
+        non_striker: G Clark
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.6:
+        non_striker: G Clark
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 2.1:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - DJ Malan
+          kind: caught
+    - 2.2:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 2.3:
+        non_striker: OG Robinson
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 2.4:
+        non_striker: OG Robinson
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 2.5:
+        non_striker: OG Robinson
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 2.6:
+        non_striker: OG Robinson
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 3.1:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 3.2:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 3.3:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 3.4:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 3.5:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 3.6:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 4.1:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 4.2:
+        non_striker: OG Robinson
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.3:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 4.4:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 4.5:
+        non_striker: OG Robinson
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 4.6:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 5.1:
+        non_striker: OG Robinson
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 5.2:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 5.3:
+        non_striker: OG Robinson
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 5.4:
+        non_striker: OG Robinson
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 5.5:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OG Robinson
+    - 5.6:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 6.1:
+        non_striker: AZ Lees
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 6.2:
+        non_striker: AZ Lees
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 6.3:
+        non_striker: OG Robinson
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 6.4:
+        non_striker: AZ Lees
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+        wicket:
+          player_out: OG Robinson
+          fielders:
+          - W O'Rourke
+          kind: caught
+    - 6.5:
+        non_striker: AZ Lees
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 6.6:
+        non_striker: CN Ackermann
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.1:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 7.2:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 7.3:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 7.4:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 7.5:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 7.6:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 8.1:
+        non_striker: CN Ackermann
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 8.2:
+        non_striker: CN Ackermann
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 8.3:
+        non_striker: AZ Lees
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 8.4:
+        non_striker: CN Ackermann
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 8.5:
+        non_striker: AZ Lees
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 8.6:
+        non_striker: AZ Lees
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.1:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.2:
+        non_striker: CN Ackermann
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 9.3:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.4:
+        non_striker: CN Ackermann
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 9.5:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+        wicket:
+          player_out: CN Ackermann
+          fielders:
+          - JM Bairstow
+          kind: caught
+    - 9.6:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WMH Rhodes
+    - 9.7:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 10.1:
+        non_striker: AZ Lees
+        bowler: A Lyth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 10.2:
+        non_striker: AZ Lees
+        bowler: A Lyth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 10.3:
+        non_striker: WMH Rhodes
+        bowler: A Lyth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 10.4:
+        non_striker: AZ Lees
+        bowler: A Lyth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 10.5:
+        non_striker: WMH Rhodes
+        bowler: A Lyth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 10.6:
+        non_striker: AZ Lees
+        bowler: A Lyth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 11.1:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 11.2:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 11.3:
+        non_striker: WMH Rhodes
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 11.4:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 11.5:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 11.6:
+        non_striker: WMH Rhodes
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 12.1:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 12.2:
+        non_striker: WMH Rhodes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 12.3:
+        non_striker: WMH Rhodes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 12.4:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 12.5:
+        non_striker: WMH Rhodes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 12.6:
+        non_striker: WMH Rhodes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 13.1:
+        non_striker: WMH Rhodes
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 13.2:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 13.3:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 13.4:
+        non_striker: WMH Rhodes
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 13.5:
+        non_striker: WMH Rhodes
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 13.6:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 14.1:
+        non_striker: WMH Rhodes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 14.2:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 14.3:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 14.4:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 14.5:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 14.6:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WMH Rhodes
+    - 15.1:
+        non_striker: WMH Rhodes
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 15.2:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 15.3:
+        non_striker: WMH Rhodes
+        bowler: CJ White
+        runs:
+          extras: 2
+          total: 4
+          batsman: 2
+        extras:
+          noballs: 2
+        batsman: AZ Lees
+    - 15.4:
+        non_striker: WMH Rhodes
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AZ Lees
+    - 15.5:
+        non_striker: WMH Rhodes
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 15.6:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 15.7:
+        non_striker: AZ Lees
+        bowler: CJ White
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 16.1:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 16.2:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 16.3:
+        non_striker: WMH Rhodes
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 16.4:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 16.5:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 16.6:
+        non_striker: AZ Lees
+        bowler: W O'Rourke
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 17.1:
+        non_striker: AZ Lees
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 17.2:
+        non_striker: WMH Rhodes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          fielders:
+          - DM Bess
+          kind: caught
+    - 17.3:
+        non_striker: WMH Rhodes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDS Neesham
+    - 17.4:
+        non_striker: JDS Neesham
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WMH Rhodes
+    - 17.5:
+        non_striker: JDS Neesham
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 17.6:
+        non_striker: WMH Rhodes
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JDS Neesham

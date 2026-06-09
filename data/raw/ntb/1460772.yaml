@@ -1,0 +1,2026 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Manchester
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Leicestershire
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Lancashire:
+    - LWP Wells
+    - KK Jennings
+    - MF Hurst
+    - MA Jones
+    - AJ Turner
+    - JJ Bohannon
+    - CJ Green
+    - TW Hartley
+    - TH Aspinwall
+    - CM Barnard
+    - JM Anderson
+    Leicestershire:
+    - RK Patel
+    - SG Budinger
+    - LPJ Kimber
+    - Shan Masood
+    - Rehan Ahmed
+    - OB Cox
+    - L Trevaskis
+    - LV van Beek
+    - TAR Scriven
+    - RI Walker
+    - MET Salisbury
+  registry:
+    people:
+      AJ Turner: ff1e12a0
+      CJ Green: 19b9f399
+      CM Barnard: d3a625ec
+      JJ Bohannon: fd96de7c
+      JJ Whitaker: 4ea85016
+      JM Anderson: d12143bf
+      KK Jennings: 8479a24a
+      L Trevaskis: b5781ac3
+      LPJ Kimber: 9f812582
+      LV van Beek: 782fb776
+      LWP Wells: 1957c6b7
+      MA Jones: 05f96194
+      MET Salisbury: e05b2a5b
+      MF Hurst: 40e4cf47
+      OB Cox: 324a6ee1
+      RA Kettleborough: 4017868f
+      RI Walker: c78a879c
+      RK Patel: 4531f249
+      Rehan Ahmed: 0ecb4de6
+      S Widdup: 65bf2837
+      SG Budinger: bfc60227
+      Shan Masood: 6843a783
+      TAR Scriven: ac3c3cab
+      TH Aspinwall: 00b195ae
+      TW Hartley: 22b98d7c
+  teams:
+  - Lancashire
+  - Leicestershire
+  toss:
+    winner: Lancashire
+    decision: bat
+  umpires:
+  - RA Kettleborough
+  - S Widdup
+  venue: Old Trafford, Manchester
+innings:
+- 1st innings:
+    team: Lancashire
+    deliveries:
+    - 0.1:
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: KK Jennings
+        batsman: LWP Wells
+    - 0.2:
+        non_striker: LWP Wells
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 0.3:
+        non_striker: LWP Wells
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 0.4:
+        non_striker: LWP Wells
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 0.5:
+        non_striker: KK Jennings
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 0.6:
+        non_striker: KK Jennings
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 1.1:
+        non_striker: LWP Wells
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 1.2:
+        non_striker: LWP Wells
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 1.3:
+        non_striker: LWP Wells
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 1.4:
+        non_striker: KK Jennings
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.5:
+        non_striker: KK Jennings
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+        wicket:
+          player_out: LWP Wells
+          fielders:
+          - RI Walker
+          kind: caught
+    - 1.6:
+        non_striker: KK Jennings
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 2.1:
+        non_striker: MF Hurst
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 2.2:
+        non_striker: MF Hurst
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 2.3:
+        non_striker: KK Jennings
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 2.4:
+        non_striker: MF Hurst
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 2.5:
+        non_striker: MF Hurst
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Jennings
+    - 2.6:
+        non_striker: MF Hurst
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 3.1:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+    - 3.2:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 3.3:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Jennings
+    - 3.4:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 3.5:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Jennings
+    - 3.6:
+        non_striker: KK Jennings
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 4.1:
+        non_striker: MF Hurst
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 4.2:
+        non_striker: MF Hurst
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Jennings
+    - 4.3:
+        non_striker: MF Hurst
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Jennings
+        wicket:
+          player_out: KK Jennings
+          fielders:
+          - RK Patel
+          kind: caught
+    - 4.4:
+        non_striker: MF Hurst
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 4.5:
+        non_striker: MA Jones
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 4.6:
+        non_striker: MA Jones
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: MF Hurst
+    - 5.1:
+        non_striker: MA Jones
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MF Hurst
+    - 5.2:
+        non_striker: MA Jones
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 5.3:
+        non_striker: MA Jones
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 5.4:
+        non_striker: MA Jones
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 5.5:
+        non_striker: MA Jones
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 5.6:
+        non_striker: MA Jones
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 6.1:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MA Jones
+    - 6.2:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 6.3:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 6.4:
+        non_striker: MA Jones
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 6.5:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 6.6:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+        wicket:
+          player_out: MA Jones
+          kind: bowled
+    - 6.7:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 7.1:
+        non_striker: AJ Turner
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 7.2:
+        non_striker: AJ Turner
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 7.3:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 7.4:
+        non_striker: AJ Turner
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 7.5:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 7.6:
+        non_striker: AJ Turner
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 8.1:
+        non_striker: AJ Turner
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 8.2:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 8.3:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 8.4:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+        wicket:
+          player_out: AJ Turner
+          kind: bowled
+    - 8.5:
+        non_striker: MF Hurst
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 8.6:
+        non_striker: JJ Bohannon
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 9.1:
+        non_striker: MF Hurst
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 9.2:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 9.3:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 9.4:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 9.5:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 9.6:
+        non_striker: MF Hurst
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 10.1:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 10.2:
+        non_striker: JJ Bohannon
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.3:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 10.4:
+        non_striker: JJ Bohannon
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.5:
+        non_striker: MF Hurst
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 10.6:
+        non_striker: JJ Bohannon
+        bowler: LPJ Kimber
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 11.1:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 11.2:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 11.3:
+        non_striker: MF Hurst
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 11.4:
+        non_striker: MF Hurst
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 11.5:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 11.6:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+        wicket:
+          player_out: MF Hurst
+          fielders:
+          - OB Cox
+          kind: caught
+    - 12.1:
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: CJ Green
+        batsman: JJ Bohannon
+    - 12.2:
+        non_striker: JJ Bohannon
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 12.3:
+        non_striker: CJ Green
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 12.4:
+        non_striker: JJ Bohannon
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 12.5:
+        non_striker: CJ Green
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Bohannon
+    - 12.6:
+        non_striker: JJ Bohannon
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 13.1:
+        non_striker: JJ Bohannon
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 13.2:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+        wicket:
+          player_out: JJ Bohannon
+          fielders:
+          - OB Cox
+          kind: stumped
+    - 13.3:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 13.4:
+        non_striker: TW Hartley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 13.5:
+        non_striker: TW Hartley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 13.6:
+        non_striker: TW Hartley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.1:
+        non_striker: TW Hartley
+        bowler: RI Walker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.2:
+        non_striker: CJ Green
+        bowler: RI Walker
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TW Hartley
+    - 14.3:
+        non_striker: CJ Green
+        bowler: RI Walker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 14.4:
+        non_striker: TW Hartley
+        bowler: RI Walker
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 14.5:
+        non_striker: TW Hartley
+        bowler: RI Walker
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 14.6:
+        non_striker: CJ Green
+        bowler: RI Walker
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TW Hartley
+    - 15.1:
+        non_striker: TW Hartley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 15.2:
+        non_striker: TW Hartley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.3:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 15.4:
+        non_striker: TW Hartley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 15.5:
+        non_striker: TW Hartley
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.6:
+        non_striker: CJ Green
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TW Hartley
+    - 16.1:
+        non_striker: TW Hartley
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 16.2:
+        non_striker: CJ Green
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TW Hartley
+    - 16.3:
+        non_striker: TW Hartley
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 16.4:
+        non_striker: TW Hartley
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 16.5:
+        non_striker: CJ Green
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TW Hartley
+    - 16.6:
+        non_striker: CJ Green
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TW Hartley
+        wicket:
+          player_out: TW Hartley
+          kind: bowled
+    - 17.1:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TH Aspinwall
+        batsman: CJ Green
+    - 17.2:
+        non_striker: CJ Green
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH Aspinwall
+    - 17.3:
+        non_striker: TH Aspinwall
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 17.4:
+        non_striker: CJ Green
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH Aspinwall
+    - 17.5:
+        non_striker: TH Aspinwall
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 17.6:
+        non_striker: CJ Green
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TH Aspinwall
+    - 18.1:
+        non_striker: TH Aspinwall
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 18.2:
+        non_striker: TH Aspinwall
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 18.3:
+        non_striker: TH Aspinwall
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 18.4:
+        non_striker: TH Aspinwall
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 18.5:
+        non_striker: TH Aspinwall
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 18.6:
+        non_striker: TH Aspinwall
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Green
+    - 19.1:
+        non_striker: CJ Green
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH Aspinwall
+    - 19.2:
+        non_striker: CJ Green
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TH Aspinwall
+    - 19.3:
+        non_striker: CJ Green
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TH Aspinwall
+    - 19.4:
+        non_striker: TH Aspinwall
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 19.5:
+        non_striker: TH Aspinwall
+        bowler: LV van Beek
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CJ Green
+    - 19.6:
+        non_striker: TH Aspinwall
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 19.7:
+        non_striker: TH Aspinwall
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          non_boundary: 1
+          batsman: 4
+        batsman: CJ Green
+- 2nd innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: SG Budinger
+        batsman: RK Patel
+    - 0.2:
+        non_striker: RK Patel
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 0.3:
+        non_striker: RK Patel
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 0.4:
+        non_striker: SG Budinger
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 0.5:
+        non_striker: SG Budinger
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Patel
+    - 0.6:
+        non_striker: SG Budinger
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 1.1:
+        non_striker: SG Budinger
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RK Patel
+    - 1.2:
+        non_striker: SG Budinger
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 1.3:
+        non_striker: RK Patel
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.4:
+        non_striker: SG Budinger
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          kind: lbw
+    - 1.5:
+        non_striker: SG Budinger
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 1.6:
+        non_striker: SG Budinger
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 1.7:
+        non_striker: SG Budinger
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 2.1:
+        non_striker: LPJ Kimber
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 2.2:
+        non_striker: SG Budinger
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 2.3:
+        non_striker: LPJ Kimber
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 2.4:
+        non_striker: LPJ Kimber
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+        wicket:
+          player_out: SG Budinger
+          fielders:
+          - JJ Bohannon
+          kind: caught
+    - 2.5:
+        non_striker: LPJ Kimber
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 2.6:
+        non_striker: Shan Masood
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 3.1:
+        non_striker: Shan Masood
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 3.2:
+        non_striker: Shan Masood
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 3.3:
+        non_striker: Shan Masood
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 3.4:
+        non_striker: Shan Masood
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 3.5:
+        non_striker: Shan Masood
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 3.6:
+        non_striker: LPJ Kimber
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 4.1:
+        non_striker: LPJ Kimber
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 4.2:
+        non_striker: Shan Masood
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LPJ Kimber
+    - 4.3:
+        non_striker: Shan Masood
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 4.4:
+        non_striker: LPJ Kimber
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 4.5:
+        non_striker: Shan Masood
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LPJ Kimber
+    - 4.6:
+        non_striker: Shan Masood
+        bowler: JM Anderson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 5.1:
+        non_striker: Shan Masood
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 5.2:
+        non_striker: Shan Masood
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LPJ Kimber
+    - 5.3:
+        non_striker: Shan Masood
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 5.4:
+        non_striker: LPJ Kimber
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+        wicket:
+          player_out: Shan Masood
+          kind: bowled
+    - 5.5:
+        non_striker: LPJ Kimber
+        bowler: CJ Green
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: Rehan Ahmed
+    - 5.6:
+        non_striker: LPJ Kimber
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 5.7:
+        non_striker: LPJ Kimber
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 6.1:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 6.2:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 6.3:
+        non_striker: LPJ Kimber
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 6.4:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 6.5:
+        non_striker: LPJ Kimber
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 6.6:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LPJ Kimber
+    - 7.1:
+        non_striker: LPJ Kimber
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 7.2:
+        non_striker: Rehan Ahmed
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+        wicket:
+          player_out: LPJ Kimber
+          fielders:
+          - LWP Wells
+          kind: caught
+    - 7.3:
+        non_striker: Rehan Ahmed
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 7.4:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 7.5:
+        non_striker: Rehan Ahmed
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 7.6:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 8.1:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 8.2:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 8.3:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 8.4:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 8.5:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 8.6:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 9.1:
+        non_striker: OB Cox
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rehan Ahmed
+    - 9.2:
+        non_striker: OB Cox
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 9.3:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 9.4:
+        non_striker: OB Cox
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 9.5:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 9.6:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.1:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.2:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 10.3:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 10.4:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 10.5:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 10.6:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 11.1:
+        non_striker: Rehan Ahmed
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 11.2:
+        non_striker: Rehan Ahmed
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 11.3:
+        non_striker: OB Cox
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 11.4:
+        non_striker: OB Cox
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 11.5:
+        non_striker: OB Cox
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 11.6:
+        non_striker: Rehan Ahmed
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 12.1:
+        non_striker: Rehan Ahmed
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 12.2:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 12.3:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rehan Ahmed
+    - 12.4:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 12.5:
+        non_striker: Rehan Ahmed
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 12.6:
+        non_striker: Rehan Ahmed
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 13.1:
+        non_striker: Rehan Ahmed
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 13.2:
+        non_striker: Rehan Ahmed
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 13.3:
+        non_striker: Rehan Ahmed
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 13.4:
+        non_striker: Rehan Ahmed
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 13.5:
+        non_striker: Rehan Ahmed
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 13.6:
+        non_striker: OB Cox
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 14.1:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OB Cox
+    - 14.2:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 14.3:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 14.4:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 14.5:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 14.6:
+        non_striker: Rehan Ahmed
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.1:
+        non_striker: Rehan Ahmed
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.2:
+        non_striker: OB Cox
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+        wicket:
+          player_out: Rehan Ahmed
+          kind: bowled
+    - 15.3:
+        non_striker: OB Cox
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Trevaskis
+    - 15.4:
+        non_striker: OB Cox
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 15.5:
+        non_striker: L Trevaskis
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 15.6:
+        non_striker: L Trevaskis
+        bowler: CM Barnard
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 16.1:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Trevaskis
+    - 16.2:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 16.3:
+        non_striker: L Trevaskis
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 16.4:
+        non_striker: L Trevaskis
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 16.5:
+        non_striker: L Trevaskis
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 16.6:
+        non_striker: OB Cox
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Trevaskis
+    - 17.1:
+        non_striker: L Trevaskis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OB Cox
+    - 17.2:
+        non_striker: L Trevaskis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 17.3:
+        non_striker: OB Cox
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 17.4:
+        non_striker: L Trevaskis
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 17.5:
+        non_striker: OB Cox
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Trevaskis
+    - 17.6:
+        non_striker: OB Cox
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Trevaskis
+    - 18.1:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          byes: 2
+        batsman: L Trevaskis
+    - 18.2:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Trevaskis
+    - 18.3:
+        non_striker: OB Cox
+        bowler: TW Hartley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Trevaskis

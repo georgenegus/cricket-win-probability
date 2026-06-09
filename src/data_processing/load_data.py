@@ -37,7 +37,7 @@ class CricketDataLoader:
             for delivery in deliveries:
                 for ball_str, ball_data in delivery.items():
 
-                    over, ball = map(int, ball_str.split("."))
+                    over, ball = map(int, str(ball_str).split("."))
 
                     runs = ball_data.get("runs", {})
                     wickets = ball_data.get("wickets", [])
@@ -65,7 +65,7 @@ class CricketDataLoader:
 
         all_dfs = []
 
-        for file_path in self.data_path.glob("*.yaml"):
+        for file_path in self.data_path.glob("**/*.yaml"):
             df = self.load_match(file_path)
             all_dfs.append(df)
 

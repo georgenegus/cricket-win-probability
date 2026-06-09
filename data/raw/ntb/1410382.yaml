@@ -1,0 +1,2103 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-05-31'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Worcester
+  competition: Vitality Blast
+  dates:
+  - '2024-05-31'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Worcestershire
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Lancashire:
+    - JJ Bohannon
+    - LWP Wells
+    - GJ Bell
+    - TC Bruce
+    - MF Hurst
+    - SJ Croft
+    - CJ Green
+    - TH Aspinwall
+    - L Wood
+    - JM Blatherwick
+    - MT Stanley
+    Worcestershire:
+    - BL D'Oliveira
+    - MJ Waite
+    - JJ Cobb
+    - AJ Hose
+    - EA Brookes
+    - EJ Pollock
+    - TAI Taylor
+    - NG Smith
+    - HR Walsh
+    - GH Roderick
+    - AW Finch
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      AW Finch: fc63d916
+      BL D'Oliveira: 9679838c
+      CJ Green: 19b9f399
+      Chris Watts: 3cfb1554
+      EA Brookes: 6ce9f3eb
+      EJ Pollock: d6663a9a
+      GH Roderick: 7081848a
+      GJ Bell: 3e7534f7
+      HR Walsh: 1ac2a995
+      JJ Bohannon: fd96de7c
+      JJ Cobb: 58c481c6
+      JM Blatherwick: 35c08a29
+      L Wood: 65b6943c
+      LWP Wells: 1957c6b7
+      MF Hurst: 40e4cf47
+      MJ Waite: a4b810d0
+      MT Stanley: faa8cfba
+      NG Smith: 05b1aef8
+      PR Pollard: 85d884bb
+      SG Hinks: 0bb4dc0d
+      SJ Croft: ab474682
+      TAI Taylor: 867a45a7
+      TC Bruce: f92c9151
+      TH Aspinwall: 00b195ae
+  teams:
+  - Lancashire
+  - Worcestershire
+  toss:
+    winner: Worcestershire
+    decision: field
+  umpires:
+  - Chris Watts
+  - PR Pollard
+  venue: County Ground, New Road, Worcester
+innings:
+- 1st innings:
+    team: Lancashire
+    deliveries:
+    - 0.1:
+        non_striker: LWP Wells
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 0.2:
+        non_striker: LWP Wells
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+    - 0.3:
+        non_striker: LWP Wells
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Bohannon
+        wicket:
+          player_out: JJ Bohannon
+          fielders:
+          - AW Finch
+          kind: caught
+    - 0.4:
+        non_striker: LWP Wells
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GJ Bell
+    - 0.5:
+        non_striker: LWP Wells
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GJ Bell
+    - 0.6:
+        non_striker: LWP Wells
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GJ Bell
+        wicket:
+          player_out: GJ Bell
+          fielders:
+          - GH Roderick
+          kind: caught
+    - 1.1:
+        non_striker: TC Bruce
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.2:
+        non_striker: TC Bruce
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 1.3:
+        non_striker: TC Bruce
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LWP Wells
+    - 1.4:
+        non_striker: TC Bruce
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 1.5:
+        non_striker: LWP Wells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 1.6:
+        non_striker: LWP Wells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 2.1:
+        non_striker: TC Bruce
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 2.2:
+        non_striker: TC Bruce
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 2.3:
+        non_striker: TC Bruce
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 2.4:
+        non_striker: TC Bruce
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 2.5:
+        non_striker: TC Bruce
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LWP Wells
+    - 2.6:
+        non_striker: TC Bruce
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 3.1:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 3.2:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+    - 3.3:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TC Bruce
+        wicket:
+          player_out: TC Bruce
+          kind: bowled
+    - 3.4:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 3.5:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 3.6:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MF Hurst
+    - 4.1:
+        non_striker: MF Hurst
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 4.2:
+        non_striker: MF Hurst
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 4.3:
+        non_striker: MF Hurst
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 4.4:
+        non_striker: LWP Wells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 4.5:
+        non_striker: LWP Wells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 4.6:
+        non_striker: LWP Wells
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 5.1:
+        non_striker: MF Hurst
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 5.2:
+        non_striker: MF Hurst
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 5.3:
+        non_striker: MF Hurst
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LWP Wells
+    - 5.4:
+        non_striker: MF Hurst
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 5.5:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MF Hurst
+    - 5.6:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 2
+          total: 4
+          batsman: 2
+        extras:
+          noballs: 2
+        batsman: MF Hurst
+    - 5.7:
+        non_striker: LWP Wells
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 6.1:
+        non_striker: MF Hurst
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 6.2:
+        non_striker: MF Hurst
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 6.3:
+        non_striker: MF Hurst
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 6.4:
+        non_striker: LWP Wells
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 6.5:
+        non_striker: MF Hurst
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+    - 6.6:
+        non_striker: MF Hurst
+        bowler: JJ Cobb
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LWP Wells
+    - 7.1:
+        non_striker: LWP Wells
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 7.2:
+        non_striker: LWP Wells
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 7.3:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 7.4:
+        non_striker: LWP Wells
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 7.5:
+        non_striker: LWP Wells
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 7.6:
+        non_striker: LWP Wells
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 8.1:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LWP Wells
+    - 8.2:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LWP Wells
+    - 8.3:
+        non_striker: LWP Wells
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 8.4:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LWP Wells
+        wicket:
+          player_out: LWP Wells
+          fielders:
+          - TAI Taylor
+          kind: caught
+    - 8.5:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 8.6:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 9.1:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 9.2:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 9.3:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 9.4:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 9.5:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 9.6:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.1:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.2:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 10.3:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 10.4:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 10.5:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 10.6:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 11.1:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 11.2:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 11.3:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+    - 11.4:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 11.5:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MF Hurst
+    - 11.6:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 12.1:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 12.2:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SJ Croft
+    - 12.3:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 12.4:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MF Hurst
+    - 12.5:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 12.6:
+        non_striker: MF Hurst
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 13.1:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 13.2:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SJ Croft
+    - 13.3:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 13.4:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 13.5:
+        non_striker: SJ Croft
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MF Hurst
+    - 13.6:
+        non_striker: MF Hurst
+        bowler: HR Walsh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 14.1:
+        non_striker: MF Hurst
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SJ Croft
+    - 14.2:
+        non_striker: MF Hurst
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SJ Croft
+    - 14.3:
+        non_striker: MF Hurst
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 14.4:
+        non_striker: SJ Croft
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MF Hurst
+    - 14.5:
+        non_striker: SJ Croft
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MF Hurst
+        wicket:
+          player_out: MF Hurst
+          kind: lbw
+    - 14.6:
+        non_striker: SJ Croft
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.1:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 15.2:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 15.3:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 15.4:
+        non_striker: SJ Croft
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 15.5:
+        non_striker: CJ Green
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SJ Croft
+    - 15.6:
+        non_striker: CJ Green
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 16.1:
+        non_striker: CJ Green
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SJ Croft
+    - 16.2:
+        non_striker: CJ Green
+        bowler: AW Finch
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: SJ Croft
+    - 16.3:
+        non_striker: CJ Green
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 16.4:
+        non_striker: SJ Croft
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Green
+    - 16.5:
+        non_striker: SJ Croft
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 16.6:
+        non_striker: CJ Green
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 16.7:
+        non_striker: SJ Croft
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 17.1:
+        non_striker: SJ Croft
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 17.2:
+        non_striker: SJ Croft
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 17.3:
+        non_striker: CJ Green
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Croft
+    - 17.4:
+        non_striker: CJ Green
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SJ Croft
+    - 17.5:
+        non_striker: CJ Green
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 17.6:
+        non_striker: SJ Croft
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CJ Green
+    - 18.1:
+        non_striker: CJ Green
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 18.2:
+        non_striker: SJ Croft
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CJ Green
+    - 18.3:
+        non_striker: SJ Croft
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CJ Green
+    - 18.4:
+        non_striker: SJ Croft
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 18.5:
+        non_striker: CJ Green
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Croft
+    - 18.6:
+        non_striker: SJ Croft
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 18.7:
+        non_striker: CJ Green
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SJ Croft
+    - 19.1:
+        non_striker: SJ Croft
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CJ Green
+    - 19.2:
+        non_striker: SJ Croft
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+    - 19.3:
+        non_striker: CJ Green
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SJ Croft
+    - 19.4:
+        non_striker: CJ Green
+        bowler: NG Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SJ Croft
+    - 19.5:
+        non_striker: SJ Croft
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CJ Green
+    - 19.6:
+        non_striker: SJ Croft
+        bowler: NG Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Green
+- 2nd innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.2:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 0.3:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 0.4:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BL D'Oliveira
+    - 0.5:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.6:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.7:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: BL D'Oliveira
+    - 1.1:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 1.2:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 1.3:
+        non_striker: BL D'Oliveira
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 1.4:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 1.5:
+        non_striker: BL D'Oliveira
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 1.6:
+        non_striker: BL D'Oliveira
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Waite
+    - 2.1:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 2.2:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 2.3:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 2.4:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 2.5:
+        non_striker: MJ Waite
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 2.6:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 3.1:
+        non_striker: MJ Waite
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 3.2:
+        non_striker: BL D'Oliveira
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 3.3:
+        non_striker: MJ Waite
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 3.4:
+        non_striker: BL D'Oliveira
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Waite
+    - 3.5:
+        non_striker: BL D'Oliveira
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Waite
+    - 3.6:
+        non_striker: BL D'Oliveira
+        bowler: JM Blatherwick
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Waite
+    - 4.1:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 4.2:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 4.3:
+        non_striker: BL D'Oliveira
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 4.4:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 4.5:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 4.6:
+        non_striker: MJ Waite
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 5.1:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 5.2:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 5.3:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Waite
+    - 5.4:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Waite
+    - 5.5:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: MJ Waite
+    - 5.6:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Waite
+    - 5.7:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+        wicket:
+          player_out: MJ Waite
+          kind: bowled
+    - 6.1:
+        non_striker: JJ Cobb
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 6.2:
+        non_striker: JJ Cobb
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.3:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 6.4:
+        non_striker: JJ Cobb
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 6.5:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 6.6:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 7.1:
+        non_striker: JJ Cobb
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 7.2:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 7.3:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JJ Cobb
+    - 7.4:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+    - 7.5:
+        non_striker: BL D'Oliveira
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 7.6:
+        non_striker: JJ Cobb
+        bowler: MT Stanley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.1:
+        non_striker: JJ Cobb
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.2:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 8.3:
+        non_striker: JJ Cobb
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.4:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 8.5:
+        non_striker: JJ Cobb
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 8.6:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 9.1:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 9.2:
+        non_striker: JJ Cobb
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 9.3:
+        non_striker: JJ Cobb
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 9.4:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: JJ Cobb
+    - 9.5:
+        non_striker: JJ Cobb
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 9.6:
+        non_striker: JJ Cobb
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 10.1:
+        non_striker: JJ Cobb
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 10.2:
+        non_striker: JJ Cobb
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 10.3:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JJ Cobb
+    - 10.4:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JJ Cobb
+    - 10.5:
+        non_striker: JJ Cobb
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 10.6:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JJ Cobb
+        wicket:
+          player_out: JJ Cobb
+          fielders:
+          - L Wood
+          kind: caught
+    - 11.1:
+        non_striker: AJ Hose
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 11.2:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 11.3:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 11.4:
+        non_striker: AJ Hose
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 11.5:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 11.6:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 12.1:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 12.2:
+        non_striker: AJ Hose
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 12.3:
+        non_striker: AJ Hose
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 12.4:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 12.5:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 12.6:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AJ Hose
+    - 12.7:
+        non_striker: BL D'Oliveira
+        bowler: SJ Croft
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 13.1:
+        non_striker: AJ Hose
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 13.2:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          kind: bowled
+    - 13.3:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 13.4:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 13.5:
+        non_striker: EA Brookes
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 13.6:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 14.1:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 14.2:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EA Brookes
+    - 14.3:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 14.4:
+        non_striker: EA Brookes
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 14.5:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 14.6:
+        non_striker: BL D'Oliveira
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 15.1:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+        wicket:
+          player_out: EA Brookes
+          fielders:
+          - L Wood
+          kind: caught
+    - 15.2:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 15.3:
+        non_striker: EJ Pollock
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 15.4:
+        non_striker: EJ Pollock
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 15.5:
+        non_striker: EJ Pollock
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 15.6:
+        non_striker: BL D'Oliveira
+        bowler: LWP Wells
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 16.1:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 16.2:
+        non_striker: BL D'Oliveira
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 16.3:
+        non_striker: EJ Pollock
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 16.4:
+        non_striker: EJ Pollock
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 16.5:
+        non_striker: EJ Pollock
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          fielders:
+          - TC Bruce
+          kind: caught
+    - 16.6:
+        non_striker: EJ Pollock
+        bowler: CJ Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 17.1:
+        non_striker: EJ Pollock
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 17.2:
+        non_striker: TAI Taylor
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 17.3:
+        non_striker: TAI Taylor
+        bowler: TH Aspinwall
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EJ Pollock
+    - 17.4:
+        non_striker: TAI Taylor
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 17.5:
+        non_striker: TAI Taylor
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 17.6:
+        non_striker: EJ Pollock
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 17.7:
+        non_striker: TAI Taylor
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 18.1:
+        non_striker: TAI Taylor
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 18.2:
+        non_striker: EJ Pollock
+        bowler: L Wood
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TAI Taylor
+    - 18.3:
+        non_striker: TAI Taylor
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 18.4:
+        non_striker: EJ Pollock
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TAI Taylor
+    - 18.5:
+        non_striker: EJ Pollock
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 18.6:
+        non_striker: TAI Taylor
+        bowler: L Wood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EJ Pollock
+    - 19.1:
+        non_striker: EJ Pollock
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 19.2:
+        non_striker: TAI Taylor
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EJ Pollock
+    - 19.3:
+        non_striker: EJ Pollock
+        bowler: TH Aspinwall
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TAI Taylor

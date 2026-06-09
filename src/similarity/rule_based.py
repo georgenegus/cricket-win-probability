@@ -5,7 +5,7 @@ class RuleBasedSimilarity:
 
     def __init__(
         self,
-        runs_tol=10,
+        runs_tol=5,
         wickets_tol=1,
         balls_tol=6
     ):
@@ -20,23 +20,20 @@ class RuleBasedSimilarity:
     ) -> pd.DataFrame:
 
         mask = (
-            (historical_states["runs_scored"]
-                .between(
-                    state["runs_scored"] - self.runs_tol,
-                    state["runs_scored"] + self.runs_tol
-                ))
+            historical_states["runs_remaining"].between(
+                state["runs_remaining"] - self.runs_tol,
+                state["runs_remaining"] + self.runs_tol
+            )
             &
-            (historical_states["wickets_lost"]
-                .between(
-                    state["wickets_lost"] - self.wickets_tol,
-                    state["wickets_lost"] + self.wickets_tol
-                ))
+            historical_states["wickets_lost"].between(
+                state["wickets_lost"] - self.wickets_tol,
+                state["wickets_lost"] + self.wickets_tol
+            )
             &
-            (historical_states["balls_remaining"]
-                .between(
-                    state["balls_remaining"] - self.balls_tol,
-                    state["balls_remaining"] + self.balls_tol
-                ))
+            historical_states["balls_remaining"].between(
+                state["balls_remaining"] - self.balls_tol,
+                state["balls_remaining"] + self.balls_tol
+            )
         )
 
         return historical_states[mask]

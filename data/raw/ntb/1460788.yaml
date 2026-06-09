@@ -1,0 +1,1899 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Brighton
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sussex
+    by:
+      runs: 78
+  overs: 20
+  players:
+    Sussex:
+    - HD Ward
+    - DP Hughes
+    - JA Simpson
+    - JM Coles
+    - TP Alsop
+    - N McAndrew
+    - TGR Clark
+    - JJ Carson
+    - OE Robinson
+    - TS Mills
+    - BJ Currie
+    Glamorgan:
+    - KS Carlson
+    - WT Smale
+    - BI Kellaway
+    - CA Ingram
+    - CB Cooke
+    - AM Tribe
+    - DA Douthwaite
+    - T van der Gugten
+    - MS Crane
+    - AW Gorvin
+    - JP McIlroy
+  registry:
+    people:
+      AM Tribe: 86f84b37
+      AW Gorvin: 7d7233a9
+      BI Kellaway: eafe8a94
+      BJ Currie: 2ecd844a
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      DA Douthwaite: 03df7a25
+      DP Hughes: f3982af9
+      HD Ward: 9f7932a7
+      ID Blackwell: 818e8bf2
+      JA Simpson: f05fe9b1
+      JJ Carson: 344c6d55
+      JJ Swift: 78deed6e
+      JM Coles: 9c643d7b
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      MS Crane: f0a0204e
+      Mark Newell: b33f0fa1
+      N McAndrew: 38c276e1
+      OE Robinson: 0f3ee070
+      T van der Gugten: d99cc23a
+      TGR Clark: ed8faea2
+      TP Alsop: 961b8ff1
+      TS Mills: 245c97cb
+      WT Smale: 97da28bd
+  teams:
+  - Sussex
+  - Glamorgan
+  toss:
+    winner: Sussex
+    decision: bat
+  umpires:
+  - ID Blackwell
+  - Mark Newell
+  venue: County Ground, Hove
+innings:
+- 1st innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: DP Hughes
+        batsman: HD Ward
+    - 0.2:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 0.3:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Hughes
+    - 0.4:
+        non_striker: DP Hughes
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 0.5:
+        non_striker: DP Hughes
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 0.6:
+        non_striker: DP Hughes
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.1:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+    - 1.2:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Hughes
+        wicket:
+          player_out: DP Hughes
+          fielders:
+          - T van der Gugten
+          kind: caught
+    - 1.3:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 1.4:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 1.5:
+        non_striker: JA Simpson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 1.6:
+        non_striker: JA Simpson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 2.1:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Simpson
+    - 2.2:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Simpson
+    - 2.3:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 2.4:
+        non_striker: HD Ward
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 2.5:
+        non_striker: JA Simpson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 2.6:
+        non_striker: JA Simpson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 3.1:
+        non_striker: JA Simpson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 3.2:
+        non_striker: JA Simpson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 3.3:
+        non_striker: JA Simpson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 3.4:
+        non_striker: HD Ward
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 3.5:
+        non_striker: JA Simpson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 3.6:
+        non_striker: JA Simpson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 4.1:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 4.2:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 4.3:
+        non_striker: HD Ward
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 4.4:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 4.5:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 4.6:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 5.1:
+        non_striker: JA Simpson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 5.2:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Simpson
+    - 5.3:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 5.4:
+        non_striker: HD Ward
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 5.5:
+        non_striker: JA Simpson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 5.6:
+        non_striker: JA Simpson
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 6.1:
+        non_striker: JA Simpson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 6.2:
+        non_striker: JA Simpson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+        wicket:
+          player_out: HD Ward
+          fielders:
+          - KS Carlson
+          kind: caught
+    - 6.3:
+        non_striker: JA Simpson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 6.4:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 6.5:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 6.6:
+        non_striker: JA Simpson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 7.1:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 7.2:
+        non_striker: JA Simpson
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 7.3:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 7.4:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 7.5:
+        non_striker: JA Simpson
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 7.6:
+        non_striker: JA Simpson
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 8.1:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Simpson
+    - 8.2:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+    - 8.3:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 8.4:
+        non_striker: JA Simpson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 8.5:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 8.6:
+        non_striker: JA Simpson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 9.1:
+        non_striker: JM Coles
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 9.2:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 9.3:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 9.4:
+        non_striker: JM Coles
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Simpson
+    - 9.5:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 9.6:
+        non_striker: JA Simpson
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 10.1:
+        non_striker: JM Coles
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Simpson
+        wicket:
+          player_out: JA Simpson
+          kind: lbw
+    - 10.2:
+        non_striker: JM Coles
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 10.3:
+        non_striker: TP Alsop
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 10.4:
+        non_striker: TP Alsop
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 10.5:
+        non_striker: JM Coles
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 10.6:
+        non_striker: TP Alsop
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 11.1:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 11.2:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 11.3:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 11.4:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 11.5:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 11.6:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 12.1:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 12.2:
+        non_striker: TP Alsop
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 12.3:
+        non_striker: TP Alsop
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+    - 12.4:
+        non_striker: TP Alsop
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 12.5:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 12.6:
+        non_striker: JM Coles
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TP Alsop
+    - 13.1:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 13.2:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 13.3:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 13.4:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 13.5:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 13.6:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 14.1:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TP Alsop
+    - 14.2:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 14.3:
+        non_striker: TP Alsop
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 14.4:
+        non_striker: TP Alsop
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 14.5:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 14.6:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 15.1:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TP Alsop
+    - 15.2:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 15.3:
+        non_striker: TP Alsop
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 15.4:
+        non_striker: TP Alsop
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 15.5:
+        non_striker: TP Alsop
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 15.6:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 16.1:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 16.2:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 16.3:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TP Alsop
+    - 16.4:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 16.5:
+        non_striker: TP Alsop
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 16.6:
+        non_striker: JM Coles
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 17.1:
+        non_striker: TP Alsop
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+    - 17.2:
+        non_striker: TP Alsop
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 17.3:
+        non_striker: TP Alsop
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 17.4:
+        non_striker: JM Coles
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TP Alsop
+    - 17.5:
+        non_striker: JM Coles
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 17.6:
+        non_striker: TP Alsop
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 18.1:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: TP Alsop
+    - 18.2:
+        non_striker: TP Alsop
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 18.3:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TP Alsop
+    - 18.4:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TP Alsop
+    - 18.5:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 18.6:
+        non_striker: TP Alsop
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 18.7:
+        non_striker: JM Coles
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 19.1:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TP Alsop
+    - 19.2:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+        wicket:
+          player_out: TP Alsop
+          fielders:
+          - AM Tribe
+          kind: caught
+    - 19.3:
+        non_striker: JM Coles
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 19.4:
+        non_striker: N McAndrew
+        bowler: JP McIlroy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JM Coles
+    - 19.5:
+        non_striker: N McAndrew
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 19.6:
+        non_striker: N McAndrew
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 19.7:
+        non_striker: N McAndrew
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Coles
+    - 19.8:
+        non_striker: N McAndrew
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Coles
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.2:
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: WT Smale
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 0.4:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.5:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: KS Carlson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.1:
+        non_striker: KS Carlson
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.4:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 1.5:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 1.6:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.1:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: KS Carlson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 2.3:
+        non_striker: WT Smale
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.4:
+        non_striker: KS Carlson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 2.5:
+        non_striker: KS Carlson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Smale
+    - 2.6:
+        non_striker: KS Carlson
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Smale
+    - 3.1:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 3.2:
+        non_striker: KS Carlson
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 3.3:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 3.4:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - JM Coles
+          kind: caught
+    - 3.5:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 3.6:
+        non_striker: WT Smale
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BI Kellaway
+    - 4.1:
+        non_striker: BI Kellaway
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 4.2:
+        non_striker: WT Smale
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 4.3:
+        non_striker: WT Smale
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BI Kellaway
+    - 4.4:
+        non_striker: WT Smale
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+        wicket:
+          player_out: BI Kellaway
+          fielders:
+          - TGR Clark
+          kind: caught
+    - 4.5:
+        non_striker: WT Smale
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - JA Simpson
+          kind: caught
+    - 4.6:
+        non_striker: WT Smale
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 5.1:
+        non_striker: CB Cooke
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 5.2:
+        non_striker: CB Cooke
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 5.3:
+        non_striker: CB Cooke
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 5.4:
+        non_striker: CB Cooke
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 5.5:
+        non_striker: WT Smale
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 5.6:
+        non_striker: WT Smale
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 6.1:
+        non_striker: WT Smale
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 6.2:
+        non_striker: CB Cooke
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 6.3:
+        non_striker: CB Cooke
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 6.4:
+        non_striker: CB Cooke
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          kind: bowled
+    - 6.5:
+        non_striker: CB Cooke
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 6.6:
+        non_striker: CB Cooke
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 7.1:
+        non_striker: AM Tribe
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - JA Simpson
+          kind: caught
+    - 7.2:
+        non_striker: AM Tribe
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 7.3:
+        non_striker: AM Tribe
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 7.4:
+        non_striker: DA Douthwaite
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 7.5:
+        non_striker: AM Tribe
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+        wicket:
+          player_out: DA Douthwaite
+          kind: bowled
+    - 7.6:
+        non_striker: AM Tribe
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          fielders:
+          - TP Alsop
+          kind: caught
+    - 8.1:
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: MS Crane
+        batsman: AM Tribe
+    - 8.2:
+        non_striker: AM Tribe
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 8.3:
+        non_striker: MS Crane
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Tribe
+    - 8.4:
+        non_striker: MS Crane
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 8.5:
+        non_striker: MS Crane
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 8.6:
+        non_striker: MS Crane
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Tribe
+    - 9.1:
+        non_striker: AM Tribe
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 9.2:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AM Tribe
+    - 9.3:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 9.4:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Tribe
+    - 9.5:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AM Tribe
+    - 9.6:
+        non_striker: AM Tribe
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 9.7:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 10.1:
+        non_striker: MS Crane
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 10.2:
+        non_striker: AM Tribe
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Crane
+    - 10.3:
+        non_striker: AM Tribe
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Crane
+    - 10.4:
+        non_striker: AM Tribe
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Crane
+    - 10.5:
+        non_striker: AM Tribe
+        bowler: OE Robinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Crane
+    - 10.6:
+        non_striker: AM Tribe
+        bowler: OE Robinson
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: MS Crane
+    - 11.1:
+        non_striker: MS Crane
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+    - 11.2:
+        non_striker: MS Crane
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 11.3:
+        non_striker: AM Tribe
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 11.4:
+        non_striker: AM Tribe
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 11.5:
+        non_striker: MS Crane
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Tribe
+    - 11.6:
+        non_striker: AM Tribe
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 12.1:
+        non_striker: AM Tribe
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 12.2:
+        non_striker: MS Crane
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Tribe
+    - 12.3:
+        non_striker: MS Crane
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Tribe
+    - 12.4:
+        non_striker: MS Crane
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Tribe
+    - 12.5:
+        non_striker: MS Crane
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Tribe
+    - 12.6:
+        non_striker: MS Crane
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Tribe
+        wicket:
+          player_out: AM Tribe
+          fielders:
+          - DP Hughes
+          kind: caught
+    - 13.1:
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: AW Gorvin
+        batsman: MS Crane
+    - 13.2:
+        non_striker: MS Crane
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 13.3:
+        non_striker: AW Gorvin
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 13.4:
+        non_striker: MS Crane
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 13.5:
+        non_striker: AW Gorvin
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Crane
+    - 13.6:
+        non_striker: AW Gorvin
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 14.1:
+        non_striker: AW Gorvin
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 14.2:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AW Gorvin
+    - 14.3:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 14.4:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 14.5:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 14.6:
+        non_striker: MS Crane
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 14.7:
+        non_striker: AW Gorvin
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 15.1:
+        non_striker: AW Gorvin
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+        wicket:
+          player_out: MS Crane
+          fielders:
+          - JA Simpson
+          kind: caught
+    - 15.2:
+        non_striker: AW Gorvin
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+        wicket:
+          player_out: JP McIlroy
+          kind: bowled

@@ -1,0 +1,2031 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-07-01'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Brighton
+  competition: Vitality Blast
+  dates:
+  - '2023-07-01'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gloucestershire
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Sussex:
+    - HD Ward
+    - TGR Clark
+    - OJ Carter
+    - RS Bopara
+    - Shadab Khan
+    - MGK Burgess
+    - FJ Hudson-Prentice
+    - N McAndrew
+    - A Karvelas
+    - TS Mills
+    - BJ Currie
+    Gloucestershire:
+    - Miles Hammond
+    - G Roelofsen
+    - BG Charlesworth
+    - BJJ Wells
+    - James Bracey
+    - GL van Buuren
+    - JMR Taylor
+    - J Shaw
+    - TMJ Smith
+    - DA Payne
+    - AS Dale
+  registry:
+    people:
+      A Karvelas: a5735bd3
+      AC Harris: ef14c0ec
+      AJ Swann: f9d218a7
+      AS Dale: 27e60d6e
+      BG Charlesworth: ffdba4e2
+      BJ Currie: 2ecd844a
+      BJJ Wells: ad9a3160
+      DA Payne: 6c79c098
+      FJ Hudson-Prentice: 932d3cc9
+      G Roelofsen: ac688e55
+      GL van Buuren: ba377b40
+      HD Ward: 9f7932a7
+      J Shaw: b82e3032
+      JMR Taylor: aed5be04
+      James Bracey: 5bfdc77a
+      MGK Burgess: 715941c3
+      Miles Hammond: c88bc84a
+      N McAndrew: 38c276e1
+      OJ Carter: 26db69e6
+      RS Bopara: 7ca5e05d
+      Rob White: 59b91222
+      Shadab Khan: 9de62878
+      TGR Clark: ed8faea2
+      TMJ Smith: 0a12e736
+      TS Mills: 245c97cb
+  teams:
+  - Sussex
+  - Gloucestershire
+  toss:
+    winner: Sussex
+    decision: bat
+  umpires:
+  - AC Harris
+  - Rob White
+  venue: County Ground, Hove
+innings:
+- 1st innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 0.2:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 0.3:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HD Ward
+    - 0.4:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 0.5:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 0.6:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          fielders:
+          - James Bracey
+          kind: caught
+    - 0.7:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 1.1:
+        non_striker: OJ Carter
+        bowler: J Shaw
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HD Ward
+    - 1.2:
+        non_striker: OJ Carter
+        bowler: J Shaw
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          legbyes: 2
+        batsman: HD Ward
+    - 1.3:
+        non_striker: OJ Carter
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.4:
+        non_striker: OJ Carter
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.5:
+        non_striker: OJ Carter
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 1.6:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 1.7:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Carter
+    - 2.1:
+        non_striker: OJ Carter
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 2.2:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+        wicket:
+          player_out: OJ Carter
+          kind: bowled
+    - 2.3:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 2.4:
+        non_striker: RS Bopara
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 2.5:
+        non_striker: RS Bopara
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 2.6:
+        non_striker: RS Bopara
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 3.1:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.2:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.3:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 3.4:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 3.5:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.6:
+        non_striker: HD Ward
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 4.1:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 4.2:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 4.3:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 4.4:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 4.5:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 4.6:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 5.1:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 5.2:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+        wicket:
+          player_out: RS Bopara
+          fielders:
+          - BG Charlesworth
+          kind: caught
+    - 5.3:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 5.4:
+        non_striker: Shadab Khan
+        bowler: AS Dale
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: HD Ward
+    - 5.5:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 5.6:
+        non_striker: Shadab Khan
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 6.1:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 6.2:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 6.3:
+        non_striker: Shadab Khan
+        bowler: TMJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HD Ward
+    - 6.4:
+        non_striker: Shadab Khan
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 6.5:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+        wicket:
+          player_out: Shadab Khan
+          kind: caught and bowled
+    - 6.6:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 6.7:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 7.1:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 7.2:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 7.3:
+        non_striker: HD Ward
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 7.4:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 7.5:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 7.6:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 8.1:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 8.2:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 8.3:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 8.4:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 8.5:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MGK Burgess
+    - 8.6:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 8.7:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 9.1:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 9.2:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 9.3:
+        non_striker: HD Ward
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 9.4:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 9.5:
+        non_striker: HD Ward
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 9.6:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 10.1:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 10.2:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 10.3:
+        non_striker: MGK Burgess
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 10.4:
+        non_striker: MGK Burgess
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 10.5:
+        non_striker: MGK Burgess
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 10.6:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 11.1:
+        non_striker: HD Ward
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 11.2:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 11.3:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 11.4:
+        non_striker: HD Ward
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 11.5:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 11.6:
+        non_striker: HD Ward
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 12.1:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 12.2:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 12.3:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 12.4:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 12.5:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MGK Burgess
+    - 12.6:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 13.1:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MGK Burgess
+    - 13.2:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 13.3:
+        non_striker: MGK Burgess
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 13.4:
+        non_striker: MGK Burgess
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 13.5:
+        non_striker: MGK Burgess
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 13.6:
+        non_striker: HD Ward
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 14.1:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 14.2:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 14.3:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+        wicket:
+          player_out: HD Ward
+          fielders:
+          - Miles Hammond
+          kind: caught
+    - 14.4:
+        non_striker: MGK Burgess
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 14.5:
+        non_striker: FJ Hudson-Prentice
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 14.6:
+        non_striker: FJ Hudson-Prentice
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 15.1:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 15.2:
+        non_striker: FJ Hudson-Prentice
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 15.3:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FJ Hudson-Prentice
+    - 15.4:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 15.5:
+        non_striker: FJ Hudson-Prentice
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 15.6:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 16.1:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Hudson-Prentice
+        wicket:
+          player_out: FJ Hudson-Prentice
+          kind: bowled
+    - 16.2:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+        wicket:
+          player_out: N McAndrew
+          kind: bowled
+    - 16.3:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Karvelas
+    - 16.4:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Karvelas
+    - 16.5:
+        non_striker: A Karvelas
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 16.6:
+        non_striker: MGK Burgess
+        bowler: GL van Buuren
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Karvelas
+    - 17.1:
+        non_striker: A Karvelas
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 17.2:
+        non_striker: A Karvelas
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 17.3:
+        non_striker: MGK Burgess
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Karvelas
+    - 17.4:
+        non_striker: MGK Burgess
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Karvelas
+    - 17.5:
+        non_striker: MGK Burgess
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Karvelas
+        wicket:
+          player_out: A Karvelas
+          kind: lbw
+    - 17.6:
+        non_striker: MGK Burgess
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TS Mills
+    - 18.1:
+        non_striker: TS Mills
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 18.2:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Mills
+    - 18.3:
+        non_striker: TS Mills
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 18.4:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+    - 18.5:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Mills
+        wicket:
+          player_out: TS Mills
+          fielders:
+          - James Bracey
+          kind: caught
+    - 18.6:
+        non_striker: MGK Burgess
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Currie
+    - 19.1:
+        non_striker: BJ Currie
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 19.2:
+        non_striker: BJ Currie
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 19.3:
+        non_striker: BJ Currie
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MGK Burgess
+    - 19.4:
+        non_striker: BJ Currie
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 19.5:
+        non_striker: BJ Currie
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MGK Burgess
+    - 19.6:
+        non_striker: BJ Currie
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MGK Burgess
+- 2nd innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.2:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.3:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.4:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 0.5:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.6:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 1.1:
+        non_striker: Miles Hammond
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 1.2:
+        non_striker: Miles Hammond
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 5
+          batsman: 5
+        batsman: G Roelofsen
+    - 1.3:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Miles Hammond
+    - 1.4:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.5:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.6:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          fielders:
+          - BJ Currie
+          kind: caught
+    - 2.1:
+        non_striker: BG Charlesworth
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 2.2:
+        non_striker: BG Charlesworth
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Roelofsen
+    - 2.3:
+        non_striker: BG Charlesworth
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 2.4:
+        non_striker: BG Charlesworth
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 2.5:
+        non_striker: BG Charlesworth
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 2.6:
+        non_striker: BG Charlesworth
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 3.1:
+        non_striker: BG Charlesworth
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 3.2:
+        non_striker: BG Charlesworth
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 3.3:
+        non_striker: BG Charlesworth
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 3.4:
+        non_striker: BG Charlesworth
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 3.5:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 3.6:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 4.1:
+        non_striker: BG Charlesworth
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 4.2:
+        non_striker: G Roelofsen
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 4.3:
+        non_striker: BG Charlesworth
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+        wicket:
+          player_out: G Roelofsen
+          fielders:
+          - BJ Currie
+          kind: caught
+    - 4.4:
+        non_striker: BG Charlesworth
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 4.5:
+        non_striker: BG Charlesworth
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+        wicket:
+          player_out: BJJ Wells
+          kind: lbw
+    - 4.6:
+        non_striker: BG Charlesworth
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 5.1:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 5.2:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 5.3:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 5.4:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 5.5:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 5.6:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 6.1:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 6.2:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: BG Charlesworth
+    - 6.3:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 6.4:
+        non_striker: BG Charlesworth
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 6.5:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 6.6:
+        non_striker: BG Charlesworth
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 6.7:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 7.1:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 7.2:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 7.3:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BG Charlesworth
+    - 7.4:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 7.5:
+        non_striker: BG Charlesworth
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 7.6:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 8.1:
+        non_striker: James Bracey
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 8.2:
+        non_striker: BG Charlesworth
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 8.3:
+        non_striker: James Bracey
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 8.4:
+        non_striker: James Bracey
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 8.5:
+        non_striker: James Bracey
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 8.6:
+        non_striker: James Bracey
+        bowler: HD Ward
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          role:
+          - in: HD Ward
+            out: RS Bopara
+            reason: injury
+            role: bowler
+        batsman: BG Charlesworth
+    - 9.1:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BG Charlesworth
+    - 9.2:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 9.3:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 9.4:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BG Charlesworth
+    - 9.5:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 9.6:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 9.7:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 9.8:
+        non_striker: BG Charlesworth
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 10.1:
+        non_striker: James Bracey
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 10.2:
+        non_striker: James Bracey
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 10.3:
+        non_striker: James Bracey
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          kind: bowled
+    - 10.4:
+        non_striker: James Bracey
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 10.5:
+        non_striker: James Bracey
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 10.6:
+        non_striker: James Bracey
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 11.1:
+        non_striker: James Bracey
+        bowler: HD Ward
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 11.2:
+        non_striker: James Bracey
+        bowler: HD Ward
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 11.3:
+        non_striker: James Bracey
+        bowler: HD Ward
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GL van Buuren
+    - 11.4:
+        non_striker: James Bracey
+        bowler: HD Ward
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 11.5:
+        non_striker: GL van Buuren
+        bowler: HD Ward
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 11.6:
+        non_striker: GL van Buuren
+        bowler: HD Ward
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 11.7:
+        non_striker: GL van Buuren
+        bowler: HD Ward
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 12.1:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 12.2:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.3:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 12.4:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 12.5:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.6:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: James Bracey
+    - 13.1:
+        non_striker: GL van Buuren
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 13.2:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 13.3:
+        non_striker: GL van Buuren
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 13.4:
+        non_striker: GL van Buuren
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: James Bracey
+    - 13.5:
+        non_striker: GL van Buuren
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 13.6:
+        non_striker: GL van Buuren
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 13.7:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.1:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 14.2:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 14.3:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+        wicket:
+          player_out: GL van Buuren
+          kind: lbw
+    - 14.4:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 14.5:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 14.6:
+        non_striker: James Bracey
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 15.1:
+        non_striker: JMR Taylor
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: James Bracey
+    - 15.2:
+        non_striker: JMR Taylor
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 15.3:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 15.4:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 15.5:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 15.6:
+        non_striker: James Bracey
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 16.1:
+        non_striker: JMR Taylor
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 16.2:
+        non_striker: JMR Taylor
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 16.3:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JMR Taylor
+    - 16.4:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 16.5:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 16.6:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 16.7:
+        non_striker: James Bracey
+        bowler: N McAndrew
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: JMR Taylor

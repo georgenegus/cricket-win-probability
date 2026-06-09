@@ -1,0 +1,1997 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-06-15'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leicester
+  competition: Vitality Blast Men
+  dates:
+  - '2025-06-15'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Leicestershire
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Worcestershire:
+    - EJ Pollock
+    - JD Libby
+    - GH Roderick
+    - AJ Hose
+    - EA Brookes
+    - MJ Waite
+    - BJ Dwarshuis
+    - TI Hinley
+    - TAI Taylor
+    - F Singh
+    - JA Duffy
+    Leicestershire:
+    - RK Patel
+    - SG Budinger
+    - Shan Masood
+    - Rehan Ahmed
+    - LPJ Kimber
+    - OB Cox
+    - L Trevaskis
+    - LV van Beek
+    - BWM Mike
+    - TAR Scriven
+    - MET Salisbury
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      AM Smith: a0bc360f
+      BJ Dwarshuis: e1b9f3a9
+      BWM Mike: ed12fcd7
+      EA Brookes: 6ce9f3eb
+      EJ Pollock: d6663a9a
+      F Singh: 1d48795b
+      GD Lloyd: 36e0770d
+      GH Roderick: 7081848a
+      JA Duffy: dadbdb68
+      JD Libby: 0d61d8f0
+      L Trevaskis: b5781ac3
+      LPJ Kimber: 9f812582
+      LV van Beek: 782fb776
+      MET Salisbury: e05b2a5b
+      MJ Waite: a4b810d0
+      N Pratt: 01f65cd3
+      OB Cox: 324a6ee1
+      RK Patel: 4531f249
+      Rehan Ahmed: 0ecb4de6
+      SG Budinger: bfc60227
+      Shan Masood: 6843a783
+      TAI Taylor: 867a45a7
+      TAR Scriven: ac3c3cab
+      TI Hinley: d617bf90
+  teams:
+  - Worcestershire
+  - Leicestershire
+  toss:
+    winner: Worcestershire
+    decision: bat
+  umpires:
+  - GD Lloyd
+  - N Pratt
+  venue: Grace Road, Leicester
+innings:
+- 1st innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: JD Libby
+        batsman: EJ Pollock
+    - 0.2:
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: JD Libby
+        batsman: EJ Pollock
+    - 0.3:
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: JD Libby
+        batsman: EJ Pollock
+    - 0.4:
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: JD Libby
+        batsman: EJ Pollock
+    - 0.5:
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: JD Libby
+        batsman: EJ Pollock
+    - 0.6:
+        non_striker: JD Libby
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EJ Pollock
+    - 1.1:
+        non_striker: EJ Pollock
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Libby
+    - 1.2:
+        non_striker: EJ Pollock
+        bowler: LV van Beek
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: JD Libby
+        wicket:
+          player_out: EJ Pollock
+          fielders:
+          - OB Cox
+          kind: run out
+    - 1.3:
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: GH Roderick
+        batsman: JD Libby
+    - 1.4:
+        non_striker: JD Libby
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 1.5:
+        non_striker: JD Libby
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 1.6:
+        non_striker: JD Libby
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 1.7:
+        non_striker: GH Roderick
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JD Libby
+    - 2.1:
+        non_striker: JD Libby
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 2.2:
+        non_striker: GH Roderick
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Libby
+    - 2.3:
+        non_striker: JD Libby
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 2.4:
+        non_striker: JD Libby
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 2.5:
+        non_striker: JD Libby
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 2.6:
+        non_striker: JD Libby
+        bowler: MET Salisbury
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 3.1:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Libby
+    - 3.2:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Libby
+    - 3.3:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Libby
+    - 3.4:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Libby
+        wicket:
+          player_out: JD Libby
+          fielders:
+          - Rehan Ahmed
+          kind: caught
+    - 3.5:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 3.6:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 4.1:
+        non_striker: AJ Hose
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 4.2:
+        non_striker: AJ Hose
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 4.3:
+        non_striker: AJ Hose
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 4.4:
+        non_striker: GH Roderick
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 4.5:
+        non_striker: AJ Hose
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 4.6:
+        non_striker: AJ Hose
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Roderick
+    - 5.1:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 5.2:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 5.3:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 5.4:
+        non_striker: AJ Hose
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 5.5:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 5.6:
+        non_striker: GH Roderick
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 6.1:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 6.2:
+        non_striker: GH Roderick
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 6.3:
+        non_striker: GH Roderick
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 6.4:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Roderick
+    - 6.5:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 6.6:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 7.1:
+        non_striker: AJ Hose
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 7.2:
+        non_striker: AJ Hose
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 7.3:
+        non_striker: GH Roderick
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 7.4:
+        non_striker: GH Roderick
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.5:
+        non_striker: AJ Hose
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 7.6:
+        non_striker: AJ Hose
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 8.1:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 8.2:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Roderick
+    - 8.3:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 8.4:
+        non_striker: GH Roderick
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.5:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+    - 8.6:
+        non_striker: AJ Hose
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 9.1:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Roderick
+    - 9.2:
+        non_striker: GH Roderick
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 9.3:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Roderick
+        wicket:
+          player_out: GH Roderick
+          kind: lbw
+    - 9.4:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 9.5:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 9.6:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 10.1:
+        non_striker: AJ Hose
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 10.2:
+        non_striker: AJ Hose
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+    - 10.3:
+        non_striker: AJ Hose
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 10.4:
+        non_striker: EA Brookes
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 10.5:
+        non_striker: EA Brookes
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 10.6:
+        non_striker: EA Brookes
+        bowler: TAR Scriven
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 11.1:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 11.2:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 11.3:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 11.4:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 11.5:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 11.6:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AJ Hose
+    - 11.7:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+        wicket:
+          player_out: AJ Hose
+          fielders:
+          - Shan Masood
+          kind: caught
+    - 12.1:
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: MJ Waite
+        batsman: EA Brookes
+    - 12.2:
+        non_striker: EA Brookes
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 12.3:
+        non_striker: EA Brookes
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 12.4:
+        non_striker: EA Brookes
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 12.5:
+        non_striker: MJ Waite
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EA Brookes
+    - 12.6:
+        non_striker: MJ Waite
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 13.1:
+        non_striker: MJ Waite
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 13.2:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 13.3:
+        non_striker: MJ Waite
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EA Brookes
+    - 13.4:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 13.5:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MJ Waite
+    - 13.6:
+        non_striker: EA Brookes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 14.1:
+        non_striker: EA Brookes
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 14.2:
+        non_striker: EA Brookes
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 14.3:
+        non_striker: EA Brookes
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 14.4:
+        non_striker: MJ Waite
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EA Brookes
+        wicket:
+          player_out: EA Brookes
+          fielders:
+          - RK Patel
+          kind: caught
+    - 14.5:
+        non_striker: MJ Waite
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+        wicket:
+          player_out: BJ Dwarshuis
+          fielders:
+          - SG Budinger
+          kind: caught
+    - 14.6:
+        non_striker: MJ Waite
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TI Hinley
+    - 15.1:
+        non_striker: TI Hinley
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 15.2:
+        non_striker: MJ Waite
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TI Hinley
+        wicket:
+          player_out: TI Hinley
+          kind: bowled
+    - 15.3:
+        non_striker: MJ Waite
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAI Taylor
+    - 15.4:
+        non_striker: MJ Waite
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 15.5:
+        non_striker: TAI Taylor
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+    - 15.6:
+        non_striker: TAI Taylor
+        bowler: Rehan Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 16.1:
+        non_striker: TAI Taylor
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Waite
+    - 16.2:
+        non_striker: MJ Waite
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 16.3:
+        non_striker: MJ Waite
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 16.4:
+        non_striker: MJ Waite
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAI Taylor
+    - 16.5:
+        non_striker: MJ Waite
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TAI Taylor
+    - 16.6:
+        non_striker: MJ Waite
+        bowler: L Trevaskis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TAI Taylor
+    - 17.1:
+        non_striker: MJ Waite
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 17.2:
+        non_striker: MJ Waite
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 17.3:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Waite
+        wicket:
+          player_out: MJ Waite
+          fielders:
+          - TAR Scriven
+          kind: caught
+    - 17.4:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F Singh
+    - 17.5:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F Singh
+    - 17.6:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F Singh
+    - 18.1:
+        non_striker: F Singh
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 18.2:
+        non_striker: TAI Taylor
+        bowler: BWM Mike
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: F Singh
+    - 18.3:
+        non_striker: F Singh
+        bowler: BWM Mike
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TAI Taylor
+    - 18.4:
+        non_striker: F Singh
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 18.5:
+        non_striker: F Singh
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TAI Taylor
+    - 18.6:
+        non_striker: F Singh
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TAI Taylor
+    - 18.7:
+        non_striker: F Singh
+        bowler: BWM Mike
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 19.1:
+        non_striker: F Singh
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 19.2:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: F Singh
+    - 19.3:
+        non_striker: F Singh
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TAI Taylor
+    - 19.4:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: F Singh
+    - 19.5:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: F Singh
+    - 19.6:
+        non_striker: TAI Taylor
+        bowler: LV van Beek
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: F Singh
+- 2nd innings:
+    team: Leicestershire
+    deliveries:
+    - 0.1:
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: SG Budinger
+        batsman: RK Patel
+    - 0.2:
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: SG Budinger
+        batsman: RK Patel
+    - 0.3:
+        non_striker: RK Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 0.4:
+        non_striker: RK Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 0.5:
+        non_striker: SG Budinger
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 0.6:
+        non_striker: SG Budinger
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 1.1:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 1.2:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 1.3:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 1.4:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 1.5:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 1.6:
+        non_striker: SG Budinger
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 2.1:
+        non_striker: SG Budinger
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 2.2:
+        non_striker: RK Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 2.3:
+        non_striker: RK Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 2.4:
+        non_striker: RK Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 2.5:
+        non_striker: RK Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 2.6:
+        non_striker: RK Patel
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SG Budinger
+    - 3.1:
+        non_striker: SG Budinger
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Patel
+    - 3.2:
+        non_striker: SG Budinger
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 3.3:
+        non_striker: SG Budinger
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 3.4:
+        non_striker: RK Patel
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 3.5:
+        non_striker: SG Budinger
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 3.6:
+        non_striker: RK Patel
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 4.1:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 4.2:
+        non_striker: SG Budinger
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 4.3:
+        non_striker: SG Budinger
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 4.4:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 4.5:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 4.6:
+        non_striker: RK Patel
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SG Budinger
+    - 5.1:
+        non_striker: RK Patel
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SG Budinger
+    - 5.2:
+        non_striker: RK Patel
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+    - 5.3:
+        non_striker: RK Patel
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SG Budinger
+    - 5.4:
+        non_striker: RK Patel
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SG Budinger
+        wicket:
+          player_out: SG Budinger
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 5.5:
+        non_striker: RK Patel
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 5.6:
+        non_striker: Shan Masood
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 6.1:
+        non_striker: Shan Masood
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+    - 6.2:
+        non_striker: Shan Masood
+        bowler: MJ Waite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RK Patel
+    - 6.3:
+        non_striker: RK Patel
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 6.4:
+        non_striker: Shan Masood
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Patel
+    - 6.5:
+        non_striker: Shan Masood
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 6.6:
+        non_striker: RK Patel
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 7.1:
+        non_striker: RK Patel
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 7.2:
+        non_striker: Shan Masood
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.3:
+        non_striker: RK Patel
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 7.4:
+        non_striker: RK Patel
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 7.5:
+        non_striker: Shan Masood
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 7.6:
+        non_striker: RK Patel
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 8.1:
+        non_striker: Shan Masood
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 8.2:
+        non_striker: RK Patel
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 8.3:
+        non_striker: Shan Masood
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Patel
+    - 8.4:
+        non_striker: RK Patel
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 8.5:
+        non_striker: Shan Masood
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Patel
+        wicket:
+          player_out: RK Patel
+          fielders:
+          - TI Hinley
+          kind: caught
+    - 8.6:
+        non_striker: Shan Masood
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 9.1:
+        non_striker: Rehan Ahmed
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 9.2:
+        non_striker: Rehan Ahmed
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 9.3:
+        non_striker: Rehan Ahmed
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 9.4:
+        non_striker: Shan Masood
+        bowler: TI Hinley
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rehan Ahmed
+    - 9.5:
+        non_striker: Shan Masood
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 9.6:
+        non_striker: Shan Masood
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 9.7:
+        non_striker: Shan Masood
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 10.1:
+        non_striker: Rehan Ahmed
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shan Masood
+    - 10.2:
+        non_striker: Rehan Ahmed
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 10.3:
+        non_striker: Shan Masood
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 10.4:
+        non_striker: Shan Masood
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 10.5:
+        non_striker: Rehan Ahmed
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 10.6:
+        non_striker: Shan Masood
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 11.1:
+        non_striker: Shan Masood
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 11.2:
+        non_striker: Shan Masood
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 11.3:
+        non_striker: Rehan Ahmed
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 11.4:
+        non_striker: Shan Masood
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 11.5:
+        non_striker: Rehan Ahmed
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 11.6:
+        non_striker: Rehan Ahmed
+        bowler: TAI Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shan Masood
+    - 12.1:
+        non_striker: Shan Masood
+        bowler: JA Duffy
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Rehan Ahmed
+    - 12.2:
+        non_striker: Rehan Ahmed
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 12.3:
+        non_striker: Rehan Ahmed
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 12.4:
+        non_striker: Shan Masood
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rehan Ahmed
+    - 12.5:
+        non_striker: Shan Masood
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 12.6:
+        non_striker: Shan Masood
+        bowler: JA Duffy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 13.1:
+        non_striker: Shan Masood
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 13.2:
+        non_striker: Rehan Ahmed
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 13.3:
+        non_striker: Rehan Ahmed
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+        wicket:
+          player_out: Shan Masood
+          fielders:
+          - TAI Taylor
+          kind: caught
+    - 13.4:
+        non_striker: Rehan Ahmed
+        bowler: MJ Waite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: LPJ Kimber
+    - 13.5:
+        non_striker: LPJ Kimber
+        bowler: MJ Waite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rehan Ahmed
+    - 13.6:
+        non_striker: LPJ Kimber
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+    - 13.7:
+        non_striker: LPJ Kimber
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 14.1:
+        non_striker: LPJ Kimber
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 14.2:
+        non_striker: Rehan Ahmed
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LPJ Kimber
+    - 14.3:
+        non_striker: Rehan Ahmed
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 14.4:
+        non_striker: Rehan Ahmed
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: LPJ Kimber
+    - 14.5:
+        non_striker: LPJ Kimber
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rehan Ahmed
+    - 14.6:
+        non_striker: Rehan Ahmed
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 15.1:
+        non_striker: LPJ Kimber
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rehan Ahmed
+        wicket:
+          player_out: Rehan Ahmed
+          fielders:
+          - EA Brookes
+          kind: caught
+    - 15.2:
+        non_striker: LPJ Kimber
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 15.3:
+        non_striker: LPJ Kimber
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 15.4:
+        non_striker: OB Cox
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LPJ Kimber
+    - 15.5:
+        non_striker: OB Cox
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 15.6:
+        non_striker: LPJ Kimber
+        bowler: TI Hinley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 16.1:
+        non_striker: OB Cox
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LPJ Kimber
+    - 16.2:
+        non_striker: OB Cox
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 16.3:
+        non_striker: LPJ Kimber
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OB Cox
+    - 16.4:
+        non_striker: LPJ Kimber
+        bowler: F Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OB Cox
+    - 16.5:
+        non_striker: LPJ Kimber
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OB Cox
+    - 16.6:
+        non_striker: OB Cox
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber
+    - 16.7:
+        non_striker: OB Cox
+        bowler: F Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LPJ Kimber
+    - 17.1:
+        non_striker: OB Cox
+        bowler: MJ Waite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LPJ Kimber

@@ -1,0 +1,2117 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-07-07'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Taunton
+  competition: Vitality Blast
+  dates:
+  - '2023-07-07'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 5
+  overs: 20
+  player_of_match:
+  - L Gregory
+  players:
+    Nottinghamshire:
+    - JM Clarke
+    - AD Hales
+    - C Munro
+    - M Montgomery
+    - SR Patel
+    - TJ Moores
+    - SJ Mullaney
+    - Imad Wasim
+    - CG Harrison
+    - LJ Fletcher
+    - JT Ball
+    Somerset:
+    - T Banton
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - C Overton
+    - MJ Henry
+    - IS Sodhi
+    - JA Brooks
+  registry:
+    people:
+      AD Hales: 92aeac25
+      AM Smith: a0bc360f
+      BGF Green: 34b37279
+      C Munro: af2c687b
+      C Overton: e9987a94
+      CG Harrison: f655d740
+      DJ Millns: 46ecfe40
+      GD Lloyd: 36e0770d
+      IS Sodhi: 641ac5ff
+      Imad Wasim: 9cb8d7a6
+      JA Brooks: 8bf61e65
+      JM Clarke: 2eca67f5
+      JT Ball: 3d0ed2f9
+      L Gregory: 06c2de82
+      LJ Fletcher: e423d162
+      M Montgomery: 7671203a
+      MJ Henry: e84ac20c
+      NL Bainton: cd219cb3
+      SJ Mullaney: 0e0d43b4
+      SR Dickson: 2344bdd1
+      SR Patel: 18fac429
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      TB Abell: ba9258a7
+      TJ Moores: 85dcb721
+      WCF Smeed: 4e18e961
+  teams:
+  - Nottinghamshire
+  - Somerset
+  toss:
+    winner: Nottinghamshire
+    decision: bat
+  umpires:
+  - DJ Millns
+  - GD Lloyd
+  venue: The Cooper Associates County Ground, Taunton
+innings:
+- 1st innings:
+    team: Nottinghamshire
+    deliveries:
+    - 0.1:
+        non_striker: AD Hales
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 0.2:
+        non_striker: AD Hales
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 0.3:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+    - 0.4:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Hales
+        wicket:
+          player_out: AD Hales
+          kind: bowled
+    - 0.5:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Munro
+    - 0.6:
+        non_striker: C Munro
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Clarke
+    - 1.1:
+        non_striker: C Munro
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.2:
+        non_striker: C Munro
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.3:
+        non_striker: C Munro
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.4:
+        non_striker: C Munro
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 1.5:
+        non_striker: C Munro
+        bowler: MJ Henry
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JM Clarke
+    - 1.6:
+        non_striker: JM Clarke
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: C Munro
+    - 2.1:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: C Munro
+    - 2.2:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 2.3:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+    - 2.4:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Munro
+        wicket:
+          player_out: C Munro
+          fielders:
+          - MJ Henry
+          kind: caught
+    - 2.5:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 2.6:
+        non_striker: JM Clarke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 3.1:
+        non_striker: M Montgomery
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 3.2:
+        non_striker: M Montgomery
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 3.3:
+        non_striker: M Montgomery
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+    - 3.4:
+        non_striker: M Montgomery
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Clarke
+        wicket:
+          player_out: JM Clarke
+          fielders:
+          - C Overton
+          kind: caught
+    - 3.5:
+        non_striker: M Montgomery
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 3.6:
+        non_striker: M Montgomery
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Patel
+    - 4.1:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 4.2:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 4.3:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 4.4:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 4.5:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 4.6:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 5.1:
+        non_striker: SR Patel
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 5.2:
+        non_striker: SR Patel
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 5.3:
+        non_striker: SR Patel
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 5.4:
+        non_striker: SR Patel
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 5.5:
+        non_striker: M Montgomery
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Patel
+    - 5.6:
+        non_striker: M Montgomery
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 6.1:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 6.2:
+        non_striker: M Montgomery
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 6.3:
+        non_striker: M Montgomery
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 6.4:
+        non_striker: M Montgomery
+        bowler: C Overton
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: SR Patel
+    - 6.5:
+        non_striker: M Montgomery
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 6.6:
+        non_striker: SR Patel
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 6.7:
+        non_striker: M Montgomery
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 7.1:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 7.2:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 7.3:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 7.4:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+    - 7.5:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 7.6:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 8.1:
+        non_striker: SR Patel
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 8.2:
+        non_striker: M Montgomery
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Patel
+    - 8.3:
+        non_striker: M Montgomery
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 8.4:
+        non_striker: SR Patel
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 8.5:
+        non_striker: M Montgomery
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Patel
+    - 8.6:
+        non_striker: M Montgomery
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 9.1:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 9.2:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 9.3:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 9.4:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 9.5:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 9.6:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 10.1:
+        non_striker: M Montgomery
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 10.2:
+        non_striker: SR Patel
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 10.3:
+        non_striker: M Montgomery
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Patel
+    - 10.4:
+        non_striker: M Montgomery
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 10.5:
+        non_striker: SR Patel
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 10.6:
+        non_striker: SR Patel
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 11.1:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 11.2:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 11.3:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 11.4:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 11.5:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 11.6:
+        non_striker: SR Patel
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 12.1:
+        non_striker: SR Patel
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 12.2:
+        non_striker: M Montgomery
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Patel
+    - 12.3:
+        non_striker: SR Patel
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Montgomery
+    - 12.4:
+        non_striker: M Montgomery
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Patel
+        wicket:
+          player_out: SR Patel
+          kind: bowled
+    - 12.5:
+        non_striker: M Montgomery
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 12.6:
+        non_striker: TJ Moores
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Montgomery
+    - 13.1:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 13.2:
+        non_striker: M Montgomery
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 13.3:
+        non_striker: TJ Moores
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 13.4:
+        non_striker: TJ Moores
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 13.5:
+        non_striker: TJ Moores
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 13.6:
+        non_striker: TJ Moores
+        bowler: IS Sodhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+    - 14.1:
+        non_striker: M Montgomery
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TJ Moores
+    - 14.2:
+        non_striker: M Montgomery
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TJ Moores
+    - 14.3:
+        non_striker: M Montgomery
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 14.4:
+        non_striker: TJ Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Montgomery
+    - 14.5:
+        non_striker: TJ Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Montgomery
+        wicket:
+          player_out: M Montgomery
+          fielders:
+          - C Overton
+          kind: caught
+    - 14.6:
+        non_striker: TJ Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Mullaney
+    - 14.7:
+        non_striker: TJ Moores
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 15.1:
+        non_striker: TJ Moores
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 15.2:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TJ Moores
+    - 15.3:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+    - 15.4:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Moores
+    - 15.5:
+        non_striker: TJ Moores
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 15.6:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Moores
+        wicket:
+          player_out: TJ Moores
+          fielders:
+          - IS Sodhi
+          kind: caught
+    - 16.1:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 16.2:
+        non_striker: SJ Mullaney
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.3:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 16.4:
+        non_striker: SJ Mullaney
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 16.5:
+        non_striker: SJ Mullaney
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 16.6:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SJ Mullaney
+    - 17.1:
+        non_striker: SJ Mullaney
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Imad Wasim
+    - 17.2:
+        non_striker: SJ Mullaney
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 17.3:
+        non_striker: SJ Mullaney
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Imad Wasim
+    - 17.4:
+        non_striker: SJ Mullaney
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 17.5:
+        non_striker: SJ Mullaney
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 17.6:
+        non_striker: SJ Mullaney
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+    - 17.7:
+        non_striker: SJ Mullaney
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 18.1:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 18.2:
+        non_striker: SJ Mullaney
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 18.3:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SJ Mullaney
+    - 18.4:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Mullaney
+    - 18.5:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: SJ Mullaney
+    - 18.6:
+        non_striker: Imad Wasim
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 18.7:
+        non_striker: SJ Mullaney
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 19.1:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imad Wasim
+    - 19.2:
+        non_striker: Imad Wasim
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SJ Mullaney
+    - 19.3:
+        non_striker: Imad Wasim
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SJ Mullaney
+    - 19.4:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imad Wasim
+    - 19.5:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imad Wasim
+    - 19.6:
+        non_striker: SJ Mullaney
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imad Wasim
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.2:
+        non_striker: T Banton
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 0.3:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.4:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: T Banton
+    - 0.5:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.6:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 0.7:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 1.1:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          fielders:
+          - TJ Moores
+          kind: caught
+    - 1.2:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 1.3:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 1.4:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 1.5:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 1.6:
+        non_striker: WCF Smeed
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          kind: bowled
+    - 2.1:
+        non_striker: TB Abell
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WCF Smeed
+    - 2.2:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 2.3:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 2.4:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 2.5:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 2.6:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 3.1:
+        non_striker: TB Abell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 3.2:
+        non_striker: TB Abell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 3.3:
+        non_striker: TB Abell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 3.4:
+        non_striker: TB Abell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.5:
+        non_striker: TB Abell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.6:
+        non_striker: TB Abell
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 4.1:
+        non_striker: TB Abell
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 4.2:
+        non_striker: TB Abell
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 4.3:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 4.4:
+        non_striker: TB Abell
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 4.5:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 4.6:
+        non_striker: WCF Smeed
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 5.1:
+        non_striker: TB Abell
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 5.2:
+        non_striker: TB Abell
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: WCF Smeed
+    - 5.3:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 5.4:
+        non_striker: TB Abell
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 5.5:
+        non_striker: WCF Smeed
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 5.6:
+        non_striker: TB Abell
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 6.1:
+        non_striker: WCF Smeed
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.2:
+        non_striker: TB Abell
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 6.3:
+        non_striker: WCF Smeed
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 6.4:
+        non_striker: WCF Smeed
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 6.5:
+        non_striker: WCF Smeed
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 6.6:
+        non_striker: WCF Smeed
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.1:
+        non_striker: WCF Smeed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.2:
+        non_striker: TB Abell
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 7.3:
+        non_striker: TB Abell
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 7.4:
+        non_striker: WCF Smeed
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+        wicket:
+          player_out: WCF Smeed
+          fielders:
+          - AD Hales
+          kind: run out
+    - 7.5:
+        non_striker: SR Dickson
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.6:
+        non_striker: TB Abell
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 8.1:
+        non_striker: TB Abell
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 8.2:
+        non_striker: TB Abell
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 8.3:
+        non_striker: SR Dickson
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.4:
+        non_striker: TB Abell
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 8.5:
+        non_striker: SR Dickson
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.6:
+        non_striker: TB Abell
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 9.1:
+        non_striker: TB Abell
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+        wicket:
+          player_out: SR Dickson
+          kind: lbw
+    - 9.2:
+        non_striker: TB Abell
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 9.3:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          fielders:
+          - TJ Moores
+          kind: caught
+    - 9.4:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 9.5:
+        non_striker: BGF Green
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 9.6:
+        non_striker: BGF Green
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 10.1:
+        non_striker: L Gregory
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 10.2:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 10.3:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 10.4:
+        non_striker: L Gregory
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 10.5:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 10.6:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 11.1:
+        non_striker: BGF Green
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 11.2:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 11.3:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 11.4:
+        non_striker: BGF Green
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 11.5:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 11.6:
+        non_striker: BGF Green
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 12.1:
+        non_striker: L Gregory
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 12.2:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 12.3:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 12.4:
+        non_striker: L Gregory
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 12.5:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 12.6:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 13.1:
+        non_striker: L Gregory
+        bowler: SJ Mullaney
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 13.2:
+        non_striker: BGF Green
+        bowler: SJ Mullaney
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 13.3:
+        non_striker: L Gregory
+        bowler: SJ Mullaney
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 13.4:
+        non_striker: BGF Green
+        bowler: SJ Mullaney
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Gregory
+    - 13.5:
+        non_striker: BGF Green
+        bowler: SJ Mullaney
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Gregory
+    - 13.6:
+        non_striker: BGF Green
+        bowler: SJ Mullaney
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 14.1:
+        non_striker: L Gregory
+        bowler: SR Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BGF Green
+    - 14.2:
+        non_striker: L Gregory
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 14.3:
+        non_striker: L Gregory
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 14.4:
+        non_striker: L Gregory
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 14.5:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 14.6:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 14.7:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 2
+          total: 4
+          batsman: 2
+        extras:
+          noballs: 2
+        batsman: L Gregory
+    - 14.8:
+        non_striker: BGF Green
+        bowler: SR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 15.1:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BGF Green
+    - 15.2:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 15.3:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 15.4:
+        non_striker: BGF Green
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 15.5:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BGF Green
+    - 15.6:
+        non_striker: L Gregory
+        bowler: CG Harrison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 16.1:
+        non_striker: L Gregory
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 16.2:
+        non_striker: L Gregory
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 16.3:
+        non_striker: L Gregory
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 16.4:
+        non_striker: BGF Green
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 16.5:
+        non_striker: L Gregory
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 16.6:
+        non_striker: BGF Green
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.1:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.2:
+        non_striker: L Gregory
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 17.3:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.4:
+        non_striker: L Gregory
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 17.5:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 17.6:
+        non_striker: BGF Green
+        bowler: Imad Wasim
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 18.1:
+        non_striker: BGF Green
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Gregory
+    - 18.2:
+        non_striker: BGF Green
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 18.3:
+        non_striker: BGF Green
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 18.4:
+        non_striker: BGF Green
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 18.5:
+        non_striker: L Gregory
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 18.6:
+        non_striker: L Gregory
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 19.1:
+        non_striker: L Gregory
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 19.2:
+        non_striker: BGF Green
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 19.3:
+        non_striker: L Gregory
+        bowler: LJ Fletcher
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: BGF Green
+    - 19.4:
+        non_striker: L Gregory
+        bowler: LJ Fletcher
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green

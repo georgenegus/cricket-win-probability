@@ -1,0 +1,2054 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Canterbury
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-11'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Kent:
+    - TS Muyeye
+    - HZ Finch
+    - JL Denly
+    - SW Billings
+    - CG Benjamin
+    - JA Leaning
+    - JDM Evison
+    - FJ Klaassen
+    - WA Agar
+    - NN Gilchrist
+    - MW Parkinson
+    Somerset:
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - LP Goldsworthy
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - T Banton
+    - C Overton
+    - JT Ball
+    - RP Meredith
+  registry:
+    people:
+      BGF Green: 34b37279
+      C Overton: e9987a94
+      CG Benjamin: 95a15317
+      FJ Klaassen: c042b412
+      HZ Finch: 6b16f8ba
+      JA Leaning: f2ab7a69
+      JDM Evison: 00cada13
+      JL Denly: bdadf7da
+      JT Ball: 3d0ed2f9
+      L Gregory: 06c2de82
+      LP Goldsworthy: ed47cb25
+      MW Parkinson: '19708692'
+      Mark Newell: b33f0fa1
+      NL Bainton: cd219cb3
+      NN Gilchrist: 93cad673
+      RP Meredith: '64775749'
+      SJ Davis: bc71b0b2
+      SR Dickson: 2344bdd1
+      SW Billings: c16d4035
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      TB Abell: ba9258a7
+      TS Muyeye: 10b79140
+      WA Agar: 15de1f5d
+      WCF Smeed: 4e18e961
+  teams:
+  - Kent
+  - Somerset
+  toss:
+    winner: Somerset
+    decision: field
+  umpires:
+  - Mark Newell
+  - NL Bainton
+  venue: St Lawrence Ground, Canterbury
+innings:
+- 1st innings:
+    team: Kent
+    deliveries:
+    - 0.1:
+        non_striker: HZ Finch
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+        wicket:
+          player_out: TS Muyeye
+          kind: bowled
+    - 0.2:
+        non_striker: HZ Finch
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JL Denly
+    - 0.3:
+        non_striker: HZ Finch
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 0.4:
+        non_striker: HZ Finch
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 0.5:
+        non_striker: HZ Finch
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JL Denly
+    - 0.6:
+        non_striker: HZ Finch
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JL Denly
+    - 0.7:
+        non_striker: HZ Finch
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 1.1:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HZ Finch
+    - 1.2:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HZ Finch
+    - 1.3:
+        non_striker: HZ Finch
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 1.4:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HZ Finch
+    - 1.5:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HZ Finch
+        wicket:
+          player_out: HZ Finch
+          kind: bowled
+    - 1.6:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 2.1:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 2.2:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 2.3:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 2.4:
+        non_striker: SW Billings
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 2.5:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 2.6:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SW Billings
+    - 2.7:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 3.1:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 3.2:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 3.3:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 3.4:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SW Billings
+    - 3.5:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+        wicket:
+          player_out: SW Billings
+          kind: lbw
+    - 3.6:
+        non_striker: JL Denly
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 4.1:
+        non_striker: CG Benjamin
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 4.2:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 4.3:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 4.4:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: CG Benjamin
+    - 4.5:
+        non_striker: CG Benjamin
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 4.6:
+        non_striker: CG Benjamin
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 5.1:
+        non_striker: JL Denly
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 5.2:
+        non_striker: JL Denly
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 5.3:
+        non_striker: CG Benjamin
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 5.4:
+        non_striker: CG Benjamin
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JL Denly
+    - 5.5:
+        non_striker: CG Benjamin
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 5.6:
+        non_striker: JL Denly
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 6.1:
+        non_striker: JL Denly
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 6.2:
+        non_striker: CG Benjamin
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 6.3:
+        non_striker: CG Benjamin
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 6.4:
+        non_striker: JL Denly
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 6.5:
+        non_striker: JL Denly
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 6.6:
+        non_striker: JL Denly
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 7.1:
+        non_striker: CG Benjamin
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 7.2:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 7.3:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 7.4:
+        non_striker: CG Benjamin
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JL Denly
+    - 7.5:
+        non_striker: CG Benjamin
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 7.6:
+        non_striker: CG Benjamin
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 8.1:
+        non_striker: CG Benjamin
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 8.2:
+        non_striker: JL Denly
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 8.3:
+        non_striker: JL Denly
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CG Benjamin
+    - 8.4:
+        non_striker: JL Denly
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+    - 8.5:
+        non_striker: JL Denly
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CG Benjamin
+    - 8.6:
+        non_striker: CG Benjamin
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 9.1:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CG Benjamin
+        wicket:
+          player_out: CG Benjamin
+          kind: bowled
+    - 9.2:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 9.3:
+        non_striker: JA Leaning
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 9.4:
+        non_striker: JA Leaning
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 9.5:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 9.6:
+        non_striker: JA Leaning
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JL Denly
+    - 10.1:
+        non_striker: JL Denly
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 10.2:
+        non_striker: JL Denly
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 10.3:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 10.4:
+        non_striker: JL Denly
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 10.5:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 10.6:
+        non_striker: JL Denly
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 11.1:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 11.2:
+        non_striker: JA Leaning
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 11.3:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Leaning
+    - 11.4:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 11.5:
+        non_striker: JL Denly
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 11.6:
+        non_striker: JA Leaning
+        bowler: LP Goldsworthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 12.1:
+        non_striker: JA Leaning
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 12.2:
+        non_striker: JA Leaning
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JL Denly
+    - 12.3:
+        non_striker: JA Leaning
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 12.4:
+        non_striker: JL Denly
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Leaning
+    - 12.5:
+        non_striker: JL Denly
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 12.6:
+        non_striker: JA Leaning
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+    - 13.1:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 13.2:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 13.3:
+        non_striker: JA Leaning
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 13.4:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 13.5:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 13.6:
+        non_striker: JL Denly
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 14.1:
+        non_striker: JL Denly
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 14.2:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JL Denly
+    - 14.3:
+        non_striker: JL Denly
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 14.4:
+        non_striker: JL Denly
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 14.5:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JL Denly
+        wicket:
+          player_out: JL Denly
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 14.6:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 15.1:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 15.2:
+        non_striker: JDM Evison
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 15.3:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 15.4:
+        non_striker: JDM Evison
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 15.5:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JDM Evison
+    - 15.6:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+        wicket:
+          player_out: JDM Evison
+          fielders:
+          - " (sub)"
+          kind: caught
+    - 16.1:
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: FJ Klaassen
+        batsman: JA Leaning
+    - 16.2:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 16.3:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 16.4:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 16.5:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 16.6:
+        non_striker: JA Leaning
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 17.1:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+    - 17.2:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+    - 17.3:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 17.4:
+        non_striker: FJ Klaassen
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 17.5:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+    - 17.6:
+        non_striker: JA Leaning
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FJ Klaassen
+    - 18.1:
+        non_striker: FJ Klaassen
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JA Leaning
+    - 18.2:
+        non_striker: FJ Klaassen
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Leaning
+    - 18.3:
+        non_striker: JA Leaning
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 18.4:
+        non_striker: FJ Klaassen
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 18.5:
+        non_striker: FJ Klaassen
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Leaning
+    - 18.6:
+        non_striker: FJ Klaassen
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 18.7:
+        non_striker: FJ Klaassen
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+        wicket:
+          player_out: JA Leaning
+          fielders:
+          - JT Ball
+          kind: run out
+    - 19.1:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WA Agar
+    - 19.2:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WA Agar
+    - 19.3:
+        non_striker: WA Agar
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Klaassen
+    - 19.4:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WA Agar
+        wicket:
+          player_out: WA Agar
+          fielders:
+          - T Kohler-Cadmore
+          kind: caught
+    - 19.5:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Gilchrist
+    - 19.6:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: NN Gilchrist
+    - 19.7:
+        non_striker: FJ Klaassen
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NN Gilchrist
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: T Kohler-Cadmore
+        batsman: WCF Smeed
+    - 0.2:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: T Kohler-Cadmore
+        batsman: WCF Smeed
+    - 0.3:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: T Kohler-Cadmore
+        batsman: WCF Smeed
+    - 0.4:
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: T Kohler-Cadmore
+        batsman: WCF Smeed
+    - 0.5:
+        non_striker: WCF Smeed
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 0.6:
+        non_striker: WCF Smeed
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 1.1:
+        non_striker: T Kohler-Cadmore
+        bowler: WA Agar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WCF Smeed
+    - 1.2:
+        non_striker: WCF Smeed
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 1.3:
+        non_striker: WCF Smeed
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 1.4:
+        non_striker: WCF Smeed
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - HZ Finch
+          kind: caught
+    - 1.5:
+        non_striker: WCF Smeed
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LP Goldsworthy
+    - 1.6:
+        non_striker: WCF Smeed
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LP Goldsworthy
+    - 2.1:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 2.2:
+        non_striker: WCF Smeed
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LP Goldsworthy
+    - 2.3:
+        non_striker: WCF Smeed
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 2.4:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.5:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.6:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 3.1:
+        non_striker: LP Goldsworthy
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.2:
+        non_striker: LP Goldsworthy
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 3.3:
+        non_striker: LP Goldsworthy
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 3.4:
+        non_striker: LP Goldsworthy
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.5:
+        non_striker: LP Goldsworthy
+        bowler: WA Agar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WCF Smeed
+    - 3.6:
+        non_striker: LP Goldsworthy
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 3.7:
+        non_striker: WCF Smeed
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LP Goldsworthy
+    - 4.1:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 4.2:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 4.3:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 4.4:
+        non_striker: WCF Smeed
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LP Goldsworthy
+    - 4.5:
+        non_striker: WCF Smeed
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 4.6:
+        non_striker: LP Goldsworthy
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 5.1:
+        non_striker: LP Goldsworthy
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 5.2:
+        non_striker: LP Goldsworthy
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WCF Smeed
+    - 5.3:
+        non_striker: LP Goldsworthy
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 5.4:
+        non_striker: LP Goldsworthy
+        bowler: NN Gilchrist
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WCF Smeed
+    - 5.5:
+        non_striker: WCF Smeed
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 5.6:
+        non_striker: LP Goldsworthy
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 6.1:
+        non_striker: LP Goldsworthy
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 6.2:
+        non_striker: WCF Smeed
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: LP Goldsworthy
+    - 6.3:
+        non_striker: WCF Smeed
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LP Goldsworthy
+    - 6.4:
+        non_striker: LP Goldsworthy
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 6.5:
+        non_striker: WCF Smeed
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LP Goldsworthy
+    - 6.6:
+        non_striker: WCF Smeed
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LP Goldsworthy
+        wicket:
+          player_out: LP Goldsworthy
+          fielders:
+          - TS Muyeye
+          kind: caught
+    - 7.1:
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TB Abell
+        batsman: WCF Smeed
+    - 7.2:
+        non_striker: WCF Smeed
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.3:
+        non_striker: TB Abell
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 7.4:
+        non_striker: TB Abell
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 7.5:
+        non_striker: WCF Smeed
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 7.6:
+        non_striker: WCF Smeed
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.1:
+        non_striker: WCF Smeed
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 8.2:
+        non_striker: WCF Smeed
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.3:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 8.4:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 8.5:
+        non_striker: WCF Smeed
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: WCF Smeed
+          fielders:
+          - JL Denly
+          kind: run out
+    - 8.6:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 9.1:
+        non_striker: SR Dickson
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.2:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 9.3:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 9.4:
+        non_striker: SR Dickson
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.5:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 9.6:
+        non_striker: SR Dickson
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 10.1:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 10.2:
+        non_striker: SR Dickson
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.3:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 10.4:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 10.5:
+        non_striker: SR Dickson
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TB Abell
+    - 10.6:
+        non_striker: SR Dickson
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 11.1:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+        wicket:
+          player_out: SR Dickson
+          kind: lbw
+    - 11.2:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 11.3:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 11.4:
+        non_striker: L Gregory
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 11.5:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 11.6:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 12.1:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 12.2:
+        non_striker: L Gregory
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.3:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 12.4:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 12.5:
+        non_striker: TB Abell
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 12.6:
+        non_striker: L Gregory
+        bowler: MW Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.1:
+        non_striker: L Gregory
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.2:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 13.3:
+        non_striker: L Gregory
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.4:
+        non_striker: TB Abell
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 13.5:
+        non_striker: L Gregory
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 13.6:
+        non_striker: L Gregory
+        bowler: JDM Evison
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 14.1:
+        non_striker: TB Abell
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 14.2:
+        non_striker: L Gregory
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.3:
+        non_striker: TB Abell
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 14.4:
+        non_striker: TB Abell
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 14.5:
+        non_striker: TB Abell
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 14.6:
+        non_striker: L Gregory
+        bowler: JL Denly
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 15.1:
+        non_striker: TB Abell
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 15.2:
+        non_striker: L Gregory
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 15.3:
+        non_striker: L Gregory
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.4:
+        non_striker: TB Abell
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 15.5:
+        non_striker: TB Abell
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 15.6:
+        non_striker: TB Abell
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 16.1:
+        non_striker: TB Abell
+        bowler: FJ Klaassen
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: L Gregory
+    - 16.2:
+        non_striker: L Gregory
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 16.3:
+        non_striker: TB Abell
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: L Gregory
+    - 16.4:
+        non_striker: TB Abell
+        bowler: FJ Klaassen
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: L Gregory
+    - 16.5:
+        non_striker: TB Abell
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 16.6:
+        non_striker: L Gregory
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 16.7:
+        non_striker: TB Abell
+        bowler: FJ Klaassen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 17.1:
+        non_striker: L Gregory
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 17.2:
+        non_striker: TB Abell
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+        wicket:
+          player_out: L Gregory
+          kind: bowled
+    - 17.3:
+        non_striker: TB Abell
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 17.4:
+        non_striker: TB Abell
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 17.5:
+        non_striker: BGF Green
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 17.6:
+        non_striker: BGF Green
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 18.1:
+        non_striker: TB Abell
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 18.2:
+        non_striker: TB Abell
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+    - 18.3:
+        non_striker: TB Abell
+        bowler: WA Agar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green

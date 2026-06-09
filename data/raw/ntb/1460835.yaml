@@ -1,0 +1,2144 @@
+---
+meta:
+  data_version: 0.92
+  created: '2025-07-07'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Chester-le-Street
+  competition: Vitality Blast Men
+  dates:
+  - '2025-07-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Durham
+    by:
+      runs: 8
+  overs: 20
+  players:
+    Durham:
+    - G Clark
+    - AZ Lees
+    - OG Robinson
+    - CN Ackermann
+    - WMH Rhodes
+    - JDS Neesham
+    - Kasey Aldridge
+    - ZGF Foulkes
+    - MJ Potts
+    - NA Sowter
+    - CF Parkinson
+    Birmingham Bears:
+    - AL Davies
+    - TWM Latham
+    - DR Mousley
+    - SR Hain
+    - EG Barnard
+    - RM Yates
+    - GHS Garton
+    - Hasan Ali
+    - DR Briggs
+    - JB Lintott
+    - CN Miles
+  registry:
+    people:
+      AL Davies: 29ede60b
+      AZ Lees: c9c0fe50
+      CF Parkinson: aa1210d8
+      CN Ackermann: e734d090
+      CN Miles: 5fed6272
+      DR Briggs: f3abd0c9
+      DR Mousley: 876dbe2d
+      EG Barnard: a510bdd3
+      G Clark: 4fd09cfc
+      GHS Garton: be869ccf
+      Hasan Ali: 2911de16
+      JB Lintott: e5218454
+      JDS Neesham: 9219eff0
+      JJ Whitaker: 4ea85016
+      Kasey Aldridge: 31b01074
+      MA Gough: 76752ac8
+      MJ Potts: 894b2d25
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      RM Yates: 3581a798
+      S Widdup: 65bf2837
+      SR Hain: 67b9536c
+      TWM Latham: e824e6ee
+      WMH Rhodes: f54dbda7
+      ZGF Foulkes: 30f92334
+  teams:
+  - Durham
+  - Birmingham Bears
+  toss:
+    winner: Birmingham Bears
+    decision: field
+  umpires:
+  - MA Gough
+  - S Widdup
+  venue: Riverside Ground, Chester-le-Street
+innings:
+- 1st innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: AZ Lees
+        batsman: G Clark
+    - 0.2:
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: AZ Lees
+        batsman: G Clark
+    - 0.3:
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: AZ Lees
+        batsman: G Clark
+    - 0.4:
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: AZ Lees
+        batsman: G Clark
+    - 0.5:
+        non_striker: G Clark
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 0.6:
+        non_striker: G Clark
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AZ Lees
+    - 1.1:
+        non_striker: AZ Lees
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 1.2:
+        non_striker: G Clark
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.3:
+        non_striker: G Clark
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 1.4:
+        non_striker: G Clark
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          fielders:
+          - EG Barnard
+          kind: caught
+    - 1.5:
+        non_striker: G Clark
+        bowler: Hasan Ali
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: OG Robinson
+    - 1.6:
+        non_striker: OG Robinson
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.1:
+        non_striker: OG Robinson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.2:
+        non_striker: G Clark
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 2.3:
+        non_striker: OG Robinson
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.4:
+        non_striker: G Clark
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 2.5:
+        non_striker: G Clark
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 2.6:
+        non_striker: G Clark
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 3.1:
+        non_striker: OG Robinson
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 3.2:
+        non_striker: OG Robinson
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 3.3:
+        non_striker: OG Robinson
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 3.4:
+        non_striker: G Clark
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OG Robinson
+    - 3.5:
+        non_striker: G Clark
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+        wicket:
+          player_out: OG Robinson
+          fielders:
+          - GHS Garton
+          kind: caught
+    - 3.6:
+        non_striker: G Clark
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 4.1:
+        non_striker: G Clark
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 4.2:
+        non_striker: G Clark
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 4.3:
+        non_striker: G Clark
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 4.4:
+        non_striker: G Clark
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 4.5:
+        non_striker: G Clark
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 4.6:
+        non_striker: G Clark
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 5.1:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 5.2:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 5.3:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 5.4:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 5.5:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 5.6:
+        non_striker: G Clark
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 6.1:
+        non_striker: CN Ackermann
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 6.2:
+        non_striker: G Clark
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 6.3:
+        non_striker: CN Ackermann
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 6.4:
+        non_striker: CN Ackermann
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 6.5:
+        non_striker: G Clark
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 6.6:
+        non_striker: CN Ackermann
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 7.1:
+        non_striker: G Clark
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 7.2:
+        non_striker: CN Ackermann
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 7.3:
+        non_striker: CN Ackermann
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - AL Davies
+          kind: caught
+    - 7.4:
+        non_striker: CN Ackermann
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 7.5:
+        non_striker: CN Ackermann
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 7.6:
+        non_striker: WMH Rhodes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 8.1:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 8.2:
+        non_striker: WMH Rhodes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 8.3:
+        non_striker: WMH Rhodes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 8.4:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 8.5:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 8.6:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 9.1:
+        non_striker: CN Ackermann
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 9.2:
+        non_striker: CN Ackermann
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 9.3:
+        non_striker: CN Ackermann
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 9.4:
+        non_striker: WMH Rhodes
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 9.5:
+        non_striker: CN Ackermann
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 9.6:
+        non_striker: CN Ackermann
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 10.1:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 10.2:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 10.3:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 10.4:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 10.5:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 10.6:
+        non_striker: CN Ackermann
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 11.1:
+        non_striker: CN Ackermann
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 11.2:
+        non_striker: WMH Rhodes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 11.3:
+        non_striker: WMH Rhodes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 11.4:
+        non_striker: CN Ackermann
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WMH Rhodes
+    - 11.5:
+        non_striker: CN Ackermann
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 11.6:
+        non_striker: CN Ackermann
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+        wicket:
+          player_out: CN Ackermann
+          fielders:
+          - TWM Latham
+          kind: run out
+    - 12.1:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDS Neesham
+    - 12.2:
+        non_striker: JDS Neesham
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 12.3:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+    - 12.4:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+    - 12.5:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDS Neesham
+    - 12.6:
+        non_striker: JDS Neesham
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 13.1:
+        non_striker: JDS Neesham
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 13.2:
+        non_striker: WMH Rhodes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+    - 13.3:
+        non_striker: WMH Rhodes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDS Neesham
+    - 13.4:
+        non_striker: JDS Neesham
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 13.5:
+        non_striker: WMH Rhodes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+    - 13.6:
+        non_striker: WMH Rhodes
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JDS Neesham
+    - 14.1:
+        non_striker: JDS Neesham
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 14.2:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDS Neesham
+    - 14.3:
+        non_striker: JDS Neesham
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 14.4:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JDS Neesham
+    - 14.5:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDS Neesham
+        wicket:
+          player_out: JDS Neesham
+          fielders:
+          - DR Mousley
+          kind: caught
+    - 14.6:
+        non_striker: WMH Rhodes
+        bowler: JB Lintott
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kasey Aldridge
+    - 15.1:
+        non_striker: Kasey Aldridge
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 15.2:
+        non_striker: WMH Rhodes
+        bowler: CN Miles
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Kasey Aldridge
+    - 15.3:
+        non_striker: WMH Rhodes
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kasey Aldridge
+    - 15.4:
+        non_striker: WMH Rhodes
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kasey Aldridge
+    - 15.5:
+        non_striker: Kasey Aldridge
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+    - 15.6:
+        non_striker: Kasey Aldridge
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 15.7:
+        non_striker: Kasey Aldridge
+        bowler: CN Miles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 16.1:
+        non_striker: Kasey Aldridge
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 16.2:
+        non_striker: Kasey Aldridge
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 16.3:
+        non_striker: WMH Rhodes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kasey Aldridge
+    - 16.4:
+        non_striker: WMH Rhodes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kasey Aldridge
+    - 16.5:
+        non_striker: WMH Rhodes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kasey Aldridge
+    - 16.6:
+        non_striker: WMH Rhodes
+        bowler: DR Briggs
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kasey Aldridge
+    - 17.1:
+        non_striker: WMH Rhodes
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kasey Aldridge
+    - 17.2:
+        non_striker: WMH Rhodes
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kasey Aldridge
+    - 17.3:
+        non_striker: WMH Rhodes
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kasey Aldridge
+    - 17.4:
+        non_striker: WMH Rhodes
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kasey Aldridge
+    - 17.5:
+        non_striker: Kasey Aldridge
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WMH Rhodes
+    - 17.6:
+        non_striker: WMH Rhodes
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kasey Aldridge
+    - 18.1:
+        non_striker: WMH Rhodes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kasey Aldridge
+    - 18.2:
+        non_striker: WMH Rhodes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kasey Aldridge
+    - 18.3:
+        non_striker: WMH Rhodes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kasey Aldridge
+    - 18.4:
+        non_striker: WMH Rhodes
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kasey Aldridge
+    - 18.5:
+        non_striker: Kasey Aldridge
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WMH Rhodes
+    - 18.6:
+        non_striker: Kasey Aldridge
+        bowler: DR Mousley
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WMH Rhodes
+        wicket:
+          player_out: WMH Rhodes
+          fielders:
+          - CN Miles
+          kind: caught
+    - 19.1:
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: ZGF Foulkes
+        batsman: Kasey Aldridge
+    - 19.2:
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: ZGF Foulkes
+        batsman: Kasey Aldridge
+    - 19.3:
+        non_striker: ZGF Foulkes
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kasey Aldridge
+        wicket:
+          player_out: Kasey Aldridge
+          kind: lbw
+    - 19.4:
+        non_striker: ZGF Foulkes
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Potts
+    - 19.5:
+        non_striker: MJ Potts
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ZGF Foulkes
+    - 19.6:
+        non_striker: MJ Potts
+        bowler: Hasan Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: ZGF Foulkes
+- 2nd innings:
+    team: Birmingham Bears
+    deliveries:
+    - 0.1:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.2:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.3:
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: TWM Latham
+        batsman: AL Davies
+    - 0.4:
+        non_striker: AL Davies
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 0.5:
+        non_striker: AL Davies
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 0.6:
+        non_striker: AL Davies
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 1.1:
+        non_striker: AL Davies
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 1.2:
+        non_striker: AL Davies
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 1.3:
+        non_striker: TWM Latham
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.4:
+        non_striker: TWM Latham
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+    - 1.5:
+        non_striker: TWM Latham
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AL Davies
+        wicket:
+          player_out: AL Davies
+          fielders:
+          - ZGF Foulkes
+          kind: caught
+    - 1.6:
+        non_striker: TWM Latham
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 2.1:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 2.2:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 2.3:
+        non_striker: TWM Latham
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 2.4:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TWM Latham
+    - 2.5:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 2.6:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 3.1:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 3.2:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TWM Latham
+    - 3.3:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 3.4:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 3.5:
+        non_striker: DR Mousley
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TWM Latham
+    - 3.6:
+        non_striker: TWM Latham
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 4.1:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+    - 4.2:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TWM Latham
+        wicket:
+          player_out: TWM Latham
+          fielders:
+          - ZGF Foulkes
+          kind: caught
+    - 4.3:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 4.4:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Hain
+    - 4.5:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 4.6:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 5.1:
+        non_striker: SR Hain
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.2:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 5.3:
+        non_striker: SR Hain
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Mousley
+    - 5.4:
+        non_striker: SR Hain
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 5.5:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Hain
+    - 5.6:
+        non_striker: DR Mousley
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.1:
+        non_striker: DR Mousley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.2:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.3:
+        non_striker: DR Mousley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.4:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 6.5:
+        non_striker: DR Mousley
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 6.6:
+        non_striker: SR Hain
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Mousley
+    - 7.1:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.2:
+        non_striker: SR Hain
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.3:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 7.4:
+        non_striker: SR Hain
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 7.5:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+    - 7.6:
+        non_striker: DR Mousley
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Hain
+    - 8.1:
+        non_striker: SR Hain
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 8.2:
+        non_striker: SR Hain
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.3:
+        non_striker: DR Mousley
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Hain
+    - 8.4:
+        non_striker: SR Hain
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Mousley
+    - 8.5:
+        non_striker: DR Mousley
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Hain
+        wicket:
+          player_out: SR Hain
+          fielders:
+          - MJ Potts
+          kind: caught
+    - 8.6:
+        non_striker: DR Mousley
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 9.1:
+        non_striker: DR Mousley
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 9.2:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 9.3:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+    - 9.4:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Mousley
+        wicket:
+          player_out: DR Mousley
+          fielders:
+          - NA Sowter
+          kind: caught
+    - 9.5:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RM Yates
+    - 9.6:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 9.7:
+        non_striker: RM Yates
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 10.1:
+        non_striker: RM Yates
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 10.2:
+        non_striker: RM Yates
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 10.3:
+        non_striker: EG Barnard
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 10.4:
+        non_striker: RM Yates
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 10.5:
+        non_striker: RM Yates
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 10.6:
+        non_striker: RM Yates
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 11.1:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 11.2:
+        non_striker: RM Yates
+        bowler: Kasey Aldridge
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EG Barnard
+    - 11.3:
+        non_striker: RM Yates
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 11.4:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 11.5:
+        non_striker: RM Yates
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 11.6:
+        non_striker: RM Yates
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 11.7:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 12.1:
+        non_striker: EG Barnard
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 12.2:
+        non_striker: RM Yates
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 12.3:
+        non_striker: EG Barnard
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Yates
+    - 12.4:
+        non_striker: EG Barnard
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Yates
+    - 12.5:
+        non_striker: EG Barnard
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Yates
+    - 12.6:
+        non_striker: RM Yates
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 13.1:
+        non_striker: EG Barnard
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Yates
+    - 13.2:
+        non_striker: EG Barnard
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Yates
+        wicket:
+          player_out: RM Yates
+          fielders:
+          - G Clark
+          kind: caught
+    - 13.3:
+        non_striker: EG Barnard
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GHS Garton
+    - 13.4:
+        non_striker: GHS Garton
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 13.5:
+        non_striker: EG Barnard
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          fielders:
+          - NA Sowter
+          kind: caught
+    - 13.6:
+        non_striker: EG Barnard
+        bowler: ZGF Foulkes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 14.1:
+        non_striker: EG Barnard
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 14.2:
+        non_striker: Hasan Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 14.3:
+        non_striker: EG Barnard
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 14.4:
+        non_striker: Hasan Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 14.5:
+        non_striker: Hasan Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 14.6:
+        non_striker: Hasan Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 15.1:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hasan Ali
+    - 15.2:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hasan Ali
+    - 15.3:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hasan Ali
+    - 15.4:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    - 15.5:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hasan Ali
+    - 15.6:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    - 15.7:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hasan Ali
+    - 15.8:
+        non_striker: EG Barnard
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hasan Ali
+    - 16.1:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 16.2:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 16.3:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          byes: 2
+        batsman: EG Barnard
+    - 16.4:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 16.5:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 16.6:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 17.1:
+        non_striker: Hasan Ali
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: EG Barnard
+    - 17.2:
+        non_striker: Hasan Ali
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 17.3:
+        non_striker: Hasan Ali
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 17.4:
+        non_striker: Hasan Ali
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EG Barnard
+    - 17.5:
+        non_striker: Hasan Ali
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: EG Barnard
+    - 17.6:
+        non_striker: Hasan Ali
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+    - 18.1:
+        non_striker: EG Barnard
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hasan Ali
+    - 18.2:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: EG Barnard
+    - 18.3:
+        non_striker: Hasan Ali
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EG Barnard
+    - 18.4:
+        non_striker: EG Barnard
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+    - 18.5:
+        non_striker: EG Barnard
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hasan Ali
+    - 18.6:
+        non_striker: EG Barnard
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hasan Ali
+        wicket:
+          player_out: Hasan Ali
+          fielders:
+          - AZ Lees
+          kind: caught
+    - 18.7:
+        non_striker: EG Barnard
+        bowler: JDS Neesham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Briggs
+    - 19.1:
+        non_striker: DR Briggs
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EG Barnard
+        wicket:
+          player_out: EG Barnard
+          fielders:
+          - ZGF Foulkes
+          kind: caught
+    - 19.2:
+        non_striker: DR Briggs
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JB Lintott
+    - 19.3:
+        non_striker: DR Briggs
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JB Lintott
+    - 19.4:
+        non_striker: DR Briggs
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JB Lintott
+    - 19.5:
+        non_striker: DR Briggs
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JB Lintott
+    - 19.6:
+        non_striker: DR Briggs
+        bowler: MJ Potts
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JB Lintott

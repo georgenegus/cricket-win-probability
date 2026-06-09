@@ -1,0 +1,1685 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-07-01'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Worcester
+  competition: Vitality Blast
+  dates:
+  - '2023-06-30'
+  gender: male
+  match_type: T20
+  outcome:
+    result: tie
+    method: D/L
+  overs: 20
+  players:
+    Durham:
+    - G Clark
+    - AZ Lees
+    - MA Jones
+    - BA Carse
+    - AJ Turner
+    - OG Robinson
+    - L Trevaskis
+    - BA Raine
+    - NA Sowter
+    - GS Drissell
+    - BD Glover
+    Worcestershire:
+    - BL D'Oliveira
+    - JA Haynes
+    - MJ Santner
+    - AJ Hose
+    - Kashif Ali
+    - OB Cox
+    - EJ Pollock
+    - Usama Mir
+    - AW Finch
+    - DY Pennington
+    - PR Brown
+  registry:
+    people:
+      AJ Hose: 104e88a4
+      AJ Turner: ff1e12a0
+      AW Finch: fc63d916
+      AZ Lees: c9c0fe50
+      BA Carse: cad40f5e
+      BA Raine: 4c0f3806
+      BD Glover: 0dbe27b8
+      BL D'Oliveira: 9679838c
+      DA Cosker: aac9f784
+      DY Pennington: 219cc59e
+      EJ Pollock: d6663a9a
+      G Clark: 4fd09cfc
+      GS Drissell: 9a089b15
+      JA Haynes: fe4ebca0
+      JD Shantry: 70fdd428
+      Kashif Ali: f3b26fe4
+      L Trevaskis: b5781ac3
+      MA Jones: 05f96194
+      MJ Santner: e4a0deae
+      NA Sowter: ee0c05c0
+      OB Cox: 324a6ee1
+      OG Robinson: 60f4c586
+      PK Baldwin: 6bb53c12
+      PR Brown: 1efd12d1
+      Usama Mir: 6dd8b88c
+  teams:
+  - Durham
+  - Worcestershire
+  toss:
+    winner: Worcestershire
+    decision: field
+  umpires:
+  - JD Shantry
+  - PK Baldwin
+  venue: County Ground, New Road, Worcester
+innings:
+- 1st innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        non_striker: AZ Lees
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 0.2:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+    - 0.3:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AZ Lees
+    - 0.4:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          fielders:
+          - Usama Mir
+          kind: caught
+    - 0.5:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MA Jones
+    - 0.6:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 1.1:
+        non_striker: MA Jones
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.2:
+        non_striker: MA Jones
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.3:
+        non_striker: MA Jones
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 1.4:
+        non_striker: G Clark
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MA Jones
+    - 1.5:
+        non_striker: MA Jones
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 1.6:
+        non_striker: MA Jones
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 2.1:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 2.2:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 2.3:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Jones
+    - 2.4:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 2.5:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Jones
+    - 2.6:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Jones
+    - 3.1:
+        non_striker: MA Jones
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 3.2:
+        non_striker: MA Jones
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 3.3:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 3.4:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 3.5:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 3.6:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MA Jones
+    - 3.7:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 4.1:
+        non_striker: G Clark
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 4.2:
+        non_striker: G Clark
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 4.3:
+        non_striker: G Clark
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 4.4:
+        non_striker: G Clark
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+    - 4.5:
+        non_striker: G Clark
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MA Jones
+    - 4.6:
+        non_striker: MA Jones
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 5.1:
+        non_striker: MA Jones
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 5.2:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MA Jones
+    - 5.3:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 5.4:
+        non_striker: MA Jones
+        bowler: PR Brown
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: G Clark
+    - 5.5:
+        non_striker: G Clark
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 5.6:
+        non_striker: MA Jones
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 6.1:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 6.2:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 6.3:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 6.4:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MA Jones
+    - 6.5:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 6.6:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 7.1:
+        non_striker: MA Jones
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 7.2:
+        non_striker: G Clark
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MA Jones
+    - 7.3:
+        non_striker: G Clark
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 7.4:
+        non_striker: MA Jones
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 7.5:
+        non_striker: G Clark
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Jones
+    - 7.6:
+        non_striker: MA Jones
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 8.1:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 8.2:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 8.3:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 8.4:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 8.5:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 8.6:
+        non_striker: MA Jones
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 9.1:
+        non_striker: MA Jones
+        bowler: MJ Santner
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: G Clark
+    - 9.2:
+        non_striker: MA Jones
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 9.3:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+        wicket:
+          player_out: MA Jones
+          fielders:
+          - Kashif Ali
+          kind: caught
+    - 9.4:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Carse
+    - 9.5:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 9.6:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 9.7:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 10.1:
+        non_striker: G Clark
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 10.2:
+        non_striker: BA Carse
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 10.3:
+        non_striker: G Clark
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Carse
+    - 10.4:
+        non_striker: G Clark
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 10.5:
+        non_striker: BA Carse
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: G Clark
+    - 10.6:
+        non_striker: G Clark
+        bowler: BL D'Oliveira
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Carse
+    - 11.1:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 11.2:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 11.3:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 11.4:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 11.5:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BA Carse
+    - 11.6:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 11.7:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 12.1:
+        non_striker: BA Carse
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 12.2:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Carse
+    - 12.3:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 12.4:
+        non_striker: BA Carse
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 12.5:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Carse
+    - 12.6:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Carse
+    - 13.1:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 13.2:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Carse
+    - 13.3:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 13.4:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 13.5:
+        non_striker: G Clark
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 13.6:
+        non_striker: BA Carse
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 14.1:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BA Carse
+    - 14.2:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Carse
+    - 14.3:
+        non_striker: G Clark
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Carse
+    - 14.4:
+        non_striker: BA Carse
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 14.5:
+        non_striker: BA Carse
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 14.6:
+        non_striker: BA Carse
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Clark
+    - 15.1:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Carse
+        wicket:
+          player_out: BA Carse
+          kind: bowled
+    - 15.2:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 15.3:
+        non_striker: AJ Turner
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 15.4:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 15.5:
+        non_striker: G Clark
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 15.6:
+        non_striker: AJ Turner
+        bowler: Usama Mir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 16.1:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 16.2:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 16.3:
+        non_striker: G Clark
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 16.4:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: G Clark
+    - 16.5:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 16.6:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - AJ Hose
+          kind: caught
+    - 16.7:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 17.1:
+        non_striker: AJ Turner
+        bowler: MJ Santner
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: OG Robinson
+    - 17.2:
+        non_striker: AJ Turner
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 17.3:
+        non_striker: OG Robinson
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 17.4:
+        non_striker: OG Robinson
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 17.5:
+        non_striker: AJ Turner
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 17.6:
+        non_striker: OG Robinson
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 17.7:
+        non_striker: AJ Turner
+        bowler: MJ Santner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 18.1:
+        non_striker: AJ Turner
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OG Robinson
+    - 18.2:
+        non_striker: AJ Turner
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 18.3:
+        non_striker: OG Robinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 18.4:
+        non_striker: AJ Turner
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 18.5:
+        non_striker: OG Robinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    - 18.6:
+        non_striker: OG Robinson
+        bowler: PR Brown
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 19.1:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: OG Robinson
+    - 19.2:
+        non_striker: AJ Turner
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OG Robinson
+    - 19.3:
+        non_striker: OG Robinson
+        bowler: AW Finch
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Turner
+    - 19.4:
+        non_striker: OG Robinson
+        bowler: AW Finch
+        runs:
+          extras: 2
+          total: 6
+          batsman: 4
+        extras:
+          noballs: 2
+        batsman: AJ Turner
+    - 19.5:
+        non_striker: OG Robinson
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        replacements:
+          role:
+          - in: DY Pennington
+            out: AW Finch
+            reason: excluded - high full pitched balls
+            role: bowler
+        batsman: AJ Turner
+    - 19.6:
+        non_striker: OG Robinson
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 19.7:
+        non_striker: OG Robinson
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 19.8:
+        non_striker: AJ Turner
+        bowler: DY Pennington
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+- 2nd innings:
+    team: Worcestershire
+    deliveries:
+    - 0.1:
+        non_striker: JA Haynes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BL D'Oliveira
+    - 0.2:
+        non_striker: JA Haynes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BL D'Oliveira
+    - 0.3:
+        non_striker: BL D'Oliveira
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 0.4:
+        non_striker: JA Haynes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 0.5:
+        non_striker: JA Haynes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BL D'Oliveira
+    - 0.6:
+        non_striker: JA Haynes
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 1.1:
+        non_striker: BL D'Oliveira
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 1.2:
+        non_striker: JA Haynes
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 1.3:
+        non_striker: JA Haynes
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+    - 1.4:
+        non_striker: JA Haynes
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BL D'Oliveira
+        wicket:
+          player_out: BL D'Oliveira
+          kind: bowled
+    - 1.5:
+        non_striker: JA Haynes
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 1.6:
+        non_striker: JA Haynes
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 2.1:
+        non_striker: MJ Santner
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 2.2:
+        non_striker: JA Haynes
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 2.3:
+        non_striker: JA Haynes
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 2.4:
+        non_striker: MJ Santner
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JA Haynes
+    - 2.5:
+        non_striker: JA Haynes
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 2.6:
+        non_striker: JA Haynes
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Santner
+    - 3.1:
+        non_striker: MJ Santner
+        bowler: GS Drissell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 3.2:
+        non_striker: MJ Santner
+        bowler: GS Drissell
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JA Haynes
+    - 3.3:
+        non_striker: MJ Santner
+        bowler: GS Drissell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 3.4:
+        non_striker: MJ Santner
+        bowler: GS Drissell
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JA Haynes
+    - 3.5:
+        non_striker: MJ Santner
+        bowler: GS Drissell
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JA Haynes
+    - 3.6:
+        non_striker: MJ Santner
+        bowler: GS Drissell
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Haynes
+        wicket:
+          player_out: JA Haynes
+          kind: bowled
+    - 4.1:
+        non_striker: AJ Hose
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 4.2:
+        non_striker: AJ Hose
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 4.3:
+        non_striker: AJ Hose
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 4.4:
+        non_striker: AJ Hose
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 4.5:
+        non_striker: AJ Hose
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 4.6:
+        non_striker: AJ Hose
+        bowler: BD Glover
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MJ Santner
+    - 5.1:
+        non_striker: AJ Hose
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 5.2:
+        non_striker: AJ Hose
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 5.3:
+        non_striker: AJ Hose
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+    - 5.4:
+        non_striker: AJ Hose
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 5.5:
+        non_striker: AJ Hose
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 5.6:
+        non_striker: AJ Hose
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MJ Santner
+    - 6.1:
+        non_striker: MJ Santner
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 6.2:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MJ Santner
+    - 6.3:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Santner
+        wicket:
+          player_out: MJ Santner
+          fielders:
+          - AJ Turner
+          kind: caught
+    - 6.4:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 6.5:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 6.6:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.1:
+        non_striker: Kashif Ali
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 7.2:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kashif Ali
+    - 7.3:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 7.4:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 7.5:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kashif Ali
+    - 7.6:
+        non_striker: AJ Hose
+        bowler: L Trevaskis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 8.1:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kashif Ali
+    - 8.2:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 8.3:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 8.4:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 8.5:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 8.6:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.1:
+        non_striker: AJ Hose
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.2:
+        non_striker: Kashif Ali
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 9.3:
+        non_striker: AJ Hose
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.4:
+        non_striker: Kashif Ali
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose
+    - 9.5:
+        non_striker: AJ Hose
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 9.6:
+        non_striker: Kashif Ali
+        bowler: AJ Turner
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 10.1:
+        non_striker: AJ Hose
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kashif Ali
+    - 10.2:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AJ Hose
+    - 10.3:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Hose
+    - 10.4:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Hose
+    - 10.5:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Hose
+    - 10.6:
+        non_striker: Kashif Ali
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Hose

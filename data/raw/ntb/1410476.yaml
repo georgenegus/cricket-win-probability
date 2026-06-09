@@ -1,0 +1,1955 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-24'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cheltenham
+  competition: Vitality Blast
+  dates:
+  - '2024-07-14'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gloucestershire
+    by:
+      runs: 121
+  overs: 20
+  players:
+    Gloucestershire:
+    - Miles Hammond
+    - CT Bancroft
+    - James Bracey
+    - BJ Webster
+    - JMR Taylor
+    - BG Charlesworth
+    - OJ Price
+    - MD Taylor
+    - J Shaw
+    - DA Payne
+    - TMJ Smith
+    Glamorgan:
+    - KS Carlson
+    - WT Smale
+    - TR Bevan
+    - M Labuschagne
+    - CA Ingram
+    - CB Cooke
+    - DA Douthwaite
+    - T van der Gugten
+    - MS Crane
+    - AW Gorvin
+    - JP McIlroy
+  registry:
+    people:
+      AG Wharf: 2e0fcc58
+      AW Gorvin: 7d7233a9
+      BG Charlesworth: ffdba4e2
+      BJ Webster: 56b93d46
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      CT Bancroft: 399b0b94
+      DA Douthwaite: 03df7a25
+      DA Payne: 6c79c098
+      J Shaw: b82e3032
+      JMR Taylor: aed5be04
+      JP McIlroy: 80e44dc5
+      James Bracey: 5bfdc77a
+      KS Carlson: 9e707e02
+      M Labuschagne: fa433be6
+      MD Taylor: 01a95383
+      MS Crane: f0a0204e
+      Miles Hammond: c88bc84a
+      OJ Price: dfc3f02d
+      SJ Davis: bc71b0b2
+      Surendiran Shanmugam: 2ef5fc2b
+      T van der Gugten: d99cc23a
+      TMJ Smith: 0a12e736
+      TR Bevan: 6c7349c4
+      WT Smale: 97da28bd
+  teams:
+  - Gloucestershire
+  - Glamorgan
+  toss:
+    winner: Glamorgan
+    decision: field
+  umpires:
+  - AG Wharf
+  - Surendiran Shanmugam
+  venue: College Ground, Cheltenham
+innings:
+- 1st innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.2:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.3:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.4:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          fielders:
+          - MS Crane
+          kind: caught
+    - 0.5:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 0.6:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 1.1:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 1.2:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 1.3:
+        non_striker: CT Bancroft
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 1.4:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CT Bancroft
+    - 1.5:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 1.6:
+        non_striker: CT Bancroft
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 2.1:
+        non_striker: James Bracey
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 2.2:
+        non_striker: James Bracey
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 2.3:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 2.4:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 2.5:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 2.6:
+        non_striker: James Bracey
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 3.1:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 3.2:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 3.3:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 3.4:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 3.5:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: James Bracey
+    - 3.6:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 4.1:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 4.2:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 4.3:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 4.4:
+        non_striker: James Bracey
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 4.5:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: James Bracey
+    - 4.6:
+        non_striker: CT Bancroft
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 5.1:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CT Bancroft
+    - 5.2:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 5.3:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 2
+          total: 6
+          batsman: 4
+        extras:
+          noballs: 2
+        batsman: CT Bancroft
+    - 5.4:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CT Bancroft
+    - 5.5:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CT Bancroft
+    - 5.6:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 5.7:
+        non_striker: James Bracey
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 6.1:
+        non_striker: James Bracey
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 6.2:
+        non_striker: CT Bancroft
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: James Bracey
+    - 6.3:
+        non_striker: James Bracey
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 6.4:
+        non_striker: CT Bancroft
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+        wicket:
+          player_out: James Bracey
+          fielders:
+          - MS Crane
+          kind: caught
+    - 6.5:
+        non_striker: CT Bancroft
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 6.6:
+        non_striker: BJ Webster
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 7.1:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 7.2:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 7.3:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 7.4:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 7.5:
+        non_striker: CT Bancroft
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 7.6:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CT Bancroft
+    - 7.7:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CT Bancroft
+    - 8.1:
+        non_striker: CT Bancroft
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 8.2:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 8.3:
+        non_striker: CT Bancroft
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 8.4:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 8.5:
+        non_striker: CT Bancroft
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 8.6:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CT Bancroft
+    - 9.1:
+        non_striker: CT Bancroft
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Webster
+    - 9.2:
+        non_striker: CT Bancroft
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 9.3:
+        non_striker: BJ Webster
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+        wicket:
+          player_out: CT Bancroft
+          fielders:
+          - DA Douthwaite
+          kind: caught
+    - 9.4:
+        non_striker: BJ Webster
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 9.5:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 9.6:
+        non_striker: BJ Webster
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 10.1:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 10.2:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 10.3:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 10.4:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 10.5:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 10.6:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 11.1:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 11.2:
+        non_striker: BJ Webster
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 11.3:
+        non_striker: BJ Webster
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 11.4:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 11.5:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 11.6:
+        non_striker: BJ Webster
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 12.1:
+        non_striker: BJ Webster
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 12.2:
+        non_striker: JMR Taylor
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 12.3:
+        non_striker: BJ Webster
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 12.4:
+        non_striker: JMR Taylor
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 12.5:
+        non_striker: JMR Taylor
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 12.6:
+        non_striker: BJ Webster
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 13.1:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Webster
+    - 13.2:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 13.3:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Webster
+    - 13.4:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BJ Webster
+    - 13.5:
+        non_striker: JMR Taylor
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 13.6:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 13.7:
+        non_striker: BJ Webster
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 14.1:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BJ Webster
+    - 14.2:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+    - 14.3:
+        non_striker: JMR Taylor
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 14.4:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 14.5:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 14.6:
+        non_striker: BJ Webster
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 15.1:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: BJ Webster
+    - 15.2:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 15.3:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 15.4:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJ Webster
+    - 15.5:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 15.6:
+        non_striker: BJ Webster
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 15.7:
+        non_striker: JMR Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Webster
+        wicket:
+          player_out: BJ Webster
+          fielders:
+          - CB Cooke
+          kind: caught
+    - 16.1:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 16.2:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 16.3:
+        non_striker: JMR Taylor
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BG Charlesworth
+    - 16.4:
+        non_striker: JMR Taylor
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BG Charlesworth
+    - 16.5:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 16.6:
+        non_striker: BG Charlesworth
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 17.1:
+        non_striker: BG Charlesworth
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JMR Taylor
+    - 17.2:
+        non_striker: BG Charlesworth
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 17.3:
+        non_striker: JMR Taylor
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BG Charlesworth
+    - 17.4:
+        non_striker: JMR Taylor
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+    - 17.5:
+        non_striker: JMR Taylor
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          fielders:
+          - WT Smale
+          kind: caught
+    - 17.6:
+        non_striker: JMR Taylor
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Price
+    - 18.1:
+        non_striker: OJ Price
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 18.2:
+        non_striker: OJ Price
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JMR Taylor
+    - 18.3:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+        wicket:
+          player_out: OJ Price
+          fielders:
+          - KS Carlson
+          kind: caught
+    - 18.4:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 18.5:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 18.6:
+        non_striker: JMR Taylor
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 19.1:
+        non_striker: MD Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 19.2:
+        non_striker: MD Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JMR Taylor
+    - 19.3:
+        non_striker: MD Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 19.4:
+        non_striker: MD Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JMR Taylor
+    - 19.5:
+        non_striker: MD Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JMR Taylor
+    - 19.6:
+        non_striker: MD Taylor
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: JMR Taylor
+- 2nd innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: WT Smale
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: WT Smale
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WT Smale
+    - 0.4:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 0.5:
+        non_striker: WT Smale
+        bowler: DA Payne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: WT Smale
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.7:
+        non_striker: WT Smale
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 1.1:
+        non_striker: KS Carlson
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.3:
+        non_striker: WT Smale
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.6:
+        non_striker: KS Carlson
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 2.1:
+        non_striker: WT Smale
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          kind: bowled
+    - 2.3:
+        non_striker: KS Carlson
+        bowler: DA Payne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TR Bevan
+    - 2.4:
+        non_striker: TR Bevan
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.5:
+        non_striker: TR Bevan
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          kind: lbw
+    - 2.6:
+        non_striker: TR Bevan
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 3.1:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TR Bevan
+    - 3.2:
+        non_striker: TR Bevan
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 3.3:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TR Bevan
+    - 3.4:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TR Bevan
+    - 3.5:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TR Bevan
+    - 3.6:
+        non_striker: M Labuschagne
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TR Bevan
+    - 4.1:
+        non_striker: TR Bevan
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.2:
+        non_striker: TR Bevan
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+    - 4.3:
+        non_striker: TR Bevan
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Labuschagne
+    - 4.4:
+        non_striker: M Labuschagne
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TR Bevan
+    - 4.5:
+        non_striker: TR Bevan
+        bowler: J Shaw
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: M Labuschagne
+    - 4.6:
+        non_striker: M Labuschagne
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TR Bevan
+        wicket:
+          player_out: TR Bevan
+          fielders:
+          - MD Taylor
+          kind: caught
+    - 5.1:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Labuschagne
+        wicket:
+          player_out: M Labuschagne
+          kind: caught and bowled
+    - 5.2:
+        non_striker: CA Ingram
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 5.3:
+        non_striker: CB Cooke
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.4:
+        non_striker: CB Cooke
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.5:
+        non_striker: CB Cooke
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+    - 5.6:
+        non_striker: CB Cooke
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 6.1:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 6.2:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 6.3:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - MD Taylor
+          kind: caught
+    - 6.4:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 6.5:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 6.6:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Ingram
+    - 7.1:
+        non_striker: CA Ingram
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 7.2:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 7.3:
+        non_striker: CA Ingram
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 7.4:
+        non_striker: CA Ingram
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 7.5:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 7.6:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.1:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.2:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DA Douthwaite
+    - 8.3:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 8.4:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 8.5:
+        non_striker: CA Ingram
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 8.6:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          kind: bowled
+    - 8.7:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 9.1:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 9.2:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          kind: lbw
+    - 9.3:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 9.4:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 9.5:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MS Crane
+    - 9.6:
+        non_striker: MS Crane
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 10.1:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 10.2:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 10.3:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 10.4:
+        non_striker: MS Crane
+        bowler: TMJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DA Douthwaite
+    - 10.5:
+        non_striker: MS Crane
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 10.6:
+        non_striker: DA Douthwaite
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 10.7:
+        non_striker: MS Crane
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+    - 11.1:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 11.2:
+        non_striker: MS Crane
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 11.3:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 11.4:
+        non_striker: MS Crane
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 11.5:
+        non_striker: DA Douthwaite
+        bowler: BJ Webster
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MS Crane
+    - 11.6:
+        non_striker: MS Crane
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DA Douthwaite
+    - 12.1:
+        non_striker: MS Crane
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Douthwaite
+        wicket:
+          player_out: DA Douthwaite
+          fielders:
+          - BJ Webster
+          kind: caught
+    - 12.2:
+        non_striker: MS Crane
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 12.3:
+        non_striker: AW Gorvin
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 12.4:
+        non_striker: MS Crane
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 12.5:
+        non_striker: AW Gorvin
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 12.6:
+        non_striker: AW Gorvin
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 13.1:
+        non_striker: MS Crane
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AW Gorvin
+    - 13.2:
+        non_striker: MS Crane
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 13.3:
+        non_striker: AW Gorvin
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 13.4:
+        non_striker: MS Crane
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 13.5:
+        non_striker: MS Crane
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 13.6:
+        non_striker: AW Gorvin
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 14.1:
+        non_striker: AW Gorvin
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+    - 14.2:
+        non_striker: AW Gorvin
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 14.3:
+        non_striker: MS Crane
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 14.4:
+        non_striker: MS Crane
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 14.5:
+        non_striker: MS Crane
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+        wicket:
+          player_out: AW Gorvin
+          fielders:
+          - J Shaw
+          kind: caught
+    - 14.6:
+        non_striker: MS Crane
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+    - 15.1:
+        non_striker: JP McIlroy
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MS Crane
+    - 15.2:
+        non_striker: JP McIlroy
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Crane
+    - 15.3:
+        non_striker: JP McIlroy
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Crane
+    - 15.4:
+        non_striker: MS Crane
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JP McIlroy
+    - 15.5:
+        non_striker: JP McIlroy
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Crane
+        wicket:
+          player_out: MS Crane
+          fielders:
+          - JMR Taylor
+          kind: caught

@@ -1,0 +1,2041 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2023-06-21'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 8
+  overs: 20
+  players:
+    Glamorgan:
+    - KS Carlson
+    - WT Smale
+    - WT Root
+    - SA Northeast
+    - CB Cooke
+    - CD Fletcher
+    - T van der Gugten
+    - AW Gorvin
+    - RAJ Smith
+    - P Hatzoglou
+    - JP McIlroy
+    Somerset:
+    - T Banton
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - BGF Green
+    - Kasey Aldridge
+    - C Overton
+    - JH Davey
+    - JA Brooks
+    - Shoaib Bashir
+  registry:
+    people:
+      AW Gorvin: 7d7233a9
+      BGF Green: 34b37279
+      C Overton: e9987a94
+      CB Cooke: 6755cd5c
+      CD Fletcher: 4af9f5d4
+      JA Brooks: 8bf61e65
+      JD Shantry: 70fdd428
+      JH Davey: d3868bd0
+      JP McIlroy: 80e44dc5
+      KS Carlson: 9e707e02
+      Kasey Aldridge: 31b01074
+      P Hatzoglou: 6f95e5fa
+      RAJ Smith: 6daf5e8c
+      RJ Warren: 9d1c62d7
+      SA Northeast: 7e4c8ba3
+      SJ Davis: bc71b0b2
+      SR Dickson: 2344bdd1
+      Shoaib Bashir: e36e9dd3
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      T van der Gugten: d99cc23a
+      TB Abell: ba9258a7
+      WCF Smeed: 4e18e961
+      WT Root: '72898514'
+      WT Smale: 97da28bd
+  teams:
+  - Glamorgan
+  - Somerset
+  toss:
+    winner: Somerset
+    decision: field
+  umpires:
+  - JD Shantry
+  - RJ Warren
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 0.4:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 0.5:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 1.1:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.2:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 1.3:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 1.4:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          kind: bowled
+    - 1.5:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 1.6:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 2.1:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+    - 2.2:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Root
+    - 2.3:
+        non_striker: WT Root
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.4:
+        non_striker: WT Root
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.5:
+        non_striker: WT Root
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.6:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Root
+        wicket:
+          player_out: WT Root
+          kind: caught and bowled
+    - 3.1:
+        non_striker: SA Northeast
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 3.2:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+    - 3.3:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Northeast
+        wicket:
+          player_out: SA Northeast
+          kind: bowled
+    - 3.4:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 3.5:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 3.6:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 4.1:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 4.2:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 4.3:
+        non_striker: CB Cooke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 4.4:
+        non_striker: CB Cooke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 4.5:
+        non_striker: CB Cooke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 4.6:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CB Cooke
+    - 5.1:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 2
+          total: 4
+          batsman: 2
+        extras:
+          noballs: 2
+        batsman: KS Carlson
+    - 5.2:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 5.3:
+        non_striker: KS Carlson
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 5.4:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 5.5:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 5.6:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 5.7:
+        non_striker: CB Cooke
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 6.1:
+        non_striker: CB Cooke
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 6.2:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - Kasey Aldridge
+          kind: caught
+    - 6.3:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+    - 6.4:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CD Fletcher
+        wicket:
+          player_out: CD Fletcher
+          fielders:
+          - SR Dickson
+          kind: caught
+    - 6.5:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 6.6:
+        non_striker: T van der Gugten
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 7.1:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 7.2:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 7.3:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KS Carlson
+    - 7.4:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 7.5:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 7.6:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T van der Gugten
+    - 7.7:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 7.8:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 8.1:
+        non_striker: T van der Gugten
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 8.2:
+        non_striker: KS Carlson
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 8.3:
+        non_striker: KS Carlson
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T van der Gugten
+    - 8.4:
+        non_striker: KS Carlson
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 8.5:
+        non_striker: KS Carlson
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 8.6:
+        non_striker: KS Carlson
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 9.1:
+        non_striker: KS Carlson
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 9.2:
+        non_striker: KS Carlson
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 9.3:
+        non_striker: T van der Gugten
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 9.4:
+        non_striker: KS Carlson
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 9.5:
+        non_striker: KS Carlson
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 9.6:
+        non_striker: KS Carlson
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 10.1:
+        non_striker: T van der Gugten
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 10.2:
+        non_striker: T van der Gugten
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 10.3:
+        non_striker: T van der Gugten
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 10.4:
+        non_striker: T van der Gugten
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 10.5:
+        non_striker: T van der Gugten
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 10.6:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 11.1:
+        non_striker: KS Carlson
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 11.2:
+        non_striker: T van der Gugten
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 11.3:
+        non_striker: T van der Gugten
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 11.4:
+        non_striker: KS Carlson
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 11.5:
+        non_striker: T van der Gugten
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 11.6:
+        non_striker: T van der Gugten
+        bowler: Shoaib Bashir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 12.1:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 12.2:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 12.3:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 12.4:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 12.5:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 12.6:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 13.1:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T van der Gugten
+    - 13.2:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 13.3:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T van der Gugten
+    - 13.4:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T van der Gugten
+    - 13.5:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: T van der Gugten
+    - 13.6:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T van der Gugten
+    - 13.7:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 13.8:
+        non_striker: T van der Gugten
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 14.1:
+        non_striker: T van der Gugten
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 14.2:
+        non_striker: T van der Gugten
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 14.3:
+        non_striker: T van der Gugten
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 14.4:
+        non_striker: T van der Gugten
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 14.5:
+        non_striker: KS Carlson
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T van der Gugten
+    - 14.6:
+        non_striker: KS Carlson
+        bowler: Kasey Aldridge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.1:
+        non_striker: KS Carlson
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T van der Gugten
+    - 15.2:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - Shoaib Bashir
+          kind: caught
+    - 15.3:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 15.4:
+        non_striker: T van der Gugten
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 15.5:
+        non_striker: AW Gorvin
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+    - 15.6:
+        non_striker: AW Gorvin
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T van der Gugten
+    - 15.7:
+        non_striker: AW Gorvin
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T van der Gugten
+        wicket:
+          player_out: T van der Gugten
+          fielders:
+          - TB Abell
+          kind: caught
+    - 16.1:
+        non_striker: RAJ Smith
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 16.2:
+        non_striker: AW Gorvin
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RAJ Smith
+        wicket:
+          player_out: RAJ Smith
+          fielders:
+          - T Kohler-Cadmore
+          kind: caught
+    - 16.3:
+        non_striker: AW Gorvin
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Hatzoglou
+    - 16.4:
+        non_striker: AW Gorvin
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Hatzoglou
+    - 16.5:
+        non_striker: AW Gorvin
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 16.6:
+        non_striker: P Hatzoglou
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 17.1:
+        non_striker: AW Gorvin
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: P Hatzoglou
+    - 17.2:
+        non_striker: AW Gorvin
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 17.3:
+        non_striker: P Hatzoglou
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 17.4:
+        non_striker: AW Gorvin
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 17.5:
+        non_striker: P Hatzoglou
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+    - 17.6:
+        non_striker: P Hatzoglou
+        bowler: JH Davey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AW Gorvin
+    - 17.7:
+        non_striker: P Hatzoglou
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 17.8:
+        non_striker: AW Gorvin
+        bowler: JH Davey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Hatzoglou
+    - 18.1:
+        non_striker: P Hatzoglou
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 18.2:
+        non_striker: AW Gorvin
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 18.3:
+        non_striker: P Hatzoglou
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AW Gorvin
+    - 18.4:
+        non_striker: P Hatzoglou
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AW Gorvin
+    - 18.5:
+        non_striker: AW Gorvin
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 18.6:
+        non_striker: P Hatzoglou
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AW Gorvin
+        wicket:
+          player_out: AW Gorvin
+          fielders:
+          - SR Dickson
+          kind: caught
+    - 19.1:
+        non_striker: JP McIlroy
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Hatzoglou
+    - 19.2:
+        non_striker: P Hatzoglou
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+    - 19.3:
+        non_striker: P Hatzoglou
+        bowler: JA Brooks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JP McIlroy
+        wicket:
+          player_out: JP McIlroy
+          kind: bowled
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T Banton
+    - 0.2:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.3:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.4:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: WCF Smeed
+    - 0.5:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.6:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.7:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.1:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 1.2:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WCF Smeed
+    - 1.3:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 1.4:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 1.5:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.6:
+        non_striker: T Banton
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 2.1:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 2.2:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.3:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 2.4:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.5:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.6:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 3.1:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 3.2:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 3.3:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 3.4:
+        non_striker: T Banton
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 3.5:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 3.6:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          fielders:
+          - AW Gorvin
+          kind: caught
+    - 4.1:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 4.2:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 4.3:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 4.4:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WCF Smeed
+    - 4.5:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 4.6:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 5.1:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.2:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.3:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 5.4:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.5:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 5.6:
+        non_striker: WCF Smeed
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 6.1:
+        non_striker: WCF Smeed
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 6.2:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 6.3:
+        non_striker: WCF Smeed
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 6.4:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 6.5:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 6.6:
+        non_striker: WCF Smeed
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.1:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 7.2:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.3:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 7.4:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 7.5:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.6:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 8.1:
+        non_striker: WCF Smeed
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 8.2:
+        non_striker: WCF Smeed
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.3:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: WCF Smeed
+    - 8.4:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 8.5:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 8.6:
+        non_striker: WCF Smeed
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 8.7:
+        non_striker: WCF Smeed
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.1:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.2:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 9.3:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 9.4:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 9.5:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 9.6:
+        non_striker: WCF Smeed
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 10.1:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 10.2:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 10.3:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 10.4:
+        non_striker: WCF Smeed
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 10.5:
+        non_striker: T Kohler-Cadmore
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 10.6:
+        non_striker: T Kohler-Cadmore
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 11.1:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 11.2:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WCF Smeed
+    - 11.3:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: WCF Smeed
+    - 11.4:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WCF Smeed
+    - 11.5:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 11.6:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+        wicket:
+          player_out: WCF Smeed
+          fielders:
+          - WT Smale
+          kind: caught
+    - 11.7:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.1:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 12.2:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.3:
+        non_striker: TB Abell
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 12.4:
+        non_striker: TB Abell
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 12.5:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.6:
+        non_striker: TB Abell
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 13.1:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.2:
+        non_striker: TB Abell
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 13.3:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 13.4:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.5:
+        non_striker: TB Abell
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 13.6:
+        non_striker: T Kohler-Cadmore
+        bowler: JP McIlroy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.1:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 14.2:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.3:
+        non_striker: TB Abell
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 14.4:
+        non_striker: TB Abell
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: T Kohler-Cadmore
+    - 14.5:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 14.6:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 14.7:
+        non_striker: T Kohler-Cadmore
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.8:
+        non_striker: TB Abell
+        bowler: P Hatzoglou
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 15.1:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.2:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 15.3:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.4:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: T Kohler-Cadmore
+    - 15.5:
+        non_striker: T Kohler-Cadmore
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.6:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: T Kohler-Cadmore
+    - 15.7:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 16.1:
+        non_striker: TB Abell
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 16.2:
+        non_striker: TB Abell
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 16.3:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 16.4:
+        non_striker: TB Abell
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 16.5:
+        non_striker: TB Abell
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 16.6:
+        non_striker: T Kohler-Cadmore
+        bowler: RAJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 17.1:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore

@@ -1,0 +1,2174 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-05-28'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Brighton
+  competition: Vitality Blast
+  dates:
+  - '2023-05-26'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Sussex:
+    - TGR Clark
+    - AGH Orr
+    - TP Alsop
+    - RS Bopara
+    - Shadab Khan
+    - MGK Burgess
+    - GHS Garton
+    - N McAndrew
+    - JM Coles
+    - FJ Hudson-Prentice
+    - TS Mills
+    Somerset:
+    - T Banton
+    - WCF Smeed
+    - T Kohler-Cadmore
+    - TB Abell
+    - TA Lammonby
+    - L Gregory
+    - BGF Green
+    - RE van der Merwe
+    - C Overton
+    - MJ Henry
+    - PM Siddle
+  registry:
+    people:
+      AGH Orr: 1ab18b25
+      BGF Green: 34b37279
+      C Overton: e9987a94
+      FJ Hudson-Prentice: 932d3cc9
+      GHS Garton: be869ccf
+      ID Blackwell: 818e8bf2
+      JM Coles: 9c643d7b
+      L Gregory: 06c2de82
+      MGK Burgess: 715941c3
+      MJ Henry: e84ac20c
+      N McAndrew: 38c276e1
+      NL Bainton: cd219cb3
+      PM Siddle: bd93fea4
+      RE van der Merwe: 05c2ca46
+      RS Bopara: 7ca5e05d
+      SJ Davis: bc71b0b2
+      Shadab Khan: 9de62878
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      TA Lammonby: 73f1f6b0
+      TB Abell: ba9258a7
+      TGR Clark: ed8faea2
+      TP Alsop: 961b8ff1
+      TS Mills: 245c97cb
+      WCF Smeed: 4e18e961
+  teams:
+  - Sussex
+  - Somerset
+  toss:
+    winner: Somerset
+    decision: field
+  umpires:
+  - ID Blackwell
+  - NL Bainton
+  venue: County Ground, Hove
+innings:
+- 1st innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 0.2:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TGR Clark
+    - 0.3:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 0.4:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 0.5:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 0.6:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          fielders:
+          - L Gregory
+          kind: caught
+    - 0.7:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 1.1:
+        non_striker: TP Alsop
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AGH Orr
+    - 1.2:
+        non_striker: AGH Orr
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 1.3:
+        non_striker: AGH Orr
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TP Alsop
+    - 1.4:
+        non_striker: TP Alsop
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AGH Orr
+    - 1.5:
+        non_striker: TP Alsop
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AGH Orr
+    - 1.6:
+        non_striker: AGH Orr
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+    - 2.1:
+        non_striker: TP Alsop
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AGH Orr
+    - 2.2:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TP Alsop
+    - 2.3:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TP Alsop
+        wicket:
+          player_out: TP Alsop
+          fielders:
+          - RE van der Merwe
+          kind: caught
+    - 2.4:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 2.5:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 2.6:
+        non_striker: RS Bopara
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AGH Orr
+    - 3.1:
+        non_striker: AGH Orr
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 3.2:
+        non_striker: AGH Orr
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 3.3:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AGH Orr
+    - 3.4:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AGH Orr
+    - 3.5:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AGH Orr
+    - 3.6:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AGH Orr
+    - 4.1:
+        non_striker: AGH Orr
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 4.2:
+        non_striker: AGH Orr
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 4.3:
+        non_striker: AGH Orr
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 4.4:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AGH Orr
+    - 4.5:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AGH Orr
+    - 4.6:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AGH Orr
+    - 4.7:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AGH Orr
+    - 5.1:
+        non_striker: RS Bopara
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AGH Orr
+    - 5.2:
+        non_striker: RS Bopara
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AGH Orr
+    - 5.3:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 5.4:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 5.5:
+        non_striker: RS Bopara
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AGH Orr
+    - 5.6:
+        non_striker: AGH Orr
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 6.1:
+        non_striker: AGH Orr
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 6.2:
+        non_striker: RS Bopara
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AGH Orr
+    - 6.3:
+        non_striker: AGH Orr
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 6.4:
+        non_striker: RS Bopara
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AGH Orr
+    - 6.5:
+        non_striker: RS Bopara
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AGH Orr
+        wicket:
+          player_out: AGH Orr
+          kind: caught and bowled
+    - 6.6:
+        non_striker: RS Bopara
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 7.1:
+        non_striker: Shadab Khan
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 7.2:
+        non_striker: Shadab Khan
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 7.3:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 7.4:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 7.5:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 7.6:
+        non_striker: Shadab Khan
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 8.1:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 8.2:
+        non_striker: Shadab Khan
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 8.3:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 8.4:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 8.5:
+        non_striker: Shadab Khan
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 8.6:
+        non_striker: Shadab Khan
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 9.1:
+        non_striker: Shadab Khan
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 9.2:
+        non_striker: Shadab Khan
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 9.3:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+        wicket:
+          player_out: Shadab Khan
+          fielders:
+          - L Gregory
+          kind: caught
+    - 9.4:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 9.5:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MGK Burgess
+    - 9.6:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 10.1:
+        non_striker: MGK Burgess
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 10.2:
+        non_striker: MGK Burgess
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 10.3:
+        non_striker: RS Bopara
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 10.4:
+        non_striker: MGK Burgess
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 10.5:
+        non_striker: RS Bopara
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 10.6:
+        non_striker: RS Bopara
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 11.1:
+        non_striker: MGK Burgess
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.2:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 11.3:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 11.4:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 11.5:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 11.6:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 12.1:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 12.2:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 12.3:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 12.4:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 12.5:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 12.6:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 13.1:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 13.2:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 13.3:
+        non_striker: MGK Burgess
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 13.4:
+        non_striker: MGK Burgess
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 13.5:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 13.6:
+        non_striker: MGK Burgess
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 14.1:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 14.2:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 14.3:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MGK Burgess
+    - 14.4:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 14.5:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 14.6:
+        non_striker: MGK Burgess
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 15.1:
+        non_striker: MGK Burgess
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 15.2:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 15.3:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 15.4:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MGK Burgess
+    - 15.5:
+        non_striker: MGK Burgess
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 15.6:
+        non_striker: RS Bopara
+        bowler: RE van der Merwe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+    - 16.1:
+        non_striker: MGK Burgess
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 16.2:
+        non_striker: MGK Burgess
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 16.3:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MGK Burgess
+        wicket:
+          player_out: MGK Burgess
+          fielders:
+          - C Overton
+          kind: caught
+    - 16.4:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GHS Garton
+        wicket:
+          player_out: GHS Garton
+          fielders:
+          - TB Abell
+          kind: caught
+    - 16.5:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+    - 16.6:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N McAndrew
+    - 17.1:
+        non_striker: N McAndrew
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Bopara
+    - 17.2:
+        non_striker: N McAndrew
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RS Bopara
+    - 17.3:
+        non_striker: N McAndrew
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 17.4:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 17.5:
+        non_striker: N McAndrew
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 17.6:
+        non_striker: RS Bopara
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N McAndrew
+    - 17.7:
+        non_striker: N McAndrew
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RS Bopara
+    - 17.8:
+        non_striker: N McAndrew
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 18.1:
+        non_striker: N McAndrew
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 18.2:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N McAndrew
+        wicket:
+          player_out: N McAndrew
+          fielders:
+          - L Gregory
+          kind: caught
+    - 18.3:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Coles
+    - 18.4:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 18.5:
+        non_striker: JM Coles
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 18.6:
+        non_striker: RS Bopara
+        bowler: PM Siddle
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Coles
+    - 19.1:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+    - 19.2:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Coles
+        wicket:
+          player_out: JM Coles
+          fielders:
+          - RE van der Merwe
+          kind: caught
+    - 19.3:
+        non_striker: RS Bopara
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FJ Hudson-Prentice
+    - 19.4:
+        non_striker: FJ Hudson-Prentice
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 19.5:
+        non_striker: FJ Hudson-Prentice
+        bowler: MJ Henry
+        runs:
+          extras: 2
+          total: 8
+          batsman: 6
+        extras:
+          noballs: 2
+        batsman: RS Bopara
+    - 19.6:
+        non_striker: FJ Hudson-Prentice
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Bopara
+    - 19.7:
+        non_striker: FJ Hudson-Prentice
+        bowler: MJ Henry
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        non_striker: WCF Smeed
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.2:
+        non_striker: WCF Smeed
+        bowler: GHS Garton
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: T Banton
+    - 0.3:
+        non_striker: WCF Smeed
+        bowler: GHS Garton
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: T Banton
+    - 0.4:
+        non_striker: T Banton
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 0.5:
+        non_striker: WCF Smeed
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.6:
+        non_striker: WCF Smeed
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.7:
+        non_striker: T Banton
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WCF Smeed
+    - 0.8:
+        non_striker: WCF Smeed
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.1:
+        non_striker: T Banton
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 1.2:
+        non_striker: T Banton
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.3:
+        non_striker: T Banton
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.4:
+        non_striker: T Banton
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.5:
+        non_striker: T Banton
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 1.6:
+        non_striker: T Banton
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WCF Smeed
+    - 2.1:
+        non_striker: WCF Smeed
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 2.2:
+        non_striker: T Banton
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.3:
+        non_striker: T Banton
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+    - 2.4:
+        non_striker: T Banton
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WCF Smeed
+        wicket:
+          player_out: WCF Smeed
+          fielders:
+          - TGR Clark
+          kind: caught
+    - 2.5:
+        non_striker: T Banton
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 2.6:
+        non_striker: T Kohler-Cadmore
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 3.1:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Banton
+    - 3.2:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 3.3:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 3.4:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 3.5:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T Banton
+    - 3.6:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 3.7:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 4.1:
+        non_striker: T Banton
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.2:
+        non_striker: T Banton
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 4.3:
+        non_striker: T Kohler-Cadmore
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 4.4:
+        non_striker: T Banton
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.5:
+        non_striker: T Banton
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 4.6:
+        non_striker: T Banton
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 5.1:
+        non_striker: T Banton
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 5.2:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 5.3:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          fielders:
+          - AGH Orr
+          kind: caught
+    - 5.4:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 5.5:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 5.6:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.1:
+        non_striker: T Kohler-Cadmore
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.2:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: T Kohler-Cadmore
+    - 6.3:
+        non_striker: T Kohler-Cadmore
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.4:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 6.5:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 6.6:
+        non_striker: T Kohler-Cadmore
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.1:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.2:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 7.3:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.4:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.5:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 7.6:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.1:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 8.2:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 8.3:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.4:
+        non_striker: T Kohler-Cadmore
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.5:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: T Kohler-Cadmore
+    - 8.6:
+        non_striker: T Kohler-Cadmore
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.1:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.2:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.3:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 9.4:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.5:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.6:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TB Abell
+    - 10.1:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.2:
+        non_striker: TB Abell
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 10.3:
+        non_striker: TB Abell
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 10.4:
+        non_striker: TB Abell
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 10.5:
+        non_striker: T Kohler-Cadmore
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.6:
+        non_striker: TB Abell
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 11.1:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 11.2:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 11.3:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 11.4:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 11.5:
+        non_striker: TB Abell
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 11.6:
+        non_striker: T Kohler-Cadmore
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TB Abell
+    - 12.1:
+        non_striker: TB Abell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 12.2:
+        non_striker: TB Abell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 12.3:
+        non_striker: TB Abell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 12.4:
+        non_striker: T Kohler-Cadmore
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.5:
+        non_striker: TB Abell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 12.6:
+        non_striker: TB Abell
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 13.1:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 13.2:
+        non_striker: T Kohler-Cadmore
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 13.3:
+        non_striker: T Kohler-Cadmore
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 13.4:
+        non_striker: T Kohler-Cadmore
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 13.5:
+        non_striker: T Kohler-Cadmore
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.6:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 14.1:
+        non_striker: T Kohler-Cadmore
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 14.2:
+        non_striker: T Kohler-Cadmore
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TB Abell
+    - 14.3:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 14.4:
+        non_striker: T Kohler-Cadmore
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 14.5:
+        non_striker: T Kohler-Cadmore
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.6:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 14.7:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 14.8:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 15.1:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 15.2:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 15.3:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 15.4:
+        non_striker: T Kohler-Cadmore
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.5:
+        non_striker: TB Abell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 15.6:
+        non_striker: TB Abell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 15.7:
+        non_striker: TB Abell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - JM Coles
+          kind: caught
+    - 16.1:
+        non_striker: TA Lammonby
+        bowler: N McAndrew
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 16.2:
+        non_striker: TA Lammonby
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 16.3:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TA Lammonby
+    - 16.4:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TA Lammonby
+    - 16.5:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TA Lammonby
+    - 16.6:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TA Lammonby
+    - 16.7:
+        non_striker: TB Abell
+        bowler: N McAndrew
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TA Lammonby
+    - 17.1:
+        non_striker: TA Lammonby
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 17.2:
+        non_striker: TB Abell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TA Lammonby
+    - 17.3:
+        non_striker: TA Lammonby
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 17.4:
+        non_striker: TB Abell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TA Lammonby
+        wicket:
+          player_out: TA Lammonby
+          fielders:
+          - JM Coles
+          kind: caught
+    - 17.5:
+        non_striker: TB Abell
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 17.6:
+        non_striker: L Gregory
+        bowler: TS Mills
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 18.1:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 18.2:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 18.3:
+        non_striker: L Gregory
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 18.4:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Gregory
+    - 18.5:
+        non_striker: TB Abell
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 18.6:
+        non_striker: L Gregory
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          fielders:
+          - JM Coles
+          kind: run out
+    - 19.1:
+        non_striker: BGF Green
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 19.2:
+        non_striker: L Gregory
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 19.3:
+        non_striker: L Gregory
+        bowler: FJ Hudson-Prentice
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green

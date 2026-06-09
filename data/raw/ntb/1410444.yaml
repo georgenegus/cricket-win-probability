@@ -1,0 +1,1370 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-06'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cheltenham
+  competition: Vitality Blast
+  dates:
+  - '2024-07-05'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Kent
+    by:
+      runs: 8
+    method: D/L
+  overs: 20
+  players:
+    Kent:
+    - DJ Bell-Drummond
+    - FIN Khushi
+    - TS Muyeye
+    - SW Billings
+    - JDM Evison
+    - JA Leaning
+    - MK O'Riordan
+    - G Stewart
+    - TS Rogers
+    - NN Gilchrist
+    - MW Parkinson
+    Gloucestershire:
+    - Miles Hammond
+    - CT Bancroft
+    - James Bracey
+    - BJ Webster
+    - OJ Price
+    - JMR Taylor
+    - BG Charlesworth
+    - DA Payne
+    - J Shaw
+    - AS Dale
+    - MD Taylor
+  registry:
+    people:
+      AG Wharf: 2e0fcc58
+      AS Dale: 27e60d6e
+      BG Charlesworth: ffdba4e2
+      BJ Peverall: 3e04e05a
+      BJ Webster: 56b93d46
+      CT Bancroft: 399b0b94
+      DA Cosker: aac9f784
+      DA Payne: 6c79c098
+      DJ Bell-Drummond: 8f938a32
+      FIN Khushi: 4f034a50
+      G Stewart: a77472dc
+      J Shaw: b82e3032
+      JA Leaning: f2ab7a69
+      JDM Evison: 00cada13
+      JMR Taylor: aed5be04
+      James Bracey: 5bfdc77a
+      MD Taylor: 01a95383
+      MK O'Riordan: 94db3502
+      MW Parkinson: '19708692'
+      Miles Hammond: c88bc84a
+      NN Gilchrist: 93cad673
+      OJ Price: dfc3f02d
+      SW Billings: c16d4035
+      TS Muyeye: 10b79140
+      TS Rogers: 1b04e02b
+  teams:
+  - Kent
+  - Gloucestershire
+  toss:
+    winner: Gloucestershire
+    decision: field
+  umpires:
+  - AG Wharf
+  - BJ Peverall
+  venue: College Ground, Cheltenham
+innings:
+- 1st innings:
+    team: Kent
+    deliveries:
+    - 0.1:
+        non_striker: FIN Khushi
+        bowler: DA Payne
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: DJ Bell-Drummond
+    - 0.2:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+    - 0.3:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FIN Khushi
+        wicket:
+          player_out: FIN Khushi
+          kind: lbw
+    - 0.4:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Muyeye
+    - 0.5:
+        non_striker: TS Muyeye
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 0.6:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TS Muyeye
+        wicket:
+          player_out: TS Muyeye
+          fielders:
+          - JMR Taylor
+          kind: caught
+    - 0.7:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 1.1:
+        non_striker: SW Billings
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 1.2:
+        non_striker: SW Billings
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 1.3:
+        non_striker: SW Billings
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 1.4:
+        non_striker: SW Billings
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 1.5:
+        non_striker: SW Billings
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 1.6:
+        non_striker: DJ Bell-Drummond
+        bowler: J Shaw
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SW Billings
+    - 2.1:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SW Billings
+    - 2.2:
+        non_striker: SW Billings
+        bowler: DA Payne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Bell-Drummond
+    - 2.3:
+        non_striker: SW Billings
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 2.4:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+    - 2.5:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SW Billings
+        wicket:
+          player_out: SW Billings
+          fielders:
+          - J Shaw
+          kind: caught
+    - 2.6:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JDM Evison
+    - 2.7:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+    - 3.1:
+        non_striker: JDM Evison
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 3.2:
+        non_striker: DJ Bell-Drummond
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 3.3:
+        non_striker: JDM Evison
+        bowler: MD Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: DJ Bell-Drummond
+    - 3.4:
+        non_striker: DJ Bell-Drummond
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+    - 3.5:
+        non_striker: DJ Bell-Drummond
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+    - 3.6:
+        non_striker: DJ Bell-Drummond
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+    - 4.1:
+        non_striker: JDM Evison
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 4.2:
+        non_striker: JDM Evison
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 4.3:
+        non_striker: JDM Evison
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 4.4:
+        non_striker: JDM Evison
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 4.5:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JDM Evison
+    - 4.6:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+    - 5.1:
+        non_striker: JDM Evison
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Bell-Drummond
+    - 5.2:
+        non_striker: JDM Evison
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 5.3:
+        non_striker: JDM Evison
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 5.4:
+        non_striker: JDM Evison
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 5.5:
+        non_striker: JDM Evison
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 5.6:
+        non_striker: JDM Evison
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 6.1:
+        non_striker: JDM Evison
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 6.2:
+        non_striker: JDM Evison
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 6.3:
+        non_striker: DJ Bell-Drummond
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+    - 6.4:
+        non_striker: DJ Bell-Drummond
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 5
+          batsman: 5
+        batsman: JDM Evison
+    - 6.5:
+        non_striker: JDM Evison
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 6.6:
+        non_striker: JDM Evison
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 7.1:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JDM Evison
+    - 7.2:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 7.3:
+        non_striker: JDM Evison
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 7.4:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 7.5:
+        non_striker: JDM Evison
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 7.6:
+        non_striker: JDM Evison
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 8.1:
+        non_striker: DJ Bell-Drummond
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 8.2:
+        non_striker: JDM Evison
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 8.3:
+        non_striker: JDM Evison
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 8.4:
+        non_striker: JDM Evison
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 8.5:
+        non_striker: DJ Bell-Drummond
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JDM Evison
+    - 8.6:
+        non_striker: JDM Evison
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 9.1:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: JDM Evison
+    - 9.2:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JDM Evison
+        wicket:
+          player_out: JDM Evison
+          fielders:
+          - Miles Hammond
+          kind: caught
+    - 9.3:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 9.4:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 9.5:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 9.6:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+    - 9.7:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JA Leaning
+    - 10.1:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JA Leaning
+        wicket:
+          player_out: JA Leaning
+          kind: hit wicket
+    - 10.2:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK O'Riordan
+    - 10.3:
+        non_striker: MK O'Riordan
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 10.4:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK O'Riordan
+    - 10.5:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK O'Riordan
+    - 10.6:
+        non_striker: MK O'Riordan
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 11.1:
+        non_striker: MK O'Riordan
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 11.2:
+        non_striker: DJ Bell-Drummond
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK O'Riordan
+    - 11.3:
+        non_striker: MK O'Riordan
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 11.4:
+        non_striker: DJ Bell-Drummond
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: MK O'Riordan
+    - 11.5:
+        non_striker: MK O'Riordan
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 11.6:
+        non_striker: MK O'Riordan
+        bowler: AS Dale
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 12.1:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK O'Riordan
+    - 12.2:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK O'Riordan
+    - 12.3:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: MK O'Riordan
+    - 12.4:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK O'Riordan
+    - 12.5:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK O'Riordan
+        wicket:
+          player_out: MK O'Riordan
+          fielders:
+          - BG Charlesworth
+          kind: caught
+    - 12.6:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Stewart
+    - 12.7:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Stewart
+    - 13.1:
+        non_striker: G Stewart
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 13.2:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Stewart
+    - 13.3:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Stewart
+    - 13.4:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Stewart
+    - 13.5:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Stewart
+    - 13.6:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Stewart
+    - 14.1:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Stewart
+    - 14.2:
+        non_striker: G Stewart
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 14.3:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Stewart
+    - 14.4:
+        non_striker: G Stewart
+        bowler: OJ Price
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: DJ Bell-Drummond
+    - 14.5:
+        non_striker: G Stewart
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Bell-Drummond
+    - 14.6:
+        non_striker: G Stewart
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 14.7:
+        non_striker: DJ Bell-Drummond
+        bowler: OJ Price
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Stewart
+    - 15.1:
+        non_striker: G Stewart
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Bell-Drummond
+    - 15.2:
+        non_striker: G Stewart
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Bell-Drummond
+    - 15.3:
+        non_striker: G Stewart
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 15.4:
+        non_striker: DJ Bell-Drummond
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Stewart
+    - 15.5:
+        non_striker: G Stewart
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 15.6:
+        non_striker: G Stewart
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 16.1:
+        non_striker: G Stewart
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 16.2:
+        non_striker: G Stewart
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 16.3:
+        non_striker: G Stewart
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 16.4:
+        non_striker: DJ Bell-Drummond
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Stewart
+    - 16.5:
+        non_striker: G Stewart
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Bell-Drummond
+    - 16.6:
+        non_striker: G Stewart
+        bowler: BJ Webster
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+    - 17.1:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Stewart
+    - 17.2:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Stewart
+    - 17.3:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Stewart
+        wicket:
+          player_out: G Stewart
+          fielders:
+          - OJ Price
+          kind: caught
+    - 17.4:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Rogers
+    - 17.5:
+        non_striker: TS Rogers
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Bell-Drummond
+    - 17.6:
+        non_striker: DJ Bell-Drummond
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Rogers
+    - 18.1:
+        non_striker: DJ Bell-Drummond
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TS Rogers
+    - 18.2:
+        non_striker: DJ Bell-Drummond
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TS Rogers
+    - 18.3:
+        non_striker: TS Rogers
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Bell-Drummond
+        wicket:
+          player_out: DJ Bell-Drummond
+          fielders:
+          - Miles Hammond
+          kind: caught
+    - 18.4:
+        non_striker: TS Rogers
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Gilchrist
+    - 18.5:
+        non_striker: TS Rogers
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Gilchrist
+    - 18.6:
+        non_striker: TS Rogers
+        bowler: J Shaw
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Gilchrist
+    - 19.1:
+        non_striker: TS Rogers
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Gilchrist
+        wicket:
+          player_out: NN Gilchrist
+          fielders:
+          - CT Bancroft
+          kind: caught
+    - 19.2:
+        non_striker: TS Rogers
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MW Parkinson
+        wicket:
+          player_out: MW Parkinson
+          fielders:
+          - AS Dale
+          kind: run out
+- 2nd innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.2:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.3:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.4:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.5:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 0.6:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Miles Hammond
+    - 1.1:
+        non_striker: Miles Hammond
+        bowler: G Stewart
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CT Bancroft
+    - 1.2:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.3:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 1.4:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.5:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 1.6:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.1:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 2.2:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Miles Hammond
+    - 2.3:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.4:
+        non_striker: Miles Hammond
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 2.5:
+        non_striker: CT Bancroft
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 2.6:
+        non_striker: Miles Hammond
+        bowler: TS Rogers
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CT Bancroft
+    - 3.1:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 3.2:
+        non_striker: Miles Hammond
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 3.3:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 3.4:
+        non_striker: Miles Hammond
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+    - 3.5:
+        non_striker: Miles Hammond
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CT Bancroft
+    - 3.6:
+        non_striker: CT Bancroft
+        bowler: G Stewart
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 4.1:
+        non_striker: CT Bancroft
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+    - 4.2:
+        non_striker: CT Bancroft
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 4.3:
+        non_striker: Miles Hammond
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CT Bancroft
+        wicket:
+          player_out: CT Bancroft
+          fielders:
+          - MW Parkinson
+          kind: caught
+    - 4.4:
+        non_striker: Miles Hammond
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 4.5:
+        non_striker: Miles Hammond
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+    - 4.6:
+        non_striker: Miles Hammond
+        bowler: NN Gilchrist
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: James Bracey
+        wicket:
+          player_out: James Bracey
+          fielders:
+          - SW Billings
+          kind: caught

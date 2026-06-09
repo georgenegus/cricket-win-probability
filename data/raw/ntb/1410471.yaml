@@ -1,0 +1,2092 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-12'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Taunton
+  competition: Vitality Blast
+  dates:
+  - '2024-07-12'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Somerset
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Surrey:
+    - WG Jacks
+    - DP Sibley
+    - LJ Evans
+    - RJ Burns
+    - SM Curran
+    - J Overton
+    - CJ Jordan
+    - J Clark
+    - CT Steel
+    - TE Lawes
+    - DJ Worrall
+    Somerset:
+    - T Banton
+    - GW Thomas
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - C Overton
+    - MJ Leach
+    - RP Meredith
+    - JT Ball
+  registry:
+    people:
+      AC Harris: ef14c0ec
+      BGF Green: 34b37279
+      C Overton: e9987a94
+      CJ Jordan: ffe699c0
+      CT Steel: 5899dceb
+      DJ Worrall: 208f22ea
+      DP Sibley: 97e434a6
+      GW Thomas: f2e28b0c
+      ID Blackwell: 818e8bf2
+      J Clark: c672e80e
+      J Overton: 59559bc2
+      JT Ball: 3d0ed2f9
+      L Gregory: 06c2de82
+      LJ Evans: 1c513d54
+      MJ Leach: 3987e390
+      RJ Burns: 29e8a62e
+      RP Meredith: '64775749'
+      SG Hinks: 0bb4dc0d
+      SM Curran: e94915e6
+      SR Dickson: 2344bdd1
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      TB Abell: ba9258a7
+      TE Lawes: fe2ac1a8
+      WG Jacks: 9caf69a1
+  teams:
+  - Surrey
+  - Somerset
+  toss:
+    winner: Surrey
+    decision: bat
+  umpires:
+  - AC Harris
+  - ID Blackwell
+  venue: The Cooper Associates County Ground, Taunton
+innings:
+- 1st innings:
+    team: Surrey
+    deliveries:
+    - 0.1:
+        non_striker: DP Sibley
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 0.2:
+        non_striker: DP Sibley
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 0.3:
+        non_striker: DP Sibley
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 0.4:
+        non_striker: DP Sibley
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 0.5:
+        non_striker: DP Sibley
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WG Jacks
+    - 0.6:
+        non_striker: DP Sibley
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+    - 1.1:
+        non_striker: WG Jacks
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DP Sibley
+    - 1.2:
+        non_striker: WG Jacks
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DP Sibley
+    - 1.3:
+        non_striker: DP Sibley
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WG Jacks
+    - 1.4:
+        non_striker: WG Jacks
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Sibley
+    - 1.5:
+        non_striker: WG Jacks
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DP Sibley
+        wicket:
+          player_out: DP Sibley
+          fielders:
+          - SR Dickson
+          kind: caught
+    - 1.6:
+        non_striker: WG Jacks
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+    - 2.1:
+        non_striker: LJ Evans
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WG Jacks
+        wicket:
+          player_out: WG Jacks
+          fielders:
+          - SR Dickson
+          kind: caught
+    - 2.2:
+        non_striker: LJ Evans
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: RJ Burns
+    - 2.3:
+        non_striker: RJ Burns
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 2.4:
+        non_striker: LJ Evans
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 2.5:
+        non_striker: LJ Evans
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 2.6:
+        non_striker: RJ Burns
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: LJ Evans
+    - 3.1:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: LJ Evans
+    - 3.2:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: LJ Evans
+    - 3.3:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: LJ Evans
+        wicket:
+          player_out: LJ Evans
+          fielders:
+          - MJ Leach
+          kind: caught
+    - 3.4:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 3.5:
+        non_striker: SM Curran
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RJ Burns
+    - 3.6:
+        non_striker: SM Curran
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 4.1:
+        non_striker: SM Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: RJ Burns
+    - 4.2:
+        non_striker: RJ Burns
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 4.3:
+        non_striker: SM Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 4.4:
+        non_striker: RJ Burns
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 4.5:
+        non_striker: RJ Burns
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 4.6:
+        non_striker: SM Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 5.1:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 5.2:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 5.3:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 5.4:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 5.5:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 5.6:
+        non_striker: SM Curran
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 6.1:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 6.2:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 6.3:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 6.4:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 6.5:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 6.6:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 7.1:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 7.2:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 7.3:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 7.4:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 7.5:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+    - 7.6:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 8.1:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 8.2:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 8.3:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RJ Burns
+    - 8.4:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 8.5:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 8.6:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RJ Burns
+    - 9.1:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 9.2:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 9.3:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 9.4:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 9.5:
+        non_striker: SM Curran
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RJ Burns
+    - 9.6:
+        non_striker: SM Curran
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 10.1:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 10.2:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 10.3:
+        non_striker: SM Curran
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 10.4:
+        non_striker: SM Curran
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 10.5:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SM Curran
+    - 10.6:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 11.1:
+        non_striker: SM Curran
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 11.2:
+        non_striker: SM Curran
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 11.3:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 11.4:
+        non_striker: SM Curran
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 11.5:
+        non_striker: SM Curran
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 11.6:
+        non_striker: RJ Burns
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 12.1:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 12.2:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 12.3:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 12.4:
+        non_striker: SM Curran
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 12.5:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 12.6:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 13.1:
+        non_striker: SM Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 13.2:
+        non_striker: SM Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 13.3:
+        non_striker: RJ Burns
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Curran
+    - 13.4:
+        non_striker: RJ Burns
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 13.5:
+        non_striker: SM Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 13.6:
+        non_striker: SM Curran
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 14.1:
+        non_striker: SM Curran
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 14.2:
+        non_striker: SM Curran
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 14.3:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 14.4:
+        non_striker: SM Curran
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 14.5:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Curran
+    - 14.6:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 15.1:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Curran
+    - 15.2:
+        non_striker: SM Curran
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 15.3:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SM Curran
+    - 15.4:
+        non_striker: SM Curran
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+    - 15.5:
+        non_striker: SM Curran
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 15.6:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SM Curran
+    - 16.1:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Curran
+        wicket:
+          player_out: SM Curran
+          fielders:
+          - C Overton
+          kind: caught
+    - 16.2:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Overton
+    - 16.3:
+        non_striker: J Overton
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 16.4:
+        non_striker: J Overton
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 16.5:
+        non_striker: RJ Burns
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Overton
+    - 16.6:
+        non_striker: J Overton
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 17.1:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Overton
+    - 17.2:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Overton
+    - 17.3:
+        non_striker: J Overton
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RJ Burns
+    - 17.4:
+        non_striker: J Overton
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 17.5:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Overton
+    - 17.6:
+        non_striker: RJ Burns
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Overton
+    - 18.1:
+        non_striker: J Overton
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RJ Burns
+    - 18.2:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Overton
+    - 18.3:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: J Overton
+    - 18.4:
+        non_striker: RJ Burns
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Overton
+    - 18.5:
+        non_striker: J Overton
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RJ Burns
+        wicket:
+          player_out: RJ Burns
+          kind: caught and bowled
+    - 18.6:
+        non_striker: J Overton
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CJ Jordan
+    - 19.1:
+        non_striker: J Overton
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: CJ Jordan
+    - 19.2:
+        non_striker: CJ Jordan
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: J Overton
+    - 19.3:
+        non_striker: CJ Jordan
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: J Overton
+    - 19.4:
+        non_striker: J Overton
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: CJ Jordan
+    - 19.5:
+        non_striker: CJ Jordan
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: J Overton
+    - 19.6:
+        non_striker: CJ Jordan
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: J Overton
+    - 19.7:
+        non_striker: CJ Jordan
+        bowler: RP Meredith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: J Overton
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        non_striker: GW Thomas
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.2:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 0.3:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 0.4:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 0.5:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GW Thomas
+    - 0.6:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 0.7:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 1.1:
+        non_striker: GW Thomas
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 1.2:
+        non_striker: GW Thomas
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.3:
+        non_striker: GW Thomas
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.4:
+        non_striker: GW Thomas
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 1.5:
+        non_striker: GW Thomas
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 1.6:
+        non_striker: GW Thomas
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 2.1:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GW Thomas
+    - 2.2:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GW Thomas
+    - 2.3:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GW Thomas
+    - 2.4:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GW Thomas
+    - 2.5:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: GW Thomas
+    - 2.6:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 2.7:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GW Thomas
+    - 2.8:
+        non_striker: T Banton
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 3.1:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 3.2:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          fielders:
+          - SM Curran
+          kind: caught
+    - 3.3:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 3.4:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 3.5:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T Kohler-Cadmore
+    - 3.6:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 3.7:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 4.1:
+        non_striker: T Kohler-Cadmore
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GW Thomas
+    - 4.2:
+        non_striker: T Kohler-Cadmore
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 4.3:
+        non_striker: T Kohler-Cadmore
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GW Thomas
+    - 4.4:
+        non_striker: T Kohler-Cadmore
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 4.5:
+        non_striker: T Kohler-Cadmore
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GW Thomas
+    - 4.6:
+        non_striker: T Kohler-Cadmore
+        bowler: DJ Worrall
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 5.1:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 5.2:
+        non_striker: T Kohler-Cadmore
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 5.3:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 5.4:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 5.5:
+        non_striker: T Kohler-Cadmore
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 5.6:
+        non_striker: GW Thomas
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 6.1:
+        non_striker: T Kohler-Cadmore
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 6.2:
+        non_striker: GW Thomas
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 6.3:
+        non_striker: T Kohler-Cadmore
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GW Thomas
+    - 6.4:
+        non_striker: T Kohler-Cadmore
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 6.5:
+        non_striker: T Kohler-Cadmore
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: GW Thomas
+    - 6.6:
+        non_striker: GW Thomas
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 7.1:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 7.2:
+        non_striker: GW Thomas
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 7.3:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+        wicket:
+          player_out: GW Thomas
+          fielders:
+          - DP Sibley
+          kind: caught
+    - 7.4:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 7.5:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.6:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.1:
+        non_striker: TB Abell
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 8.2:
+        non_striker: TB Abell
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 8.3:
+        non_striker: TB Abell
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 8.4:
+        non_striker: T Kohler-Cadmore
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 8.5:
+        non_striker: T Kohler-Cadmore
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.6:
+        non_striker: TB Abell
+        bowler: TE Lawes
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: T Kohler-Cadmore
+    - 8.7:
+        non_striker: TB Abell
+        bowler: TE Lawes
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 9.1:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.2:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.3:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 9.4:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 9.5:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 9.6:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.1:
+        non_striker: T Kohler-Cadmore
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 10.2:
+        non_striker: TB Abell
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 10.3:
+        non_striker: TB Abell
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Kohler-Cadmore
+    - 10.4:
+        non_striker: TB Abell
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 10.5:
+        non_striker: T Kohler-Cadmore
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 10.6:
+        non_striker: T Kohler-Cadmore
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 11.1:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 11.2:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 11.3:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 11.4:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 11.5:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 11.6:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 12.1:
+        non_striker: T Kohler-Cadmore
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 12.2:
+        non_striker: T Kohler-Cadmore
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 12.3:
+        non_striker: T Kohler-Cadmore
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 12.4:
+        non_striker: TB Abell
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Kohler-Cadmore
+    - 12.5:
+        non_striker: TB Abell
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 12.6:
+        non_striker: T Kohler-Cadmore
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.1:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.2:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Kohler-Cadmore
+    - 13.3:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 13.4:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 13.5:
+        non_striker: TB Abell
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 13.6:
+        non_striker: T Kohler-Cadmore
+        bowler: CT Steel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 14.1:
+        non_striker: TB Abell
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 14.2:
+        non_striker: TB Abell
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Kohler-Cadmore
+    - 14.3:
+        non_striker: T Kohler-Cadmore
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 14.4:
+        non_striker: T Kohler-Cadmore
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 14.5:
+        non_striker: TB Abell
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+    - 14.6:
+        non_striker: TB Abell
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - RJ Burns
+          kind: caught
+    - 15.1:
+        non_striker: SR Dickson
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 15.2:
+        non_striker: TB Abell
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 15.3:
+        non_striker: SR Dickson
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 15.4:
+        non_striker: SR Dickson
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 15.5:
+        non_striker: SR Dickson
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 15.6:
+        non_striker: SR Dickson
+        bowler: WG Jacks
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          fielders:
+          - CT Steel
+          kind: caught
+    - 16.1:
+        non_striker: L Gregory
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Dickson
+    - 16.2:
+        non_striker: L Gregory
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 16.3:
+        non_striker: SR Dickson
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 16.4:
+        non_striker: L Gregory
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 16.5:
+        non_striker: SR Dickson
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: L Gregory
+    - 16.6:
+        non_striker: L Gregory
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 17.1:
+        non_striker: L Gregory
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 17.2:
+        non_striker: L Gregory
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Dickson
+    - 17.3:
+        non_striker: L Gregory
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SR Dickson
+    - 17.4:
+        non_striker: L Gregory
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SR Dickson
+    - 17.5:
+        non_striker: L Gregory
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 17.6:
+        non_striker: SR Dickson
+        bowler: J Clark
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: L Gregory
+    - 17.7:
+        non_striker: SR Dickson
+        bowler: J Clark
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 18.1:
+        non_striker: SR Dickson
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 18.2:
+        non_striker: L Gregory
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 18.3:
+        non_striker: SR Dickson
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 18.4:
+        non_striker: L Gregory
+        bowler: CJ Jordan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SR Dickson
+    - 18.5:
+        non_striker: SR Dickson
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 18.6:
+        non_striker: SR Dickson
+        bowler: CJ Jordan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory

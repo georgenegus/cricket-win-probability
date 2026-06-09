@@ -1,0 +1,1808 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-11'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Leeds
+  competition: Vitality Blast
+  dates:
+  - '2024-07-11'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Yorkshire
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Durham:
+    - G Clark
+    - AZ Lees
+    - OG Robinson
+    - CN Ackermann
+    - BFW de Leede
+    - AJ Turner
+    - BA Raine
+    - MA Jones
+    - BJ Dwarshuis
+    - NA Sowter
+    - CF Parkinson
+    Yorkshire:
+    - A Lyth
+    - DJ Malan
+    - JH Wharton
+    - Shan Masood
+    - D Ferreira
+    - GCH Hill
+    - JA Chohan
+    - JA Thompson
+    - DM Bess
+    - BM Cliff
+    - D Moriarty
+  registry:
+    people:
+      A Lyth: 70b8fd28
+      AJ Turner: ff1e12a0
+      AZ Lees: c9c0fe50
+      BA Raine: 4c0f3806
+      BFW de Leede: fc4375ef
+      BJ Dwarshuis: e1b9f3a9
+      BM Cliff: 3ebb940f
+      CF Parkinson: aa1210d8
+      CN Ackermann: e734d090
+      D Ferreira: f0af99a7
+      D Moriarty: 6ea2710f
+      DJ Malan: ad9c32a2
+      DM Bess: ad46c747
+      G Clark: 4fd09cfc
+      GCH Hill: 214f6461
+      JA Chohan: 58be5e46
+      JA Thompson: 1d2f290a
+      JH Wharton: 42a5c1c7
+      JJ Whitaker: 4ea85016
+      MA Jones: 05f96194
+      NA Mallender: 3b5dfcd4
+      NA Sowter: ee0c05c0
+      OG Robinson: 60f4c586
+      RA Kettleborough: 4017868f
+      Shan Masood: 6843a783
+  teams:
+  - Durham
+  - Yorkshire
+  toss:
+    winner: Durham
+    decision: bat
+  umpires:
+  - NA Mallender
+  - RA Kettleborough
+  venue: Headingley, Leeds
+innings:
+- 1st innings:
+    team: Durham
+    deliveries:
+    - 0.1:
+        non_striker: AZ Lees
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 0.2:
+        non_striker: G Clark
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 0.3:
+        non_striker: AZ Lees
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.4:
+        non_striker: AZ Lees
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 0.5:
+        non_striker: AZ Lees
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 0.6:
+        non_striker: AZ Lees
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.1:
+        non_striker: G Clark
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AZ Lees
+    - 1.2:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 1.3:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 1.4:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 1.5:
+        non_striker: AZ Lees
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 1.6:
+        non_striker: G Clark
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AZ Lees
+        wicket:
+          player_out: AZ Lees
+          fielders:
+          - D Ferreira
+          kind: stumped
+    - 2.1:
+        non_striker: OG Robinson
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 2.2:
+        non_striker: OG Robinson
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 2.3:
+        non_striker: OG Robinson
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 2.4:
+        non_striker: OG Robinson
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Clark
+    - 2.5:
+        non_striker: OG Robinson
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 2.6:
+        non_striker: G Clark
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+    - 3.1:
+        non_striker: OG Robinson
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 3.2:
+        non_striker: G Clark
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OG Robinson
+    - 3.3:
+        non_striker: G Clark
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OG Robinson
+        wicket:
+          player_out: OG Robinson
+          fielders:
+          - DM Bess
+          kind: caught
+    - 3.4:
+        non_striker: G Clark
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 3.5:
+        non_striker: CN Ackermann
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Clark
+    - 3.6:
+        non_striker: G Clark
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 4.1:
+        non_striker: CN Ackermann
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+    - 4.2:
+        non_striker: CN Ackermann
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Clark
+    - 4.3:
+        non_striker: CN Ackermann
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Clark
+        wicket:
+          player_out: G Clark
+          fielders:
+          - Shan Masood
+          kind: caught
+    - 4.4:
+        non_striker: CN Ackermann
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BFW de Leede
+    - 4.5:
+        non_striker: BFW de Leede
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+    - 4.6:
+        non_striker: BFW de Leede
+        bowler: BM Cliff
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CN Ackermann
+    - 5.1:
+        non_striker: CN Ackermann
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BFW de Leede
+    - 5.2:
+        non_striker: BFW de Leede
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 5.3:
+        non_striker: CN Ackermann
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+    - 5.4:
+        non_striker: CN Ackermann
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+    - 5.5:
+        non_striker: CN Ackermann
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+    - 5.6:
+        non_striker: CN Ackermann
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+    - 6.1:
+        non_striker: BFW de Leede
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 6.2:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BFW de Leede
+    - 6.3:
+        non_striker: BFW de Leede
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CN Ackermann
+    - 6.4:
+        non_striker: BFW de Leede
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CN Ackermann
+    - 6.5:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BFW de Leede
+        wicket:
+          player_out: BFW de Leede
+          kind: bowled
+    - 6.6:
+        non_striker: CN Ackermann
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+    - 7.1:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CN Ackermann
+        wicket:
+          player_out: CN Ackermann
+          kind: bowled
+    - 7.2:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 7.3:
+        non_striker: BA Raine
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 7.4:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BA Raine
+    - 7.5:
+        non_striker: BA Raine
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 7.6:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 8.1:
+        non_striker: BA Raine
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 8.2:
+        non_striker: AJ Turner
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 8.3:
+        non_striker: AJ Turner
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 8.4:
+        non_striker: AJ Turner
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 8.5:
+        non_striker: BA Raine
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 8.6:
+        non_striker: AJ Turner
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BA Raine
+    - 9.1:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 9.2:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 9.3:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 9.4:
+        non_striker: BA Raine
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 9.5:
+        non_striker: AJ Turner
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 9.6:
+        non_striker: BA Raine
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AJ Turner
+    - 10.1:
+        non_striker: AJ Turner
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 10.2:
+        non_striker: AJ Turner
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 10.3:
+        non_striker: BA Raine
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 10.4:
+        non_striker: AJ Turner
+        bowler: D Moriarty
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BA Raine
+    - 10.5:
+        non_striker: BA Raine
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 10.6:
+        non_striker: AJ Turner
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 11.1:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 11.2:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 11.3:
+        non_striker: BA Raine
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 11.4:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 11.5:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+    - 11.6:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 12.1:
+        non_striker: BA Raine
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AJ Turner
+    - 12.2:
+        non_striker: BA Raine
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 12.3:
+        non_striker: AJ Turner
+        bowler: D Moriarty
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BA Raine
+    - 12.4:
+        non_striker: BA Raine
+        bowler: D Moriarty
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AJ Turner
+    - 12.5:
+        non_striker: BA Raine
+        bowler: D Moriarty
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: AJ Turner
+    - 12.6:
+        non_striker: AJ Turner
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Raine
+    - 12.7:
+        non_striker: AJ Turner
+        bowler: D Moriarty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 13.1:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BA Raine
+    - 13.2:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BA Raine
+    - 13.3:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BA Raine
+    - 13.4:
+        non_striker: BA Raine
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AJ Turner
+    - 13.5:
+        non_striker: AJ Turner
+        bowler: DM Bess
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: BA Raine
+    - 13.6:
+        non_striker: BA Raine
+        bowler: DM Bess
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AJ Turner
+        wicket:
+          player_out: AJ Turner
+          kind: caught and bowled
+    - 14.1:
+        non_striker: MA Jones
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Raine
+        wicket:
+          player_out: BA Raine
+          kind: lbw
+    - 14.2:
+        non_striker: MA Jones
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJ Dwarshuis
+        wicket:
+          player_out: BJ Dwarshuis
+          fielders:
+          - D Ferreira
+          kind: caught
+    - 14.3:
+        non_striker: MA Jones
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Sowter
+    - 14.4:
+        non_striker: NA Sowter
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Jones
+        wicket:
+          player_out: MA Jones
+          kind: bowled
+    - 14.5:
+        non_striker: NA Sowter
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 14.6:
+        non_striker: NA Sowter
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CF Parkinson
+    - 15.1:
+        non_striker: CF Parkinson
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: NA Sowter
+    - 15.2:
+        non_striker: NA Sowter
+        bowler: JA Thompson
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          noballs: 2
+        batsman: CF Parkinson
+    - 15.3:
+        non_striker: NA Sowter
+        bowler: JA Thompson
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: CF Parkinson
+    - 15.4:
+        non_striker: NA Sowter
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 15.5:
+        non_striker: CF Parkinson
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Sowter
+    - 15.6:
+        non_striker: CF Parkinson
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NA Sowter
+    - 15.7:
+        non_striker: CF Parkinson
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Sowter
+    - 15.8:
+        non_striker: NA Sowter
+        bowler: JA Thompson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 16.1:
+        non_striker: NA Sowter
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CF Parkinson
+    - 16.2:
+        non_striker: CF Parkinson
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Sowter
+    - 16.3:
+        non_striker: CF Parkinson
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Sowter
+    - 16.4:
+        non_striker: CF Parkinson
+        bowler: JA Chohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Sowter
+        wicket:
+          player_out: NA Sowter
+          fielders:
+          - D Ferreira
+          kind: stumped
+- 2nd innings:
+    team: Yorkshire
+    deliveries:
+    - 0.1:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 0.2:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 0.3:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 0.4:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 0.5:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 0.6:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 1.1:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 1.2:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Lyth
+    - 1.3:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 1.4:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 1.5:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 1.6:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 1.7:
+        non_striker: DJ Malan
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 2.1:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 2.2:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 2.3:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 2.4:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 2.5:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 2.6:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 3.1:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.2:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.3:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 3.4:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.5:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 3.6:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: DJ Malan
+    - 3.7:
+        non_striker: A Lyth
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Malan
+    - 4.1:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Lyth
+    - 4.2:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 4.3:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 4.4:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 4.5:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 4.6:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 5.1:
+        non_striker: A Lyth
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 5.2:
+        non_striker: A Lyth
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 5.3:
+        non_striker: A Lyth
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 5.4:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Lyth
+    - 5.5:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Lyth
+    - 5.6:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 6.1:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 6.2:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 6.3:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 6.4:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Malan
+    - 6.5:
+        non_striker: A Lyth
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 6.6:
+        non_striker: DJ Malan
+        bowler: CN Ackermann
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 7.1:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Lyth
+    - 7.2:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 7.3:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Lyth
+    - 7.4:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+    - 7.5:
+        non_striker: DJ Malan
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Lyth
+    - 7.6:
+        non_striker: A Lyth
+        bowler: BA Raine
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 8.1:
+        non_striker: A Lyth
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 8.2:
+        non_striker: A Lyth
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 8.3:
+        non_striker: A Lyth
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 8.4:
+        non_striker: A Lyth
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 8.5:
+        non_striker: A Lyth
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 8.6:
+        non_striker: DJ Malan
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Lyth
+        wicket:
+          player_out: A Lyth
+          kind: caught and bowled
+    - 9.1:
+        non_striker: JH Wharton
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 9.2:
+        non_striker: JH Wharton
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Malan
+    - 9.3:
+        non_striker: DJ Malan
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 9.4:
+        non_striker: DJ Malan
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 9.5:
+        non_striker: JH Wharton
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+    - 9.6:
+        non_striker: JH Wharton
+        bowler: BFW de Leede
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Malan
+        wicket:
+          player_out: DJ Malan
+          fielders:
+          - AJ Turner
+          kind: caught
+    - 10.1:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 10.2:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 10.3:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 10.4:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 10.5:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 10.6:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 11.1:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 11.2:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 11.3:
+        non_striker: JH Wharton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 11.4:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 11.5:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 11.6:
+        non_striker: JH Wharton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 12.1:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 12.2:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JH Wharton
+    - 12.3:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 12.4:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shan Masood
+    - 12.5:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 12.6:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 13.1:
+        non_striker: JH Wharton
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 13.2:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 13.3:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 13.4:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 13.5:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JH Wharton
+    - 13.6:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 14.1:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 14.2:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JH Wharton
+    - 14.3:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 14.4:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JH Wharton
+    - 14.5:
+        non_striker: JH Wharton
+        bowler: NA Sowter
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 14.6:
+        non_striker: Shan Masood
+        bowler: NA Sowter
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: JH Wharton
+    - 15.1:
+        non_striker: Shan Masood
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 15.2:
+        non_striker: Shan Masood
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JH Wharton
+    - 15.3:
+        non_striker: Shan Masood
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 15.4:
+        non_striker: Shan Masood
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+    - 15.5:
+        non_striker: Shan Masood
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JH Wharton
+        wicket:
+          player_out: JH Wharton
+          fielders:
+          - BFW de Leede
+          kind: caught
+    - 15.6:
+        non_striker: Shan Masood
+        bowler: BJ Dwarshuis
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Ferreira
+    - 16.1:
+        non_striker: D Ferreira
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shan Masood
+    - 16.2:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Ferreira
+    - 16.3:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Ferreira
+    - 16.4:
+        non_striker: Shan Masood
+        bowler: CF Parkinson
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Ferreira

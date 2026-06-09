@@ -1,0 +1,1837 @@
+---
+meta:
+  data_version: 0.92
+  created: '2024-07-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Cardiff
+  competition: Vitality Blast
+  dates:
+  - '2024-07-19'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Glamorgan
+    by:
+      runs: 120
+  overs: 20
+  players:
+    Glamorgan:
+    - KS Carlson
+    - WT Smale
+    - CA Ingram
+    - CB Cooke
+    - BI Kellaway
+    - TR Bevan
+    - M Labuschagne
+    - DA Douthwaite
+    - T van der Gugten
+    - MS Crane
+    - AW Gorvin
+    Somerset:
+    - T Banton
+    - GW Thomas
+    - T Kohler-Cadmore
+    - TB Abell
+    - SR Dickson
+    - L Gregory
+    - BGF Green
+    - C Overton
+    - RP Meredith
+    - MJ Leach
+    - JT Ball
+  registry:
+    people:
+      AW Gorvin: 7d7233a9
+      BGF Green: 34b37279
+      BI Kellaway: eafe8a94
+      C Overton: e9987a94
+      CA Ingram: c995d726
+      CB Cooke: 6755cd5c
+      DA Cosker: aac9f784
+      DA Douthwaite: 03df7a25
+      GW Thomas: f2e28b0c
+      JT Ball: 3d0ed2f9
+      KS Carlson: 9e707e02
+      L Gregory: 06c2de82
+      M Labuschagne: fa433be6
+      MJ Leach: 3987e390
+      MS Crane: f0a0204e
+      PK Baldwin: 6bb53c12
+      RP Meredith: '64775749'
+      SR Dickson: 2344bdd1
+      Surendiran Shanmugam: 2ef5fc2b
+      T Banton: 25f7b7d6
+      T Kohler-Cadmore: f836b33d
+      T van der Gugten: d99cc23a
+      TB Abell: ba9258a7
+      TR Bevan: 6c7349c4
+      WT Smale: 97da28bd
+  teams:
+  - Glamorgan
+  - Somerset
+  toss:
+    winner: Glamorgan
+    decision: bat
+  umpires:
+  - PK Baldwin
+  - Surendiran Shanmugam
+  venue: Sophia Gardens, Cardiff
+innings:
+- 1st innings:
+    team: Glamorgan
+    deliveries:
+    - 0.1:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KS Carlson
+    - 0.2:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 0.3:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 0.4:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 0.5:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 0.6:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 0.7:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 1.1:
+        non_striker: KS Carlson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 1.2:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 1.3:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 1.4:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 1.5:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 1.6:
+        non_striker: KS Carlson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 2.1:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 2.2:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 2.3:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 2.4:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 2.5:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 2.6:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 3.1:
+        non_striker: KS Carlson
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.2:
+        non_striker: KS Carlson
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.3:
+        non_striker: KS Carlson
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 3.4:
+        non_striker: KS Carlson
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 3.5:
+        non_striker: KS Carlson
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 3.6:
+        non_striker: WT Smale
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 4.1:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 4.2:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 4.3:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 4.4:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Smale
+    - 4.5:
+        non_striker: KS Carlson
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 4.6:
+        non_striker: WT Smale
+        bowler: C Overton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 5.1:
+        non_striker: WT Smale
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 5.2:
+        non_striker: WT Smale
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 5.3:
+        non_striker: WT Smale
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 5.4:
+        non_striker: KS Carlson
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 5.5:
+        non_striker: WT Smale
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 5.6:
+        non_striker: WT Smale
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 6.1:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: WT Smale
+    - 6.2:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 6.3:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 6.4:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 6.5:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 6.6:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 7.1:
+        non_striker: KS Carlson
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 7.2:
+        non_striker: WT Smale
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 7.3:
+        non_striker: WT Smale
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 7.4:
+        non_striker: KS Carlson
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 7.5:
+        non_striker: WT Smale
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 7.6:
+        non_striker: KS Carlson
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 8.1:
+        non_striker: WT Smale
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 8.2:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 8.3:
+        non_striker: WT Smale
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 8.4:
+        non_striker: WT Smale
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 8.5:
+        non_striker: WT Smale
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 8.6:
+        non_striker: WT Smale
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 9.1:
+        non_striker: KS Carlson
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 9.2:
+        non_striker: KS Carlson
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 9.3:
+        non_striker: WT Smale
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 9.4:
+        non_striker: WT Smale
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 9.5:
+        non_striker: WT Smale
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 9.6:
+        non_striker: WT Smale
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 10.1:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 10.2:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 10.3:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 10.4:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 10.5:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 10.6:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 11.1:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 11.2:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 11.3:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 11.4:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 11.5:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Carlson
+    - 11.6:
+        non_striker: WT Smale
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 12.1:
+        non_striker: KS Carlson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 12.2:
+        non_striker: KS Carlson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+    - 12.3:
+        non_striker: KS Carlson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Smale
+    - 12.4:
+        non_striker: KS Carlson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 12.5:
+        non_striker: WT Smale
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 12.6:
+        non_striker: KS Carlson
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 13.1:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Smale
+    - 13.2:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WT Smale
+    - 13.3:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WT Smale
+    - 13.4:
+        non_striker: WT Smale
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KS Carlson
+    - 13.5:
+        non_striker: WT Smale
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 13.6:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: WT Smale
+    - 13.7:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: WT Smale
+    - 13.8:
+        non_striker: KS Carlson
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WT Smale
+        wicket:
+          player_out: WT Smale
+          fielders:
+          - SR Dickson
+          kind: caught
+    - 14.1:
+        non_striker: CA Ingram
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 14.2:
+        non_striker: KS Carlson
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 14.3:
+        non_striker: CA Ingram
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 14.4:
+        non_striker: CA Ingram
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 14.5:
+        non_striker: CA Ingram
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 14.6:
+        non_striker: CA Ingram
+        bowler: MJ Leach
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 15.1:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 15.2:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 15.3:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: KS Carlson
+    - 15.4:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Carlson
+    - 15.5:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 15.6:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 15.7:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+    - 16.1:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 16.2:
+        non_striker: CA Ingram
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Carlson
+    - 16.3:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 16.4:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 16.5:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 16.6:
+        non_striker: KS Carlson
+        bowler: L Gregory
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Ingram
+    - 17.1:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Carlson
+    - 17.2:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Carlson
+        wicket:
+          player_out: KS Carlson
+          fielders:
+          - TB Abell
+          kind: caught
+    - 17.3:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 2
+          total: 6
+          batsman: 4
+        extras:
+          noballs: 2
+        batsman: CB Cooke
+    - 17.4:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 17.5:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 17.6:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+    - 17.7:
+        non_striker: CA Ingram
+        bowler: RP Meredith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 18.1:
+        non_striker: CA Ingram
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 18.2:
+        non_striker: CA Ingram
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CB Cooke
+    - 18.3:
+        non_striker: CB Cooke
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: CA Ingram
+    - 18.4:
+        non_striker: CA Ingram
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CB Cooke
+    - 18.5:
+        non_striker: CA Ingram
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CB Cooke
+    - 18.6:
+        non_striker: CA Ingram
+        bowler: BGF Green
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CB Cooke
+        wicket:
+          player_out: CB Cooke
+          fielders:
+          - C Overton
+          kind: caught
+    - 19.1:
+        non_striker: BI Kellaway
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Ingram
+    - 19.2:
+        non_striker: BI Kellaway
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+    - 19.3:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BI Kellaway
+    - 19.4:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BI Kellaway
+    - 19.5:
+        non_striker: CA Ingram
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BI Kellaway
+    - 19.6:
+        non_striker: BI Kellaway
+        bowler: JT Ball
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Ingram
+        wicket:
+          player_out: CA Ingram
+          fielders:
+          - GW Thomas
+          kind: run out
+- 2nd innings:
+    team: Somerset
+    deliveries:
+    - 0.1:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 0.2:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 0.3:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 0.4:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 0.5:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: T Banton
+    - 0.6:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GW Thomas
+    - 1.1:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.2:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Banton
+    - 1.3:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 1.4:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+    - 1.5:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: T Banton
+    - 1.6:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 2
+          total: 3
+          batsman: 1
+        extras:
+          noballs: 2
+        batsman: T Banton
+    - 1.7:
+        non_striker: T Banton
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GW Thomas
+    - 2.1:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Banton
+    - 2.2:
+        non_striker: T Banton
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 2.3:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Banton
+    - 2.4:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Banton
+        wicket:
+          player_out: T Banton
+          fielders:
+          - MS Crane
+          kind: caught
+    - 2.5:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Kohler-Cadmore
+        wicket:
+          player_out: T Kohler-Cadmore
+          fielders:
+          - WT Smale
+          kind: caught
+    - 2.6:
+        non_striker: GW Thomas
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 3.1:
+        non_striker: TB Abell
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 3.2:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: TB Abell
+    - 3.3:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 3.4:
+        non_striker: TB Abell
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GW Thomas
+    - 3.5:
+        non_striker: TB Abell
+        bowler: DA Douthwaite
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: GW Thomas
+    - 3.6:
+        non_striker: TB Abell
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 3.7:
+        non_striker: TB Abell
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GW Thomas
+    - 3.8:
+        non_striker: GW Thomas
+        bowler: DA Douthwaite
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 4.1:
+        non_striker: TB Abell
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+    - 4.2:
+        non_striker: TB Abell
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GW Thomas
+        wicket:
+          player_out: GW Thomas
+          fielders:
+          - WT Smale
+          kind: caught
+    - 4.3:
+        non_striker: TB Abell
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+    - 4.4:
+        non_striker: TB Abell
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 4.5:
+        non_striker: SR Dickson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 4.6:
+        non_striker: SR Dickson
+        bowler: BI Kellaway
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 5.1:
+        non_striker: TB Abell
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: SR Dickson
+    - 5.2:
+        non_striker: SR Dickson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 5.3:
+        non_striker: SR Dickson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 5.4:
+        non_striker: SR Dickson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: TB Abell
+    - 5.5:
+        non_striker: TB Abell
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 5.6:
+        non_striker: SR Dickson
+        bowler: T van der Gugten
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.1:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.2:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Dickson
+    - 6.3:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 6.4:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 6.5:
+        non_striker: SR Dickson
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 6.6:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SR Dickson
+    - 7.1:
+        non_striker: SR Dickson
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 7.2:
+        non_striker: SR Dickson
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TB Abell
+    - 7.3:
+        non_striker: SR Dickson
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TB Abell
+    - 7.4:
+        non_striker: SR Dickson
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 7.5:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Dickson
+        wicket:
+          player_out: SR Dickson
+          kind: bowled
+    - 7.6:
+        non_striker: TB Abell
+        bowler: AW Gorvin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 8.1:
+        non_striker: L Gregory
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+    - 8.2:
+        non_striker: L Gregory
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TB Abell
+    - 8.3:
+        non_striker: TB Abell
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 8.4:
+        non_striker: L Gregory
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TB Abell
+        wicket:
+          player_out: TB Abell
+          kind: bowled
+    - 8.5:
+        non_striker: L Gregory
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 8.6:
+        non_striker: BGF Green
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 9.1:
+        non_striker: BGF Green
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Gregory
+    - 9.2:
+        non_striker: L Gregory
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BGF Green
+    - 9.3:
+        non_striker: L Gregory
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 9.4:
+        non_striker: BGF Green
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Gregory
+    - 9.5:
+        non_striker: BGF Green
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+    - 9.6:
+        non_striker: BGF Green
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Gregory
+        wicket:
+          player_out: L Gregory
+          fielders:
+          - TR Bevan
+          kind: caught
+    - 10.1:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 10.2:
+        non_striker: BGF Green
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: C Overton
+    - 10.3:
+        non_striker: BGF Green
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 10.4:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BGF Green
+    - 10.5:
+        non_striker: BGF Green
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Overton
+    - 10.6:
+        non_striker: BGF Green
+        bowler: MS Crane
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: C Overton
+    - 11.1:
+        non_striker: C Overton
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BGF Green
+        wicket:
+          player_out: BGF Green
+          kind: bowled
+    - 11.2:
+        non_striker: C Overton
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+    - 11.3:
+        non_striker: C Overton
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+    - 11.4:
+        non_striker: C Overton
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Meredith
+        wicket:
+          player_out: RP Meredith
+          kind: bowled
+    - 11.5:
+        non_striker: C Overton
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Leach
+    - 11.6:
+        non_striker: C Overton
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MJ Leach
+        wicket:
+          player_out: MJ Leach
+          kind: bowled
+    - 12.1:
+        non_striker: JT Ball
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 12.2:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JT Ball
+    - 12.3:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JT Ball
+    - 12.4:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JT Ball
+    - 12.5:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JT Ball
+    - 12.6:
+        non_striker: C Overton
+        bowler: MS Crane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JT Ball
+    - 13.1:
+        non_striker: JT Ball
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: C Overton
+    - 13.2:
+        non_striker: JT Ball
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: C Overton
+    - 13.3:
+        non_striker: C Overton
+        bowler: M Labuschagne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JT Ball
+        wicket:
+          player_out: JT Ball
+          kind: bowled

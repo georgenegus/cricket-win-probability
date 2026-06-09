@@ -1,0 +1,1787 @@
+---
+meta:
+  data_version: 0.92
+  created: '2023-06-26'
+  revision: 1
+info:
+  balls_per_over: 6
+  city: Bristol
+  competition: Vitality Blast
+  dates:
+  - '2023-06-22'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Sussex
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Gloucestershire:
+    - Miles Hammond
+    - G Roelofsen
+    - BG Charlesworth
+    - BJJ Wells
+    - OJ Price
+    - Zafar Gohar
+    - GL van Buuren
+    - TJ Price
+    - MD Taylor
+    - DA Payne
+    - TMJ Smith
+    Sussex:
+    - HD Ward
+    - TGR Clark
+    - OJ Carter
+    - RS Bopara
+    - Shadab Khan
+    - MGK Burgess
+    - JM Coles
+    - GHS Garton
+    - A Karvelas
+    - HT Crocombe
+    - BJ Currie
+  registry:
+    people:
+      A Karvelas: a5735bd3
+      BG Charlesworth: ffdba4e2
+      BJ Currie: 2ecd844a
+      BJJ Wells: ad9a3160
+      DA Payne: 6c79c098
+      G Roelofsen: ac688e55
+      GHS Garton: be869ccf
+      GL van Buuren: ba377b40
+      HD Ward: 9f7932a7
+      HT Crocombe: 27fc5808
+      JM Coles: 9c643d7b
+      M Burns: b3bd0666
+      MD Taylor: 01a95383
+      MGK Burgess: 715941c3
+      Miles Hammond: c88bc84a
+      OJ Carter: 26db69e6
+      OJ Price: dfc3f02d
+      RK Illingworth: '20672246'
+      RS Bopara: 7ca5e05d
+      Shadab Khan: 9de62878
+      TGR Clark: ed8faea2
+      TJ Price: 269ff06e
+      TMJ Smith: 0a12e736
+      Wayne Noon: 736e1761
+      Zafar Gohar: 9fd3a210
+  teams:
+  - Gloucestershire
+  - Sussex
+  toss:
+    winner: Sussex
+    decision: field
+  umpires:
+  - M Burns
+  - RK Illingworth
+  venue: County Ground, Bristol
+innings:
+- 1st innings:
+    team: Gloucestershire
+    deliveries:
+    - 0.1:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Miles Hammond
+    - 0.2:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Miles Hammond
+    - 0.3:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Miles Hammond
+    - 0.4:
+        non_striker: Miles Hammond
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 0.5:
+        non_striker: Miles Hammond
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 0.6:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Miles Hammond
+        wicket:
+          player_out: Miles Hammond
+          fielders:
+          - Shadab Khan
+          kind: caught
+    - 0.7:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BG Charlesworth
+        wicket:
+          player_out: BG Charlesworth
+          kind: caught and bowled
+    - 1.1:
+        non_striker: BJJ Wells
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 1.2:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 1.3:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BJJ Wells
+    - 1.4:
+        non_striker: BJJ Wells
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 1.5:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 1.6:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 2.1:
+        non_striker: BJJ Wells
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 2.2:
+        non_striker: BJJ Wells
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Roelofsen
+    - 2.3:
+        non_striker: BJJ Wells
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 2.4:
+        non_striker: BJJ Wells
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 2.5:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+    - 2.6:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BJJ Wells
+        wicket:
+          player_out: BJJ Wells
+          fielders:
+          - HT Crocombe
+          kind: caught
+    - 3.1:
+        non_striker: OJ Price
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 3.2:
+        non_striker: OJ Price
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 3.3:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 3.4:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 3.5:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: OJ Price
+    - 3.6:
+        non_striker: G Roelofsen
+        bowler: BJ Currie
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 4.1:
+        non_striker: OJ Price
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 4.2:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 4.3:
+        non_striker: OJ Price
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Roelofsen
+    - 4.4:
+        non_striker: OJ Price
+        bowler: A Karvelas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: G Roelofsen
+    - 4.5:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 4.6:
+        non_striker: G Roelofsen
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 5.1:
+        non_striker: OJ Price
+        bowler: HT Crocombe
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: G Roelofsen
+    - 5.2:
+        non_striker: OJ Price
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 5.3:
+        non_striker: OJ Price
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Roelofsen
+    - 5.4:
+        non_striker: OJ Price
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 5.5:
+        non_striker: OJ Price
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 5.6:
+        non_striker: G Roelofsen
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 5.7:
+        non_striker: OJ Price
+        bowler: HT Crocombe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 6.1:
+        non_striker: OJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 6.2:
+        non_striker: G Roelofsen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 6.3:
+        non_striker: OJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Roelofsen
+    - 6.4:
+        non_striker: OJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Roelofsen
+    - 6.5:
+        non_striker: OJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 6.6:
+        non_striker: G Roelofsen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 7.1:
+        non_striker: G Roelofsen
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 7.2:
+        non_striker: OJ Price
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 7.3:
+        non_striker: OJ Price
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+    - 7.4:
+        non_striker: OJ Price
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Roelofsen
+    - 7.5:
+        non_striker: G Roelofsen
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 7.6:
+        non_striker: G Roelofsen
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 8.1:
+        non_striker: G Roelofsen
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 8.2:
+        non_striker: OJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: G Roelofsen
+    - 8.3:
+        non_striker: OJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Roelofsen
+        wicket:
+          player_out: G Roelofsen
+          fielders:
+          - JM Coles
+          kind: caught
+    - 8.4:
+        non_striker: OJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zafar Gohar
+    - 8.5:
+        non_striker: Zafar Gohar
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 8.6:
+        non_striker: Zafar Gohar
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 9.1:
+        non_striker: OJ Price
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Zafar Gohar
+    - 9.2:
+        non_striker: OJ Price
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zafar Gohar
+    - 9.3:
+        non_striker: Zafar Gohar
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: OJ Price
+    - 9.4:
+        non_striker: Zafar Gohar
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 9.5:
+        non_striker: OJ Price
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zafar Gohar
+    - 9.6:
+        non_striker: Zafar Gohar
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Price
+    - 10.1:
+        non_striker: Zafar Gohar
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+    - 10.2:
+        non_striker: Zafar Gohar
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Price
+        wicket:
+          player_out: OJ Price
+          fielders:
+          - GHS Garton
+          kind: caught
+    - 10.3:
+        non_striker: Zafar Gohar
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 10.4:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zafar Gohar
+    - 10.5:
+        non_striker: Zafar Gohar
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 10.6:
+        non_striker: Zafar Gohar
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 11.1:
+        non_striker: Zafar Gohar
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 11.2:
+        non_striker: GL van Buuren
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zafar Gohar
+    - 11.3:
+        non_striker: Zafar Gohar
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GL van Buuren
+    - 11.4:
+        non_striker: Zafar Gohar
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 11.5:
+        non_striker: GL van Buuren
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Zafar Gohar
+    - 11.6:
+        non_striker: Zafar Gohar
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+    - 12.1:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Gohar
+        wicket:
+          player_out: Zafar Gohar
+          kind: bowled
+    - 12.2:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Price
+    - 12.3:
+        non_striker: TJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.4:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TJ Price
+    - 12.5:
+        non_striker: TJ Price
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 12.6:
+        non_striker: GL van Buuren
+        bowler: Shadab Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TJ Price
+        wicket:
+          player_out: TJ Price
+          fielders:
+          - HD Ward
+          kind: caught
+    - 13.1:
+        non_striker: MD Taylor
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 13.2:
+        non_striker: GL van Buuren
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 13.3:
+        non_striker: MD Taylor
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 13.4:
+        non_striker: GL van Buuren
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 13.5:
+        non_striker: MD Taylor
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 13.6:
+        non_striker: GL van Buuren
+        bowler: RS Bopara
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 14.1:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GL van Buuren
+    - 14.2:
+        non_striker: GL van Buuren
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 14.3:
+        non_striker: GL van Buuren
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 14.4:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GL van Buuren
+        wicket:
+          player_out: GL van Buuren
+          fielders:
+          - MGK Burgess
+          kind: caught
+    - 14.5:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+    - 14.6:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+    - 15.1:
+        non_striker: DA Payne
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+    - 15.2:
+        non_striker: DA Payne
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Taylor
+    - 15.3:
+        non_striker: DA Payne
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 15.4:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DA Payne
+    - 15.5:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DA Payne
+        wicket:
+          player_out: DA Payne
+          fielders:
+          - TGR Clark
+          kind: caught
+    - 15.6:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TMJ Smith
+    - 16.1:
+        non_striker: TMJ Smith
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 16.2:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TMJ Smith
+    - 16.3:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TMJ Smith
+    - 16.4:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TMJ Smith
+    - 16.5:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 16.6:
+        non_striker: TMJ Smith
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 17.1:
+        non_striker: TMJ Smith
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 17.2:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 17.3:
+        non_striker: TMJ Smith
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 17.4:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 17.5:
+        non_striker: TMJ Smith
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Taylor
+    - 17.6:
+        non_striker: MD Taylor
+        bowler: JM Coles
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 18.1:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 18.2:
+        non_striker: TMJ Smith
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Taylor
+    - 18.3:
+        non_striker: TMJ Smith
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Taylor
+    - 18.4:
+        non_striker: TMJ Smith
+        bowler: GHS Garton
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: MD Taylor
+    - 18.5:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: TMJ Smith
+    - 18.6:
+        non_striker: MD Taylor
+        bowler: GHS Garton
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TMJ Smith
+    - 19.1:
+        non_striker: MD Taylor
+        bowler: A Karvelas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TMJ Smith
+    - 19.2:
+        non_striker: TMJ Smith
+        bowler: A Karvelas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Taylor
+        wicket:
+          player_out: MD Taylor
+          fielders:
+          - BJ Currie
+          kind: caught
+- 2nd innings:
+    team: Sussex
+    deliveries:
+    - 0.1:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 0.2:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 0.3:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 0.4:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 0.5:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 0.6:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 1.1:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 1.2:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 1.3:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 1.4:
+        non_striker: HD Ward
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 1.5:
+        non_striker: HD Ward
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 1.6:
+        non_striker: HD Ward
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 2.1:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 2.2:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 2.3:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+    - 2.4:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 2.5:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 2.6:
+        non_striker: TGR Clark
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 3.1:
+        non_striker: TGR Clark
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 3.2:
+        non_striker: TGR Clark
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 3.3:
+        non_striker: HD Ward
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 3.4:
+        non_striker: HD Ward
+        bowler: TJ Price
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TGR Clark
+    - 3.5:
+        non_striker: TGR Clark
+        bowler: TJ Price
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: HD Ward
+    - 3.6:
+        non_striker: HD Ward
+        bowler: TJ Price
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TGR Clark
+    - 4.1:
+        non_striker: HD Ward
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 4.2:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 4.3:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 4.4:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 4.5:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 6
+          total: 6
+          batsman: 0
+        extras:
+          byes: 4
+          noballs: 2
+        batsman: HD Ward
+    - 4.6:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 4.7:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HD Ward
+    - 4.8:
+        non_striker: TGR Clark
+        bowler: MD Taylor
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 5.1:
+        non_striker: HD Ward
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: TGR Clark
+    - 5.2:
+        non_striker: HD Ward
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 5.3:
+        non_striker: HD Ward
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: TGR Clark
+    - 5.4:
+        non_striker: HD Ward
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 5.5:
+        non_striker: TGR Clark
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HD Ward
+    - 5.6:
+        non_striker: TGR Clark
+        bowler: TJ Price
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+    - 6.1:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: TGR Clark
+    - 6.2:
+        non_striker: TGR Clark
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 6.3:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TGR Clark
+    - 6.4:
+        non_striker: TGR Clark
+        bowler: TMJ Smith
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: HD Ward
+    - 6.5:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TGR Clark
+        wicket:
+          player_out: TGR Clark
+          fielders:
+          - Miles Hammond
+          kind: caught
+    - 6.6:
+        non_striker: HD Ward
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 6.7:
+        non_striker: OJ Carter
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HD Ward
+    - 7.1:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 7.2:
+        non_striker: OJ Carter
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 7.3:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 7.4:
+        non_striker: OJ Carter
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HD Ward
+    - 7.5:
+        non_striker: OJ Carter
+        bowler: DA Payne
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HD Ward
+    - 7.6:
+        non_striker: OJ Carter
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HD Ward
+    - 7.7:
+        non_striker: HD Ward
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+    - 8.1:
+        non_striker: OJ Carter
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HD Ward
+        wicket:
+          player_out: HD Ward
+          kind: lbw
+    - 8.2:
+        non_striker: OJ Carter
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 8.3:
+        non_striker: OJ Carter
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 8.4:
+        non_striker: RS Bopara
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: OJ Carter
+    - 8.5:
+        non_striker: OJ Carter
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 8.6:
+        non_striker: OJ Carter
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 9.1:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: OJ Carter
+    - 9.2:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: OJ Carter
+        wicket:
+          player_out: OJ Carter
+          kind: bowled
+    - 9.3:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 9.4:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 9.5:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 9.6:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 10.1:
+        non_striker: Shadab Khan
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 10.2:
+        non_striker: RS Bopara
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 10.3:
+        non_striker: Shadab Khan
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 10.4:
+        non_striker: RS Bopara
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
+    - 10.5:
+        non_striker: RS Bopara
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 10.6:
+        non_striker: Shadab Khan
+        bowler: TMJ Smith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.1:
+        non_striker: Shadab Khan
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 11.2:
+        non_striker: Shadab Khan
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 11.3:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 11.4:
+        non_striker: Shadab Khan
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 11.5:
+        non_striker: Shadab Khan
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Bopara
+    - 11.6:
+        non_striker: Shadab Khan
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RS Bopara
+    - 12.1:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shadab Khan
+    - 12.2:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 12.3:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shadab Khan
+    - 12.4:
+        non_striker: Shadab Khan
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 12.5:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shadab Khan
+    - 12.6:
+        non_striker: RS Bopara
+        bowler: DA Payne
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shadab Khan
+    - 13.1:
+        non_striker: Shadab Khan
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Bopara
+    - 13.2:
+        non_striker: RS Bopara
+        bowler: Zafar Gohar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shadab Khan
