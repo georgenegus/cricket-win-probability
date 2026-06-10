@@ -6,11 +6,16 @@ import pandas as pd
 class CricketDataLoader:
     """
     Loads Cricsheet T20 YAML files and converts them into a structured DataFrame.
-    Designed to be reusable across formats and datasets.
+    Data is persisted to parquet for fast reloading on subsequent runs.
     """
 
-    def __init__(self, data_path: str):
+    def __init__(self, data_path: str, processed_path: str = "data/processed"):
         self.data_path = Path(data_path)
+        self.processed_path = Path(processed_path)
+        self.cache_file = self.processed_path / "cricket_data.parquet"
+        
+        # Create processed directory if it doesn't exist
+        self.processed_path.mkdir(parents=True, exist_ok=True)
 
     def load_match(self, file_path: Path) -> pd.DataFrame:
         """
@@ -61,12 +66,48 @@ class CricketDataLoader:
     def load_all(self) -> pd.DataFrame:
         """
         Load all matches in dataset directory.
+        Uses cached parquet file if available, otherwise loads from YAML and caches.
         """
-
+        
+        # Check if parquet cache exists
+        if self.cache_file.exists():
+            print(f"Loading from cache: {self.cache_file}")
+            df = pd.read_parquet(self.cache_file)
+            print(f"Loaded {len(df)} rows from cache")
+            return df
+        
+        print(f"Loading from YAML files...")
         all_dfs = []
 
         for file_path in self.data_path.glob("**/*.yaml"):
             df = self.load_match(file_path)
             all_dfs.append(df)
 
-        return pd.concat(all_dfs, ignore_index=True)
+        df = pd.concat(all_dfs, ignore_index=True)
+        
+        # Optimize dtypes for memory efficiency
+        df["innings"] = df["innings"].astype("int8")
+        df["over"] = df["over"].astype("int8")
+        df["ball"] = df["ball"].astype("int8")
+        df["runs_off_bat"] = df["runs_off_bat"].astype("int8")
+        df["extras"] = df["extras"].astype("int8")
+        df["total_runs"] = df["total_runs"].astype("int8")
+        df["wicket"] = df["wicket"].astype("int8")
+        df["batting_team"] = df["batting_team"].astype("category")
+        df["batter"] = df["batter"].astype("category")
+        df["bowler"] = df["bowler"].astype("category")
+        
+        # Save to parquet cache
+        print(f"Saving to cache: {self.cache_file}")
+        df.to_parquet(self.cache_file, index=False, compression="snappy")
+        
+        print(f"Loaded {len(df)} rows and saved to cache")
+        return df
+    
+    def clear_cache(self):
+        """Remove the cache file to force reloading from YAML."""
+        if self.cache_file.exists():
+            self.cache_file.unlink()
+            print(f"Cleared cache: {self.cache_file}")
+        else:
+            print(f"No cache file found: {self.cache_file}")
