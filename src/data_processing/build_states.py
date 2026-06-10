@@ -31,12 +31,20 @@ class StateBuilder:
             ["match_id", "innings", "over", "ball"]
         )
 
+        # --------------------------------------------------
+        # Innings cumulative runs
+        # --------------------------------------------------
+
         self.df["runs_scored"] = (
             self.df.groupby(
                 ["match_id", "innings"]
             )["total_runs"]
             .cumsum()
         )
+
+        # --------------------------------------------------
+        # Innings cumulative wickets
+        # --------------------------------------------------
 
         self.df["wickets_lost"] = (
             self.df.groupby(
@@ -45,16 +53,52 @@ class StateBuilder:
             .cumsum()
         )
 
+        # --------------------------------------------------
+        # Legal delivery flag
+        # --------------------------------------------------
+
+        self.df["legal_delivery"] = (
+            (self.df["is_wide"] == 0)
+            & (self.df["is_noball"] == 0)
+        ).astype(int)
+
+        # --------------------------------------------------
+        # Legal balls faced
+        # --------------------------------------------------
+
         self.df["balls_faced"] = (
             self.df.groupby(
                 ["match_id", "innings"]
-            )
-            .cumcount() + 1
+            )["legal_delivery"]
+            .cumsum()
         )
 
-        self.df["run_rate"] = (
+        bad = self.df[self.df["balls_faced"] > 120]
+
+        if len(bad) > 0:
+            print(f"\nWARNING: {len(bad)} invalid states found\n")
+
+            print(
+                bad[
+                    [
+                        "match_id",
+                        "innings",
+                        "over",
+                        "ball",
+                        "balls_faced"
+                    ]
+                ].head(20)
+            )
+
+        # --------------------------------------------------
+        # Run rate
+        # --------------------------------------------------
+
+        self.df["run_rate"] = np.where(
+            self.df["balls_faced"] > 0,
             self.df["runs_scored"] /
-            (self.df["balls_faced"] / 6)
+            (self.df["balls_faced"] / 6),
+            0
         )
 
         return self
