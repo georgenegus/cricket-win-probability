@@ -97,7 +97,7 @@ class CricketDataLoader:
         df["batter"] = df["batter"].astype("category")
         df["bowler"] = df["bowler"].astype("category")
         
-        # Save to parquet cache
+        # Save to parquet cache.
         print(f"Saving to cache: {self.cache_file}")
         df.to_parquet(self.cache_file, index=False, compression="snappy")
         
