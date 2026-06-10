@@ -47,6 +47,11 @@ class CricketDataLoader:
                     runs = ball_data.get("runs", {})
                     wickets = ball_data.get("wickets", [])
 
+                    extra_info = ball_data.get("extras", {})
+
+                    is_wide = int("wides" in extra_info)
+                    is_noball = int("noballs" in extra_info)
+
                     rows.append({
                         "match_id": match_id,
                         "innings": innings_index + 1,
@@ -59,6 +64,8 @@ class CricketDataLoader:
                         "wicket": 1 if len(wickets) > 0 else 0,
                         "batter": ball_data.get("batsman"),
                         "bowler": ball_data.get("bowler"),
+                        "is_wide": is_wide,
+                        "is_noball": is_noball,
                     })
 
         return pd.DataFrame(rows)
