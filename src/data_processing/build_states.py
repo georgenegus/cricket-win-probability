@@ -53,6 +53,9 @@ class StateBuilder:
             .cumsum()
         )
 
+        print("WICKET RAW COUNTS")
+        print(self.df["wicket"].value_counts(dropna=False))
+
         # --------------------------------------------------
         # Legal delivery flag
         # --------------------------------------------------
@@ -177,3 +180,7 @@ class StateBuilder:
         self.build_innings_state()
 
         return self.add_match_context()
+    
+
+
+    
