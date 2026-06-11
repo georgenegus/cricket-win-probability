@@ -45,7 +45,7 @@ class CricketDataLoader:
                     over, ball = map(int, str(ball_str).split("."))
 
                     runs = ball_data.get("runs", {})
-                    wickets = ball_data.get("wickets", [])
+                    wicket = 1 if ball_data.get("wicket") is not None else 0
 
                     extra_info = ball_data.get("extras", {})
 
@@ -61,7 +61,7 @@ class CricketDataLoader:
                         "runs_off_bat": runs.get("batsman", 0),
                         "extras": runs.get("extras", 0),
                         "total_runs": runs.get("total", 0),
-                        "wicket": 1 if len(wickets) > 0 else 0,
+                        "wicket": wicket,
                         "batter": ball_data.get("batsman"),
                         "bowler": ball_data.get("bowler"),
                         "is_wide": is_wide,
