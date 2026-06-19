@@ -26,6 +26,52 @@ def main():
     print("\nBuilding states...")
     states = StateBuilder(deliveries).build()
 
+    # --------------------------------------------------
+    # QUICK CHECK: FIRST SECOND INNINGS STATE
+    # --------------------------------------------------
+
+    print("\n==================================================")
+    print("FIRST SECOND INNINGS INSPECTION")
+    print("==================================================")
+
+    second_innings = states[states["innings"] == 2].copy()
+
+    if len(second_innings) == 0:
+        print("No second innings found")
+    else:
+        first_match_id = second_innings["match_id"].iloc[0]
+
+        sample_innings = second_innings[
+            second_innings["match_id"] == first_match_id
+        ].sort_values(["over", "ball"])
+
+        cols_to_show = [
+            c for c in [
+                "match_id",
+                "innings",
+                "over",
+                "ball",
+                "runs_scored",
+                "runs_remaining",
+                "balls_remaining",
+                "wickets_lost",
+                "wickets_remaining",
+                "required_run_rate",
+                "won_match"
+            ]
+            if c in sample_innings.columns
+        ]
+
+        print(sample_innings[cols_to_show].to_string(index=False))
+
+        print("\nSUMMARY:")
+        print("Wickets lost unique:", sorted(sample_innings["wickets_lost"].unique()))
+
+        if "wickets_remaining" in sample_innings.columns:
+            print("Wickets remaining unique:", sorted(sample_innings["wickets_remaining"].unique()))
+        else:
+            print("wickets_remaining column NOT PRESENT")
+
     print("\nSearching for negative balls_remaining states...\n")
 
     bad_states = states[states["balls_remaining"] < 0]
