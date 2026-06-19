@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 
 class WinProbabilityModel:
@@ -35,10 +36,15 @@ class WinProbabilityModel:
                 "status": "insufficient_data"
             }
 
-        probability = (
-            similar_states["won_match"]
-            .mean()
-        )
+        # Distance weighting using a Gaussian kernel
+        weights = np.exp(-similar_states["distance"])
+        if weights.sum() == 0:
+            probability = similar_states["won_match"].mean()
+        else:
+            probability = np.average(
+                similar_states["won_match"],
+                weights=weights
+            )
 
         return {
             "win_probability": round(
