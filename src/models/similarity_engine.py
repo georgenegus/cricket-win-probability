@@ -1,0 +1,80 @@
+import numpy as np
+import pandas as pd
+
+
+class SimpleSimilarityEngine:
+    """
+    Baseline similarity engine using weighted distance
+    on core match-state features.
+    """
+
+    def __init__(self, k=100, phase_mode="filter"):
+        self.k = k
+        self.phase_mode = phase_mode
+
+    def find_similar_states(self, state: pd.Series, historical_states: pd.DataFrame):
+
+        df = historical_states.copy()
+
+        # -----------------------------
+        # Ensure required columns exist
+        # -----------------------------
+        required = ["runs_remaining", "balls_remaining", "wickets_lost"]
+
+        for col in required:
+            if col not in df.columns:
+                raise ValueError(f"Missing required column: {col}")
+
+        # -----------------------------
+        # Phase-aware filtering
+        # -----------------------------
+        if self.phase_mode == "filter" and "phase" in df.columns and "phase" in state:
+            same_phase = df[df["phase"] == state["phase"]]
+            if len(same_phase) >= self.k * 2:
+                df = same_phase.copy()
+
+        # -----------------------------
+        # Feature extraction & standard deviations
+        # -----------------------------
+        sigma_rr = df["runs_remaining"].std()
+        sigma_br = df["balls_remaining"].std()
+        sigma_wk = df["wickets_lost"].std()
+
+        # Fallback to defaults if std is zero or NaN
+        sigma_rr = sigma_rr if (pd.notna(sigma_rr) and sigma_rr > 0) else 50.0
+        sigma_br = sigma_br if (pd.notna(sigma_br) and sigma_br > 0) else 30.0
+        sigma_wk = sigma_wk if (pd.notna(sigma_wk) and sigma_wk > 0) else 2.0
+
+        rr = df["runs_remaining"] - state["runs_remaining"]
+        br = df["balls_remaining"] - state["balls_remaining"]
+        wk = df["wickets_lost"] - state["wickets_lost"]
+
+        # -----------------------------
+        # Normalised distance metric using variance-based scaling
+        # -----------------------------
+        distance = (
+            (rr / sigma_rr) ** 2 +
+            (br / sigma_br) ** 2 +
+            (wk / sigma_wk) ** 2
+        )
+
+        # -----------------------------
+        # Phase as a distance feature
+        # -----------------------------
+        if self.phase_mode == "feature" and "phase" in df.columns and "phase" in state:
+            phase_map = {"powerplay": 0, "middle": 1, "death": 2}
+            state_phase_val = phase_map.get(state["phase"], 0)
+            # Map the pandas series phase column values
+            df_phase_val = df["phase"].map(phase_map).fillna(0)
+            phase_diff = (df_phase_val - state_phase_val).abs()
+            # Phase diff penalty (normalised by 1.0)
+            distance = distance + (phase_diff / 1.0) ** 2
+
+        df = df.assign(distance=distance)
+
+        # -----------------------------
+        # nearest neighbours
+        # -----------------------------
+        nearest = df.sort_values("distance").head(self.k)
+
+        return nearest
