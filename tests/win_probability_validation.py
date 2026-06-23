@@ -76,14 +76,10 @@ def run_validation(model, states: pd.DataFrame):
                 f"Processed {idx}/{len(sample)} states..."
             )
 
-        # Prevent data leakage
-        history = states[
-            states["match_id"] != row["match_id"]
-        ]
-
+        # Prevent data leakage (handled internally inside similarity engine distance function)
         out = model.predict(
             row,
-            history
+            states
         )
 
         results.append({
