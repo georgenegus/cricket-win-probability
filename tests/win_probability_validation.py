@@ -18,8 +18,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.data_processing.load_data import CricketDataLoader
 from src.data_processing.build_states import StateBuilder
-from src.models.win_probability import WinProbabilityModel
-from src.models.similarity_engine import SimpleSimilarityEngine
+from src.models.xgb_win_probability import XGBWinProbabilityModel
+
 
 # --------------------------------------------------
 # Timing utilities
@@ -40,13 +40,16 @@ def stop_timer(name, start):
 # Validation
 # --------------------------------------------------
 
-def run_validation(model, states: pd.DataFrame):
+def run_validation(model, states: pd.DataFrame, model_name="KNN", sample_size=1000):
 
     print("\n==================================================")
-    print("WIN PROBABILITY MODEL VALIDATION")
+    print(f"WIN PROBABILITY MODEL VALIDATION ({model_name})")
     print("==================================================")
 
     validation_start = time.time()
+    local_timings = {}
+    def stop_timer(name, start):
+        local_timings[name] = time.time() - start
 
     results = []
 
@@ -54,7 +57,7 @@ def run_validation(model, states: pd.DataFrame):
     # Sampling
     # --------------------------------------------------
 
-    sample_size = min(500, len(states))
+    sample_size = min(sample_size, len(states))
 
     sample = states.sample(
         sample_size,
@@ -374,7 +377,7 @@ def run_validation(model, states: pd.DataFrame):
     print("\n[PERFORMANCE REPORT]")
     print("-" * 50)
 
-    for stage, duration in timings.items():
+    for stage, duration in local_timings.items():
 
         print(
             f"{stage:<20}"
@@ -385,7 +388,7 @@ def run_validation(model, states: pd.DataFrame):
 
     total = sum(
         v
-        for k, v in timings.items()
+        for k, v in local_timings.items()
         if k != "validation_total"
     )
 
@@ -400,7 +403,8 @@ def run_validation(model, states: pd.DataFrame):
 
     return {
         "overall": float(brier_score),
-        "per_phase": per_phase
+        "per_phase": per_phase,
+        "prediction_time": local_timings.get("predictions", 0.0)
     }
 
 
@@ -452,36 +456,24 @@ if __name__ == "__main__":
         f"{len(states):,} states"
     )
 
-    print(
-        "\nCreating similarity engine..."
-    )
-
-    engine = SimpleSimilarityEngine()
-
-    model = WinProbabilityModel(
-        similarity_engine=engine
-    )
-
-    # --------------------------------------------------
-    # Fit Platt Calibration Layer
-    # --------------------------------------------------
-    # Sample 500 calibration states distinct from validation sample (which uses random_state=42)
-    eval_indices = states.sample(min(500, len(states)), random_state=42).index
-    remaining_states = states.drop(eval_indices)
-    calibration_states = remaining_states.sample(min(500, len(remaining_states)), random_state=100)
-
-    print("\nFitting Platt calibration layer...")
-    model.fit_calibration(
-        calibration_states,
+    print("\nInitializing and fitting XGBoost model...")
+    xgb_model = XGBWinProbabilityModel()
+    xgb_model.fit(
         states,
-        cache_path="data/processed/calibration_model.pkl"
+        cache_path="data/processed/xgb_models.pkl"
     )
 
-    print(
-        "\nRunning model validation..."
-    )
+    # --------------------------------------------------
+    # Running Model Validation
+    # --------------------------------------------------
+    # We increase the validation sample size to 5,000 states for highly precise,
+    # low-variance Brier Score metrics.
+    validation_sample_size = 5000
 
+    print(f"\nRunning model validation with sample size {validation_sample_size}...")
     run_validation(
-        model,
-        states
+        xgb_model,
+        states,
+        model_name="XGBoost",
+        sample_size=validation_sample_size
     )

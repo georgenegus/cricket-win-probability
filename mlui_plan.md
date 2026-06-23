@@ -105,43 +105,45 @@ lr.fit(logits.reshape(-1, 1), actuals)
 
 ---
 
-### 3C: Gradient Boosted Trees (XGBoost / LightGBM)
+### 3C: Gradient Boosted Trees (XGBoost)
 
 **Priority:** 🔴 Critical  
 **Difficulty:** Medium  
 **Expected Brier improvement:** -0.020 to -0.040  
-**Status:** `[ ]` Not Started
+**Status:** `[x]` Completed
 
 #### Problem
 KNN cannot learn decision boundaries or feature interactions. A supervised classifier can learn these from the data directly.
 
 #### Solution
-Train an XGBoost binary classifier on the same feature set:
-- Input: `runs_remaining`, `balls_remaining`, `wickets_lost`, `required_run_rate`, `phase` (encoded), `pressure_index`
-- Target: `won_match` (0/1)
-- Use 5-fold cross-validation stratified by `match_id` to prevent data leakage.
+Train an XGBoost binary classifier on the complete feature set:
+- Features: `runs_remaining`, `balls_remaining`, `wickets_lost`, `required_run_rate`, `run_rate`, `target`, `pressure_index`, and `phase` (encoded).
+- Model parameters: `n_estimators=150`, `max_depth=5`, `learning_rate=0.08`.
+- Group K-Fold cross-validation (5 folds) grouped by `match_id` to prevent data leakage during validation evaluation.
+- Caching of fold models + a final complete dataset model to `data/processed/xgb_models.pkl`.
 
 ```python
-import xgboost as xgb
+from xgboost import XGBClassifier
 
-model = xgb.XGBClassifier(
-    n_estimators=500,
-    max_depth=6,
-    learning_rate=0.05,
+model = XGBClassifier(
+    n_estimators=150,
+    max_depth=5,
+    learning_rate=0.08,
     objective='binary:logistic',
     eval_metric='logloss',
-    early_stopping_rounds=50,
+    random_state=42,
+    n_jobs=-1
 )
 ```
 
 #### Result
-| Metric | KNN Baseline | XGBoost | Δ |
+| Metric | KNN (Calibrated) | XGBoost | Δ |
 | :--- | :---: | :---: | :---: |
-| Overall Brier | 0.1513 | — | — |
-| Powerplay Brier | — | — | — |
-| Middle Brier | — | — | — |
-| Death Brier | — | — | — |
-| Log Loss | — | — | — |
+| Overall Brier | 0.1487 | 0.1440 | -0.0047 |
+| Powerplay Brier | 0.2009 | 0.1968 | -0.0041 |
+| Middle Brier | 0.1283 | 0.1239 | -0.0044 |
+| Death Brier | 0.0664 | 0.0584 | -0.0080 |
+| Prediction Time (500 states) | 74.777s | 6.898s | -67.879s (10.8x faster) |
 
 ---
 
@@ -267,6 +269,7 @@ Record each experiment here as it is completed.
 | Date | Change | Brier Before | Brier After | Δ | Decision |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | 2026-06-23 | 3B Platt Scaling Calibration | 0.1502 | 0.1487 | -0.0015 | ✅ Kept |
+| 2026-06-23 | 3C XGBoost Classifier Model | 0.1487 | 0.1440 | -0.0047 | ✅ Kept |
 
 ---
 
@@ -274,16 +277,16 @@ Record each experiment here as it is completed.
 ## 6. Current Best Model Configuration
 
 ```python
-SimpleSimilarityEngine(
-    k=100,
-    phase_mode="filter",
-    use_pressure=True,
-    use_resources=False,
-    w_r=0.3,
-    w_b=2.2,
-    w_w=1.1,
-    w_p=1.1,
+XGBClassifier(
+    n_estimators=150,
+    max_depth=5,
+    learning_rate=0.08,
+    objective="binary:logistic",
+    eval_metric="logloss",
+    random_state=42,
+    n_jobs=-1
 )
-# + Exponential Wickets (use_exponential_wickets=True) — from Upgrade 2G
-# Brier Score: 0.1513
+# Features: runs_remaining, balls_remaining, wickets_lost, required_run_rate, run_rate, target, pressure_index, phase_encoded
+# + Logical boundary safety checks
+# Brier Score: 0.1440
 ```
