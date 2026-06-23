@@ -451,39 +451,26 @@ if __name__ == "__main__":
         states["innings"] == 2
     ].copy()
 
-    # Run validation for multiple phase modes to compare
-    modes = ["none", "filter", "feature"]
-    comparison = {}
+    print(
+        f"Validation dataset: "
+        f"{len(states):,} states"
+    )
 
-    for mode in modes:
-        print(f"\n==================================================")
-        print(f"RUNNING VALIDATION FOR PHASE MODE: {mode.upper()}")
-        print(f"==================================================")
-        
-        engine = SimpleSimilarityEngine(
-            k=100,
-            phase_mode=mode
-        )
+    print(
+        "\nCreating similarity engine..."
+    )
 
-        model = WinProbabilityModel(
-            similarity_engine=engine
-        )
+    engine = SimpleSimilarityEngine()
 
-        res = run_validation(
-            model,
-            states
-        )
-        comparison[mode] = res
+    model = WinProbabilityModel(
+        similarity_engine=engine
+    )
 
-    print("\n\n" + "="*50)
-    print("PHASE-AWARE SIMILARITY COMPARISON RESULT")
-    print("="*50)
-    print(f"{'Phase Mode':<15} | {'Overall Brier':<15} | {'Powerplay Brier':<15} | {'Middle Brier':<15} | {'Death Brier':<15}")
-    print("-"*85)
-    for mode in modes:
-        res = comparison[mode]
-        pp = res["per_phase"].get("powerplay", np.nan)
-        mid = res["per_phase"].get("middle", np.nan)
-        death = res["per_phase"].get("death", np.nan)
-        print(f"{mode:<15} | {res['overall']:15.4f} | {pp:15.4f} | {mid:15.4f} | {death:15.4f}")
-    print("="*50)
+    print(
+        "Running model validation..."
+    )
+
+    run_validation(
+        model,
+        states
+    )
