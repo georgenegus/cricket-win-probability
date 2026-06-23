@@ -462,8 +462,23 @@ if __name__ == "__main__":
         similarity_engine=engine
     )
 
+    # --------------------------------------------------
+    # Fit Platt Calibration Layer
+    # --------------------------------------------------
+    # Sample 500 calibration states distinct from validation sample (which uses random_state=42)
+    eval_indices = states.sample(min(500, len(states)), random_state=42).index
+    remaining_states = states.drop(eval_indices)
+    calibration_states = remaining_states.sample(min(500, len(remaining_states)), random_state=100)
+
+    print("\nFitting Platt calibration layer...")
+    model.fit_calibration(
+        calibration_states,
+        states,
+        cache_path="data/processed/calibration_model.pkl"
+    )
+
     print(
-        "Running model validation..."
+        "\nRunning model validation..."
     )
 
     run_validation(

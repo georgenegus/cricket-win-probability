@@ -69,36 +69,39 @@ Download the full Cricsheet archive (all men's T20Is + domestic T20 leagues). Th
 
 ---
 
-### 3B: Isotonic Calibration Layer
+### 3B: Platt Scaling Calibration Layer
 
 **Priority:** 🟡 Important  
 **Difficulty:** Low  
 **Expected Brier improvement:** -0.003 to -0.005  
-**Status:** `[ ]` Not Started
+**Status:** `[x]` Completed
 
 #### Problem
-The model is overconfident at extremes (predicts 97%, actual 91%) and underconfident at low probabilities (predicts 4%, actual 7%). A post-hoc calibration layer can fix this systematic bias.
+The model was overconfident at extremes and underconfident at low/middle probabilities, with some edge case issues (e.g. predicting < 1.0 even after the match was won).
 
 #### Solution
-Apply `sklearn.isotonic.IsotonicRegression` to the model's raw outputs using a held-out calibration set. This learns a monotonic mapping from raw predictions → calibrated probabilities.
+Apply Platt Scaling on Log-Odds (Logit). Fit a logistic regression model on the logit-transformed raw probabilities over a separate 500-state calibration dataset, and use cached `calibration_model.pkl`. Exact logical boundary conditions (`runs_remaining <= 0`, `wickets_lost >= 10`, `balls_remaining <= 0`) bypass the calibration layer.
 
 ```python
-from sklearn.isotonic import IsotonicRegression
+# Convert to logit space
+eps = 1e-4
+probs_clipped = np.clip(raw_probs, eps, 1 - eps)
+logits = np.log(probs_clipped / (1 - probs_clipped))
 
-# Train on held-out data
-ir = IsotonicRegression(out_of_bounds='clip')
-ir.fit(raw_predictions, actual_outcomes)
-
-# Apply
-calibrated = ir.predict(new_predictions)
+# Fit Platt scaling
+lr = LogisticRegression()
+lr.fit(logits.reshape(-1, 1), actuals)
 ```
 
 #### Result
 | Metric | Before | After | Δ |
 | :--- | :---: | :---: | :---: |
-| Overall Brier | 0.1513 | — | — |
-| Calibration Gap (low) | +0.033 | — | — |
-| Calibration Gap (high) | -0.057 | — | — |
+| Overall Brier | 0.1502 | 0.1487 | -0.0015 |
+| Powerplay Brier | 0.2032 | 0.2009 | -0.0023 |
+| Middle Brier | 0.1280 | 0.1283 | +0.0003 |
+| Death Brier | 0.0740 | 0.0664 | -0.0076 |
+| Edge Case (runs <= 0) | 0.8233 | 1.0000 | +0.1767 |
+
 
 ---
 
@@ -263,9 +266,10 @@ Record each experiment here as it is completed.
 
 | Date | Change | Brier Before | Brier After | Δ | Decision |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| — | — | — | — | — | — |
+| 2026-06-23 | 3B Platt Scaling Calibration | 0.1502 | 0.1487 | -0.0015 | ✅ Kept |
 
 ---
+
 
 ## 6. Current Best Model Configuration
 
