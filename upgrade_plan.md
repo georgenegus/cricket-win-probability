@@ -324,11 +324,12 @@ Brier score grid search. Plot k vs Brier score to find the optimal region.
 
 ---
 
-### Upgrade 2D: Phase-Aware Similarity
+### Upgrade 2D: Phase-Aware Similarity ✅
 
 **Priority:** 🟡 Important  
 **Difficulty:** Medium  
 **Expected Brier improvement:** 0.008–0.020  
+**Actual Result**: Hard phase filtering (Approach A) reduced overall Brier score from **0.1543** to **0.1538**, primarily improving the Death overs phase (reduced from **0.1018** to **0.0978**).
 
 #### Problem
 
@@ -388,11 +389,12 @@ Brier score overall + per-phase Brier scores. This upgrade should particularly i
 
 ---
 
-### Upgrade 2E: Feature Interactions
+### Upgrade 2E: Feature Interactions ✅
 
 **Priority:** 🟡 Important  
 **Difficulty:** Medium  
 **Expected Brier improvement:** 0.005–0.015  
+**Actual Result**: Dynamically adding the **Pressure Index** (`required_run_rate * (1 + wickets_lost / 10)`) as a distance feature reduced overall Brier score from **0.1538** to **0.1526**, primarily helping the Powerplay (reduced from **0.2015** to **0.2007**) and Death (reduced from **0.0978** to **0.0893**) phases.
 
 #### Problem
 
@@ -439,11 +441,12 @@ Brier score with each feature added individually, then in combination. Track whi
 
 ---
 
-### Upgrade 2F: Learned Feature Weights
+### Upgrade 2F: Learned Feature Weights ✅
 
 **Priority:** 🟠 High — but do after 2A–2E  
 **Difficulty:** Medium-Hard  
 **Expected Brier improvement:** 0.005–0.015  
+**Actual Result**: Optimized feature weights via a two-stage (coarse-to-fine) 5-fold cross-validated grid search. The optimal weights identified are: w_r = 0.3, w_b = 2.2, w_w = 1.1, w_p = 1.1. This reduced overall Brier Score from **0.1526** to **0.1520** (improving Powerplay to **0.1993** and Death to **0.0890**).
 
 #### Problem
 
@@ -488,11 +491,12 @@ Cross-validated Brier score. Report both in-fold and out-of-fold scores to detec
 
 ---
 
-### Upgrade 2G: Cricket-Aware Distance (Advanced)
+### Upgrade 2G: Cricket-Aware Distance (Advanced) ✅
 
 **Priority:** 🔵 Future — after exhausting simpler options  
 **Difficulty:** Hard  
 **Expected Brier improvement:** 0.005–0.012  
+**Actual Result**: Evaluated Exponential Wickets, Run Pressure, and Desperation Index. Adding **Exponential Wickets** (`np.exp(wk / 3.0) - 1.0`) successfully lowered the overall Brier Score to **0.1513** (particularly improving the Death overs phase to **0.0871**). The other non-linear features degraded performance. Thus, `use_exponential_wickets` is set to `True` by default.
 
 #### Problem
 
@@ -555,10 +559,10 @@ Phase 3 — Optimisation (2-3 days)
 | + 2C (optimal k) | **0.1543** | **-0.0001** (Actual) |
 
 *Note on 2B: Due to the high density of the historical dataset (~161k states), the 200 nearest neighbours are extremely close to the target state, meaning their calculated distances are near 0. Consequently, all Gaussian weights are very close to 1.0, leading to a weighted average almost identical to the unweighted mean. This will become more impactful when tuning `k` (Upgrade 2C) or using smaller bandwidths/larger feature spaces.
-| + 2D (phase awareness) | ~0.120 | -0.013 |
-| + 2E (interactions) | ~0.112 | -0.008 |
-| + 2F (learned weights) | ~0.105 | -0.007 |
-| + 2G (cricket-aware) | ~0.098 | -0.007 |
+| + 2D (phase awareness) | **0.1538** | **-0.0005** (Actual) |
+| + 2E (interactions) | **0.1526** | **-0.0012** (Actual) |
+| + 2F (learned weights) | **0.1516** | **-0.0010** (Actual) |
+| + 2G (cricket-aware) | **0.1513** | **-0.0003** (Actual) |
 
 > [!NOTE]
 > These are estimates. The actual improvements will depend on the data distribution and may be higher or lower. The key principle is: **measure each upgrade independently** before moving to the next. If an upgrade doesn't help, don't keep it.
