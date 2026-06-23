@@ -21,48 +21,91 @@ class SimpleSimilarityEngine:
 
     def find_similar_states(self, state: pd.Series, historical_states: pd.DataFrame):
 
-        df = historical_states.copy()
-
         # -----------------------------
         # Ensure required columns exist
         # -----------------------------
         required = ["runs_remaining", "balls_remaining", "wickets_lost"]
 
         for col in required:
-            if col not in df.columns:
+            if col not in historical_states.columns:
                 raise ValueError(f"Missing required column: {col}")
 
         # -----------------------------
-        # Phase-aware filtering
+        # Phase-aware filtering (with mask caching)
         # -----------------------------
-        if self.phase_mode == "filter" and "phase" in df.columns and "phase" in state:
-            same_phase = df[df["phase"] == state["phase"]]
-            if len(same_phase) >= self.k * 2:
-                df = same_phase.copy()
+        has_phase_filter = False
+        mask = None
+        if self.phase_mode == "filter" and "phase" in historical_states.columns and "phase" in state:
+            if not hasattr(self, "_mask_cache") or self._mask_cache.get("_total_len") != len(historical_states):
+                self._mask_cache = {"_total_len": len(historical_states)}
+            
+            phase_val = state["phase"]
+            if phase_val not in self._mask_cache:
+                m = (historical_states["phase"].values == phase_val)
+                if m.sum() >= self.k * 2:
+                    self._mask_cache[phase_val] = m
+                else:
+                    self._mask_cache[phase_val] = None
+            
+            mask = self._mask_cache[phase_val]
+            if mask is not None:
+                df = historical_states[mask]
+                has_phase_filter = True
+            else:
+                df = historical_states
+        else:
+            df = historical_states
 
         # -----------------------------
-        # Feature extraction & standard deviations
+        # Feature extraction & standard deviations (with caching)
         # -----------------------------
-        sigma_rr = df["runs_remaining"].std()
-        sigma_br = df["balls_remaining"].std()
-        sigma_wk = df["wickets_lost"].std()
+        if not hasattr(self, "_sigma_cache"):
+            self._sigma_cache = {}
 
-        # Fallback to defaults if std is zero or NaN
-        sigma_rr = sigma_rr if (pd.notna(sigma_rr) and sigma_rr > 0) else 38.0
-        sigma_br = sigma_br if (pd.notna(sigma_br) and sigma_br > 0) else 34.0
-        sigma_wk = sigma_wk if (pd.notna(sigma_wk) and sigma_wk > 0) else 2.5
+        # Cache key is based on the phase and shape of df to ensure correctness
+        cache_key = (
+            state["phase"] if (self.phase_mode == "filter" and "phase" in state) else "all",
+            df.shape[0]
+        )
 
-        rr = df["runs_remaining"] - state["runs_remaining"]
-        br = df["balls_remaining"] - state["balls_remaining"]
-        wk = df["wickets_lost"] - state["wickets_lost"]
+        if cache_key not in self._sigma_cache:
+            sigma_rr = df["runs_remaining"].std()
+            sigma_br = df["balls_remaining"].std()
+            sigma_wk = df["wickets_lost"].std()
+
+            # Fallback to defaults if std is zero or NaN
+            sigma_rr = sigma_rr if (pd.notna(sigma_rr) and sigma_rr > 0) else 38.0
+            sigma_br = sigma_br if (pd.notna(sigma_br) and sigma_br > 0) else 34.0
+            sigma_wk = sigma_wk if (pd.notna(sigma_wk) and sigma_wk > 0) else 2.5
+
+            sigma_p = 5.0
+            if self.use_pressure:
+                # Direct std calculation using temp array
+                temp_p = df["required_run_rate"].values * (1 + df["wickets_lost"].values / 10.0)
+                std_p = temp_p.std()
+                sigma_p = std_p if (pd.notna(std_p) and std_p > 0) else 5.0
+
+            sigma_res = 300.0
+            if self.use_resources:
+                temp_res = (10 - df["wickets_lost"].values) * df["balls_remaining"].values
+                std_res = temp_res.std()
+                sigma_res = std_res if (pd.notna(std_res) and std_res > 0) else 300.0
+
+            self._sigma_cache[cache_key] = (sigma_rr, sigma_br, sigma_wk, sigma_p, sigma_res)
+
+        sigma_rr, sigma_br, sigma_wk, sigma_p, sigma_res = self._sigma_cache[cache_key]
 
         # -----------------------------
-        # Normalised distance metric using variance-based scaling
+        # Normalised distance metric using variance-based scaling (NumPy vectorized)
         # -----------------------------
+        rr = (df["runs_remaining"].values - state["runs_remaining"]) / sigma_rr
+        br = (df["balls_remaining"].values - state["balls_remaining"]) / sigma_br
+        wk = (df["wickets_lost"].values - state["wickets_lost"]) / sigma_wk
+
         distance = (
-            self.w_r * (rr / sigma_rr) ** 2 +
-            self.w_b * (br / sigma_br) ** 2 +
-            self.w_w * (wk / sigma_wk) ** 2
+            self.w_r * (rr ** 2) +
+            self.w_b * (br ** 2) +
+            self.w_w * (wk ** 2)
         )
 
         # -----------------------------
@@ -71,43 +114,51 @@ class SimpleSimilarityEngine:
         if self.phase_mode == "feature" and "phase" in df.columns and "phase" in state:
             phase_map = {"powerplay": 0, "middle": 1, "death": 2}
             state_phase_val = phase_map.get(state["phase"], 0)
-            # Map the pandas series phase column values
-            df_phase_val = df["phase"].map(phase_map).fillna(0)
-            phase_diff = (df_phase_val - state_phase_val).abs()
-            # Phase diff penalty (normalised by 1.0)
+            df_phase_val = df["phase"].map(phase_map).fillna(0).values
+            phase_diff = np.abs(df_phase_val - state_phase_val)
             distance = distance + (phase_diff / 1.0) ** 2
 
         # -----------------------------
-        # Feature Interactions (Upgrade 2E)
+        # Feature Interactions (with caching of full arrays)
         # -----------------------------
         if self.use_pressure:
-            if "required_run_rate" not in df.columns:
-                raise ValueError("required_run_rate column is required for use_pressure")
+            if not hasattr(self, "_full_pressure") or len(self._full_pressure) != len(historical_states):
+                self._full_pressure = historical_states["required_run_rate"].values * (1 + historical_states["wickets_lost"].values / 10.0)
             
-            df_pressure = df["required_run_rate"] * (1 + df["wickets_lost"] / 10.0)
+            df_pressure = self._full_pressure[mask] if has_phase_filter else self._full_pressure
             state_pressure = state["required_run_rate"] * (1 + state["wickets_lost"] / 10.0)
-            
-            sigma_p = df_pressure.std()
-            sigma_p = sigma_p if (pd.notna(sigma_p) and sigma_p > 0) else 5.0
-            
-            p_diff = df_pressure - state_pressure
-            distance = distance + self.w_p * (p_diff / sigma_p) ** 2
+            p_diff = (df_pressure - state_pressure) / sigma_p
+            distance = distance + self.w_p * (p_diff ** 2)
 
         if self.use_resources:
-            df_resources = (10 - df["wickets_lost"]) * df["balls_remaining"]
+            if not hasattr(self, "_full_resources") or len(self._full_resources) != len(historical_states):
+                self._full_resources = (10 - historical_states["wickets_lost"].values) * historical_states["balls_remaining"].values
+            
+            df_resources = self._full_resources[mask] if has_phase_filter else self._full_resources
             state_resources = (10 - state["wickets_lost"]) * state["balls_remaining"]
-            
-            sigma_res = df_resources.std()
-            sigma_res = sigma_res if (pd.notna(sigma_res) and sigma_res > 0) else 300.0
-            
-            res_diff = df_resources - state_resources
-            distance = distance + (res_diff / sigma_res) ** 2
-
-        df = df.assign(distance=distance)
+            res_diff = (df_resources - state_resources) / sigma_res
+            distance = distance + (res_diff ** 2)
 
         # -----------------------------
-        # nearest neighbours
+        # Zero-copy match exclusion (to prevent data leakage)
         # -----------------------------
-        nearest = df.sort_values("distance").head(self.k)
+        if "match_id" in df.columns and "match_id" in state:
+            same_match_mask = df["match_id"].values == state["match_id"]
+            distance = np.where(same_match_mask, np.inf, distance)
+
+        # -----------------------------
+        # nearest neighbours via argpartition
+        # -----------------------------
+        n_samples = len(df)
+        if n_samples <= self.k:
+            idx = np.arange(n_samples)
+        else:
+            # Partition to find top k smallest distances
+            idx = np.argpartition(distance, self.k)[:self.k]
+            # Sort only the top k elements
+            idx = idx[np.argsort(distance[idx])]
+
+        nearest = df.iloc[idx].copy()
+        nearest["distance"] = distance[idx]
 
         return nearest
