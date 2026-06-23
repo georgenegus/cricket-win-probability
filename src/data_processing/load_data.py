@@ -2,6 +2,70 @@ from pathlib import Path
 import yaml
 import pandas as pd
 
+try:
+    from yaml import CSafeLoader as SafeLoader
+except ImportError:
+    from yaml import SafeLoader
+
+
+def _load_single_match_rows(file_path: Path) -> list:
+    """
+    Helper function to load a single YAML file and return a list of dictionaries (rows).
+    This function runs in parallel processes, so it must be top-level.
+    """
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            match = yaml.load(f, Loader=SafeLoader)
+    except Exception as e:
+        print(f"Error reading {file_path}: {e}")
+        return []
+
+    if not match:
+        return []
+
+    match_id = file_path.stem
+    innings_data = match.get("innings", [])
+    rows = []
+
+    for innings_index, innings in enumerate(innings_data):
+        innings_name = list(innings.keys())[0]
+        innings_info = innings[innings_name]
+
+        batting_team = innings_info.get("team")
+        deliveries = innings_info.get("deliveries", [])
+
+        for delivery in deliveries:
+            for ball_str, ball_data in delivery.items():
+                try:
+                    over, ball = map(int, str(ball_str).split("."))
+                except ValueError:
+                    continue
+
+                runs = ball_data.get("runs", {})
+                wicket = 1 if ball_data.get("wicket") is not None else 0
+
+                extra_info = ball_data.get("extras", {})
+                is_wide = int("wides" in extra_info)
+                is_noball = int("noballs" in extra_info)
+
+                rows.append({
+                    "match_id": match_id,
+                    "innings": innings_index + 1,
+                    "batting_team": batting_team,
+                    "over": over,
+                    "ball": ball,
+                    "runs_off_bat": runs.get("batsman", 0),
+                    "extras": runs.get("extras", 0),
+                    "total_runs": runs.get("total", 0),
+                    "wicket": wicket,
+                    "batter": ball_data.get("batsman"),
+                    "bowler": ball_data.get("bowler"),
+                    "is_wide": is_wide,
+                    "is_noball": is_noball,
+                })
+
+    return rows
+
 
 class CricketDataLoader:
     """
@@ -21,53 +85,7 @@ class CricketDataLoader:
         """
         Load a single match YAML file and convert to ball-by-ball DataFrame.
         """
-
-        with open(file_path, "r") as f:
-            match = yaml.safe_load(f)
-
-        match_id = file_path.stem
-        innings_data = match.get("innings", [])
-
-        rows = []
-
-        for innings_index, innings in enumerate(innings_data):
-            innings_name = list(innings.keys())[0]
-            innings_info = innings[innings_name]
-
-            batting_team = innings_info.get("team")
-            deliveries = innings_info.get("deliveries", [])
-
-            over_num = 0
-
-            for delivery in deliveries:
-                for ball_str, ball_data in delivery.items():
-
-                    over, ball = map(int, str(ball_str).split("."))
-
-                    runs = ball_data.get("runs", {})
-                    wicket = 1 if ball_data.get("wicket") is not None else 0
-
-                    extra_info = ball_data.get("extras", {})
-
-                    is_wide = int("wides" in extra_info)
-                    is_noball = int("noballs" in extra_info)
-
-                    rows.append({
-                        "match_id": match_id,
-                        "innings": innings_index + 1,
-                        "batting_team": batting_team,
-                        "over": over,
-                        "ball": ball,
-                        "runs_off_bat": runs.get("batsman", 0),
-                        "extras": runs.get("extras", 0),
-                        "total_runs": runs.get("total", 0),
-                        "wicket": wicket,
-                        "batter": ball_data.get("batsman"),
-                        "bowler": ball_data.get("bowler"),
-                        "is_wide": is_wide,
-                        "is_noball": is_noball,
-                    })
-
+        rows = _load_single_match_rows(file_path)
         return pd.DataFrame(rows)
 
     def load_all(self) -> pd.DataFrame:
@@ -84,13 +102,30 @@ class CricketDataLoader:
             return df
         
         print(f"Loading from YAML files...")
-        all_dfs = []
+        file_paths = list(self.data_path.glob("**/*.yaml"))
 
-        for file_path in self.data_path.glob("**/*.yaml"):
-            df = self.load_match(file_path)
-            all_dfs.append(df)
+        all_rows = []
+        try:
+            from concurrent.futures import ProcessPoolExecutor
+            import os
+            max_workers = min(32, os.cpu_count() or 4)
+            print(f"Using {max_workers} parallel workers to parse YAMLs...")
+            with ProcessPoolExecutor(max_workers=max_workers) as executor:
+                # Use chunksize to reduce IPC overhead
+                results = executor.map(_load_single_match_rows, file_paths, chunksize=20)
+                for res in results:
+                    all_rows.extend(res)
+        except Exception as e:
+            print(f"Parallel loading failed or disabled: {e}. Falling back to sequential loading.")
+            all_rows = []
+            for file_path in file_paths:
+                all_rows.extend(_load_single_match_rows(file_path))
 
-        df = pd.concat(all_dfs, ignore_index=True)
+        if not all_rows:
+            print("No data loaded from YAML files.")
+            return pd.DataFrame()
+
+        df = pd.DataFrame(all_rows)
         
         # Optimize dtypes for memory efficiency
         df["innings"] = df["innings"].astype("int8")
