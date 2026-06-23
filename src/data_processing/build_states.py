@@ -153,10 +153,13 @@ class StateBuilder:
                 120 - match_df["balls_faced"]
             )
 
+            # Avoid division by zero by using a safe denominator when balls_remaining <= 0
+            safe_balls = np.where(match_df["balls_remaining"] > 0, match_df["balls_remaining"], 6.0)
+            required_rr = match_df["runs_remaining"] / (safe_balls / 6.0)
+
             match_df["required_run_rate"] = np.where(
                 match_df["innings"] == 2,
-                match_df["runs_remaining"] /
-                (match_df["balls_remaining"] / 6),
+                np.where(match_df["balls_remaining"] > 0, required_rr, 0.0),
                 np.nan
             )
 
