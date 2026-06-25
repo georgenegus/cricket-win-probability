@@ -25,6 +25,7 @@ from src.models.xgb_win_probability import XGBWinProbabilityModel
 # Timing utilities
 # --------------------------------------------------
 
+script_start = time.time()
 timings = {}
 
 
@@ -47,9 +48,6 @@ def run_validation(model, states: pd.DataFrame, model_name="KNN", sample_size=10
     print("==================================================")
 
     validation_start = time.time()
-    local_timings = {}
-    def stop_timer(name, start):
-        local_timings[name] = time.time() - start
 
     results = []
 
@@ -374,23 +372,39 @@ def run_validation(model, states: pd.DataFrame, model_name="KNN", sample_size=10
         validation_start
     )
 
+    # Stop the overall script timer if it was started at the entry point
+    if "script_start" in globals():
+        stop_timer("total_script_runtime", script_start)
+
     print("\n[PERFORMANCE REPORT]")
     print("-" * 50)
 
-    for stage, duration in local_timings.items():
-
+    for stage, duration in timings.items():
         print(
-            f"{stage:<20}"
+            f"{stage:<25}"
             f"{duration:>10.3f} sec"
         )
 
     print("-" * 50)
 
-    total = sum(
+    # Sum of all measured sub-component runtimes
+    non_summed_keys = {"validation_total", "total_script_runtime"}
+    total_components = sum(
         v
-        for k, v in local_timings.items()
-        if k != "validation_total"
+        for k, v in timings.items()
+        if k not in non_summed_keys
     )
+
+    print(
+        f"{'TOTAL (measured steps)':<25}"
+        f"{total_components:>10.3f} sec"
+    )
+    if "total_script_runtime" in timings:
+        print(
+            f"{'TOTAL SCRIPT RUNTIME':<25}"
+            f"{timings['total_script_runtime']:>10.3f} sec"
+        )
+    print("-" * 50)
 
     # Calculate per-phase Brier scores
     per_phase = {}
@@ -404,7 +418,7 @@ def run_validation(model, states: pd.DataFrame, model_name="KNN", sample_size=10
     return {
         "overall": float(brier_score),
         "per_phase": per_phase,
-        "prediction_time": local_timings.get("predictions", 0.0)
+        "prediction_time": timings.get("predictions", 0.0)
     }
 
 
@@ -429,27 +443,37 @@ if __name__ == "__main__":
         t
     )
 
+    print("Building states with Elo ratings...")
+
+    from src.data_processing.match_metadata import MatchMetadataExtractor
+    from src.features.elo_engine import EloEngine
+
+    # Extract metadata
+    print("Extracting match metadata...")
+    t_meta = start_timer()
+    meta_extractor = MatchMetadataExtractor("data/raw")
+    meta_df = meta_extractor.extract_all()
+    stop_timer("extract_metadata", t_meta)
+
+    # Compute Elo
+    print("Computing Elo ratings...")
+    t_elo = start_timer()
+    elo_engine = EloEngine(k_factor=35)
+    elo_df = elo_engine.run(meta_df)
+    stop_timer("compute_elo", t_elo)
+
+    # Build states
     print("Building states...")
-
-    t = start_timer()
-
+    t_states = start_timer()
     states = StateBuilder(
-        deliveries
+        deliveries,
+        elo_df
     ).build()
+    stop_timer("build_states", t_states)
 
-    # print("STATE COLUMNS:", states.columns.tolist())
+    # Only second innings states (single filtering step)
     states = states[states["innings"] == 2].copy()
     print(states.head(5))
-
-    stop_timer(
-        "build_states",
-        t
-    )
-
-    # Only second innings states
-    states = states[
-        states["innings"] == 2
-    ].copy()
 
     print(
         f"Validation dataset: "
@@ -457,11 +481,13 @@ if __name__ == "__main__":
     )
 
     print("\nInitializing and fitting XGBoost model...")
+    t_fit = start_timer()
     xgb_model = XGBWinProbabilityModel()
     xgb_model.fit(
         states,
         cache_path="data/processed/xgb_models.pkl"
     )
+    stop_timer("fit_model", t_fit)
 
     # --------------------------------------------------
     # Running Model Validation
