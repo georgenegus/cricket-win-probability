@@ -482,9 +482,19 @@ if __name__ == "__main__":
     ).build()
     stop_timer("build_states", t_states)
 
+    # Free memory before copying/subsetting
+    import gc
+    del deliveries
+    del elo_df
+    del venue_df
+    del meta_df
+    gc.collect()
+
     # Only second innings states (single filtering step)
     states = states[states["innings"] == 2].copy()
+    gc.collect()
     print(states.head(5))
+
 
     print(
         f"Validation dataset: "

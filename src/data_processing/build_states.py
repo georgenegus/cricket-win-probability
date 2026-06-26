@@ -4,9 +4,10 @@ import numpy as np
 
 class StateBuilder:
 
-    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None):
+    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, total_overs=20):
         self.df = df.copy()
         self.elo_df = elo_df
+        self.total_overs = total_overs
 
     def add_over_info(self):
         self.df["over_float"] = (
@@ -16,10 +17,13 @@ class StateBuilder:
         return self
 
     def add_phase(self):
+        powerplay_end = self.total_overs * 0.3
+        death_start = self.total_overs * 0.75
+
         def get_phase(over):
-            if over < 6:
+            if over < powerplay_end:
                 return "powerplay"
-            elif over < 15:
+            elif over < death_start:
                 return "middle"
             return "death"
 
@@ -108,74 +112,55 @@ class StateBuilder:
         return self
 
     def add_match_context(self):
-
-        all_matches = []
-
-        for match_id, match_df in self.df.groupby("match_id"):
-
-            innings_1 = match_df[
-                match_df["innings"] == 1
-            ]
-
-            innings_2 = match_df[
-                match_df["innings"] == 2
-            ]
-
-            if innings_1.empty or innings_2.empty:
-                continue
-
-            first_innings_score = (
-                innings_1["runs_scored"].iloc[-1]
-            )
-
-            second_innings_score = (
-                innings_2["runs_scored"].iloc[-1]
-            )
-
-            chasing_team_won = (
-                second_innings_score >
-                first_innings_score
-            )
-
-            match_df["target"] = np.where(
-                match_df["innings"] == 2,
-                first_innings_score + 1,
-                np.nan
-            )
-
-            match_df["runs_remaining"] = np.where(
-                match_df["innings"] == 2,
-                match_df["target"] -
-                match_df["runs_scored"],
-                np.nan
-            )
-
-            match_df["balls_remaining"] = (
-                120 - match_df["balls_faced"]
-            )
-
-            # Avoid division by zero by using a safe denominator when balls_remaining <= 0
-            safe_balls = np.where(match_df["balls_remaining"] > 0, match_df["balls_remaining"], 6.0)
-            required_rr = match_df["runs_remaining"] / (safe_balls / 6.0)
-
-            match_df["required_run_rate"] = np.where(
-                match_df["innings"] == 2,
-                np.where(match_df["balls_remaining"] > 0, required_rr, 0.0),
-                np.nan
-            )
-
-            match_df["won_match"] = np.where(
-                match_df["innings"] == 2,
-                int(chasing_team_won),
-                np.nan
-            )
-
-            all_matches.append(match_df)
-
-        return pd.concat(
-            all_matches,
-            ignore_index=True
+        # Identify matches with both innings 1 and 2
+        valid_matches = self.df.groupby("match_id")["innings"].nunique() == 2
+        valid_match_ids = valid_matches[valid_matches].index
+        
+        df_filtered = self.df[self.df["match_id"].isin(valid_match_ids)].copy()
+        
+        # Get final score for first and second innings per match
+        first_innings_totals = df_filtered[df_filtered["innings"] == 1].groupby("match_id")["runs_scored"].max()
+        second_innings_totals = df_filtered[df_filtered["innings"] == 2].groupby("match_id")["runs_scored"].max()
+        
+        # Map back to dataframe
+        first_innings_map = df_filtered["match_id"].map(first_innings_totals)
+        second_innings_map = df_filtered["match_id"].map(second_innings_totals)
+        
+        df_filtered["target"] = np.where(
+            df_filtered["innings"] == 2,
+            first_innings_map + 1,
+            np.nan
         )
+        
+        df_filtered["runs_remaining"] = np.where(
+            df_filtered["innings"] == 2,
+            df_filtered["target"] - df_filtered["runs_scored"],
+            np.nan
+        )
+        
+        df_filtered["balls_remaining"] = (
+            (self.total_overs * 6) - df_filtered["balls_faced"]
+        )
+        
+        # Avoid division by zero by using a safe denominator when balls_remaining <= 0
+        safe_balls = np.where(df_filtered["balls_remaining"] > 0, df_filtered["balls_remaining"], 6.0)
+        required_rr = df_filtered["runs_remaining"] / (safe_balls / 6.0)
+        
+        df_filtered["required_run_rate"] = np.where(
+            df_filtered["innings"] == 2,
+            np.where(df_filtered["balls_remaining"] > 0, required_rr, 0.0),
+            np.nan
+        )
+        
+        # Chasing team won if second_innings_score > first_innings_score
+        chasing_team_won = second_innings_map > first_innings_map
+        df_filtered["won_match"] = np.where(
+            df_filtered["innings"] == 2,
+            chasing_team_won.astype(float),
+            np.nan
+        )
+        
+        return df_filtered
 
     def build(self):
 
@@ -216,6 +201,8 @@ class StateBuilder:
         res["batting_team_elo"] = res["batting_team_elo"].astype(float)
         res["bowling_team_elo"] = res["bowling_team_elo"].astype(float)
         res["elo_diff"] = res["elo_diff"].astype(float)
+
+        res["total_overs"] = float(self.total_overs)
 
         return res
     
