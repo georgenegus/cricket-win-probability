@@ -44,6 +44,18 @@ class XGBWinProbabilityModel:
         features["bowling_team_elo"] = 1500.0 + (df["bowling_team_elo"].astype(float) - 1500.0) * decay_weight
         features["elo_diff"] = df["elo_diff"].astype(float) * decay_weight
 
+        # Venue features with safe fallback defaults (in case they are not in the DataFrame)
+        features["venue_avg_first_innings_score"] = (
+            df.get("venue_avg_first_innings_score", pd.Series(160.0, index=df.index))
+            .fillna(160.0)
+            .astype(float)
+        )
+        features["venue_chase_success_rate"] = (
+            df.get("venue_chase_success_rate", pd.Series(0.45, index=df.index))
+            .fillna(0.45)
+            .astype(float)
+        )
+
         target = df["won_match"].astype(int)
         return features, target
 
@@ -74,6 +86,10 @@ class XGBWinProbabilityModel:
         features["batting_team_elo"] = 1500.0 + (batting_elo - 1500.0) * decay_weight
         features["bowling_team_elo"] = 1500.0 + (bowling_elo - 1500.0) * decay_weight
         features["elo_diff"] = elo_diff * decay_weight
+
+        # Venue features with safe fallback defaults
+        features["venue_avg_first_innings_score"] = float(state.get("venue_avg_first_innings_score", 160.0))
+        features["venue_chase_success_rate"] = float(state.get("venue_chase_success_rate", 0.45))
 
         # Return as a 2D DataFrame with 1 row
         return pd.DataFrame([features])

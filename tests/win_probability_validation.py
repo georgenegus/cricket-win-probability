@@ -447,6 +447,7 @@ if __name__ == "__main__":
 
     from src.data_processing.match_metadata import MatchMetadataExtractor
     from src.features.elo_engine import EloEngine
+    from src.features.venue_engine import VenueEngine
 
     # Extract metadata
     print("Extracting match metadata...")
@@ -461,6 +462,16 @@ if __name__ == "__main__":
     elo_engine = EloEngine(use_dynamic_k=True, use_margin=True, use_decay=True, use_home_away=False)
     elo_df = elo_engine.run(meta_df)
     stop_timer("compute_elo", t_elo)
+
+    # Compute Venue features
+    print("Computing Venue features...")
+    t_venue = start_timer()
+    venue_engine = VenueEngine()
+    venue_df = venue_engine.run(meta_df, deliveries)
+    stop_timer("compute_venue", t_venue)
+
+    # Merge Venue features into elo_df
+    elo_df = elo_df.merge(venue_df, on="match_id", how="left")
 
     # Build states
     print("Building states...")
