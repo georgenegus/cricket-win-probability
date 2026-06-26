@@ -458,7 +458,7 @@ if __name__ == "__main__":
     # Compute Elo
     print("Computing Elo ratings...")
     t_elo = start_timer()
-    elo_engine = EloEngine(k_factor=35)
+    elo_engine = EloEngine(use_dynamic_k=True, use_margin=True, use_decay=True, use_home_away=False)
     elo_df = elo_engine.run(meta_df)
     stop_timer("compute_elo", t_elo)
 

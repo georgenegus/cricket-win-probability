@@ -38,8 +38,8 @@ class XGBWinProbabilityModel:
         features["phase_encoded"] = df["phase"].map(phase_map).fillna(0).astype(int)
 
         # Elo features with phase-based decay:
-        # Full strength in Powerplay (>84 balls remaining), linear decay in Middle (24 to 84 balls remaining), 0 in Death (<=24 balls remaining)
-        decay_weight = np.clip((features["balls_remaining"] - 24.0) / 60.0, 0.0, 1.0)
+        # Full strength in Powerplay (>84 balls remaining), linear decay in Middle (30 to 84 balls remaining), 0 in Death (<=30 balls remaining)
+        decay_weight = np.clip((features["balls_remaining"] - 30.0) / 54.0, 0.0, 1.0)
         features["batting_team_elo"] = 1500.0 + (df["batting_team_elo"].astype(float) - 1500.0) * decay_weight
         features["bowling_team_elo"] = 1500.0 + (df["bowling_team_elo"].astype(float) - 1500.0) * decay_weight
         features["elo_diff"] = df["elo_diff"].astype(float) * decay_weight
@@ -65,8 +65,8 @@ class XGBWinProbabilityModel:
         features["phase_encoded"] = phase_map.get(phase_val, 1)
 
         # Elo features with phase-based decay:
-        # Full strength in Powerplay (>84 balls remaining), linear decay in Middle (24 to 84 balls remaining), 0 in Death (<=24 balls remaining)
-        decay_weight = float(np.clip((features["balls_remaining"] - 24.0) / 60.0, 0.0, 1.0))
+        # Full strength in Powerplay (>84 balls remaining), linear decay in Middle (30 to 84 balls remaining), 0 in Death (<=30 balls remaining)
+        decay_weight = float(np.clip((features["balls_remaining"] - 30.0) / 54.0, 0.0, 1.0))
         batting_elo = float(state.get("batting_team_elo", 1500.0))
         bowling_elo = float(state.get("bowling_team_elo", 1500.0))
         elo_diff = float(state.get("elo_diff", 0.0))

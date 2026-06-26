@@ -23,6 +23,12 @@ def _load_single_match_rows(file_path: Path) -> list:
     if not match:
         return []
 
+    info = match.get("info", {})
+    dates = info.get("dates", [])
+    match_date = str(dates[0]) if dates else ""
+    venue = info.get("venue", "")
+    competition = file_path.parent.name
+
     match_id = file_path.stem
     innings_data = match.get("innings", [])
     rows = []
@@ -62,6 +68,9 @@ def _load_single_match_rows(file_path: Path) -> list:
                     "bowler": ball_data.get("bowler"),
                     "is_wide": is_wide,
                     "is_noball": is_noball,
+                    "match_date": match_date,
+                    "venue": venue,
+                    "competition": competition,
                 })
 
     return rows
@@ -138,6 +147,9 @@ class CricketDataLoader:
         df["batting_team"] = df["batting_team"].astype("category")
         df["batter"] = df["batter"].astype("category")
         df["bowler"] = df["bowler"].astype("category")
+        df["match_date"] = df["match_date"].astype("category")
+        df["venue"] = df["venue"].astype("category")
+        df["competition"] = df["competition"].astype("category")
         
         # Save to parquet cache.
         print(f"Saving to cache: {self.cache_file}")

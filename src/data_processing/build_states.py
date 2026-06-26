@@ -4,8 +4,9 @@ import numpy as np
 
 class StateBuilder:
 
-    def __init__(self, df: pd.DataFrame):
+    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None):
         self.df = df.copy()
+        self.elo_df = elo_df
 
     def add_over_info(self):
         self.df["over_float"] = (
@@ -18,7 +19,7 @@ class StateBuilder:
         def get_phase(over):
             if over < 6:
                 return "powerplay"
-            elif over < 16:
+            elif over < 15:
                 return "middle"
             return "death"
 
@@ -182,7 +183,41 @@ class StateBuilder:
         self.add_phase()
         self.build_innings_state()
 
-        return self.add_match_context()
+        res = self.add_match_context()
+
+        # Merge Elo ratings if provided
+        if self.elo_df is not None:
+            res = res.merge(self.elo_df, on="match_id", how="left")
+            # If team_1_elo is missing, fill with neutral 1500
+            res["team_1_elo"] = res["team_1_elo"].fillna(1500.0)
+            res["team_2_elo"] = res["team_2_elo"].fillna(1500.0)
+
+            # Set batting/bowling Elos
+            res["batting_team_elo"] = np.where(
+                res["batting_team"] == res["team_1"],
+                res["team_1_elo"],
+                res["team_2_elo"]
+            )
+            res["bowling_team_elo"] = np.where(
+                res["batting_team"] == res["team_1"],
+                res["team_2_elo"],
+                res["team_1_elo"]
+            )
+            res["elo_diff"] = res["batting_team_elo"] - res["bowling_team_elo"]
+
+            # Drop temporary merge helper columns
+            res = res.drop(columns=["team_1", "team_2", "team_1_elo", "team_2_elo"], errors="ignore")
+        else:
+            res["batting_team_elo"] = 1500.0
+            res["bowling_team_elo"] = 1500.0
+            res["elo_diff"] = 0.0
+
+        # Cast to float64
+        res["batting_team_elo"] = res["batting_team_elo"].astype(float)
+        res["bowling_team_elo"] = res["bowling_team_elo"].astype(float)
+        res["elo_diff"] = res["elo_diff"].astype(float)
+
+        return res
     
 
 
