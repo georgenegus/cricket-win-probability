@@ -20,6 +20,9 @@ class EloEngine:
         use_home_away=False,
         decay_days=90.0,
         decay_rate=0.95,
+        margin_runs_coef=0.5,
+        margin_runs_div=10.0,
+        margin_wickets_coef=0.1,
         processed_path="data/processed",
     ):
         self.k_factor = float(k_factor)
@@ -29,6 +32,9 @@ class EloEngine:
         self.use_home_away = use_home_away
         self.decay_days = float(decay_days)
         self.decay_rate = float(decay_rate)
+        self.margin_runs_coef = float(margin_runs_coef)
+        self.margin_runs_div = float(margin_runs_div)
+        self.margin_wickets_coef = float(margin_wickets_coef)
         self.processed_path = Path(processed_path)
         self.cache_file = self.processed_path / "elo_ratings.parquet"
         self.processed_path.mkdir(parents=True, exist_ok=True)
@@ -192,9 +198,9 @@ class EloEngine:
 
     def compute_margin_multiplier(self, margin: int, win_type: str) -> float:
         if win_type == "wickets":
-            return 1.0 + 0.1 * (margin - 1)
+            return 1.0 + self.margin_wickets_coef * (margin - 1)
         elif win_type == "runs" and margin > 0:
-            return 1.0 + 0.3 * math.log(1.0 + margin / 10.0)
+            return 1.0 + self.margin_runs_coef * math.log(1.0 + margin / self.margin_runs_div)
         return 1.0
 
     def compute_dynamic_k(self, matches_played: int) -> float:
