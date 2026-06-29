@@ -17,8 +17,12 @@ class StateBuilder:
         return self
 
     def add_phase(self):
-        powerplay_end = self.total_overs * 0.3
-        death_start = self.total_overs * 0.75
+        if self.total_overs > 20:
+            powerplay_end = 10.0
+            death_start = 40.0
+        else:
+            powerplay_end = self.total_overs * 0.3
+            death_start = self.total_overs * 0.75
 
         def get_phase(over):
             if over < powerplay_end:
@@ -81,7 +85,7 @@ class StateBuilder:
             .cumsum()
         )
 
-        bad = self.df[self.df["balls_faced"] > 120]
+        bad = self.df[self.df["balls_faced"] > (self.total_overs * 6)]
 
         if len(bad) > 0:
             print(f"\nWARNING: {len(bad)} invalid states found\n")
@@ -131,6 +135,8 @@ class StateBuilder:
             first_innings_map + 1,
             np.nan
         )
+        
+        df_filtered["final_first_innings_score"] = first_innings_map
         
         df_filtered["runs_remaining"] = np.where(
             df_filtered["innings"] == 2,

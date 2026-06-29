@@ -13,31 +13,43 @@ class EloEngine:
 
     def __init__(
         self,
-        k_factor=35.0,
+        k_factor=None,
         use_dynamic_k=False,
         use_margin=False,
         use_decay=False,
         use_home_away=False,
-        decay_days=90.0,
-        decay_rate=0.95,
-        margin_runs_coef=0.5,
-        margin_runs_div=10.0,
-        margin_wickets_coef=0.1,
+        decay_days=None,
+        decay_rate=None,
+        margin_runs_coef=None,
+        margin_runs_div=None,
+        margin_wickets_coef=None,
         processed_path="data/processed",
+        format_type="t20",
     ):
-        self.k_factor = float(k_factor)
         self.use_dynamic_k = use_dynamic_k
         self.use_margin = use_margin
         self.use_decay = use_decay
         self.use_home_away = use_home_away
-        self.decay_days = float(decay_days)
-        self.decay_rate = float(decay_rate)
-        self.margin_runs_coef = float(margin_runs_coef)
-        self.margin_runs_div = float(margin_runs_div)
-        self.margin_wickets_coef = float(margin_wickets_coef)
         self.processed_path = Path(processed_path)
-        self.cache_file = self.processed_path / "elo_ratings.parquet"
+        self.format_type = format_type
+        self.cache_file = self.processed_path / f"{format_type}_elo_ratings.parquet"
         self.processed_path.mkdir(parents=True, exist_ok=True)
+
+        # Set format-specific defaults
+        if format_type == "od":
+            self.k_factor = float(k_factor if k_factor is not None else 25.0)
+            self.decay_days = float(decay_days if decay_days is not None else 180.0)
+            self.decay_rate = float(decay_rate if decay_rate is not None else 0.95)
+            self.margin_runs_coef = float(margin_runs_coef if margin_runs_coef is not None else 0.3)
+            self.margin_runs_div = float(margin_runs_div if margin_runs_div is not None else 25.0)
+            self.margin_wickets_coef = float(margin_wickets_coef if margin_wickets_coef is not None else 0.08)
+        else:
+            self.k_factor = float(k_factor if k_factor is not None else 35.0)
+            self.decay_days = float(decay_days if decay_days is not None else 90.0)
+            self.decay_rate = float(decay_rate if decay_rate is not None else 0.95)
+            self.margin_runs_coef = float(margin_runs_coef if margin_runs_coef is not None else 0.5)
+            self.margin_runs_div = float(margin_runs_div if margin_runs_div is not None else 10.0)
+            self.margin_wickets_coef = float(margin_wickets_coef if margin_wickets_coef is not None else 0.1)
 
         self.pools = {}  # comp -> {team: elo}
         self.match_counts = {}  # comp -> {team: count}

@@ -14,7 +14,7 @@ class XGBWinProbabilityModel:
 
     def __init__(self, n_estimators=300, max_depth=4, learning_rate=0.08, 
                  min_child_weight=10, subsample=0.8, colsample_bytree=0.8,
-                 reg_alpha=1.0, reg_lambda=3.0, random_state=42):
+                 reg_alpha=1.0, reg_lambda=3.0, random_state=42, format_type="t20"):
         self.n_estimators = n_estimators
         self.max_depth = max_depth
         self.learning_rate = learning_rate
@@ -24,6 +24,7 @@ class XGBWinProbabilityModel:
         self.reg_alpha = reg_alpha
         self.reg_lambda = reg_lambda
         self.random_state = random_state
+        self.format_type = format_type
         self.fold_models = {}  # key: fold_index, value: fitted XGBClassifier
         self.final_model = None  # trained on 100% of the data
         self.match_to_fold = {}  # key: match_id, value: fold_index
@@ -48,8 +49,11 @@ class XGBWinProbabilityModel:
         # Full strength in Powerplay, linear decay in Middle, 0 in Death (parameterized for total overs)
         total_overs = df.get("total_overs", pd.Series(20.0, index=df.index)).astype(float)
         total_balls = total_overs * 6.0
-        death_start_balls = total_balls * 0.25
-        powerplay_end_balls = total_balls * 0.70
+        
+        is_one_day = total_overs > 20
+        death_start_balls = np.where(is_one_day, 60.0, total_balls * 0.25)
+        powerplay_end_balls = np.where(is_one_day, 240.0, total_balls * 0.70)
+        
         middle_duration = np.maximum(powerplay_end_balls - death_start_balls, 1.0)
         decay_weight = np.clip((features["balls_remaining"] - death_start_balls) / middle_duration, 0.0, 1.0)
         features["batting_team_elo"] = 1500.0 + (df["batting_team_elo"].astype(float) - 1500.0) * decay_weight
@@ -77,13 +81,20 @@ class XGBWinProbabilityModel:
         features["is_powerplay"] = (features["phase_encoded"] == 0).astype(float)
         features["is_death"] = (features["phase_encoded"] == 2).astype(float)
 
-        comp_map = {
-            "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
-            "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
-            "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
-            "ssm": 15, "t20s": 16
-        }
-        features["competition_encoded"] = df["competition"].map(comp_map).fillna(16).astype(float)
+        if self.format_type == "od":
+            comp_map = {
+                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
+            }
+            default_val = 1.0 # default to odis
+        else:
+            comp_map = {
+                "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
+                "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
+                "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
+                "ssm": 15, "t20s": 16
+            }
+            default_val = 16.0 # default to t20s
+        features["competition_encoded"] = df["competition"].map(comp_map).fillna(default_val).astype(float)
 
         target = df["won_match"].astype(int)
         return features, target
@@ -109,8 +120,14 @@ class XGBWinProbabilityModel:
         # Full strength in Powerplay, linear decay in Middle, 0 in Death (parameterized for total overs)
         total_overs = float(state.get("total_overs", 20.0))
         total_balls = total_overs * 6.0
-        death_start_balls = total_balls * 0.25
-        powerplay_end_balls = total_balls * 0.70
+        
+        if total_overs > 20:
+            death_start_balls = 60.0
+            powerplay_end_balls = 240.0
+        else:
+            death_start_balls = total_balls * 0.25
+            powerplay_end_balls = total_balls * 0.70
+            
         middle_duration = max(powerplay_end_balls - death_start_balls, 1.0)
         decay_weight = float(np.clip((features["balls_remaining"] - death_start_balls) / middle_duration, 0.0, 1.0))
         batting_elo = float(state.get("batting_team_elo", 1500.0))
@@ -134,14 +151,21 @@ class XGBWinProbabilityModel:
         features["is_powerplay"] = float(features["phase_encoded"] == 0)
         features["is_death"] = float(features["phase_encoded"] == 2)
 
-        comp_map = {
-            "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
-            "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
-            "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
-            "ssm": 15, "t20s": 16
-        }
+        if self.format_type == "od":
+            comp_map = {
+                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
+            }
+            default_val = 1.0 # default to odis
+        else:
+            comp_map = {
+                "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
+                "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
+                "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
+                "ssm": 15, "t20s": 16
+            }
+            default_val = 16.0 # default to t20s
         comp_val = state.get("competition", "t20s")
-        features["competition_encoded"] = float(comp_map.get(comp_val, 16))
+        features["competition_encoded"] = float(comp_map.get(comp_val, default_val))
 
         # Return as a 2D DataFrame with 1 row
         return pd.DataFrame([features])

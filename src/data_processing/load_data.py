@@ -82,10 +82,16 @@ class CricketDataLoader:
     Data is persisted to parquet for fast reloading on subsequent runs.
     """
 
-    def __init__(self, data_path: str, processed_path: str = "data/processed"):
-        self.data_path = Path(data_path)
+    def __init__(self, data_path: str, processed_path: str = "data/processed", format_type: str = "t20"):
+        self.format_type = format_type
+        base_path = Path(data_path)
+        if base_path.name in ("t20", "od"):
+            self.data_path = base_path
+        else:
+            self.data_path = base_path / format_type
+            
         self.processed_path = Path(processed_path)
-        self.cache_file = self.processed_path / "cricket_data.parquet"
+        self.cache_file = self.processed_path / f"{format_type}_cricket_data.parquet"
         
         # Create processed directory if it doesn't exist
         self.processed_path.mkdir(parents=True, exist_ok=True)
@@ -112,12 +118,21 @@ class CricketDataLoader:
         
         print(f"Loading from YAML files...")
         file_paths = list(self.data_path.glob("**/*.yaml"))
+        
+        # Deduplicate paths by file stem (match_id)
+        seen_stems = set()
+        unique_paths = []
+        for p in file_paths:
+            if p.stem not in seen_stems:
+                seen_stems.add(p.stem)
+                unique_paths.append(p)
+        file_paths = unique_paths
 
         all_rows = []
         try:
             from concurrent.futures import ProcessPoolExecutor
             import os
-            max_workers = min(32, os.cpu_count() or 4)
+            max_workers = min(4, os.cpu_count() or 2)
             print(f"Using {max_workers} parallel workers to parse YAMLs...")
             with ProcessPoolExecutor(max_workers=max_workers) as executor:
                 # Use chunksize to reduce IPC overhead

@@ -14,12 +14,14 @@ class VenueEngine:
         self,
         smoothing_runs=10.0,
         smoothing_chase=10.0,
-        processed_path="data/processed"
+        processed_path="data/processed",
+        format_type="t20"
     ):
         self.smoothing_runs = float(smoothing_runs)
         self.smoothing_chase = float(smoothing_chase)
         self.processed_path = Path(processed_path)
-        self.cache_file = self.processed_path / "venue_features.parquet"
+        self.format_type = format_type
+        self.cache_file = self.processed_path / f"{format_type}_venue_features.parquet"
         self.processed_path.mkdir(parents=True, exist_ok=True)
 
     def normalize_venue(self, venue):
@@ -76,7 +78,7 @@ class VenueEngine:
             global_avg_runs = (
                 global_sum_runs / global_count_runs
                 if global_count_runs > 0
-                else 160.0
+                else (225.0 if self.format_type == "od" else 160.0)
             )
             global_avg_chase = (
                 global_success_chase / global_count_chase
