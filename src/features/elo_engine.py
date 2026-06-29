@@ -23,6 +23,9 @@ class EloEngine:
         margin_runs_coef=None,
         margin_runs_div=None,
         margin_wickets_coef=None,
+        k_max=None,
+        k_min=None,
+        k_scale=None,
         processed_path="data/processed",
         format_type="t20",
     ):
@@ -38,11 +41,16 @@ class EloEngine:
         # Set format-specific defaults
         if format_type == "od":
             self.k_factor = float(k_factor if k_factor is not None else 25.0)
-            self.decay_days = float(decay_days if decay_days is not None else 180.0)
-            self.decay_rate = float(decay_rate if decay_rate is not None else 0.95)
+            self.decay_days = float(decay_days if decay_days is not None else 120.0)
+            self.decay_rate = float(decay_rate if decay_rate is not None else 0.97)
             self.margin_runs_coef = float(margin_runs_coef if margin_runs_coef is not None else 0.3)
             self.margin_runs_div = float(margin_runs_div if margin_runs_div is not None else 25.0)
             self.margin_wickets_coef = float(margin_wickets_coef if margin_wickets_coef is not None else 0.08)
+            
+            # Dynamic K-factor defaults
+            self.k_max = float(k_max if k_max is not None else 35.0)
+            self.k_min = float(k_min if k_min is not None else 25.0)
+            self.k_scale = float(k_scale if k_scale is not None else 30.0)
         else:
             self.k_factor = float(k_factor if k_factor is not None else 35.0)
             self.decay_days = float(decay_days if decay_days is not None else 90.0)
@@ -50,6 +58,11 @@ class EloEngine:
             self.margin_runs_coef = float(margin_runs_coef if margin_runs_coef is not None else 0.5)
             self.margin_runs_div = float(margin_runs_div if margin_runs_div is not None else 10.0)
             self.margin_wickets_coef = float(margin_wickets_coef if margin_wickets_coef is not None else 0.1)
+
+            # Dynamic K-factor defaults
+            self.k_max = float(k_max if k_max is not None else 50.0)
+            self.k_min = float(k_min if k_min is not None else 20.0)
+            self.k_scale = float(k_scale if k_scale is not None else 30.0)
 
         self.pools = {}  # comp -> {team: elo}
         self.match_counts = {}  # comp -> {team: count}
@@ -196,8 +209,8 @@ class EloEngine:
         if not last_date_str or not current_date_str:
             return elo
         try:
-            d1 = pd.to_datetime(last_date_str)
-            d2 = pd.to_datetime(current_date_str)
+            d1 = last_date_str if isinstance(last_date_str, pd.Timestamp) else pd.to_datetime(last_date_str)
+            d2 = current_date_str if isinstance(current_date_str, pd.Timestamp) else pd.to_datetime(current_date_str)
             days = (d2 - d1).days
             if days > self.decay_days:
                 # decay towards 1500 for every decay_days of inactivity
@@ -216,8 +229,7 @@ class EloEngine:
         return 1.0
 
     def compute_dynamic_k(self, matches_played: int) -> float:
-        K_MAX, K_MIN, SCALE = 50.0, 20.0, 30.0
-        return K_MIN + (K_MAX - K_MIN) / (1.0 + matches_played / SCALE)
+        return self.k_min + (self.k_max - self.k_min) / (1.0 + matches_played / self.k_scale)
 
     def run(self, metadata_df: pd.DataFrame, force=False) -> pd.DataFrame:
         if not force and self.cache_file.exists():

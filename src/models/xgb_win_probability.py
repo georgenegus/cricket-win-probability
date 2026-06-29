@@ -12,19 +12,41 @@ class XGBWinProbabilityModel:
     Supports Group K-Fold cross-validation by match_id to prevent data leakage during validation.
     """
 
-    def __init__(self, n_estimators=300, max_depth=4, learning_rate=0.08, 
-                 min_child_weight=10, subsample=0.8, colsample_bytree=0.8,
-                 reg_alpha=1.0, reg_lambda=3.0, random_state=42, format_type="t20"):
-        self.n_estimators = n_estimators
-        self.max_depth = max_depth
-        self.learning_rate = learning_rate
-        self.min_child_weight = min_child_weight
-        self.subsample = subsample
-        self.colsample_bytree = colsample_bytree
-        self.reg_alpha = reg_alpha
-        self.reg_lambda = reg_lambda
-        self.random_state = random_state
+    def __init__(self, n_estimators=None, max_depth=None, learning_rate=None, 
+                 min_child_weight=None, subsample=None, colsample_bytree=None,
+                 reg_alpha=None, reg_lambda=None, random_state=42, format_type="t20",
+                 baseline_rr=None, pressure_wicket_div=None):
         self.format_type = format_type
+        self.random_state = random_state
+        
+        # Set format-specific defaults
+        if format_type == "od":
+            self.n_estimators = n_estimators if n_estimators is not None else 300
+            self.max_depth = max_depth if max_depth is not None else 4
+            self.learning_rate = learning_rate if learning_rate is not None else 0.03
+            self.min_child_weight = min_child_weight if min_child_weight is not None else 10
+            self.subsample = subsample if subsample is not None else 0.7
+            self.colsample_bytree = colsample_bytree if colsample_bytree is not None else 0.7
+            self.reg_alpha = reg_alpha if reg_alpha is not None else 0.0
+            self.reg_lambda = reg_lambda if reg_lambda is not None else 1.0
+            
+            self.baseline_rr = float(baseline_rr if baseline_rr is not None else 5.0)
+            self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 15.0)
+            self.total_format_balls = 300.0
+        else:
+            self.n_estimators = n_estimators if n_estimators is not None else 300
+            self.max_depth = max_depth if max_depth is not None else 4
+            self.learning_rate = learning_rate if learning_rate is not None else 0.08
+            self.min_child_weight = min_child_weight if min_child_weight is not None else 10
+            self.subsample = subsample if subsample is not None else 0.8
+            self.colsample_bytree = colsample_bytree if colsample_bytree is not None else 0.8
+            self.reg_alpha = reg_alpha if reg_alpha is not None else 1.0
+            self.reg_lambda = reg_lambda if reg_lambda is not None else 3.0
+            
+            self.baseline_rr = float(baseline_rr if baseline_rr is not None else 8.0)
+            self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 10.0)
+            self.total_format_balls = 120.0
+            
         self.fold_models = {}  # key: fold_index, value: fitted XGBClassifier
         self.final_model = None  # trained on 100% of the data
         self.match_to_fold = {}  # key: match_id, value: fold_index
@@ -39,7 +61,19 @@ class XGBWinProbabilityModel:
         features["target"] = df["target"].astype(float)
 
         # pressure_index = required_run_rate * (1 + wickets_lost / 10.0)
-        features["pressure_index"] = features["required_run_rate"] * (1.0 + features["wickets_lost"] / 10.0)
+        # Normalised required run rate (relative to format baseline)
+        normalized_req_rr = features["required_run_rate"] / self.baseline_rr
+
+        # Wicket pressure scaled by innings progress
+        wicket_pressure = (
+            features["wickets_lost"]
+            * (self.total_format_balls / np.maximum(features["balls_remaining"], 1.0))
+        )
+
+        # Pressure index with configurable wicket weight
+        features["pressure_index"] = normalized_req_rr * (
+            1.0 + wicket_pressure / self.pressure_wicket_div
+        )
 
         # Phase mapping: powerplay: 0, middle: 1, death: 2
         phase_map = {"powerplay": 0, "middle": 1, "death": 2}
@@ -61,9 +95,10 @@ class XGBWinProbabilityModel:
         features["elo_diff"] = df["elo_diff"].astype(float) * decay_weight
 
         # Venue features with safe fallback defaults (in case they are not in the DataFrame)
+        default_venue_score = 260.0 if self.format_type == "od" else 160.0
         features["venue_avg_first_innings_score"] = (
-            df.get("venue_avg_first_innings_score", pd.Series(160.0, index=df.index))
-            .fillna(160.0)
+            df.get("venue_avg_first_innings_score", pd.Series(default_venue_score, index=df.index))
+            .fillna(default_venue_score)
             .astype(float)
         )
         features["venue_chase_success_rate"] = (
@@ -109,7 +144,14 @@ class XGBWinProbabilityModel:
         features["target"] = float(state["target"])
 
         # Calculate pressure_index
-        features["pressure_index"] = features["required_run_rate"] * (1.0 + features["wickets_lost"] / 10.0)
+        normalized_req_rr = features["required_run_rate"] / self.baseline_rr
+        wicket_pressure = (
+            features["wickets_lost"]
+            * (self.total_format_balls / max(features["balls_remaining"], 1.0))
+        )
+        features["pressure_index"] = normalized_req_rr * (
+            1.0 + wicket_pressure / self.pressure_wicket_div
+        )
 
         # Phase mapping
         phase_map = {"powerplay": 0, "middle": 1, "death": 2}
@@ -139,7 +181,8 @@ class XGBWinProbabilityModel:
         features["elo_diff"] = elo_diff * decay_weight
 
         # Venue features with safe fallback defaults
-        features["venue_avg_first_innings_score"] = float(state.get("venue_avg_first_innings_score", 160.0))
+        default_venue_score = 260.0 if self.format_type == "od" else 160.0
+        features["venue_avg_first_innings_score"] = float(state.get("venue_avg_first_innings_score", default_venue_score))
         features["venue_chase_success_rate"] = float(state.get("venue_chase_success_rate", 0.45))
 
         # Derived features

@@ -12,17 +12,25 @@ class VenueEngine:
 
     def __init__(
         self,
-        smoothing_runs=10.0,
-        smoothing_chase=10.0,
+        smoothing_runs=None,
+        smoothing_chase=None,
+        default_avg_score=None,
         processed_path="data/processed",
         format_type="t20"
     ):
-        self.smoothing_runs = float(smoothing_runs)
-        self.smoothing_chase = float(smoothing_chase)
         self.processed_path = Path(processed_path)
         self.format_type = format_type
         self.cache_file = self.processed_path / f"{format_type}_venue_features.parquet"
         self.processed_path.mkdir(parents=True, exist_ok=True)
+
+        if format_type == "od":
+            self.smoothing_runs = float(smoothing_runs if smoothing_runs is not None else 10.0)
+            self.smoothing_chase = float(smoothing_chase if smoothing_chase is not None else 25.0)
+            self.default_avg_score = float(default_avg_score if default_avg_score is not None else 260.0)
+        else:
+            self.smoothing_runs = float(smoothing_runs if smoothing_runs is not None else 10.0)
+            self.smoothing_chase = float(smoothing_chase if smoothing_chase is not None else 10.0)
+            self.default_avg_score = float(default_avg_score if default_avg_score is not None else 160.0)
 
     def normalize_venue(self, venue):
         if not isinstance(venue, str):
@@ -78,7 +86,7 @@ class VenueEngine:
             global_avg_runs = (
                 global_sum_runs / global_count_runs
                 if global_count_runs > 0
-                else (225.0 if self.format_type == "od" else 160.0)
+                else self.default_avg_score
             )
             global_avg_chase = (
                 global_success_chase / global_count_chase
