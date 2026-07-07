@@ -1,5 +1,5 @@
+import os
 import pandas as pd
-import numpy as np
 from pathlib import Path
 import math
 
@@ -36,7 +36,7 @@ class EloEngine:
         self.processed_path = Path(processed_path)
         self.format_type = format_type
         self.cache_file = self.processed_path / f"{format_type}_elo_ratings.parquet"
-        self.processed_path.mkdir(parents=True, exist_ok=True)
+        os.makedirs(self.processed_path, exist_ok=True)
 
         # Set format-specific defaults
         if format_type == "od":
@@ -148,7 +148,7 @@ class EloEngine:
         "Gymkhana": "Kenya"
     }
 
-    def get_country_from_location(self, venue: str, city: str) -> str:
+    def get_country_from_location(self, venue: str, city: str) -> str | None:
         if isinstance(city, str) and city.strip():
             city_name = city.strip()
             if city_name in self.city_to_country:
@@ -169,7 +169,7 @@ class EloEngine:
 
         return None
 
-    def detect_home_team(self, venue: str, city: str, team_1: str, team_2: str, competition: str) -> str:
+    def detect_home_team(self, venue: str, city: str, team_1: str, team_2: str, competition: str) -> str | None:
         if competition != "t20s":
             return None
 
@@ -288,6 +288,9 @@ class EloEngine:
                     "team_1_elo": e1,
                     "team_2_elo": e2,
                     "home_team": home_team,
+                    "toss_winner": row.get("toss_winner", ""),
+                    "toss_decision": row.get("toss_decision", ""),
+                    "match_date": row.get("date", ""),
                 }
             )
 

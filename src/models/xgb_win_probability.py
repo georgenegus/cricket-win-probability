@@ -15,15 +15,17 @@ class XGBWinProbabilityModel:
     def __init__(self, n_estimators=None, max_depth=None, learning_rate=None, 
                  min_child_weight=None, subsample=None, colsample_bytree=None,
                  reg_alpha=None, reg_lambda=None, random_state=42, format_type="t20",
-                 baseline_rr=None, pressure_wicket_div=None):
+                 baseline_rr=None, pressure_wicket_div=None, b_factor=None, wicket_exp=None,
+                 rolling_window=None, elo_death_start=None, elo_powerplay_end=None):
         self.format_type = format_type
         self.random_state = random_state
+        self.rolling_window = rolling_window if rolling_window is not None else 36
         
         # Set format-specific defaults
         if format_type == "od":
-            self.n_estimators = n_estimators if n_estimators is not None else 300
+            self.n_estimators = n_estimators if n_estimators is not None else 339
             self.max_depth = max_depth if max_depth is not None else 4
-            self.learning_rate = learning_rate if learning_rate is not None else 0.03
+            self.learning_rate = learning_rate if learning_rate is not None else 0.02
             self.min_child_weight = min_child_weight if min_child_weight is not None else 10
             self.subsample = subsample if subsample is not None else 0.7
             self.colsample_bytree = colsample_bytree if colsample_bytree is not None else 0.7
@@ -33,6 +35,10 @@ class XGBWinProbabilityModel:
             self.baseline_rr = float(baseline_rr if baseline_rr is not None else 5.0)
             self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 15.0)
             self.total_format_balls = 300.0
+            self.b_factor = float(b_factor if b_factor is not None else 0.04)
+            self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.2)
+            self.elo_death_start = float(elo_death_start if elo_death_start is not None else 60.0)
+            self.elo_powerplay_end = float(elo_powerplay_end if elo_powerplay_end is not None else 240.0)
         else:
             self.n_estimators = n_estimators if n_estimators is not None else 300
             self.max_depth = max_depth if max_depth is not None else 4
@@ -46,10 +52,26 @@ class XGBWinProbabilityModel:
             self.baseline_rr = float(baseline_rr if baseline_rr is not None else 8.0)
             self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 10.0)
             self.total_format_balls = 120.0
+            self.b_factor = float(b_factor if b_factor is not None else 0.09)
+            self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.6)
             
         self.fold_models = {}  # key: fold_index, value: fitted XGBClassifier
         self.final_model = None  # trained on 100% of the data
         self.match_to_fold = {}  # key: match_id, value: fold_index
+
+    def _compute_dls_resource_pct(self, balls_remaining, wickets_lost):
+        """
+        Approximation of DLS resource percentage based on remaining balls and wickets lost.
+        """
+        overs_remaining = balls_remaining / 6.0
+        wickets_in_hand = 10.0 - wickets_lost
+        
+        # Non-linear wicket resource curve: first wickets cost less than last wickets
+        wicket_factor = 1.0 - (1.0 - wickets_in_hand / 10.0) ** self.wicket_exp
+        # Exponential decay curve for remaining overs
+        overs_factor = 1.0 - np.exp(-self.b_factor * overs_remaining)
+        
+        return wicket_factor * overs_factor
 
     def _extract_features_and_target(self, df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
         features = pd.DataFrame(index=df.index)
@@ -85,8 +107,8 @@ class XGBWinProbabilityModel:
         total_balls = total_overs * 6.0
         
         is_one_day = total_overs > 20
-        death_start_balls = np.where(is_one_day, 60.0, total_balls * 0.25)
-        powerplay_end_balls = np.where(is_one_day, 240.0, total_balls * 0.70)
+        death_start_balls = np.where(is_one_day, self.elo_death_start if self.format_type == "od" else 60.0, total_balls * 0.25)
+        powerplay_end_balls = np.where(is_one_day, self.elo_powerplay_end if self.format_type == "od" else 240.0, total_balls * 0.70)
         
         middle_duration = np.maximum(powerplay_end_balls - death_start_balls, 1.0)
         decay_weight = np.clip((features["balls_remaining"] - death_start_balls) / middle_duration, 0.0, 1.0)
@@ -109,6 +131,12 @@ class XGBWinProbabilityModel:
 
         # Derived features
         features["resources_remaining"] = (10.0 - features["wickets_lost"]) * features["balls_remaining"]
+        if self.format_type == "od":
+            features["dls_resource_pct"] = self._compute_dls_resource_pct(features["balls_remaining"], features["wickets_lost"])
+            features["current_partnership_runs"] = df.get("current_partnership_runs", pd.Series(0.0, index=df.index)).astype(float).fillna(0.0)
+            features["recent_runs"] = df.get("recent_runs", pd.Series(0.0, index=df.index)).astype(float).fillna(0.0)
+            features["recent_wickets"] = df.get("recent_wickets", pd.Series(0.0, index=df.index)).astype(float).fillna(0.0)
+            features["recent_run_rate"] = features["recent_runs"] / (self.rolling_window / 6.0)
         features["proportion_scored"] = (features["target"] - features["runs_remaining"]) / np.maximum(features["target"], 1.0)
         features["balls_per_run_needed"] = features["balls_remaining"] / np.maximum(features["runs_remaining"], 1.0)
         features["wickets_in_hand"] = 10.0 - features["wickets_lost"]
@@ -164,8 +192,8 @@ class XGBWinProbabilityModel:
         total_balls = total_overs * 6.0
         
         if total_overs > 20:
-            death_start_balls = 60.0
-            powerplay_end_balls = 240.0
+            death_start_balls = self.elo_death_start if self.format_type == "od" else 60.0
+            powerplay_end_balls = self.elo_powerplay_end if self.format_type == "od" else 240.0
         else:
             death_start_balls = total_balls * 0.25
             powerplay_end_balls = total_balls * 0.70
@@ -187,6 +215,12 @@ class XGBWinProbabilityModel:
 
         # Derived features
         features["resources_remaining"] = (10.0 - features["wickets_lost"]) * features["balls_remaining"]
+        if self.format_type == "od":
+            features["dls_resource_pct"] = float(self._compute_dls_resource_pct(features["balls_remaining"], features["wickets_lost"]))
+            features["current_partnership_runs"] = float(state.get("current_partnership_runs", 0.0))
+            features["recent_runs"] = float(state.get("recent_runs", 0.0))
+            features["recent_wickets"] = float(state.get("recent_wickets", 0.0))
+            features["recent_run_rate"] = features["recent_runs"] / (self.rolling_window / 6.0)
         features["proportion_scored"] = (features["target"] - features["runs_remaining"]) / max(features["target"], 1.0)
         features["balls_per_run_needed"] = features["balls_remaining"] / max(features["runs_remaining"], 1.0)
         features["wickets_in_hand"] = 10.0 - features["wickets_lost"]
@@ -355,3 +389,4 @@ class XGBWinProbabilityModel:
             "sample_size": len(self.match_to_fold) if self.match_to_fold else 0,
             "status": "success"
         }
+

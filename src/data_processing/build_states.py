@@ -4,10 +4,11 @@ import numpy as np
 
 class StateBuilder:
 
-    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, total_overs=20):
+    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, total_overs=20, rolling_window=36):
         self.df = df.copy()
         self.elo_df = elo_df
         self.total_overs = total_overs
+        self.rolling_window = rolling_window
 
     def add_over_info(self):
         self.df["over_float"] = (
@@ -111,6 +112,35 @@ class StateBuilder:
             self.df["runs_scored"] /
             (self.df["balls_faced"] / 6),
             0
+        )
+
+        # --------------------------------------------------
+        # Partnership & Momentum features (Upgrade 2) - Optimized Vectorized Implementation
+        # --------------------------------------------------
+        prev_match = self.df["match_id"].shift(1)
+        prev_innings = self.df["innings"].shift(1)
+        prev_wicket = self.df["wicket"].shift(1)
+
+        is_start = (
+            (self.df["match_id"] != prev_match) | 
+            (self.df["innings"] != prev_innings) | 
+            (prev_wicket == 1)
+        )
+        partnership_id = is_start.cumsum()
+        self.df["current_partnership_runs"] = self.df.groupby(partnership_id)["total_runs"].cumsum()
+
+        self.df["recent_runs"] = (
+            self.df.groupby(["match_id", "innings"])["total_runs"]
+            .rolling(window=self.rolling_window, min_periods=1)
+            .sum()
+            .droplevel([0, 1])
+        )
+
+        self.df["recent_wickets"] = (
+            self.df.groupby(["match_id", "innings"])["wicket"]
+            .rolling(window=self.rolling_window, min_periods=1)
+            .sum()
+            .droplevel([0, 1])
         )
 
         return self
