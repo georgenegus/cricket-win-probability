@@ -447,6 +447,7 @@ if __name__ == "__main__":
 
     from src.data_processing.match_metadata import MatchMetadataExtractor
     from src.features.elo_engine import EloEngine
+    from src.features.player_elo_engine import PlayerEloEngine
     from src.features.venue_engine import VenueEngine
 
     # Extract metadata
@@ -454,6 +455,14 @@ if __name__ == "__main__":
     t_meta = start_timer()
     meta_extractor = MatchMetadataExtractor("data/raw")
     meta_df = meta_extractor.extract_all()
+    
+    # Filter for male matches only
+    if "gender" in meta_df.columns:
+        meta_df = meta_df[meta_df["gender"] == "male"].copy()
+        print(f"Filtered for male matches only. Remaining matches: {len(meta_df)}")
+        deliveries = deliveries[deliveries["match_id"].isin(meta_df["match_id"])].copy()
+        print(f"Filtered deliveries. Remaining rows: {len(deliveries)}")
+        
     stop_timer("extract_metadata", t_meta)
 
     # Compute Elo
@@ -462,6 +471,13 @@ if __name__ == "__main__":
     elo_engine = EloEngine(use_dynamic_k=True, use_margin=True, use_decay=True, use_home_away=False)
     elo_df = elo_engine.run(meta_df)
     stop_timer("compute_elo", t_elo)
+
+    # Compute Player Elo (dynamic fallback loading from cache if computed)
+    print("Computing player Elo ratings...")
+    t_player_elo = start_timer()
+    player_elo_engine = PlayerEloEngine(format_type="t20")
+    player_elo_df = player_elo_engine.run(deliveries, elo_df)
+    stop_timer("compute_player_elo", t_player_elo)
 
     # Compute Venue features
     print("Computing Venue features...")
@@ -478,7 +494,8 @@ if __name__ == "__main__":
     t_states = start_timer()
     states = StateBuilder(
         deliveries,
-        elo_df
+        elo_df,
+        player_elo_df=player_elo_df
     ).build()
     stop_timer("build_states", t_states)
 
@@ -488,6 +505,7 @@ if __name__ == "__main__":
     del elo_df
     del venue_df
     del meta_df
+    del player_elo_df
     gc.collect()
 
     # Only second innings states (single filtering step)

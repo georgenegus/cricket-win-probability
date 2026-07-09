@@ -291,6 +291,8 @@ class EloEngine:
                     "toss_winner": row.get("toss_winner", ""),
                     "toss_decision": row.get("toss_decision", ""),
                     "match_date": row.get("date", ""),
+                    "team_1_players": row.get("team_1_players", ""),
+                    "team_2_players": row.get("team_2_players", ""),
                 }
             )
 

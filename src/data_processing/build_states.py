@@ -4,9 +4,10 @@ import numpy as np
 
 class StateBuilder:
 
-    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, total_overs=20, rolling_window=36):
+    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, player_elo_df: pd.DataFrame = None, total_overs=20, rolling_window=36):
         self.df = df.copy()
         self.elo_df = elo_df
+        self.player_elo_df = player_elo_df
         self.total_overs = total_overs
         self.rolling_window = rolling_window
 
@@ -226,8 +227,8 @@ class StateBuilder:
             )
             res["elo_diff"] = res["batting_team_elo"] - res["bowling_team_elo"]
 
-            # Drop temporary merge helper columns
-            res = res.drop(columns=["team_1", "team_2", "team_1_elo", "team_2_elo"], errors="ignore")
+            # Drop temporary merge helper columns (postponed to end)
+            pass
         else:
             res["batting_team_elo"] = 1500.0
             res["bowling_team_elo"] = 1500.0
@@ -238,6 +239,57 @@ class StateBuilder:
         res["bowling_team_elo"] = res["bowling_team_elo"].astype(float)
         res["elo_diff"] = res["elo_diff"].astype(float)
 
+        # Merge player Elo ratings if provided
+        if self.player_elo_df is not None:
+            # Batters
+            bat_elo_df = self.player_elo_df[self.player_elo_df["role"] == "batter"][["match_id", "player", "effective_elo"]].rename(
+                columns={"player": "batter", "effective_elo": "batter_elo"}
+            )
+            res = res.merge(bat_elo_df, on=["match_id", "batter"], how="left")
+            res["batter_elo"] = res["batter_elo"].fillna(1500.0).astype(float)
+
+            # Bowlers
+            bowl_elo_df = self.player_elo_df[self.player_elo_df["role"] == "bowler"][["match_id", "player", "effective_elo"]].rename(
+                columns={"player": "bowler", "effective_elo": "bowler_elo"}
+            )
+            res = res.merge(bowl_elo_df, on=["match_id", "bowler"], how="left")
+            res["bowler_elo"] = res["bowler_elo"].fillna(1500.0).astype(float)
+
+            res["player_elo_diff"] = (res["batter_elo"] - res["bowler_elo"]).astype(float)
+
+            # Merge playing XI squad average Elos
+            squad_cols = ["match_id", "team_1_batting_squad_elo", "team_1_bowling_squad_elo", 
+                          "team_2_batting_squad_elo", "team_2_bowling_squad_elo"]
+            if all(col in self.player_elo_df.columns for col in squad_cols):
+                squad_df = self.player_elo_df[squad_cols].drop_duplicates()
+                res = res.merge(squad_df, on="match_id", how="left")
+                
+                # Fallbacks in case of missing matches or values
+                res["team_1_batting_squad_elo"] = res["team_1_batting_squad_elo"].fillna(res["team_1_elo"]).astype(float)
+                res["team_1_bowling_squad_elo"] = res["team_1_bowling_squad_elo"].fillna(res["team_1_elo"]).astype(float)
+                res["team_2_batting_squad_elo"] = res["team_2_batting_squad_elo"].fillna(res["team_2_elo"]).astype(float)
+                res["team_2_bowling_squad_elo"] = res["team_2_bowling_squad_elo"].fillna(res["team_2_elo"]).astype(float)
+
+                # Derive innings-specific squad ratings
+                res["batting_squad_elo"] = np.where(res["innings"] == 1, res["team_1_batting_squad_elo"], res["team_2_batting_squad_elo"])
+                res["bowling_squad_elo"] = np.where(res["innings"] == 1, res["team_2_bowling_squad_elo"], res["team_1_bowling_squad_elo"])
+                res["squad_elo_diff"] = (res["batting_squad_elo"] - res["bowling_squad_elo"]).astype(float)
+            else:
+                res["batting_squad_elo"] = res["batting_team_elo"]
+                res["bowling_squad_elo"] = res["bowling_team_elo"]
+                res["squad_elo_diff"] = res["elo_diff"]
+        else:
+            res["batter_elo"] = 1500.0
+            res["bowler_elo"] = 1500.0
+            res["player_elo_diff"] = 0.0
+            res["batting_squad_elo"] = res["batting_team_elo"]
+            res["bowling_squad_elo"] = res["bowling_team_elo"]
+            res["squad_elo_diff"] = res["elo_diff"]
+
+        # Drop temporary merge helper columns
+        res = res.drop(columns=["team_1", "team_2", "team_1_elo", "team_2_elo",
+                                "team_1_batting_squad_elo", "team_1_bowling_squad_elo",
+                                "team_2_batting_squad_elo", "team_2_bowling_squad_elo"], errors="ignore")
         res["total_overs"] = float(self.total_overs)
 
         return res
