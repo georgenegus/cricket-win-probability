@@ -1,3 +1,10 @@
+import os
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
+os.environ["NUMEXPR_NUM_THREADS"] = "1"
+
 import pandas as pd
 import numpy as np
 import time
@@ -65,29 +72,22 @@ def run_validation(model, states: pd.DataFrame, model_name="KNN", sample_size=10
     print(f"\nTesting {len(sample):,} random states")
 
     # --------------------------------------------------
-    # Prediction Loop
+    # Batch Prediction (vectorised)
     # --------------------------------------------------
 
     prediction_start = start_timer()
 
+    # Use predict_batch for vectorised prediction
+    batch_probs = model.predict_batch(sample)
+
+    # Build results DataFrame from batch output
+    results = []
     for idx, (_, row) in enumerate(sample.iterrows()):
-
-        if idx % 50 == 0:
-            print(
-                f"Processed {idx}/{len(sample)} states..."
-            )
-
-        # Prevent data leakage (handled internally inside similarity engine distance function)
-        out = model.predict(
-            row,
-            states
-        )
-
         results.append({
             "match_id": row["match_id"],
-            "win_probability": out["win_probability"],
-            "sample_size": out["sample_size"],
-            "status": out["status"],
+            "win_probability": float(batch_probs[idx]),
+            "sample_size": len(model.match_to_fold) if model.match_to_fold else 0,
+            "status": "success",
             "runs_remaining": row["runs_remaining"],
             "balls_remaining": row["balls_remaining"],
             "wickets_lost": row["wickets_lost"],
@@ -475,7 +475,7 @@ if __name__ == "__main__":
     # Compute Player Elo (dynamic fallback loading from cache if computed)
     print("Computing player Elo ratings...")
     t_player_elo = start_timer()
-    player_elo_engine = PlayerEloEngine(format_type="t20")
+    player_elo_engine = PlayerEloEngine(format_type="t20", form_window=15)
     player_elo_df = player_elo_engine.run(deliveries, elo_df)
     stop_timer("compute_player_elo", t_player_elo)
 

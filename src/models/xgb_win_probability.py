@@ -159,6 +159,44 @@ class XGBWinProbabilityModel:
             default_val = 16.0 # default to t20s
         features["competition_encoded"] = df["competition"].map(comp_map).fillna(default_val).astype(float)
 
+        # Player Elo features (only for T20 and ODI formats)
+        if self.format_type in ["t20", "od"]:
+            p_bat = df.get("batter_elo", pd.Series(1500.0, index=df.index)).astype(float)
+            p_bowl = df.get("bowler_elo", pd.Series(1500.0, index=df.index)).astype(float)
+            p_diff = df.get("player_elo_diff", pd.Series(0.0, index=df.index)).astype(float)
+            s_bat = df.get("batting_squad_elo", df["batting_team_elo"]).astype(float)
+            s_bowl = df.get("bowling_squad_elo", df["bowling_team_elo"]).astype(float)
+            s_diff = df.get("squad_elo_diff", df["elo_diff"]).astype(float)
+
+            t_bat = df["batting_team_elo"].astype(float)
+            t_bowl = df["bowling_team_elo"].astype(float)
+            t_diff = df["elo_diff"].astype(float)
+
+            f_bat = df.get("batter_recent_form", pd.Series(0.0, index=df.index)).astype(float)
+            f_bowl = df.get("bowler_recent_form", pd.Series(0.0, index=df.index)).astype(float)
+            f_diff = df.get("player_recent_form_diff", pd.Series(0.0, index=df.index)).astype(float)
+
+            # Decay raw player features
+            features["batter_elo"] = 1500.0 + (p_bat - 1500.0) * decay_weight
+            features["bowler_elo"] = 1500.0 + (p_bowl - 1500.0) * decay_weight
+            features["player_elo_diff"] = p_diff * decay_weight
+            features["batting_squad_elo"] = 1500.0 + (s_bat - 1500.0) * decay_weight
+            features["bowling_squad_elo"] = 1500.0 + (s_bowl - 1500.0) * decay_weight
+            features["squad_elo_diff"] = s_diff * decay_weight
+
+            # Decay residual player features
+            features["residual_batter_elo"] = (p_bat - t_bat) * decay_weight
+            features["residual_bowler_elo"] = (p_bowl - t_bowl) * decay_weight
+            features["residual_player_elo_diff"] = (p_diff - t_diff) * decay_weight
+            features["residual_batting_squad_elo"] = (s_bat - t_bat) * decay_weight
+            features["residual_bowling_squad_elo"] = (s_bowl - t_bowl) * decay_weight
+            features["residual_squad_elo_diff"] = (s_diff - t_diff) * decay_weight
+
+            # Decay form features
+            features["batter_recent_form"] = f_bat * decay_weight
+            features["bowler_recent_form"] = f_bowl * decay_weight
+            features["player_recent_form_diff"] = f_diff * decay_weight
+
         target = df["won_match"].astype(int)
         return features, target
 
@@ -244,14 +282,54 @@ class XGBWinProbabilityModel:
         comp_val = state.get("competition", "t20s")
         features["competition_encoded"] = float(comp_map.get(comp_val, default_val))
 
+        # Player Elo features (only for T20 and ODI formats)
+        if self.format_type in ["t20", "od"]:
+            p_bat = float(state.get("batter_elo", 1500.0))
+            p_bowl = float(state.get("bowler_elo", 1500.0))
+            p_diff = float(state.get("player_elo_diff", 0.0))
+            s_bat = float(state.get("batting_squad_elo", batting_elo))
+            s_bowl = float(state.get("bowling_squad_elo", bowling_elo))
+            s_diff = float(state.get("squad_elo_diff", elo_diff))
+
+            f_bat = float(state.get("batter_recent_form", 0.0))
+            f_bowl = float(state.get("bowler_recent_form", 0.0))
+            f_diff = float(state.get("player_recent_form_diff", 0.0))
+
+            # Decay raw player features
+            features["batter_elo"] = 1500.0 + (p_bat - 1500.0) * decay_weight
+            features["bowler_elo"] = 1500.0 + (p_bowl - 1500.0) * decay_weight
+            features["player_elo_diff"] = p_diff * decay_weight
+            features["batting_squad_elo"] = 1500.0 + (s_bat - 1500.0) * decay_weight
+            features["bowling_squad_elo"] = 1500.0 + (s_bowl - 1500.0) * decay_weight
+            features["squad_elo_diff"] = s_diff * decay_weight
+
+            # Decay residual player features
+            features["residual_batter_elo"] = (p_bat - batting_elo) * decay_weight
+            features["residual_bowler_elo"] = (p_bowl - bowling_elo) * decay_weight
+            features["residual_player_elo_diff"] = (p_diff - elo_diff) * decay_weight
+            features["residual_batting_squad_elo"] = (s_bat - batting_elo) * decay_weight
+            features["residual_bowling_squad_elo"] = (s_bowl - bowling_elo) * decay_weight
+            features["residual_squad_elo_diff"] = (s_diff - elo_diff) * decay_weight
+
+            # Decay form features
+            features["batter_recent_form"] = f_bat * decay_weight
+            features["bowler_recent_form"] = f_bowl * decay_weight
+            features["player_recent_form_diff"] = f_diff * decay_weight
+
         # Return as a 2D DataFrame with 1 row
         return pd.DataFrame([features])
 
 
-    def fit(self, states: pd.DataFrame, cache_path=None):
+    def fit(self, states: pd.DataFrame, cache_path=None, train_final_model=True):
         """
         Fits Group K-Fold XGBoost classifiers grouped by match_id to prevent validation leakage,
         as well as a final model trained on all data.
+
+        Args:
+            states: DataFrame of match states to train on.
+            cache_path: Path to save/load cached models.
+            train_final_model: If False, skip training the final model on all data.
+                Use False in sweep scripts where only fold models are needed for validation.
         """
         if cache_path is not None:
             cache_file = Path(cache_path)
@@ -303,23 +381,26 @@ class XGBWinProbabilityModel:
             model.fit(X_train, y_train)
             self.fold_models[fold_idx] = model
 
-        print("Training final XGBoost model on complete dataset...")
-        final_model = XGBClassifier(
-            n_estimators=self.n_estimators,
-            max_depth=self.max_depth,
-            learning_rate=self.learning_rate,
-            min_child_weight=self.min_child_weight,
-            subsample=self.subsample,
-            colsample_bytree=self.colsample_bytree,
-            reg_alpha=self.reg_alpha,
-            reg_lambda=self.reg_lambda,
-            objective="binary:logistic",
-            eval_metric="logloss",
-            random_state=self.random_state,
-            n_jobs=-1
-        )
-        final_model.fit(X, y)
-        self.final_model = final_model
+        if train_final_model:
+            print("Training final XGBoost model on complete dataset...")
+            final_model = XGBClassifier(
+                n_estimators=self.n_estimators,
+                max_depth=self.max_depth,
+                learning_rate=self.learning_rate,
+                min_child_weight=self.min_child_weight,
+                subsample=self.subsample,
+                colsample_bytree=self.colsample_bytree,
+                reg_alpha=self.reg_alpha,
+                reg_lambda=self.reg_lambda,
+                objective="binary:logistic",
+                eval_metric="logloss",
+                random_state=self.random_state,
+                n_jobs=-1
+            )
+            final_model.fit(X, y)
+            self.final_model = final_model
+        else:
+            print("Skipping final model training (sweep mode).")
 
         if cache_path is not None:
             cache_file = Path(cache_path)
@@ -390,3 +471,57 @@ class XGBWinProbabilityModel:
             "status": "success"
         }
 
+    def predict_batch(self, states_df: pd.DataFrame) -> np.ndarray:
+        """
+        Vectorised batch prediction for multiple states at once.
+        Handles boundary conditions, fold model selection, and feature extraction
+        in bulk — much faster than calling predict() in a loop.
+
+        Returns a numpy array of win probabilities, one per row.
+        """
+        n = len(states_df)
+        probs = np.full(n, np.nan)
+
+        # 1. Handle boundary conditions vectorially
+        won = states_df["runs_remaining"].values <= 0
+        all_out = states_df["wickets_lost"].values >= 10
+        no_balls = states_df["balls_remaining"].values <= 0
+
+        probs[won] = 1.0
+        probs[all_out & ~won] = 0.0
+        probs[no_balls & ~won & ~all_out] = 0.0
+
+        # 2. Identify rows needing model prediction
+        needs_model = np.isnan(probs)
+        if not needs_model.any():
+            return np.round(probs, 4)
+
+        model_df = states_df[needs_model].copy()
+        model_indices = np.where(needs_model)[0]
+
+        # 3. Extract features in one vectorised call
+        features, _ = self._extract_features_and_target(model_df)
+
+        # 4. Group by fold and predict per fold model
+        match_ids = model_df["match_id"].values
+        fold_assignments = np.array([
+            self.match_to_fold.get(mid, -1) for mid in match_ids
+        ])
+
+        for fold_idx in range(5):
+            mask = fold_assignments == fold_idx
+            if mask.any() and fold_idx in self.fold_models:
+                fold_proba = self.fold_models[fold_idx].predict_proba(
+                    features[mask]
+                )[:, 1]
+                probs[model_indices[mask]] = fold_proba
+
+        # 5. Handle unseen matches (use final model)
+        unseen_mask = fold_assignments == -1
+        if unseen_mask.any() and self.final_model is not None:
+            final_proba = self.final_model.predict_proba(
+                features[unseen_mask]
+            )[:, 1]
+            probs[model_indices[unseen_mask]] = final_proba
+
+        return np.round(probs, 4)

@@ -242,20 +242,31 @@ class StateBuilder:
         # Merge player Elo ratings if provided
         if self.player_elo_df is not None:
             # Batters
-            bat_elo_df = self.player_elo_df[self.player_elo_df["role"] == "batter"][["match_id", "player", "effective_elo"]].rename(
-                columns={"player": "batter", "effective_elo": "batter_elo"}
+            bat_cols = ["match_id", "player", "effective_elo"]
+            if "recent_form" in self.player_elo_df.columns:
+                bat_cols.append("recent_form")
+            
+            bat_elo_df = self.player_elo_df[self.player_elo_df["role"] == "batter"][bat_cols].rename(
+                columns={"player": "batter", "effective_elo": "batter_elo", "recent_form": "batter_recent_form"}
             )
             res = res.merge(bat_elo_df, on=["match_id", "batter"], how="left")
             res["batter_elo"] = res["batter_elo"].fillna(1500.0).astype(float)
+            res["batter_recent_form"] = res.get("batter_recent_form", pd.Series(0.0, index=res.index)).fillna(0.0).astype(float)
 
             # Bowlers
-            bowl_elo_df = self.player_elo_df[self.player_elo_df["role"] == "bowler"][["match_id", "player", "effective_elo"]].rename(
-                columns={"player": "bowler", "effective_elo": "bowler_elo"}
+            bowl_cols = ["match_id", "player", "effective_elo"]
+            if "recent_form" in self.player_elo_df.columns:
+                bowl_cols.append("recent_form")
+                
+            bowl_elo_df = self.player_elo_df[self.player_elo_df["role"] == "bowler"][bowl_cols].rename(
+                columns={"player": "bowler", "effective_elo": "bowler_elo", "recent_form": "bowler_recent_form"}
             )
             res = res.merge(bowl_elo_df, on=["match_id", "bowler"], how="left")
             res["bowler_elo"] = res["bowler_elo"].fillna(1500.0).astype(float)
+            res["bowler_recent_form"] = res.get("bowler_recent_form", pd.Series(0.0, index=res.index)).fillna(0.0).astype(float)
 
             res["player_elo_diff"] = (res["batter_elo"] - res["bowler_elo"]).astype(float)
+            res["player_recent_form_diff"] = (res["batter_recent_form"] - res["bowler_recent_form"]).astype(float)
 
             # Merge playing XI squad average Elos
             squad_cols = ["match_id", "team_1_batting_squad_elo", "team_1_bowling_squad_elo", 
@@ -282,6 +293,9 @@ class StateBuilder:
             res["batter_elo"] = 1500.0
             res["bowler_elo"] = 1500.0
             res["player_elo_diff"] = 0.0
+            res["batter_recent_form"] = 0.0
+            res["bowler_recent_form"] = 0.0
+            res["player_recent_form_diff"] = 0.0
             res["batting_squad_elo"] = res["batting_team_elo"]
             res["bowling_squad_elo"] = res["bowling_team_elo"]
             res["squad_elo_diff"] = res["elo_diff"]
