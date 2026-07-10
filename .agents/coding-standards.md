@@ -16,14 +16,6 @@
 - Prefer **explicit over implicit** — avoid magic numbers without named constants or comments
 - Keep functions focused on a single responsibility
 
-### Computational Efficiency
-
-- **Always write the most computationally efficient code.** This is imperative for scripts such as the sweeps which are running a large number of combinations to find the optimal value of a parameter.
-- Limit multi-threading threads (e.g. set environment variables `OPENBLAS_NUM_THREADS="1"` etc.) when executing nested numpy/pandas loops on Windows to prevent CPU thrashing.
-- **Use `predict_batch()` instead of row-by-row `predict()`** for bulk validation. The batch method handles boundary conditions vectorially, extracts features once via `_extract_features_and_target()`, and calls `predict_proba()` per fold in a single pass — ~17× faster than `iterrows` loops.
-- **Pre-aggregate expensive computations** before sweep loops. For example, call `PlayerEloEngine._aggregate_match_stats()` once and pass the result via `precomputed_stats=` to avoid re-groupby on 2.6M rows per iteration.
-- **Cache partial state builds** in sweep scripts. Build the base state DataFrame once (without player Elo columns) and re-merge only the changing columns each iteration.
-- **Skip final model training in sweeps** — pass `train_final_model=False` to `fit()` since sweeps only need the 5 fold models for validation, not the production model.
 
 ### Naming Conventions
 
@@ -42,13 +34,6 @@
 - **Documentation**: `docs/` for system-level docs, `markdowns/upgrades/` for historical upgrade plans
 - **Cached data**: `data/processed/` — parquet files and pickle model files
 
-### DataFrame Conventions
-
-- Use `.copy()` when creating filtered subsets to avoid `SettingWithCopyWarning`
-- Use `.astype(float)` explicitly when extracting features to ensure consistent dtypes
-- Use `df.get("column", default_series)` with `.fillna()` for safe feature extraction with fallbacks
-- Sort DataFrames by `["match_id", "innings", "over", "ball"]` before cumulative operations
-- Use `groupby().cumsum()` for running totals (runs_scored, wickets_lost, balls_faced)
 
 ### Model Code Conventions
 
@@ -83,45 +68,3 @@ Both T20 and ODI models are trained on **male-only matches**. The `gender` colum
 - Cache files: `{format}_elo_ratings.parquet`, `{format}_venue_features.parquet`, `{format}_player_elo_ratings.parquet`, `{format}_xgb_models.pkl`, `{format}_first_innings_regressor.pkl`
 - The validation scripts handle cache clearing when needed
 
-## Validation Protocol
-
-### Brier Score Evaluation
-
-1. Train 5-fold GroupKFold models on all second-innings states
-2. Sample 5,000 random states with `random_state=42`
-3. For each sampled state, use the fold model that was NOT trained on that match
-4. Compute Brier Score: `mean((predicted_probability - actual_outcome)²)`
-5. Report overall Brier, per-phase Brier, and calibration buckets
-
-### When Making Model Changes
-
-1. **Clear relevant caches** (`os.remove()` the cached `.pkl` and `.parquet` files)
-2. **Run the validation script** (`py tests/win_probability_validation.py` or `py tests/odi_validation.py`)
-3. **Compare Brier score** against the baseline
-4. **If improved**: Keep the change, update the walkthrough, copy models to app-compatible filenames
-5. **If regressed**: Revert the change, restore the baseline
-
-### Copying Models for Flask App
-
-The validation scripts save models to `data/processed/xgb_models.pkl` and `data/processed/first_innings_regressor.pkl`, but the Flask app expects `t20_xgb_models.pkl` and `t20_first_innings_regressor.pkl`. After training:
-```python
-shutil.copyfile('data/processed/xgb_models.pkl', 'data/processed/t20_xgb_models.pkl')
-shutil.copyfile('data/processed/first_innings_regressor.pkl', 'data/processed/t20_first_innings_regressor.pkl')
-```
-
-## Flask App Conventions
-
-- Models are loaded once at startup from `.pkl` caches
-- All deliveries are loaded into memory at startup (~5.3M rows)
-- Match catalog is precomputed at startup
-- API routes return JSON
-- The `/api/match/:id` endpoint rebuilds states on-the-fly for a single match
-- Format detection: `"od" if max(over) > 20 else "t20"`
-
-## Frontend Conventions
-
-- Single-page app with tab navigation
-- Chart.js for all visualisations
-- Vanilla JS — no framework
-- Glassmorphism dark-mode design with Outfit font family
-- API calls via `fetch()` to Flask backend on `localhost:5000`

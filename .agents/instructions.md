@@ -34,58 +34,7 @@ T20 and ODI models have different feature sets. ODI has extra features (DLS reso
 - If both: guard with `if self.format_type in ["t20", "od"]:`
 - Always verify the OTHER format still works after changes
 
-### Computational Efficiency
 
-- **Always write the most computationally efficient code.** This is imperative for scripts such as the sweeps which are running a large number of combinations to find the optimal value of a parameter.
-
-### Sweep Script Best Practices
-
-When writing parameter sweep scripts (e.g. `tests/t20_player_form_sweep.py`), follow these patterns to minimise per-iteration time:
-
-1. **Pre-aggregate deliveries once**: Call `PlayerEloEngine._aggregate_match_stats(deliveries)` before the sweep loop and pass the result via `precomputed_stats=` to each iteration
-2. **Cache partial states**: Build the base state DataFrame once (without player Elo columns) and re-merge only the changing columns each iteration
-3. **Use `predict_batch()`**: Never use `iterrows()` + `predict()` for bulk validation — use `model.predict_batch(states_df)` for vectorised prediction
-4. **Skip final model**: Pass `train_final_model=False` to `model.fit()` since sweeps only need fold models for Brier calculation
-
-## Workflow for Model Improvements
-
-### 1. Hypothesis & Analysis
-
-- State what feature/change you expect to improve and why
-- Check if this has been tried before in `markdowns/upgrades/`
-- If it's a parameterised change, create a sweep script in `tests/`
-
-### 2. Implementation
-
-- Modify `src/models/xgb_win_probability.py` (both `_extract_features_and_target` and `_extract_features_single`)
-- If the change requires new data, modify `src/data_processing/build_states.py` or the relevant feature engine
-- Guard format-specific features appropriately
-
-### 3. Validation
-
-- **Delete cached models**: Remove `data/processed/xgb_models.pkl` (and `od_xgb_models.pkl` for ODI)
-- **Run validation**: `py tests/win_probability_validation.py` (T20) or `py tests/odi_validation.py` (ODI)
-- **Compare Brier score** against the established baseline:
-  - T20 baseline: **0.1318**
-  - ODI baseline: **0.1324**
-- Also check per-phase Brier scores and calibration
-
-### 4. Decision
-
-- **If Brier improves or is neutral**: Keep the change
-- **If Brier regresses**: Revert all changes. Even a +0.0001 regression should be reverted unless there's a strong structural argument.
-- **Document the result** in the walkthrough or upgrade plan markdown
-
-### 5. Deployment
-
-If the change is kept:
-1. Copy T20 models to app-compatible filenames:
-   ```python
-   shutil.copyfile('data/processed/xgb_models.pkl', 'data/processed/t20_xgb_models.pkl')
-   shutil.copyfile('data/processed/first_innings_regressor.pkl', 'data/processed/t20_first_innings_regressor.pkl')
-   ```
-2. Verify the Flask app starts successfully: `py app.py`
-3. If the improvement also applies to ODI, implement and validate for ODI separately
 
 ## Running the Project
 
@@ -112,31 +61,6 @@ py app.py
 py main.py
 ```
 
-## Key Hyperparameters
-
-### T20 XGBoost Classifier
-- `n_estimators=300`, `max_depth=4`, `learning_rate=0.08`
-- `min_child_weight=10`, `subsample=0.8`, `colsample_bytree=0.8`
-- `reg_alpha=1.0`, `reg_lambda=3.0`
-
-### ODI XGBoost Classifier
-- `n_estimators=339`, `max_depth=4`, `learning_rate=0.02`
-- `min_child_weight=10`, `subsample=0.7`, `colsample_bytree=0.7`
-- `reg_alpha=0.0`, `reg_lambda=1.0`
-
-### Elo Engine (T20)
-- `k_factor=35`, `decay_days=90`, `decay_rate=0.95`
-- `margin_runs_coef=0.5`, `margin_runs_div=10`, `margin_wickets_coef=0.1`
-- Dynamic K: `k_max=50`, `k_min=20`, `k_scale=30`
-
-### Elo Engine (ODI)
-- `k_factor=25`, `decay_days=120`, `decay_rate=0.97`
-- `margin_runs_coef=0.3`, `margin_runs_div=25`, `margin_wickets_coef=0.08`
-- Dynamic K: `k_max=35`, `k_min=25`, `k_scale=30`
-
-### Player Elo Engine
-- `k_runs=0.5`, `k_wickets=10.0`, `decay_days=180`, `decay_rate=0.95`
-- `min_matches_reliable=10` (Bayesian shrinkage threshold)
 
 ## Common Pitfalls
 
