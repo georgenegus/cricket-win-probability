@@ -53,6 +53,7 @@ def _extract_single_match_metadata(file_path: Path) -> dict:
     # Outcome
     outcome = info.get("outcome", {})
     winner = outcome.get("winner")
+    method = outcome.get("method", "")
 
     win_margin = 0
     win_type = None
@@ -90,6 +91,7 @@ def _extract_single_match_metadata(file_path: Path) -> dict:
         "winner": winner,
         "win_margin": win_margin,
         "win_type": win_type,
+        "method": method,
         "team_type": info.get("team_type", ""),
         "gender": info.get("gender", "male"),
         "venue": info.get("venue", ""),

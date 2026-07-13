@@ -29,6 +29,9 @@ def _load_single_match_rows(file_path: Path) -> list:
     venue = info.get("venue", "")
     competition = file_path.parent.name
 
+    registry = info.get("registry", {})
+    people_map = registry.get("people", {})
+
     match_id = file_path.stem
     innings_data = match.get("innings", [])
     rows = []
@@ -39,6 +42,10 @@ def _load_single_match_rows(file_path: Path) -> list:
 
         batting_team = innings_info.get("team")
         deliveries = innings_info.get("deliveries", [])
+        
+        target_info = innings_info.get("target", {})
+        target_runs = target_info.get("runs", None)
+        target_overs = target_info.get("overs", None)
 
         for delivery in deliveries:
             for ball_str, ball_data in delivery.items():
@@ -54,6 +61,8 @@ def _load_single_match_rows(file_path: Path) -> list:
                 is_wide = int("wides" in extra_info)
                 is_noball = int("noballs" in extra_info)
 
+                non_striker = ball_data.get("non_striker")
+
                 rows.append({
                     "match_id": match_id,
                     "innings": innings_index + 1,
@@ -66,11 +75,17 @@ def _load_single_match_rows(file_path: Path) -> list:
                     "wicket": wicket,
                     "batter": ball_data.get("batsman"),
                     "bowler": ball_data.get("bowler"),
+                    "non_striker": non_striker,
+                    "batter_id": people_map.get(ball_data.get("batsman"), ""),
+                    "bowler_id": people_map.get(ball_data.get("bowler"), ""),
+                    "non_striker_id": people_map.get(non_striker, ""),
                     "is_wide": is_wide,
                     "is_noball": is_noball,
                     "match_date": match_date,
                     "venue": venue,
                     "competition": competition,
+                    "target_runs": target_runs,
+                    "target_overs": target_overs,
                 })
 
     return rows
@@ -159,9 +174,17 @@ class CricketDataLoader:
         df["extras"] = df["extras"].astype("int8")
         df["total_runs"] = df["total_runs"].astype("int8")
         df["wicket"] = df["wicket"].astype("int8")
+        if "target_runs" in df.columns:
+            df["target_runs"] = df["target_runs"].astype("float32")
+        if "target_overs" in df.columns:
+            df["target_overs"] = df["target_overs"].astype("float32")
         df["batting_team"] = df["batting_team"].astype("category")
         df["batter"] = df["batter"].astype("category")
         df["bowler"] = df["bowler"].astype("category")
+        df["non_striker"] = df["non_striker"].astype("category")
+        df["batter_id"] = df["batter_id"].astype(str).astype("category")
+        df["bowler_id"] = df["bowler_id"].astype(str).astype("category")
+        df["non_striker_id"] = df["non_striker_id"].astype(str).astype("category")
         df["match_date"] = df["match_date"].astype("category")
         df["venue"] = df["venue"].astype("category")
         df["competition"] = df["competition"].astype("category")

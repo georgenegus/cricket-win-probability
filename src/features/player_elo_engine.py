@@ -13,8 +13,8 @@ class PlayerEloEngine:
 
     def __init__(
         self,
-        k_runs=0.5,
-        k_wickets=10.0,
+        k_runs=None,
+        k_wickets=None,
         decay_days=180.0,
         decay_rate=0.95,
         default_elo=1500.0,
@@ -23,6 +23,12 @@ class PlayerEloEngine:
         format_type="t20",
         form_window=5,
     ):
+        self.format_type = format_type
+        if k_runs is None:
+            k_runs = 0.8 if format_type == "od" else 0.3
+        if k_wickets is None:
+            k_wickets = 12.0 if format_type == "od" else 3.0
+
         self.k_runs = float(k_runs)
         self.k_wickets = float(k_wickets)
         self.decay_days = float(decay_days)
@@ -30,7 +36,6 @@ class PlayerEloEngine:
         self.default_elo = float(default_elo)
         self.min_matches_reliable = float(min_matches_reliable)
         self.processed_path = Path(processed_path)
-        self.format_type = format_type
         self.form_window = int(form_window)
         self.cache_file = self.processed_path / f"{format_type}_player_elo_ratings.parquet"
         os.makedirs(self.processed_path, exist_ok=True)

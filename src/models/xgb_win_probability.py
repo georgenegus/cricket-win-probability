@@ -87,9 +87,15 @@ class XGBWinProbabilityModel:
         normalized_req_rr = features["required_run_rate"] / self.baseline_rr
 
         # Wicket pressure scaled by innings progress
+        target_overs = df.get("target_overs", pd.Series(np.nan, index=df.index))
+        total_balls = np.where(
+            (df["innings"] == 2) & target_overs.notna(),
+            target_overs * 6.0,
+            self.total_format_balls
+        )
         wicket_pressure = (
             features["wickets_lost"]
-            * (self.total_format_balls / np.maximum(features["balls_remaining"], 1.0))
+            * (total_balls / np.maximum(features["balls_remaining"], 1.0))
         )
 
         # Pressure index with configurable wicket weight
@@ -115,6 +121,14 @@ class XGBWinProbabilityModel:
         features["batting_team_elo"] = 1500.0 + (df["batting_team_elo"].astype(float) - 1500.0) * decay_weight
         features["bowling_team_elo"] = 1500.0 + (df["bowling_team_elo"].astype(float) - 1500.0) * decay_weight
         features["elo_diff"] = df["elo_diff"].astype(float) * decay_weight
+
+        # Phase-Specific Elo features
+        p_bat = df.get("batting_team_phase_elo", df["batting_team_elo"]).astype(float)
+        p_bowl = df.get("bowling_team_phase_elo", df["bowling_team_elo"]).astype(float)
+        p_diff = df.get("phase_elo_diff", df["elo_diff"]).astype(float)
+        features["batting_team_phase_elo"] = 1500.0 + (p_bat - 1500.0) * decay_weight
+        features["bowling_team_phase_elo"] = 1500.0 + (p_bowl - 1500.0) * decay_weight
+        features["phase_elo_diff"] = p_diff * decay_weight
 
         # Venue features with safe fallback defaults (in case they are not in the DataFrame)
         default_venue_score = 260.0 if self.format_type == "od" else 160.0
@@ -164,6 +178,10 @@ class XGBWinProbabilityModel:
             p_bat = df.get("batter_elo", pd.Series(1500.0, index=df.index)).astype(float)
             p_bowl = df.get("bowler_elo", pd.Series(1500.0, index=df.index)).astype(float)
             p_diff = df.get("player_elo_diff", pd.Series(0.0, index=df.index)).astype(float)
+            p_non_striker = df.get("non_striker_elo", pd.Series(1500.0, index=df.index)).astype(float)
+            p_non_striker_diff = (p_non_striker - p_bowl).astype(float)
+            p_duo_avg = ((p_bat + p_non_striker) / 2.0).astype(float)
+
             s_bat = df.get("batting_squad_elo", df["batting_team_elo"]).astype(float)
             s_bowl = df.get("bowling_squad_elo", df["bowling_team_elo"]).astype(float)
             s_diff = df.get("squad_elo_diff", df["elo_diff"]).astype(float)
@@ -175,11 +193,18 @@ class XGBWinProbabilityModel:
             f_bat = df.get("batter_recent_form", pd.Series(0.0, index=df.index)).astype(float)
             f_bowl = df.get("bowler_recent_form", pd.Series(0.0, index=df.index)).astype(float)
             f_diff = df.get("player_recent_form_diff", pd.Series(0.0, index=df.index)).astype(float)
+            f_non_striker = df.get("non_striker_recent_form", pd.Series(0.0, index=df.index)).astype(float)
+            f_non_striker_diff = (f_non_striker - f_bowl).astype(float)
+            f_duo_avg = ((f_bat + f_non_striker) / 2.0).astype(float)
 
             # Decay raw player features
             features["batter_elo"] = 1500.0 + (p_bat - 1500.0) * decay_weight
             features["bowler_elo"] = 1500.0 + (p_bowl - 1500.0) * decay_weight
+            features["non_striker_elo"] = 1500.0 + (p_non_striker - 1500.0) * decay_weight
             features["player_elo_diff"] = p_diff * decay_weight
+            features["non_striker_elo_diff"] = p_non_striker_diff * decay_weight
+            features["batting_duo_elo_avg"] = 1500.0 + (p_duo_avg - 1500.0) * decay_weight
+
             features["batting_squad_elo"] = 1500.0 + (s_bat - 1500.0) * decay_weight
             features["bowling_squad_elo"] = 1500.0 + (s_bowl - 1500.0) * decay_weight
             features["squad_elo_diff"] = s_diff * decay_weight
@@ -188,6 +213,9 @@ class XGBWinProbabilityModel:
             features["residual_batter_elo"] = (p_bat - t_bat) * decay_weight
             features["residual_bowler_elo"] = (p_bowl - t_bowl) * decay_weight
             features["residual_player_elo_diff"] = (p_diff - t_diff) * decay_weight
+            features["residual_non_striker_elo"] = (p_non_striker - t_bat) * decay_weight
+            features["residual_batting_duo_elo_avg"] = (p_duo_avg - t_bat) * decay_weight
+
             features["residual_batting_squad_elo"] = (s_bat - t_bat) * decay_weight
             features["residual_bowling_squad_elo"] = (s_bowl - t_bowl) * decay_weight
             features["residual_squad_elo_diff"] = (s_diff - t_diff) * decay_weight
@@ -195,7 +223,18 @@ class XGBWinProbabilityModel:
             # Decay form features
             features["batter_recent_form"] = f_bat * decay_weight
             features["bowler_recent_form"] = f_bowl * decay_weight
+            features["non_striker_recent_form"] = f_non_striker * decay_weight
             features["player_recent_form_diff"] = f_diff * decay_weight
+            features["non_striker_recent_form_diff"] = f_non_striker_diff * decay_weight
+            features["batting_duo_recent_form_avg"] = f_duo_avg * decay_weight
+
+        # Style-Based Matchup features
+        bat_type = pd.CategoricalDtype(categories=["LHB", "RHB"])
+        bowl_type = pd.CategoricalDtype(categories=["OB", "LB", "SLA", "LAA", "LAP", "RAP"])
+        features["batter_hand"] = df.get("batter_hand", pd.Series("RHB", index=df.index)).astype(bat_type)
+        features["bowler_style"] = df.get("bowler_style", pd.Series("RAP", index=df.index)).astype(bowl_type)
+        features["is_spin_away"] = df.get("is_spin_away", pd.Series(0.0, index=df.index)).astype(float)
+        features["is_spin_in"] = df.get("is_spin_in", pd.Series(0.0, index=df.index)).astype(float)
 
         target = df["won_match"].astype(int)
         return features, target
@@ -211,9 +250,16 @@ class XGBWinProbabilityModel:
 
         # Calculate pressure_index
         normalized_req_rr = features["required_run_rate"] / self.baseline_rr
+        target_overs = state.get("target_overs")
+        innings = state.get("innings", 2)
+        if innings == 2 and pd.notna(target_overs) and target_overs > 0:
+            total_balls = float(target_overs) * 6.0
+        else:
+            total_balls = self.total_format_balls
+            
         wicket_pressure = (
             features["wickets_lost"]
-            * (self.total_format_balls / max(features["balls_remaining"], 1.0))
+            * (total_balls / max(features["balls_remaining"], 1.0))
         )
         features["pressure_index"] = normalized_req_rr * (
             1.0 + wicket_pressure / self.pressure_wicket_div
@@ -245,6 +291,15 @@ class XGBWinProbabilityModel:
         features["batting_team_elo"] = 1500.0 + (batting_elo - 1500.0) * decay_weight
         features["bowling_team_elo"] = 1500.0 + (bowling_elo - 1500.0) * decay_weight
         features["elo_diff"] = elo_diff * decay_weight
+
+        # Phase-Specific Elo features
+        batting_phase_elo = float(state.get("batting_team_phase_elo", batting_elo))
+        bowling_phase_elo = float(state.get("bowling_team_phase_elo", bowling_elo))
+        phase_elo_diff = float(state.get("phase_elo_diff", elo_diff))
+
+        features["batting_team_phase_elo"] = 1500.0 + (batting_phase_elo - 1500.0) * decay_weight
+        features["bowling_team_phase_elo"] = 1500.0 + (bowling_phase_elo - 1500.0) * decay_weight
+        features["phase_elo_diff"] = phase_elo_diff * decay_weight
 
         # Venue features with safe fallback defaults
         default_venue_score = 260.0 if self.format_type == "od" else 160.0
@@ -287,6 +342,10 @@ class XGBWinProbabilityModel:
             p_bat = float(state.get("batter_elo", 1500.0))
             p_bowl = float(state.get("bowler_elo", 1500.0))
             p_diff = float(state.get("player_elo_diff", 0.0))
+            p_non_striker = float(state.get("non_striker_elo", 1500.0))
+            p_non_striker_diff = p_non_striker - p_bowl
+            p_duo_avg = (p_bat + p_non_striker) / 2.0
+
             s_bat = float(state.get("batting_squad_elo", batting_elo))
             s_bowl = float(state.get("bowling_squad_elo", bowling_elo))
             s_diff = float(state.get("squad_elo_diff", elo_diff))
@@ -294,11 +353,17 @@ class XGBWinProbabilityModel:
             f_bat = float(state.get("batter_recent_form", 0.0))
             f_bowl = float(state.get("bowler_recent_form", 0.0))
             f_diff = float(state.get("player_recent_form_diff", 0.0))
+            f_non_striker = float(state.get("non_striker_recent_form", 0.0))
+            f_non_striker_diff = f_non_striker - f_bowl
+            f_duo_avg = (f_bat + f_non_striker) / 2.0
 
             # Decay raw player features
             features["batter_elo"] = 1500.0 + (p_bat - 1500.0) * decay_weight
             features["bowler_elo"] = 1500.0 + (p_bowl - 1500.0) * decay_weight
+            features["non_striker_elo"] = 1500.0 + (p_non_striker - 1500.0) * decay_weight
             features["player_elo_diff"] = p_diff * decay_weight
+            features["non_striker_elo_diff"] = p_non_striker_diff * decay_weight
+            features["batting_duo_elo_avg"] = 1500.0 + (p_duo_avg - 1500.0) * decay_weight
             features["batting_squad_elo"] = 1500.0 + (s_bat - 1500.0) * decay_weight
             features["bowling_squad_elo"] = 1500.0 + (s_bowl - 1500.0) * decay_weight
             features["squad_elo_diff"] = s_diff * decay_weight
@@ -307,6 +372,8 @@ class XGBWinProbabilityModel:
             features["residual_batter_elo"] = (p_bat - batting_elo) * decay_weight
             features["residual_bowler_elo"] = (p_bowl - bowling_elo) * decay_weight
             features["residual_player_elo_diff"] = (p_diff - elo_diff) * decay_weight
+            features["residual_non_striker_elo"] = (p_non_striker - batting_elo) * decay_weight
+            features["residual_batting_duo_elo_avg"] = (p_duo_avg - batting_elo) * decay_weight
             features["residual_batting_squad_elo"] = (s_bat - batting_elo) * decay_weight
             features["residual_bowling_squad_elo"] = (s_bowl - bowling_elo) * decay_weight
             features["residual_squad_elo_diff"] = (s_diff - elo_diff) * decay_weight
@@ -314,10 +381,24 @@ class XGBWinProbabilityModel:
             # Decay form features
             features["batter_recent_form"] = f_bat * decay_weight
             features["bowler_recent_form"] = f_bowl * decay_weight
+            features["non_striker_recent_form"] = f_non_striker * decay_weight
             features["player_recent_form_diff"] = f_diff * decay_weight
+            features["non_striker_recent_form_diff"] = f_non_striker_diff * decay_weight
+            features["batting_duo_recent_form_avg"] = f_duo_avg * decay_weight
+
+        # Style-Based Matchup features
+        features["batter_hand"] = state.get("batter_hand", "RHB")
+        features["bowler_style"] = state.get("bowler_style", "RAP")
+        features["is_spin_away"] = float(state.get("is_spin_away", 0.0))
+        features["is_spin_in"] = float(state.get("is_spin_in", 0.0))
 
         # Return as a 2D DataFrame with 1 row
-        return pd.DataFrame([features])
+        df_feat = pd.DataFrame([features])
+        bat_type = pd.CategoricalDtype(categories=["LHB", "RHB"])
+        bowl_type = pd.CategoricalDtype(categories=["OB", "LB", "SLA", "LAA", "LAP", "RAP"])
+        df_feat["batter_hand"] = df_feat["batter_hand"].astype(bat_type)
+        df_feat["bowler_style"] = df_feat["bowler_style"].astype(bowl_type)
+        return df_feat
 
 
     def fit(self, states: pd.DataFrame, cache_path=None, train_final_model=True):
@@ -376,7 +457,8 @@ class XGBWinProbabilityModel:
                 objective="binary:logistic",
                 eval_metric="logloss",
                 random_state=self.random_state,
-                n_jobs=-1
+                n_jobs=-1,
+                enable_categorical=True
             )
             model.fit(X_train, y_train)
             self.fold_models[fold_idx] = model
@@ -395,7 +477,8 @@ class XGBWinProbabilityModel:
                 objective="binary:logistic",
                 eval_metric="logloss",
                 random_state=self.random_state,
-                n_jobs=-1
+                n_jobs=-1,
+                enable_categorical=True
             )
             final_model.fit(X, y)
             self.final_model = final_model

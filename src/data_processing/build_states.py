@@ -4,10 +4,11 @@ import numpy as np
 
 class StateBuilder:
 
-    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, player_elo_df: pd.DataFrame = None, total_overs=20, rolling_window=36):
+    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, player_elo_df: pd.DataFrame = None, phase_elo_df: pd.DataFrame = None, total_overs=20, rolling_window=36):
         self.df = df.copy()
         self.elo_df = elo_df
         self.player_elo_df = player_elo_df
+        self.phase_elo_df = phase_elo_df
         self.total_overs = total_overs
         self.rolling_window = rolling_window
 
@@ -19,21 +20,29 @@ class StateBuilder:
         return self
 
     def add_phase(self):
+        target_overs_col = self.df.get("target_overs", pd.Series(np.nan, index=self.df.index))
+        eff_overs = np.where(
+            (self.df["innings"] == 2) & target_overs_col.notna(),
+            target_overs_col,
+            self.total_overs
+        )
+
         if self.total_overs > 20:
-            powerplay_end = 10.0
-            death_start = 40.0
+            powerplay_end = np.where(eff_overs > 20, 10.0, eff_overs * 0.3)
+            death_start = np.where(eff_overs > 20, 40.0, eff_overs * 0.75)
         else:
-            powerplay_end = self.total_overs * 0.3
-            death_start = self.total_overs * 0.75
+            powerplay_end = eff_overs * 0.3
+            death_start = eff_overs * 0.75
 
-        def get_phase(over):
-            if over < powerplay_end:
-                return "powerplay"
-            elif over < death_start:
-                return "middle"
-            return "death"
-
-        self.df["phase"] = self.df["over_float"].apply(get_phase)
+        self.df["phase"] = np.where(
+            self.df["over_float"] < powerplay_end,
+            "powerplay",
+            np.where(
+                self.df["over_float"] < death_start,
+                "middle",
+                "death"
+            )
+        )
         return self
 
     def build_innings_state(self):
@@ -87,10 +96,18 @@ class StateBuilder:
             .cumsum()
         )
 
-        bad = self.df[self.df["balls_faced"] > (self.total_overs * 6)]
+        target_overs_col = self.df.get("target_overs", pd.Series(np.nan, index=self.df.index))
+        eff_overs = np.where(
+            (self.df["innings"] == 2) & target_overs_col.notna(),
+            target_overs_col,
+            self.total_overs
+        )
+        eff_overs_floor = np.floor(eff_overs)
+        eff_balls_allowed = eff_overs_floor * 6 + np.round((eff_overs - eff_overs_floor) * 10)
+        bad = self.df[self.df["balls_faced"] > eff_balls_allowed]
 
         if len(bad) > 0:
-            print(f"\nWARNING: {len(bad)} invalid states found\n")
+            print(f"\nWARNING: {len(bad)} invalid states found and dropped\n")
 
             print(
                 bad[
@@ -103,6 +120,8 @@ class StateBuilder:
                     ]
                 ].head(20)
             )
+
+        self.df = self.df[self.df["balls_faced"] <= eff_balls_allowed]
 
         # --------------------------------------------------
         # Run rate
@@ -161,9 +180,10 @@ class StateBuilder:
         first_innings_map = df_filtered["match_id"].map(first_innings_totals)
         second_innings_map = df_filtered["match_id"].map(second_innings_totals)
         
+        target_runs_val = df_filtered.get("target_runs", pd.Series(np.nan, index=df_filtered.index))
         df_filtered["target"] = np.where(
             df_filtered["innings"] == 2,
-            first_innings_map + 1,
+            target_runs_val.fillna(first_innings_map + 1),
             np.nan
         )
         
@@ -175,8 +195,17 @@ class StateBuilder:
             np.nan
         )
         
-        df_filtered["balls_remaining"] = (
-            (self.total_overs * 6) - df_filtered["balls_faced"]
+        target_overs_val = df_filtered.get("target_overs", pd.Series(np.nan, index=df_filtered.index))
+        effective_overs = np.where(
+            (df_filtered["innings"] == 2) & target_overs_val.notna(),
+            target_overs_val,
+            self.total_overs
+        )
+        eff_overs_floor = np.floor(effective_overs)
+        eff_balls_allowed = eff_overs_floor * 6 + np.round((effective_overs - eff_overs_floor) * 10)
+        df_filtered["balls_remaining"] = np.maximum(
+            eff_balls_allowed - df_filtered["balls_faced"],
+            0.0
         )
         
         # Avoid division by zero by using a safe denominator when balls_remaining <= 0
@@ -239,6 +268,44 @@ class StateBuilder:
         res["bowling_team_elo"] = res["bowling_team_elo"].astype(float)
         res["elo_diff"] = res["elo_diff"].astype(float)
 
+        # Merge Phase Elo ratings if provided
+        if self.phase_elo_df is not None:
+            res = res.merge(self.phase_elo_df, on="match_id", how="left")
+            res["batting_team_phase_elo"] = 1500.0
+            res["bowling_team_phase_elo"] = 1500.0
+
+            for phase in ["powerplay", "middle", "death"]:
+                phase_mask = res["phase"] == phase
+
+                # When team_1 is batting:
+                t1_batting = (res["batting_team"] == res["team_1"]) & phase_mask
+                res.loc[t1_batting, "batting_team_phase_elo"] = res.loc[t1_batting, f"team_1_batting_elo_{phase}"].fillna(1500.0)
+                res.loc[t1_batting, "bowling_team_phase_elo"] = res.loc[t1_batting, f"team_2_bowling_elo_{phase}"].fillna(1500.0)
+
+                # When team_2 is batting:
+                t2_batting = (res["batting_team"] == res["team_2"]) & phase_mask
+                res.loc[t2_batting, "batting_team_phase_elo"] = res.loc[t2_batting, f"team_2_batting_elo_{phase}"].fillna(1500.0)
+                res.loc[t2_batting, "bowling_team_phase_elo"] = res.loc[t2_batting, f"team_1_bowling_elo_{phase}"].fillna(1500.0)
+
+            res["phase_elo_diff"] = res["batting_team_phase_elo"] - res["bowling_team_phase_elo"]
+
+            # Drop temporary phase Elo columns
+            phase_drop_cols = []
+            for p in ["powerplay", "middle", "death"]:
+                phase_drop_cols.extend([
+                    f"team_1_batting_elo_{p}", f"team_1_bowling_elo_{p}",
+                    f"team_2_batting_elo_{p}", f"team_2_bowling_elo_{p}"
+                ])
+            res = res.drop(columns=phase_drop_cols, errors="ignore")
+        else:
+            res["batting_team_phase_elo"] = res["batting_team_elo"]
+            res["bowling_team_phase_elo"] = res["bowling_team_elo"]
+            res["phase_elo_diff"] = res["elo_diff"]
+
+        res["batting_team_phase_elo"] = res["batting_team_phase_elo"].astype(float)
+        res["bowling_team_phase_elo"] = res["bowling_team_phase_elo"].astype(float)
+        res["phase_elo_diff"] = res["phase_elo_diff"].astype(float)
+
         # Merge player Elo ratings if provided
         if self.player_elo_df is not None:
             # Batters
@@ -252,6 +319,14 @@ class StateBuilder:
             res = res.merge(bat_elo_df, on=["match_id", "batter"], how="left")
             res["batter_elo"] = res["batter_elo"].fillna(1500.0).astype(float)
             res["batter_recent_form"] = res.get("batter_recent_form", pd.Series(0.0, index=res.index)).fillna(0.0).astype(float)
+
+            # Non-strikers
+            non_striker_elo_df = self.player_elo_df[self.player_elo_df["role"] == "batter"][bat_cols].rename(
+                columns={"player": "non_striker", "effective_elo": "non_striker_elo", "recent_form": "non_striker_recent_form"}
+            )
+            res = res.merge(non_striker_elo_df, on=["match_id", "non_striker"], how="left")
+            res["non_striker_elo"] = res["non_striker_elo"].fillna(1500.0).astype(float)
+            res["non_striker_recent_form"] = res.get("non_striker_recent_form", pd.Series(0.0, index=res.index)).fillna(0.0).astype(float)
 
             # Bowlers
             bowl_cols = ["match_id", "player", "effective_elo"]
@@ -292,18 +367,54 @@ class StateBuilder:
         else:
             res["batter_elo"] = 1500.0
             res["bowler_elo"] = 1500.0
+            res["non_striker_elo"] = 1500.0
             res["player_elo_diff"] = 0.0
             res["batter_recent_form"] = 0.0
             res["bowler_recent_form"] = 0.0
+            res["non_striker_recent_form"] = 0.0
             res["player_recent_form_diff"] = 0.0
             res["batting_squad_elo"] = res["batting_team_elo"]
             res["bowling_squad_elo"] = res["bowling_team_elo"]
             res["squad_elo_diff"] = res["elo_diff"]
 
+        # Map player styles
+        from src.features.build_player_registry import load_player_styles
+        player_styles = load_player_styles()
+
+        batter_cats = res["batter_id"].cat.categories if hasattr(res["batter_id"], "cat") else res["batter_id"].unique()
+        batter_hand_map = {cat: player_styles.get(str(cat), {}).get("bat", "RHB") for cat in batter_cats}
+        res["batter_hand"] = res["batter_id"].map(batter_hand_map).fillna("RHB").astype("category")
+
+        bowler_cats = res["bowler_id"].cat.categories if hasattr(res["bowler_id"], "cat") else res["bowler_id"].unique()
+        bowler_style_map = {cat: player_styles.get(str(cat), {}).get("bowl", "RAP") for cat in bowler_cats}
+        res["bowler_style"] = res["bowler_id"].map(bowler_style_map).fillna("RAP").astype("category")
+
+        # Spinner matchup definitions
+        # is_spin_away: spin spins away from batter (bowler advantage)
+        # - LHB vs OB or LAA
+        # - RHB vs LB or SLA
+        res["is_spin_away"] = np.where(
+            ((res["batter_hand"] == "RHB") & res["bowler_style"].isin(["LB", "SLA"])) |
+            ((res["batter_hand"] == "LHB") & res["bowler_style"].isin(["OB", "LAA"])),
+            1.0,
+            0.0
+        ).astype(float)
+
+        # is_spin_in: spin spins into batter (batter advantage)
+        # - LHB vs LB or SLA
+        # - RHB vs OB or LAA
+        res["is_spin_in"] = np.where(
+            ((res["batter_hand"] == "RHB") & res["bowler_style"].isin(["OB", "LAA"])) |
+            ((res["batter_hand"] == "LHB") & res["bowler_style"].isin(["LB", "SLA"])),
+            1.0,
+            0.0
+        ).astype(float)
+
         # Drop temporary merge helper columns
         res = res.drop(columns=["team_1", "team_2", "team_1_elo", "team_2_elo",
                                 "team_1_batting_squad_elo", "team_1_bowling_squad_elo",
-                                "team_2_batting_squad_elo", "team_2_bowling_squad_elo"], errors="ignore")
+                                "team_2_batting_squad_elo", "team_2_bowling_squad_elo",
+                                "batter_id", "bowler_id", "non_striker_id"], errors="ignore")
         res["total_overs"] = float(self.total_overs)
 
         return res

@@ -422,6 +422,84 @@ def run_validation(model, states: pd.DataFrame, model_name="KNN", sample_size=10
     }
 
 
+def check_data_leakage(states: pd.DataFrame, format_type="t20"):
+    """
+    Performs data leakage checks on states and splits:
+    1. Group split leakage verification.
+    2. Suspect early-stage feature correlations to identify target leakage.
+    3. Look-ahead temporal features verification.
+    """
+    print("\n==================================================")
+    print("RUNNING DATA LEAKAGE DETECTION CHECKS")
+    print("==================================================")
+    
+    # 1. Split Leakage: Check group split overlap
+    from sklearn.model_selection import GroupKFold
+    model_helper = XGBWinProbabilityModel(format_type=format_type)
+    X, y = model_helper._extract_features_and_target(states)
+    groups = states["match_id"].values
+    
+    gkf = GroupKFold(n_splits=5)
+    split_leak_detected = False
+    for fold, (train_idx, val_idx) in enumerate(gkf.split(X, y, groups=groups)):
+        train_matches = set(groups[train_idx])
+        val_matches = set(groups[val_idx])
+        overlap = train_matches.intersection(val_matches)
+        if overlap:
+            print(f"[ERROR] Fold {fold}: Split Leakage DETECTED! Overlapping matches: {len(overlap)}")
+            split_leak_detected = True
+        else:
+            print(f"[OK] Fold {fold}: No match_id leakage across splits.")
+            
+    if not split_leak_detected:
+        print("[OK] Split Leakage: All GroupKFold splits are perfectly isolated by match_id.")
+
+    # 2. Target Leakage: suspicious early correlations
+    early_mask = states["over"] < 3
+    early_states = states[early_mask]
+    if len(early_states) > 0:
+        X_early = X[early_mask]
+        y_early = y[early_mask]
+        
+        suspicious_corrs = []
+        for col in X_early.columns:
+            # Skip non-numeric features for correlation check
+            from pandas.api.types import is_numeric_dtype
+            if not is_numeric_dtype(X_early[col]):
+                continue
+            if X_early[col].nunique() <= 2:
+                continue
+            corr = float(X_early[col].corr(y_early))
+            if abs(corr) > 0.6:
+                suspicious_corrs.append((col, corr))
+                
+        if suspicious_corrs:
+            print("\n[WARNING] Suspiciously high feature correlations with target in early overs (over < 3):")
+            for col, corr in suspicious_corrs:
+                print(f"  - {col}: Pearson Correlation = {corr:.4f}")
+        else:
+            print("[OK] Target Leakage: No feature exhibits suspiciously high correlation in early overs (all |r| < 0.6).")
+
+    # 3. Look-Ahead / Temporal Leakage: Pre-match features stability
+    sample_matches = states["match_id"].sample(min(5, states["match_id"].nunique()), random_state=42).unique()
+    temporal_leak_detected = False
+    for mid in sample_matches:
+        m_states = states[states["match_id"] == mid]
+        if m_states["venue_avg_first_innings_score"].nunique() > 1:
+            print(f"[ERROR] Temporal Leakage: 'venue_avg_first_innings_score' changes mid-match for match {mid}!")
+            temporal_leak_detected = True
+        if m_states["venue_chase_success_rate"].nunique() > 1:
+            print(f"[ERROR] Temporal Leakage: 'venue_chase_success_rate' changes mid-match for match {mid}!")
+            temporal_leak_detected = True
+        if "team_1_elo" in m_states.columns and m_states["team_1_elo"].nunique() > 1:
+            print(f"[ERROR] Temporal Leakage: 'team_1_elo' changes mid-match for match {mid}!")
+            temporal_leak_detected = True
+                
+    if not temporal_leak_detected:
+        print("[OK] Temporal Leakage: Venue stats and team Elos are constant pre-match ratings.")
+    print("==================================================\n")
+
+
 # --------------------------------------------------
 # Main
 # --------------------------------------------------
@@ -479,6 +557,14 @@ if __name__ == "__main__":
     player_elo_df = player_elo_engine.run(deliveries, elo_df)
     stop_timer("compute_player_elo", t_player_elo)
 
+    # Compute Phase Elo ratings
+    print("Computing phase Elo ratings...")
+    t_phase_elo = start_timer()
+    from src.features.phase_elo_engine import PhaseEloEngine
+    phase_elo_engine = PhaseEloEngine(format_type="t20")
+    phase_elo_df = phase_elo_engine.run(deliveries, elo_df)
+    stop_timer("compute_phase_elo", t_phase_elo)
+
     # Compute Venue features
     print("Computing Venue features...")
     t_venue = start_timer()
@@ -495,7 +581,8 @@ if __name__ == "__main__":
     states = StateBuilder(
         deliveries,
         elo_df,
-        player_elo_df=player_elo_df
+        player_elo_df=player_elo_df,
+        phase_elo_df=phase_elo_df
     ).build()
     stop_timer("build_states", t_states)
 
@@ -506,6 +593,7 @@ if __name__ == "__main__":
     del venue_df
     del meta_df
     del player_elo_df
+    del phase_elo_df
     gc.collect()
 
     # Only second innings states (single filtering step)
@@ -518,6 +606,9 @@ if __name__ == "__main__":
         f"Validation dataset: "
         f"{len(states):,} states"
     )
+
+    # Run data leakage checks
+    check_data_leakage(states, format_type="t20")
 
     print("\nInitializing and fitting XGBoost model...")
     t_fit = start_timer()
@@ -533,7 +624,7 @@ if __name__ == "__main__":
     # --------------------------------------------------
     # We increase the validation sample size to 5,000 states for highly precise,
     # low-variance Brier Score metrics.
-    validation_sample_size = 5000
+    validation_sample_size = len(states)
 
     print(f"\nRunning model validation with sample size {validation_sample_size}...")
     run_validation(
