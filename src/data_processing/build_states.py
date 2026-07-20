@@ -4,13 +4,13 @@ import numpy as np
 
 class StateBuilder:
 
-    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, player_elo_df: pd.DataFrame = None, phase_elo_df: pd.DataFrame = None, total_overs=20, rolling_window=36):
+    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, player_elo_df: pd.DataFrame = None, phase_elo_df: pd.DataFrame = None, total_overs=20, rolling_window=None):
         self.df = df.copy()
         self.elo_df = elo_df
         self.player_elo_df = player_elo_df
         self.phase_elo_df = phase_elo_df
         self.total_overs = total_overs
-        self.rolling_window = rolling_window
+        self.rolling_window = rolling_window if rolling_window is not None else (18 if total_overs <= 20 else 36)
 
     def add_over_info(self):
         self.df["over_float"] = (
@@ -162,6 +162,36 @@ class StateBuilder:
             .sum()
             .droplevel([0, 1])
         )
+
+        # --------------------------------------------------
+        # Bowler Spell Fatigue & Economy
+        # --------------------------------------------------
+        # runs_conceded_delivery = runs_off_bat on normal balls, total_runs on wides/noballs
+        runs_conceded_delivery = np.where(
+            (self.df["is_wide"] == 1) | (self.df["is_noball"] == 1),
+            self.df["total_runs"],
+            self.df["runs_off_bat"]
+        )
+        
+        self.df["bowler_balls_bowled"] = (
+            self.df.groupby(["match_id", "innings", "bowler"])["legal_delivery"]
+            .cumsum()
+        )
+        
+        self.df["_runs_conceded_temp"] = runs_conceded_delivery
+        self.df["bowler_runs_conceded"] = (
+            self.df.groupby(["match_id", "innings", "bowler"])["_runs_conceded_temp"]
+            .cumsum()
+        )
+        self.df = self.df.drop(columns=["_runs_conceded_temp"])
+        
+        default_econ = 8.0 if self.total_overs <= 20 else 5.0
+        self.df["bowler_overs_bowled"] = (self.df["bowler_balls_bowled"] / 6.0).astype(float)
+        self.df["bowler_economy"] = np.where(
+            self.df["bowler_balls_bowled"] > 0,
+            self.df["bowler_runs_conceded"] / (self.df["bowler_balls_bowled"] / 6.0),
+            default_econ
+        ).astype(float)
 
         return self
 
@@ -320,13 +350,13 @@ class StateBuilder:
             res["batter_elo"] = res["batter_elo"].fillna(1500.0).astype(float)
             res["batter_recent_form"] = res.get("batter_recent_form", pd.Series(0.0, index=res.index)).fillna(0.0).astype(float)
 
-            # Non-strikers
-            non_striker_elo_df = self.player_elo_df[self.player_elo_df["role"] == "batter"][bat_cols].rename(
-                columns={"player": "non_striker", "effective_elo": "non_striker_elo", "recent_form": "non_striker_recent_form"}
+            # Non-strikers (Elo only — recent_form was pruned during Upgrade 4 optimization)
+            non_striker_cols = ["match_id", "player", "effective_elo"]
+            non_striker_elo_df = self.player_elo_df[self.player_elo_df["role"] == "batter"][non_striker_cols].rename(
+                columns={"player": "non_striker", "effective_elo": "non_striker_elo"}
             )
             res = res.merge(non_striker_elo_df, on=["match_id", "non_striker"], how="left")
             res["non_striker_elo"] = res["non_striker_elo"].fillna(1500.0).astype(float)
-            res["non_striker_recent_form"] = res.get("non_striker_recent_form", pd.Series(0.0, index=res.index)).fillna(0.0).astype(float)
 
             # Bowlers
             bowl_cols = ["match_id", "player", "effective_elo"]
@@ -371,7 +401,6 @@ class StateBuilder:
             res["player_elo_diff"] = 0.0
             res["batter_recent_form"] = 0.0
             res["bowler_recent_form"] = 0.0
-            res["non_striker_recent_form"] = 0.0
             res["player_recent_form_diff"] = 0.0
             res["batting_squad_elo"] = res["batting_team_elo"]
             res["bowling_squad_elo"] = res["bowling_team_elo"]
@@ -414,7 +443,8 @@ class StateBuilder:
         res = res.drop(columns=["team_1", "team_2", "team_1_elo", "team_2_elo",
                                 "team_1_batting_squad_elo", "team_1_bowling_squad_elo",
                                 "team_2_batting_squad_elo", "team_2_bowling_squad_elo",
-                                "batter_id", "bowler_id", "non_striker_id"], errors="ignore")
+                                "batter_id", "bowler_id", "non_striker_id",
+                                "bowler_balls_bowled", "bowler_runs_conceded"], errors="ignore")
         res["total_overs"] = float(self.total_overs)
 
         return res

@@ -19,7 +19,7 @@ class XGBWinProbabilityModel:
                  rolling_window=None, elo_death_start=None, elo_powerplay_end=None):
         self.format_type = format_type
         self.random_state = random_state
-        self.rolling_window = rolling_window if rolling_window is not None else 36
+        self.rolling_window = rolling_window if rolling_window is not None else (18 if format_type == "t20" else 36)
         
         # Set format-specific defaults
         if format_type == "od":
@@ -58,6 +58,34 @@ class XGBWinProbabilityModel:
         self.fold_models = {}  # key: fold_index, value: fitted XGBClassifier
         self.final_model = None  # trained on 100% of the data
         self.match_to_fold = {}  # key: match_id, value: fold_index
+        self.fold_calibrators = {}  # key: fold_index, value: fitted IsotonicRegression
+        self.final_calibrator = None  # fitted IsotonicRegression on all OOF predictions
+
+        # Load Empirical DLS lookup table if it exists
+        self.empirical_dls = None
+        dls_path = Path("data/processed") / f"empirical_dls_{self.format_type}.parquet"
+        if dls_path.exists():
+            try:
+                dls_df = pd.read_parquet(dls_path)
+                self.empirical_dls = dls_df.set_index(["balls_remaining", "wickets_lost"])["expected_runs_remaining"].to_dict()
+            except Exception as e:
+                print(f"Error loading empirical DLS parquet cache: {e}")
+
+    def _lookup_empirical_runs_remaining_batch(self, balls_remaining_series: pd.Series, wickets_lost_series: pd.Series) -> pd.Series:
+        if self.empirical_dls is None:
+            return (10.0 - wickets_lost_series) * balls_remaining_series
+        
+        # Round to nearest integer for safe lookup
+        keys = list(zip(balls_remaining_series.round().astype(int), wickets_lost_series.round().astype(int)))
+        res = [self.empirical_dls.get(key, 0.0) for key in keys]
+        return pd.Series(res, index=balls_remaining_series.index)
+
+    def _lookup_empirical_runs_remaining_single(self, balls_remaining: float, wickets_lost: float) -> float:
+        if self.empirical_dls is None:
+            return (10.0 - wickets_lost) * balls_remaining
+        
+        key = (int(round(balls_remaining)), int(round(wickets_lost)))
+        return self.empirical_dls.get(key, 0.0)
 
     def _compute_dls_resource_pct(self, balls_remaining, wickets_lost):
         """
@@ -144,7 +172,10 @@ class XGBWinProbabilityModel:
         )
 
         # Derived features
-        features["resources_remaining"] = (10.0 - features["wickets_lost"]) * features["balls_remaining"]
+        features["resources_remaining"] = self._lookup_empirical_runs_remaining_batch(
+            features["balls_remaining"],
+            features["wickets_lost"]
+        )
         if self.format_type == "od":
             features["dls_resource_pct"] = self._compute_dls_resource_pct(features["balls_remaining"], features["wickets_lost"])
             features["current_partnership_runs"] = df.get("current_partnership_runs", pd.Series(0.0, index=df.index)).astype(float).fillna(0.0)
@@ -193,9 +224,6 @@ class XGBWinProbabilityModel:
             f_bat = df.get("batter_recent_form", pd.Series(0.0, index=df.index)).astype(float)
             f_bowl = df.get("bowler_recent_form", pd.Series(0.0, index=df.index)).astype(float)
             f_diff = df.get("player_recent_form_diff", pd.Series(0.0, index=df.index)).astype(float)
-            f_non_striker = df.get("non_striker_recent_form", pd.Series(0.0, index=df.index)).astype(float)
-            f_non_striker_diff = (f_non_striker - f_bowl).astype(float)
-            f_duo_avg = ((f_bat + f_non_striker) / 2.0).astype(float)
 
             # Decay raw player features
             features["batter_elo"] = 1500.0 + (p_bat - 1500.0) * decay_weight
@@ -213,9 +241,6 @@ class XGBWinProbabilityModel:
             features["residual_batter_elo"] = (p_bat - t_bat) * decay_weight
             features["residual_bowler_elo"] = (p_bowl - t_bowl) * decay_weight
             features["residual_player_elo_diff"] = (p_diff - t_diff) * decay_weight
-            features["residual_non_striker_elo"] = (p_non_striker - t_bat) * decay_weight
-            features["residual_batting_duo_elo_avg"] = (p_duo_avg - t_bat) * decay_weight
-
             features["residual_batting_squad_elo"] = (s_bat - t_bat) * decay_weight
             features["residual_bowling_squad_elo"] = (s_bowl - t_bowl) * decay_weight
             features["residual_squad_elo_diff"] = (s_diff - t_diff) * decay_weight
@@ -223,10 +248,7 @@ class XGBWinProbabilityModel:
             # Decay form features
             features["batter_recent_form"] = f_bat * decay_weight
             features["bowler_recent_form"] = f_bowl * decay_weight
-            features["non_striker_recent_form"] = f_non_striker * decay_weight
             features["player_recent_form_diff"] = f_diff * decay_weight
-            features["non_striker_recent_form_diff"] = f_non_striker_diff * decay_weight
-            features["batting_duo_recent_form_avg"] = f_duo_avg * decay_weight
 
         # Style-Based Matchup features
         bat_type = pd.CategoricalDtype(categories=["LHB", "RHB"])
@@ -307,7 +329,10 @@ class XGBWinProbabilityModel:
         features["venue_chase_success_rate"] = float(state.get("venue_chase_success_rate", 0.45))
 
         # Derived features
-        features["resources_remaining"] = (10.0 - features["wickets_lost"]) * features["balls_remaining"]
+        features["resources_remaining"] = self._lookup_empirical_runs_remaining_single(
+            features["balls_remaining"],
+            features["wickets_lost"]
+        )
         if self.format_type == "od":
             features["dls_resource_pct"] = float(self._compute_dls_resource_pct(features["balls_remaining"], features["wickets_lost"]))
             features["current_partnership_runs"] = float(state.get("current_partnership_runs", 0.0))
@@ -353,9 +378,6 @@ class XGBWinProbabilityModel:
             f_bat = float(state.get("batter_recent_form", 0.0))
             f_bowl = float(state.get("bowler_recent_form", 0.0))
             f_diff = float(state.get("player_recent_form_diff", 0.0))
-            f_non_striker = float(state.get("non_striker_recent_form", 0.0))
-            f_non_striker_diff = f_non_striker - f_bowl
-            f_duo_avg = (f_bat + f_non_striker) / 2.0
 
             # Decay raw player features
             features["batter_elo"] = 1500.0 + (p_bat - 1500.0) * decay_weight
@@ -372,8 +394,6 @@ class XGBWinProbabilityModel:
             features["residual_batter_elo"] = (p_bat - batting_elo) * decay_weight
             features["residual_bowler_elo"] = (p_bowl - bowling_elo) * decay_weight
             features["residual_player_elo_diff"] = (p_diff - elo_diff) * decay_weight
-            features["residual_non_striker_elo"] = (p_non_striker - batting_elo) * decay_weight
-            features["residual_batting_duo_elo_avg"] = (p_duo_avg - batting_elo) * decay_weight
             features["residual_batting_squad_elo"] = (s_bat - batting_elo) * decay_weight
             features["residual_bowling_squad_elo"] = (s_bowl - bowling_elo) * decay_weight
             features["residual_squad_elo_diff"] = (s_diff - elo_diff) * decay_weight
@@ -381,10 +401,7 @@ class XGBWinProbabilityModel:
             # Decay form features
             features["batter_recent_form"] = f_bat * decay_weight
             features["bowler_recent_form"] = f_bowl * decay_weight
-            features["non_striker_recent_form"] = f_non_striker * decay_weight
             features["player_recent_form_diff"] = f_diff * decay_weight
-            features["non_striker_recent_form_diff"] = f_non_striker_diff * decay_weight
-            features["batting_duo_recent_form_avg"] = f_duo_avg * decay_weight
 
         # Style-Based Matchup features
         features["batter_hand"] = state.get("batter_hand", "RHB")
@@ -405,12 +422,6 @@ class XGBWinProbabilityModel:
         """
         Fits Group K-Fold XGBoost classifiers grouped by match_id to prevent validation leakage,
         as well as a final model trained on all data.
-
-        Args:
-            states: DataFrame of match states to train on.
-            cache_path: Path to save/load cached models.
-            train_final_model: If False, skip training the final model on all data.
-                Use False in sweep scripts where only fold models are needed for validation.
         """
         if cache_path is not None:
             cache_file = Path(cache_path)
@@ -421,6 +432,8 @@ class XGBWinProbabilityModel:
                     self.fold_models = cached_data["fold_models"]
                     self.final_model = cached_data["final_model"]
                     self.match_to_fold = cached_data["match_to_fold"]
+                    self.fold_calibrators = cached_data.get("fold_calibrators", {})
+                    self.final_calibrator = cached_data.get("final_calibrator", None)
                 return self
 
         print("Extracting features for training...")
@@ -436,6 +449,9 @@ class XGBWinProbabilityModel:
         gkf = GroupKFold(n_splits=5)
         self.match_to_fold = {}
 
+        raw_oof_probs = [None] * 5
+        oof_targets = [None] * 5
+
         # Map each match_id to its validation fold index
         for fold_idx, (train_idx, val_idx) in enumerate(gkf.split(X, y, groups=match_ids)):
             val_match_ids = states.iloc[val_idx]["match_id"].unique()
@@ -444,6 +460,7 @@ class XGBWinProbabilityModel:
 
             print(f"Training XGBoost model for Fold {fold_idx}...")
             X_train, y_train = X.iloc[train_idx], y.iloc[train_idx]
+            X_val, y_val = X.iloc[val_idx], y.iloc[val_idx]
 
             model = XGBClassifier(
                 n_estimators=self.n_estimators,
@@ -462,6 +479,31 @@ class XGBWinProbabilityModel:
             )
             model.fit(X_train, y_train)
             self.fold_models[fold_idx] = model
+            
+            # Predict raw out-of-fold probabilities
+            raw_oof_probs[fold_idx] = model.predict_proba(X_val)[:, 1]
+            oof_targets[fold_idx] = y_val.values
+
+        # Train out-of-fold isotonic calibrators to prevent data leakage
+        from sklearn.isotonic import IsotonicRegression
+        self.fold_calibrators = {}
+        for fold_idx in range(5):
+            print(f"Training Isotonic Calibrator for Fold {fold_idx}...")
+            other_probs = np.concatenate([raw_oof_probs[j] for j in range(5) if j != fold_idx])
+            other_targets = np.concatenate([oof_targets[j] for j in range(5) if j != fold_idx])
+            
+            calibrator = IsotonicRegression(out_of_bounds="clip")
+            calibrator.fit(other_probs, other_targets)
+            self.fold_calibrators[fold_idx] = calibrator
+
+        # Train final calibrator on all OOF predictions
+        print("Training final Isotonic Calibrator on complete out-of-fold dataset...")
+        all_oof_probs = np.concatenate(raw_oof_probs)
+        all_oof_targets = np.concatenate(oof_targets)
+        
+        final_calibrator = IsotonicRegression(out_of_bounds="clip")
+        final_calibrator.fit(all_oof_probs, all_oof_targets)
+        self.final_calibrator = final_calibrator
 
         if train_final_model:
             print("Training final XGBoost model on complete dataset...")
@@ -493,7 +535,9 @@ class XGBWinProbabilityModel:
                 pickle.dump({
                     "fold_models": self.fold_models,
                     "final_model": self.final_model,
-                    "match_to_fold": self.match_to_fold
+                    "match_to_fold": self.match_to_fold,
+                    "fold_calibrators": self.fold_calibrators,
+                    "final_calibrator": self.final_calibrator
                 }, f)
 
         return self
@@ -548,6 +592,12 @@ class XGBWinProbabilityModel:
         # Predict probability
         probability = float(model.predict_proba(X_single)[0][1])
 
+        # Apply isotonic calibration
+        if fold_idx is not None and fold_idx in self.fold_calibrators:
+            probability = float(self.fold_calibrators[fold_idx].predict([probability])[0])
+        elif self.final_calibrator is not None:
+            probability = float(self.final_calibrator.predict([probability])[0])
+
         return {
             "win_probability": round(probability, 4),
             "sample_size": len(self.match_to_fold) if self.match_to_fold else 0,
@@ -597,6 +647,11 @@ class XGBWinProbabilityModel:
                 fold_proba = self.fold_models[fold_idx].predict_proba(
                     features[mask]
                 )[:, 1]
+                
+                # Apply fold calibrator if available
+                if fold_idx in self.fold_calibrators:
+                    fold_proba = self.fold_calibrators[fold_idx].predict(fold_proba)
+                    
                 probs[model_indices[mask]] = fold_proba
 
         # 5. Handle unseen matches (use final model)
@@ -605,6 +660,11 @@ class XGBWinProbabilityModel:
             final_proba = self.final_model.predict_proba(
                 features[unseen_mask]
             )[:, 1]
+            
+            # Apply final calibrator if available
+            if self.final_calibrator is not None:
+                final_proba = self.final_calibrator.predict(final_proba)
+                
             probs[model_indices[unseen_mask]] = final_proba
 
         return np.round(probs, 4)

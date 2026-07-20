@@ -586,6 +586,47 @@ if __name__ == "__main__":
     ).build()
     stop_timer("build_states", t_states)
 
+    # --------------------------------------------------
+    # EVALUATING MODEL 1: FIRST INNINGS PREDICTOR (REGRESSION)
+    # --------------------------------------------------
+    print("\n" + "="*50)
+    print("1. EVALUATING FIRST INNINGS PREDICTOR (XGBRegressor)")
+    print("="*50)
+
+    # Train First Innings Regressor
+    from src.models.first_innings_predictor import FirstInningsPredictor
+    from sklearn.metrics import mean_absolute_error, root_mean_squared_error
+    
+    t_fit_reg = start_timer()
+    reg_model = FirstInningsPredictor(format_type="t20")
+    reg_model.fit(states, cache_path="data/processed/t20_first_innings_regressor.pkl")
+    stop_timer("fit_regressor", t_fit_reg)
+
+    # Evaluate
+    first_innings_states = states[states["innings"] == 1].copy()
+    sample_reg_size = min(5000, len(first_innings_states))
+    print(f"Evaluating regressor on {sample_reg_size:,} random first-innings states...")
+    sample_reg = first_innings_states.sample(sample_reg_size, random_state=42).copy()
+
+    actuals_reg = sample_reg["final_first_innings_score"].values
+    preds_reg = []
+    for _, row in sample_reg.iterrows():
+        preds_reg.append(reg_model.predict(row)["predicted_score"])
+
+    sample_reg["predicted_score"] = preds_reg
+    mae = mean_absolute_error(actuals_reg, preds_reg)
+    rmse = root_mean_squared_error(actuals_reg, preds_reg)
+
+    print(f"\n  Overall MAE : {mae:.2f} runs")
+    print(f"  Overall RMSE: {rmse:.2f} runs")
+    print("\n  Per-Phase Metrics:")
+    for phase, group in sample_reg.groupby("phase"):
+        p_act = group["final_first_innings_score"].values
+        p_pred = group["predicted_score"].values
+        p_mae = mean_absolute_error(p_act, p_pred)
+        p_rmse = root_mean_squared_error(p_act, p_pred)
+        print(f"    {phase:<12} (count: {len(group):<4}) | MAE: {p_mae:6.2f} | RMSE: {p_rmse:6.2f}")
+
     # Free memory before copying/subsetting
     import gc
     del deliveries

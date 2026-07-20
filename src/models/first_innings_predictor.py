@@ -26,6 +26,32 @@ class FirstInningsPredictor:
         self.final_model = None  # trained on 100% of the first innings data
         self.match_to_fold = {}  # key: match_id, value: fold_index
 
+        # Load Empirical DLS lookup table if it exists
+        self.empirical_dls = None
+        dls_path = Path("data/processed") / f"empirical_dls_{self.format_type}.parquet"
+        if dls_path.exists():
+            try:
+                dls_df = pd.read_parquet(dls_path)
+                self.empirical_dls = dls_df.set_index(["balls_remaining", "wickets_lost"])["expected_runs_remaining"].to_dict()
+            except Exception as e:
+                print(f"Error loading empirical DLS parquet cache: {e}")
+
+    def _lookup_empirical_runs_remaining_batch(self, balls_remaining_series: pd.Series, wickets_lost_series: pd.Series) -> pd.Series:
+        if self.empirical_dls is None:
+            return (10.0 - wickets_lost_series) * balls_remaining_series
+        
+        # Round to nearest integer for safe lookup
+        keys = list(zip(balls_remaining_series.round().astype(int), wickets_lost_series.round().astype(int)))
+        res = [self.empirical_dls.get(key, 0.0) for key in keys]
+        return pd.Series(res, index=balls_remaining_series.index)
+
+    def _lookup_empirical_runs_remaining_single(self, balls_remaining: float, wickets_lost: float) -> float:
+        if self.empirical_dls is None:
+            return (10.0 - wickets_lost) * balls_remaining
+        
+        key = (int(round(balls_remaining)), int(round(wickets_lost)))
+        return self.empirical_dls.get(key, 0.0)
+
     def _extract_features_and_target(self, df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
         features = pd.DataFrame(index=df.index)
         features["over_float"] = df["over_float"].astype(float)
@@ -48,8 +74,14 @@ class FirstInningsPredictor:
             fallback_runs
         )
         
-        # 2. resources_remaining = (10 - wickets_lost) * balls_remaining
-        features["resources_remaining"] = (10.0 - features["wickets_lost"]) * features["balls_remaining"]
+        # 2. Look up empirical expected runs remaining (Empirical DLS)
+        features["resources_remaining"] = self._lookup_empirical_runs_remaining_batch(
+            features["balls_remaining"],
+            features["wickets_lost"]
+        )
+
+        # Bowler Spell Fatigue
+        features["bowler_overs_bowled"] = df.get("bowler_overs_bowled", pd.Series(0.0, index=df.index)).astype(float)
 
         # Phase mapping: powerplay: 0, middle: 1, death: 2
         phase_map = {"powerplay": 0, "middle": 1, "death": 2}
@@ -104,7 +136,13 @@ class FirstInningsPredictor:
         else:
             features["projected_score"] = 225.0 if total_overs > 20 else 160.0
             
-        features["resources_remaining"] = (10.0 - features["wickets_lost"]) * features["balls_remaining"]
+        features["resources_remaining"] = self._lookup_empirical_runs_remaining_single(
+            features["balls_remaining"],
+            features["wickets_lost"]
+        )
+
+        # Bowler Spell Fatigue
+        features["bowler_overs_bowled"] = float(state.get("bowler_overs_bowled", 0.0))
 
         # Phase mapping
         phase_map = {"powerplay": 0, "middle": 1, "death": 2}
