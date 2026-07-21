@@ -5,11 +5,15 @@ import pandas as pd
 from pathlib import Path
 
 
+from src.utils.cache_manager import CacheManager
+
+
 class PlayerEloEngine:
     """
     Computes chronological rolling Elo ratings for individual batters and bowlers.
     Incorporates Bayesian shrinkage toward team Elo to handle sparse/new players.
     """
+
 
     def __init__(
         self,
@@ -164,9 +168,15 @@ class PlayerEloEngine:
                 from a prior call to _aggregate_match_stats(). Avoids re-aggregating
                 deliveries in sweep scripts where the raw data doesn't change.
         """
-        if not force and self.cache_file.exists():
+        sources = [Path(__file__)]
+        registry_file = Path(__file__).parent / "build_player_registry.py"
+        if registry_file.exists():
+            sources.append(registry_file)
+
+        if not force and CacheManager.is_cache_valid(self.cache_file, sources):
             print(f"Loading player Elo ratings from cache: {self.cache_file}")
             return pd.read_parquet(self.cache_file)
+
 
         print("Computing rolling player Elo ratings...")
         # Reset internal states to ensure a clean run
@@ -402,9 +412,9 @@ class PlayerEloEngine:
         df = pd.DataFrame(player_elo_records)
         print(f"Saving player Elo ratings to cache: {self.cache_file}")
         df.to_parquet(self.cache_file, index=False, compression="snappy")
+        CacheManager.register_cache(self.cache_file, sources)
         return df
 
     def clear_cache(self):
-        if self.cache_file.exists():
-            self.cache_file.unlink()
-            print(f"Cleared player Elo ratings cache: {self.cache_file}")
+        CacheManager.clear_cache(self.cache_file)
+

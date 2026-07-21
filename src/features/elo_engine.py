@@ -4,12 +4,16 @@ from pathlib import Path
 import math
 
 
+from src.utils.cache_manager import CacheManager
+
+
 class EloEngine:
     """
     Computes chronological rolling Elo ratings per competition pool.
     Extensible to support dynamic K-factor, margin of victory scaling,
     off-season decay, and home/away adjustments.
     """
+
 
     def __init__(
         self,
@@ -232,9 +236,10 @@ class EloEngine:
         return self.k_min + (self.k_max - self.k_min) / (1.0 + matches_played / self.k_scale)
 
     def run(self, metadata_df: pd.DataFrame, force=False) -> pd.DataFrame:
-        if not force and self.cache_file.exists():
+        if not force and CacheManager.is_cache_valid(self.cache_file, [Path(__file__)]):
             print(f"Loading Elo ratings from cache: {self.cache_file}")
             return pd.read_parquet(self.cache_file)
+
 
         print("Computing rolling Elo ratings...")
         # Reset internal states to ensure clean run
@@ -350,9 +355,9 @@ class EloEngine:
         df = pd.DataFrame(elo_records)
         print(f"Saving Elo ratings to cache: {self.cache_file}")
         df.to_parquet(self.cache_file, index=False, compression="snappy")
+        CacheManager.register_cache(self.cache_file, [Path(__file__)])
         return df
 
     def clear_cache(self):
-        if self.cache_file.exists():
-            self.cache_file.unlink()
-            print(f"Cleared Elo ratings cache: {self.cache_file}")
+        CacheManager.clear_cache(self.cache_file)
+

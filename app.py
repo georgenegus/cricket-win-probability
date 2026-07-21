@@ -67,6 +67,30 @@ for _, row in merged.iterrows():
 # Sort match list so interesting ones are on top (or just by match ID)
 matches_list = sorted(matches_list, key=lambda x: str(x["match_id"]), reverse=True)
 
+# Precompute metadata (teams, Elo ratings, venues) for live simulation
+print("Precomputing simulation metadata (teams, Elos, venues)...")
+def extract_latest_team_elos(parquet_path):
+    if not os.path.exists(parquet_path):
+        return {}
+    df = pd.read_parquet(parquet_path)
+    team_elos = {}
+    for _, row in df.iterrows():
+        if "team_1" in row and "team_1_elo" in row:
+            team_elos[str(row["team_1"])] = round(float(row["team_1_elo"]), 1)
+        if "team_2" in row and "team_2_elo" in row:
+            team_elos[str(row["team_2"])] = round(float(row["team_2_elo"]), 1)
+    return dict(sorted(team_elos.items(), key=lambda x: x[0]))
+
+t20_team_elos = extract_latest_team_elos("data/processed/t20_elo_ratings.parquet")
+od_team_elos = extract_latest_team_elos("data/processed/od_elo_ratings.parquet")
+
+venue_averages = {}
+if "venue" in deliveries.columns and "total_runs" in deliveries.columns:
+    venue_in1 = deliveries[deliveries["innings"] == 1].groupby(["venue", "match_id"])["total_runs"].sum().reset_index()
+    if not venue_in1.empty:
+        venue_stats = venue_in1.groupby("venue")["total_runs"].mean().round(1).to_dict()
+        venue_averages = dict(sorted(venue_stats.items(), key=lambda x: str(x[0])))
+
 
 # --------------------------------------------------
 # API Routes
@@ -76,6 +100,103 @@ matches_list = sorted(matches_list, key=lambda x: str(x["match_id"]), reverse=Tr
 @app.route("/")
 def index():
     return app.send_static_file("index.html")
+
+
+@app.route("/api/metadata")
+def get_metadata():
+    """Returns precomputed metadata for dropdowns (teams with Elos, venues with average score)."""
+    return jsonify(
+        {
+            "t20_teams": t20_team_elos,
+            "od_teams": od_team_elos,
+            "venues": venue_averages,
+        }
+    )
+
+
+@app.route("/api/simulate", methods=["POST"])
+def simulate_match():
+    """Predicts win probability and 5-fold ensemble confidence interval for a custom simulated match state."""
+    data = request.json or {}
+    try:
+        overs = float(data.get("overs", 20.0))
+        target = float(data.get("target", 160.0))
+        runs_remaining = float(data.get("runs_remaining", 50.0))
+        balls_remaining = float(data.get("balls_remaining", 30.0))
+        wickets_lost = float(data.get("wickets_lost", 3.0))
+
+        batting_team_elo = float(data.get("batting_team_elo", 1500.0))
+        bowling_team_elo = float(data.get("bowling_team_elo", 1500.0))
+        elo_diff = float(data.get("elo_diff", batting_team_elo - bowling_team_elo))
+
+        batter_elo = float(data.get("batter_elo", 1500.0))
+        bowler_elo = float(data.get("bowler_elo", 1500.0))
+        player_elo_diff = float(data.get("player_elo_diff", batter_elo - bowler_elo))
+
+        fallback_venue_avg = 260.0 if overs > 20.0 else 160.0
+        venue_avg_first_innings_score = float(data.get("venue_avg_first_innings_score", fallback_venue_avg))
+        
+        default_comp = "odis" if overs > 20.0 else "t20s"
+        competition = data.get("competition", default_comp)
+
+        total_balls = overs * 6.0
+        balls_faced = total_balls - balls_remaining
+        runs_scored = target - runs_remaining
+
+        safe_balls = max(balls_remaining, 1.0)
+        required_run_rate = (runs_remaining / (safe_balls / 6.0)) if balls_remaining > 0 else 0.0
+
+        safe_faced = max(balls_faced, 1.0)
+        run_rate = (runs_scored / (safe_faced / 6.0)) if balls_faced > 0 else 0.0
+
+        over_float = balls_faced / 6.0
+        if overs > 20.0:
+            powerplay_end = 10.0
+            death_start = 40.0
+        else:
+            powerplay_end = overs * 0.3
+            death_start = overs * 0.75
+
+        if over_float < powerplay_end:
+            phase = "powerplay"
+        elif over_float >= death_start:
+            phase = "death"
+        else:
+            phase = "middle"
+
+        state = pd.Series(
+            {
+                "runs_remaining": runs_remaining,
+                "balls_remaining": balls_remaining,
+                "wickets_lost": wickets_lost,
+                "required_run_rate": required_run_rate,
+                "run_rate": run_rate,
+                "target": target,
+                "phase": phase,
+                "match_id": 999999,
+                "batting_team_elo": batting_team_elo,
+                "bowling_team_elo": bowling_team_elo,
+                "elo_diff": elo_diff,
+                "batter_elo": batter_elo,
+                "bowler_elo": bowler_elo,
+                "player_elo_diff": player_elo_diff,
+                "venue_avg_first_innings_score": venue_avg_first_innings_score,
+                "competition": competition,
+                "total_overs": overs,
+                "target_overs": overs,
+                "innings": 2,
+            }
+        )
+
+        model_to_use = od_model if overs > 20.0 else t20_model
+        res = model_to_use.predict_with_ensemble(state)
+        res["required_run_rate"] = round(required_run_rate, 2)
+        res["run_rate"] = round(run_rate, 2)
+        res["phase"] = phase
+        res["explainability"] = model_to_use.get_feature_contributions(state, top_n=5)
+        return jsonify(res)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 
 @app.route("/api/matches")
@@ -118,6 +239,31 @@ def get_match_timeline(match_id):
     for _, row in chase_states.iterrows():
         # Predict using out-of-fold classifier if part of cv matches
         pred = model_to_use.predict(row)
+
+        event_type = None
+        event_label = None
+
+        # Check for wicket, 6, 4
+        wicket_val = row.get("wicket", 0)
+        is_wicket = bool((pd.notna(wicket_val) and int(wicket_val) == 1) or row.get("is_wicket", 0) == 1)
+        player_dismissed = str(row.get("player_dismissed", "")) if pd.notna(row.get("player_dismissed", "")) else ""
+
+        runs_off_bat = float(row.get("runs_off_bat", 0)) if pd.notna(row.get("runs_off_bat", 0)) else 0.0
+        total_ball_runs = float(row.get("total_runs", 0)) if pd.notna(row.get("total_runs", 0)) else 0.0
+
+        if is_wicket:
+            event_type = "wicket"
+            if player_dismissed and player_dismissed != "nan":
+                event_label = f"WICKET ({player_dismissed})"
+            else:
+                event_label = "WICKET!"
+        elif runs_off_bat == 6.0 or total_ball_runs >= 6.0:
+            event_type = "six"
+            event_label = "SIX!"
+        elif runs_off_bat == 4.0 or total_ball_runs == 4.0:
+            event_type = "four"
+            event_label = "FOUR!"
+
         timeline.append(
             {
                 "over": int(row["over"]),
@@ -131,6 +277,8 @@ def get_match_timeline(match_id):
                 "run_rate": round(float(row["run_rate"]), 2),
                 "phase": str(row["phase"]),
                 "win_probability": float(pred["win_probability"]),
+                "event_type": event_type,
+                "event_label": event_label,
             }
         )
 
@@ -206,11 +354,13 @@ def predict_win_probability():
 
         model_to_use = od_model if overs > 20.0 else t20_model
         pred = model_to_use.predict(state)
+        explainability = model_to_use.get_feature_contributions(state, top_n=5)
         return jsonify(
             {
                 "win_probability": float(pred["win_probability"]),
                 "required_run_rate": round(required_run_rate, 2),
                 "run_rate": round(run_rate, 2),
+                "explainability": explainability,
                 "status": pred["status"],
             }
         )

@@ -3,6 +3,7 @@ import math
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from src.utils.cache_manager import CacheManager
 
 
 class PhaseEloEngine:
@@ -133,9 +134,10 @@ class PhaseEloEngine:
         return agg_df
 
     def run(self, deliveries_df: pd.DataFrame, elo_df: pd.DataFrame, force=False) -> pd.DataFrame:
-        if not force and self.cache_file.exists():
+        if not force and CacheManager.is_cache_valid(self.cache_file, [Path(__file__)]):
             print(f"Loading phase Elo ratings from cache: {self.cache_file}")
             return pd.read_parquet(self.cache_file)
+
 
         print("Computing rolling phase Elo ratings...")
         self.ratings = {p: {} for p in self.phases}
@@ -220,9 +222,9 @@ class PhaseEloEngine:
         df = pd.DataFrame(phase_elo_records)
         print(f"Saving phase Elo ratings to cache: {self.cache_file}")
         df.to_parquet(self.cache_file, index=False, compression="snappy")
+        CacheManager.register_cache(self.cache_file, [Path(__file__)])
         return df
 
     def clear_cache(self):
-        if self.cache_file.exists():
-            self.cache_file.unlink()
-            print(f"Cleared phase Elo ratings cache: {self.cache_file}")
+        CacheManager.clear_cache(self.cache_file)
+

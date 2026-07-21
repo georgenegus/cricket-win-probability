@@ -101,9 +101,13 @@ def _extract_single_match_metadata(file_path: Path) -> dict:
     }
 
 
+from src.utils.cache_manager import CacheManager
+
+
 class MatchMetadataExtractor:
     """
-    Orchestrates the extraction of match-level metadata across all raw YAML files.
+    Extracts match-level metadata (teams, winner, toss, date, venue, outcome) from Cricsheet YAMLs.
+    Used to build historical match context for Elo calculations.
     """
 
     def __init__(self, raw_data_path: str, processed_path: str = "data/processed", format_type: str = "t20"):
@@ -119,7 +123,7 @@ class MatchMetadataExtractor:
         self.processed_path.mkdir(parents=True, exist_ok=True)
 
     def extract_all(self, force=False) -> pd.DataFrame:
-        if not force and self.cache_file.exists():
+        if not force and CacheManager.is_cache_valid(self.cache_file, [Path(__file__)]):
             print(f"Loading match metadata from cache: {self.cache_file}")
             return pd.read_parquet(self.cache_file)
 
@@ -162,9 +166,8 @@ class MatchMetadataExtractor:
         # Save to cache
         print(f"Saving match metadata to cache: {self.cache_file}")
         df.to_parquet(self.cache_file, index=False, compression="snappy")
+        CacheManager.register_cache(self.cache_file, [Path(__file__)])
         return df
 
     def clear_cache(self):
-        if self.cache_file.exists():
-            self.cache_file.unlink()
-            print(f"Cleared match metadata cache: {self.cache_file}")
+        CacheManager.clear_cache(self.cache_file)

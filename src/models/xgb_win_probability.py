@@ -604,6 +604,171 @@ class XGBWinProbabilityModel:
             "status": "success"
         }
 
+    def predict_with_ensemble(self, state: pd.Series):
+        """
+        Predicts win probability for a state and calculates 5-fold ensemble variance
+        and 95% Confidence Interval.
+        """
+        # 1. Logical Boundary Conditions
+        if state["runs_remaining"] <= 0:
+            return {
+                "win_probability": 1.0,
+                "ci_lower": 1.0,
+                "ci_upper": 1.0,
+                "std_dev": 0.0,
+                "fold_probabilities": [1.0] * 5,
+                "status": "success"
+            }
+
+        if state["wickets_lost"] >= 10:
+            return {
+                "win_probability": 0.0,
+                "ci_lower": 0.0,
+                "ci_upper": 0.0,
+                "std_dev": 0.0,
+                "fold_probabilities": [0.0] * 5,
+                "status": "success"
+            }
+
+        if state["balls_remaining"] <= 0:
+            return {
+                "win_probability": 0.0,
+                "ci_lower": 0.0,
+                "ci_upper": 0.0,
+                "std_dev": 0.0,
+                "fold_probabilities": [0.0] * 5,
+                "status": "success"
+            }
+
+        # Extract features
+        X_single = self._extract_features_single(state)
+
+        # Collect predictions from all available fold models
+        fold_probs = []
+        for fold_idx in range(5):
+            if fold_idx in self.fold_models:
+                m = self.fold_models[fold_idx]
+                p = float(m.predict_proba(X_single)[0][1])
+                if fold_idx in self.fold_calibrators:
+                    p = float(self.fold_calibrators[fold_idx].predict([p])[0])
+                fold_probs.append(round(p, 4))
+
+        # Main point estimate using final model + final calibrator
+        if self.final_model is not None:
+            point_prob = float(self.final_model.predict_proba(X_single)[0][1])
+            if self.final_calibrator is not None:
+                point_prob = float(self.final_calibrator.predict([point_prob])[0])
+        elif fold_probs:
+            point_prob = float(np.mean(fold_probs))
+        else:
+            return {
+                "win_probability": None,
+                "ci_lower": None,
+                "ci_upper": None,
+                "std_dev": None,
+                "fold_probabilities": [],
+                "status": "model_not_fitted"
+            }
+
+        if fold_probs:
+            std_dev = float(np.std(fold_probs))
+            ci_lower = max(0.0, round(point_prob - 1.96 * std_dev, 4))
+            ci_upper = min(1.0, round(point_prob + 1.96 * std_dev, 4))
+        else:
+            std_dev = 0.0
+            ci_lower = round(point_prob, 4)
+            ci_upper = round(point_prob, 4)
+
+        return {
+            "win_probability": round(point_prob, 4),
+            "ci_lower": ci_lower,
+            "ci_upper": ci_upper,
+            "std_dev": round(std_dev, 4),
+            "fold_probabilities": fold_probs,
+            "status": "success"
+        }
+
+    FEATURE_LABELS = {
+        "proportion_scored": "Target Chase Progress",
+        "balls_per_run_needed": "Delivery Buffer Ratio",
+        "required_run_rate": "Required Run Rate",
+        "run_rate": "Current Run Rate",
+        "scoring_acceleration": "Scoring Acceleration Rate",
+        "pressure_index": "Match Pressure Index",
+        "elo_diff": "Team Elo Advantage",
+        "batting_team_elo": "Batting Team Rating",
+        "bowling_team_elo": "Bowling Team Rating",
+        "player_elo_diff": "Player Elo Advantage",
+        "batter_elo": "Batter Elo Rating",
+        "bowler_elo": "Bowler Elo Rating",
+        "wickets_in_hand": "Wickets Remaining",
+        "wickets_lost": "Wickets Fallen",
+        "runs_remaining": "Runs Needed to Win",
+        "balls_remaining": "Deliveries Remaining",
+        "target": "Target Score",
+        "venue_avg_first_innings_score": "Venue Par Score",
+        "venue_chase_success_rate": "Venue Historical Chase Rate",
+        "dls_resource_pct": "DLS Resource Percentage",
+        "recent_run_rate": "Recent Form Run Rate",
+        "current_partnership_runs": "Partnership Score",
+    }
+
+    def get_feature_contributions(self, state: pd.Series, top_n: int = 5):
+        """
+        Calculates exact TreeSHAP feature contributions for a single prediction state.
+        Returns top N factors with directional impact, SHAP value, and narrative explanation.
+        """
+        import xgboost as xgb
+
+        # Handle boundary conditions
+        runs_rem = float(state.get("runs_remaining", 1.0))
+        w_lost = float(state.get("wickets_lost", 0.0))
+        b_rem = float(state.get("balls_remaining", 1.0))
+
+        if runs_rem <= 0 or w_lost >= 10 or b_rem <= 0:
+            return []
+
+        if self.final_model is None:
+            return []
+
+        try:
+            X_single = self._extract_features_single(state)
+            booster = self.final_model.get_booster()
+            dmatrix = xgb.DMatrix(X_single, enable_categorical=True)
+            contribs = booster.predict(dmatrix, pred_contribs=True)[0]
+
+            feature_names = list(X_single.columns)
+            feature_contribs = contribs[:-1]
+
+            results = []
+            for fname, val in zip(feature_names, feature_contribs):
+                if abs(val) < 1e-4:
+                    continue
+                
+                label = self.FEATURE_LABELS.get(fname, fname.replace("_", " ").title())
+                impact = "positive" if val > 0 else "negative"
+                sign_str = f"+{val:.2f}" if val > 0 else f"{val:.2f}"
+                
+                if val > 0:
+                    narrative = f"{label} pushes win probability UP ({sign_str})"
+                else:
+                    narrative = f"{label} pulls win probability DOWN ({sign_str})"
+
+                results.append({
+                    "feature": label,
+                    "raw_feature": fname,
+                    "contribution": round(float(val), 4),
+                    "abs_contribution": round(abs(float(val)), 4),
+                    "impact": impact,
+                    "narrative": narrative
+                })
+
+            results = sorted(results, key=lambda x: x["abs_contribution"], reverse=True)
+            return results[:top_n]
+        except Exception as e:
+            print(f"Error computing feature contributions: {e}")
+            return []
+
     def predict_batch(self, states_df: pd.DataFrame) -> np.ndarray:
         """
         Vectorised batch prediction for multiple states at once.

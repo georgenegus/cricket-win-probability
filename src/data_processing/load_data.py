@@ -7,6 +7,9 @@ try:
 except ImportError:
     from yaml import SafeLoader
 
+from src.utils.cache_manager import CacheManager
+
+
 
 def _load_single_match_rows(file_path: Path) -> list:
     """
@@ -124,12 +127,13 @@ class CricketDataLoader:
         Uses cached parquet file if available, otherwise loads from YAML and caches.
         """
         
-        # Check if parquet cache exists
-        if self.cache_file.exists():
+        # Check if parquet cache exists and is valid
+        if CacheManager.is_cache_valid(self.cache_file, [Path(__file__)]):
             print(f"Loading from cache: {self.cache_file}")
             df = pd.read_parquet(self.cache_file)
             print(f"Loaded {len(df)} rows from cache")
             return df
+
         
         print(f"Loading from YAML files...")
         file_paths = list(self.data_path.glob("**/*.yaml"))
@@ -192,14 +196,11 @@ class CricketDataLoader:
         # Save to parquet cache.
         print(f"Saving to cache: {self.cache_file}")
         df.to_parquet(self.cache_file, index=False, compression="snappy")
+        CacheManager.register_cache(self.cache_file, [Path(__file__)])
         
         print(f"Loaded {len(df)} rows and saved to cache")
         return df
     
     def clear_cache(self):
         """Remove the cache file to force reloading from YAML."""
-        if self.cache_file.exists():
-            self.cache_file.unlink()
-            print(f"Cleared cache: {self.cache_file}")
-        else:
-            print(f"No cache file found: {self.cache_file}")
+        CacheManager.clear_cache(self.cache_file)

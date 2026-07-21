@@ -1,13 +1,15 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
+from src.utils.cache_manager import CacheManager
 
 
 class VenueEngine:
     """
-    Computes chronological rolling venue features to capture ground-specific behaviors
-    (scoring difficulty, chase success/failure rates) without data leakage.
-    Uses Bayesian shrinkage to smooth rates for sparse venues (venues with few matches).
+    Computes rolling venue-level features prior to each match date:
+    - venue_avg_first_innings_score (rolling mean of first innings totals at venue)
+    - venue_chase_success_rate (rolling win rate of team batting 2nd at venue)
+    Uses empirical global priors for Bayesian shrinkage on venues with few historical matches.
     """
 
     def __init__(
@@ -38,9 +40,10 @@ class VenueEngine:
         return venue.strip().lower()
 
     def run(self, metadata_df: pd.DataFrame, deliveries_df: pd.DataFrame, force=False) -> pd.DataFrame:
-        if not force and self.cache_file.exists():
+        if not force and CacheManager.is_cache_valid(self.cache_file, [Path(__file__)]):
             print(f"Loading venue features from cache: {self.cache_file}")
             return pd.read_parquet(self.cache_file)
+
 
         print("Computing rolling venue-level features...")
 
@@ -158,5 +161,10 @@ class VenueEngine:
         # Save to cache
         print(f"Saving venue features to cache: {self.cache_file}")
         venue_df.to_parquet(self.cache_file, index=False, compression="snappy")
+        CacheManager.register_cache(self.cache_file, [Path(__file__)])
 
         return venue_df
+
+    def clear_cache(self):
+        CacheManager.clear_cache(self.cache_file)
+
