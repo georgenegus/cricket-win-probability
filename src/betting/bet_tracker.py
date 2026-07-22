@@ -13,6 +13,8 @@ class BetTracker:
     COLUMNS = [
         "timestamp",
         "event_id",
+        "market_id",
+        "selection_id",
         "match_description",
         "venue",
         "format",
@@ -40,7 +42,11 @@ class BetTracker:
             df.to_csv(self.log_path, index=False)
 
     def _load_df(self):
-        return pd.read_csv(self.log_path)
+        df = pd.read_csv(self.log_path, dtype={"event_id": str, "market_id": str, "selection_id": str})
+        for col in self.COLUMNS:
+            if col not in df.columns:
+                df[col] = "" if col in ("market_id", "selection_id") else pd.NA
+        return df[self.COLUMNS]
 
     def _save_df(self, df):
         df.to_csv(self.log_path, index=False)
@@ -69,8 +75,14 @@ class BetTracker:
         stake_pct,
         staking_method="kelly_0.25",
         mode="paper",
+        market_id=None,
+        selection_id=None,
     ):
         """Appends a new bet record with result='pending'."""
+        if float(stake or 0.0) <= 0.0:
+            print(f"Skipping bet log for {match_description} ({bet_on}): Stake is £0.00.")
+            return None
+
         df = self._load_df()
 
         # Prevent logging duplicate pending bets for the same event and selection
@@ -86,6 +98,8 @@ class BetTracker:
         new_row = {
             "timestamp": timestamp,
             "event_id": str(event_id),
+            "market_id": str(market_id or ""),
+            "selection_id": str(selection_id or ""),
             "match_description": str(match_description),
             "venue": str(venue or "N/A"),
             "format": str(format_type),
@@ -122,11 +136,17 @@ class BetTracker:
 
         for idx, row in open_bets.iterrows():
             event_id = str(row["event_id"])
+            market_id = str(row.get("market_id") or "").strip()
+            selection_id = str(row.get("selection_id") or "").strip()
             bet_on = str(row["bet_on"])
             match_desc = str(row["match_description"])
 
             try:
-                outcome = betfair_client.check_event_outcome(event_id, bet_on)
+                if market_id and selection_id:
+                    outcome = betfair_client.get_settled_runner_status(market_id, selection_id)
+                else:
+                    outcome = betfair_client.check_event_outcome(event_id, bet_on)
+
                 if outcome in ["win", "loss", "void"]:
                     if self.update_result(event_id, outcome, bet_on=bet_on):
                         settled_count += 1
@@ -149,7 +169,7 @@ class BetTracker:
         if df.empty:
             return False
 
-        mask = (df["event_id"].astype(str) == str(event_id)) & (df["result"] == "pending")
+        mask = (df["event_id"].astype(str) == str(event_id)) & (df["result"].isin(["pending", "unresolvable"]))
         if bet_on:
             mask = mask & (df["bet_on"] == bet_on)
 

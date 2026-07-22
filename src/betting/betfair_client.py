@@ -100,12 +100,14 @@ class BetfairClient:
         results = []
         for e in events_result:
             event = e.event
+            venue_name = getattr(event, "venue", None) or "N/A"
             results.append(
                 {
                     "event_id": str(event.id),
                     "event_name": str(event.name),
                     "open_date": str(event.open_date),
                     "country_code": str(getattr(event, "country_code", "N/A")),
+                    "venue": str(venue_name),
                 }
             )
 
@@ -143,6 +145,7 @@ class BetfairClient:
         cat = catalogues[0]
         market_id = cat.market_id
         comp_name = cat.competition.name if hasattr(cat, "competition") and cat.competition else ""
+        venue_name = getattr(cat.event, "venue", None) if hasattr(cat, "event") and cat.event else "N/A"
         runner_map = {r.selection_id: r.runner_name for r in cat.runners}
 
         # Step 2: Retrieve real-time odds price book
@@ -195,6 +198,7 @@ class BetfairClient:
             "market_id": str(market_id),
             "market_name": str(cat.market_name),
             "competition_name": str(comp_name),
+            "venue": str(venue_name or "N/A"),
             "total_matched": float(getattr(book, "total_matched", 0.0)),
             "runners": runners_data,
         }
@@ -239,6 +243,40 @@ class BetfairClient:
             return best_match, round(best_score, 4)
 
         return None, 0.0
+
+    def get_settled_runner_status(self, market_id, selection_id):
+        """
+        Reads terminal status of a specific runner directly from the market BOOK
+        (survives catalogue purge). Returns "win", "loss", "void", or "pending".
+        """
+        self._ensure_login()
+        books = self.trading.betting.list_market_book(market_ids=[str(market_id)])
+        if not books:
+            return "pending"
+        book = books[0]
+        if getattr(book, "status", None) != "CLOSED":
+            return "pending"                      # match not settled yet
+
+        try:
+            sel = int(selection_id)
+        except (ValueError, TypeError):
+            return "pending"
+
+        runner = next((r for r in book.runners if int(getattr(r, "selection_id", -1)) == sel), None)
+        if runner is None:
+            return "pending"                      # wrong/unknown market — do not guess
+
+        status = getattr(runner, "status", None)
+        if status == "WINNER":
+            return "win"
+        if status == "LOSER":
+            return "loss"
+        if status in ("REMOVED", "REMOVED_VACANT"):
+            return "void"
+        # CLOSED market but our runner is neither W/L/removed, or whole market voided:
+        if not any(getattr(r, "status", None) == "WINNER" for r in book.runners):
+            return "void"                         # abandoned / no-result market
+        return "pending"
 
     def check_event_outcome(self, event_id, bet_on_team):
         """

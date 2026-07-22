@@ -18,6 +18,8 @@ FEATURES = [
     "over_float", "balls_remaining", "phase_encoded", "innings",
     "wickets_lost", "batter_elo", "bowler_elo", "matchup_elo_diff",
     "venue_avg_first_innings_score", "recent_form_batter", "recent_form_bowler",
+    "current_team_score", "striker_balls_faced", "required_run_rate",
+    "non_striker_elo",
 ]
 
 
@@ -76,9 +78,38 @@ def build_training_frame(deliveries: pd.DataFrame, player_elo: pd.DataFrame,
         df.groupby(["match_id", "innings"])["wicket"].cumsum() - df["wicket"]
     ).astype(float)
 
+    # Current team score BEFORE this ball
+    df["current_team_score"] = (
+        df.groupby(["match_id", "innings"])["total_runs"].cumsum() - df["total_runs"]
+    ).astype(float)
+    
+    # Striker balls faced BEFORE this ball
+    df["striker_balls_faced"] = (
+        df.groupby(["match_id", "innings", "batter"]).cumcount()
+    ).astype(float)
+    
+    # Required run rate (only applies to 2nd innings)
+    runs_required = np.where(df["innings"] == 2, df["target_runs"].fillna(999.0) - df["current_team_score"], 0.0)
+    df["required_run_rate"] = np.where(
+        df["innings"] == 2, 
+        (np.clip(runs_required, 0.0, None) / (df["balls_remaining"].replace(0, 1) / 6.0)).clip(upper=36.0),
+        0.0
+    )
+
     # Batter / bowler matchup Elo
     df = _join_player_elo(df, player_elo, who="batter")
     df = _join_player_elo(df, player_elo, who="bowler")
+
+    # Non-striker batting Elo (partnership pressure)
+    ns = (
+        player_elo[player_elo["role"] == "batter"][["match_id", "player", "effective_elo"]]
+        .drop_duplicates(subset=["match_id", "player"])
+        .rename(columns={"player": "non_striker", "effective_elo": "non_striker_elo"})
+    )
+    df = df.merge(ns, on=["match_id", "non_striker"], how="left")
+    df["non_striker_elo"] = df["non_striker_elo"].fillna(1500.0)
+
+    # Recompute matchup difference using raw Elos
     df["matchup_elo_diff"] = df["batter_elo"] - df["bowler_elo"]
 
     # Venue scoring bias

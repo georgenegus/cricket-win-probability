@@ -115,8 +115,13 @@ def run_scanner(
             print("  -> Skipping: Missing back odds price ladder.")
             continue
 
-        # Predict pre-match probability
-        pred_res = predictor.predict(team_a_matched, team_b_matched, format_type=fmt)
+        # Extract venue from Betfair market or event data
+        match_venue = odds_data.get("venue") or ev.get("venue") or "N/A"
+        if match_venue == "N/A":
+            match_venue = None
+
+        # Predict pre-match probability with venue
+        pred_res = predictor.predict(team_a_matched, team_b_matched, venue=match_venue, format_type=fmt)
         model_prob_a = pred_res["prob_a"]
         model_prob_b = pred_res["prob_b"]
 
@@ -133,47 +138,54 @@ def run_scanner(
         val_analysis["event_id"] = event_id
         val_analysis["event_name"] = event_name
         val_analysis["format"] = fmt
+        val_analysis["venue"] = match_venue or "N/A"
 
         scanned_results.append(val_analysis)
 
-        # Log value bets
+        # Log value bets (only if Kelly stake is > 0)
         if val_analysis["is_value_a"]:
-            value_bets_count += 1
             stake_amount = round(bankroll * val_analysis["kelly_stake_a"], 2)
-            tracker.log_bet(
-                event_id=event_id,
-                match_description=f"{team_a_matched} v {team_b_matched}",
-                venue="N/A",
-                format_type=fmt,
-                bet_on=team_a_matched,
-                model_prob=model_prob_a,
-                fair_market_prob=val_analysis["fair_prob_a"],
-                edge=val_analysis["edge_a"],
-                decimal_odds=back_odds_a,
-                stake=stake_amount,
-                stake_pct=val_analysis["kelly_stake_a"],
-                staking_method=f"kelly_{kelly_fraction}",
-                mode=mode,
-            )
+            if stake_amount > 0:
+                value_bets_count += 1
+                tracker.log_bet(
+                    event_id=event_id,
+                    market_id=odds_data["market_id"],
+                    selection_id=runner_a["selection_id"],
+                    match_description=f"{team_a_matched} v {team_b_matched}",
+                    venue=match_venue or "N/A",
+                    format_type=fmt,
+                    bet_on=team_a_matched,
+                    model_prob=model_prob_a,
+                    fair_market_prob=val_analysis["fair_prob_a"],
+                    edge=val_analysis["edge_a"],
+                    decimal_odds=back_odds_a,
+                    stake=stake_amount,
+                    stake_pct=val_analysis["kelly_stake_a"],
+                    staking_method=f"kelly_{kelly_fraction}",
+                    mode=mode,
+                )
 
         if val_analysis["is_value_b"]:
-            value_bets_count += 1
             stake_amount = round(bankroll * val_analysis["kelly_stake_b"], 2)
-            tracker.log_bet(
-                event_id=event_id,
-                match_description=f"{team_a_matched} v {team_b_matched}",
-                venue="N/A",
-                format_type=fmt,
-                bet_on=team_b_matched,
-                model_prob=model_prob_b,
-                fair_market_prob=val_analysis["fair_prob_b"],
-                edge=val_analysis["edge_b"],
-                decimal_odds=back_odds_b,
-                stake=stake_amount,
-                stake_pct=val_analysis["kelly_stake_b"],
-                staking_method=f"kelly_{kelly_fraction}",
-                mode=mode,
-            )
+            if stake_amount > 0:
+                value_bets_count += 1
+                tracker.log_bet(
+                    event_id=event_id,
+                    market_id=odds_data["market_id"],
+                    selection_id=runner_b["selection_id"],
+                    match_description=f"{team_a_matched} v {team_b_matched}",
+                    venue=match_venue or "N/A",
+                    format_type=fmt,
+                    bet_on=team_b_matched,
+                    model_prob=model_prob_b,
+                    fair_market_prob=val_analysis["fair_prob_b"],
+                    edge=val_analysis["edge_b"],
+                    decimal_odds=back_odds_b,
+                    stake=stake_amount,
+                    stake_pct=val_analysis["kelly_stake_b"],
+                    staking_method=f"kelly_{kelly_fraction}",
+                    mode=mode,
+                )
 
     # 3. Print Summary Table
     print(f"\n{'='*85}")

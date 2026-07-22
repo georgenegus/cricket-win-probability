@@ -187,30 +187,49 @@ def extract_match_squads(
             if not v_match.empty:
                 venue_score = float(v_match.iloc[0]["venue_avg_first_innings_score"])
 
-    # Player Elo lookup
-    player_map = {}
+    # Player Elo lookup — batting and bowling ratings kept SEPARATE.
+    # Each player has up to two rows (role="batter" / role="bowler"); a single
+    # name-keyed dict lets one role's Elo clobber the other's (Bug #1).
+    batter_map = {}
+    bowler_map = {}
     if player_path.exists():
         p_df = pd.read_parquet(player_path)
         p_match = p_df[p_df["match_id"].astype(str) == str(match_id)]
         for _, p_row in p_match.iterrows():
             p_name = str(p_row["player"])
-            player_map[p_name] = {
+            entry = {
                 "effective_elo": float(p_row.get("effective_elo", 1500.0)),
                 "recent_form": float(p_row.get("recent_form", 0.0)),
             }
+            if str(p_row.get("role")) == "bowler":
+                bowler_map[p_name] = entry
+            else:
+                batter_map[p_name] = entry
 
     def _build_team_dict(team_name: str, player_list: list) -> Dict[str, Any]:
+        # Batting order as listed; carry each player's BATTING Elo/form.
         lineup = []
         for p in player_list[:11]:
-            info = player_map.get(p, {"effective_elo": 1500.0, "recent_form": 0.0})
+            info = batter_map.get(p, {"effective_elo": 1500.0, "recent_form": 0.0})
             lineup.append({"name": p, "effective_elo": info["effective_elo"], "recent_form": info["recent_form"]})
 
         # Fill up to 11 if player list had fewer
         while len(lineup) < 11:
             lineup.append({"name": f"Dummy_{len(lineup)+1}", "effective_elo": 1500.0, "recent_form": 0.0})
 
-        # Attack: use last 5-6 players from lineup as primary bowling attack
-        attack = lineup[-5:]
+        # Attack = the top 5 players with the highest BOWLING Elo, descending.
+        # We must prioritize players who ACTUALLY have a bowling record. Pure batters
+        # who are missing from bowler_map should NOT default to 1500 for sorting, otherwise
+        # they get selected ahead of actual part-time bowlers who have <1500 Elo.
+        ranked = sorted(
+            [p["name"] for p in lineup],
+            key=lambda name: bowler_map[name]["effective_elo"] if name in bowler_map else 0.0,
+            reverse=True,
+        )
+        attack = []
+        for name in ranked[:5]:
+            info = bowler_map.get(name, {"effective_elo": 1500.0, "recent_form": 0.0})
+            attack.append({"name": name, "effective_elo": info["effective_elo"], "recent_form": info["recent_form"]})
 
         return {"name": team_name, "lineup": lineup, "attack": attack}
 

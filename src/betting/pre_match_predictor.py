@@ -73,8 +73,20 @@ class PreMatchPredictor:
     def get_venue_avg_score(self, venue_name, format_type="t20"):
         """Returns historical venue average first innings score."""
         default_val = 260.0 if format_type in ["od", "odi"] else 160.0
+        if not venue_name or str(venue_name).strip().upper() in ["N/A", "NONE", "UNKNOWN", ""]:
+            return default_val
+
         venues = self.od_venues if format_type in ["od", "odi"] else self.t20_venues
-        return float(venues.get(venue_name, default_val))
+        if venue_name in venues:
+            return float(venues[venue_name])
+
+        clean_target = str(venue_name).strip().lower()
+        for v_name, score in venues.items():
+            clean_v = str(v_name).strip().lower()
+            if clean_target == clean_v or clean_target in clean_v or clean_v in clean_target:
+                return float(score)
+
+        return default_val
 
     def predict(self, team_a, team_b, venue=None, format_type="t20", custom_target=None):
         """
