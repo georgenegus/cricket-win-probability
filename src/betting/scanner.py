@@ -7,6 +7,9 @@ from src.betting.betfair_client import BetfairClient
 from src.betting.pre_match_predictor import PreMatchPredictor
 from src.betting.value_detector import ValueDetector
 from src.betting.bet_tracker import BetTracker
+from src.features.venue_history_resolver import VenueHistoryResolver
+from src.features.venue_review_queue import queue_ambiguous_venue
+from src.data_processing.format_spec import infer_format
 
 
 def run_scanner(
@@ -38,6 +41,7 @@ def run_scanner(
     predictor = PreMatchPredictor()
     detector = ValueDetector(min_edge=threshold, kelly_fraction=kelly_fraction)
     tracker = BetTracker(starting_bankroll=bankroll)
+    history_resolver = VenueHistoryResolver()
 
     # 1b. Check and settle pending bets from past scans
     print("Checking and settling pending bets from previous scans...")
@@ -92,19 +96,9 @@ def run_scanner(
         # Infer format from event_name, competition_name, and market_name
         comp_name = odds_data.get("competition_name", "")
         market_name = odds_data.get("market_name", "")
-        text_to_check = f"{event_name} {comp_name} {market_name}".lower()
+        fmt = infer_format(f"{event_name} {comp_name} {market_name}")
 
-        od_keywords = ["odi", "one-day", "one day", "50 over", "50-over", "metro bank", "royal london", "list a", "1-day"]
-        t20_keywords = ["t20", "twenty20", "blast", "hundred", "ipl", "cpl", "bbl", "psl", "sa20", "ilt20", "mlc", "lpl", "bpl", "super smash"]
-
-        if any(kw in text_to_check for kw in od_keywords):
-            fmt = "od"
-        elif any(kw in text_to_check for kw in t20_keywords):
-            fmt = "t20"
-        else:
-            fmt = "t20"
-
-        if format_filter != "both" and format_filter.lower() != fmt:
+        if format_filter not in ["both", "all"] and format_filter.lower() != fmt:
             print(f"  -> Skipping format {fmt} (filtered for {format_filter}).")
             continue
 
@@ -115,12 +109,55 @@ def run_scanner(
             print("  -> Skipping: Missing back odds price ladder.")
             continue
 
-        # Extract venue from Betfair market or event data
-        match_venue = odds_data.get("venue") or ev.get("venue") or "N/A"
-        if match_venue == "N/A":
-            match_venue = None
+        # Venue resolution cascade:
+        # Tier 1: Betfair metadata
+        # Tier 2: Seed Overrides (Phase 4)
+        # Tier 3: History Engine (Phase 3)
+        # Tier 4: Baseline fallback
+        raw_venue = odds_data.get("venue") or ev.get("venue") or None
+        match_venue = None
+        resolution_tier = "Format Baseline"
 
-        # Predict pre-match probability with venue
+        if raw_venue and str(raw_venue).strip().upper() not in ["N/A", "NONE", "UNKNOWN", ""]:
+            match_venue = raw_venue
+            resolution_tier = "Betfair Metadata"
+        else:
+            inferred_venue, confidence, resolution_info = history_resolver.resolve_from_history(
+                team_a=team_a_matched,
+                team_b=team_b_matched,
+                format_type=fmt,
+            )
+            status = resolution_info.get("status")
+
+            if status == "tiebreak":
+                # Both teams have a real home ground and they conflict — the
+                # title-order tiebreak is used so the match still gets a
+                # venue (better than baseline), but this is a coin-flip
+                # signal, so it's flagged for manual review/override rather
+                # than trusted silently.
+                queue_ambiguous_venue(
+                    raw_identifier=f"{team_a_matched} v {team_b_matched}",
+                    format_type=fmt,
+                    reason="conflicting_home_venues",
+                    candidates=[
+                        {"team": resolution_info.get("team"), "venue": inferred_venue, "share": confidence},
+                        resolution_info.get("rejected_candidate"),
+                    ],
+                    context={"event_name": event_name, "event_id": event_id},
+                )
+
+            if inferred_venue:
+                match_venue = inferred_venue
+                if status == "override":
+                    resolution_tier = "Seed Override"
+                elif status == "tiebreak":
+                    resolution_tier = f"History Engine, tiebreak (conf: {confidence:.1%})"
+                else:
+                    resolution_tier = f"History Engine (conf: {confidence:.1%})"
+
+        print(f"  -> Venue Resolution [{resolution_tier}]: {match_venue or 'Baseline Default'}")
+
+        # Predict pre-match probability with resolved venue
         pred_res = predictor.predict(team_a_matched, team_b_matched, venue=match_venue, format_type=fmt)
         model_prob_a = pred_res["prob_a"]
         model_prob_b = pred_res["prob_b"]

@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from src.utils.cache_manager import CacheManager
+from src.data_processing.format_spec import spec
 
 
 class PhaseEloEngine:
@@ -53,9 +54,13 @@ class PhaseEloEngine:
 
     def _compute_dynamic_baselines(self, deliveries_df: pd.DataFrame):
         df = deliveries_df.copy()
-        df["over_float"] = df["over"] + (df["ball"] - 1) / 6.0
+        bpo = float(spec(self.format_type)["balls_per_over"])
+        df["over_float"] = df["over"] + (df["ball"] - 1) / bpo
 
-        if self.format_type == "od":
+        if self.format_type == "hnd":
+            pp_end = 5.0
+            death_start = 15.0
+        elif self.format_type == "od":
             pp_end = 10.0
             death_start = 40.0
         else:
@@ -98,9 +103,13 @@ class PhaseEloEngine:
 
     def _aggregate_match_phase_stats(self, deliveries_df: pd.DataFrame):
         df = deliveries_df.copy()
-        df["over_float"] = df["over"] + (df["ball"] - 1) / 6.0
+        bpo = float(spec(self.format_type)["balls_per_over"])
+        df["over_float"] = df["over"] + (df["ball"] - 1) / bpo
 
-        if self.format_type == "od":
+        if self.format_type == "hnd":
+            pp_end = 5.0
+            death_start = 15.0
+        elif self.format_type == "od":
             pp_end = 10.0
             death_start = 40.0
         else:

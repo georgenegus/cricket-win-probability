@@ -227,3 +227,99 @@ def price_player_props(
         }
 
     return results
+
+
+def price_top_bowler(
+    sim: Dict[str, Any],
+    attack_names: List[str],
+    innings: str = "inn1",
+    margin: float = 0.0,
+) -> Dict[str, Any]:
+    """
+    Prices the Most Wickets (top bowler) market from the per-bowler wicket matrices.
+    Splits tie counts equally among joint leaders. Sims in which every bowler took zero
+    wickets are treated as no-action (no winner), leaving their probability unassigned —
+    the p_top values are therefore each bowler's outright "most wickets" probability.
+
+    Args:
+        sim: Output dictionary from simulate_match().
+        attack_names: Bowling-side names corresponding to wicket-matrix columns [0..n-1]
+                      (use sim["inn1_bowling_names"] / sim["inn2_bowling_names"]).
+        innings: "inn1" or "inn2".
+        margin: Optional safety margin buffer.
+
+    Returns:
+        Dict mapping bowler names to dicts containing p_top, odds, mc_se, mean_wkts.
+    """
+    n_sims = int(sim.get("n_sims", 10000))
+    key = "inn2_bowler_wkts" if innings in ["inn2", "inn_2", "2"] else "inn1_bowler_wkts"
+    wkts = sim[key]  # shape (n_sims, n_bowlers)
+
+    n_bowlers = wkts.shape[1]
+    names = list(attack_names) + [f"Bowler_{i+1}" for i in range(len(attack_names), n_bowlers)]
+
+    max_wkts = wkts.max(axis=1, keepdims=True)
+    # Only credit a "top" bowler when at least one wicket fell; an all-zero sim has no winner.
+    is_top = (wkts == max_wkts) & (max_wkts > 0)
+    n_ties = is_top.sum(axis=1, keepdims=True)
+    safe_ties = np.where(n_ties == 0, 1, n_ties)  # avoid /0; the numerator is 0 for those rows
+
+    split_counts = (is_top.astype(np.float64) / safe_ties.astype(np.float64)).sum(axis=0)
+    p_top = split_counts / float(n_sims)
+
+    results = {}
+    for i in range(n_bowlers):
+        name = names[i]
+        p_val = float(p_top[i])
+        results[name] = {
+            "p_top": round(p_val, 4),
+            "odds": prob_to_fair_odds(p_val, margin=margin),
+            "mc_se": compute_mc_standard_error(p_val, n_sims),
+            "mean_wkts": round(float(wkts[:, i].mean()), 2),
+        }
+
+    return results
+
+
+def price_bowler_props(
+    sim: Dict[str, Any],
+    attack_names: List[str],
+    target_wkts: float = 2.0,
+    innings: str = "inn1",
+    margin: float = 0.0,
+) -> Dict[str, Any]:
+    """
+    Prices individual bowler wicket-milestone props (e.g. Bowler 2+ / 3+ wickets).
+
+    Args:
+        sim: Output dictionary from simulate_match().
+        attack_names: Bowling-side names corresponding to wicket-matrix columns [0..n-1].
+        target_wkts: The wicket threshold (e.g. 2.0 for 2+ wickets).
+        innings: "inn1" or "inn2".
+        margin: Optional safety margin buffer.
+
+    Returns:
+        Dict mapping bowler names to dicts containing target_wkts, p_hit, odds, mc_se.
+    """
+    n_sims = int(sim.get("n_sims", 10000))
+    key = "inn2_bowler_wkts" if innings in ["inn2", "inn_2", "2"] else "inn1_bowler_wkts"
+    wkts = sim[key]  # shape (n_sims, n_bowlers)
+
+    n_bowlers = wkts.shape[1]
+    names = list(attack_names) + [f"Bowler_{i+1}" for i in range(len(attack_names), n_bowlers)]
+
+    hits = (wkts >= float(target_wkts)).astype(np.float64)
+    p_hits = hits.mean(axis=0)
+
+    results = {}
+    for i in range(n_bowlers):
+        name = names[i]
+        p_val = float(p_hits[i])
+        results[name] = {
+            "target_wkts": float(target_wkts),
+            "p_hit": round(p_val, 4),
+            "odds": prob_to_fair_odds(p_val, margin=margin),
+            "mc_se": compute_mc_standard_error(p_val, n_sims),
+        }
+
+    return results

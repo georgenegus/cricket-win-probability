@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 
 from src.models.delivery_outcome_model import FEATURES, LEGAL_CLASSES
+from src.data_processing.format_spec import spec
 
 # Runs credited for each legal-outcome class, index-aligned with LEGAL_CLASSES
 # ([0, 1, 2, 3, 4, 6, "W"]). The wicket class credits 0 runs off the bat, matching how
@@ -25,13 +26,16 @@ EMPIRICAL_BYES_RUNS = np.array([0, 1, 2, 3, 4], dtype=np.int32)
 EMPIRICAL_BYES_PROBS = np.array([0.9485, 0.0427, 0.0034, 0.0003, 0.0051])
 
 
-def _phase_encoded_from_over(over_idx: np.ndarray) -> np.ndarray:
+def _phase_encoded_from_over(over_idx: np.ndarray, format_type: str = "t20") -> np.ndarray:
     """
     Buckets a 0-indexed over number into powerplay(0)/middle(1)/death(2). Bin edges must
-    exactly match build_training_frame()'s pd.cut(bins=[-1, 5, 14, 999]) — any drift here
+    exactly match build_training_frame()'s phase_encoded binning — any drift here
     silently skews every prediction the simulator makes.
     """
-    return np.select([over_idx <= 5, over_idx <= 14], [0, 1], default=2).astype(np.int64)
+    fmt_spec = spec(format_type)
+    pp_over = fmt_spec["pp_end_ball"] // fmt_spec["balls_per_over"] - 1
+    death_over = fmt_spec["death_start_ball"] // fmt_spec["balls_per_over"] - 1
+    return np.select([over_idx <= pp_over, over_idx <= death_over], [0, 1], default=2).astype(np.int64)
 
 
 def _sample_categorical(prob_matrix: np.ndarray, rng: np.random.Generator) -> np.ndarray:
@@ -64,11 +68,13 @@ def _attack_arrays(attack):
 
 def _assemble_state_matrix(idx, score, wickets, legal_balls, striker, non_striker,
                            lineup_elo, lineup_form, attack_elo, attack_form,
-                           venue_avg_score, innings, total_balls, per_batter_balls, target, format_type="t20") -> pd.DataFrame:
+                           venue_avg_score, innings, total_balls, per_batter_balls, target,
+                           format_type="t20", balls_per_over=6) -> pd.DataFrame:
     """Builds the FEATURES-column state matrix for the live sims in `idx`, one row each."""
+    bpo = float(balls_per_over)
     lb = legal_balls[idx]
-    over_idx = lb // 6
-    ball_in_over = lb % 6
+    over_idx = lb // int(bpo)
+    ball_in_over = lb % int(bpo)
     striker_idx = striker[idx]
     non_striker_idx = non_striker[idx]
     bowler_idx = over_idx % attack_elo.shape[0]   # round-robin bowling rotation
@@ -83,13 +89,13 @@ def _assemble_state_matrix(idx, score, wickets, legal_balls, striker, non_strike
     if innings == 2 and target is not None:
         target_arr = np.broadcast_to(np.asarray(target, dtype=np.float64), score.shape)[idx]
         runs_req = target_arr - score[idx]
-        rrr_denom = np.where(balls_rem == 0, 1.0, balls_rem) / 6.0
+        rrr_denom = np.where(balls_rem == 0, 1.0, balls_rem) / bpo
         rrr = np.clip(np.clip(runs_req, 0.0, None) / rrr_denom, 0.0, 36.0)
 
     state = pd.DataFrame({
-        "over_float": over_idx.astype(np.float64) + ball_in_over.astype(np.float64) / 6.0,
+        "over_float": over_idx.astype(np.float64) + ball_in_over.astype(np.float64) / bpo,
         "balls_remaining": balls_rem.astype(np.float64),
-        "phase_encoded": _phase_encoded_from_over(over_idx),
+        "phase_encoded": _phase_encoded_from_over(over_idx, format_type=format_type),
         "innings": np.full(idx.size, innings, dtype=np.int64),
         "wickets_lost": wickets[idx].astype(np.float64),
         "batter_elo": lineup_elo[striker_idx],
@@ -116,7 +122,8 @@ def _swap(a: np.ndarray, b: np.ndarray, idx: np.ndarray) -> None:
 
 
 def _apply_legal_outcome(legal_idx, class_idx, score, wickets, striker, non_striker,
-                         next_bat, per_batter, legal_balls) -> None:
+                         next_bat, per_batter, legal_balls, per_bowler_wkts, n_bowlers,
+                         balls_per_over=6) -> None:
     """
     Applies sampled legal-ball outcomes in-place to the live simulation-state arrays.
 
@@ -147,8 +154,16 @@ def _apply_legal_outcome(legal_idx, class_idx, score, wickets, striker, non_stri
         wickets[wicket_idx] += 1
         striker[wicket_idx] = next_bat[wicket_idx]
         next_bat[wicket_idx] += 1
+        # Attribute the wicket to the bowler of the delivery just bowled. legal_balls was
+        # incremented at the top of this function, so the delivery sits in over
+        # (legal_balls - 1) // bpo, and the round-robin picks bowler (over % n_bowlers) —
+        # identical to the bowler_idx _assemble_state_matrix used to price this same ball.
+        # wicket_idx holds distinct sim rows, so the fancy-indexed += cannot self-collide.
+        over_of_ball = (legal_balls[wicket_idx] - 1) // balls_per_over
+        bowler_of_ball = over_of_ball % n_bowlers
+        per_bowler_wkts[wicket_idx, bowler_of_ball] += 1
 
-    end_of_over_idx = legal_idx[(legal_balls[legal_idx] % 6) == 0]
+    end_of_over_idx = legal_idx[(legal_balls[legal_idx] % balls_per_over) == 0]
     _swap(striker, non_striker, end_of_over_idx)
 
 
@@ -162,7 +177,8 @@ def _update_live(live, wickets, legal_balls, total_balls, score, target, innings
 
 
 def simulate_innings(model, lineup, attack, venue_avg_score, n_sims=10000,
-                     total_overs=20.0, innings=1, target=None, rng=None):
+                     total_overs=None, balls_per_over=None, format_type=None, innings=1, target=None,
+                     rng=None, start_state=None):
     """
     Runs n_sims independent innings in lockstep, one delivery attempt at a time, fully
     vectorised across sims. One batched model call per delivery attempt (not per sim) is
@@ -176,26 +192,52 @@ def simulate_innings(model, lineup, attack, venue_avg_score, n_sims=10000,
         target: None (innings 1), or a scalar/length-n_sims array of chase targets (innings 2).
                 A sim's chase ends the instant its score reaches its own target.
         rng: an np.random.Generator; pass one seeded upstream (Phase 3) for reproducibility.
+        start_state: None for a fresh innings, or a dict {"runs", "wickets", "legal_balls"}
+                to RESUME an innings already in progress (live mid-innings simulation). Every
+                sim is seeded with the same starting score/wickets/balls; the currently-set
+                batters are taken to be indices (wickets, wickets+1) with next_bat = wickets+2.
+                Per-batter runs cannot be recovered from an aggregate snapshot, so they start
+                at 0 — the currently-batting side's per-batter markets are therefore
+                approximate for the remainder of the innings.
 
-    Returns dict of length-n_sims arrays: final_score, wickets, legal_balls, and
-    per_batter_runs (n_sims x len(lineup)).
+    Returns dict of length-n_sims arrays: final_score, wickets, legal_balls,
+    per_batter_runs (n_sims x len(lineup)), and per_bowler_wkts (n_sims x len(attack)),
+    the latter crediting each wicket to the round-robin bowler of the delivery it fell on.
     """
+    fmt = format_type or getattr(model, "format_type", "t20")
+    fmt_spec = spec(fmt)
+    bpo = int(balls_per_over if balls_per_over is not None else fmt_spec["balls_per_over"])
+    tot_overs = float(total_overs if total_overs is not None else fmt_spec["total_overs"])
+
     rng = rng if rng is not None else np.random.default_rng()
-    total_balls = int(round(total_overs * 6))
+    total_balls = int(round(tot_overs * bpo))
     n_batters = len(lineup)
 
     lineup_elo, lineup_form = _lineup_arrays(lineup)
     attack_elo, attack_form = _attack_arrays(attack)
 
-    score = np.zeros(n_sims, dtype=np.int32)
-    wickets = np.zeros(n_sims, dtype=np.int8)
-    striker = np.zeros(n_sims, dtype=np.int64)
-    non_striker = np.ones(n_sims, dtype=np.int64)
-    next_bat = np.full(n_sims, 2, dtype=np.int64)
-    legal_balls = np.zeros(n_sims, dtype=np.int32)
+    # Seed values: zeros for a fresh innings, or the live snapshot when resuming.
+    s_runs, s_wkts, s_balls = 0, 0, 0
+    if start_state is not None:
+        s_runs = int(start_state.get("runs", 0))
+        s_wkts = int(np.clip(int(start_state.get("wickets", 0)), 0, 10))
+        s_balls = int(np.clip(int(start_state.get("legal_balls", 0)), 0, total_balls))
+
+    score = np.full(n_sims, s_runs, dtype=np.int32)
+    wickets = np.full(n_sims, s_wkts, dtype=np.int8)
+    # With s_wkts down, the on-strike pair are indices (s_wkts, s_wkts+1) and the next batter
+    # in is s_wkts+2. This reduces to the standard 0/1/2 opening when s_wkts == 0.
+    striker = np.full(n_sims, min(s_wkts, n_batters - 1), dtype=np.int64)
+    non_striker = np.full(n_sims, min(s_wkts + 1, n_batters - 1), dtype=np.int64)
+    next_bat = np.full(n_sims, s_wkts + 2, dtype=np.int64)
+    legal_balls = np.full(n_sims, s_balls, dtype=np.int32)
     per_batter = np.zeros((n_sims, n_batters), dtype=np.int32)
     per_batter_balls = np.zeros((n_sims, n_batters), dtype=np.int32)
+    n_bowlers = attack_elo.shape[0]
+    per_bowler_wkts = np.zeros((n_sims, n_bowlers), dtype=np.int32)
     live = np.ones(n_sims, dtype=bool)
+    # A snapshot that is already terminal (all out, overs done, or target met) stays dead.
+    live = _update_live(live, wickets, legal_balls, total_balls, score, target, innings)
 
     # Safety cap against a pathological/degenerate model (e.g. near-zero P(legal)) looping
     # indefinitely. Extras run ~4% historically, so a real model needs well under 2x total_balls.
@@ -214,11 +256,10 @@ def simulate_innings(model, lineup, attack, venue_avg_score, n_sims=10000,
         idx = np.where(live)[0]
         per_batter_balls[idx, striker[idx]] += 1
         
-        format_type = getattr(model, "format_type", "t20")
         state = _assemble_state_matrix(idx, score, wickets, legal_balls, striker, non_striker,
                                        lineup_elo, lineup_form, attack_elo, attack_form,
                                        venue_avg_score, innings, total_balls, per_batter_balls, target,
-                                       format_type=format_type)
+                                       format_type=fmt, balls_per_over=bpo)
         probs = model.predict_proba_batch(state)
 
         extra_class = _sample_categorical(probs["extras"], rng)   # 0 legal / 1 wide / 2 noball
@@ -280,7 +321,8 @@ def simulate_innings(model, lineup, attack, venue_avg_score, n_sims=10000,
                     _swap(striker, non_striker, odd_bye)
 
             _apply_legal_outcome(legal_idx, class_idx, score, wickets, striker,
-                                 non_striker, next_bat, per_batter, legal_balls)
+                                 non_striker, next_bat, per_batter, legal_balls,
+                                 per_bowler_wkts, n_bowlers, balls_per_over=bpo)
 
         live = _update_live(live, wickets, legal_balls, total_balls, score, target, innings)
 
@@ -289,4 +331,5 @@ def simulate_innings(model, lineup, attack, venue_avg_score, n_sims=10000,
         "wickets": wickets,
         "legal_balls": legal_balls,
         "per_batter_runs": per_batter,
+        "per_bowler_wkts": per_bowler_wkts,
     }

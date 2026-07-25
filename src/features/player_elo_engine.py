@@ -48,7 +48,7 @@ class PlayerEloEngine:
         if format_type == "od":
             self.avg_runs_per_ball = 0.85
             self.avg_wickets_per_ball = 0.026
-        else:
+        else:  # t20, hnd
             self.avg_runs_per_ball = 1.25
             self.avg_wickets_per_ball = 0.054
 
@@ -156,7 +156,7 @@ class PlayerEloEngine:
 
         return bat_stats, bowl_stats, bowling_teams
 
-    def run(self, deliveries_df: pd.DataFrame, elo_df: pd.DataFrame, force=False, precomputed_stats=None) -> pd.DataFrame:
+    def run(self, deliveries_df: pd.DataFrame, elo_df: pd.DataFrame, force=False, precomputed_stats=None, seed_ratings=None) -> pd.DataFrame:
         """
         Computes rolling player Elo ratings chronologically.
 
@@ -167,6 +167,8 @@ class PlayerEloEngine:
             precomputed_stats: Optional tuple of (bat_stats, bowl_stats, bowling_teams)
                 from a prior call to _aggregate_match_stats(). Avoids re-aggregating
                 deliveries in sweep scripts where the raw data doesn't change.
+            seed_ratings: Optional dict with 'batter' and 'bowler' keys mapping player -> elo
+                (e.g., warm-started T20 ratings for Phase 4b transfer learning).
         """
         sources = [Path(__file__)]
         registry_file = Path(__file__).parent / "build_player_registry.py"
@@ -180,8 +182,15 @@ class PlayerEloEngine:
 
         print("Computing rolling player Elo ratings...")
         # Reset internal states to ensure a clean run
-        self.batter_ratings = {}
-        self.bowler_ratings = {}
+        if seed_ratings:
+            batter_seeds = seed_ratings.get("batter", {})
+            bowler_seeds = seed_ratings.get("bowler", {})
+            self.batter_ratings = {k: float(v) for k, v in batter_seeds.items()}
+            self.bowler_ratings = {k: float(v) for k, v in bowler_seeds.items()}
+            print(f"  Warm-seeded {len(self.batter_ratings)} batters and {len(self.bowler_ratings)} bowlers from prior ratings.")
+        else:
+            self.batter_ratings = {}
+            self.bowler_ratings = {}
         self.batter_match_counts = {}
         self.bowler_match_counts = {}
         self.batter_last_dates = {}

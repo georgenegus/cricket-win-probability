@@ -4,6 +4,7 @@ import pickle
 from pathlib import Path
 from xgboost import XGBClassifier
 from sklearn.model_selection import GroupKFold
+from src.data_processing.format_spec import spec
 
 
 # Legal-ball outcome classes, in the fixed index order the model emits probabilities for.
@@ -52,7 +53,9 @@ def build_training_frame(deliveries: pd.DataFrame, player_elo: pd.DataFrame,
     Restricted to innings 1-2 — super overs (innings 3+) are a different scoring regime
     and are not modelled by the Phase 2/3 two-innings simulator.
     """
-    total_overs = 50.0 if format_type == "od" else 20.0
+    fmt_spec = spec(format_type)
+    total_overs = float(fmt_spec["total_overs"])
+    bpo = float(fmt_spec["balls_per_over"])
 
     df = deliveries[deliveries["innings"].isin([1, 2])].copy()
 
@@ -67,10 +70,12 @@ def build_training_frame(deliveries: pd.DataFrame, player_elo: pd.DataFrame,
     )
 
     # State features (must be exactly reproducible inside the simulator's live loop)
-    df["over_float"] = df["over"].astype(float) + (df["ball"].astype(float) - 1.0) / 6.0
-    df["balls_remaining"] = ((df["target_overs"].fillna(total_overs) * 6.0)
-                             - (df["over"].astype(float) * 6.0 + df["ball"].astype(float))).clip(lower=0.0)
-    df["phase_encoded"] = pd.cut(df["over"], bins=[-1, 5, 14, 999], labels=[0, 1, 2]).astype(int)
+    df["over_float"] = df["over"].astype(float) + (df["ball"].astype(float) - 1.0) / bpo
+    df["balls_remaining"] = ((df["target_overs"].fillna(total_overs) * bpo)
+                             - (df["over"].astype(float) * bpo + df["ball"].astype(float))).clip(lower=0.0)
+    pp_over = fmt_spec["pp_end_ball"] // fmt_spec["balls_per_over"] - 1
+    death_over = fmt_spec["death_start_ball"] // fmt_spec["balls_per_over"] - 1
+    df["phase_encoded"] = pd.cut(df["over"], bins=[-1, pp_over, death_over, 999], labels=[0, 1, 2]).astype(int)
     df["innings"] = df["innings"].astype(int)
 
     # Wickets lost BEFORE this ball (cumulative within match+innings, exclusive of the current ball)
@@ -92,7 +97,7 @@ def build_training_frame(deliveries: pd.DataFrame, player_elo: pd.DataFrame,
     runs_required = np.where(df["innings"] == 2, df["target_runs"].fillna(999.0) - df["current_team_score"], 0.0)
     df["required_run_rate"] = np.where(
         df["innings"] == 2, 
-        (np.clip(runs_required, 0.0, None) / (df["balls_remaining"].replace(0, 1) / 6.0)).clip(upper=36.0),
+        (np.clip(runs_required, 0.0, None) / (df["balls_remaining"].replace(0, 1) / bpo)).clip(upper=36.0),
         0.0
     )
 
@@ -113,7 +118,7 @@ def build_training_frame(deliveries: pd.DataFrame, player_elo: pd.DataFrame,
     df["matchup_elo_diff"] = df["batter_elo"] - df["bowler_elo"]
 
     # Venue scoring bias
-    default_venue = 260.0 if format_type == "od" else 160.0
+    default_venue = float(fmt_spec["default_venue_score"])
     vf = venue_features[["match_id", "venue_avg_first_innings_score"]]
     df = df.merge(vf, on="match_id", how="left")
     df["venue_avg_first_innings_score"] = df["venue_avg_first_innings_score"].fillna(default_venue)
@@ -134,7 +139,7 @@ class DeliveryOutcomeModel:
 
     def __init__(self, format_type="t20", n_splits=5, random_state=42):
         self.format_type = format_type
-        self.total_overs = 50.0 if format_type == "od" else 20.0
+        self.total_overs = float(spec(format_type)["total_overs"])
         self.n_splits = n_splits
         self.random_state = random_state
 

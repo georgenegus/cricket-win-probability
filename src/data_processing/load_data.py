@@ -27,6 +27,7 @@ def _load_single_match_rows(file_path: Path) -> list:
         return []
 
     info = match.get("info", {})
+    balls_per_over = int(info.get("balls_per_over", 6))
     dates = info.get("dates", [])
     match_date = str(dates[0]) if dates else ""
     venue = info.get("venue", "")
@@ -89,6 +90,7 @@ def _load_single_match_rows(file_path: Path) -> list:
                     "competition": competition,
                     "target_runs": target_runs,
                     "target_overs": target_overs,
+                    "balls_per_over": balls_per_over,
                 })
 
     return rows
@@ -103,7 +105,7 @@ class CricketDataLoader:
     def __init__(self, data_path: str, processed_path: str = "data/processed", format_type: str = "t20"):
         self.format_type = format_type
         base_path = Path(data_path)
-        if base_path.name in ("t20", "od"):
+        if base_path.name in ("t20", "od", "hnd"):
             self.data_path = base_path
         else:
             self.data_path = base_path / format_type
@@ -178,6 +180,8 @@ class CricketDataLoader:
         df["extras"] = df["extras"].astype("int8")
         df["total_runs"] = df["total_runs"].astype("int8")
         df["wicket"] = df["wicket"].astype("int8")
+        if "balls_per_over" in df.columns:
+            df["balls_per_over"] = df["balls_per_over"].astype("int8")
         if "target_runs" in df.columns:
             df["target_runs"] = df["target_runs"].astype("float32")
         if "target_overs" in df.columns:

@@ -1,21 +1,25 @@
 import pandas as pd
 import numpy as np
+from src.data_processing.format_spec import spec
 
 
 class StateBuilder:
 
-    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, player_elo_df: pd.DataFrame = None, phase_elo_df: pd.DataFrame = None, total_overs=20, rolling_window=None):
+    def __init__(self, df: pd.DataFrame, elo_df: pd.DataFrame = None, player_elo_df: pd.DataFrame = None, phase_elo_df: pd.DataFrame = None, total_overs=20, rolling_window=None, format_type="t20", balls_per_over=None):
         self.df = df.copy()
         self.elo_df = elo_df
         self.player_elo_df = player_elo_df
         self.phase_elo_df = phase_elo_df
+        self.format_type = format_type
+        fmt_spec = spec(format_type)
         self.total_overs = total_overs
-        self.rolling_window = rolling_window if rolling_window is not None else (18 if total_overs <= 20 else 36)
+        self.balls_per_over = balls_per_over if balls_per_over is not None else fmt_spec["balls_per_over"]
+        self.rolling_window = rolling_window if rolling_window is not None else (18 if format_type in ("t20", "hnd") or total_overs <= 20 else 36)
 
     def add_over_info(self):
         self.df["over_float"] = (
             self.df["over"] +
-            (self.df["ball"] - 1) / 6
+            (self.df["ball"] - 1) / self.balls_per_over
         )
         return self
 
@@ -27,7 +31,10 @@ class StateBuilder:
             self.total_overs
         )
 
-        if self.total_overs > 20:
+        if self.format_type == "hnd":
+            powerplay_end = np.where(eff_overs < 20, eff_overs * 0.25, 5.0)
+            death_start = np.where(eff_overs < 20, eff_overs * 0.75, 15.0)
+        elif self.total_overs > 20 or self.format_type == "od":
             powerplay_end = np.where(eff_overs > 20, 10.0, eff_overs * 0.3)
             death_start = np.where(eff_overs > 20, 40.0, eff_overs * 0.75)
         else:
@@ -103,7 +110,7 @@ class StateBuilder:
             self.total_overs
         )
         eff_overs_floor = np.floor(eff_overs)
-        eff_balls_allowed = eff_overs_floor * 6 + np.round((eff_overs - eff_overs_floor) * 10)
+        eff_balls_allowed = eff_overs_floor * self.balls_per_over + np.round((eff_overs - eff_overs_floor) * 10)
         bad = self.df[self.df["balls_faced"] > eff_balls_allowed]
 
         if len(bad) > 0:
@@ -130,7 +137,7 @@ class StateBuilder:
         self.df["run_rate"] = np.where(
             self.df["balls_faced"] > 0,
             self.df["runs_scored"] /
-            (self.df["balls_faced"] / 6),
+            (self.df["balls_faced"] / self.balls_per_over),
             0
         )
 
@@ -185,11 +192,11 @@ class StateBuilder:
         )
         self.df = self.df.drop(columns=["_runs_conceded_temp"])
         
-        default_econ = 8.0 if self.total_overs <= 20 else 5.0
-        self.df["bowler_overs_bowled"] = (self.df["bowler_balls_bowled"] / 6.0).astype(float)
+        default_econ = 8.0 if self.format_type in ("t20", "hnd") or self.total_overs <= 20 else 5.0
+        self.df["bowler_overs_bowled"] = (self.df["bowler_balls_bowled"] / float(self.balls_per_over)).astype(float)
         self.df["bowler_economy"] = np.where(
             self.df["bowler_balls_bowled"] > 0,
-            self.df["bowler_runs_conceded"] / (self.df["bowler_balls_bowled"] / 6.0),
+            self.df["bowler_runs_conceded"] / (self.df["bowler_balls_bowled"] / float(self.balls_per_over)),
             default_econ
         ).astype(float)
 
@@ -232,15 +239,15 @@ class StateBuilder:
             self.total_overs
         )
         eff_overs_floor = np.floor(effective_overs)
-        eff_balls_allowed = eff_overs_floor * 6 + np.round((effective_overs - eff_overs_floor) * 10)
+        eff_balls_allowed = eff_overs_floor * self.balls_per_over + np.round((effective_overs - eff_overs_floor) * 10)
         df_filtered["balls_remaining"] = np.maximum(
             eff_balls_allowed - df_filtered["balls_faced"],
             0.0
         )
         
         # Avoid division by zero by using a safe denominator when balls_remaining <= 0
-        safe_balls = np.where(df_filtered["balls_remaining"] > 0, df_filtered["balls_remaining"], 6.0)
-        required_rr = df_filtered["runs_remaining"] / (safe_balls / 6.0)
+        safe_balls = np.where(df_filtered["balls_remaining"] > 0, df_filtered["balls_remaining"], float(self.balls_per_over))
+        required_rr = df_filtered["runs_remaining"] / (safe_balls / float(self.balls_per_over))
         
         df_filtered["required_run_rate"] = np.where(
             df_filtered["innings"] == 2,

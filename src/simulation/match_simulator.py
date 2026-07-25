@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 
 from src.simulation.innings_simulator import simulate_innings
+from src.data_processing.format_spec import spec
 
 
 def simulate_match(
@@ -19,9 +20,12 @@ def simulate_match(
     team_b: Dict[str, Any],
     venue_avg_score: float,
     n_sims: int = 10000,
-    total_overs: float = 20.0,
+    total_overs: Optional[float] = None,
+    balls_per_over: Optional[float] = None,
+    format_type: Optional[str] = None,
     bat_first: str = "a",
     seed: Optional[int] = 42,
+    live_state: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
     Simulates a full two-innings Monte Carlo match across n_sims iterations.
@@ -35,6 +39,13 @@ def simulate_match(
         total_overs: Match overs per innings (20.0 for T20, 50.0 for ODI).
         bat_first: "a" or "b" indicating which team bats first.
         seed: Random seed for reproducibility across the simulation ensemble.
+        live_state: None for a pre-match simulation, or a dict describing an in-progress
+            match to RESUME from: {"innings": 1|2, "runs", "wickets", "legal_balls",
+            "target" (required when innings==2)}. bat_first must be set so the team currently
+            batting is the 1st-batting team when innings==1, or the 2nd-batting (chasing)
+            team when innings==2. When innings==2 the 1st innings is already complete, so it
+            is fixed at target-1 rather than simulated (its per-batter markets are settled and
+            returned as zeros — callers should not price 1st-innings props in that case).
 
     Returns:
         Dict of length-n_sims outcome arrays and aggregated indicators:
@@ -46,6 +57,8 @@ def simulate_match(
             - "inn2_balls": 2nd innings legal balls bowled
             - "inn1_batter_runs": (n_sims, len(inn1_lineup)) 2D array of per-batter runs
             - "inn2_batter_runs": (n_sims, len(inn2_lineup)) 2D array of per-batter runs
+            - "inn1_bowler_wkts"/"inn2_bowler_wkts": (n_sims, len(attack)) per-bowler wickets
+            - "inn1_bowling_names"/"inn2_bowling_names": names labelling those wicket columns
             - "first_batting_won": boolean array (True if 1st batting team won)
             - "second_batting_won": boolean array (True if 2nd batting team won)
             - "is_tie": boolean array (True if scores equal)
@@ -70,35 +83,79 @@ def simulate_match(
     first_name = first_team.get("name", "Team A" if bat_first_clean == "a" else "Team B")
     second_name = second_team.get("name", "Team B" if bat_first_clean == "a" else "Team A")
 
+    fmt = format_type or getattr(model, "format_type", "t20")
+    fmt_spec = spec(fmt)
+    tot_overs = float(total_overs if total_overs is not None else fmt_spec["total_overs"])
+    bpo = int(balls_per_over if balls_per_over is not None else fmt_spec["balls_per_over"])
+
     rng = np.random.default_rng(seed)
 
-    # Innings 1 simulation
-    inn1 = simulate_innings(
-        model=model,
-        lineup=first_team["lineup"],
-        attack=second_team["attack"],
-        venue_avg_score=venue_avg_score,
-        n_sims=n_sims,
-        total_overs=total_overs,
-        innings=1,
-        target=None,
-        rng=rng,
-    )
+    live_innings = int(live_state["innings"]) if live_state else None
+
+    if live_innings == 2:
+        # 1st innings is complete — its total is known (target - 1), so don't re-simulate it.
+        # Per-batter runs for a settled innings can't be recovered from a snapshot; zeros
+        # signal callers not to price 1st-innings props.
+        known_target = int(live_state["target"])
+        inn1_final = np.full(n_sims, known_target - 1, dtype=np.int32)
+        inn1 = {
+            "final_score": inn1_final,
+            "wickets": np.full(n_sims, 10, dtype=np.int8),
+            "legal_balls": np.full(n_sims, int(round(tot_overs * bpo)), dtype=np.int32),
+            "per_batter_runs": np.zeros((n_sims, len(first_team["lineup"])), dtype=np.int32),
+            # 1st innings is settled on a live inn2 resume; per-bowler wickets can't be
+            # recovered from the aggregate snapshot, so zeros signal "don't price these".
+            "per_bowler_wkts": np.zeros((n_sims, len(second_team["attack"])), dtype=np.int32),
+        }
+    else:
+        # Fresh 1st innings, or a live 1st innings resumed from the current snapshot.
+        inn1_start = None
+        if live_innings == 1:
+            inn1_start = {
+                "runs": live_state["runs"],
+                "wickets": live_state["wickets"],
+                "legal_balls": live_state["legal_balls"],
+            }
+        inn1 = simulate_innings(
+            model=model,
+            lineup=first_team["lineup"],
+            attack=second_team["attack"],
+            venue_avg_score=venue_avg_score,
+            n_sims=n_sims,
+            total_overs=tot_overs,
+            balls_per_over=bpo,
+            format_type=fmt,
+            innings=1,
+            target=None,
+            rng=rng,
+            start_state=inn1_start,
+        )
 
     # Chase targets for Innings 2: target is inn1_score + 1
     targets = inn1["final_score"] + 1
 
-    # Innings 2 simulation
+    # 2nd innings: resume from the live snapshot when the match is currently in innings 2.
+    inn2_start = None
+    if live_innings == 2:
+        inn2_start = {
+            "runs": live_state["runs"],
+            "wickets": live_state["wickets"],
+            "legal_balls": live_state["legal_balls"],
+        }
+
     inn2 = simulate_innings(
         model=model,
         lineup=second_team["lineup"],
         attack=first_team["attack"],
         venue_avg_score=venue_avg_score,
         n_sims=n_sims,
-        total_overs=total_overs,
+        total_overs=tot_overs,
+        balls_per_over=bpo,
+        format_type=fmt,
         innings=2,
         target=targets,
         rng=rng,
+        start_state=inn2_start,
     )
 
     inn1_score = inn1["final_score"]
@@ -123,6 +180,12 @@ def simulate_match(
         "inn2_balls": inn2["legal_balls"],
         "inn1_batter_runs": inn1["per_batter_runs"],
         "inn2_batter_runs": inn2["per_batter_runs"],
+        # Per-bowler wickets, plus the bowling side's names to label each column. Inn1 is
+        # bowled by the 2nd team's attack, inn2 by the 1st team's attack.
+        "inn1_bowler_wkts": inn1["per_bowler_wkts"],
+        "inn2_bowler_wkts": inn2["per_bowler_wkts"],
+        "inn1_bowling_names": [p.get("name", f"Bowler_{i+1}") for i, p in enumerate(second_team["attack"])],
+        "inn2_bowling_names": [p.get("name", f"Bowler_{i+1}") for i, p in enumerate(first_team["attack"])],
         "first_batting_won": first_won,
         "second_batting_won": second_won,
         "is_tie": is_tie,
@@ -148,7 +211,13 @@ def extract_match_squads(
         (team_1_dict, team_2_dict, venue_avg_score)
     """
     p_dir = Path(processed_dir)
-    fmt = "od" if str(format_type).lower() in ["od", "odi"] else "t20"
+    fmt_clean = str(format_type).lower().strip()
+    if fmt_clean in ["od", "odi"]:
+        fmt = "od"
+    elif fmt_clean in ["hnd", "hundred", "100"]:
+        fmt = "hnd"
+    else:
+        fmt = "t20"
 
     meta_path = p_dir / f"{fmt}_match_metadata.parquet"
     player_path = p_dir / f"{fmt}_player_elo_ratings.parquet"
@@ -178,7 +247,7 @@ def extract_match_squads(
     t2_players = _parse_players(row["team_2_players"])
 
     # Venue score lookup
-    default_venue_score = 260.0 if fmt == "od" else 160.0
+    default_venue_score = float(spec(fmt)["default_venue_score"])
     venue_score = default_venue_score
     if venue_path.exists():
         v_df = pd.read_parquet(venue_path)

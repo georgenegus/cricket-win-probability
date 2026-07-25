@@ -113,7 +113,7 @@ class MatchMetadataExtractor:
     def __init__(self, raw_data_path: str, processed_path: str = "data/processed", format_type: str = "t20"):
         self.format_type = format_type
         base_path = Path(raw_data_path)
-        if base_path.name in ("t20", "od"):
+        if base_path.name in ("t20", "od", "hnd"):
             self.raw_data_path = base_path
         else:
             self.raw_data_path = base_path / format_type

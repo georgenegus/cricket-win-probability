@@ -33,23 +33,42 @@ class BetTracker:
     ]
 
     def __init__(self, log_path="data/betting/bet_log.csv", starting_bankroll=1000.0):
-        self.log_path = Path(log_path)
-        self.log_path.parent.mkdir(parents=True, exist_ok=True)
+        self.primary_log_path = Path(log_path)
+        self.primary_log_path.parent.mkdir(parents=True, exist_ok=True)
         self.starting_bankroll = float(starting_bankroll)
+        self.active_log_path = self.primary_log_path
 
-        if not self.log_path.exists():
+        if not self.primary_log_path.exists():
             df = pd.DataFrame(columns=self.COLUMNS)
-            df.to_csv(self.log_path, index=False)
+            try:
+                df.to_csv(self.primary_log_path, index=False)
+            except PermissionError:
+                self.active_log_path = self.primary_log_path.parent / "bet_log_latest.csv"
+                df.to_csv(self.active_log_path, index=False)
+
+    @property
+    def log_path(self):
+        return self.active_log_path
 
     def _load_df(self):
-        df = pd.read_csv(self.log_path, dtype={"event_id": str, "market_id": str, "selection_id": str})
+        target_path = self.active_log_path if self.active_log_path.exists() else self.primary_log_path
+        if not target_path.exists():
+            return pd.DataFrame(columns=self.COLUMNS)
+        df = pd.read_csv(target_path, dtype={"event_id": str, "market_id": str, "selection_id": str})
         for col in self.COLUMNS:
             if col not in df.columns:
                 df[col] = "" if col in ("market_id", "selection_id") else pd.NA
         return df[self.COLUMNS]
 
     def _save_df(self, df):
-        df.to_csv(self.log_path, index=False)
+        try:
+            df.to_csv(self.primary_log_path, index=False)
+            self.active_log_path = self.primary_log_path
+        except PermissionError:
+            self.active_log_path = self.primary_log_path.parent / "bet_log_latest.csv"
+            print(f"\n[WARNING] Could not write to {self.primary_log_path} (file is locked or open in Excel).")
+            print(f"[WARNING] Saving bet log to active location: {self.active_log_path}")
+            df.to_csv(self.active_log_path, index=False)
 
     def get_current_bankroll(self):
         """Calculates current bankroll based on initial balance and net settled P&L."""

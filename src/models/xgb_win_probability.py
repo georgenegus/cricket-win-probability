@@ -5,6 +5,8 @@ from pathlib import Path
 from xgboost import XGBClassifier
 from sklearn.model_selection import GroupKFold
 
+from src.data_processing.format_spec import spec
+
 
 class XGBWinProbabilityModel:
     """
@@ -12,15 +14,32 @@ class XGBWinProbabilityModel:
     Supports Group K-Fold cross-validation by match_id to prevent data leakage during validation.
     """
 
-    def __init__(self, n_estimators=None, max_depth=None, learning_rate=None, 
+    # Monotonic-direction prior for XGBoost's monotone_constraints (Phase 3, hnd-gated): the
+    # chasing team's win probability has an unambiguous cricket direction in these features.
+    # Anything not listed defaults to 0 (no constraint) -- ambiguous/contextual features
+    # (venue, phase flags, competition, style, target, balls_remaining) stay unconstrained.
+    MONOTONE_POSITIVE_FEATURES = frozenset({
+        "proportion_scored", "wickets_in_hand", "run_rate", "scoring_acceleration",
+        "balls_per_run_needed", "resources_remaining", "batting_team_elo",
+        "batting_team_phase_elo", "elo_diff", "phase_elo_diff", "batter_elo",
+        "batting_squad_elo", "batting_duo_elo_avg",
+    })
+    MONOTONE_NEGATIVE_FEATURES = frozenset({
+        "runs_remaining", "required_run_rate", "pressure_index", "wickets_lost",
+        "bowling_team_elo", "bowling_team_phase_elo", "bowler_elo", "bowling_squad_elo",
+    })
+
+    def __init__(self, n_estimators=None, max_depth=None, learning_rate=None,
                  min_child_weight=None, subsample=None, colsample_bytree=None,
                  reg_alpha=None, reg_lambda=None, random_state=42, format_type="t20",
                  baseline_rr=None, pressure_wicket_div=None, b_factor=None, wicket_exp=None,
                  rolling_window=None, elo_death_start=None, elo_powerplay_end=None):
         self.format_type = format_type
         self.random_state = random_state
-        self.rolling_window = rolling_window if rolling_window is not None else (18 if format_type == "t20" else 36)
-        
+        self._spec = spec(format_type)
+        self.balls_per_over = self._spec["balls_per_over"]
+        self.rolling_window = rolling_window if rolling_window is not None else (18 if format_type in ("t20", "hnd") else 36)
+
         # Set format-specific defaults
         if format_type == "od":
             self.n_estimators = n_estimators if n_estimators is not None else 339
@@ -31,14 +50,31 @@ class XGBWinProbabilityModel:
             self.colsample_bytree = colsample_bytree if colsample_bytree is not None else 0.7
             self.reg_alpha = reg_alpha if reg_alpha is not None else 0.0
             self.reg_lambda = reg_lambda if reg_lambda is not None else 1.0
-            
+
             self.baseline_rr = float(baseline_rr if baseline_rr is not None else 5.0)
             self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 15.0)
             self.total_format_balls = 300.0
             self.b_factor = float(b_factor if b_factor is not None else 0.04)
             self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.2)
-            self.elo_death_start = float(elo_death_start if elo_death_start is not None else 60.0)
-            self.elo_powerplay_end = float(elo_powerplay_end if elo_powerplay_end is not None else 240.0)
+        elif format_type == "hnd":
+            # Phase 4 sweep winner (tests/hundred_winprob_sweep.py, data/processed/hnd_winprob_sweep_results.csv):
+            # mean OOF Brier 0.169295 vs. 0.188889 for the pre-sweep defaults (max_depth=4, reg_alpha=1,
+            # reg_lambda=3, subsample/colsample=0.8) -- shallower + more regularized generalizes much
+            # better on ~15K states / 162 matches.
+            self.n_estimators = n_estimators if n_estimators is not None else 300
+            self.max_depth = max_depth if max_depth is not None else 2
+            self.learning_rate = learning_rate if learning_rate is not None else 0.08
+            self.min_child_weight = min_child_weight if min_child_weight is not None else 10
+            self.subsample = subsample if subsample is not None else 0.7
+            self.colsample_bytree = colsample_bytree if colsample_bytree is not None else 0.7
+            self.reg_alpha = reg_alpha if reg_alpha is not None else 3.0
+            self.reg_lambda = reg_lambda if reg_lambda is not None else 10.0
+            
+            self.baseline_rr = float(baseline_rr if baseline_rr is not None else 8.0)
+            self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 10.0)
+            self.total_format_balls = 100.0
+            self.b_factor = float(b_factor if b_factor is not None else 0.09)
+            self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.6)
         else:
             self.n_estimators = n_estimators if n_estimators is not None else 300
             self.max_depth = max_depth if max_depth is not None else 4
@@ -54,7 +90,16 @@ class XGBWinProbabilityModel:
             self.total_format_balls = 120.0
             self.b_factor = float(b_factor if b_factor is not None else 0.09)
             self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.6)
-            
+
+        # Elo phase-decay thresholds, in balls-remaining terms, derived from format_spec so
+        # t20/od reproduce their previous hardcoded values exactly while hnd gets the correct
+        # 100-ball thresholds instead of the previous (120-ball-derived) ones.
+        # Equivalence: t20 120-90=30, 120-36=84; od 300-240=60, 300-60=240; hnd 100-75=25, 100-25=75.
+        default_death_start_rem = self._spec["total_balls"] - self._spec["death_start_ball"]
+        default_powerplay_end_rem = self._spec["total_balls"] - self._spec["pp_end_ball"]
+        self.elo_death_start = float(elo_death_start if elo_death_start is not None else default_death_start_rem)
+        self.elo_powerplay_end = float(elo_powerplay_end if elo_powerplay_end is not None else default_powerplay_end_rem)
+
         self.fold_models = {}  # key: fold_index, value: fitted XGBClassifier
         self.final_model = None  # trained on 100% of the data
         self.match_to_fold = {}  # key: match_id, value: fold_index
@@ -118,7 +163,7 @@ class XGBWinProbabilityModel:
         target_overs = df.get("target_overs", pd.Series(np.nan, index=df.index))
         total_balls = np.where(
             (df["innings"] == 2) & target_overs.notna(),
-            target_overs * 6.0,
+            target_overs * self.balls_per_over,
             self.total_format_balls
         )
         wicket_pressure = (
@@ -135,17 +180,11 @@ class XGBWinProbabilityModel:
         phase_map = {"powerplay": 0, "middle": 1, "death": 2}
         features["phase_encoded"] = df["phase"].map(phase_map).fillna(0).astype(int)
 
-        # Elo features with phase-based decay:
-        # Full strength in Powerplay, linear decay in Middle, 0 in Death (parameterized for total overs)
-        total_overs = df.get("total_overs", pd.Series(20.0, index=df.index)).astype(float)
-        total_balls = total_overs * 6.0
-        
-        is_one_day = total_overs > 20
-        death_start_balls = np.where(is_one_day, self.elo_death_start if self.format_type == "od" else 60.0, total_balls * 0.25)
-        powerplay_end_balls = np.where(is_one_day, self.elo_powerplay_end if self.format_type == "od" else 240.0, total_balls * 0.70)
-        
-        middle_duration = np.maximum(powerplay_end_balls - death_start_balls, 1.0)
-        decay_weight = np.clip((features["balls_remaining"] - death_start_balls) / middle_duration, 0.0, 1.0)
+        # Elo features with phase-based decay: full strength in Powerplay, linear decay in
+        # Middle, 0 in Death. Thresholds are the format_spec-derived self.elo_death_start /
+        # self.elo_powerplay_end scalars set in __init__ (balls-remaining terms).
+        middle_duration = max(self.elo_powerplay_end - self.elo_death_start, 1.0)
+        decay_weight = np.clip((features["balls_remaining"] - self.elo_death_start) / middle_duration, 0.0, 1.0)
         features["batting_team_elo"] = 1500.0 + (df["batting_team_elo"].astype(float) - 1500.0) * decay_weight
         features["bowling_team_elo"] = 1500.0 + (df["bowling_team_elo"].astype(float) - 1500.0) * decay_weight
         features["elo_diff"] = df["elo_diff"].astype(float) * decay_weight
@@ -189,6 +228,12 @@ class XGBWinProbabilityModel:
         features["is_powerplay"] = (features["phase_encoded"] == 0).astype(float)
         features["is_death"] = (features["phase_encoded"] == 2).astype(float)
 
+        # Phase 5/6: is_hundred lets the (optionally T20-pooled) hnd model distinguish pooled
+        # T20 rows (tagged 0.0 by the pooling caller, see fit()) from its own hnd rows (always
+        # 1.0 here). hnd-gated so t20/od's feature schema -- and their cached models -- never change.
+        if self.format_type == "hnd":
+            features["is_hundred"] = 1.0
+
         if self.format_type == "od":
             comp_map = {
                 "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
@@ -204,8 +249,8 @@ class XGBWinProbabilityModel:
             default_val = 16.0 # default to t20s
         features["competition_encoded"] = df["competition"].map(comp_map).fillna(default_val).astype(float)
 
-        # Player Elo features (only for T20 and ODI formats)
-        if self.format_type in ["t20", "od"]:
+        # Player Elo features (t20 / od / hnd — hnd warm-started from T20 ratings via seed_ratings)
+        if self.format_type in ["t20", "od", "hnd"]:
             p_bat = df.get("batter_elo", pd.Series(1500.0, index=df.index)).astype(float)
             p_bowl = df.get("bowler_elo", pd.Series(1500.0, index=df.index)).astype(float)
             p_diff = df.get("player_elo_diff", pd.Series(0.0, index=df.index)).astype(float)
@@ -275,7 +320,7 @@ class XGBWinProbabilityModel:
         target_overs = state.get("target_overs")
         innings = state.get("innings", 2)
         if innings == 2 and pd.notna(target_overs) and target_overs > 0:
-            total_balls = float(target_overs) * 6.0
+            total_balls = float(target_overs) * self.balls_per_over
         else:
             total_balls = self.total_format_balls
             
@@ -292,20 +337,11 @@ class XGBWinProbabilityModel:
         phase_val = state.get("phase", "middle")
         features["phase_encoded"] = phase_map.get(phase_val, 1)
 
-        # Elo features with phase-based decay:
-        # Full strength in Powerplay, linear decay in Middle, 0 in Death (parameterized for total overs)
-        total_overs = float(state.get("total_overs", 20.0))
-        total_balls = total_overs * 6.0
-        
-        if total_overs > 20:
-            death_start_balls = self.elo_death_start if self.format_type == "od" else 60.0
-            powerplay_end_balls = self.elo_powerplay_end if self.format_type == "od" else 240.0
-        else:
-            death_start_balls = total_balls * 0.25
-            powerplay_end_balls = total_balls * 0.70
-            
-        middle_duration = max(powerplay_end_balls - death_start_balls, 1.0)
-        decay_weight = float(np.clip((features["balls_remaining"] - death_start_balls) / middle_duration, 0.0, 1.0))
+        # Elo features with phase-based decay: full strength in Powerplay, linear decay in
+        # Middle, 0 in Death. Thresholds are the format_spec-derived self.elo_death_start /
+        # self.elo_powerplay_end scalars set in __init__ (balls-remaining terms).
+        middle_duration = max(self.elo_powerplay_end - self.elo_death_start, 1.0)
+        decay_weight = float(np.clip((features["balls_remaining"] - self.elo_death_start) / middle_duration, 0.0, 1.0))
         batting_elo = float(state.get("batting_team_elo", 1500.0))
         bowling_elo = float(state.get("bowling_team_elo", 1500.0))
         elo_diff = float(state.get("elo_diff", 0.0))
@@ -346,6 +382,10 @@ class XGBWinProbabilityModel:
         features["is_powerplay"] = float(features["phase_encoded"] == 0)
         features["is_death"] = float(features["phase_encoded"] == 2)
 
+        # See _extract_features_and_target -- hnd-gated, keeps t20/od schema unchanged.
+        if self.format_type == "hnd":
+            features["is_hundred"] = 1.0
+
         if self.format_type == "od":
             comp_map = {
                 "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
@@ -362,8 +402,8 @@ class XGBWinProbabilityModel:
         comp_val = state.get("competition", "t20s")
         features["competition_encoded"] = float(comp_map.get(comp_val, default_val))
 
-        # Player Elo features (only for T20 and ODI formats)
-        if self.format_type in ["t20", "od"]:
+        # Player Elo features (t20 / od / hnd — hnd warm-started from T20 ratings via seed_ratings)
+        if self.format_type in ["t20", "od", "hnd"]:
             p_bat = float(state.get("batter_elo", 1500.0))
             p_bowl = float(state.get("bowler_elo", 1500.0))
             p_diff = float(state.get("player_elo_diff", 0.0))
@@ -417,11 +457,34 @@ class XGBWinProbabilityModel:
         df_feat["bowler_style"] = df_feat["bowler_style"].astype(bowl_type)
         return df_feat
 
+    def _build_monotone_constraints(self, columns):
+        """
+        Builds an order-safe monotone_constraints tuple from live column names (hnd-gated).
+        Returns None for t20/od, which is identical to XGBoost's own default -- no behaviour change.
+        """
+        if self.format_type != "hnd":
+            return None
+        signs = tuple(
+            1 if col in self.MONOTONE_POSITIVE_FEATURES
+            else -1 if col in self.MONOTONE_NEGATIVE_FEATURES
+            else 0
+            for col in columns
+        )
+        assert len(signs) == len(columns)
+        return signs
 
-    def fit(self, states: pd.DataFrame, cache_path=None, train_final_model=True):
+    def fit(self, states: pd.DataFrame, cache_path=None, train_final_model=True, pool_X=None, pool_y=None):
         """
         Fits Group K-Fold XGBoost classifiers grouped by match_id to prevent validation leakage,
         as well as a final model trained on all data.
+
+        pool_X/pool_y (Phase 5/6, hnd only): pre-extracted feature/target rows from another
+        format (e.g. T20) pooled into every fold's TRAINING set as extra signal. Pool rows are
+        never held out and never scored -- fold validation, OOF calibration, and match_to_fold
+        are all computed purely from `states`. When pooling, hyperparameters and monotone
+        constraints switch to the validated pooled config (see hundred_winprob_pooling_experiment.py)
+        instead of self's own tiny-corpus-tuned attributes. t20/od never pass pool_X, so their
+        behaviour is unchanged (byte-identical) from before pooling existed.
         """
         if cache_path is not None:
             cache_file = Path(cache_path)
@@ -438,12 +501,34 @@ class XGBWinProbabilityModel:
 
         print("Extracting features for training...")
         X, y = self._extract_features_and_target(states)
+        monotone_constraints = self._build_monotone_constraints(X.columns)
+
+        is_pooled = pool_X is not None
+        if is_pooled:
+            pool_hp = XGBWinProbabilityModel(format_type="t20")
+            xgb_kwargs = dict(
+                n_estimators=pool_hp.n_estimators, max_depth=pool_hp.max_depth,
+                learning_rate=pool_hp.learning_rate, min_child_weight=pool_hp.min_child_weight,
+                subsample=pool_hp.subsample, colsample_bytree=pool_hp.colsample_bytree,
+                reg_alpha=pool_hp.reg_alpha, reg_lambda=pool_hp.reg_lambda,
+                monotone_constraints=None,
+            )
+        else:
+            xgb_kwargs = dict(
+                n_estimators=self.n_estimators, max_depth=self.max_depth,
+                learning_rate=self.learning_rate, min_child_weight=self.min_child_weight,
+                subsample=self.subsample, colsample_bytree=self.colsample_bytree,
+                reg_alpha=self.reg_alpha, reg_lambda=self.reg_lambda,
+                monotone_constraints=monotone_constraints,
+            )
 
         # Get unique match_ids for GroupKFold
         match_ids = states["match_id"].values
         unique_matches = states["match_id"].unique()
 
         print(f"Dataset has {len(states):,} states across {len(unique_matches):,} unique matches.")
+        if is_pooled:
+            print(f"Pooling in {len(pool_X):,} additional never-held-out training rows.")
 
         # Perform GroupKFold
         gkf = GroupKFold(n_splits=5)
@@ -462,25 +547,23 @@ class XGBWinProbabilityModel:
             X_train, y_train = X.iloc[train_idx], y.iloc[train_idx]
             X_val, y_val = X.iloc[val_idx], y.iloc[val_idx]
 
+            if is_pooled:
+                X_train = pd.concat([X_train, pool_X], ignore_index=True)
+                y_train = pd.concat([y_train, pool_y], ignore_index=True)
+
             model = XGBClassifier(
-                n_estimators=self.n_estimators,
-                max_depth=self.max_depth,
-                learning_rate=self.learning_rate,
-                min_child_weight=self.min_child_weight,
-                subsample=self.subsample,
-                colsample_bytree=self.colsample_bytree,
-                reg_alpha=self.reg_alpha,
-                reg_lambda=self.reg_lambda,
+                **xgb_kwargs,
                 objective="binary:logistic",
                 eval_metric="logloss",
                 random_state=self.random_state,
                 n_jobs=-1,
-                enable_categorical=True
+                enable_categorical=True,
             )
             model.fit(X_train, y_train)
             self.fold_models[fold_idx] = model
-            
-            # Predict raw out-of-fold probabilities
+
+            # Predict raw out-of-fold probabilities (val is always pure `states` rows --
+            # pool rows are never held out/scored, since we aren't evaluating the pool format here)
             raw_oof_probs[fold_idx] = model.predict_proba(X_val)[:, 1]
             oof_targets[fold_idx] = y_val.values
 
@@ -507,22 +590,19 @@ class XGBWinProbabilityModel:
 
         if train_final_model:
             print("Training final XGBoost model on complete dataset...")
+            X_final, y_final = X, y
+            if is_pooled:
+                X_final = pd.concat([X, pool_X], ignore_index=True)
+                y_final = pd.concat([y, pool_y], ignore_index=True)
             final_model = XGBClassifier(
-                n_estimators=self.n_estimators,
-                max_depth=self.max_depth,
-                learning_rate=self.learning_rate,
-                min_child_weight=self.min_child_weight,
-                subsample=self.subsample,
-                colsample_bytree=self.colsample_bytree,
-                reg_alpha=self.reg_alpha,
-                reg_lambda=self.reg_lambda,
+                **xgb_kwargs,
                 objective="binary:logistic",
                 eval_metric="logloss",
                 random_state=self.random_state,
                 n_jobs=-1,
-                enable_categorical=True
+                enable_categorical=True,
             )
-            final_model.fit(X, y)
+            final_model.fit(X_final, y_final)
             self.final_model = final_model
         else:
             print("Skipping final model training (sweep mode).")

@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from src.utils.cache_manager import CacheManager
+from src.features.venue_aliases import canonicalize_for_aggregation
 
 
 class VenueEngine:
@@ -25,19 +26,27 @@ class VenueEngine:
         self.cache_file = self.processed_path / f"{format_type}_venue_features.parquet"
         self.processed_path.mkdir(parents=True, exist_ok=True)
 
+        from src.data_processing.format_spec import spec
+        fmt_spec = spec(format_type)
+
         if format_type == "od":
             self.smoothing_runs = float(smoothing_runs if smoothing_runs is not None else 10.0)
             self.smoothing_chase = float(smoothing_chase if smoothing_chase is not None else 25.0)
-            self.default_avg_score = float(default_avg_score if default_avg_score is not None else 260.0)
+            self.default_avg_score = float(default_avg_score if default_avg_score is not None else fmt_spec["default_venue_score"])
         else:
             self.smoothing_runs = float(smoothing_runs if smoothing_runs is not None else 10.0)
             self.smoothing_chase = float(smoothing_chase if smoothing_chase is not None else 10.0)
-            self.default_avg_score = float(default_avg_score if default_avg_score is not None else 160.0)
+            self.default_avg_score = float(default_avg_score if default_avg_score is not None else fmt_spec["default_venue_score"])
 
     def normalize_venue(self, venue):
         if not isinstance(venue, str):
             return ""
-        return venue.strip().lower()
+        # Route through the shared alias canonicalization (Phase 11) so that
+        # raw spelling/punctuation variants of the same ground (e.g.
+        # "M.Chinnaswamy Stadium" vs "M Chinnaswamy Stadium, Bengaluru")
+        # aggregate into one bucket instead of silently splitting a venue's
+        # historical stats across several rows.
+        return canonicalize_for_aggregation(venue)
 
     def run(self, metadata_df: pd.DataFrame, deliveries_df: pd.DataFrame, force=False) -> pd.DataFrame:
         if not force and CacheManager.is_cache_valid(self.cache_file, [Path(__file__)]):
@@ -158,10 +167,39 @@ class VenueEngine:
 
         venue_df = pd.DataFrame(venue_records)
 
-        # Save to cache
+        # Save match_id features to cache
         print(f"Saving venue features to cache: {self.cache_file}")
         venue_df.to_parquet(self.cache_file, index=False, compression="snappy")
         CacheManager.register_cache(self.cache_file, [Path(__file__)])
+
+        # Build live lookup table keyed by normalized venue
+        venue_lookup_records = []
+        for norm_v, s in venue_stats.items():
+            if not norm_v or norm_v == "":
+                continue
+            count_runs = s["count_runs"]
+            if count_runs > 0:
+                global_avg_r = (global_sum_runs / global_count_runs) if global_count_runs > 0 else self.default_avg_score
+                global_avg_c = (global_success_chase / global_count_chase) if global_count_chase > 0 else 0.45
+
+                avg_runs = (s["sum_runs"] + self.smoothing_runs * global_avg_r) / (count_runs + self.smoothing_runs)
+                chase_rate = (s["success_chase"] + self.smoothing_chase * global_avg_c) / (s["count_chase"] + self.smoothing_chase) if s["count_chase"] > 0 else global_avg_c
+            else:
+                avg_runs = self.default_avg_score
+                chase_rate = 0.45
+
+            venue_lookup_records.append({
+                "venue": norm_v,
+                "venue_avg_first_innings_score": round(float(avg_runs), 2),
+                "venue_chase_success_rate": round(float(chase_rate), 4),
+                "venue_match_count": int(count_runs),
+            })
+
+        venue_lookup_df = pd.DataFrame(venue_lookup_records)
+        lookup_file = self.processed_path / f"{self.format_type}_venue_lookup.parquet"
+        print(f"Saving venue lookup table to: {lookup_file}")
+        venue_lookup_df.to_parquet(lookup_file, index=False, compression="snappy")
+        CacheManager.register_cache(lookup_file, [Path(__file__)])
 
         return venue_df
 

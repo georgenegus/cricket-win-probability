@@ -4,6 +4,8 @@ import numpy as np
 from pathlib import Path
 from src.models.xgb_win_probability import XGBWinProbabilityModel
 from src.models.first_innings_predictor import FirstInningsPredictor
+from src.features.venue_aliases import resolve_venue_alias, clean_venue_string
+from src.features.venue_review_queue import queue_ambiguous_venue
 
 
 class PreMatchPredictor:
@@ -15,7 +17,7 @@ class PreMatchPredictor:
     def __init__(self, processed_dir="data/processed"):
         self.processed_dir = Path(processed_dir)
 
-        # Load T20 & ODI win probability models
+        # Load T20, ODI & HND win probability models
         print("Loading PreMatchPredictor models...")
         self.t20_model = XGBWinProbabilityModel(format_type="t20")
         self.t20_model.fit(None, cache_path=self.processed_dir / "t20_xgb_models.pkl")
@@ -23,20 +25,28 @@ class PreMatchPredictor:
         self.od_model = XGBWinProbabilityModel(format_type="od")
         self.od_model.fit(None, cache_path=self.processed_dir / "od_xgb_models.pkl")
 
-        # Load First Innings Predictors
+        self.hnd_model = XGBWinProbabilityModel(format_type="hnd")
+        self.hnd_model.fit(None, cache_path=self.processed_dir / "hnd_xgb_models.pkl")
+
+        # Load first innings target regressors
         self.t20_first_innings = FirstInningsPredictor(format_type="t20")
         self.t20_first_innings.fit(None, cache_path=self.processed_dir / "t20_first_innings_regressor.pkl")
 
         self.od_first_innings = FirstInningsPredictor(format_type="od")
         self.od_first_innings.fit(None, cache_path=self.processed_dir / "od_first_innings_regressor.pkl")
 
+        self.hnd_first_innings = FirstInningsPredictor(format_type="hnd")
+        self.hnd_first_innings.fit(None, cache_path=self.processed_dir / "hnd_first_innings_regressor.pkl")
+
         # Load latest team Elo ratings
         self.t20_elos = self._extract_latest_team_elos(self.processed_dir / "t20_elo_ratings.parquet")
         self.od_elos = self._extract_latest_team_elos(self.processed_dir / "od_elo_ratings.parquet")
+        self.hnd_elos = self._extract_latest_team_elos(self.processed_dir / "hnd_elo_ratings.parquet")
 
-        # Load venue averages
-        self.t20_venues = self._load_venue_averages(self.processed_dir / "t20_venue_features.parquet", default_score=160.0)
-        self.od_venues = self._load_venue_averages(self.processed_dir / "od_venue_features.parquet", default_score=260.0)
+        # Load venue averages from lookup parquet (falling back to features parquet)
+        self.t20_venues = self._load_venue_averages(self.processed_dir / "t20_venue_lookup.parquet", default_score=160.0)
+        self.od_venues = self._load_venue_averages(self.processed_dir / "od_venue_lookup.parquet", default_score=260.0)
+        self.hnd_venues = self._load_venue_averages(self.processed_dir / "hnd_venue_lookup.parquet", default_score=140.0)
 
     def _extract_latest_team_elos(self, parquet_path):
         if not parquet_path.exists():
@@ -55,37 +65,69 @@ class PreMatchPredictor:
             return {}
 
     def _load_venue_averages(self, parquet_path, default_score):
+        # Fallback to feature file if lookup file doesn't exist yet
         if not parquet_path.exists():
-            return {}
+            fallback_path = parquet_path.parent / parquet_path.name.replace("_lookup.", "_features.")
+            if fallback_path.exists():
+                parquet_path = fallback_path
+            else:
+                return {}
         try:
             df = pd.read_parquet(parquet_path)
             if "venue" in df.columns and "venue_avg_first_innings_score" in df.columns:
                 return df.set_index("venue")["venue_avg_first_innings_score"].to_dict()
             return {}
         except Exception as e:
+            print(f"Error loading venue averages from {parquet_path}: {e}")
             return {}
 
     def get_team_elo(self, team_name, format_type="t20"):
         """Returns latest Elo rating for a team or default 1500.0 if unknown."""
-        elos = self.od_elos if format_type in ["od", "odi"] else self.t20_elos
+        fmt_clean = str(format_type).lower().strip()
+        if fmt_clean in ["hnd", "hundred", "100"]:
+            elos = self.hnd_elos
+        elif fmt_clean in ["od", "odi"]:
+            elos = self.od_elos
+        else:
+            elos = self.t20_elos
         return float(elos.get(team_name, 1500.0))
 
     def get_venue_avg_score(self, venue_name, format_type="t20"):
         """Returns historical venue average first innings score."""
-        default_val = 260.0 if format_type in ["od", "odi"] else 160.0
-        if not venue_name or str(venue_name).strip().upper() in ["N/A", "NONE", "UNKNOWN", ""]:
+        from src.data_processing.format_spec import spec
+        fmt_clean = str(format_type).lower().strip()
+        if fmt_clean in ["hnd", "hundred", "100"]:
+            fmt = "hnd"
+        elif fmt_clean in ["od", "odi"]:
+            fmt = "od"
+        else:
+            fmt = "t20"
+
+        default_val = float(spec(fmt)["default_venue_score"])
+        if not venue_name:
             return default_val
 
-        venues = self.od_venues if format_type in ["od", "odi"] else self.t20_venues
-        if venue_name in venues:
-            return float(venues[venue_name])
+        cleaned = clean_venue_string(venue_name)
+        if not cleaned:
+            return default_val
 
-        clean_target = str(venue_name).strip().lower()
-        for v_name, score in venues.items():
-            clean_v = str(v_name).strip().lower()
-            if clean_target == clean_v or clean_target in clean_v or clean_v in clean_target:
-                return float(score)
+        if fmt == "hnd":
+            venues = self.hnd_venues
+        elif fmt == "od":
+            venues = self.od_venues
+        else:
+            venues = self.t20_venues
 
+        resolved_key = resolve_venue_alias(venue_name, venues)
+        if resolved_key and resolved_key in venues:
+            return float(venues[resolved_key])
+
+        queue_ambiguous_venue(
+            raw_identifier=venue_name,
+            format_type=fmt,
+            reason="unresolved_venue_string",
+            context={"source": "PreMatchPredictor.get_venue_avg_score"},
+        )
         return default_val
 
     def predict(self, team_a, team_b, venue=None, format_type="t20", custom_target=None):
@@ -115,10 +157,20 @@ class PreMatchPredictor:
                 "format_type": str
             }
         """
-        fmt = "od" if format_type.lower() in ["od", "odi", "one-day"] else "t20"
-        total_overs = 50.0 if fmt == "od" else 20.0
-        total_balls = total_overs * 6.0
-        default_target = 260.0 if fmt == "od" else 160.0
+        from src.data_processing.format_spec import spec
+        fmt_clean = str(format_type).lower().strip()
+        if fmt_clean in ["hnd", "hundred", "100"]:
+            fmt = "hnd"
+        elif fmt_clean in ["od", "odi", "one-day"]:
+            fmt = "od"
+        else:
+            fmt = "t20"
+
+        fmt_spec = spec(fmt)
+        total_overs = float(fmt_spec["total_overs"])
+        balls_per_over = float(fmt_spec["balls_per_over"])
+        total_balls = float(fmt_spec["total_balls"])
+        default_target = float(fmt_spec["default_venue_score"])
 
         elo_a = self.get_team_elo(team_a, format_type=fmt)
         elo_b = self.get_team_elo(team_b, format_type=fmt)
@@ -126,7 +178,12 @@ class PreMatchPredictor:
 
         target = custom_target if custom_target is not None else venue_avg
 
-        model = self.od_model if fmt == "od" else self.t20_model
+        if fmt == "hnd":
+            model = self.hnd_model
+        elif fmt == "od":
+            model = self.od_model
+        else:
+            model = self.t20_model
 
         # Scenario 1: Team B bats 1st, Team A chases
         state_a_chasing = pd.Series(
@@ -134,7 +191,7 @@ class PreMatchPredictor:
                 "runs_remaining": target,
                 "balls_remaining": total_balls,
                 "wickets_lost": 0.0,
-                "required_run_rate": target / total_overs,
+                "required_run_rate": target / (total_balls / balls_per_over),
                 "run_rate": 0.0,
                 "target": target,
                 "phase": "powerplay",
@@ -146,7 +203,7 @@ class PreMatchPredictor:
                 "bowler_elo": 1500.0,
                 "player_elo_diff": 0.0,
                 "venue_avg_first_innings_score": venue_avg,
-                "competition": "odis" if fmt == "od" else "t20s",
+                "competition": "hnd" if fmt == "hnd" else ("odis" if fmt == "od" else "t20s"),
                 "total_overs": total_overs,
                 "target_overs": total_overs,
                 "innings": 2,
@@ -159,7 +216,7 @@ class PreMatchPredictor:
                 "runs_remaining": target,
                 "balls_remaining": total_balls,
                 "wickets_lost": 0.0,
-                "required_run_rate": target / total_overs,
+                "required_run_rate": target / (total_balls / balls_per_over),
                 "run_rate": 0.0,
                 "target": target,
                 "phase": "powerplay",
@@ -171,7 +228,7 @@ class PreMatchPredictor:
                 "bowler_elo": 1500.0,
                 "player_elo_diff": 0.0,
                 "venue_avg_first_innings_score": venue_avg,
-                "competition": "odis" if fmt == "od" else "t20s",
+                "competition": "hnd" if fmt == "hnd" else ("odis" if fmt == "od" else "t20s"),
                 "total_overs": total_overs,
                 "target_overs": total_overs,
                 "innings": 2,
