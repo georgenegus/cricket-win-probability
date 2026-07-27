@@ -1,4 +1,5 @@
 import os
+import re
 import pandas as pd
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,6 +19,7 @@ class BetTracker:
         "match_description",
         "venue",
         "format",
+        "match_date",
         "bet_on",
         "model_prob",
         "fair_market_prob",
@@ -79,6 +81,23 @@ class BetTracker:
         settled_pnl = df["pnl"].dropna().sum()
         return round(float(self.starting_bankroll + settled_pnl), 2)
 
+    @staticmethod
+    def _fixture_key(match_description, match_date):
+        """Order-independent identity for a real-world fixture: the set of the two
+        team names plus the calendar date (YYYY-MM-DD).
+
+        Format is deliberately excluded: a given pair of teams playing on a given
+        day is one match, so this collapses Betfair's duplicate event listings AND
+        format-inference flips (e.g. the same Hundred fixture scanned once as 't20'
+        and once as 'hnd') onto a single key. Different days (series games) stay
+        distinct because the date differs.
+        """
+        desc = str(match_description or "").lower()
+        parts = re.split(r"\s+vs?\s+", desc)
+        teams = frozenset(p.strip() for p in parts if p.strip())
+        date = str(match_date or "")[:10]
+        return (teams, date)
+
     def log_bet(
         self,
         event_id,
@@ -96,20 +115,53 @@ class BetTracker:
         mode="paper",
         market_id=None,
         selection_id=None,
+        open_date=None,
+        dedupe_fixture=False,
     ):
-        """Appends a new bet record with result='pending'."""
+        """Appends a new bet record with result='pending'.
+
+        dedupe_fixture: enable fixture-level de-duplication (one bet per team-pair
+        per day). Intended for the match-winner scanner, where Betfair's duplicate
+        event listings and format-inference flips would otherwise produce parallel
+        bets on the same match. Leave False for exotic markets (top batsman, total
+        runs, ...), which legitimately place several distinct bets per fixture.
+        """
         if float(stake or 0.0) <= 0.0:
             print(f"Skipping bet log for {match_description} ({bet_on}): Stake is £0.00.")
             return None
 
         df = self._load_df()
 
-        # Prevent logging duplicate pending bets for the same event and selection
+        match_date = str(open_date or "")[:10]
+
+        # Fixture-level de-duplication. Betfair lists a single fixture under
+        # several event IDs (each with its own MATCH_ODDS market and slightly
+        # different prices), and format inference can flip the same match between
+        # 't20' and 'hnd' across scans. Keying on the fixture (team-pair + date)
+        # rather than the raw event_id collapses all of those onto one bet, so a
+        # fixture is never backed twice. Checked against every prior row (not just
+        # pending ones) so a settled/voided flip can't be re-bet the next day.
         if not df.empty:
-            duplicate_mask = (df["event_id"].astype(str) == str(event_id)) & (df["bet_on"] == str(bet_on)) & (df["result"] == "pending")
-            if duplicate_mask.any():
+            # Backstop for rows logged before match_date existed: an exact re-scan
+            # of the same event+selection while it is still pending.
+            same_event_pending = (
+                (df["event_id"].astype(str) == str(event_id))
+                & (df["bet_on"] == str(bet_on))
+                & (df["result"] == "pending")
+            )
+            if same_event_pending.any():
                 print(f"Bet already pending for event {event_id} ({bet_on}), skipping duplicate log.")
                 return None
+
+            if dedupe_fixture:
+                fixture_key = self._fixture_key(match_description, match_date)
+                already_bet = df.apply(
+                    lambda r: self._fixture_key(r["match_description"], r.get("match_date")) == fixture_key,
+                    axis=1,
+                )
+                if already_bet.any():
+                    print(f"Fixture already in ledger: {match_description} ({match_date or 'no date'}), skipping duplicate log.")
+                    return None
 
         timestamp = datetime.now(timezone.utc).isoformat()
         current_bankroll = self.get_current_bankroll()
@@ -122,6 +174,7 @@ class BetTracker:
             "match_description": str(match_description),
             "venue": str(venue or "N/A"),
             "format": str(format_type),
+            "match_date": match_date,
             "bet_on": str(bet_on),
             "model_prob": round(float(model_prob), 4),
             "fair_market_prob": round(float(fair_market_prob), 4),
@@ -231,6 +284,20 @@ class BetTracker:
         if df.empty:
             return pd.DataFrame(columns=self.COLUMNS)
         return df[df["result"] == "pending"]
+
+    def get_all_bets(self, newest_first=True):
+        """Returns the full ledger as a list of plain dicts (NaN -> None), JSON-safe.
+
+        Ordered newest-first by default so the UI can render the most recent bets on top.
+        """
+        df = self._load_df()
+        if df.empty:
+            return []
+        if "timestamp" in df.columns:
+            df = df.sort_values("timestamp", ascending=not newest_first, na_position="last")
+        # object dtype so pd.notna works per-cell; then map NaN/NaT -> None for valid JSON
+        records = df.astype(object).where(pd.notna(df), None).to_dict(orient="records")
+        return records
 
     def get_summary(self):
         """Returns aggregate performance stats dict."""

@@ -19,9 +19,16 @@ def run_scanner(
     kelly_fraction=0.25,
     bankroll=1000.0,
     format_filter="both",
+    predictor=None,
+    betfair=None,
+    tracker=None,
 ):
     """
     Main Pre-Match Value Betting Scanner Workflow.
+
+    predictor / betfair / tracker may be injected (e.g. by the web app, to reuse an
+    already-loaded PreMatchPredictor singleton). Left as None they are constructed here,
+    preserving the original CLI behaviour exactly.
     """
     # Ensure UTF-8 output encoding for Windows terminals
     if hasattr(sys.stdout, "reconfigure"):
@@ -35,12 +42,12 @@ def run_scanner(
     print(f"  Mode: {mode.upper()} | Bankroll: £{bankroll:,.2f} | Min Edge: {threshold:.1%}")
     print(f"{'='*75}\n")
 
-    # 1. Initialise components
+    # 1. Initialise components (reuse injected instances where provided)
     print("Initialising betting pipeline components...")
-    betfair = BetfairClient()
-    predictor = PreMatchPredictor()
+    betfair = betfair or BetfairClient()
+    predictor = predictor or PreMatchPredictor()
     detector = ValueDetector(min_edge=threshold, kelly_fraction=kelly_fraction)
-    tracker = BetTracker(starting_bankroll=bankroll)
+    tracker = tracker or BetTracker(starting_bankroll=bankroll)
     history_resolver = VenueHistoryResolver()
 
     # 1b. Check and settle pending bets from past scans
@@ -200,6 +207,8 @@ def run_scanner(
                     stake_pct=val_analysis["kelly_stake_a"],
                     staking_method=f"kelly_{kelly_fraction}",
                     mode=mode,
+                    open_date=ev.get("open_date"),
+                    dedupe_fixture=True,
                 )
 
         if val_analysis["is_value_b"]:
@@ -222,6 +231,8 @@ def run_scanner(
                     stake_pct=val_analysis["kelly_stake_b"],
                     staking_method=f"kelly_{kelly_fraction}",
                     mode=mode,
+                    open_date=ev.get("open_date"),
+                    dedupe_fixture=True,
                 )
 
     # 3. Print Summary Table
