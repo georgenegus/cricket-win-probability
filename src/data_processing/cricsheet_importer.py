@@ -21,6 +21,7 @@ except ImportError:
     from yaml import SafeLoader
 
 from src.utils.cache_manager import CacheManager
+from src.data_processing.format_spec import ACTIVE_FORMATS, spec, POOL_SOURCE, SEED_SOURCE
 
 CRICSHEET_BASE = "https://cricsheet.org/downloads"
 
@@ -66,6 +67,40 @@ HND_COMPETITIONS = {
     "The Hundred Men": "hnd",
 }
 
+# Women's-only competitions (no equivalent in the men's dicts above). Competitions that
+# share an identical name across genders on Cricsheet (e.g. "Super Smash") deliberately
+# are NOT duplicated here -- classify_match() falls back to the men's dict first, so a
+# same-named competition resolves to the same comp_dir code regardless of gender; only
+# the format_dir gets the "w" suffix. Codes below match Cricsheet's own per-competition
+# zip filenames (e.g. wbb.zip, cec.zip) -- same convention as the men's dicts' values.
+T20W_COMPETITIONS = {
+    "Women's Big Bash League": "wbb",
+    "Women's Premier League": "wpl",
+    "Charlotte Edwards Cup": "cec",
+    "Women's Cricket Super League": "wsl",
+    "Vitality Blast Women": "wtb",
+    "T20 Blaze": "blz",
+    "Women's T20 Blaze": "blz",
+    "Women's T20 Challenge": "wtc",
+    "Women's T20 Challenge Match": "wtc",
+}
+
+ODW_COMPETITIONS = {
+    "Rachael Heyhoe Flint Trophy": "rhf",
+    "ECB Women's One-Day Cup": "wod",
+}
+
+HNDW_COMPETITIONS = {
+    "The Hundred Women's Competition": "hnd",
+    "The Hundred Women": "hnd",
+}
+
+# All format_dir values this importer can produce, men's + women's. Used to size the
+# existing-match dedup scan and the per-format stats dict generically (see
+# import_matches_from_zip_url) -- avoids a hardcoded t20/od/hnd triple that silently
+# misses the "w" formats.
+ALL_FORMAT_DIRS = ("t20", "od", "hnd", "t20w", "odw", "hndw")
+
 
 
 def download_zip(url: str) -> io.BytesIO:
@@ -80,9 +115,16 @@ def download_zip(url: str) -> io.BytesIO:
 def classify_match(yaml_bytes: bytes) -> dict:
     """
     Parses YAML header and classifies match by format and competition folder.
-    
+
     Returns dict with keys: match_type, competition, gender, format_dir, comp_dir
-    Or None if unparseable, female, or unsupported match type (Tests, Multi-day).
+    Or None if unparseable, an unrecognised gender (not "male"/"female" -- e.g. rare
+    "mixed" exhibition matches), or unsupported match type (Tests, Multi-day).
+
+    Female matches route to a "w"-suffixed format_dir (t20w/odw/hndw) rather than
+    being dropped -- see womens_games_ingestion_plan.md. comp_dir resolution checks
+    the men's dict FIRST regardless of gender: competitions with an identical name on
+    both sides of Cricsheet (e.g. "Super Smash") resolve to the same comp_dir code for
+    both genders, since only format_dir needs the gender split, not comp_dir.
     """
     try:
         match = yaml.load(yaml_bytes, Loader=SafeLoader)
@@ -94,31 +136,35 @@ def classify_match(yaml_bytes: bytes) -> dict:
 
     info = match["info"]
     gender = info.get("gender", "male")
-    if gender != "male":
-        return None
+    if gender not in ("male", "female"):
+        return None  # unrecognised gender tag (e.g. "mixed") -- not modeled, same as before
+    is_female = gender == "female"
 
     match_type = str(info.get("match_type", "")).upper()
     competition = info.get("competition", "")
     balls_per_over = info.get("balls_per_over")
 
-    # Determine format directory
+    # Determine base format (gender-agnostic: match-type/competition/ball-geometry rules)
     if (
         match_type in ("HND", "HUNDRED", "100")
         or competition in HND_COMPETITIONS
+        or competition in HNDW_COMPETITIONS
         or "The Hundred" in competition
         or "Hundred" in competition
         or balls_per_over == 5
     ):
-        format_dir = "hnd"
-        comp_dir = HND_COMPETITIONS.get(competition, "hnd")
+        base_format = "hnd"
+        comp_dir = HND_COMPETITIONS.get(competition) or HNDW_COMPETITIONS.get(competition, "hnd")
     elif match_type in ("T20", "IT20", "T20I"):
-        format_dir = "t20"
-        comp_dir = T20_COMPETITIONS.get(competition, "t20s")
+        base_format = "t20"
+        comp_dir = T20_COMPETITIONS.get(competition) or T20W_COMPETITIONS.get(competition, "t20s")
     elif match_type in ("ODI", "ODM", "OD"):
-        format_dir = "od"
-        comp_dir = OD_COMPETITIONS.get(competition, "odis")
+        base_format = "od"
+        comp_dir = OD_COMPETITIONS.get(competition) or ODW_COMPETITIONS.get(competition, "odis")
     else:
         return None  # Skip Tests, multi-day, etc.
+
+    format_dir = f"{base_format}w" if is_female else base_format
 
     return {
         "match_type": match_type,
@@ -129,28 +175,35 @@ def classify_match(yaml_bytes: bytes) -> dict:
     }
 
 
-def import_matches_from_zip_url(
-    url: str,
-    raw_data_root: str = "data/raw",
+def _empty_import_stats() -> dict:
+    stats = {f"new_{fmt}": 0 for fmt in ALL_FORMAT_DIRS}
+    stats.update({"skipped": 0, "skipped_exists": 0, "errors": 0})
+    return stats
+
+
+def _import_matches_from_zip_buffer(
+    zip_buffer,
+    raw_root: Path,
     dry_run: bool = False,
 ) -> dict:
     """
-    Downloads a ZIP from Cricsheet and imports any missing matches into data/raw/.
+    Shared core: classifies + writes every match in an open zip buffer into data/raw/,
+    skipping any match_id already present in ANY of the 6 format dirs (t20/od/hnd +
+    t20w/odw/hndw). Used by both the Cricsheet-URL importer and the local-zip importer
+    (for the staged female competition archives) so dedup logic lives in exactly one place.
     """
-    raw_root = Path(raw_data_root)
-    stats = {"new_t20": 0, "new_od": 0, "new_hnd": 0, "skipped": 0, "skipped_exists": 0, "errors": 0}
+    stats = _empty_import_stats()
 
-    try:
-        zip_buffer = download_zip(url)
-    except requests.RequestException as e:
-        print(f"ERROR: Failed to download from {url}: {e}")
-        return stats
-
-    # Build set of existing match IDs across raw directory
-    existing_t20 = {p.stem for p in (raw_root / "t20").glob("**/*.yaml")} if (raw_root / "t20").exists() else set()
-    existing_od = {p.stem for p in (raw_root / "od").glob("**/*.yaml")} if (raw_root / "od").exists() else set()
-    existing_hnd = {p.stem for p in (raw_root / "hnd").glob("**/*.yaml")} if (raw_root / "hnd").exists() else set()
-    all_existing = existing_t20.union(existing_od).union(existing_hnd)
+    # Build set of existing match IDs across every format directory (men's + women's).
+    # A combined-gender source zip (e.g. Cricsheet's single "The Hundred" archive, which
+    # contains both hnd and hndw matches) relies on this covering ALL_FORMAT_DIRS -- not
+    # just the format being targeted -- so already-imported matches of either gender are
+    # correctly skipped rather than reprocessed.
+    existing = {
+        fmt: ({p.stem for p in (raw_root / fmt).glob("**/*.yaml")} if (raw_root / fmt).exists() else set())
+        for fmt in ALL_FORMAT_DIRS
+    }
+    all_existing = set().union(*existing.values())
 
     with zipfile.ZipFile(zip_buffer) as zf:
         yaml_files = [f for f in zf.namelist() if f.endswith(".yaml")]
@@ -171,26 +224,19 @@ def import_matches_from_zip_url(
                     stats["skipped"] += 1
                     continue
 
-                target_dir = raw_root / classification["format_dir"] / classification["comp_dir"]
+                fmt = classification["format_dir"]
+                target_dir = raw_root / fmt / classification["comp_dir"]
                 target_file = target_dir / f"{match_id}.yaml"
 
                 if dry_run:
-                    print(f"  [DRY RUN] Would import: {match_id} -> {classification['format_dir']}/{classification['comp_dir']}")
+                    print(f"  [DRY RUN] Would import: {match_id} -> {fmt}/{classification['comp_dir']}")
                 else:
                     target_dir.mkdir(parents=True, exist_ok=True)
                     target_file.write_bytes(yaml_bytes)
-                    print(f"  [+] Imported: {match_id} -> {classification['format_dir']}/{classification['comp_dir']}/")
+                    print(f"  [+] Imported: {match_id} -> {fmt}/{classification['comp_dir']}/")
 
-                if classification["format_dir"] == "t20":
-                    stats["new_t20"] += 1
-                    existing_t20.add(match_id)
-                elif classification["format_dir"] == "od":
-                    stats["new_od"] += 1
-                    existing_od.add(match_id)
-                elif classification["format_dir"] == "hnd":
-                    stats["new_hnd"] += 1
-                    existing_hnd.add(match_id)
-
+                stats[f"new_{fmt}"] += 1
+                existing[fmt].add(match_id)
                 all_existing.add(match_id)
 
             except Exception as e:
@@ -200,30 +246,92 @@ def import_matches_from_zip_url(
     return stats
 
 
-def import_recent_matches(window: str = "2", raw_data_root: str = "data/raw", dry_run: bool = False) -> dict:
+def import_matches_from_zip_url(
+    url: str,
+    raw_data_root: str = "data/raw",
+    dry_run: bool = False,
+) -> dict:
+    """
+    Downloads a ZIP from Cricsheet and imports any missing matches into data/raw/.
+    """
+    raw_root = Path(raw_data_root)
+
+    try:
+        zip_buffer = download_zip(url)
+    except requests.RequestException as e:
+        print(f"ERROR: Failed to download from {url}: {e}")
+        return _empty_import_stats()
+
+    return _import_matches_from_zip_buffer(zip_buffer, raw_root, dry_run=dry_run)
+
+
+def import_matches_from_local_zip(
+    zip_path: str,
+    raw_data_root: str = "data/raw",
+    dry_run: bool = False,
+) -> dict:
+    """
+    Imports matches from a ZIP already on disk (no download) -- e.g. a manually-staged
+    Cricsheet competition archive in data/raw/female/. Same classify+dedup logic as the
+    URL-based importer.
+    """
+    raw_root = Path(raw_data_root)
+    print(f"Importing local archive: {zip_path}")
+    with open(zip_path, "rb") as f:
+        zip_buffer = io.BytesIO(f.read())
+    return _import_matches_from_zip_buffer(zip_buffer, raw_root, dry_run=dry_run)
+
+
+def import_female_staging_dir(
+    staging_dir: str = "data/raw/female",
+    raw_data_root: str = "data/raw",
+    dry_run: bool = False,
+) -> dict:
+    """
+    Imports every ZIP in a staging folder (default data/raw/female/) -- the manually
+    downloaded per-competition women's archives (WBBL, WPL, The Hundred combined
+    men's+women's zip, etc.) -- aggregating stats across all of them. Safe to re-run:
+    each zip goes through the same match-ID dedup as every other import path.
+    """
+    staging = Path(staging_dir)
+    zips = sorted(staging.glob("*.zip"))
+    print(f"\n--- Importing {len(zips)} staged archive(s) from {staging_dir} ---")
+
+    total = _empty_import_stats()
+    for zpath in zips:
+        stats = import_matches_from_local_zip(str(zpath), raw_data_root=raw_data_root, dry_run=dry_run)
+        for k, v in stats.items():
+            total[k] += v
+    return total
+
+
+def import_recent_matches(window: str = "2", raw_data_root: str = "data/raw", dry_run: bool = False, gender: str = "male") -> dict:
     """Imports matches added in the last N days (default 2 days for regular automation)."""
-    url = f"{CRICSHEET_BASE}/recently_added_{window}_male.zip"
+    suffix = "male" if gender == "male" else "female"
+    url = f"{CRICSHEET_BASE}/recently_added_{window}_{suffix}.zip"
     return import_matches_from_zip_url(url, raw_data_root=raw_data_root, dry_run=dry_run)
 
 
-def import_catchup(raw_data_root: str = "data/raw", dry_run: bool = False) -> dict:
+def import_catchup(raw_data_root: str = "data/raw", dry_run: bool = False, gender: str = "male") -> dict:
     """
     Catch-up import: Downloads the 30-day recent matches archive to bring the model
     up-to-date from previous weeks.
     """
-    url = f"{CRICSHEET_BASE}/recently_added_30_male.zip"
-    print(f"\n--- Running 30-Day Catch-Up Import ---")
+    suffix = "male" if gender == "male" else "female"
+    url = f"{CRICSHEET_BASE}/recently_added_30_{suffix}.zip"
+    print(f"\n--- Running 30-Day Catch-Up Import ({suffix}) ---")
     return import_matches_from_zip_url(url, raw_data_root=raw_data_root, dry_run=dry_run)
 
 
-def import_full_archive(raw_data_root: str = "data/raw", dry_run: bool = False) -> dict:
+def import_full_archive(raw_data_root: str = "data/raw", dry_run: bool = False, gender: str = "male") -> dict:
     """
     Full Archive Sync (60+ days / Complete Catch-Up):
-    Downloads Cricsheet's complete all_male.zip archive (~17,800+ matches)
-    and checks for any missing matches across the entire dataset.
+    Downloads Cricsheet's complete all_<gender>.zip archive and checks for any missing
+    matches across the entire dataset.
     """
-    url = f"{CRICSHEET_BASE}/all_male.zip"
-    print(f"\n--- Running Full Archive Catch-Up Import (all_male.zip) ---")
+    suffix = "male" if gender == "male" else "female"
+    url = f"{CRICSHEET_BASE}/all_{suffix}.zip"
+    print(f"\n--- Running Full Archive Catch-Up Import (all_{suffix}.zip) ---")
     return import_matches_from_zip_url(url, raw_data_root=raw_data_root, dry_run=dry_run)
 
 
@@ -232,7 +340,7 @@ def invalidate_caches(formats: list = None):
     Invalidates parquet caches in data/processed to force a rebuild with new data.
     """
     if formats is None:
-        formats = ["t20", "od", "hnd"]
+        formats = list(ACTIVE_FORMATS)
 
     cache_patterns = [
         "{fmt}_cricket_data.parquet",
@@ -316,7 +424,9 @@ def _build_second_innings_pool_states(format_type: str) -> pd.DataFrame:
     meta = MatchMetadataExtractor("data/raw", format_type=format_type)
     meta_df = meta.extract_all()
     if "gender" in meta_df.columns:
-        meta_df = meta_df[meta_df["gender"] == "male"].copy()
+        # Filter to this format's own gender (t20/od/hnd -> male, t20w/odw/hndw -> female) --
+        # was hardcoded to "male", which would silently zero out an all-female corpus like t20w.
+        meta_df = meta_df[meta_df["gender"] == spec(format_type)["gender"]].copy()
         deliveries = deliveries[deliveries["match_id"].isin(meta_df["match_id"])].copy()
 
     elo_engine = EloEngine(use_dynamic_k=True, use_margin=True, use_decay=True, use_home_away=False, format_type=format_type)
@@ -350,7 +460,7 @@ def retrain_full(format_type: str = "t20"):
     from src.data_processing.load_data import CricketDataLoader
     from src.data_processing.match_metadata import MatchMetadataExtractor
     from src.features.elo_engine import EloEngine
-    from src.features.player_elo_engine import PlayerEloEngine
+    from src.features.player_elo_engine import PlayerEloEngine, build_seed_ratings
     from src.features.phase_elo_engine import PhaseEloEngine
     from src.features.venue_engine import VenueEngine
     from src.features.venue_history_resolver import build_team_venue_distributions
@@ -370,7 +480,9 @@ def retrain_full(format_type: str = "t20"):
     meta_df = meta.extract_all(force=True)
 
     if "gender" in meta_df.columns:
-        meta_df = meta_df[meta_df["gender"] == "male"].copy()
+        # Filter to this format's own gender (t20/od/hnd -> male, t20w/odw/hndw -> female) --
+        # was hardcoded to "male", which would silently zero out an all-female corpus like t20w.
+        meta_df = meta_df[meta_df["gender"] == spec(format_type)["gender"]].copy()
         deliveries = deliveries[deliveries["match_id"].isin(meta_df["match_id"])].copy()
 
     # 2. Compute Features
@@ -380,14 +492,11 @@ def retrain_full(format_type: str = "t20"):
 
     print(f"[{format_type.upper()}] Computing player Elo ratings...")
     seed_ratings = None
-    if format_type == "hnd":
-        t20_pe_path = Path("data/processed/t20_player_elo_ratings.parquet")
-        if t20_pe_path.exists():
-            t20_pe = pd.read_parquet(t20_pe_path)
-            latest_t20 = t20_pe.sort_values("match_id").groupby(["player", "role"]).last().reset_index()
-            b_seeds = latest_t20[latest_t20["role"] == "batter"].set_index("player")["effective_elo"].to_dict()
-            w_seeds = latest_t20[latest_t20["role"] == "bowler"].set_index("player")["effective_elo"].to_dict()
-            seed_ratings = {"batter": b_seeds, "bowler": w_seeds}
+    if format_type in SEED_SOURCE:
+        # Frozen snapshot, not the live {source}_player_elo_ratings.parquet -- see
+        # build_seed_ratings' docstring (t20_player_elo_revamp_plan.md's Phases 1-5 must not
+        # silently re-seed hnd while still experimental/revertable; same discipline for hndw).
+        seed_ratings = build_seed_ratings(format_type)
     player_elo_engine = PlayerEloEngine(format_type=format_type, form_window=15)
     player_elo_df = player_elo_engine.run(deliveries, elo_df, seed_ratings=seed_ratings)
 
@@ -407,7 +516,6 @@ def retrain_full(format_type: str = "t20"):
 
     # 3. Build States
     print(f"[{format_type.upper()}] Building game states...")
-    from src.data_processing.format_spec import spec
     fmt_spec = spec(format_type)
     states = StateBuilder(
         deliveries,
@@ -433,15 +541,17 @@ def retrain_full(format_type: str = "t20"):
     print(f"[{format_type.upper()}] Fitting 5-Fold XGBoost Win Probability Classifier...")
     xgb_model = XGBWinProbabilityModel(format_type=format_type)
 
-    # Phase 5/6: pool T20 in as extra (never held-out, never-scored) training signal for hnd --
-    # tests/hundred_winprob_pooling_experiment.py showed this beats the hnd-only model on every
-    # held-out phase. t20/od never reach this branch, so their retrain is unaffected.
+    # Phase 5/6: pool POOL_SOURCE[format_type] in as extra (never held-out, never-scored)
+    # training signal for a thin corpus -- tests/hundred_winprob_pooling_experiment.py showed
+    # this beats the hnd-only model on every held-out phase; hndw mirrors the same mechanism
+    # pooling t20w. t20/od/t20w/odw never reach this branch, so their retrain is unaffected.
     pool_X, pool_y = None, None
-    if format_type == "hnd":
-        print("[HND] Building T20 pool for pooled win-probability training...")
-        t20_pool_states = _build_second_innings_pool_states("t20")
-        t20_pool_helper = XGBWinProbabilityModel(format_type="t20")
-        pool_X, pool_y = t20_pool_helper._extract_features_and_target(t20_pool_states)
+    pool_source = POOL_SOURCE.get(format_type)
+    if pool_source:
+        print(f"[{format_type.upper()}] Building {pool_source.upper()} pool for pooled win-probability training...")
+        pool_states = _build_second_innings_pool_states(pool_source)
+        pool_helper = XGBWinProbabilityModel(format_type=pool_source)
+        pool_X, pool_y = pool_helper._extract_features_and_target(pool_states)
         pool_X = pool_X.copy()
         pool_X["is_hundred"] = 0.0
 
@@ -473,6 +583,9 @@ def log_import(stats: dict, log_path: str = "data/betting/import_log.csv"):
         "new_t20": stats.get("new_t20", 0),
         "new_od": stats.get("new_od", 0),
         "new_hnd": stats.get("new_hnd", 0),
+        "new_t20w": stats.get("new_t20w", 0),
+        "new_odw": stats.get("new_odw", 0),
+        "new_hndw": stats.get("new_hndw", 0),
         "skipped": stats.get("skipped", 0),
         "skipped_exists": stats.get("skipped_exists", 0),
         "errors": stats.get("errors", 0),

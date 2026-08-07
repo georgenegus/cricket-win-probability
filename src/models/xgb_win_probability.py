@@ -5,7 +5,8 @@ from pathlib import Path
 from xgboost import XGBClassifier
 from sklearn.model_selection import GroupKFold
 
-from src.data_processing.format_spec import spec
+from src.data_processing.format_spec import spec, POOL_SOURCE
+from src.features.player_elo_engine import PlayerEloEngine
 
 
 class XGBWinProbabilityModel:
@@ -38,10 +39,16 @@ class XGBWinProbabilityModel:
         self.random_state = random_state
         self._spec = spec(format_type)
         self.balls_per_over = self._spec["balls_per_over"]
-        self.rolling_window = rolling_window if rolling_window is not None else (18 if format_type in ("t20", "hnd") else 36)
+        # Spec-derived (byte-identical for t20/od/hnd/t20w: 20/50/20/20 overs -> 18/36/18/18):
+        # a >20-over innings gets the wider 36-ball window, matching StateBuilder's own
+        # rolling_window rule (build_states.py) so recent_run_rate stays unit-consistent.
+        self.rolling_window = rolling_window if rolling_window is not None else (18 if self._spec["total_overs"] <= 20 else 36)
 
-        # Set format-specific defaults
-        if format_type == "od":
+        # Set format-specific defaults. odw inherits od's hyperparameter/regularisation
+        # regime (regularisation regime is structural, not a population fit -- see
+        # womens_games_ingestion_plan.md odw phase); hndw inherits hnd's below (its sweep
+        # ran at 162 matches, statistically the same regime as hndw's 155).
+        if format_type in ("od", "odw"):
             self.n_estimators = n_estimators if n_estimators is not None else 339
             self.max_depth = max_depth if max_depth is not None else 4
             self.learning_rate = learning_rate if learning_rate is not None else 0.02
@@ -53,10 +60,9 @@ class XGBWinProbabilityModel:
 
             self.baseline_rr = float(baseline_rr if baseline_rr is not None else 5.0)
             self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 15.0)
-            self.total_format_balls = 300.0
             self.b_factor = float(b_factor if b_factor is not None else 0.04)
             self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.2)
-        elif format_type == "hnd":
+        elif format_type in ("hnd", "hndw"):
             # Phase 4 sweep winner (tests/hundred_winprob_sweep.py, data/processed/hnd_winprob_sweep_results.csv):
             # mean OOF Brier 0.169295 vs. 0.188889 for the pre-sweep defaults (max_depth=4, reg_alpha=1,
             # reg_lambda=3, subsample/colsample=0.8) -- shallower + more regularized generalizes much
@@ -72,7 +78,6 @@ class XGBWinProbabilityModel:
             
             self.baseline_rr = float(baseline_rr if baseline_rr is not None else 8.0)
             self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 10.0)
-            self.total_format_balls = 100.0
             self.b_factor = float(b_factor if b_factor is not None else 0.09)
             self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.6)
         else:
@@ -87,9 +92,13 @@ class XGBWinProbabilityModel:
             
             self.baseline_rr = float(baseline_rr if baseline_rr is not None else 8.0)
             self.pressure_wicket_div = float(pressure_wicket_div if pressure_wicket_div is not None else 10.0)
-            self.total_format_balls = 120.0
             self.b_factor = float(b_factor if b_factor is not None else 0.09)
             self.wicket_exp = float(wicket_exp if wicket_exp is not None else 1.6)
+
+        # Byte-identical for t20/od/hnd/t20w (120.0/300.0/100.0/120.0 reproduced exactly);
+        # was hardcoded per-branch above, which silently gave any new format 120.0 regardless
+        # of its real ball count (would have under-scaled pressure_index for odw by 2.5x).
+        self.total_format_balls = float(self._spec["total_balls"])
 
         # Elo phase-decay thresholds, in balls-remaining terms, derived from format_spec so
         # t20/od reproduce their previous hardcoded values exactly while hnd gets the correct
@@ -115,6 +124,30 @@ class XGBWinProbabilityModel:
                 self.empirical_dls = dls_df.set_index(["balls_remaining", "wickets_lost"])["expected_runs_remaining"].to_dict()
             except Exception as e:
                 print(f"Error loading empirical DLS parquet cache: {e}")
+
+    def _elo_stretch(self) -> float:
+        """The Phase 1 hold-center stretch factor for this instance's format (1.0 = no-op
+        for t20w, and for t20/od/hnd before each format's own Phase 1 ships). Single source
+        of truth: PlayerEloEngine.T20_ELO_STRETCH / OD_ELO_STRETCH / HND_ELO_STRETCH."""
+        if self.format_type == "t20":
+            return PlayerEloEngine.T20_ELO_STRETCH
+        elif self.format_type == "od":
+            return PlayerEloEngine.OD_ELO_STRETCH
+        elif self.format_type == "hnd":
+            return PlayerEloEngine.HND_ELO_STRETCH
+        return 1.0
+
+    def _team_to_player_scale(self, team_elo):
+        """
+        Maps an absolute team-Elo value (EloEngine's unstretched scale) onto player-Elo's
+        scale (hold-center: 1500 fixed). residual_* features below subtract team Elo from
+        player/squad Elo -- without this, the subtraction mixes player_elo_engine.py's
+        format-specific rescale with an unstretched team Elo and stops being a clean
+        per-column function, breaking each format's own Phase 1 "changes nothing" invariant.
+        No-op for t20w (and for t20/od/hnd before their own Phase 1 ships). Accepts scalar or
+        ndarray/Series.
+        """
+        return 1500.0 + (team_elo - 1500.0) * self._elo_stretch()
 
     def _lookup_empirical_runs_remaining_batch(self, balls_remaining_series: pd.Series, wickets_lost_series: pd.Series) -> pd.Series:
         if self.empirical_dls is None:
@@ -215,7 +248,9 @@ class XGBWinProbabilityModel:
             features["balls_remaining"],
             features["wickets_lost"]
         )
-        if self.format_type == "od":
+        if self.format_type in ("od", "odw"):
+            # odw is also a 50-over format -- without this, odw would be missing the DLS-
+            # resource feature od's model is built around.
             features["dls_resource_pct"] = self._compute_dls_resource_pct(features["balls_remaining"], features["wickets_lost"])
             features["current_partnership_runs"] = df.get("current_partnership_runs", pd.Series(0.0, index=df.index)).astype(float).fillna(0.0)
             features["recent_runs"] = df.get("recent_runs", pd.Series(0.0, index=df.index)).astype(float).fillna(0.0)
@@ -228,15 +263,22 @@ class XGBWinProbabilityModel:
         features["is_powerplay"] = (features["phase_encoded"] == 0).astype(float)
         features["is_death"] = (features["phase_encoded"] == 2).astype(float)
 
-        # Phase 5/6: is_hundred lets the (optionally T20-pooled) hnd model distinguish pooled
-        # T20 rows (tagged 0.0 by the pooling caller, see fit()) from its own hnd rows (always
-        # 1.0 here). hnd-gated so t20/od's feature schema -- and their cached models -- never change.
-        if self.format_type == "hnd":
+        # Phase 5/6: is_hundred lets a pooled model (hnd<-t20, hndw<-t20w) distinguish pooled
+        # rows (tagged 0.0 by the pooling caller, see fit()) from its own rows (always 1.0
+        # here). Gated on POOL_SOURCE membership so t20/od/t20w/odw's feature schema -- and
+        # their cached models -- never change. Column name kept as "is_hundred" (not
+        # generalised to e.g. "is_pooled_target") because hndw genuinely IS a Hundred format
+        # and renaming would change hnd's already-cached feature schema for no reason.
+        if self.format_type in POOL_SOURCE:
             features["is_hundred"] = 1.0
 
-        if self.format_type == "od":
+        if self.format_type in ("od", "odw"):
             comp_map = {
-                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
+                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4,
+                # odw-only competitions (womens_games_ingestion_plan.md odw phase, measured
+                # 2026-08-06: odis 636 / rhf 189 / wod 104) -- "odis" is shared with od (its
+                # migrated female matches keep the same comp_dir code); rhf/wod are odw-only.
+                "rhf": 5, "wod": 6,
             }
             default_val = 1.0 # default to odis
         else:
@@ -244,13 +286,21 @@ class XGBWinProbabilityModel:
                 "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
                 "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
                 "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
-                "ssm": 15, "t20s": 16
+                "ssm": 15, "t20s": 16,
+                # t20w-only competitions (womens_games_ingestion_plan.md Phase 1/3) -- without
+                # these, every non-shared women's competition (WBBL, WPL, etc.) collapses into
+                # the generic t20s default, losing real competition-specific signal.
+                "wbb": 17, "wpl": 18, "cec": 19, "wsl": 20, "wtb": 21, "blz": 22, "wtc": 23,
             }
             default_val = 16.0 # default to t20s
         features["competition_encoded"] = df["competition"].map(comp_map).fillna(default_val).astype(float)
 
-        # Player Elo features (t20 / od / hnd — hnd warm-started from T20 ratings via seed_ratings)
-        if self.format_type in ["t20", "od", "hnd"]:
+        # Player Elo features (t20 / od / hnd / t20w / odw / hndw — hnd warm-started from T20
+        # ratings via seed_ratings, hndw from t20w). t20w added Phase 3
+        # (womens_games_ingestion_plan.md): its 3,200-match corpus is ~20x hnd's (162), which
+        # already safely carries this feature. odw (929) and hndw (155, hnd-sized) both clear
+        # the same bar.
+        if self.format_type in ["t20", "od", "hnd", "t20w", "odw", "hndw"]:
             p_bat = df.get("batter_elo", pd.Series(1500.0, index=df.index)).astype(float)
             p_bowl = df.get("bowler_elo", pd.Series(1500.0, index=df.index)).astype(float)
             p_diff = df.get("player_elo_diff", pd.Series(0.0, index=df.index)).astype(float)
@@ -282,13 +332,18 @@ class XGBWinProbabilityModel:
             features["bowling_squad_elo"] = 1500.0 + (s_bowl - 1500.0) * decay_weight
             features["squad_elo_diff"] = s_diff * decay_weight
 
-            # Decay residual player features
-            features["residual_batter_elo"] = (p_bat - t_bat) * decay_weight
-            features["residual_bowler_elo"] = (p_bowl - t_bowl) * decay_weight
-            features["residual_player_elo_diff"] = (p_diff - t_diff) * decay_weight
-            features["residual_batting_squad_elo"] = (s_bat - t_bat) * decay_weight
-            features["residual_bowling_squad_elo"] = (s_bowl - t_bowl) * decay_weight
-            features["residual_squad_elo_diff"] = (s_diff - t_diff) * decay_weight
+            # Decay residual player features. Team Elo is mapped onto player scale first --
+            # see _team_to_player_scale (no-op for hnd).
+            t_bat_r = self._team_to_player_scale(t_bat)
+            t_bowl_r = self._team_to_player_scale(t_bowl)
+            t_diff_r = t_diff * self._elo_stretch()
+
+            features["residual_batter_elo"] = (p_bat - t_bat_r) * decay_weight
+            features["residual_bowler_elo"] = (p_bowl - t_bowl_r) * decay_weight
+            features["residual_player_elo_diff"] = (p_diff - t_diff_r) * decay_weight
+            features["residual_batting_squad_elo"] = (s_bat - t_bat_r) * decay_weight
+            features["residual_bowling_squad_elo"] = (s_bowl - t_bowl_r) * decay_weight
+            features["residual_squad_elo_diff"] = (s_diff - t_diff_r) * decay_weight
 
             # Decay form features
             features["batter_recent_form"] = f_bat * decay_weight
@@ -369,7 +424,7 @@ class XGBWinProbabilityModel:
             features["balls_remaining"],
             features["wickets_lost"]
         )
-        if self.format_type == "od":
+        if self.format_type in ("od", "odw"):
             features["dls_resource_pct"] = float(self._compute_dls_resource_pct(features["balls_remaining"], features["wickets_lost"]))
             features["current_partnership_runs"] = float(state.get("current_partnership_runs", 0.0))
             features["recent_runs"] = float(state.get("recent_runs", 0.0))
@@ -382,13 +437,14 @@ class XGBWinProbabilityModel:
         features["is_powerplay"] = float(features["phase_encoded"] == 0)
         features["is_death"] = float(features["phase_encoded"] == 2)
 
-        # See _extract_features_and_target -- hnd-gated, keeps t20/od schema unchanged.
-        if self.format_type == "hnd":
+        # See _extract_features_and_target -- POOL_SOURCE-gated, keeps t20/od/t20w/odw schema unchanged.
+        if self.format_type in POOL_SOURCE:
             features["is_hundred"] = 1.0
 
-        if self.format_type == "od":
+        if self.format_type in ("od", "odw"):
             comp_map = {
-                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
+                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4,
+                "rhf": 5, "wod": 6,
             }
             default_val = 1.0 # default to odis
         else:
@@ -396,14 +452,16 @@ class XGBWinProbabilityModel:
                 "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
                 "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
                 "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
-                "ssm": 15, "t20s": 16
+                "ssm": 15, "t20s": 16,
+                "wbb": 17, "wpl": 18, "cec": 19, "wsl": 20, "wtb": 21, "blz": 22, "wtc": 23,
             }
             default_val = 16.0 # default to t20s
         comp_val = state.get("competition", "t20s")
         features["competition_encoded"] = float(comp_map.get(comp_val, default_val))
 
-        # Player Elo features (t20 / od / hnd — hnd warm-started from T20 ratings via seed_ratings)
-        if self.format_type in ["t20", "od", "hnd"]:
+        # Player Elo features (t20 / od / hnd / t20w / odw / hndw — hnd warm-started from T20
+        # ratings via seed_ratings, hndw from t20w)
+        if self.format_type in ["t20", "od", "hnd", "t20w", "odw", "hndw"]:
             p_bat = float(state.get("batter_elo", 1500.0))
             p_bowl = float(state.get("bowler_elo", 1500.0))
             p_diff = float(state.get("player_elo_diff", 0.0))
@@ -430,13 +488,18 @@ class XGBWinProbabilityModel:
             features["bowling_squad_elo"] = 1500.0 + (s_bowl - 1500.0) * decay_weight
             features["squad_elo_diff"] = s_diff * decay_weight
 
-            # Decay residual player features
-            features["residual_batter_elo"] = (p_bat - batting_elo) * decay_weight
-            features["residual_bowler_elo"] = (p_bowl - bowling_elo) * decay_weight
-            features["residual_player_elo_diff"] = (p_diff - elo_diff) * decay_weight
-            features["residual_batting_squad_elo"] = (s_bat - batting_elo) * decay_weight
-            features["residual_bowling_squad_elo"] = (s_bowl - bowling_elo) * decay_weight
-            features["residual_squad_elo_diff"] = (s_diff - elo_diff) * decay_weight
+            # Decay residual player features. Team Elo is mapped onto player scale first --
+            # see _team_to_player_scale (no-op for hnd).
+            batting_elo_r = self._team_to_player_scale(batting_elo)
+            bowling_elo_r = self._team_to_player_scale(bowling_elo)
+            elo_diff_r = elo_diff * self._elo_stretch()
+
+            features["residual_batter_elo"] = (p_bat - batting_elo_r) * decay_weight
+            features["residual_bowler_elo"] = (p_bowl - bowling_elo_r) * decay_weight
+            features["residual_player_elo_diff"] = (p_diff - elo_diff_r) * decay_weight
+            features["residual_batting_squad_elo"] = (s_bat - batting_elo_r) * decay_weight
+            features["residual_bowling_squad_elo"] = (s_bowl - bowling_elo_r) * decay_weight
+            features["residual_squad_elo_diff"] = (s_diff - elo_diff_r) * decay_weight
 
             # Decay form features
             features["batter_recent_form"] = f_bat * decay_weight
@@ -478,8 +541,8 @@ class XGBWinProbabilityModel:
         Fits Group K-Fold XGBoost classifiers grouped by match_id to prevent validation leakage,
         as well as a final model trained on all data.
 
-        pool_X/pool_y (Phase 5/6, hnd only): pre-extracted feature/target rows from another
-        format (e.g. T20) pooled into every fold's TRAINING set as extra signal. Pool rows are
+        pool_X/pool_y (Phase 5/6; POOL_SOURCE-gated formats only, e.g. hnd<-t20, hndw<-t20w):
+        pre-extracted feature/target rows from another format pooled into every fold's TRAINING set as extra signal. Pool rows are
         never held out and never scored -- fold validation, OOF calibration, and match_to_fold
         are all computed purely from `states`. When pooling, hyperparameters and monotone
         constraints switch to the validated pooled config (see hundred_winprob_pooling_experiment.py)
@@ -505,7 +568,12 @@ class XGBWinProbabilityModel:
 
         is_pooled = pool_X is not None
         if is_pooled:
-            pool_hp = XGBWinProbabilityModel(format_type="t20")
+            # Byte-identical for hnd (t20 and t20w both fall through the same "else" branch
+            # in __init__, so every field xgb_kwargs reads below is equal by value between
+            # them) -- see POOL_SOURCE in format_spec.py. Direct index, not .get(fmt, "t20"),
+            # so a format missing from POOL_SOURCE fails loudly instead of silently reusing
+            # t20's men's-population-tuned hyperparameters.
+            pool_hp = XGBWinProbabilityModel(format_type=POOL_SOURCE[self.format_type])
             xgb_kwargs = dict(
                 n_estimators=pool_hp.n_estimators, max_depth=pool_hp.max_depth,
                 learning_rate=pool_hp.learning_rate, min_child_weight=pool_hp.min_child_weight,

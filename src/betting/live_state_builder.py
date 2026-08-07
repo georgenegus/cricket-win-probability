@@ -32,7 +32,7 @@ class LiveStateBuilder:
         player_elo_dict: Optional[Dict[str, float]] = None,
     ):
         self.format_type = format_type.lower()
-        self.total_overs = 50.0 if self.format_type == "od" else 20.0
+        self.total_overs = 50.0 if self.format_type in ("od", "odw") else 20.0
         self.total_balls = self.total_overs * 6.0
         self.target = target
 
@@ -42,7 +42,7 @@ class LiveStateBuilder:
         self.elo_diff = self.batting_team_elo - self.bowling_team_elo
 
         # Venue parameters
-        default_venue = 260.0 if self.format_type == "od" else 160.0
+        default_venue = 260.0 if self.format_type in ("od", "odw") else 160.0
         self.venue_avg_first_innings_score = (
             venue_avg_first_innings_score if venue_avg_first_innings_score is not None else default_venue
         )

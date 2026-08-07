@@ -25,13 +25,15 @@ class PhaseEloEngine:
         format_type="t20",
     ):
         self.format_type = format_type
+        # odw widened alongside od -- same ball-volume-driven step-size reasoning as
+        # PlayerEloEngine's k_runs/k_wickets.
         if k_runs is None:
-            self.k_runs = 0.2 if format_type == "od" else 0.5
+            self.k_runs = 0.2 if format_type in ("od", "odw") else 0.5
         else:
             self.k_runs = float(k_runs)
 
         if k_wickets is None:
-            self.k_wickets = 8.0 if format_type == "od" else 5.0
+            self.k_wickets = 8.0 if format_type in ("od", "odw") else 5.0
         else:
             self.k_wickets = float(k_wickets)
 
@@ -57,15 +59,12 @@ class PhaseEloEngine:
         bpo = float(spec(self.format_type)["balls_per_over"])
         df["over_float"] = df["over"] + (df["ball"] - 1) / bpo
 
-        if self.format_type == "hnd":
-            pp_end = 5.0
-            death_start = 15.0
-        elif self.format_type == "od":
-            pp_end = 10.0
-            death_start = 40.0
-        else:
-            pp_end = 6.0
-            death_start = 15.0
+        # Spec-derived (byte-identical: t20 36/6=6.0,90/6=15.0; od 60/6=10.0,240/6=40.0;
+        # hnd 25/5=5.0,75/5=15.0; t20w 6.0/15.0, same as t20). No shortened-innings branch
+        # here (unlike build_states.py's phase edges), so full derivation is safe.
+        fmt_spec = spec(self.format_type)
+        pp_end = fmt_spec["pp_end_ball"] / fmt_spec["balls_per_over"]
+        death_start = fmt_spec["death_start_ball"] / fmt_spec["balls_per_over"]
 
         df["phase"] = np.where(
             df["over_float"] < pp_end,
@@ -106,15 +105,12 @@ class PhaseEloEngine:
         bpo = float(spec(self.format_type)["balls_per_over"])
         df["over_float"] = df["over"] + (df["ball"] - 1) / bpo
 
-        if self.format_type == "hnd":
-            pp_end = 5.0
-            death_start = 15.0
-        elif self.format_type == "od":
-            pp_end = 10.0
-            death_start = 40.0
-        else:
-            pp_end = 6.0
-            death_start = 15.0
+        # Spec-derived (byte-identical: t20 36/6=6.0,90/6=15.0; od 60/6=10.0,240/6=40.0;
+        # hnd 25/5=5.0,75/5=15.0; t20w 6.0/15.0, same as t20). No shortened-innings branch
+        # here (unlike build_states.py's phase edges), so full derivation is safe.
+        fmt_spec = spec(self.format_type)
+        pp_end = fmt_spec["pp_end_ball"] / fmt_spec["balls_per_over"]
+        death_start = fmt_spec["death_start_ball"] / fmt_spec["balls_per_over"]
 
         df["phase"] = np.where(
             df["over_float"] < pp_end,

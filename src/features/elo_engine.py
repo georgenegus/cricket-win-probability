@@ -42,8 +42,10 @@ class EloEngine:
         self.cache_file = self.processed_path / f"{format_type}_elo_ratings.parquet"
         os.makedirs(self.processed_path, exist_ok=True)
 
-        # Set format-specific defaults
-        if format_type == "od":
+        # Set format-specific defaults. odw is also a 50-over format -- cadence/margin-scale
+        # constants are tied to per-innings ball volume and score scale (odw par 220.88 is
+        # within 15% of od's 260), not a men's-population fit, so widening is safe.
+        if format_type in ("od", "odw"):
             self.k_factor = float(k_factor if k_factor is not None else 25.0)
             self.decay_days = float(decay_days if decay_days is not None else 120.0)
             self.decay_rate = float(decay_rate if decay_rate is not None else 0.97)

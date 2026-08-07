@@ -29,7 +29,7 @@ class VenueEngine:
         from src.data_processing.format_spec import spec
         fmt_spec = spec(format_type)
 
-        if format_type == "od":
+        if format_type in ("od", "odw"):
             self.smoothing_runs = float(smoothing_runs if smoothing_runs is not None else 10.0)
             self.smoothing_chase = float(smoothing_chase if smoothing_chase is not None else 25.0)
             self.default_avg_score = float(default_avg_score if default_avg_score is not None else fmt_spec["default_venue_score"])

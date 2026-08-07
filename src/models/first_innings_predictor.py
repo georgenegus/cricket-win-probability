@@ -99,9 +99,11 @@ class FirstInningsPredictor:
             .astype(float)
         )
 
-        if self.format_type == "od":
+        if self.format_type in ("od", "odw"):
             comp_map = {
-                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
+                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4,
+                # odw-only competitions -- see xgb_win_probability.py's identical extension.
+                "rhf": 5, "wod": 6,
             }
             default_val = 1.0 # default to odis
         else:
@@ -109,7 +111,9 @@ class FirstInningsPredictor:
                 "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
                 "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
                 "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
-                "ssm": 15, "t20s": 16
+                "ssm": 15, "t20s": 16,
+                # t20w-only competitions -- see xgb_win_probability.py's identical extension.
+                "wbb": 17, "wpl": 18, "cec": 19, "wsl": 20, "wtb": 21, "blz": 22, "wtc": 23,
             }
             default_val = 16.0 # default to t20s
         features["competition_encoded"] = df["competition"].map(comp_map).fillna(default_val).astype(float)
@@ -155,9 +159,10 @@ class FirstInningsPredictor:
 
         features["venue_avg_first_innings_score"] = float(state.get("venue_avg_first_innings_score", 160.0))
 
-        if self.format_type == "od":
+        if self.format_type in ("od", "odw"):
             comp_map = {
-                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4
+                "odc": 0, "odis": 1, "odms": 2, "rlc": 3, "sft": 4,
+                "rhf": 5, "wod": 6,
             }
             default_val = 1.0 # default to odis
         else:
@@ -165,7 +170,8 @@ class FirstInningsPredictor:
                 "bbl": 0, "bpl": 1, "cpl": 2, "ctc": 3, "ilt": 4,
                 "ipl": 5, "ipt": 6, "lpl": 7, "mct": 8, "mlc": 9,
                 "msl": 10, "npl": 11, "ntb": 12, "psl": 13, "sat": 14,
-                "ssm": 15, "t20s": 16
+                "ssm": 15, "t20s": 16,
+                "wbb": 17, "wpl": 18, "cec": 19, "wsl": 20, "wtb": 21, "blz": 22, "wtc": 23,
             }
             default_val = 16.0 # default to t20s
         comp_val = state.get("competition", "t20s")

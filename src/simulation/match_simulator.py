@@ -210,12 +210,19 @@ def extract_match_squads(
     Returns:
         (team_1_dict, team_2_dict, venue_avg_score)
     """
+    from src.data_processing.format_spec import FORMAT_SPECS
+
     p_dir = Path(processed_dir)
     fmt_clean = str(format_type).lower().strip()
     if fmt_clean in ["od", "odi"]:
         fmt = "od"
     elif fmt_clean in ["hnd", "hundred", "100"]:
         fmt = "hnd"
+    elif fmt_clean in FORMAT_SPECS:
+        # Any other known format code (t20w, and future odw/hndw) passes through unchanged --
+        # was falling into the "else: t20" default below, which would have silently redirected
+        # every t20w squad lookup to read men's t20 parquets instead of t20w's own.
+        fmt = fmt_clean
     else:
         fmt = "t20"
 
@@ -261,6 +268,14 @@ def extract_match_squads(
     # name-keyed dict lets one role's Elo clobber the other's (Bug #1).
     batter_map = {}
     bowler_map = {}
+    # Fallback for named players with no row for THIS match_id — e.g. a batter who was named
+    # in the XI but never reached the crease because the innings ended first. Without this,
+    # such players silently default to a neutral 1500 and can crater a lineup's simulated
+    # strength even though they have a perfectly good rating from an earlier match. Filled
+    # below only for players who actually need it, using each one's most recent role rating
+    # from strictly BEFORE this match (never a later one, to avoid leaking future form).
+    prior_batter_elo = {}
+    prior_bowler_elo = {}
     if player_path.exists():
         p_df = pd.read_parquet(player_path)
         p_match = p_df[p_df["match_id"].astype(str) == str(match_id)]
@@ -275,11 +290,43 @@ def extract_match_squads(
             else:
                 batter_map[p_name] = entry
 
+        named_players = set(t1_players) | set(t2_players)
+        missing_batters = named_players - set(batter_map)
+        missing_bowlers = named_players - set(bowler_map)
+        match_date_ts = pd.to_datetime(row.get("date"), errors="coerce")
+        if (missing_batters or missing_bowlers) and pd.notna(match_date_ts):
+            needed = missing_batters | missing_bowlers
+            p_hist = p_df[p_df["player"].isin(needed)].copy()
+            if not p_hist.empty:
+                date_map = dict(zip(meta_df["match_id"].astype(str), pd.to_datetime(meta_df["date"], errors="coerce")))
+                p_hist["match_date"] = p_hist["match_id"].astype(str).map(date_map)
+                p_hist = p_hist[p_hist["match_date"] < match_date_ts].sort_values("match_date")
+
+                def _latest_prior(name, role):
+                    rows = p_hist[(p_hist["player"] == name) & (p_hist["role"] == role)]
+                    if rows.empty:
+                        return None
+                    last = rows.iloc[-1]
+                    return {
+                        "effective_elo": float(last["effective_elo"]),
+                        "recent_form": float(last.get("recent_form", 0.0)),
+                    }
+
+                for p_name in missing_batters:
+                    prior = _latest_prior(p_name, "batter")
+                    if prior is not None:
+                        prior_batter_elo[p_name] = prior
+                for p_name in missing_bowlers:
+                    prior = _latest_prior(p_name, "bowler")
+                    if prior is not None:
+                        prior_bowler_elo[p_name] = prior
+
     def _build_team_dict(team_name: str, player_list: list) -> Dict[str, Any]:
-        # Batting order as listed; carry each player's BATTING Elo/form.
+        # Batting order as listed; carry each player's BATTING Elo/form. Prefer this match's
+        # own rating, then the player's most recent prior rating, then a neutral default.
         lineup = []
         for p in player_list[:11]:
-            info = batter_map.get(p, {"effective_elo": 1500.0, "recent_form": 0.0})
+            info = batter_map.get(p) or prior_batter_elo.get(p) or {"effective_elo": 1500.0, "recent_form": 0.0}
             lineup.append({"name": p, "effective_elo": info["effective_elo"], "recent_form": info["recent_form"]})
 
         # Fill up to 11 if player list had fewer
@@ -297,7 +344,7 @@ def extract_match_squads(
         )
         attack = []
         for name in ranked[:5]:
-            info = bowler_map.get(name, {"effective_elo": 1500.0, "recent_form": 0.0})
+            info = bowler_map.get(name) or prior_bowler_elo.get(name) or {"effective_elo": 1500.0, "recent_form": 0.0}
             attack.append({"name": name, "effective_elo": info["effective_elo"], "recent_form": info["recent_form"]})
 
         return {"name": team_name, "lineup": lineup, "attack": attack}

@@ -81,7 +81,11 @@ class ESPNCricInfoScraper(LiveScorecardFeed):
     LEAGUE_SUMMARY_API = "https://site.web.api.espn.com/apis/site/v2/sports/cricket/{league_id}/summary?event={match_id}"
     PLAY_BY_PLAY_API = "https://site.web.api.espn.com/apis/site/v2/sports/cricket/playbyplay?event={match_id}"
     # Single cross-league scoreboard: lists every cricket event with a pre/in/post state.
-    HEADER_API = "https://site.api.espn.com/apis/v2/scoreboard/header?sport=cricket"
+    # NOTE: was "site.api.espn.com" -- that host started returning a hard 403 (Akamai
+    # "Access Denied") for this endpoint specifically, while the identical path on
+    # "site.web.api.espn.com" (the same host SUMMARY_API/PLAY_BY_PLAY_API already use)
+    # returns 200 with the same sports/leagues/events payload shape. Swapped host, not path.
+    HEADER_API = "https://site.web.api.espn.com/apis/v2/scoreboard/header?sport=cricket"
 
     # Module-shared short-TTL cache for the live-games list so repeated UI refreshes
     # don't hammer ESPN. Keyed as (timestamp, payload).
@@ -131,10 +135,16 @@ class ESPNCricInfoScraper(LiveScorecardFeed):
         Returns every current cricket match from ESPN's cross-league scoreboard header.
 
         Each item: {event_id, name, team_a, team_b, team_a_score, team_b_score,
-                    league_name, state ('pre'|'in'|'post'), status_detail}.
+                    league_name, state ('pre'|'in'|'post'), status_detail, event_type,
+                    class_card}.
         'in' == live. When include_upcoming is True, 'pre' fixtures are kept too so the
         UI can show what's coming up when nothing is currently live. Results are cached
         for a few seconds (see _LIVE_CACHE_TTL) to avoid hammering ESPN on UI refreshes.
+
+        event_type / class_card are ESPN's own match-type classification (e.g. "Test",
+        "ODI", "T20", "List A") straight off this same payload -- callers use them (see
+        format_spec.classify_espn_event) to identify match types we don't model (Test,
+        First-Class) rather than guessing format from the name/league text alone.
         """
         now = time.time()
         ts, cached = cls._live_cache
@@ -169,6 +179,7 @@ class ESPNCricInfoScraper(LiveScorecardFeed):
                     if len(competitors) < 2:
                         continue
                     a, b = competitors[0], competitors[1]
+                    class_info = ev.get("class", {}) or {}
                     games.append({
                         "event_id": str(ev.get("id", "")),
                         "league_id": league_id,
@@ -180,6 +191,8 @@ class ESPNCricInfoScraper(LiveScorecardFeed):
                         "league_name": league_name,
                         "state": state,
                         "status_detail": full_status.get("summary", "") or full_status.get("longSummary", ""),
+                        "event_type": ev.get("eventType", ""),
+                        "class_card": class_info.get("generalClassCard", ""),
                     })
         # Live first, then upcoming.
         games.sort(key=lambda g: 0 if g["state"] == "in" else 1)
@@ -311,11 +324,20 @@ class ESPNCricInfoScraper(LiveScorecardFeed):
             "is_match_complete": is_complete,
         }
 
-    def get_lineups(self) -> Dict[str, List[str]]:
+    def get_lineups(self) -> Dict[str, List[Dict[str, Optional[str]]]]:
         """
-        Returns {team_display_name: [player_name, ...]} scraped from the summary 'rosters'
-        section. Returns {} when lineups aren't published yet (pre-toss, minor fixtures),
-        which signals callers to fall back to a historical squad.
+        Returns {team_display_name: [{"id": athlete_id_or_None, "name": player_name}, ...]}
+        scraped from the summary 'rosters' section. Returns {} when lineups aren't published
+        yet (pre-toss, minor fixtures), which signals callers to fall back to a historical
+        squad.
+
+        `id` is ESPN's athlete id, which is the same id space as Cricinfo's numeric player id
+        (confirmed: e.g. West Indies' Brandon King is athlete id "670035" here, and
+        player_meta.csv lists cricinfo_id 670035 for the same player under unique_name
+        "BA King"). Callers can use it to resolve a live player to the Cricsheet-style name
+        the historical Elo ratings are keyed by, since ESPN's displayName often spells out a
+        full first name ("Brandon King") that a bare string match against "BA King" would
+        never hit.
         """
         if not self.match_id:
             raise RuntimeError("Scraper not connected to a match. Call connect() first.")
@@ -327,17 +349,17 @@ class ESPNCricInfoScraper(LiveScorecardFeed):
             data = resp.json()
             self._last_summary = data
 
-        lineups: Dict[str, List[str]] = {}
+        lineups: Dict[str, List[Dict[str, Optional[str]]]] = {}
         for roster in data.get("rosters", []) or []:
             team_name = (roster.get("team", {}) or {}).get("displayName", "")
-            names: List[str] = []
+            players: List[Dict[str, Optional[str]]] = []
             for entry in roster.get("roster", []) or []:
                 athlete = entry.get("athlete", {}) or {}
                 name = athlete.get("displayName") or athlete.get("fullName") or entry.get("displayName")
                 if name:
-                    names.append(str(name))
-            if team_name and names:
-                lineups[team_name] = names
+                    players.append({"id": athlete.get("id"), "name": str(name)})
+            if team_name and players:
+                lineups[team_name] = players
         return lineups
 
     def poll(self, interval_seconds: float = 10.0) -> Generator[DeliveryUpdate, None, None]:
@@ -426,7 +448,7 @@ class ManualEntryFeed(LiveScorecardFeed):
         self.target = target
         self.innings = innings
         self.format_type = format_type
-        self.max_overs = 50 if format_type == "od" else 20
+        self.max_overs = 50 if format_type in ("od", "odw") else 20
 
     def get_current_state(self) -> Dict[str, Any]:
         """Returns the current accumulated manual match state."""

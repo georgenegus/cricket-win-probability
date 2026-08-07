@@ -31,7 +31,10 @@ class StateBuilder:
             self.total_overs
         )
 
-        if self.format_type == "hnd":
+        if self.balls_per_over == 5:
+            # hnd is the only 5-ball-per-over men's format; matching on geometry (not the
+            # literal "hnd" name) means hndw (also 5 balls/over) gets these edges too, instead
+            # of silently falling into the T20-shaped branch below via total_overs<=20.
             powerplay_end = np.where(eff_overs < 20, eff_overs * 0.25, 5.0)
             death_start = np.where(eff_overs < 20, eff_overs * 0.75, 15.0)
         elif self.total_overs > 20 or self.format_type == "od":

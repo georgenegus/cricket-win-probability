@@ -18,10 +18,12 @@ def build_empirical_dls(format_type="t20", data_dir="data"):
     meta_df = meta_extractor.extract_all()
     print(f"Loaded {len(meta_df):,} matches metadata.")
     
-    # Filter for male matches only
+    # Filter to this format's own gender (was hardcoded to "male", which would zero out an
+    # all-female corpus like t20w).
     if "gender" in meta_df.columns:
-        meta_df = meta_df[meta_df["gender"] == "male"]
-        print(f"Filtered for male matches: {len(meta_df):,} matches.")
+        from src.data_processing.format_spec import spec
+        meta_df = meta_df[meta_df["gender"] == spec(format_type)["gender"]]
+        print(f"Filtered for {spec(format_type)['gender']} matches: {len(meta_df):,} matches.")
     
     # Filter out rain-affected/DLS matches to ensure clean historical resource curves
     if "method" in meta_df.columns:
