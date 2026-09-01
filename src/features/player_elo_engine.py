@@ -2,7 +2,9 @@ import os
 import math
 import numpy as np
 import pandas as pd
+from collections import deque
 from pathlib import Path
+from typing import Dict
 
 
 from src.utils.cache_manager import CacheManager
@@ -21,7 +23,21 @@ class PlayerEloEngine:
     # Phase 6: re-fitted against the POST-Phase-4 distribution (Phases 2-4's non-affine
     # dynamics changes had drifted p99 to 2157.3) to land the final numbers precisely --
     # 3.22 -> 2.48 (measured p99=1999.8 vs target 2000.0; see scripts/measure_player_elo_distribution.py).
-    T20_ELO_STRETCH = 2.48
+    # RE-FITTED 2026-08-17 (player_elo_stretch_recalibration_plan.md): 2.48 -> 3.29. NOT a
+    # dynamics change -- the constant went stale because the distribution it is fitted against
+    # moved underneath it. Player Elo anchors on team Elo (opposing bowling-squad Elo, its
+    # _team_to_player_scale fallback, and the Phase-4 opponent-quality weight), and
+    # _team_to_player_scale amplifies every team-Elo point BY THIS CONSTANT -- so the
+    # 2026-08-06 stale-team-Elo-cache rebuild (t20 team Elo moved on 3,697/10,634 matches by
+    # up to ~400 pts; see the memory note / that fix's write-up) compressed the player tail
+    # with no code change at all: batter career-peak p99 drifted 1999.8 -> 1865.3, Buttler
+    # 1983.6 -> 1806.9, Kohli 1962.1 -> 1762.1, while p50 barely moved (1691.7 -> 1679.5).
+    # Re-pinned with scripts/fit_player_elo_stretch.py (>=50-match cut, target 2000):
+    # 2.48 (p99 1865.3) -> 3.3948 (2015.2) -> 3.2944 (1998.8), shipped at 3.29.
+    # LESSON: this constant is downstream of team Elo. Any change to EloEngine, its cache, or
+    # the squad-Elo aggregation decalibrates it silently -- re-run the fit script and check,
+    # don't assume a shipped stretch stays fitted.
+    T20_ELO_STRETCH = 3.29
 
     # Phase 1 (od_player_elo_revamp_plan.md): hold-center affine stretch, od only -- fitted
     # against the POST-Phase-3 distribution (batter p99 1921.1 -> 2000; Phase 3's dynamic-K
@@ -36,7 +52,21 @@ class PlayerEloEngine:
     # --format hnd --min-matches 20). t20/od keep their own independently-fitted stretches above;
     # this constant is never applied to them. Re-fitted precisely in this plan's own Phase 4 once
     # Phases 2-3's dynamics (if kept) have reshaped the tail, mirroring T20 Phase 6's final trim.
-    HND_ELO_STRETCH = 2.78
+    # RE-FITTED 2026-08-17 (player_elo_stretch_recalibration_plan.md): 2.78 -> 4.00, alongside
+    # t20's own re-fit. Same root cause (see T20_ELO_STRETCH above -- the 2026-08-06 stale-
+    # team-Elo-cache rebuild also moved hnd's team Elo, on 163/167 matches by up to ~98 pts),
+    # PLUS a second, hnd-specific compounding factor: the frozen hnd<-t20 seed snapshot was
+    # still dated 2026-08-05, i.e. it predated the cache fix, so hnd was warm-starting every
+    # seeded player from pre-fix t20 ratings. Refreshing that snapshot first (this plan's
+    # Phase 2) recovered most of the drift on its own -- measured p99 1653.8 off the old
+    # production parquet vs 1847.2 recomputed on the refreshed seed -- and the re-fit closes
+    # the rest: 2.78 (p99 1847.2) -> 4.0038 (2000.0), shipped at 4.00.
+    # CAVEAT on this number's stability: hnd's >=20-match batter population is only n=42, so
+    # the p99 anchor interpolates between the top one or two players and is far more
+    # single-player-sensitive than t20's n=786. That was equally true when 2.78 was fitted, so
+    # it is not a new weakness -- but treat a future hnd re-fit as noisier than t20's, and
+    # re-fit only when the measured gap is large (as here), never to chase a few points.
+    HND_ELO_STRETCH = 4.00
 
     # Phase 1 (effective_game_elo_plan.md): empirical share of team legal balls faced by
     # batting position (index 0 = position 1 = first-listed), measured per format from the
@@ -283,7 +313,14 @@ class PlayerEloEngine:
         self.bowler_match_counts = {}  # player -> count
         self.batter_last_dates = {}    # player -> date
         self.bowler_last_dates = {}    # player -> date
-        
+
+        # Phase 2 (frontline_bowler_eligibility_plan.md): player -> deque of 0/1 flags, one per
+        # named appearance, tracking whether they bowled -- trailing FRONTLINE_BOWL_WINDOW only.
+        # Read via get_recent_bowl_rate(); NOT yet consumed by the rank key (that's Phase 3) --
+        # this phase only populates it, so it can be verified leakage-free (byte-identical Brier
+        # against the Phase-0 baseline) before anything downstream starts reading it.
+        self.player_recent_bowled = {}  # player -> deque([0/1], maxlen=FRONTLINE_BOWL_WINDOW)
+
         # Recent deltas tracking for form features (Proposal 5)
         self.batter_recent_deltas = {}  # player -> list of Elo updates
         self.bowler_recent_deltas = {}  # player -> list of Elo updates
@@ -305,6 +342,39 @@ class PlayerEloEngine:
             return self.batter_last_dates.get(player, None)
         else:
             return self.bowler_last_dates.get(player, None)
+
+    def get_recent_bowl_rate(self, player: str) -> float:
+        """Share of `player`'s trailing FRONTLINE_BOWL_WINDOW named appearances (batting or
+        bowling) in which they actually bowled, as of strictly before the match currently being
+        processed -- see the deque populated at the end of each per-match iteration in run().
+
+        A player absent from player_recent_bowled (never named in a processed match yet) gets
+        rate 0.0, matching bowling_appearance_rates()'s serving-side "missing means not
+        eligible" contract -- never "unknown, assume eligible".
+        """
+        d = self.player_recent_bowled.get(player)
+        return (sum(d) / len(d)) if d else 0.0
+
+    def _bowler_rank_key(self, players: list, eff_elos: dict) -> dict:
+        """Phase 3 (frontline_bowler_eligibility_plan.md): zeroes any player whose recent
+        bowling-appearance rate is below FRONTLINE_BOWL_MIN_RATE, not merely anyone with a
+        bowling appearance ever. The old bar -- get_match_count(p, "bowler") > 0 -- let a
+        batter's stale, shrinkage-inflated bowling Elo from a handful of long-ago overs rank as
+        a frontline bowler forever. Observed on Surrey vs Kent 2026-08-05: DP Sibley (3 career
+        bowling appearances, none since 2018) ranked as Surrey's TOP bowling option ahead of two
+        bowlers who'd bowled in 10 of their last 10 appearances.
+
+        get_recent_bowl_rate() is leakage-safe by construction (Phase 2: only reflects matches
+        strictly before this one). Deliberately no known_bowler ground-truth escape hatch here,
+        unlike the serving-side frontline_bowl_sort_key -- extract_match_squads' use of in-match
+        truth is explicitly leakage-fine for simulation, but this IS the training loop. A
+        debutant bowler therefore still ranks 0.0 on their debut, identical to today's
+        behaviour (their get_match_count was also 0 then).
+        """
+        return {
+            p: (eff_elos[p] if self.get_recent_bowl_rate(p) >= FRONTLINE_BOWL_MIN_RATE else 0.0)
+            for p in players
+        }
 
     def _team_to_player_scale(self, team_elo: float) -> float:
         """
@@ -655,12 +725,13 @@ class PlayerEloEngine:
             # ~2076 team Elo t20 side's non-bowlers shrinkage-anchor near ~2929, vs its actual
             # best bowler's real ~2255 -- ranking on raw elo_map values let 5 pure batters
             # outrank the entire attack, producing a nonsensical squad average >2600). Rank on
-            # a separate key that zeroes any player with zero PRIOR bowling matches (leakage-
-            # safe: get_match_count reflects state before this match's own bowling loop below
-            # runs) -- mirrors match_simulator.py's own attack-selection guard against exactly
-            # this trap, adapted to use pre-match history instead of in-match ground truth.
-            t1_bowler_rank_key = {p: (match_bowler_eff_elos[p] if self.get_match_count(p, "bowler") > 0 else 0.0) for p in t1_players}
-            t2_bowler_rank_key = {p: (match_bowler_eff_elos[p] if self.get_match_count(p, "bowler") > 0 else 0.0) for p in t2_players}
+            # a separate key instead -- see _bowler_rank_key (Phase 3,
+            # frontline_bowler_eligibility_plan.md: recent-bowling-rate gated, not merely
+            # "bowled at least once ever", which mirrors match_simulator.py's own
+            # attack-selection guard against exactly this trap far more closely than the
+            # original "any prior appearance" bar did).
+            t1_bowler_rank_key = self._bowler_rank_key(t1_players, match_bowler_eff_elos)
+            t2_bowler_rank_key = self._bowler_rank_key(t2_players, match_bowler_eff_elos)
 
             t1_bat_squad = self._weighted_mean_by_position(
                 t1_players, match_batter_eff_elos, self._team_to_player_scale(t1_elo), self.w_bat
@@ -833,6 +904,20 @@ class PlayerEloEngine:
                 self.bowler_match_counts[bowler] = self.get_match_count(bowler, "bowler") + 1
                 self.bowler_last_dates[bowler] = match_date
 
+            # Phase 2 (frontline_bowler_eligibility_plan.md): record this match's bowl/no-bowl
+            # outcome for EVERY named player, not just those who bowled -- a non-bowling
+            # appearance is itself the signal that keeps a specialist batter's rate low despite
+            # being rated (and named) every game. Placed after both loops above, so
+            # get_recent_bowl_rate() calls made while building a FUTURE match's rank key see only
+            # this match's outcome and never leak it into ranking for the CURRENT match (mirrors
+            # get_match_count's existing pre-match-only semantics). Not read anywhere yet --
+            # Phase 3 wires it into the rank key.
+            bowled_this_match = {r["bowler"] for r in match_bowlers}
+            for p in t1_players + t2_players:
+                self.player_recent_bowled.setdefault(
+                    p, deque(maxlen=FRONTLINE_BOWL_WINDOW)
+                ).append(1 if p in bowled_this_match else 0)
+
         df = pd.DataFrame(player_elo_records)
         print(f"Saving player Elo ratings to cache: {self.cache_file}")
         df.to_parquet(self.cache_file, index=False, compression="snappy")
@@ -947,4 +1032,238 @@ def compute_effective_elo(team_elo, batting_squad_elo, bowling_squad_elo, squad_
         stretch = 1.0
     squad_now = (float(batting_squad_elo) + float(bowling_squad_elo)) / 2.0
     return float(team_elo) + gain * (squad_now - float(squad_baseline)) / stretch
+
+
+# --- Frontline-bowler eligibility ------------------------------------------------------
+# A player earns a role="bowler" row ONLY for matches in which they actually bowled a ball
+# (PlayerEloEngine builds bowler rows by aggregating deliveries), so the share of a player's
+# recent appearances carrying a bowler row is a true "does this person bowl when they play"
+# signal. The mere EXISTENCE of a bowling Elo is not: it persists forever after a single
+# long-ago cameo, and Bayesian shrinkage (get_effective_elo, low reliability) anchors that
+# stale rating near the team's own strength -- which outranks genuine frontline bowlers rated
+# below 1500. Observed on Surrey vs Kent 2026-08-05: DP Sibley (3 career bowling appearances,
+# none since 2018, bowling Elo shrunk to ~1570) ranked as Surrey's TOP bowling option ahead of
+# DJ Worrall and JPA Taylor, who each bowled in 10 of their last 10 appearances.
+#
+# Threshold measured against the od corpus: among players who have ever bowled, career bowling
+# share has p10 = 0.228 and median 0.52, so a 0.2 floor sits just under the genuine-bowler
+# population while excluding the cameo class (1,110 of 3,135 ever-bowled players have <= 3
+# career bowling appearances; 147 of those are established batters with >= 10 innings).
+#
+# frontline_bowler_eligibility_plan.md Phase 0: a single shared MIN_RATE/WINDOW, not a
+# per-format dict, is deliberate -- the threshold sweep (rate in {.1,.15,.2,.25,.3} x window in
+# {5,10,15}) found 0.2/window=10 sits in the same flat plateau independently for BOTH t20 and od
+# (od 0.15->0.20: 54.42%->54.74% squads changed; t20 0.15->0.20: 52.82%->53.17%; the real cliffs
+# are 0.10->0.15 and 0.20->0.25 in both formats), so nothing here is overfit to the format it was
+# originally derived from. hnd/t20w/odw/hndw's uniform W_BOWL makes eligibility a rank-order
+# no-op regardless of threshold (confirmed both synthetically -- a fully reversed rank key moves
+# t20 182.3 / od 182.5 Elo, those four formats exactly 0.000000 -- and on real match-data replay:
+# 0.00% of squads changed, 0.000 delta, across all four).
+FRONTLINE_BOWL_WINDOW = 10
+FRONTLINE_BOWL_MIN_RATE = 0.2
+
+
+def bowling_appearance_rates(
+    p_df: pd.DataFrame,
+    window: int = FRONTLINE_BOWL_WINDOW,
+    before_date=None,
+    players=None,
+) -> Dict[str, float]:
+    """Share of each player's most recent `window` appearances in which they actually bowled.
+
+    `p_df` must carry a `match_date` column (callers map it on from the match metadata / team
+    Elo table). `before_date` restricts to strictly-earlier matches, keeping the rate
+    leakage-free when building a point-in-time squad for a historical fixture; `players`
+    narrows the computation to the names actually needed.
+
+    Players with no dated appearances at all are simply absent from the result -- callers treat
+    a missing entry as rate 0.0 (not eligible), never as "unknown, assume yes".
+    """
+    if p_df is None or p_df.empty or "match_date" not in p_df.columns:
+        return {}
+    df = p_df
+    if players is not None:
+        df = df[df["player"].isin(set(players))]
+    if df.empty:
+        return {}
+
+    df = df[["player", "match_id", "role", "match_date"]].copy()
+    df["match_date"] = pd.to_datetime(df["match_date"], errors="coerce")
+    df = df.dropna(subset=["match_date"])
+    if before_date is not None:
+        df = df[df["match_date"] < before_date]
+    if df.empty:
+        return {}
+
+    df["_bowled"] = df["role"].eq("bowler")
+    # One row per (player, match): did they bowl in it?
+    appearances = df.groupby(["player", "match_id", "match_date"], as_index=False)["_bowled"].max()
+    appearances = appearances.sort_values("match_date")
+    recent = appearances.groupby("player").tail(window)
+    return recent.groupby("player")["_bowled"].mean().to_dict()
+
+
+_BOWLER_VOLUME_MEMO = {"key": None, "df": None}
+
+
+def bowler_volume_table(format_type: str, processed_dir="data/processed") -> pd.DataFrame:
+    """Per (player, match_id, match_date) count of legal+illegal balls bowled, built from the
+    deliveries corpus and cached as a small derived parquet (~1-2 MB vs. the multi-million-row
+    deliveries file it is summarised from).
+
+    Volume is what actually distinguishes a frontline bowler from a fifth/part-time option --
+    bowling_appearance_rates() only answers "does this person bowl at all", which a genuine
+    4-over-per-innings part-timer passes just as cleanly as a 10-over specialist.
+    """
+    p_dir = Path(processed_dir)
+    cache = p_dir / f"_{format_type}_bowler_volume.parquet"
+    source = p_dir / f"{format_type}_cricket_data.parquet"
+    # In-process memo on top of the on-disk cache: extract_match_squads() is called once per
+    # match, so without this a backtest re-reads the same parquet hundreds of times. The key
+    # MUST include the source mtime as well as the cache's -- keyed on the cache alone, the memo
+    # short-circuits the staleness check below and keeps serving a summary built from a
+    # superseded deliveries corpus.
+    memo_key = (
+        str(cache),
+        cache.stat().st_mtime if cache.exists() else None,
+        source.stat().st_mtime if source.exists() else None,
+    )
+    if _BOWLER_VOLUME_MEMO.get("key") == memo_key:
+        return _BOWLER_VOLUME_MEMO["df"]
+    # Rebuild whenever the deliveries corpus is newer than this summary. NOT registered with
+    # CacheManager: that hashes SOURCE CODE, whereas this cache's only real dependency is a
+    # multi-million-row data file whose content-hash would cost more to compute than the rebuild
+    # it guards. mtime is the cheap correct check here -- and it matters, because
+    # scripts/import_and_retrain.py appends new matches on a schedule, which would otherwise
+    # leave every player's workload frozen at whatever it was the first time this ran.
+    if cache.exists() and (not source.exists() or cache.stat().st_mtime >= source.stat().st_mtime):
+        df = pd.read_parquet(cache)
+        _BOWLER_VOLUME_MEMO.update(key=memo_key, df=df)
+        return df
+
+    deliveries = pd.read_parquet(source, columns=["bowler", "match_id"])
+    vol = deliveries.groupby(["bowler", "match_id"]).size().reset_index(name="balls")
+    vol = vol.rename(columns={"bowler": "player"})
+
+    elo_path = p_dir / f"{format_type}_elo_ratings.parquet"
+    if elo_path.exists():
+        edf = pd.read_parquet(elo_path, columns=["match_id", "match_date"])
+        date_map = dict(zip(edf["match_id"].astype(str), pd.to_datetime(edf["match_date"], errors="coerce")))
+        vol["match_date"] = vol["match_id"].astype(str).map(date_map)
+    else:
+        vol["match_date"] = pd.NaT
+
+    vol.to_parquet(cache, index=False, compression="snappy")
+    # re-key on the file we just wrote, so the memo matches what a later call would load
+    _BOWLER_VOLUME_MEMO.update(
+        key=(str(cache), cache.stat().st_mtime, source.stat().st_mtime if source.exists() else None),
+        df=vol,
+    )
+    return vol
+
+
+def bowling_volume_rates(
+    p_df: pd.DataFrame,
+    vol_df: pd.DataFrame,
+    window: int = FRONTLINE_BOWL_WINDOW,
+    before_date=None,
+    players=None,
+) -> Dict[str, float]:
+    """Mean balls bowled per recent appearance (NOT per match-in-which-they-bowled) -- a
+    non-bowling appearance counts as a genuine zero, so this measures expected workload rather
+    than "how many overs when they do come on".
+
+    Same point-in-time contract as bowling_appearance_rates: `before_date` restricts to strictly
+    earlier matches, and a player with no dated appearances is simply absent (callers treat that
+    as 0.0).
+    """
+    if p_df is None or p_df.empty or "match_date" not in p_df.columns:
+        return {}
+    df = p_df
+    if players is not None:
+        df = df[df["player"].isin(set(players))]
+    if df.empty:
+        return {}
+
+    df = df[["player", "match_id", "match_date"]].copy()
+    df["match_date"] = pd.to_datetime(df["match_date"], errors="coerce")
+    df = df.dropna(subset=["match_date"])
+    if before_date is not None:
+        df = df[df["match_date"] < before_date]
+    if df.empty:
+        return {}
+
+    appearances = df.drop_duplicates(["player", "match_id"])
+    balls = vol_df[["player", "match_id", "balls"]].copy()
+    balls["match_id"] = balls["match_id"].astype(str)
+    appearances = appearances.assign(match_id=appearances["match_id"].astype(str))
+    merged = appearances.merge(balls, on=["player", "match_id"], how="left")
+    merged["balls"] = merged["balls"].fillna(0.0)
+
+    merged = merged.sort_values("match_date")
+    recent = merged.groupby("player").tail(window)
+    return recent.groupby("player")["balls"].mean().to_dict()
+
+
+def frontline_bowl_sort_key(name, elo_value, rates, known_bowler=False, volumes=None):
+    """Sort key for attack selection: (is_frontline, volume, elo). Descending sort puts every
+    established/known bowler above every non-bowler; WITHIN that tier it ranks by expected
+    bowling workload, and only uses Elo to break volume ties.
+
+    Why volume outranks Elo here: this key selects WHO BOWLS, not who bowls well. Elo measures
+    quality, which is close to irrelevant for the selection question -- a well-rated part-timer
+    who sends down 4 overs is not a better pick for a frontline slot than a modestly-rated
+    specialist who sends down 10. Measured on od: ranking the eligible tier by volume rather
+    than Elo changes top-5 membership in 83.4% of squads that have a real choice, and lifts the
+    mean workload of the selected five from 39.7 to 46.2 balls/appearance (e.g. Yuvraj Singh at
+    ~8-21 balls displaced by Kumble/Nehra/Agarkar at 48-60).
+
+    `known_bowler=True` marks ground truth that this player bowled in the match being built
+    (available for historical fixtures, where it beats any recency prior).
+
+    `volumes=None` (or a player missing from it) degrades to volume 0.0, which reproduces the
+    previous pure-Elo ordering within the tier -- so callers without a volume table keep working
+    unchanged.
+
+    Returning a tuple rather than filtering keeps the "always produce a full attack" contract:
+    if a squad has fewer eligible bowlers than slots, the remaining slots still fill from the
+    ineligible pool instead of coming back short.
+    """
+    eligible = bool(known_bowler) or float(rates.get(name, 0.0)) >= FRONTLINE_BOWL_MIN_RATE
+    volume = float((volumes or {}).get(name, 0.0))
+    return (1 if eligible else 0, volume, elo_value)
+
+
+_MATCH_SQUAD_ELO_CACHE: Dict[str, pd.DataFrame] = {}
+
+_SQUAD_ELO_COLS = [
+    "team_1_batting_squad_elo", "team_1_bowling_squad_elo",
+    "team_2_batting_squad_elo", "team_2_bowling_squad_elo",
+]
+
+
+def get_match_squad_elo(fmt: str, match_id, processed_dir="data/processed"):
+    """The (Phase-1/2-weighted) batting/bowling squad Elo the win-prob model actually trained
+    on for this match -- straight off {fmt}_player_elo_ratings.parquet, exact/authoritative
+    rather than recomputed. Single source of truth for both app.py's Lineups & Elo display and
+    PreMatchPredictor's optional squad-Elo-aware prediction (frontline_bowler_eligibility_plan.md
+    follow-up: PreMatchPredictor.predict() otherwise falls back to team-level Elo, which is a
+    real train/serve skew for any caller who DOES know the match's actual XI).
+
+    Returns (t1_batting, t1_bowling, t2_batting, t2_bowling) or None if the parquet, its
+    squad-Elo columns, or this match_id aren't available.
+    """
+    key = f"{processed_dir}/{fmt}"
+    pdf = _MATCH_SQUAD_ELO_CACHE.get(key)
+    if pdf is None:
+        path = Path(processed_dir) / f"{fmt}_player_elo_ratings.parquet"
+        pdf = pd.read_parquet(path) if path.exists() else pd.DataFrame()
+        _MATCH_SQUAD_ELO_CACHE[key] = pdf
+    if pdf.empty or not all(c in pdf.columns for c in _SQUAD_ELO_COLS):
+        return None
+    row = pdf[pdf["match_id"].astype(str) == str(match_id)]
+    if row.empty:
+        return None
+    r = row.iloc[0]
+    return tuple(float(r[c]) for c in _SQUAD_ELO_COLS)
 

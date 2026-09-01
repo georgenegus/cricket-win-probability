@@ -10,8 +10,20 @@ from typing import Any, Dict, Optional, Tuple, Union
 import numpy as np
 import pandas as pd
 
-from src.simulation.innings_simulator import simulate_innings
+from src.simulation.innings_simulator import simulate_innings, ATTACK_SIZE
 from src.data_processing.format_spec import spec
+# frontline_bowler_eligibility_plan.md Phase 1: eligibility now lives in player_elo_engine.py
+# (the training-side consumer, added Phase 3) -- re-exported here so this module's own
+# extract_match_squads() and every existing `from src.simulation.match_simulator import ...`
+# caller (app.py included) keep working unchanged against the SAME objects, not a copy.
+from src.features.player_elo_engine import (
+    FRONTLINE_BOWL_WINDOW,
+    FRONTLINE_BOWL_MIN_RATE,
+    bowling_appearance_rates,
+    bowling_volume_rates,
+    bowler_volume_table,
+    frontline_bowl_sort_key,
+)
 
 
 def simulate_match(
@@ -198,6 +210,25 @@ def simulate_match(
     }
 
 
+_EXTRACT_SQUADS_PARQUET_CACHE: Dict[str, pd.DataFrame] = {}
+
+
+def _cached_read_parquet(path: Path) -> pd.DataFrame:
+    """In-process cache for extract_match_squads()'s parquet reads. The calibration battery
+    (tests/one-time/test_simulation_calibration.py, generate_mc_calibration_metrics.py) calls
+    extract_match_squads() ~280 times per format against the SAME three on-disk parquets --
+    re-reading multi-MB files from disk that many times dominated its runtime. Keyed on the
+    resolved path string; returns the identical DataFrame a fresh pd.read_parquet(path) would
+    (no filtering/mutation happens on the cached copy before callers use it), so this is a pure
+    performance change with no effect on any computed value."""
+    key = str(path)
+    df = _EXTRACT_SQUADS_PARQUET_CACHE.get(key)
+    if df is None:
+        df = pd.read_parquet(path)
+        _EXTRACT_SQUADS_PARQUET_CACHE[key] = df
+    return df
+
+
 def extract_match_squads(
     match_id: Union[int, str],
     format_type: str = "t20",
@@ -233,7 +264,7 @@ def extract_match_squads(
     if not meta_path.exists():
         raise FileNotFoundError(f"Metadata parquet not found: {meta_path}")
 
-    meta_df = pd.read_parquet(meta_path)
+    meta_df = _cached_read_parquet(meta_path)
     match_row = meta_df[meta_df["match_id"].astype(str) == str(match_id)]
     if match_row.empty:
         raise ValueError(f"Match ID '{match_id}' not found in {meta_path}")
@@ -257,7 +288,7 @@ def extract_match_squads(
     default_venue_score = float(spec(fmt)["default_venue_score"])
     venue_score = default_venue_score
     if venue_path.exists():
-        v_df = pd.read_parquet(venue_path)
+        v_df = _cached_read_parquet(venue_path)
         if "match_id" in v_df.columns and "venue_avg_first_innings_score" in v_df.columns:
             v_match = v_df[v_df["match_id"].astype(str) == str(match_id)]
             if not v_match.empty:
@@ -276,13 +307,20 @@ def extract_match_squads(
     # from strictly BEFORE this match (never a later one, to avoid leaking future form).
     prior_batter_elo = {}
     prior_bowler_elo = {}
+    # player -> share of recent appearances in which they actually bowled; gates who may be
+    # picked as a frontline bowler below (see frontline_bowl_sort_key).
+    bowl_rates = {}
+    # player -> mean balls bowled per recent appearance; orders the eligible tier by expected
+    # workload, since a 4-over part-timer and a 10-over specialist both clear the rate gate.
+    bowl_volumes = {}
     if player_path.exists():
-        p_df = pd.read_parquet(player_path)
+        p_df = _cached_read_parquet(player_path)
         p_match = p_df[p_df["match_id"].astype(str) == str(match_id)]
         for _, p_row in p_match.iterrows():
             p_name = str(p_row["player"])
             entry = {
                 "effective_elo": float(p_row.get("effective_elo", 1500.0)),
+                "raw_elo": float(p_row.get("raw_elo", 1500.0)),
                 "recent_form": float(p_row.get("recent_form", 0.0)),
             }
             if str(p_row.get("role")) == "bowler":
@@ -294,11 +332,33 @@ def extract_match_squads(
         missing_batters = named_players - set(batter_map)
         missing_bowlers = named_players - set(bowler_map)
         match_date_ts = pd.to_datetime(row.get("date"), errors="coerce")
+        date_map = dict(zip(meta_df["match_id"].astype(str), pd.to_datetime(meta_df["date"], errors="coerce")))
+
+        # Recent bowling rates for everyone named, from matches strictly BEFORE this one so a
+        # historical squad stays point-in-time. Matters most when p_match is empty (a fixture
+        # too recent to be in the trained corpus): every Elo rank key then ties at 0.0 and the
+        # attack would otherwise degenerate to "first five names in batting order".
+        p_named = p_df[p_df["player"].isin(named_players)].copy()
+        if not p_named.empty:
+            p_named["match_date"] = p_named["match_id"].astype(str).map(date_map)
+            _before = match_date_ts if pd.notna(match_date_ts) else None
+            bowl_rates = bowling_appearance_rates(
+                p_named, before_date=_before, players=named_players,
+            )
+            try:
+                bowl_volumes = bowling_volume_rates(
+                    p_named, bowler_volume_table(fmt, processed_dir),
+                    before_date=_before, players=named_players,
+                )
+            except FileNotFoundError:
+                # No deliveries corpus for this format -> fall back to Elo ordering within the
+                # eligible tier (frontline_bowl_sort_key treats missing volumes as 0.0).
+                bowl_volumes = {}
+
         if (missing_batters or missing_bowlers) and pd.notna(match_date_ts):
             needed = missing_batters | missing_bowlers
             p_hist = p_df[p_df["player"].isin(needed)].copy()
             if not p_hist.empty:
-                date_map = dict(zip(meta_df["match_id"].astype(str), pd.to_datetime(meta_df["date"], errors="coerce")))
                 p_hist["match_date"] = p_hist["match_id"].astype(str).map(date_map)
                 p_hist = p_hist[p_hist["match_date"] < match_date_ts].sort_values("match_date")
 
@@ -309,6 +369,7 @@ def extract_match_squads(
                     last = rows.iloc[-1]
                     return {
                         "effective_elo": float(last["effective_elo"]),
+                        "raw_elo": float(last.get("raw_elo", 1500.0)),
                         "recent_form": float(last.get("recent_form", 0.0)),
                     }
 
@@ -326,26 +387,57 @@ def extract_match_squads(
         # own rating, then the player's most recent prior rating, then a neutral default.
         lineup = []
         for p in player_list[:11]:
-            info = batter_map.get(p) or prior_batter_elo.get(p) or {"effective_elo": 1500.0, "recent_form": 0.0}
-            lineup.append({"name": p, "effective_elo": info["effective_elo"], "recent_form": info["recent_form"]})
+            info = batter_map.get(p) or prior_batter_elo.get(p) or {"effective_elo": 1500.0, "raw_elo": 1500.0, "recent_form": 0.0}
+            lineup.append({"name": p, "effective_elo": info["effective_elo"], "raw_elo": info["raw_elo"], "recent_form": info["recent_form"]})
 
         # Fill up to 11 if player list had fewer
         while len(lineup) < 11:
-            lineup.append({"name": f"Dummy_{len(lineup)+1}", "effective_elo": 1500.0, "recent_form": 0.0})
+            lineup.append({"name": f"Dummy_{len(lineup)+1}", "effective_elo": 1500.0, "raw_elo": 1500.0, "recent_form": 0.0})
 
-        # Attack = the top 5 players with the highest BOWLING Elo, descending.
-        # We must prioritize players who ACTUALLY have a bowling record. Pure batters
-        # who are missing from bowler_map should NOT default to 1500 for sorting, otherwise
-        # they get selected ahead of actual part-time bowlers who have <1500 Elo.
+        # Attack = the top 5 bowling options, frontline-eligible players first and only then by
+        # BOWLING Elo. We must prioritize players who ACTUALLY have a bowling record: pure
+        # batters missing from bowler_map should NOT default to 1500 for sorting, otherwise
+        # they get selected ahead of actual part-time bowlers who have <1500 Elo. Membership in
+        # bowler_map is ground truth that the player bowled in THIS match, so it satisfies
+        # eligibility outright; everyone else must clear the recent-bowling-rate bar (see
+        # FRONTLINE_BOWL_MIN_RATE) to keep a batter's stale, shrinkage-inflated bowling rating
+        # from outranking the real attack.
+        # Within the eligible tier, rank by expected WORKLOAD (bowl_volumes) and use Elo only to
+        # break volume ties -- this key answers "who bowls", not "who bowls well", and a
+        # well-rated 4-over part-timer is not a better frontline pick than a modestly-rated
+        # 10-over specialist. Elo is still the tie-break and the fallback when no volume table
+        # exists. The Elo value itself is the best bowling rating we have -- this match's own if
+        # known, else the player's latest prior one; falling back to the prior rating is only
+        # safe BECAUSE eligibility already screened out the stale-cameo ratings that made it
+        # dangerous before, and it keeps the ordering meaningful when this match has no player
+        # rows at all and every in-match value would otherwise tie at 0.0.
+        def _bowl_rank_elo(name):
+            if name in bowler_map:
+                return bowler_map[name]["effective_elo"]
+            return prior_bowler_elo.get(name, {}).get("effective_elo", 0.0)
+
         ranked = sorted(
             [p["name"] for p in lineup],
-            key=lambda name: bowler_map[name]["effective_elo"] if name in bowler_map else 0.0,
+            key=lambda name: frontline_bowl_sort_key(
+                name, _bowl_rank_elo(name), bowl_rates,
+                known_bowler=name in bowler_map, volumes=bowl_volumes,
+            ),
             reverse=True,
         )
+        # overs_per_inns surfaces the value the ordering is actually based on -- without it the
+        # attack card reads as an unsorted Elo list (it is sorted, just not by Elo). None when no
+        # volume table exists, so the UI can omit rather than print a misleading 0.0.
+        bpo = float(spec(fmt)["balls_per_over"])
         attack = []
-        for name in ranked[:5]:
-            info = bowler_map.get(name) or prior_bowler_elo.get(name) or {"effective_elo": 1500.0, "recent_form": 0.0}
-            attack.append({"name": name, "effective_elo": info["effective_elo"], "recent_form": info["recent_form"]})
+        for name in ranked[:ATTACK_SIZE]:
+            info = bowler_map.get(name) or prior_bowler_elo.get(name) or {"effective_elo": 1500.0, "raw_elo": 1500.0, "recent_form": 0.0}
+            attack.append({
+                "name": name,
+                "effective_elo": info["effective_elo"],
+                "raw_elo": info["raw_elo"],
+                "recent_form": info["recent_form"],
+                "overs_per_inns": round(bowl_volumes[name] / bpo, 1) if name in bowl_volumes else None,
+            })
 
         return {"name": team_name, "lineup": lineup, "attack": attack}
 

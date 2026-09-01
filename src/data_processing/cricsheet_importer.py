@@ -452,6 +452,44 @@ def _build_second_innings_pool_states(format_type: str) -> pd.DataFrame:
     return states[states["innings"] == 2].copy()
 
 
+def _build_delivery_outcome_pool_frame(format_type: str) -> pd.DataFrame:
+    """
+    Builds the delivery-outcome training frame for `format_type` via the standard cached
+    pipeline, for use as pooling training signal in another format's delivery-outcome model
+    (DeliveryOutcomeModel's DELIVERY_OUTCOME_POOL_SOURCE -- e.g. hnd pools in T20, re-confirmed
+    2026-08-12 via tests/hundred_pooling_experiment.py). Mirrors retrain_full()'s own steps 1-2
+    exactly, but stops short of state-building (StateBuilder) -- the delivery-outcome model
+    trains on raw deliveries, not second-innings states, unlike _build_second_innings_pool_
+    states above (that one's for the WIN-PROB pool, a different data shape).
+    """
+    from src.data_processing.load_data import CricketDataLoader
+    from src.data_processing.match_metadata import MatchMetadataExtractor
+    from src.features.elo_engine import EloEngine
+    from src.features.player_elo_engine import PlayerEloEngine
+    from src.features.venue_engine import VenueEngine
+    from src.models.delivery_outcome_model import build_training_frame
+
+    loader = CricketDataLoader("data/raw", format_type=format_type)
+    deliveries = loader.load_all()
+
+    meta = MatchMetadataExtractor("data/raw", format_type=format_type)
+    meta_df = meta.extract_all()
+    if "gender" in meta_df.columns:
+        meta_df = meta_df[meta_df["gender"] == spec(format_type)["gender"]].copy()
+        deliveries = deliveries[deliveries["match_id"].isin(meta_df["match_id"])].copy()
+
+    elo_engine = EloEngine(use_dynamic_k=True, use_margin=True, use_decay=True, use_home_away=False, format_type=format_type)
+    elo_df = elo_engine.run(meta_df)
+
+    player_elo_engine = PlayerEloEngine(format_type=format_type, form_window=15)
+    player_elo_df = player_elo_engine.run(deliveries, elo_df)
+
+    venue_engine = VenueEngine(format_type=format_type)
+    venue_df = venue_engine.run(meta_df, deliveries)
+
+    return build_training_frame(deliveries, player_elo_df, venue_df, format_type=format_type)
+
+
 def retrain_full(format_type: str = "t20"):
     """
     Full pipeline retrain including XGBoost Win Probability model and First Innings Regressor.
@@ -560,12 +598,25 @@ def retrain_full(format_type: str = "t20"):
         shutil.copyfile(xgb_path, Path("data/processed/xgb_models.pkl"))
 
     # 6. Train Delivery Outcome Model (Strategy-4 Simulator Engine)
-    from src.models.delivery_outcome_model import DeliveryOutcomeModel, build_training_frame
+    from src.models.delivery_outcome_model import (
+        DeliveryOutcomeModel, build_training_frame, DELIVERY_OUTCOME_POOL_SOURCE,
+    )
     dom_path = Path("data/processed") / f"{format_type}_delivery_outcome_model.pkl"
     print(f"[{format_type.upper()}] Fitting Delivery Outcome Model...")
     training_frame = build_training_frame(deliveries, player_elo_df, venue_df, format_type=format_type)
+
+    # DELIVERY_OUTCOME_POOL_SOURCE-gated (currently hnd<-t20 only, re-confirmed 2026-08-12) --
+    # separate from step 5's win-prob POOL_SOURCE gate, since each pooling decision here needs
+    # its own evidence (tests/hundred_pooling_experiment.py), not an assumption it transfers
+    # from a sibling format's win-prob pooling result. t20/od/t20w/odw never reach this branch.
+    dom_pool_frame = None
+    dom_pool_source = DELIVERY_OUTCOME_POOL_SOURCE.get(format_type)
+    if dom_pool_source:
+        print(f"[{format_type.upper()}] Building {dom_pool_source.upper()} pool for pooled delivery-outcome training...")
+        dom_pool_frame = _build_delivery_outcome_pool_frame(dom_pool_source)
+
     dom_model = DeliveryOutcomeModel(format_type=format_type)
-    dom_model.fit(training_frame, cache_path=dom_path)
+    dom_model.fit(training_frame, cache_path=dom_path, pool_frame=dom_pool_frame)
     if format_type == "t20":
         shutil.copyfile(dom_path, Path("data/processed/delivery_outcome_model.pkl"))
 

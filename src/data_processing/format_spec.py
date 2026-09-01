@@ -2,6 +2,21 @@
 Format Spec - Single source of truth for per-format ball geometry and phase edges.
 """
 
+# `innings_total_sd` -- standard deviation of FIRST-INNINGS TOTALS, measured 2026-08-11 over each
+# format's own full-length innings only (whole quota bowled, or all out -- the same population
+# generate_mc_calibration_metrics.py samples). Used to scale the Monte Carlo simulator's
+# absolute-run calibration gates (MAE / bias / std-dev range) across formats.
+#
+# Why this exists as a SEPARATE number from default_venue_score, when the gate scaling used to
+# reuse that one: MAE, bias and std-dev are all DISPERSION metrics, so they scale with how widely
+# innings totals spread, not with where they are centred. The two are not proportional, and the
+# error is bidirectional -- t20w has a LOWER mean than t20 (125 vs 160) but a HIGHER absolute
+# spread (39.7 vs 37.7), so mean-scaling made its gates ~35% too tight, while hnd/hndw's came out
+# too loose. See mc_runrate_feedback_plan.md's Deferred section for the full derivation.
+#
+# Sample sizes: t20 n=10,013 | od n=3,768 | t20w n=3,042 | odw n=842 | hnd n=157 | hndw n=155.
+# hnd/hndw's are thin (~6% relative SE on the SD itself) -- treat their derived gates as
+# provisional and re-measure once those corpora grow.
 FORMAT_SPECS = {
     "t20": {
         "format_type": "t20",
@@ -12,6 +27,7 @@ FORMAT_SPECS = {
         "pp_end_ball": 36,
         "death_start_ball": 90,
         "default_venue_score": 160.0,
+        "innings_total_sd": 37.74,   # n=10,013
     },
     "od": {
         "format_type": "od",
@@ -22,6 +38,7 @@ FORMAT_SPECS = {
         "pp_end_ball": 60,
         "death_start_ball": 240,
         "default_venue_score": 260.0,
+        "innings_total_sd": 69.89,   # n=3,768
     },
     "hnd": {
         "format_type": "hnd",
@@ -32,6 +49,7 @@ FORMAT_SPECS = {
         "pp_end_ball": 25,
         "death_start_ball": 75,
         "default_venue_score": 140.0,
+        "innings_total_sd": 27.36,   # n=157
     },
     "t20w": {
         # Same ball geometry as t20 (20 overs, 6 balls/over) -- only the par score
@@ -47,6 +65,7 @@ FORMAT_SPECS = {
         "pp_end_ball": 36,
         "death_start_ball": 90,
         "default_venue_score": 125.0,
+        "innings_total_sd": 39.65,   # n=3,042
     },
     "odw": {
         # Same ball geometry as od (50 overs, 6 balls/over). default_venue_score measured
@@ -62,6 +81,7 @@ FORMAT_SPECS = {
         "pp_end_ball": 60,
         "death_start_ball": 240,
         "default_venue_score": 220.88,
+        "innings_total_sd": 66.24,   # n=842
     },
     "hndw": {
         # Same ball geometry as hnd (100 balls, 5/over). default_venue_score measured
@@ -75,6 +95,7 @@ FORMAT_SPECS = {
         "pp_end_ball": 25,
         "death_start_ball": 75,
         "default_venue_score": 126.61,
+        "innings_total_sd": 23.06,   # n=155
     },
 }
 

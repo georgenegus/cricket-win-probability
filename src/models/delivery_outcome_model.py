@@ -23,6 +23,18 @@ FEATURES = [
     "non_striker_elo",
 ]
 
+# Formats whose delivery-outcome model is trained with an extra pool of a larger sibling
+# format's deliveries (train-only, never held-out/scored; is_hundred tags pool rows 0.0 vs
+# this format's own rows 1.0). Deliberately a SEPARATE dict from xgb_win_probability.py's
+# POOL_SOURCE -- that dict's pooling was validated for the WIN-PROB model specifically
+# (hnd<-t20 and hndw<-t20w), and this model's pooling needs its own evidence per format
+# (tests/hundred_pooling_experiment.py). hnd re-confirmed 2026-08-12 (pooled beat hnd-only on
+# every metric: legal log-loss 1.4951 vs 1.5213, death-phase P(6) error 0.0090 vs 0.0109) --
+# see hnd_delivery_outcome_pooling_plan.md. hndw is deliberately NOT here: its delivery-outcome
+# pooling has never been tested, so it keeps today's byte-identical unpooled behaviour until
+# someone runs the equivalent experiment for it.
+DELIVERY_OUTCOME_POOL_SOURCE = {"hnd": "t20"}
+
 
 def _join_player_elo(df: pd.DataFrame, player_elo: pd.DataFrame, who: str) -> pd.DataFrame:
     """
@@ -143,6 +155,13 @@ class DeliveryOutcomeModel:
         self.n_splits = n_splits
         self.random_state = random_state
 
+        # is_hundred appended (never inserted) when this format pools a sibling format's
+        # deliveries in at fit() time -- see DELIVERY_OUTCOME_POOL_SOURCE. Appending, not
+        # inserting, keeps column order -- and therefore every other format's cached model --
+        # untouched; XGBoost's colsample_bytree is order-sensitive under a fixed seed.
+        self.pooled = format_type in DELIVERY_OUTCOME_POOL_SOURCE
+        self.features = list(FEATURES) + (["is_hundred"] if self.pooled else [])
+
         self.fold_models = {}                          # fold_idx -> {"extras": clf, "legal": clf}
         self.final_model = {"extras": None, "legal": None}  # trained on 100% of the data
         self.match_to_fold = {}                         # match_id -> fold_idx
@@ -171,10 +190,17 @@ class DeliveryOutcomeModel:
             random_state=self.random_state, n_jobs=-1,
         )
 
-    def fit(self, frame: pd.DataFrame, cache_path=None):
+    def fit(self, frame: pd.DataFrame, cache_path=None, pool_frame: pd.DataFrame = None):
         """
         Fits Group K-Fold extras/legal classifier pairs grouped by match_id (to prevent
         validation leakage), plus a final pair trained on all data for production sampling.
+
+        pool_frame: only meaningful when self.pooled (see DELIVERY_OUTCOME_POOL_SOURCE) --
+        extra deliveries from this format's pool source, already run through
+        build_training_frame with the SAME schema as `frame`. Concatenated into every fold's
+        TRAINING split only -- never held out, never scored -- mirroring
+        XGBWinProbabilityModel's pool_X/pool_y convention exactly. `frame`'s own rows are
+        tagged is_hundred=1.0, pool_frame's 0.0, so the model can tell them apart.
         """
         if cache_path is not None:
             cache_file = Path(cache_path)
@@ -187,10 +213,18 @@ class DeliveryOutcomeModel:
                     self.match_to_fold = cached["match_to_fold"]
                 return self
 
+        if self.pooled:
+            frame = frame.copy()
+            frame["is_hundred"] = 1.0
+            if pool_frame is not None:
+                pool_frame = pool_frame.copy()
+                pool_frame["is_hundred"] = 0.0
+
         y_extras_full = frame["extra_class"].map(EXTRAS_CLASS_TO_IDX)
         match_ids = frame["match_id"].values
         unique_matches = frame["match_id"].unique()
-        print(f"Training on {len(frame):,} deliveries across {len(unique_matches):,} unique matches.")
+        pool_note = f" (+{len(pool_frame):,} pooled rows, train-only)" if self.pooled and pool_frame is not None else ""
+        print(f"Training on {len(frame):,} deliveries across {len(unique_matches):,} unique matches.{pool_note}")
 
         gkf = GroupKFold(n_splits=self.n_splits)
         self.match_to_fold = {}
@@ -201,26 +235,32 @@ class DeliveryOutcomeModel:
                 self.match_to_fold[m_id] = fold_idx
 
             train_frame = frame.iloc[train_idx]
+            if self.pooled and pool_frame is not None:
+                train_frame = pd.concat([train_frame, pool_frame], ignore_index=True)
 
             print(f"Training extras-gate model for Fold {fold_idx}...")
             extras_clf = self._make_extras_clf()
-            extras_clf.fit(train_frame[FEATURES], train_frame["extra_class"].map(EXTRAS_CLASS_TO_IDX))
+            extras_clf.fit(train_frame[self.features], train_frame["extra_class"].map(EXTRAS_CLASS_TO_IDX))
 
             print(f"Training legal-outcome model for Fold {fold_idx}...")
             legal_train = train_frame[train_frame["extra_class"] == "legal"]
             legal_clf = self._make_legal_clf()
-            legal_clf.fit(legal_train[FEATURES], legal_train["legal_outcome"].map(LEGAL_CLASS_TO_IDX))
+            legal_clf.fit(legal_train[self.features], legal_train["legal_outcome"].map(LEGAL_CLASS_TO_IDX))
 
             self.fold_models[fold_idx] = {"extras": extras_clf, "legal": legal_clf}
 
+        final_train = frame
+        if self.pooled and pool_frame is not None:
+            final_train = pd.concat([frame, pool_frame], ignore_index=True)
+
         print("Training final extras-gate model on complete dataset...")
         final_extras = self._make_extras_clf()
-        final_extras.fit(frame[FEATURES], y_extras_full)
+        final_extras.fit(final_train[self.features], final_train["extra_class"].map(EXTRAS_CLASS_TO_IDX))
 
         print("Training final legal-outcome model on complete dataset...")
-        legal_all = frame[frame["extra_class"] == "legal"]
+        legal_all = final_train[final_train["extra_class"] == "legal"]
         final_legal = self._make_legal_clf()
-        final_legal.fit(legal_all[FEATURES], legal_all["legal_outcome"].map(LEGAL_CLASS_TO_IDX))
+        final_legal.fit(legal_all[self.features], legal_all["legal_outcome"].map(LEGAL_CLASS_TO_IDX))
 
         self.final_model = {"extras": final_extras, "legal": final_legal}
 
@@ -255,8 +295,21 @@ class DeliveryOutcomeModel:
             extras_m = self.final_model["extras"]
             legal_m = self.final_model["legal"]
 
-        X = state_matrix[FEATURES].values
+        X = self.oof_features(state_matrix).values
         return {
             "extras": extras_m.predict_proba(X),
             "legal": legal_m.predict_proba(X),
         }
+
+    def oof_features(self, df: pd.DataFrame) -> pd.DataFrame:
+        """df restricted to this model's own feature columns (self.features), synthesizing
+        is_hundred=1.0 if this model pools (df is assumed to be THIS format's own deliveries/
+        states -- never the pool source's, which is tagged 0.0 only inside fit()). Callers
+        that build a raw (N, len(FEATURES)) matrix for OOF/held-out scoring (sim_baseline_
+        metrics.py's gate, the score-feedback/calibration diagnostic scripts) must go through
+        this rather than indexing the module-level FEATURES constant directly, or a pooled
+        model's predict_proba call will silently or loudly (shape mismatch) fail."""
+        if self.pooled and "is_hundred" not in df.columns:
+            df = df.copy()
+            df["is_hundred"] = 1.0
+        return df[self.features]

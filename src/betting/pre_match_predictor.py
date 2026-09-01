@@ -162,7 +162,9 @@ class PreMatchPredictor:
         )
         return default_val
 
-    def predict(self, team_a, team_b, venue=None, format_type="t20", custom_target=None):
+    def predict(self, team_a, team_b, venue=None, format_type="t20", custom_target=None,
+                team_a_batting_squad_elo=None, team_a_bowling_squad_elo=None,
+                team_b_batting_squad_elo=None, team_b_bowling_squad_elo=None):
         """
         Computes pre-match win probability for Team A vs Team B.
 
@@ -175,6 +177,14 @@ class PreMatchPredictor:
             venue (str, optional): Venue name
             format_type (str): "t20" or "od"
             custom_target (float, optional): Force a specific target score
+            team_a_batting_squad_elo, team_a_bowling_squad_elo, team_b_batting_squad_elo,
+                team_b_bowling_squad_elo (float, optional): The actual named XI's squad Elo
+                (e.g. from player_elo_engine.get_match_squad_elo()) -- the same feature the win-
+                prob model trained on. Without these the model falls back to plain team-level Elo
+                (self.get_team_elo()), which is the only sane default when the XI isn't known yet
+                (this predictor's primary use case: scanning fixtures pre-toss). Pass all four
+                together when the caller DOES know the actual XI (e.g. backtesting a historical
+                match_id) for an apples-to-apples comparison against a squad-aware simulator.
 
         Returns: dict:
             {
@@ -209,55 +219,71 @@ class PreMatchPredictor:
             "odw": self.odw_model, "hndw": self.hndw_model,
         }.get(fmt, self.t20_model)
 
-        # Scenario 1: Team B bats 1st, Team A chases
-        state_a_chasing = pd.Series(
-            {
-                "runs_remaining": target,
-                "balls_remaining": total_balls,
-                "wickets_lost": 0.0,
-                "required_run_rate": target / (total_balls / balls_per_over),
-                "run_rate": 0.0,
-                "target": target,
-                "phase": "powerplay",
-                "match_id": 999999,
-                "batting_team_elo": elo_a,
-                "bowling_team_elo": elo_b,
-                "elo_diff": elo_a - elo_b,
-                "batter_elo": 1500.0,
-                "bowler_elo": 1500.0,
-                "player_elo_diff": 0.0,
-                "venue_avg_first_innings_score": venue_avg,
-                "competition": "hnd" if fmt == "hnd" else ("odis" if fmt == "od" else "t20s"),
-                "total_overs": total_overs,
-                "target_overs": total_overs,
-                "innings": 2,
-            }
+        # Squad-Elo overrides only apply when the caller supplied the full set -- a partial
+        # set would silently mix a real squad Elo for one side with the other side's team-Elo
+        # fallback, understating (or fabricating) squad_elo_diff. Absent (the common case: XI
+        # not yet known), state.get("batting_squad_elo", ...) inside the model falls back to
+        # plain team Elo exactly as before -- these keys are simply never set on the Series.
+        have_squad_elo = None not in (
+            team_a_batting_squad_elo, team_a_bowling_squad_elo,
+            team_b_batting_squad_elo, team_b_bowling_squad_elo,
         )
 
+        # Scenario 1: Team B bats 1st, Team A chases
+        state_a_chasing_dict = {
+            "runs_remaining": target,
+            "balls_remaining": total_balls,
+            "wickets_lost": 0.0,
+            "required_run_rate": target / (total_balls / balls_per_over),
+            "run_rate": 0.0,
+            "target": target,
+            "phase": "powerplay",
+            "match_id": 999999,
+            "batting_team_elo": elo_a,
+            "bowling_team_elo": elo_b,
+            "elo_diff": elo_a - elo_b,
+            "batter_elo": 1500.0,
+            "bowler_elo": 1500.0,
+            "player_elo_diff": 0.0,
+            "venue_avg_first_innings_score": venue_avg,
+            "competition": "hnd" if fmt == "hnd" else ("odis" if fmt == "od" else "t20s"),
+            "total_overs": total_overs,
+            "target_overs": total_overs,
+            "innings": 2,
+        }
+        if have_squad_elo:
+            state_a_chasing_dict["batting_squad_elo"] = team_a_batting_squad_elo
+            state_a_chasing_dict["bowling_squad_elo"] = team_b_bowling_squad_elo
+            state_a_chasing_dict["squad_elo_diff"] = team_a_batting_squad_elo - team_b_bowling_squad_elo
+        state_a_chasing = pd.Series(state_a_chasing_dict)
+
         # Scenario 2: Team A bats 1st, Team B chases
-        state_b_chasing = pd.Series(
-            {
-                "runs_remaining": target,
-                "balls_remaining": total_balls,
-                "wickets_lost": 0.0,
-                "required_run_rate": target / (total_balls / balls_per_over),
-                "run_rate": 0.0,
-                "target": target,
-                "phase": "powerplay",
-                "match_id": 999999,
-                "batting_team_elo": elo_b,
-                "bowling_team_elo": elo_a,
-                "elo_diff": elo_b - elo_a,
-                "batter_elo": 1500.0,
-                "bowler_elo": 1500.0,
-                "player_elo_diff": 0.0,
-                "venue_avg_first_innings_score": venue_avg,
-                "competition": "hnd" if fmt == "hnd" else ("odis" if fmt == "od" else "t20s"),
-                "total_overs": total_overs,
-                "target_overs": total_overs,
-                "innings": 2,
-            }
-        )
+        state_b_chasing_dict = {
+            "runs_remaining": target,
+            "balls_remaining": total_balls,
+            "wickets_lost": 0.0,
+            "required_run_rate": target / (total_balls / balls_per_over),
+            "run_rate": 0.0,
+            "target": target,
+            "phase": "powerplay",
+            "match_id": 999999,
+            "batting_team_elo": elo_b,
+            "bowling_team_elo": elo_a,
+            "elo_diff": elo_b - elo_a,
+            "batter_elo": 1500.0,
+            "bowler_elo": 1500.0,
+            "player_elo_diff": 0.0,
+            "venue_avg_first_innings_score": venue_avg,
+            "competition": "hnd" if fmt == "hnd" else ("odis" if fmt == "od" else "t20s"),
+            "total_overs": total_overs,
+            "target_overs": total_overs,
+            "innings": 2,
+        }
+        if have_squad_elo:
+            state_b_chasing_dict["batting_squad_elo"] = team_b_batting_squad_elo
+            state_b_chasing_dict["bowling_squad_elo"] = team_a_bowling_squad_elo
+            state_b_chasing_dict["squad_elo_diff"] = team_b_batting_squad_elo - team_a_bowling_squad_elo
+        state_b_chasing = pd.Series(state_b_chasing_dict)
 
         res_a = model.predict_with_ensemble(state_a_chasing)
         res_b = model.predict_with_ensemble(state_b_chasing)
