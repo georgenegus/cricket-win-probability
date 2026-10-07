@@ -1,0 +1,215 @@
+{
+  "_disclaimer": "ICC does not publish its exact ratings formula, historical match weighting, or qualification thresholds (see icc-cricket.com/rankings/about). These numbers are the REAL, currently-published ICC rankings, fetched from Wikipedia's ICC rankings pages (which mirror icc-cricket.com's live tables) on the dates below. They exist to cross-check our reconstruction's ORDERING (rank correlation / top-N overlap) against the genuine article -- they are not something our engine is expected to reproduce exactly, since the underlying formula it is measured against is itself a community reconstruction (the 'Kendix system'), not ICC's undisclosed real one.",
+  "_fetched_session_date": "2026-09-01",
+  "t20": {
+    "gender": "male",
+    "icc_format_name": "Men's T20I",
+    "team_ratings": {
+      "as_of": "2026-08-31",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Men%27s_T20I_Team_Rankings",
+      "table": [
+        {"rank": 1, "team": "India", "matches": 61, "points": 16366, "rating": 268},
+        {"rank": 2, "team": "England", "matches": 38, "points": 10186, "rating": 268},
+        {"rank": 3, "team": "Australia", "matches": 38, "points": 9868, "rating": 260},
+        {"rank": 4, "team": "New Zealand", "matches": 50, "points": 12348, "rating": 247},
+        {"rank": 5, "team": "South Africa", "matches": 50, "points": 12123, "rating": 242},
+        {"rank": 6, "team": "Pakistan", "matches": 57, "points": 13679, "rating": 240},
+        {"rank": 7, "team": "West Indies", "matches": 56, "points": 13079, "rating": 234},
+        {"rank": 8, "team": "Bangladesh", "matches": 53, "points": 11860, "rating": 224},
+        {"rank": 9, "team": "Sri Lanka", "matches": 44, "points": 9703, "rating": 221},
+        {"rank": 10, "team": "Afghanistan", "matches": 36, "points": 7935, "rating": 220},
+        {"rank": 11, "team": "Ireland", "matches": 29, "points": 5942, "rating": 205},
+        {"rank": 12, "team": "Zimbabwe", "matches": 56, "points": 11297, "rating": 202}
+      ],
+      "note": "Wikipedia's fetch returned only the top 12 of the full ~101-team table; sufficient for a top-N cross-check against the full-member teams our corpus has the most data for."
+    },
+    "batting_top10": {
+      "as_of": "2026-08-25",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Men%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Ishan Kishan", "team": "India", "rating": 910},
+        {"rank": 2, "player": "Sahibzada Farhan", "team": "Pakistan", "rating": 848},
+        {"rank": 3, "player": "Abhishek Sharma", "team": "India", "rating": 819},
+        {"rank": 4, "player": "Phil Salt", "team": "England", "rating": 799},
+        {"rank": 5, "player": "Pathum Nissanka", "team": "Sri Lanka", "rating": 751},
+        {"rank": 6, "player": "Tilak Varma", "team": "India", "rating": 750},
+        {"rank": 7, "player": "Jos Buttler", "team": "England", "rating": 748},
+        {"rank": 8, "player": "Harry Brook", "team": "England", "rating": 734},
+        {"rank": 9, "player": "Mitchell Marsh", "team": "Australia", "rating": 706},
+        {"rank": 10, "player": "Dewald Brevis", "team": "South Africa", "rating": 702}
+      ]
+    },
+    "bowling_top10": {
+      "as_of": "2026-08-25",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Men%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Rashid Khan", "team": "Afghanistan", "rating": 753},
+        {"rank": 2, "player": "Abrar Ahmed", "team": "Pakistan", "rating": 736},
+        {"rank": 3, "player": "Adil Rashid", "team": "England", "rating": 710},
+        {"rank": 4, "player": "Adam Zampa", "team": "Australia", "rating": 700},
+        {"rank": 5, "player": "Nathan Ellis", "team": "Australia", "rating": 675},
+        {"rank": 6, "player": "Corbin Bosch", "team": "South Africa", "rating": 669},
+        {"rank": 7, "player": "Wanindu Hasaranga", "team": "Sri Lanka", "rating": 668},
+        {"rank": 8, "player": "Mujeeb Ur Rahman", "team": "Afghanistan", "rating": 663},
+        {"rank": 9, "player": "Varun Chakravarthy", "team": "India", "rating": 663},
+        {"rank": 10, "player": "Mohammad Nawaz", "team": "Pakistan", "rating": 658}
+      ]
+    }
+  },
+  "od": {
+    "gender": "male",
+    "icc_format_name": "Men's ODI",
+    "team_ratings": {
+      "as_of": "2026-08-12",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Men%27s_ODI_Team_Rankings",
+      "table": [
+        {"rank": 1, "team": "India", "matches": 33, "points": 3841, "rating": 116},
+        {"rank": 2, "team": "New Zealand", "matches": 35, "points": 3809, "rating": 109},
+        {"rank": 3, "team": "Australia", "matches": 29, "points": 2965, "rating": 102},
+        {"rank": 4, "team": "South Africa", "matches": 28, "points": 2855, "rating": 102},
+        {"rank": 5, "team": "Pakistan", "matches": 32, "points": 3215, "rating": 100},
+        {"rank": 6, "team": "Sri Lanka", "matches": 36, "points": 3470, "rating": 96},
+        {"rank": 7, "team": "England", "matches": 31, "points": 2898, "rating": 93},
+        {"rank": 8, "team": "Afghanistan", "matches": 27, "points": 2463, "rating": 91},
+        {"rank": 9, "team": "Bangladesh", "matches": 39, "points": 3251, "rating": 83},
+        {"rank": 10, "team": "West Indies", "matches": 34, "points": 2624, "rating": 77}
+      ]
+    },
+    "batting_top10": {
+      "as_of": "2026-08-18",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Men%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Shubman Gill", "team": "India", "rating": 801},
+        {"rank": 2, "player": "Daryl Mitchell", "team": "New Zealand", "rating": 794},
+        {"rank": 3, "player": "Virat Kohli", "team": "India", "rating": 767},
+        {"rank": 4, "player": "Rohit Sharma", "team": "India", "rating": 758},
+        {"rank": 5, "player": "Ibrahim Zadran", "team": "Afghanistan", "rating": 719},
+        {"rank": 6, "player": "Babar Azam", "team": "Pakistan", "rating": 689},
+        {"rank": 7, "player": "Joe Root", "team": "England", "rating": 674},
+        {"rank": 8, "player": "Shai Hope", "team": "West Indies", "rating": 673},
+        {"rank": 9, "player": "Charith Asalanka", "team": "Sri Lanka", "rating": 659},
+        {"rank": 10, "player": "Harry Tector", "team": "Ireland", "rating": 653}
+      ]
+    },
+    "bowling_top10": {
+      "as_of": "2026-08-18",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Men%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Rashid Khan", "team": "Afghanistan", "rating": 714},
+        {"rank": 2, "player": "Abrar Ahmed", "team": "Pakistan", "rating": 675},
+        {"rank": 3, "player": "Jofra Archer", "team": "England", "rating": 649},
+        {"rank": 4, "player": "Mitchell Santner", "team": "New Zealand", "rating": 645},
+        {"rank": 5, "player": "Keshav Maharaj", "team": "South Africa", "rating": 644},
+        {"rank": 6, "player": "Maheesh Theekshana", "team": "Sri Lanka", "rating": 641},
+        {"rank": 7, "player": "Bernard Scholtz", "team": "Namibia", "rating": 613},
+        {"rank": 8, "player": "Shaheen Shah Afridi", "team": "Pakistan", "rating": 604},
+        {"rank": 9, "player": "Mehidy Hasan Miraz", "team": "Bangladesh", "rating": 602},
+        {"rank": 10, "player": "Adil Rashid", "team": "England", "rating": 599}
+      ]
+    }
+  },
+  "t20w": {
+    "gender": "female",
+    "icc_format_name": "Women's T20I",
+    "team_ratings": {
+      "as_of": "2026-08-31",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Women%27s_T20I_Team_Rankings",
+      "table": [
+        {"rank": 1, "team": "Australia", "matches": 28, "points": 8151, "rating": 291},
+        {"rank": 2, "team": "England", "matches": 38, "points": 10504, "rating": 276},
+        {"rank": 3, "team": "India", "matches": 42, "points": 11015, "rating": 262},
+        {"rank": 4, "team": "New Zealand", "matches": 32, "points": 7966, "rating": 249},
+        {"rank": 5, "team": "South Africa", "matches": 38, "points": 9310, "rating": 245},
+        {"rank": 6, "team": "West Indies", "matches": 33, "points": 7829, "rating": 237},
+        {"rank": 7, "team": "Sri Lanka", "matches": 38, "points": 9010, "rating": 237},
+        {"rank": 8, "team": "Pakistan", "matches": 34, "points": 7189, "rating": 211},
+        {"rank": 9, "team": "Ireland", "matches": 42, "points": 8520, "rating": 203},
+        {"rank": 10, "team": "Bangladesh", "matches": 38, "points": 7446, "rating": 196}
+      ]
+    },
+    "batting_top10": {
+      "as_of": "2026-08-31",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Women%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Beth Mooney", "team": "Australia", "rating": 785},
+        {"rank": 2, "player": "Georgia Voll", "team": "Australia", "rating": 779},
+        {"rank": 3, "player": "Laura Wolvaardt", "team": "South Africa", "rating": 771},
+        {"rank": 4, "player": "Hayley Matthews", "team": "West Indies", "rating": 754},
+        {"rank": 5, "player": "Smriti Mandhana", "team": "India", "rating": 744},
+        {"rank": 6, "player": "Chamari Athapaththu", "team": "Sri Lanka", "rating": 734},
+        {"rank": 7, "player": "Shafali Verma", "team": "India", "rating": 724},
+        {"rank": 8, "player": "Amelia Kerr", "team": "New Zealand", "rating": 696},
+        {"rank": 9, "player": "Tahlia McGrath", "team": "Australia", "rating": 679},
+        {"rank": 10, "player": "Harmanpreet Kaur", "team": "India", "rating": 661}
+      ]
+    },
+    "bowling_top10": {
+      "as_of": "2026-08-31",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Women%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Shree Charani", "team": "India", "rating": 759},
+        {"rank": 2, "player": "Sophie Ecclestone", "team": "England", "rating": 723},
+        {"rank": 3, "player": "Charlie Dean", "team": "England", "rating": 722},
+        {"rank": 4, "player": "Nonkululeko Mlaba", "team": "South Africa", "rating": 718},
+        {"rank": 5, "player": "Lauren Bell", "team": "England", "rating": 712},
+        {"rank": 6, "player": "Linsey Smith", "team": "England", "rating": 704},
+        {"rank": 7, "player": "Nashra Sandhu", "team": "Pakistan", "rating": 701},
+        {"rank": 8, "player": "Deepti Sharma", "team": "India", "rating": 699},
+        {"rank": 9, "player": "Sadia Iqbal", "team": "Pakistan", "rating": 689},
+        {"rank": 10, "player": "Marizanne Kapp", "team": "South Africa", "rating": 681}
+      ]
+    }
+  },
+  "odw": {
+    "gender": "female",
+    "icc_format_name": "Women's ODI",
+    "team_ratings": {
+      "as_of": "2026-08-31",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Women%27s_ODI_Team_Rankings",
+      "table": [
+        {"rank": 1, "team": "Australia", "matches": 28, "points": 4565, "rating": 163},
+        {"rank": 2, "team": "England", "matches": 26, "points": 3247, "rating": 125},
+        {"rank": 3, "team": "India", "matches": 30, "points": 3712, "rating": 124},
+        {"rank": 4, "team": "South Africa", "matches": 36, "points": 3614, "rating": 100},
+        {"rank": 5, "team": "New Zealand", "matches": 24, "points": 2312, "rating": 96},
+        {"rank": 6, "team": "Sri Lanka", "matches": 24, "points": 2133, "rating": 89},
+        {"rank": 7, "team": "West Indies", "matches": 26, "points": 1934, "rating": 74},
+        {"rank": 8, "team": "Bangladesh", "matches": 21, "points": 1537, "rating": 73},
+        {"rank": 9, "team": "Pakistan", "matches": 26, "points": 1902, "rating": 73},
+        {"rank": 10, "team": "Ireland", "matches": 22, "points": 1013, "rating": 46}
+      ]
+    },
+    "batting_top10": {
+      "as_of": "2026-08-31",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Women%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Smriti Mandhana", "team": "India", "rating": 790},
+        {"rank": 2, "player": "Laura Wolvaardt", "team": "South Africa", "rating": 782},
+        {"rank": 3, "player": "Beth Mooney", "team": "Australia", "rating": 744},
+        {"rank": 4, "player": "Phoebe Litchfield", "team": "Australia", "rating": 709},
+        {"rank": 5, "player": "Ashleigh Gardner", "team": "Australia", "rating": 696},
+        {"rank": 6, "player": "Nat Sciver-Brunt", "team": "England", "rating": 693},
+        {"rank": 7, "player": "Maddy Green", "team": "New Zealand", "rating": 685},
+        {"rank": 8, "player": "Hayley Matthews", "team": "West Indies", "rating": 678},
+        {"rank": 9, "player": "Harmanpreet Kaur", "team": "India", "rating": 652},
+        {"rank": 10, "player": "Sidra Ameen", "team": "Pakistan", "rating": 648}
+      ]
+    },
+    "bowling_top10": {
+      "as_of": "2026-08-31",
+      "source_url": "https://en.wikipedia.org/wiki/ICC_Women%27s_Player_Rankings",
+      "table": [
+        {"rank": 1, "player": "Alana King", "team": "Australia", "rating": 753},
+        {"rank": 2, "player": "Sophie Ecclestone", "team": "England", "rating": 717},
+        {"rank": 3, "player": "Ashleigh Gardner", "team": "Australia", "rating": 715},
+        {"rank": 4, "player": "Hayley Matthews", "team": "West Indies", "rating": 670},
+        {"rank": 5, "player": "Marizanne Kapp", "team": "South Africa", "rating": 650},
+        {"rank": 6, "player": "Annabel Sutherland", "team": "Australia", "rating": 646},
+        {"rank": 7, "player": "Megan Schutt", "team": "Australia", "rating": 624},
+        {"rank": 8, "player": "Kim Garth", "team": "Australia", "rating": 614},
+        {"rank": 9, "player": "Deepti Sharma", "team": "India", "rating": 614},
+        {"rank": 10, "player": "Nashra Sandhu", "team": "Pakistan", "rating": 601}
+      ]
+    }
+  }
+}

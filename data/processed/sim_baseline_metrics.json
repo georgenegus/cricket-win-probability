@@ -1,0 +1,54 @@
+{
+  "t20": {
+    "extras_log_loss": 0.172074,
+    "legal_log_loss": 1.435866,
+    "n_deliveries": 2429803,
+    "n_legal": 2338014,
+    "n_unmapped_to_fold": 0,
+    "n_folds": 5
+  },
+  "tolerance": {
+    "extras_log_loss_max_increase": 0.01,
+    "legal_log_loss_max_increase": 0.01
+  },
+  "od": {
+    "extras_log_loss": 0.13106,
+    "legal_log_loss": 1.191378,
+    "n_deliveries": 2157132,
+    "n_legal": 2100119,
+    "n_unmapped_to_fold": 0,
+    "n_folds": 5
+  },
+  "hnd": {
+    "extras_log_loss": 0.179712,
+    "legal_log_loss": 1.491211,
+    "n_deliveries": 31943,
+    "n_legal": 30716,
+    "n_unmapped_to_fold": 0,
+    "n_folds": 5
+  },
+  "odw": {
+    "extras_log_loss": 0.157794,
+    "legal_log_loss": 1.130744,
+    "n_deliveries": 487269,
+    "n_legal": 470547,
+    "n_unmapped_to_fold": 0,
+    "n_folds": 5
+  },
+  "hndw": {
+    "extras_log_loss": 0.171032,
+    "legal_log_loss": 1.45225,
+    "n_deliveries": 30445,
+    "n_legal": 29418,
+    "n_unmapped_to_fold": 0,
+    "n_folds": 5
+  },
+  "t20w": {
+    "extras_log_loss": 0.226622,
+    "legal_log_loss": 1.318837,
+    "n_deliveries": 728505,
+    "n_legal": 688218,
+    "n_unmapped_to_fold": 231,
+    "n_folds": 5
+  }
+}

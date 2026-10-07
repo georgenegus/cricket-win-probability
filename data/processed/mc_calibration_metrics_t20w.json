@@ -1,0 +1,46 @@
+{
+  "format": "t20w",
+  "generated_at": "2026-08-13T16:27:12.185715+00:00",
+  "n_sims_per_match": 3000,
+  "innings_calibration": {
+    "sample_matches": 99,
+    "coverage_rate": 0.8888888888888888,
+    "coverage_target": [
+      0.7,
+      0.95
+    ],
+    "mae": 22.879340067340063,
+    "mae_point_estimate": "mean",
+    "mae_mean_based_diagnostic": 22.879340067340063,
+    "mae_target_max": 29.9,
+    "bias": 3.4991717171717163,
+    "bias_target_abs_max": 8.4
+  },
+  "winprob_skill": {
+    "sample_matches": 97,
+    "brier": 0.217479587628866,
+    "brier_baserate": 0.24869805505367204,
+    "base_rate": 0.5360824742268041,
+    "skill_vs_baserate": 0.03121846742480605,
+    "skill_target_min": -0.05
+  },
+  "winprob_agreement": {
+    "sample_matches": 97,
+    "mean_abs_diff": 0.2038243986254295,
+    "reference": "PreMatchPredictor.prob_a (toss-averaged; the simulator is conditioned on team_a batting first, so these are not the same quantity -- another reason this is a diagnostic, not a gate)"
+  },
+  "over_under_reliability": {
+    "sample_matches": 99,
+    "line": 124.5,
+    "brier_score": 0.18793303757575758,
+    "target_max": 0.25
+  },
+  "variance_sanity": {
+    "sample_matches": 40,
+    "avg_std_dev": 28.878338410431024,
+    "target_range": [
+      26.3,
+      57.8
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "t20": {
+    "win_probability": {
+      "overall_brier": 0.127573,
+      "sample_size": 1134246,
+      "per_phase_brier": {
+        "death": 0.080411,
+        "middle": 0.121718,
+        "powerplay": 0.162725
+      }
+    },
+    "first_innings": {
+      "overall_mae": 16.8004,
+      "overall_rmse": 23.0049,
+      "sample_size": 5000,
+      "per_phase_mae": {
+        "death": 7.3144,
+        "middle": 16.6335,
+        "powerplay": 24.4027
+      }
+    }
+  },
+  "od": {
+    "win_probability": {
+      "overall_brier": 0.135169,
+      "sample_size": 978769,
+      "per_phase_brier": {
+        "death": 0.093009,
+        "middle": 0.130251,
+        "powerplay": 0.164934
+      }
+    },
+    "first_innings": {
+      "overall_mae": 31.1334,
+      "overall_rmse": 42.1456,
+      "sample_size": 5000,
+      "per_phase_mae": {
+        "death": 12.7864,
+        "middle": 31.001,
+        "powerplay": 46.4628
+      }
+    }
+  },
+  "hnd": {
+    "win_probability": {
+      "overall_brier": 0.139339,
+      "sample_size": 15010,
+      "per_phase_brier": {
+        "death": 0.101495,
+        "middle": 0.136732,
+        "powerplay": 0.171983
+      }
+    },
+    "first_innings": {
+      "overall_mae": 20.4356,
+      "overall_rmse": 27.0381,
+      "sample_size": 5000,
+      "per_phase_mae": {
+        "death": 13.5258,
+        "middle": 20.5789,
+        "powerplay": 26.7797
+      }
+    }
+  },
+  "t20w": {
+    "win_probability": {
+      "overall_brier": 0.106491,
+      "sample_size": 333408,
+      "per_phase_brier": {
+        "death": 0.063485,
+        "middle": 0.099347,
+        "powerplay": 0.138574
+      }
+    },
+    "first_innings": {
+      "overall_mae": 15.0872,
+      "overall_rmse": 21.4715,
+      "sample_size": 5000,
+      "per_phase_mae": {
+        "death": 6.7192,
+        "middle": 14.0839,
+        "powerplay": 22.958
+      }
+    }
+  },
+  "odw": {
+    "win_probability": {
+      "overall_brier": 0.131821,
+      "sample_size": 218700,
+      "per_phase_brier": {
+        "death": 0.100579,
+        "middle": 0.125588,
+        "powerplay": 0.159038
+      }
+    },
+    "first_innings": {
+      "overall_mae": 31.0466,
+      "overall_rmse": 41.4053,
+      "sample_size": 5000,
+      "per_phase_mae": {
+        "death": 15.7461,
+        "middle": 30.7941,
+        "powerplay": 43.9616
+      }
+    }
+  },
+  "hndw": {
+    "win_probability": {
+      "overall_brier": 0.14318,
+      "sample_size": 15043,
+      "per_phase_brier": {
+        "death": 0.088618,
+        "middle": 0.144173,
+        "powerplay": 0.181244
+      }
+    },
+    "first_innings": {
+      "overall_mae": 16.063,
+      "overall_rmse": 20.8123,
+      "sample_size": 5000,
+      "per_phase_mae": {
+        "death": 11.0261,
+        "middle": 16.4379,
+        "powerplay": 20.0455
+      }
+    }
+  },
+  "tolerance": {
+    "overall_brier_max_increase": 0.001,
+    "phase_brier_max_increase": 0.0025,
+    "overall_mae_max_increase": 0.5,
+    "phase_mae_max_increase": 1.0
+  }
+}
