@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: raw Cricsheet YAMLs, feature caches and trained models are all rebuilt
+# locally (see docs/setup.md). Only the locked regression baselines and the
+# hand-maintained venue overrides are tracked.
+data/*
+!data/processed/
+data/processed/*
+!data/processed/baseline_metrics.json
+!data/processed/sim_baseline_metrics.json
+!data/processed/mc_calibration_metrics.json
+!data/processed/mc_calibration_metrics_od.json
+!data/processed/mc_calibration_metrics_hnd.json
+!data/processed/mc_calibration_metrics_t20w.json
+!data/processed/mc_calibration_metrics_odw.json
+!data/processed/mc_calibration_metrics_hndw.json
+!data/reference/
+data/reference/*
+!data/reference/venue_overrides.json
+
+# Build plans and analysis: working notes stay local; a curated set is published
+# (indexed in docs/README.md).
+.agents/skills/
+markdowns/*/*
+!markdowns/betting/model_evaluation_summary.md
+!markdowns/betting/strategy4_monte_carlo_simulation_build_plan.md
+!markdowns/win_predictor/hundred_brier_improvement_plan.md
+!markdowns/win_predictor/t20_mae_gate_plan.md
+!markdowns/win_predictor/mc_runrate_feedback_plan.md
+!markdowns/win_predictor/competition_tier_calibration_analysis.md
+!markdowns/win_predictor/hnd_player_elo_revamp_plan.md
+!markdowns/win_predictor/womens_games_ingestion_plan.md
+
+# One-off experiments and measurement dumps
+tests/one-time/
+outputs/
+
+# Credentials
+credentials.env
+
+# Runtime logs
+logs/
