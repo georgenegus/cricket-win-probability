@@ -1,4 +1,4 @@
-# CreasePulse — System Architecture & Technical Guide
+# TheInsideEdge — System Architecture & Technical Guide
 
 > A complete technical walkthrough of the T20 & ODI Win Probability Prediction System, from raw cricket match data to live web-based predictions.
 
@@ -25,12 +25,13 @@
 12. [Stage 9: Frontend UI](#12-stage-9-frontend-ui)
 13. [End-to-End Data Flow: A Single Prediction](#13-end-to-end-data-flow-a-single-prediction)
 14. [Key Concepts Glossary](#14-key-concepts-glossary)
+15. [Monte Carlo Simulation — The `current_team_score` Feedback Loop](#15-monte-carlo-simulation--the-current_team_score-feedback-loop)
 
 ---
 
 ## 1. What This Project Does
 
-CreasePulse is a **machine learning system** that predicts the probability of the chasing (batting second) team winning a cricket match, **ball-by-ball**, during the second innings of a T20 or ODI game.
+TheInsideEdge is a **machine learning system** that predicts the probability of the chasing (batting second) team winning a cricket match, **ball-by-ball**, during the second innings of a T20 or ODI game.
 
 Imagine you're watching a T20 match. India is chasing 180, and they're 95/3 after 12 overs. This system tells you: *"India has a 62% chance of winning right now."* As each ball is bowled — a boundary, a wicket, a dot ball — that percentage updates in real time.
 
@@ -430,6 +431,26 @@ effective_elo = reliability × raw_elo + (1 - reliability) × team_elo
 ```
 
 A brand-new player (0 matches) effectively inherits their **team's Elo**. After ~10 matches, their own rating dominates.
+
+#### Frontline-bowler eligibility (`frontline_bowler_eligibility_plan.md`, 2026-08-07)
+
+A bowling Elo, once earned, never expires — a specialist batter who bowled a handful of overs
+years ago still carries a `role="bowler"` rating today, and shrinkage (above) anchors that stale
+rating near the team's own strength, which can outrank genuine frontline bowlers rated below
+1500. `t20`'s and `od`'s `bowling_squad_elo` is a top-K *rank-weighted* mean (not a flat mean —
+see `_weighted_mean_by_bowling_rank`, K=6), so who occupies that top-K matters: `bowling_squad_elo`
+and `squad_elo_diff` are ranked using `get_recent_bowl_rate(player)` (share of the player's
+trailing 10 named appearances in which they actually bowled — `FRONTLINE_BOWL_WINDOW`/
+`FRONTLINE_BOWL_MIN_RATE` in `player_elo_engine.py`) rather than merely "has ever bowled." The
+per-player Elo *value* is unaffected — only which players are eligible to occupy a top-K rank
+slot. `hnd`/`t20w`/`odw`/`hndw` use a flat (uniform-weight) mean, so this eligibility gate is a
+provable no-op for them regardless of threshold — confirmed both synthetically and via a
+byte-identical column hash on real data.
+
+The live/historical squad-serving side (Lineup cards, Monte Carlo attack selection) uses the
+same threshold via `frontline_bowl_sort_key` in `match_simulator.py`, with one deliberate
+asymmetry: serving may use in-match ground truth (`known_bowler`) since that's leakage-fine for
+simulating an already-known XI, but the training loop never does.
 
 #### Features produced
 
@@ -856,6 +877,114 @@ sequenceDiagram
 | **Residual Features** | The difference between a player's rating and their team's rating. Captures "how much better/worse is this individual compared to an average teammate?" |
 | **Parquet** | A columnar binary file format for fast reading/writing of large DataFrames. Much faster than CSV. |
 | **Flask** | A lightweight Python web framework used to serve API endpoints and static files. |
+
+---
+
+## 15. Monte Carlo Simulation — The `current_team_score` Feedback Loop
+
+**Files:** [innings_simulator.py](file:///c:/Python/T20_Win_Probability_Model/src/simulation/innings_simulator.py), [match_simulator.py](file:///c:/Python/T20_Win_Probability_Model/src/simulation/match_simulator.py), [delivery_outcome_model.py](file:///c:/Python/T20_Win_Probability_Model/src/models/delivery_outcome_model.py)
+
+Alongside the ball-by-ball win-probability classifier described above, this project runs a
+separate **Strategy 4 Monte Carlo simulator**: a two-stage `DeliveryOutcomeModel` (extras gate,
+then legal-outcome multinomial) samples one delivery at a time, thousands of times in parallel,
+to project full innings and match outcomes for markets like total runs, top bowler, and
+win-probability cross-checks. This section documents a non-obvious property of that simulator
+that cost real calibration accuracy before it was understood — see
+`markdowns/win_predictor/mc_runrate_feedback_plan.md` for the full investigation and numbers;
+this is the short version so it isn't rediscovered the hard way.
+
+### The problem: an input that is also an output
+
+`current_team_score` is one of the delivery-outcome model's training features — and legitimately
+so: a high score at a given point in an innings really does predict continued fast scoring (good
+pitch, strong batting side), and the model learns that correlation correctly from real matches.
+
+Inside a *simulation*, though, `current_team_score` is not an independent observation — it's the
+simulator's **own accumulated output**, fed straight back in as a feature on the next delivery.
+Any early over-prediction inflates the score the model sees, which (correctly, per what it
+learned in training) makes it predict *more* scoring, which inflates the score further. The loop
+has gain < 1, so it settles at a stable inflated level rather than diverging — which is why od's
+innings-total bias plateaued at roughly **+18 runs (+14%)** high rather than blowing up, but it
+was still failing its calibration gate (`|bias| <= 13.0`).
+
+### The fix: damp the fed-back value, not the model
+
+`_assemble_state_matrix()` shrinks the `current_team_score` value it feeds to the model toward a
+per-format, per-ball-index **par trajectory** (mean score at that ball across real matches that
+were still batting at that point — `data/processed/{format}_score_trajectory.json`, built by
+`scripts/build_score_trajectory.py`):
+
+```python
+fed_score = expected_trajectory[ball_index] + SHRINK * (raw_simulated_score - expected_trajectory[ball_index])
+```
+
+`SHRINK` is a **per-format constant** (`SCORE_FEEDBACK_SHRINK` in `innings_simulator.py`, same
+pattern as `BOWLER_OVER_SHARES`) — od and t20 have measurably different loop *gain* per run of
+score, so there's no reason to expect one shared value fits both:
+
+| Format | `SCORE_FEEDBACK_SHRINK` | Why |
+|---|---:|---|
+| `od` | **0.30** | Clears the bias gate (+18.17 → +12.72 at full canonical fidelity) with margin below the measured crossing point (~0.33–0.35) |
+| `t20` | **1.0** (no damping) | Bias barely moves across the *entire* [0,1] shrink range — nothing here for damping to fix, even though t20's per-run sensitivity is actually steeper than od's |
+
+`SHRINK = 1.0` reproduces pre-fix behaviour **byte-identically** (a fast-path in `_fed_score()`
+skips the trajectory arithmetic entirely), which is what makes this change safely reversible per
+format. Only the *value fed to the model* is damped — mechanical uses of the real score
+(`required_run_rate`, simulation termination, market pricing) are untouched.
+
+> [!NOTE]
+> Damping only explains **~35–36%** of od's baseline bias, not the ~58% an early back-of-envelope
+> estimate suggested (two independent full simulations at zero damping confirmed this). Even at
+> maximum damping, roughly **+10 runs of bias remains** — checked against every tracked per-ball
+> feature and a joint (wickets, over) snapshot, and it shows up in none of them. It's a genuine
+> open question, not something this fix was expected to fully close (MAE was never in scope
+> either — see the plan doc's `Deferred` section).
+
+### t20's innings-total MAE gate: measured ceiling and re-anchor (2026-08-11)
+
+t20's Monte Carlo innings-total MAE gate was originally **25.0**, an empirically-chosen number
+never validated against a skill ceiling. `markdowns/win_predictor/t20_mae_gate_plan.md` measured
+that ceiling directly (5-fold OOF, leakage-safe, named-XI squad Elo only — never participant-
+derived, which encodes the outcome):
+
+| Quantity | Value |
+|---|---:|
+| Zero-skill floor (predict the median every time) | 29.19 |
+| Simulator, locked | 27.48 (median-based MAE — see Phase 1's estimator fix below) |
+| Best leakage-safe regressor, everything this repo holds (venue par, team Elo, named-XI squad Elo, competition, era, toss) | **26.29** (OOF R² 20.3%) |
+
+**25.0 is not attainable from the data this repo currently holds.** A direct match-level
+regressor given every available pre-match feature tops out at 26.29 — still 1.29 runs over the
+old gate. Closing the remainder needs information the repo does not have (pitch/dew/weather,
+confirmed team news, ground dimensions): a data-acquisition project, not a modelling one.
+
+Two things worth separating, because they are genuinely different findings:
+- **The point-estimator fix (Phase 1) is real and shipped.** MAE is minimised by the median, not
+  the mean, on the simulator's left-skewed score distribution — `MAE_POINT_ESTIMATE = {"t20":
+  "median"}` in `generate_mc_calibration_metrics.py`, moving the locked MAE 27.5735 → 27.48 with
+  every other calibration metric reproducing byte-identically. `bias` stays mean-based
+  unconditionally — it estimates expectation, not absolute error, and the two are deliberately
+  not the same statistic.
+- **A squad-context retrain (Phase 2/3) is NOT justified.** A subsampled, control-relative,
+  match-paired OOF ablation of the delivery-outcome model (800 matches, 2/5 GroupKFold folds)
+  found that adding `batting_squad_elo`/`bowling_squad_elo` moves per-ball legal-outcome log-loss
+  by essentially nothing (t=+0.38 — noise), and adding competition/era/toss alongside it still
+  falls short of this repo's own `|t|>2` bar (t=−1.74). The match-level regressor's squad-Elo
+  signal (R² 11.7%→18.6%) is real at the *aggregate* level but too diffuse for a per-ball metric
+  to confirm at this sample size — the two measurements are not in conflict, they're answering
+  different questions. No retrain was performed.
+
+**The gate is re-anchored to 28.5** — `_T20_MAE_MAX` in `tests/one-time/generate_mc_calibration_
+metrics.py` (and its synced duplicate assertion in `test_simulation_calibration.py`) — computed
+as the measured ceiling (26.29) plus ~1 sampling-noise SE (2.28, the per-match absolute-error SE
+measured on the 100-match calibration sample). This is a **deliberate, human-approved decision**,
+not a measurement: two other bases were on the table (a fixed fraction of the zero-skill floor;
+leaving 25.0 permanently red as a documented aspiration) and this one was chosen because it stays
+a real, evidence-grounded bar — it still fails the zero-skill floor (29.19) and would catch a
+genuine regression — while not rejecting a simulator that is already within noise of the honest
+ceiling. Every other format's MAE gate is derived from this same constant via the dispersion-based
+`innings_total_sd` scaling (`_calibration_targets()`), so this decision moved every format's gate
+at once, not just t20's.
 
 ---
 
