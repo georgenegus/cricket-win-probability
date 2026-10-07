@@ -233,15 +233,26 @@ def extract_match_squads(
     match_id: Union[int, str],
     format_type: str = "t20",
     processed_dir: str = "data/processed",
+    source: str = "elo",
 ) -> Tuple[Dict[str, Any], Dict[str, Any], float]:
     """
     Extracts team_1 and team_2 squad dicts (lineup + attack) and venue_avg_score
     for a historical match_id from dataset parquets.
 
+    source (rating_source_toggle_plan.md Phase 6-continued): which player-rating parquet to
+    read the lineup/attack ratings from -- "elo" (default, byte-identical to before this param
+    existed) or "icc" (Phase 2's combined artifact). Everything else in this function --
+    bowling frequency/workload, venue average, squad composition -- is format-structural, not
+    rating-source-specific, so only the ONE parquet path below changes. Raises via
+    rating_source.resolve_path if `source` has no coverage for `format_type`; callers should
+    validate with rating_source.is_supported first for a clean error rather than relying on
+    this to fail loudly mid-lookup.
+
     Returns:
         (team_1_dict, team_2_dict, venue_avg_score)
     """
     from src.data_processing.format_spec import FORMAT_SPECS
+    from src.features import rating_source
 
     p_dir = Path(processed_dir)
     fmt_clean = str(format_type).lower().strip()
@@ -258,7 +269,7 @@ def extract_match_squads(
         fmt = "t20"
 
     meta_path = p_dir / f"{fmt}_match_metadata.parquet"
-    player_path = p_dir / f"{fmt}_player_elo_ratings.parquet"
+    player_path = rating_source.resolve_path(fmt, "player", source, processed_path=str(p_dir))
     venue_path = p_dir / f"{fmt}_venue_features.parquet"
 
     if not meta_path.exists():

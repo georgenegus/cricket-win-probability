@@ -6,7 +6,15 @@ import pandas as pd
 import numpy as np
 from difflib import SequenceMatcher
 from flask import Flask, jsonify, request
-from src.simulation.match_simulator import extract_match_squads, simulate_match
+from src.simulation.match_simulator import (
+    extract_match_squads,
+    simulate_match,
+    ATTACK_SIZE,
+    bowling_appearance_rates,
+    bowling_volume_rates,
+    bowler_volume_table,
+    frontline_bowl_sort_key,
+)
 from src.simulation.innings_simulator import simulate_innings
 from src.simulation.market_pricer import (
     price_total_runs, price_margin, price_top_batsman, price_player_props,
@@ -14,7 +22,10 @@ from src.simulation.market_pricer import (
 )
 import traceback
 
-from src.features.player_elo_engine import PlayerEloEngine, compute_effective_elo
+from src.features.player_elo_engine import PlayerEloEngine, compute_effective_elo, get_match_squad_elo
+from src.features import rating_source
+from src.features.icc_player_rating_engine import ICCPlayerRatingEngine
+from src.features.icc_team_rating_engine import ICCTeamRatingEngine
 from src.models.xgb_win_probability import XGBWinProbabilityModel
 from src.models.first_innings_predictor import FirstInningsPredictor
 from src.models.delivery_outcome_model import DeliveryOutcomeModel
@@ -57,6 +68,53 @@ DELIVERY_MODELS = {}
 for _fmt in ACTIVE_FORMATS:
     DELIVERY_MODELS[_fmt] = DeliveryOutcomeModel(format_type=_fmt)
     DELIVERY_MODELS[_fmt].fit(None, cache_path=f"data/processed/{_fmt}_delivery_outcome_model.pkl")
+
+# --------------------------------------------------
+# Rating-source-aware model accessor (rating_source_toggle_plan.md Phase 6)
+# --------------------------------------------------
+# Non-elo model sets (currently just "icc", scripts/train_rating_source_models.py's output)
+# load LAZILY on first request and stay cached in-process -- doubling every format's model set
+# at import, the way MODELS/FIRST_INNINGS_MODELS/DELIVERY_MODELS load eagerly above, is a real
+# hazard on this box's 7.7GB RAM (see machine_memory_constraints). The default "elo" source is
+# NOT touched by this cache at all: it returns the exact same eagerly-loaded dict entry every
+# call site already used, just routed through one function instead of a 7x-repeated
+# `X.get(fmt, X["t20"])`.
+_ICC_MODEL_CACHE = {}  # (kind, format_type, source) -> fitted model instance
+
+# kind -> (eager dict for the default source, model class, artifact filename stem). Stems match
+# scripts/train_rating_source_models.py's naming exactly: "{fmt}_{source}_{stem}.pkl".
+_MODEL_KIND_INFO = {
+    "xgb": (MODELS, XGBWinProbabilityModel, "xgb_models"),
+    "first_innings": (FIRST_INNINGS_MODELS, FirstInningsPredictor, "first_innings_regressor"),
+    "delivery": (DELIVERY_MODELS, DeliveryOutcomeModel, "delivery_outcome_model"),
+}
+
+
+def get_model(kind: str, format_type: str, source: str = rating_source.DEFAULT_RATING_SOURCE):
+    """Returns the fitted model for (kind, format_type, source). kind is one of
+    "xgb" / "first_innings" / "delivery". Raises for an unsupported (format, source) pair or a
+    missing artifact rather than silently falling back to Elo -- a caller that gets the source
+    wrong should fail loudly, not serve a prediction off the wrong model."""
+    eager_dict, model_cls, artifact_stem = _MODEL_KIND_INFO[kind]
+    if source == rating_source.DEFAULT_RATING_SOURCE:
+        return eager_dict.get(format_type, eager_dict["t20"])
+
+    if not rating_source.is_supported(format_type, source):
+        raise ValueError(f"Rating source '{source}' has no model coverage for format '{format_type}'")
+
+    key = (kind, format_type, source)
+    if key not in _ICC_MODEL_CACHE:
+        cache_path = f"data/processed/{format_type}_{source}_{artifact_stem}.pkl"
+        if not os.path.exists(cache_path):
+            raise FileNotFoundError(
+                f"No trained '{source}' {kind} model at {cache_path} -- run "
+                f"scripts/train_rating_source_models.py --format {format_type} first."
+            )
+        print(f"Lazily loading '{source}' {kind} model for {format_type}...")
+        model = model_cls(format_type=format_type)
+        model.fit(None, cache_path=cache_path)  # cache always exists here -> loads, never trains
+        _ICC_MODEL_CACHE[key] = model
+    return _ICC_MODEL_CACHE[key]
 
 print("Loading datasets for matches explorer...")
 DELIVERIES_BY_FMT = {}
@@ -243,33 +301,38 @@ for _fmt in ACTIVE_FORMATS:
 # --------------------------------------------------
 # Parquets are read lazily on first request and cached in-process. Team Elo files are small,
 # but player Elo files are large (100k+ rows), so we avoid loading them at startup.
-_ELO_TEAM_DF_CACHE = {}     # format -> team Elo DataFrame
-_ELO_PLAYER_DF_CACHE = {}   # format -> player Elo DataFrame (with match_date joined in)
-_ELO_ENTITY_CACHE = {}      # (format, type) -> list of {name[, roles]}
+# Cache keys carry `source` (rating_source.DEFAULT_RATING_SOURCE = "elo" by default) so the
+# rating-source toggle (markdowns/win_predictor/rating_source_toggle_plan.md) can hold both an
+# Elo and an ICC-style snapshot in memory at once without either evicting the other.
+_ELO_TEAM_DF_CACHE = {}     # (format, source) -> team ratings DataFrame
+_ELO_PLAYER_DF_CACHE = {}   # (format, source) -> player ratings DataFrame (with match_date joined in)
+_ELO_ENTITY_CACHE = {}      # (format, type, source) -> list of {name[, roles]}
 
-def _load_team_elo_df(fmt):
-    if fmt not in _ELO_TEAM_DF_CACHE:
-        path = f"data/processed/{fmt}_elo_ratings.parquet"
-        _ELO_TEAM_DF_CACHE[fmt] = pd.read_parquet(path) if os.path.exists(path) else pd.DataFrame()
-    return _ELO_TEAM_DF_CACHE[fmt]
+def _load_team_elo_df(fmt, source=rating_source.DEFAULT_RATING_SOURCE):
+    key = (fmt, source)
+    if key not in _ELO_TEAM_DF_CACHE:
+        path = rating_source.resolve_path(fmt, "team", source)
+        _ELO_TEAM_DF_CACHE[key] = pd.read_parquet(path) if path.exists() else pd.DataFrame()
+    return _ELO_TEAM_DF_CACHE[key]
 
-def _load_player_elo_df(fmt):
-    """Player Elo ratings joined with each match's date (the player parquet has no date column)."""
-    if fmt not in _ELO_PLAYER_DF_CACHE:
-        path = f"data/processed/{fmt}_player_elo_ratings.parquet"
-        if os.path.exists(path):
+def _load_player_elo_df(fmt, source=rating_source.DEFAULT_RATING_SOURCE):
+    """Player ratings joined with each match's date (the player parquet has no date column)."""
+    key = (fmt, source)
+    if key not in _ELO_PLAYER_DF_CACHE:
+        path = rating_source.resolve_path(fmt, "player", source)
+        if path.exists():
             pdf = pd.read_parquet(path).copy()
-            tdf = _load_team_elo_df(fmt)
+            tdf = _load_team_elo_df(fmt, source)
             date_map = dict(zip(tdf["match_id"], tdf["match_date"])) if not tdf.empty else {}
             pdf["match_date"] = pdf["match_id"].map(date_map)
-            _ELO_PLAYER_DF_CACHE[fmt] = pdf
+            _ELO_PLAYER_DF_CACHE[key] = pdf
         else:
-            _ELO_PLAYER_DF_CACHE[fmt] = pd.DataFrame()
-    return _ELO_PLAYER_DF_CACHE[fmt]
+            _ELO_PLAYER_DF_CACHE[key] = pd.DataFrame()
+    return _ELO_PLAYER_DF_CACHE[key]
 
-_LATEST_PLAYER_ELO_CACHE = {}  # format -> {(player, role): {"effective_elo", "recent_form"}}
+_LATEST_PLAYER_ELO_CACHE = {}  # (format, source) -> {(player, role): {"effective_elo", "recent_form"}}
 
-def _load_latest_player_elo(fmt):
+def _load_latest_player_elo(fmt, source=rating_source.DEFAULT_RATING_SOURCE):
     """Each player's own most recent (effective_elo, recent_form), regardless of which
     specific historical match produced it -- unlike find_recent_squad()'s snapshot (limited to
     the ~11-16 names that happened to play in ONE past match), this covers every player who
@@ -278,17 +341,53 @@ def _load_latest_player_elo(fmt):
     from that one snapshot but very much present in the wider ratings (e.g. a recently-rested
     regular) would otherwise be wrongly defaulted to a neutral 1500. Same "latest by match_id"
     convention as build_hnd_seed_ratings()."""
-    if fmt not in _LATEST_PLAYER_ELO_CACHE:
-        pdf = _load_player_elo_df(fmt)
+    key = (fmt, source)
+    if key not in _LATEST_PLAYER_ELO_CACHE:
+        pdf = _load_player_elo_df(fmt, source)
         if pdf.empty:
-            _LATEST_PLAYER_ELO_CACHE[fmt] = {}
+            _LATEST_PLAYER_ELO_CACHE[key] = {}
         else:
             latest = pdf.sort_values("match_id").groupby(["player", "role"]).last().reset_index()
-            _LATEST_PLAYER_ELO_CACHE[fmt] = {
-                (row["player"], row["role"]): {"effective_elo": float(row["effective_elo"]), "recent_form": float(row["recent_form"])}
+            _LATEST_PLAYER_ELO_CACHE[key] = {
+                (row["player"], row["role"]): {
+                    "effective_elo": float(row["effective_elo"]),
+                    "raw_elo": float(row["raw_elo"]),
+                    "recent_form": float(row["recent_form"]),
+                }
                 for _, row in latest.iterrows()
             }
-    return _LATEST_PLAYER_ELO_CACHE[fmt]
+    return _LATEST_PLAYER_ELO_CACHE[key]
+
+_BOWLING_RATE_CACHE = {}  # format -> {player: share of recent appearances they bowled in}
+
+def _load_bowling_rates(fmt):
+    """Each player's recent bowling rate, for gating who counts as a frontline bowling option
+    (see frontline_bowl_sort_key / FRONTLINE_BOWL_MIN_RATE in match_simulator.py).
+
+    Unlike the historical path there's no in-match ground truth to lean on here -- a live XI is
+    resolved before anyone has bowled -- so this recency signal is the ONLY thing standing
+    between a batter's stale bowling Elo and a place in the simulated attack."""
+    if fmt not in _BOWLING_RATE_CACHE:
+        _BOWLING_RATE_CACHE[fmt] = bowling_appearance_rates(_load_player_elo_df(fmt))
+    return _BOWLING_RATE_CACHE[fmt]
+
+_BOWLING_VOLUME_CACHE = {}  # format -> {player: mean balls bowled per recent appearance}
+
+def _load_bowling_volumes(fmt):
+    """Each player's recent bowling workload, used to order the eligible tier by who actually
+    bowls the most overs rather than who is rated highest (see frontline_bowl_sort_key).
+
+    Passing the rate gate only means "bowls at all" -- a genuine 4-over part-timer clears it
+    just as cleanly as a 10-over specialist, and without this would then be ranked ahead of that
+    specialist purely on Elo."""
+    if fmt not in _BOWLING_VOLUME_CACHE:
+        try:
+            _BOWLING_VOLUME_CACHE[fmt] = bowling_volume_rates(
+                _load_player_elo_df(fmt), bowler_volume_table(fmt)
+            )
+        except FileNotFoundError:
+            _BOWLING_VOLUME_CACHE[fmt] = {}
+    return _BOWLING_VOLUME_CACHE[fmt]
 
 _CRICINFO_ID_MAP_CACHE = None  # cricinfo_id (str) -> unique_name (Cricsheet-style, e.g. "BA King")
 
@@ -310,21 +409,11 @@ def _load_cricinfo_id_map():
 
 def _match_squad_elo(fmt, match_id):
     """The (Phase-1/2-weighted) batting/bowling squad Elo the win-prob model actually trained
-    on for this match, straight off the parquet -- for the Lineups & Elo effective-Elo display,
-    exact/authoritative rather than recomputed. Returns (t1_bat, t1_bowl, t2_bat, t2_bowl) or
-    None if unavailable."""
-    pdf = _load_player_elo_df(fmt)
-    if pdf.empty:
-        return None
-    cols = ["team_1_batting_squad_elo", "team_1_bowling_squad_elo",
-            "team_2_batting_squad_elo", "team_2_bowling_squad_elo"]
-    if not all(c in pdf.columns for c in cols):
-        return None
-    row = pdf[pdf["match_id"].astype(str) == str(match_id)]
-    if row.empty:
-        return None
-    r = row.iloc[0]
-    return tuple(float(r[c]) for c in cols)
+    on for this match -- for the Lineups & Elo effective-Elo display, exact/authoritative rather
+    than recomputed. Thin wrapper: the actual lookup lives in player_elo_engine.get_match_squad_elo()
+    (single source of truth, also used by PreMatchPredictor's squad-Elo-aware predict()). Returns
+    (t1_bat, t1_bowl, t2_bat, t2_bowl) or None if unavailable."""
+    return get_match_squad_elo(fmt, match_id)
 
 def compute_venue_averages(df):
     """First-innings average score per venue for a single format's deliveries."""
@@ -428,7 +517,55 @@ def build_chase_state(format_type, overs, target, runs_remaining, balls_remainin
     return state, required_run_rate, run_rate, phase
 
 
-def find_recent_squad(team_name, format_type):
+def build_first_innings_state(format_type, runs_scored, wickets_lost, balls_faced,
+                               batting_team_elo, bowling_team_elo, elo_diff,
+                               venue_avg_first_innings_score, competition, overs=None):
+    """Builds the first-innings regressor's feature Series for a 1st-innings state.
+
+    Shared by /api/predict_first_innings and the live-state endpoint (mirrors
+    build_chase_state's role for the 2nd-innings chase model) so the feature construction
+    stays identical. Returns (state_series, run_rate, projected_score, phase).
+    """
+    fmt_spec = spec(format_type)
+    overs = fmt_spec["total_overs"] if overs is None else overs
+    total_balls = fmt_spec["total_balls"]
+    balls_per_over = fmt_spec["balls_per_over"]
+    balls_remaining = total_balls - balls_faced
+
+    safe_faced = balls_faced if balls_faced > 0 else balls_per_over
+    run_rate = runs_scored / (safe_faced / balls_per_over)
+    projected_score = runs_scored if balls_faced == 0 else (runs_scored / balls_faced) * total_balls
+
+    over_float = balls_faced / balls_per_over
+    if balls_faced < fmt_spec["pp_end_ball"]:
+        phase = "powerplay"
+    elif balls_faced >= fmt_spec["death_start_ball"]:
+        phase = "death"
+    else:
+        phase = "middle"
+
+    state = pd.Series(
+        {
+            "runs_scored": runs_scored,
+            "wickets_lost": wickets_lost,
+            "balls_faced": balls_faced,
+            "balls_remaining": balls_remaining,
+            "run_rate": run_rate,
+            "over_float": over_float,
+            "phase": phase,
+            "match_id": 999999,
+            "batting_team_elo": batting_team_elo,
+            "bowling_team_elo": bowling_team_elo,
+            "elo_diff": elo_diff,
+            "venue_avg_first_innings_score": venue_avg_first_innings_score,
+            "competition": competition,
+            "total_overs": overs,
+        }
+    )
+    return state, run_rate, projected_score, phase
+
+
+def find_recent_squad(team_name, format_type, source=rating_source.DEFAULT_RATING_SOURCE):
     """Returns the squad dict (name/lineup/attack) for a team's most recent historical match.
 
     Fallback squad source when live lineups aren't published. Shared by the pre-match
@@ -452,11 +589,11 @@ def find_recent_squad(team_name, format_type):
     if team_matches.empty:
         return None
     m_id = team_matches.iloc[0]["match_id"]
-    t1, t2, _ = extract_match_squads(m_id, format_type)
+    t1, t2, _ = extract_match_squads(m_id, format_type, source=source)
     return t1 if t1["name"] == team_name else t2
 
 
-def build_live_team(team_name, live_players, format_type):
+def build_live_team(team_name, live_players, format_type, source=rating_source.DEFAULT_RATING_SOURCE):
     """Builds a team squad dict for the live Monte Carlo.
 
     Rates each live player from their OWN most recent rating anywhere in history (via
@@ -479,12 +616,12 @@ def build_live_team(team_name, live_players, format_type):
 
     Returns (team_dict, squad_source) where squad_source is 'live_xi' | 'historical'.
     """
-    recent = find_recent_squad(team_name, format_type)
+    recent = find_recent_squad(team_name, format_type, source=source)
     if not live_players:
         return (recent, "historical") if recent else (None, None)
 
     id_map = _load_cricinfo_id_map()
-    latest_elo = _load_latest_player_elo(format_type)
+    latest_elo = _load_latest_player_elo(format_type, source)
 
     # Secondary fallback maps from one specific recent match's snapshot (kept apart by role
     # because a player's batting and bowling ratings differ — see extract_match_squads).
@@ -495,7 +632,7 @@ def build_live_team(team_name, live_players, format_type):
         for p in recent.get("attack", []):
             bowl_map[p["name"]] = p
 
-    default = {"effective_elo": 1500.0, "recent_form": 0.0}
+    default = {"effective_elo": 1500.0, "raw_elo": 1500.0, "recent_form": 0.0}
 
     def _rating(key, role, snapshot_map):
         """Returns (rating_dict, rated: bool). rated=False means this player has no record
@@ -526,14 +663,26 @@ def build_live_team(team_name, live_players, format_type):
     lineup = []
     for espn_name, key in resolved:
         src, rated = _rating(key, "batter", bat_map)
-        lineup.append({"name": espn_name, "effective_elo": src["effective_elo"], "recent_form": src["recent_form"], "rated": rated})
+        lineup.append({"name": espn_name, "effective_elo": src["effective_elo"], "raw_elo": src["raw_elo"], "recent_form": src["recent_form"], "rated": rated})
 
-    # Attack = 5 highest bowling-Elo players from the XI (those with a real bowling record
-    # rank ahead of pure batters, matching extract_match_squads' selection). Ranking key is 0.0
-    # for anyone with NO bowler-role record anywhere (full history or snapshot) -- never rank
-    # on the neutral-1500 default, which would wrongly promote unrated players above genuine
-    # part-time bowlers rated below 1500 (the same shrinkage-ranking trap effective_game_elo_
-    # plan.md's Phase 2 hit and fixed on the training side).
+    # Attack = 5 best bowling options from the XI: frontline-eligible players first, and only
+    # then by bowling Elo (matching extract_match_squads' selection). Ranking value is 0.0 for
+    # anyone with NO bowler-role record anywhere (full history or snapshot) -- never rank on the
+    # neutral-1500 default, which would wrongly promote unrated players above genuine part-time
+    # bowlers rated below 1500 (the same shrinkage-ranking trap effective_game_elo_plan.md's
+    # Phase 2 hit and fixed on the training side).
+    #
+    # Having *a* bowling record is necessary but NOT sufficient: it never expires, so a batter
+    # who bowled a few overs years ago keeps a bowling Elo that shrinkage anchors near team
+    # strength and which then outranks the real attack (DP Sibley topping Surrey's bowling on
+    # 2026-08-05 with nothing bowled since 2018). The recent-appearance rate is what makes it
+    # sufficient -- see FRONTLINE_BOWL_MIN_RATE. Ordering WITHIN the eligible tier then goes by
+    # expected workload (bowl_volumes), with Elo only breaking ties: clearing the rate gate says
+    # a player bowls, not how much, so a 4-over part-timer would otherwise be ranked above a
+    # 10-over specialist on rating alone.
+    bowl_rates = _load_bowling_rates(format_type)
+    bowl_volumes = _load_bowling_volumes(format_type)
+
     def _bowl_rank_value(key):
         r = latest_elo.get((key, "bowler"))
         if r is not None:
@@ -542,11 +691,24 @@ def build_live_team(team_name, live_players, format_type):
             return bowl_map[key]["effective_elo"]
         return 0.0
 
-    ranked = sorted(resolved, key=lambda t: _bowl_rank_value(t[1]), reverse=True)
+    ranked = sorted(
+        resolved,
+        key=lambda t: frontline_bowl_sort_key(
+            t[1], _bowl_rank_value(t[1]), bowl_rates, volumes=bowl_volumes
+        ),
+        reverse=True,
+    )
+    # overs_per_inns surfaces the value the ordering is based on -- keyed on the resolved
+    # Cricsheet name (not the ESPN display name) since that's what the volume table is keyed by.
+    bpo = float(spec(format_type)["balls_per_over"])
     attack = []
-    for espn_name, key in ranked[:5]:
+    for espn_name, key in ranked[:ATTACK_SIZE]:
         src, rated = _rating(key, "bowler", bowl_map)
-        attack.append({"name": espn_name, "effective_elo": src["effective_elo"], "recent_form": src["recent_form"], "rated": rated})
+        attack.append({
+            "name": espn_name, "effective_elo": src["effective_elo"], "raw_elo": src["raw_elo"],
+            "recent_form": src["recent_form"], "rated": rated,
+            "overs_per_inns": round(bowl_volumes[key] / bpo, 1) if key in bowl_volumes else None,
+        })
 
     # Squad-quality summary (live XI only -- a "historical" squad_source fallback is, by
     # definition, a real past match's roster, so every player there already has a genuine
@@ -602,6 +764,10 @@ def get_metadata():
         resp[f"{_fmt}_venues"] = VENUE_AVERAGES_BY_FMT.get(_fmt, {})
     # Kept for backward compatibility; T20 is the default format.
     resp["venues"] = VENUE_AVERAGES_BY_FMT.get("t20", {})
+    # Rating-source toggle (markdowns/win_predictor/rating_source_toggle_plan.md Phase 4): which
+    # source keys have coverage for each format, so the UI can disable/tooltip an unsupported
+    # combination instead of the request 400ing after the fact.
+    resp["rating_sources"] = {_fmt: list(rating_source.available_sources(_fmt)) for _fmt in ACTIVE_FORMATS}
     return jsonify(resp)
 
 
@@ -610,10 +776,13 @@ def elo_entities():
     """Lists the searchable teams or players (with available roles) for a given format."""
     fmt = request.args.get("format", "t20")
     etype = request.args.get("type", "team")
-    key = (fmt, etype)
+    source = request.args.get("source", rating_source.DEFAULT_RATING_SOURCE)
+    if not rating_source.is_supported(fmt, source):
+        return jsonify({"error": f"Rating source '{source}' has no coverage for format '{fmt}'"}), 400
+    key = (fmt, etype, source)
     if key not in _ELO_ENTITY_CACHE:
         if etype == "player":
-            pdf = _load_player_elo_df(fmt)
+            pdf = _load_player_elo_df(fmt, source)
             if pdf.empty:
                 _ELO_ENTITY_CACHE[key] = []
             else:
@@ -622,24 +791,25 @@ def elo_entities():
                     {"name": str(p), "roles": list(r)} for p, r in sorted(roles_by_player.items())
                 ]
         else:
-            tdf = _load_team_elo_df(fmt)
+            tdf = _load_team_elo_df(fmt, source)
             if tdf.empty:
                 names = []
             else:
                 names = sorted(set(tdf["team_1"].astype(str)) | set(tdf["team_2"].astype(str)))
             _ELO_ENTITY_CACHE[key] = [{"name": n} for n in names]
-    return jsonify({"format": fmt, "type": etype, "entities": _ELO_ENTITY_CACHE[key]})
+    return jsonify({"format": fmt, "type": etype, "source": source, "entities": _ELO_ENTITY_CACHE[key]})
 
 
-def _elo_series_for(etype, fmt, name, role="batter", start=None, end=None):
-    """Looks up one team's or player's chronological Elo series, optionally restricted to
+def _elo_series_for(etype, fmt, name, role="batter", start=None, end=None,
+                    source=rating_source.DEFAULT_RATING_SOURCE):
+    """Looks up one team's or player's chronological rating series, optionally restricted to
     match_date in [start, end] (both inclusive, "YYYY-MM-DD" strings; either may be None for
     an open-ended bound). Returns (series, stats, error) where error is None on success, or
     (None, None, "message") on failure."""
     if etype == "player":
-        pdf = _load_player_elo_df(fmt)
+        pdf = _load_player_elo_df(fmt, source)
         if pdf.empty:
-            return None, None, f"No player Elo data for format {fmt}"
+            return None, None, f"No player rating data for format {fmt} (source: {source})"
         sub = pdf[(pdf["player"] == name) & (pdf["role"] == role)].dropna(subset=["match_date"])
         if sub.empty:
             return None, None, f"No {role} record found for {name}"
@@ -655,9 +825,9 @@ def _elo_series_for(etype, fmt, name, role="batter", start=None, end=None):
             for r in sub.itertuples()
         ]
     else:
-        tdf = _load_team_elo_df(fmt)
+        tdf = _load_team_elo_df(fmt, source)
         if tdf.empty:
-            return None, None, f"No Elo data for format {fmt}"
+            return None, None, f"No rating data for format {fmt} (source: {source})"
         m1 = tdf[tdf["team_1"].astype(str) == name][["match_date", "team_1_elo", "match_id"]]
         m1 = m1.rename(columns={"team_1_elo": "elo"})
         m2 = tdf[tdf["team_2"].astype(str) == name][["match_date", "team_2_elo", "match_id"]]
@@ -691,29 +861,172 @@ def _elo_series_for(etype, fmt, name, role="batter", start=None, end=None):
     return series, stats, None
 
 
+_ELO_LEADERBOARD_CACHE = {}  # (format, type, role, source) -> list of rows, sorted desc by "current"
+
+def _leaderboard_qualified(df, group_col, date_col="match_date", min_matches=20):
+    """Drops entities that are not (a) established enough or (b) still current, and picks each
+    survivor's genuinely most recent row.
+
+    Two gates, both mirroring what the rating engines already apply in their own
+    get_effective_ratings_from_df() -- this endpoint predates them and never got the same
+    treatment, which is why 5-match associates and players last seen years ago were ranking
+    above established internationals:
+      - MIN_MATCHES_TO_RANK: a handful of innings is a small-sample fluke, not a rating.
+      - MAX_INACTIVITY_DAYS: a "current" leaderboard should only contain current players.
+
+    The inactivity window is measured from THIS FORMAT'S OWN most recent match, not wall-clock
+    now(), matching the convention the validation scripts use. Wall-clock breaks seasonal
+    competitions: The Hundred's last season ended 2025-08-31, so a 365-day window from "today"
+    empties its leaderboard completely (measured: 0 of 240 batters, 0 of 8 teams survive) purely
+    because the next season hasn't been played yet.
+
+    Returns (last_row_per_entity, per_entity_match_counts), both already filtered.
+    """
+    df = df.copy()
+    df[date_col] = pd.to_datetime(df[date_col], errors="coerce")
+    df = df.dropna(subset=[date_col])
+    if df.empty:
+        return df, pd.Series(dtype=int)
+
+    as_of = df[date_col].max()
+    # Sort by DATE, not match_id. Cricsheet ids are ~chronological (rank correlation 0.999) but
+    # not reliably so across competitions, and the exceptions land on exactly the players anyone
+    # would check first -- "latest by match_id" gave V Kohli his 2016-05-29 rating as "current"
+    # instead of his 2026-05-31 one.
+    df = df.sort_values(date_col)
+    last = df.groupby(group_col).last()
+    counts = df.groupby(group_col).size()
+
+    inactive_days = (as_of - last[date_col]).dt.days
+    keep = (counts >= min_matches) & (inactive_days <= ICCPlayerRatingEngine.MAX_INACTIVITY_DAYS)
+    keep = keep[keep].index
+    return last.loc[keep], counts.loc[keep]
+
+
+def _build_leaderboard(etype, fmt, role="batter", source=rating_source.DEFAULT_RATING_SOURCE):
+    """Every qualified team's or player's (role-filtered) latest rating for a format, ranked desc.
+
+    Uses raw_elo throughout (never effective_elo), matching the Elo Explorer's own
+    current/peak/low stats (_elo_series_for) -- effective_elo is a per-match blend against that
+    match's opposing team strength, not a standalone rating, so it isn't comparable across
+    players/matches the way a leaderboard needs.
+
+    peak/low/matches are plain column aggregates (order-independent) over the entity's whole
+    history; "current" comes from its most recent match. Qualification/recency gating is
+    _leaderboard_qualified()'s job -- see there for why both gates exist and what they fixed."""
+    key = (fmt, etype, role if etype == "player" else None, source)
+    if key in _ELO_LEADERBOARD_CACHE:
+        return _ELO_LEADERBOARD_CACHE[key]
+
+    # rating_pool only exists on combined-source parquets (icc), not the Elo ones -- surfaced
+    # per row as the PROVENANCE OF THE "current" figure (that team/player's most recent match),
+    # not the whole history, so the UI badge always describes what the number actually rests on.
+    if etype == "player":
+        pdf = _load_player_elo_df(fmt, source)
+        has_pool = "rating_pool" in pdf.columns
+        sub = pdf[pdf["role"] == role].dropna(subset=["match_date"]) if not pdf.empty else pdf
+        if sub.empty:
+            rows = []
+        else:
+            agg = sub.groupby("player")["raw_elo"].agg(peak="max", low="min")
+            last, counts = _leaderboard_qualified(
+                sub, "player", min_matches=ICCPlayerRatingEngine.MIN_MATCHES_TO_RANK)
+            rows = [
+                {
+                    "name": player,
+                    "current": round(float(r["raw_elo"]), 1),
+                    "peak": round(float(agg.loc[player, "peak"]), 1),
+                    "low": round(float(agg.loc[player, "low"]), 1),
+                    "matches": int(counts.loc[player]),
+                    "last_date": str(pd.Timestamp(r["match_date"]).date()),
+                    "rating_pool": str(r["rating_pool"]) if has_pool else None,
+                }
+                for player, r in last.iterrows()
+            ]
+    else:
+        tdf = _load_team_elo_df(fmt, source)
+        if tdf.empty:
+            rows = []
+        else:
+            has_pool = "rating_pool" in tdf.columns
+            pool_cols = ["rating_pool"] if has_pool else []
+            m1 = tdf[["match_id", "match_date", "team_1", "team_1_elo"] + pool_cols].rename(
+                columns={"team_1": "team", "team_1_elo": "elo"})
+            m2 = tdf[["match_id", "match_date", "team_2", "team_2_elo"] + pool_cols].rename(
+                columns={"team_2": "team", "team_2_elo": "elo"})
+            both = pd.concat([m1, m2], ignore_index=True).dropna(subset=["match_date"])
+            agg = both.groupby("team")["elo"].agg(peak="max", low="min")
+            last, counts = _leaderboard_qualified(
+                both, "team", min_matches=ICCTeamRatingEngine.MIN_MATCHES_TO_RANK)
+            rows = [
+                {
+                    "name": team,
+                    "current": round(float(r["elo"]), 1),
+                    "peak": round(float(agg.loc[team, "peak"]), 1),
+                    "low": round(float(agg.loc[team, "low"]), 1),
+                    "matches": int(counts.loc[team]),
+                    "rating_pool": str(r["rating_pool"]) if has_pool else None,
+                    "last_date": str(pd.Timestamp(r["match_date"]).date()),
+                }
+                for team, r in last.iterrows()
+            ]
+
+    rows.sort(key=lambda r: r["current"], reverse=True)
+    _ELO_LEADERBOARD_CACHE[key] = rows
+    return rows
+
+
+@app.route("/api/elo/leaderboard")
+def elo_leaderboard():
+    """Ranks every team's or player's current rating for a format, highest first, for the
+    Player & Team Data leaderboard view. ?source= selects Elo (default) or the ICC-style
+    combined rating (see src/features/rating_source.py); unsupported for the given format
+    returns 400 rather than silently falling back."""
+    fmt = request.args.get("format", "t20")
+    etype = request.args.get("type", "team")
+    role = request.args.get("role", "batter")
+    source = request.args.get("source", rating_source.DEFAULT_RATING_SOURCE)
+    if not rating_source.is_supported(fmt, source):
+        return jsonify({"error": f"Rating source '{source}' has no coverage for format '{fmt}'"}), 400
+    try:
+        limit = max(1, min(int(request.args.get("limit", 25)), 200))
+    except (TypeError, ValueError):
+        limit = 25
+
+    rows = _build_leaderboard(etype, fmt, role, source)
+    return jsonify({
+        "format": fmt, "type": etype, "role": role, "source": source,
+        "total": len(rows), "rows": rows[:limit],
+    })
+
+
 @app.route("/api/elo/history")
 def elo_history():
-    """Returns a team's or player's chronological Elo progression for a format, optionally
-    restricted to a date window via ?start=YYYY-MM-DD&end=YYYY-MM-DD."""
+    """Returns a team's or player's chronological rating progression for a format, optionally
+    restricted to a date window via ?start=YYYY-MM-DD&end=YYYY-MM-DD. ?source= as above."""
     fmt = request.args.get("format", "t20")
     etype = request.args.get("type", "team")
     role = request.args.get("role", "batter")
     name = (request.args.get("name") or "").strip()
     start = (request.args.get("start") or "").strip() or None
     end = (request.args.get("end") or "").strip() or None
+    source = request.args.get("source", rating_source.DEFAULT_RATING_SOURCE)
     if not name:
         return jsonify({"error": "Missing name"}), 400
+    if not rating_source.is_supported(fmt, source):
+        return jsonify({"error": f"Rating source '{source}' has no coverage for format '{fmt}'"}), 400
 
-    series, stats, error = _elo_series_for(etype, fmt, name, role, start=start, end=end)
+    series, stats, error = _elo_series_for(etype, fmt, name, role, start=start, end=end, source=source)
     if error:
         return jsonify({"error": error}), 404
-    return jsonify({"name": name, "type": etype, "format": fmt, "series": series, "stats": stats})
+    return jsonify({"name": name, "type": etype, "format": fmt, "source": source, "series": series, "stats": stats})
 
 
 @app.route("/api/elo/compare", methods=["POST"])
 def elo_compare():
-    """Batch lookup of up to 8 team/player Elo histories for the comparison chart. An optional
-    top-level "start"/"end" (YYYY-MM-DD) restricts every item to the same date window."""
+    """Batch lookup of up to 8 team/player rating histories for the comparison chart. An
+    optional top-level "start"/"end" (YYYY-MM-DD) restricts every item to the same date window.
+    Each item may carry its own "source" (default: Elo), so a comparison can mix sources."""
     data = request.json or {}
     items = data.get("items", [])
     start = (data.get("start") or "").strip() or None
@@ -729,14 +1042,20 @@ def elo_compare():
         fmt = item.get("format", "t20")
         role = item.get("role", "batter")
         name = (item.get("name") or "").strip()
+        source = item.get("source", rating_source.DEFAULT_RATING_SOURCE)
         if not name:
             results.append({"type": etype, "format": fmt, "role": role, "name": name, "error": "Missing name"})
             continue
-        series, stats, error = _elo_series_for(etype, fmt, name, role, start=start, end=end)
+        if not rating_source.is_supported(fmt, source):
+            results.append({"type": etype, "format": fmt, "role": role, "name": name,
+                            "error": f"Rating source '{source}' has no coverage for format '{fmt}'"})
+            continue
+        series, stats, error = _elo_series_for(etype, fmt, name, role, start=start, end=end, source=source)
         if error:
             results.append({"type": etype, "format": fmt, "role": role, "name": name, "error": error})
         else:
-            results.append({"type": etype, "format": fmt, "role": role, "name": name, "series": series, "stats": stats})
+            results.append({"type": etype, "format": fmt, "role": role, "name": name,
+                            "source": source, "series": series, "stats": stats})
 
     return jsonify({"results": results})
 
@@ -747,6 +1066,7 @@ def api_simulate_match():
     data = request.json or {}
     try:
         format_type = data.get("format", "t20")
+        source = data.get("source", rating_source.DEFAULT_RATING_SOURCE)
         fmt_spec = spec(format_type)
 
         overs = float(data.get("overs", fmt_spec["total_overs"]))
@@ -777,13 +1097,14 @@ def api_simulate_match():
             venue_avg_first_innings_score=venue_avg_first_innings_score, competition=competition,
         )
 
-        model_to_use = MODELS.get(format_type, MODELS["t20"])
+        model_to_use = get_model("xgb", format_type, source)
 
         res = model_to_use.predict_with_ensemble(state)
         res["required_run_rate"] = round(required_run_rate, 2)
         res["run_rate"] = round(run_rate, 2)
         res["phase"] = phase
         res["explainability"] = model_to_use.get_feature_contributions(state, top_n=5)
+        res["source"] = source
         return jsonify(res)
     except Exception as e:
         return jsonify({"error": str(e)}), 400
@@ -801,17 +1122,20 @@ def run_montecarlo():
         venue_name = data.get("venue", "")
         n_sims = int(data.get("n_sims", 10000))
         match_id = data.get("match_id") # If UI provides a specific match_id
+        source = data.get("source", rating_source.DEFAULT_RATING_SOURCE)
+        if not rating_source.is_supported(format_type, source):
+            return jsonify({"error": f"Rating source '{source}' has no coverage for format '{format_type}'"}), 400
 
         meta_path = f"data/processed/{format_type}_match_metadata.parquet"
         if not os.path.exists(meta_path):
             return jsonify({"error": f"Metadata missing for format {format_type}"}), 400
-        
+
         # If a specific match_id is provided, just extract both from it
         if match_id:
-            team_a_dict, team_b_dict, venue_avg_score = extract_match_squads(match_id, format_type)
+            team_a_dict, team_b_dict, venue_avg_score = extract_match_squads(match_id, format_type, source=source)
         else:
-            team_a_dict = find_recent_squad(team_a_name, format_type)
-            team_b_dict = find_recent_squad(team_b_name, format_type)
+            team_a_dict = find_recent_squad(team_a_name, format_type, source=source)
+            team_b_dict = find_recent_squad(team_b_name, format_type, source=source)
             if not team_a_dict:
                 return jsonify({"error": f"Could not find historical squad for {team_a_name}"}), 400
             if not team_b_dict:
@@ -825,7 +1149,11 @@ def run_montecarlo():
                 if not v_match.empty:
                     venue_avg_score = float(v_match.iloc[0]["venue_avg_first_innings_score"])
 
-        model_to_use = DELIVERY_MODELS.get(format_type, DELIVERY_MODELS["t20"])
+        # rating_source_toggle_plan.md Phase 6-continued: model and squad now share `source` --
+        # find_recent_squad/extract_match_squads resolve player ratings on the same scale the
+        # model was trained on, so this is no longer the model-only swap that would have fed an
+        # ICC-trained model Elo-scale features.
+        model_to_use = get_model("delivery", format_type, source)
 
         sim = simulate_match(
             model=model_to_use,
@@ -922,6 +1250,7 @@ def run_montecarlo():
             # hndw doesn't -- its pooled model went through the same Phase-3 pooled-beats-
             # unpooled gate hnd itself did.
             "simulation_experimental": format_type in ("od", "odw"),
+            "source": source,
         })
     except Exception as e:
         traceback.print_exc()
@@ -941,6 +1270,9 @@ def run_montecarlo_first_innings():
         fmt_spec = spec(format_type)
         match_id = data.get("match_id")
         n_sims = int(data.get("n_sims", 10000))
+        source = data.get("source", rating_source.DEFAULT_RATING_SOURCE)
+        if not rating_source.is_supported(format_type, source):
+            return jsonify({"error": f"Rating source '{source}' has no coverage for format '{format_type}'"}), 400
 
         meta_path = f"data/processed/{format_type}_match_metadata.parquet"
         if not os.path.exists(meta_path):
@@ -949,12 +1281,12 @@ def run_montecarlo_first_innings():
         if match_id:
             # team_a bats, team_b bowls — extract_match_squads' team_1/team_2 order matches
             # the innings-1 batting side / innings-1 bowling side respectively.
-            team_a_dict, team_b_dict, venue_avg_score = extract_match_squads(match_id, format_type)
+            team_a_dict, team_b_dict, venue_avg_score = extract_match_squads(match_id, format_type, source=source)
         else:
             team_a_name = data.get("team_a")
             team_b_name = data.get("team_b")
-            team_a_dict = find_recent_squad(team_a_name, format_type)
-            team_b_dict = find_recent_squad(team_b_name, format_type)
+            team_a_dict = find_recent_squad(team_a_name, format_type, source=source)
+            team_b_dict = find_recent_squad(team_b_name, format_type, source=source)
             if not team_a_dict:
                 return jsonify({"error": f"Could not find historical squad for {team_a_name}"}), 400
             if not team_b_dict:
@@ -968,7 +1300,8 @@ def run_montecarlo_first_innings():
                 if not v_match.empty:
                     venue_avg_score = float(v_match.iloc[0]["venue_avg_first_innings_score"])
 
-        model_to_use = DELIVERY_MODELS.get(format_type, DELIVERY_MODELS["t20"])
+        # rating_source_toggle_plan.md Phase 6-continued: model and squad now share `source`.
+        model_to_use = get_model("delivery", format_type, source)
 
         inn1 = simulate_innings(
             model=model_to_use,
@@ -1039,6 +1372,7 @@ def run_montecarlo_first_innings():
             # hndw doesn't -- its pooled model went through the same Phase-3 pooled-beats-
             # unpooled gate hnd itself did.
             "simulation_experimental": format_type in ("od", "odw"),
+            "source": source,
         })
     except Exception as e:
         traceback.print_exc()
@@ -1099,6 +1433,9 @@ def live_state(event_id):
     try:
         format_type = request.args.get("format", "t20")
         league_id = request.args.get("league_id")
+        source = request.args.get("source", rating_source.DEFAULT_RATING_SOURCE)
+        if not rating_source.is_supported(format_type, source):
+            return jsonify({"error": f"Rating source '{source}' has no coverage for format '{format_type}'"}), 400
         scraper, st, fmt_spec, legal_balls, total_balls = _fetch_live_state(event_id, format_type, league_id)
 
         innings = int(st["innings"])
@@ -1112,8 +1449,8 @@ def live_state(event_id):
         elo_teams = elo_teams_for_format(format_type)
         matched_bat = match_team_name(batting_team, elo_teams) or batting_team
         matched_bowl = match_team_name(bowling_team, elo_teams) or bowling_team
-        batting_elo = pre_match_predictor.get_team_elo(matched_bat, format_type)
-        bowling_elo = pre_match_predictor.get_team_elo(matched_bowl, format_type)
+        batting_elo = pre_match_predictor.get_team_elo(matched_bat, format_type, source)
+        bowling_elo = pre_match_predictor.get_team_elo(matched_bowl, format_type, source)
         venue_avg = pre_match_predictor.get_venue_avg_score(venue, format_type)
 
         resp = {
@@ -1135,6 +1472,10 @@ def live_state(event_id):
             "is_match_complete": st.get("is_match_complete", False),
             "win_prob_batting": None,
             "winprob_source": None,
+            "rating_source": source,
+            "predicted_first_innings_score": None,
+            "first_innings_projected_score": None,
+            "first_innings_prediction_source": None,
         }
 
         if innings == 2 and target:
@@ -1147,15 +1488,30 @@ def live_state(event_id):
                 batter_elo=1500.0, bowler_elo=1500.0, player_elo_diff=0.0,
                 venue_avg_first_innings_score=venue_avg, competition=format_type,
             )
-            model = MODELS.get(format_type, MODELS["t20"])
+            model = get_model("xgb", format_type, source)
             res = model.predict_with_ensemble(state)
             resp["win_prob_batting"] = round(float(res["win_probability"]), 4)
             resp["winprob_source"] = "xgb_chase"
             resp["required_run_rate"] = round(rrr, 2)
             resp["run_rate"] = round(rr, 2)
             resp["phase"] = phase
-        else:
+        elif innings == 1:
             resp["winprob_source"] = "montecarlo"  # innings 1: run MC for win prob
+            fi_state, fi_run_rate, fi_projected_score, fi_phase = build_first_innings_state(
+                format_type=format_type, runs_scored=float(runs), wickets_lost=float(wickets),
+                balls_faced=float(legal_balls), batting_team_elo=batting_elo, bowling_team_elo=bowling_elo,
+                elo_diff=batting_elo - bowling_elo, venue_avg_first_innings_score=venue_avg,
+                competition=format_type, overs=fmt_spec["total_overs"],
+            )
+            fi_model = get_model("first_innings", format_type, source)
+            fi_pred = fi_model.predict(fi_state)
+            resp["predicted_first_innings_score"] = fi_pred["predicted_score"]
+            resp["first_innings_projected_score"] = int(round(fi_projected_score))
+            resp["first_innings_prediction_source"] = "xgb_first_innings"
+            resp["run_rate"] = round(fi_run_rate, 2)
+            resp["phase"] = fi_phase
+        else:
+            resp["winprob_source"] = "montecarlo"
 
         return jsonify(resp)
     except Exception as e:
@@ -1163,7 +1519,7 @@ def live_state(event_id):
         return jsonify({"error": f"Could not fetch live state: {e}"}), 502
 
 
-def _resolve_live_teams(event_id, format_type, league_id=None):
+def _resolve_live_teams(event_id, format_type, league_id=None, source=rating_source.DEFAULT_RATING_SOURCE):
     """Resolves a live match's batting/bowling squads (lineup + attack, each player's Elo and
     'rated' flag, plus a per-side quality summary) and the weighted squad/effective-Elo tiles
     -- everything the Lineups & Elo view needs -- WITHOUT running the Monte Carlo simulation.
@@ -1173,6 +1529,13 @@ def _resolve_live_teams(event_id, format_type, league_id=None):
     /api/live/montecarlo (which calls this first, then continues on to simulate). Returns a
     dict with a non-None "error" key on failure (squads unresolvable) -- callers check that
     before using the rest of the fields.
+
+    `source` only steers build_live_team's PLAYER ratings -- the ones that actually feed the
+    Monte Carlo engine, where an out-of-distribution mismatch would corrupt the simulation.
+    The "overall"/"squad"/"effective" Elo TILES below stay on Elo regardless: they're a display
+    decoration built from the deployed Elo engine's own squad-baseline calibration
+    (SQUAD_BASELINE_LIVE, compute_effective_elo), which has no ICC-source equivalent -- building
+    one would be a separate feature, not a `source` passthrough.
     """
     fmt_spec = spec(format_type)
     scraper, st, _, legal_balls, total_balls = _fetch_live_state(event_id, format_type, league_id)
@@ -1194,8 +1557,8 @@ def _resolve_live_teams(event_id, format_type, league_id=None):
     # Live XI where published; historical squad otherwise (per team).
     bat_players = lineups.get(batting_team, [])
     bowl_players = lineups.get(bowling_team, [])
-    bat_build = build_live_team(matched_bat, bat_players, format_type)
-    bowl_build = build_live_team(matched_bowl, bowl_players, format_type)
+    bat_build = build_live_team(matched_bat, bat_players, format_type, source=source)
+    bowl_build = build_live_team(matched_bowl, bowl_players, format_type, source=source)
     bat_team, bat_src = bat_build
     bowl_team, bowl_src = bowl_build
     if not bat_team or not bowl_team:
@@ -1272,7 +1635,10 @@ def live_squads():
         event_id = request.args.get("event_id")
         format_type = request.args.get("format", "t20")
         league_id = request.args.get("league_id")
-        resolved = _resolve_live_teams(event_id, format_type, league_id)
+        source = request.args.get("source", rating_source.DEFAULT_RATING_SOURCE)
+        if not rating_source.is_supported(format_type, source):
+            return jsonify({"error": f"Rating source '{source}' has no coverage for format '{format_type}'"}), 400
+        resolved = _resolve_live_teams(event_id, format_type, league_id, source=source)
         if resolved["error"]:
             return jsonify({"error": resolved["error"]}), 400
 
@@ -1280,6 +1646,7 @@ def live_squads():
         return jsonify({
             "event_id": str(event_id),
             "format": format_type,
+            "source": source,
             "innings": resolved["innings"],
             "batting_team": resolved["batting_team"],
             "bowling_team": resolved["bowling_team"],
@@ -1313,10 +1680,17 @@ def live_montecarlo():
         format_type = data.get("format", "t20")
         league_id = data.get("league_id")
         n_sims = int(data.get("n_sims", 10000))
+        source = data.get("source", rating_source.DEFAULT_RATING_SOURCE)
+        if not rating_source.is_supported(format_type, source):
+            return jsonify({"error": f"Rating source '{source}' has no coverage for format '{format_type}'"}), 400
 
-        model_to_use = DELIVERY_MODELS.get(format_type, DELIVERY_MODELS["t20"])
+        # rating_source_toggle_plan.md Phase 6-continued: model and squad now share the same
+        # `source` -- _resolve_live_teams threads it into build_live_team's PLAYER ratings, so
+        # the model and its features are on the same scale, avoiding the out-of-distribution
+        # mismatch a model-only swap would have caused.
+        model_to_use = get_model("delivery", format_type, source)
 
-        resolved = _resolve_live_teams(event_id, format_type, league_id)
+        resolved = _resolve_live_teams(event_id, format_type, league_id, source=source)
         if resolved["error"]:
             return jsonify({"error": resolved["error"]}), 400
 
@@ -1445,6 +1819,7 @@ def live_montecarlo():
             # hndw doesn't -- its pooled model went through the same Phase-3 pooled-beats-
             # unpooled gate hnd itself did.
             "simulation_experimental": format_type in ("od", "odw"),
+            "source": source,
         }
         return jsonify(result)
     except Exception as e:
@@ -1516,14 +1891,22 @@ def get_match_timeline(match_id):
     total_overs = fmt_spec["total_overs"]
     balls_per_over = fmt_spec["balls_per_over"]
 
+    # This match's own recorded ratings on the requested source (rating_source_toggle_plan.md
+    # Phase 6) -- a pure historical replay, so (unlike the squad-driven Monte Carlo endpoints)
+    # swapping the file swaps everything the model needs; there's no separate "current squad"
+    # lookup to keep in sync.
+    source = request.args.get("source", rating_source.DEFAULT_RATING_SOURCE)
+    if not rating_source.is_supported(format_type, source):
+        return jsonify({"error": f"Rating source '{source}' has no coverage for format '{format_type}'"}), 400
+
     # Build states for the selected match
-    elo_ratings_file = f"data/processed/{format_type}_elo_ratings.parquet"
-    elo_df = pd.read_parquet(elo_ratings_file) if os.path.exists(elo_ratings_file) else None
+    elo_ratings_file = rating_source.resolve_path(format_type, "team", source)
+    elo_df = pd.read_parquet(elo_ratings_file) if elo_ratings_file.exists() else None
 
     player_elo_df = None
     if format_type in ["t20", "hnd", "t20w", "odw", "hndw"]:
-        player_elo_file = f"data/processed/{format_type}_player_elo_ratings.parquet"
-        if os.path.exists(player_elo_file):
+        player_elo_file = rating_source.resolve_path(format_type, "player", source)
+        if player_elo_file.exists():
             player_elo_df = pd.read_parquet(player_elo_file)
 
     builder = StateBuilder(match_deliveries, elo_df, player_elo_df=player_elo_df, total_overs=total_overs, format_type=format_type, balls_per_over=balls_per_over)
@@ -1532,7 +1915,7 @@ def get_match_timeline(match_id):
     # Filter for the second innings
     chase_states = states[states["innings"] == 2].copy()
 
-    model_to_use = MODELS.get(format_type, MODELS["t20"])
+    model_to_use = get_model("xgb", format_type, source)
 
     timeline = []
     # Running individual score per batter (chase only), so each delivery can report the striker's
@@ -1648,6 +2031,7 @@ def get_match_timeline(match_id):
             "format_type": str(format_type),
             "timeline": timeline,
             "innings_charts": innings_charts,
+            "source": source,
         }
     )
 
@@ -1716,6 +2100,7 @@ def predict_first_innings_total():
     data = request.json
     try:
         format_type = data.get("format", "t20")
+        source = data.get("source", rating_source.DEFAULT_RATING_SOURCE)
         fmt_spec = spec(format_type)
 
         runs_scored = float(data["runs_scored"])
@@ -1732,43 +2117,13 @@ def predict_first_innings_total():
         
         competition = data.get("competition", format_type)
 
-        total_balls = fmt_spec["total_balls"]
-        balls_per_over = fmt_spec["balls_per_over"]
-        balls_remaining = total_balls - balls_faced
-
-        safe_faced = balls_faced if balls_faced > 0 else balls_per_over
-        run_rate = runs_scored / (safe_faced / balls_per_over)
-        projected_score = runs_scored if balls_faced == 0 else (runs_scored / balls_faced) * total_balls
-
-        over_float = balls_faced / balls_per_over
-        if balls_faced < fmt_spec["pp_end_ball"]:
-            phase = "powerplay"
-        elif balls_faced >= fmt_spec["death_start_ball"]:
-            phase = "death"
-        else:
-            phase = "middle"
-
-        # Construct Series matching features
-        state = pd.Series(
-            {
-                "runs_scored": runs_scored,
-                "wickets_lost": wickets_lost,
-                "balls_faced": balls_faced,
-                "balls_remaining": balls_remaining,
-                "run_rate": run_rate,
-                "over_float": over_float,
-                "phase": phase,
-                "match_id": 999999,  # Unseen placeholder ID to trigger the final model
-                "batting_team_elo": batting_team_elo,
-                "bowling_team_elo": bowling_team_elo,
-                "elo_diff": elo_diff,
-                "venue_avg_first_innings_score": venue_avg_first_innings_score,
-                "competition": competition,
-                "total_overs": overs,
-            }
+        state, run_rate, projected_score, phase = build_first_innings_state(
+            format_type, runs_scored, wickets_lost, balls_faced,
+            batting_team_elo, bowling_team_elo, elo_diff,
+            venue_avg_first_innings_score, competition, overs=overs,
         )
 
-        model_to_use = FIRST_INNINGS_MODELS.get(format_type, FIRST_INNINGS_MODELS["t20"])
+        model_to_use = get_model("first_innings", format_type, source)
         pred = model_to_use.predict(state)
         return jsonify(
             {
@@ -1777,6 +2132,7 @@ def predict_first_innings_total():
                 "run_rate": round(run_rate, 2),
                 "phase": phase,
                 "status": pred["status"],
+                "source": source,
             }
         )
     except Exception as e:
@@ -1785,7 +2141,14 @@ def predict_first_innings_total():
 
 FEATURE_IMPORTANCE_REPORT_PATH = Path("outputs/feature_importance_report.md")
 BASELINE_METRICS_PATH = Path("data/processed/baseline_metrics.json")
-MC_CALIBRATION_METRICS_PATH = Path("data/processed/mc_calibration_metrics.json")
+
+
+def _mc_calibration_path(format_type: str) -> Path:
+    """t20 is the original, un-suffixed snapshot; every other format writes to
+    mc_calibration_metrics_<format>.json -- matches generate_mc_calibration_metrics.py's own
+    naming exactly (see that script's `suffix` logic)."""
+    suffix = "" if format_type == "t20" else f"_{format_type}"
+    return Path(f"data/processed/mc_calibration_metrics{suffix}.json")
 
 _feature_importance_cache = None
 
@@ -1892,38 +2255,120 @@ def get_feature_importance():
 @app.route("/api/mc-performance")
 def get_mc_performance():
     """Returns cached Monte Carlo simulator calibration/backtest metrics (generated by
-    tests/one-time/test_simulation_calibration.py against 100 historical T20 matches)."""
-    if not MC_CALIBRATION_METRICS_PATH.exists():
+    tests/one-time/generate_mc_calibration_metrics.py) for the format given by ?format=
+    (defaults to t20, matching every other Analytics-tab endpoint's convention).
+
+    Pass/fail flags are computed HERE, against each metric's own embedded target, rather than
+    cached in the JSON -- so a gate re-anchor (e.g. t20's MAE gate, 25.0 -> 28.5 on 2026-08-11)
+    is reflected immediately without needing every format's snapshot re-locked."""
+    format_type = request.args.get("format", "t20").lower()
+    path = _mc_calibration_path(format_type)
+    if not path.exists():
         return jsonify({
             "available": False,
-            "message": "Monte Carlo calibration metrics have not been generated yet. "
-                       "Run tests/one-time/test_simulation_calibration.py to produce them.",
+            "message": f"Monte Carlo calibration metrics have not been generated yet for "
+                       f"'{format_type}'. Run tests/one-time/generate_mc_calibration_metrics.py "
+                       f"--format {format_type} to produce them.",
         })
     try:
-        with open(MC_CALIBRATION_METRICS_PATH, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
         data["available"] = True
+
+        ic = data.get("innings_calibration", {})
+        cov_lo, cov_hi = ic.get("coverage_target", [0.0, 1.0])
+        ic["coverage_passed"] = cov_lo <= ic.get("coverage_rate", -1) <= cov_hi
+        ic["mae_passed"] = ic.get("mae", float("inf")) <= ic.get("mae_target_max", float("inf"))
+        ic["bias_passed"] = abs(ic.get("bias", float("inf"))) <= ic.get("bias_target_abs_max", 0.0)
+
+        # Win-prob gate moved from agreement-with-PreMatchPredictor to SKILL vs actual winners
+        # (2026-08-13, see generate_mc_calibration_metrics.py's Tests 2+3 block). Older snapshots
+        # that predate the change still carry only `winprob_agreement`, so fall back to the old
+        # gate for those rather than silently reporting them as passing/failing on a key they
+        # do not have.
+        ws = data.get("winprob_skill")
+        wp = data.get("winprob_agreement", {})
+        if ws is not None:
+            ws["passed"] = ws.get("skill_vs_baserate", float("-inf")) >= ws.get("skill_target_min", 0.0)
+            winprob_passed = ws["passed"]
+            wp["passed"] = None  # diagnostic only -- no longer a gate
+        else:
+            wp["passed"] = wp.get("mean_abs_diff", float("inf")) <= wp.get("target_max", float("inf"))
+            winprob_passed = wp["passed"]
+
+        ou = data.get("over_under_reliability", {})
+        ou["passed"] = ou.get("brier_score", float("inf")) <= ou.get("target_max", float("inf"))
+
+        var = data.get("variance_sanity", {})
+        std_lo, std_hi = var.get("target_range", [0.0, float("inf")])
+        var["passed"] = std_lo <= var.get("avg_std_dev", -1) <= std_hi
+
+        gate_flags = [ic["coverage_passed"], ic["mae_passed"], ic["bias_passed"],
+                     winprob_passed, ou["passed"], var["passed"]]
+        data["gates_total"] = len(gate_flags)
+        data["gates_passed"] = sum(1 for g in gate_flags if g)
+
         return jsonify(data)
     except Exception as e:
         traceback.print_exc()
         return jsonify({"error": f"Could not load MC calibration metrics: {e}"}), 500
 
 
+ACCURACY_REPORT_PATH = Path("data/processed/accuracy_report.json")
+
+
 @app.route("/api/accuracy")
 def get_accuracy_report():
-    """Returns the cached high-precision validation metrics (5,000 states evaluation) for T20 or OD formats."""
+    """Real, measured win-probability + first-innings validation metrics for any ACTIVE_FORMAT.
+
+    Reads data/processed/accuracy_report.json (built by scripts/build_accuracy_report.py, which
+    uses the same evaluate_format_models() the regression gate does). Before 2026-08-13 this
+    endpoint returned hardcoded literals -- a stale Brier score and a fabricated calibration
+    curve per format, with no support at all for the three women's formats; the legacy branches
+    below are kept only as a fallback for a format the report hasn't been generated for yet.
+    """
     fmt = request.args.get("format", "t20").lower()
+    if fmt == "odi":
+        fmt = "od"  # legacy alias the frontend used to send
+
+    if ACCURACY_REPORT_PATH.exists():
+        try:
+            with open(ACCURACY_REPORT_PATH, "r", encoding="utf-8") as f:
+                report = json.load(f)
+            entry = report.get(fmt)
+            if entry:
+                return jsonify({
+                    "available": True,
+                    "format": fmt,
+                    "overall_brier": entry["overall_brier"],
+                    "phase_brier": entry["phase_brier"],
+                    "calibration": entry["calibration"],
+                    "first_innings": entry.get("first_innings"),
+                    "win_prob_sample_size": entry.get("win_prob_sample_size"),
+                    "generated_at": entry.get("generated_at"),
+                })
+        except Exception:
+            traceback.print_exc()  # fall through to the legacy branches below
 
     first_innings_perf = None
-    if fmt in ("t20", "od", "odi"):
-        baseline_key = "od" if fmt in ("od", "odi") else "t20"
+    if fmt in ("t20", "od"):
         try:
             if BASELINE_METRICS_PATH.exists():
                 with open(BASELINE_METRICS_PATH, "r", encoding="utf-8") as f:
                     baseline = json.load(f)
-                first_innings_perf = baseline.get(baseline_key, {}).get("first_innings")
+                first_innings_perf = baseline.get(fmt, {}).get("first_innings")
         except Exception:
             traceback.print_exc()
+
+    if fmt not in ("t20", "od", "hnd"):
+        # A women's format with no report entry yet -- say so, rather than silently serving
+        # t20's numbers under a women's label (the old `else` branch's behaviour).
+        return jsonify({
+            "available": False,
+            "format": fmt,
+            "message": f"Accuracy metrics for '{fmt}' have not been generated yet. "
+                       f"Run scripts/build_accuracy_report.py --formats {fmt}.",
+        })
 
     if fmt == "hnd":
         return jsonify(

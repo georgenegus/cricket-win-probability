@@ -118,6 +118,147 @@ ACTIVE_FORMATS = ("t20", "od", "hnd", "t20w", "odw", "hndw")
 POOL_SOURCE = {"hnd": "t20", "hndw": "t20w"}
 SEED_SOURCE = {"hnd": "t20", "hndw": "t20w"}
 
+# INTL_COMPETITIONS: format -> raw data/raw/<format>/<competition>/ folder name(s) that hold
+# genuine nation-vs-nation internationals (as opposed to domestic franchise leagues). Same
+# `competition` column EloEngine already pools on (match_metadata.py sets it to the raw folder
+# name) -- this is just the subset that corresponds to what the ICC actually ranks. hnd/hndw have
+# no entry: The Hundred is a domestic-only competition, there are no international matches to
+# select. See markdowns/win_predictor/icc_rating_engine_plan.md.
+INTL_COMPETITIONS = {"t20": ("t20s",), "od": ("odis",), "t20w": ("t20s",), "odw": ("odis",)}
+
+# FRANCHISE_BRIDGE_TIERS: franchise/domestic competitions PER FORMAT, tiered by how densely
+# "gold standard" internationally-rated players appear in them -- the constraint that decides
+# whether a league's players can be linked to the international rating scale by observing them
+# in the same matches as players whose quality is already known. See
+# markdowns/win_predictor/franchise_bridge_plan.md.
+#
+# Density measured by scripts/measure_franchise_bridge_density.py using the strict time-aware
+# definition (a player counts as an anchor for a match only if they had already reached
+# ICCPlayerRatingEngine.MIN_MATCHES_TO_RANK international innings BEFORE that match's date).
+# "both>=3" = share of matches where BOTH XIs contained at least 3 such anchors.
+# t20 measured 2026-09-02; od/t20w/odw measured 2026-09-03.
+#
+#   Tier A -- directly bridgeable in a single hop (both>=3 in >=50% of matches)
+#   Tier B -- thin (>=10%); usable only with wide uncertainty, or once multi-hop anchors exist
+#   Tier C -- barely bridgeable directly (<10%); overwhelmingly career-domestic players
+#
+# Two findings worth keeping in view, because they shape what can ever be shipped per format:
+#   - In t20, the competitions with the MOST players needing ratings are the hardest to anchor
+#     (ntb, England's T20 Blast, is the largest league in the corpus at n=1,489 yet sits in
+#     Tier C). Hence the phased build: Tier A first, validate, only then multi-hop for B/C.
+#   - od and odw have NO Tier A or B competition at all. Domestic 50-over cricket is played
+#     overwhelmingly by uncapped squad players -- even a single anchor appears in only 19-43%
+#     of matches. Those formats cannot be bridged single-hop; see the plan's gated multi-hop
+#     attempt. hnd/hndw are absent entirely: The Hundred has no international pool of its own
+#     format to anchor from.
+FRANCHISE_BRIDGE_TIERS = {
+    # format: {tier: {competition folder: (name, n_matches, avg anchors/XI, both>=3 %)}}
+    "t20": {
+        "A": {
+            "mlc": ("Major League Cricket (USA)", 105, 5.6, 98.1),
+            "ilt": ("ILT20 (UAE)", 134, 6.5, 95.5),
+            "psl": ("Pakistan Super League", 357, 4.7, 87.1),
+            "lpl": ("Lanka Premier League", 121, 4.8, 83.5),
+            "cpl": ("Caribbean Premier League", 411, 4.6, 74.2),
+            "npl": ("Nepal Premier League", 64, 3.6, 68.8),
+            "sat": ("SA20 (South Africa)", 130, 4.5, 65.4),
+            "ipl": ("Indian Premier League", 1243, 3.7, 63.2),
+            "bpl": ("Bangladesh Premier League", 469, 3.7, 55.0),
+        },
+        "B": {
+            "msl": ("Mzansi Super League (South Africa)", 56, 2.5, 30.4),
+            "bbl": ("Big Bash League (Australia)", 662, 2.0, 13.7),
+        },
+        "C": {
+            "ntb": ("T20 Blast (England counties)", 1489, 1.3, 1.9),
+            "ipt": ("Inter-Provincial Trophy (Ireland)", 109, 1.7, 3.7),
+            "ctc": ("CSA T20 Challenge (South Africa provinces)", 314, 0.8, 1.0),
+            "ssm": ("Super Smash (New Zealand)", 270, 1.0, 0.7),
+            "mct": ("Major Clubs T20 (Sri Lanka)", 72, 0.7, 0.0),
+        },
+    },
+    # t20w's marquee women's leagues anchor BETTER than the IPL -- WPL and WTC are at 100%.
+    "t20w": {
+        "A": {
+            "wtc": ("Women's T20 Challenge (India)", 13, 7.1, 100.0),
+            "wpl": ("Women's Premier League (India)", 88, 6.2, 100.0),
+            "wsl": ("Women's Super League (England)", 95, 3.8, 70.5),
+            "wbb": ("Women's Big Bash League (Australia)", 519, 3.7, 68.0),
+        },
+        "C": {
+            "wtb": ("Women's T20 Blast (England)", 112, 1.5, 6.2),
+            "blz": ("Women's Super Smash / Blaze (NZ)", 17, 2.3, 5.9),
+            "cec": ("CSA Women's T20 (South Africa)", 124, 1.3, 0.0),
+        },
+    },
+    "od": {
+        "C": {
+            "odms": ("Domestic one-day (multi-nation)", 1457, 0.8, 1.5),
+            "odc": ("Domestic one-day cup", 122, 0.9, 0.8),
+        },
+    },
+    "odw": {
+        "C": {
+            "wod": ("Women's domestic one-day", 105, 0.9, 1.0),
+            "rhf": ("Rachael Heyhoe Flint Trophy (England)", 189, 0.6, 0.0),
+        },
+    },
+}
+
+
+def franchise_competitions(format_type: str = "t20", tiers=("A",)) -> tuple:
+    """Competition folder names for the requested tiers within one format.
+
+    Returns an empty tuple for a format/tier combination that does not exist (e.g. od has no
+    Tier A), rather than raising -- callers iterate formats and an absent tier is a legitimate
+    "this format has nothing bridgeable at that quality", not a programming error.
+    """
+    fmt_tiers = FRANCHISE_BRIDGE_TIERS.get(format_type, {})
+    out = []
+    for tier in tiers:
+        if tier not in ("A", "B", "C"):
+            raise ValueError(f"Unknown franchise bridge tier '{tier}'. Expected one of A/B/C.")
+        out.extend(fmt_tiers.get(tier, {}).keys())
+    return tuple(out)
+
+
+def bridgeable_formats(tiers=("A",)) -> tuple:
+    """Formats having at least one competition in the requested tiers -- i.e. those the
+    franchise bridge can actually be run for."""
+    return tuple(f for f in FRANCHISE_BRIDGE_TIERS if franchise_competitions(f, tiers))
+
+
+# RATING_SOURCES: the rating-source toggle registry (markdowns/win_predictor/
+# rating_source_toggle_plan.md) -- maps a source key to its parquet filename templates, a UI
+# label, and the formats it actually has coverage for. "elo" is the deployed default, always
+# available, and its templates are byte-identical to what every read site already hardcodes --
+# resolving through this registry with source="elo" must reproduce today's path exactly.
+# "icc" is the combined ICC-methodology + franchise-bridge artifact built by
+# scripts/build_combined_ratings.py; its `formats` list is deliberately NOT "every format with
+# an international pool" -- od/odw have one (see INTL_COMPETITIONS) but their bridge extension
+# failed Phase 1's validation gate, so they are internationals-only in practice and excluded
+# here rather than left to silently degrade a prediction with 32-38% neutral-rated matches.
+# hnd/hndw have no international pool at all and are absent from both.
+RATING_SOURCES = {
+    "elo": {
+        "label": "Elo",
+        "team_template": "{fmt}_elo_ratings.parquet",
+        "player_template": "{fmt}_player_elo_ratings.parquet",
+        "formats": ACTIVE_FORMATS,
+    },
+    "icc": {
+        "label": "ICC-style",
+        "team_template": "{fmt}_icc_combined_team_ratings.parquet",
+        "player_template": "{fmt}_icc_combined_player_ratings.parquet",
+        "formats": ("t20", "t20w", "od", "odw"),
+    },
+}
+DEFAULT_RATING_SOURCE = "elo"
+
+assert all(f in ACTIVE_FORMATS for f in RATING_SOURCES["icc"]["formats"]), (
+    "RATING_SOURCES['icc']['formats'] must stay within ACTIVE_FORMATS"
+)
+
 for _target, _source in {**POOL_SOURCE, **SEED_SOURCE}.items():
     assert FORMAT_SPECS[_target]["gender"] == FORMAT_SPECS[_source]["gender"], (
         f"POOL_SOURCE/SEED_SOURCE must stay within gender: {_target} "

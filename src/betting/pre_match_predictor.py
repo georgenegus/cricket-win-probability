@@ -65,6 +65,11 @@ class PreMatchPredictor:
         self.odw_elos = self._extract_latest_team_elos(self.processed_dir / "odw_elo_ratings.parquet")
         self.hndw_elos = self._extract_latest_team_elos(self.processed_dir / "hndw_elo_ratings.parquet")
 
+        # Non-elo team ratings (rating_source_toggle_plan.md Phase 6): lazy, per-format cache
+        # -- built on first request for a given format rather than eagerly here, since not
+        # every format has "icc" coverage and most fixtures never request it.
+        self._nondefault_elos_cache = {}  # (format, source) -> {team: rating}
+
         # Load venue averages from lookup parquet (falling back to features parquet)
         self.t20_venues = self._load_venue_averages(self.processed_dir / "t20_venue_lookup.parquet", default_score=160.0)
         self.od_venues = self._load_venue_averages(self.processed_dir / "od_venue_lookup.parquet", default_score=260.0)
@@ -123,14 +128,30 @@ class PreMatchPredictor:
             return fmt_clean
         return "t20"
 
-    def get_team_elo(self, team_name, format_type="t20"):
-        """Returns latest Elo rating for a team or default 1500.0 if unknown."""
+    def get_team_elo(self, team_name, format_type="t20", source="elo"):
+        """Returns latest rating for a team on the given source, or default 1500.0 if unknown
+        (which is also the fallback for a team absent from a thin-coverage source like `icc`
+        for `od` -- exactly what "neutral rated" means there)."""
         fmt = self._normalize_fmt(format_type)
-        elos = {
-            "hnd": self.hnd_elos, "od": self.od_elos, "t20w": self.t20w_elos,
-            "odw": self.odw_elos, "hndw": self.hndw_elos,
-        }.get(fmt, self.t20_elos)
+        if source == "elo":
+            elos = {
+                "hnd": self.hnd_elos, "od": self.od_elos, "t20w": self.t20w_elos,
+                "odw": self.odw_elos, "hndw": self.hndw_elos,
+            }.get(fmt, self.t20_elos)
+        else:
+            elos = self._get_nondefault_elos(fmt, source)
         return float(elos.get(team_name, 1500.0))
+
+    def _get_nondefault_elos(self, fmt, source):
+        key = (fmt, source)
+        if key not in self._nondefault_elos_cache:
+            from src.features import rating_source
+            if not rating_source.is_supported(fmt, source):
+                self._nondefault_elos_cache[key] = {}
+            else:
+                path = rating_source.resolve_path(fmt, "team", source, processed_path=str(self.processed_dir))
+                self._nondefault_elos_cache[key] = self._extract_latest_team_elos(path)
+        return self._nondefault_elos_cache[key]
 
     def get_venue_avg_score(self, venue_name, format_type="t20"):
         """Returns historical venue average first innings score."""
