@@ -1,0 +1,2717 @@
+/* ==========================================================================
+   DESIGN SYSTEM VARIABLES
+   ========================================================================== */
+:root {
+    --bg-color: #05070f;
+    --card-bg: rgba(13, 17, 33, 0.7);
+    --card-border: rgba(255, 255, 255, 0.07);
+    --card-border-glow: rgba(0, 242, 254, 0.25);
+    
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #7c8db0;
+    
+    --primary-grad: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    --secondary-grad: linear-gradient(135deg, #7f00ff 0%, #e100ff 100%);
+    --success-grad: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    
+    --glow-shadow: 0 0 20px rgba(0, 242, 254, 0.3);
+    --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+    --font-stack: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    
+    --header-width: 220px;
+}
+
+/* ==========================================================================
+   RESET & BASE STYLES
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-stack);
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+}
+
+/* Glowing background ambient spots */
+.glass-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.glass-bg::before, .glass-bg::after {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    filter: blur(150px);
+    opacity: 0.12;
+    pointer-events: none;
+}
+
+.glass-bg::before {
+    background: #00f2fe;
+    top: -10%;
+    right: -10%;
+    animation: float-slow 20s infinite alternate;
+}
+
+.glass-bg::after {
+    background: #7f00ff;
+    bottom: -10%;
+    left: -10%;
+    animation: float-slow 25s infinite alternate-reverse;
+}
+
+@keyframes float-slow {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(80px, 50px) scale(1.1); }
+}
+
+/* ==========================================================================
+   LAYOUT STRUCTURE
+   ========================================================================== */
+.app-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* App Sidebar Header */
+.app-header {
+    width: var(--header-width);
+    background: rgba(10, 14, 28, 0.85);
+    border-right: 1px solid var(--card-border);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+    position: fixed;
+    height: 100vh;
+    z-index: 10;
+    /* On shorter viewports the brand block + full tab list can exceed 100vh; without this,
+       the overflow is invisible below the fold rather than clipped or scrollable. */
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
+
+.app-header::-webkit-scrollbar {
+    width: 6px;
+}
+
+.app-header::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+}
+
+.app-header::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 34px;
+    flex-shrink: 0;
+}
+
+.brand-icon {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    text-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+    animation: pulse-glow 2s infinite;
+}
+
+.brand h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    background: var(--primary-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.brand-tag {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.nav-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tab-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-secondary);
+    font-family: var(--font-stack);
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-align: left;
+    padding: 11px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.tab-btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 0;
+    background: #00f2fe;
+    border-radius: 4px;
+    transition: height 0.3s ease;
+}
+
+.tab-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.tab-btn.active {
+    color: var(--text-primary);
+    background: rgba(0, 242, 254, 0.08);
+    font-weight: 600;
+    box-shadow: inset 0 0 12px rgba(0, 242, 254, 0.05);
+}
+
+.tab-btn.active::before {
+    height: 24px;
+}
+
+/* Main Content Area */
+.app-main {
+    margin-left: var(--header-width);
+    width: calc(100% - var(--header-width));
+    max-width: calc(100% - var(--header-width));
+    padding: 24px 28px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Tab contents rendering */
+.tab-content {
+    display: none;
+    animation: fade-in 0.4s ease-out;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   GRID & COMPONENTS
+   ========================================================================== */
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 24px;
+    align-items: start;
+    width: 100%;
+}
+
+/* Two equal-width side-by-side cards — used by the Lineups & Elo panels where both teams
+   should take up identical space regardless of content length. */
+.grid-container-equal {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+/* Premium Glassmorphic Cards */
+.glass-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 20px 24px;
+    box-shadow: var(--card-shadow);
+    backdrop-filter: blur(16px);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    border-color: rgba(0, 242, 254, 0.15);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45);
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 480px;
+}
+
+.card-header {
+    margin-bottom: 24px;
+}
+
+.card-header h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.card-header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   FORMS & INPUT CONTROL
+   ========================================================================== */
+.predict-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 0;  /* grid items default to min-width:auto, so a long <select> option can
+                      otherwise force its track wider than the card and overflow it */
+}
+
+.form-group label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    padding: 9px 13px;
+    border-radius: 11px;
+    font-family: var(--font-stack);
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus, .form-group select:focus {
+    outline: none;
+    border-color: #00f2fe;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.15);
+}
+
+.input-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Custom dropdown arrow reset */
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 14px;
+    padding-right: 38px;
+}
+
+/* Glow Buttons */
+.glow-btn {
+    background: var(--primary-grad);
+    color: #020617;
+    border: none;
+    outline: none;
+    font-family: var(--font-stack);
+    font-size: 0.92rem;
+    font-weight: 700;
+    padding: 11px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: var(--glow-shadow);
+    transition: all 0.3s ease;
+    margin-top: 4px;
+}
+
+.glow-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(0, 242, 254, 0.55);
+}
+
+.glow-btn:active {
+    transform: translateY(0);
+}
+
+/* ==========================================================================
+   METRICS & DISPLAYS
+   ========================================================================== */
+.gauge-container {
+    width: 210px;
+    height: 145px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.gauge-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.probability-label {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.probability-value {
+    font-size: 2.3rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-variant-numeric: tabular-nums;
+    background: var(--primary-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-pulse 2s infinite;
+}
+
+@keyframes text-pulse {
+    0%, 100% { text-shadow: 0 0 10px rgba(0, 242, 254, 0); }
+    50% { text-shadow: 0 0 20px rgba(0, 242, 254, 0.25); }
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.metric-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--card-border);
+    padding: 10px 14px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metric-title {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.metric-value {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   TAB 2: MATCH EXPLORER
+   ========================================================================== */
+.explorer-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "filters filters"
+        "picker  summary";
+    gap: 24px 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.explorer-filters {
+    grid-area: filters;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.explorer-header > .select-wrapper { grid-area: picker; }
+.explorer-header > .match-summary-card { grid-area: summary; }
+
+/* Match dropdown + rating-source dropdown share the "picker" grid cell (Phase 7,
+   rating_source_toggle_plan.md) -- wrapped in one flex row so both sit in that cell instead of
+   each independently claiming the whole area via the ".select-wrapper" rule above and
+   overlapping on top of each other. */
+.explorer-header > .explorer-picker-row {
+    grid-area: picker;
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.explorer-picker-row > .select-wrapper:first-child { flex: 1 1 240px; }
+.explorer-picker-row > #expl-source-wrapper { flex: 0 1 200px; }
+
+.match-count {
+    font-weight: 500;
+    color: var(--text-secondary);
+    opacity: 0.75;
+}
+
+.select-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.select-wrapper label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.match-summary-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 18px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    animation: fade-in 0.3s ease-out;
+}
+
+.team-vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.team-vs .vs {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.team-vs .chasing {
+    color: #00f2fe;
+}
+
+.match-details {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.timeline-card {
+    width: 100%;
+}
+
+.timeline-card h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.chart-wrapper {
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+
+/* Top-level Ball-by-Ball vs Monte Carlo switch inside the Match Explorer */
+.explorer-mode-tabs {
+    margin: 0 0 24px;
+}
+
+/* Most impactful deliveries (under the win-prob timeline) */
+.key-moments {
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px solid var(--card-border);
+}
+
+.key-moments-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0 0 14px;
+    color: var(--text-secondary);
+}
+
+.key-moments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.key-moment {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--card-border);
+    border-left-width: 3px;
+    border-radius: 12px;
+}
+
+.key-moment-rank {
+    flex: 0 0 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+}
+
+.key-moment-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.key-moment-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.key-moment-over {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.key-moment-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.key-moment-batter {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: 3px;
+}
+
+.key-moment-prob {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 3px;
+    font-variant-numeric: tabular-nums;
+}
+
+.key-moment-delta {
+    flex: 0 0 auto;
+    font-weight: 700;
+    font-size: 0.95rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.key-moments-empty {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   TAB 3: SCENARIO EXPLORER
+   ========================================================================== */
+.slider-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 12px;
+}
+
+.slider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.slider-title {
+    color: var(--text-secondary);
+}
+
+.slider-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.slider-controls input[type=range] {
+    flex: 1;
+}
+
+.adjust-btn {
+    flex-shrink: 0;
+}
+
+.adjust-btn {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.adjust-btn:hover {
+    background: #00f2fe;
+    color: #05070f;
+    border-color: #00f2fe;
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.4);
+}
+
+.adjust-btn:active {
+    transform: scale(0.92);
+}
+
+.slider-val {
+    color: #00f2fe;
+    font-weight: 700;
+    min-width: 40px;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Custom HTML range inputs styling */
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+/* Track styling */
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+    border: none;
+}
+
+/* Thumb styling */
+input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #00f2fe;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+    transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+    background: #4facfe;
+}
+
+/* ==========================================================================
+   TAB 4: MODEL ANALYTICS
+   ========================================================================== */
+.glass-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+/* ==========================================================================
+   ANIMATIONS & EFFECTS
+   ========================================================================== */
+@keyframes pulse-glow {
+    0%, 100% { text-shadow: 0 0 10px rgba(0, 242, 254, 0.5); }
+    50% { text-shadow: 0 0 25px rgba(0, 242, 254, 0.95); }
+}
+
+/* Responsive adjustment */
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .explorer-header {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "filters"
+            "picker"
+            "summary";
+    }
+
+    .flex-center {
+        min-height: auto;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .app-header {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 24px;
+    }
+    
+    .brand {
+        margin-bottom: 20px;
+    }
+    
+    .nav-tabs {
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: 8px;
+    }
+    
+    .tab-btn {
+        padding: 10px 16px;
+        white-space: nowrap;
+    }
+    
+    .tab-btn::before {
+        display: none;
+    }
+    
+    .app-main {
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
+        padding: 24px;
+    }
+}
+
+/* ==========================================================================
+   FIRST INNINGS PREDICTOR STYLES
+   ========================================================================== */
+.projection-display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.projection-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.projection-value {
+    font-size: 4.8rem;
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-variant-numeric: tabular-nums;
+    background: var(--secondary-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 30px rgba(127, 0, 255, 0.3);
+}
+
+.runs-unit {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: -8px;
+}
+
+.progress-bar-container {
+    width: 100%;
+    max-width: 320px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--card-border);
+    height: 12px;
+    border-radius: 6px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: var(--secondary-grad);
+    border-radius: 6px;
+    width: 0%;
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 15px rgba(127, 0, 255, 0.6);
+}
+
+.progress-bar-markers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+select option {
+    background-color: #0b0f19;
+    color: #f8fafc;
+}
+
+/* ==========================================================================
+   SEGMENTED CONTROLS & PILLS (Hundred UI Integration)
+   ========================================================================== */
+.segmented-control {
+    display: flex;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--card-border);
+    border-radius: 11px;
+    overflow: hidden;
+    padding: 3px;
+    gap: 2px;
+}
+
+.segmented-control input[type="radio"] {
+    display: none;
+}
+
+.segmented-control label {
+    flex: 1;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+.segmented-control label:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.segmented-control input[type="radio"]:checked + label {
+    color: #020617;
+    background: var(--primary-grad);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
+}
+
+.mini-segmented-control {
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.mini-segmented-control label {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+}
+
+/* Phase Pills */
+.metric-value.phase-pill {
+    font-size: 0.85rem;
+    padding: 4px 12px;
+    border-radius: 12px;
+    color: #fff;
+    margin-top: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.metric-value.phase-pill.powerplay {
+    background: #f59e0b;
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+}
+
+.metric-value.phase-pill.middle {
+    background: #3b82f6;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+.metric-value.phase-pill.death {
+    background: #ef4444;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}
+
+/* Low-confidence live-squad warning banner (effective_game_elo_plan.md follow-up: flags
+   live matches where too many XI players have no historical rating, so squad/effective Elo
+   is honest-best-effort rather than a real signal). Same amber convention as .phase-pill.powerplay. */
+.live-squad-warning {
+    background: rgba(245, 158, 11, 0.12);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    color: #f59e0b;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+/* ==========================================================================
+   LIVE SIMULATOR STYLES
+   ========================================================================== */
+.form-row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.ci-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ci-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ci-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ci-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #00f2fe;
+    background: rgba(0, 242, 254, 0.1);
+    padding: 3px 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 242, 254, 0.2);
+    font-variant-numeric: tabular-nums;
+}
+
+.ci-bar-wrapper {
+    width: 100%;
+    height: 14px;
+    position: relative;
+    margin: 5px 0;
+}
+
+.ci-bar-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ci-bar-fill {
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 242, 254, 0.4), rgba(79, 172, 254, 0.8));
+    border-radius: 6px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+}
+
+.ci-marker-point {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #00f2fe;
+    transition: left 0.5s ease;
+}
+
+.ci-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.ci-labels strong {
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.fold-badges-container {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.fold-badges-title {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.fold-badges-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.fold-badge {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   MODEL EXPLAINABILITY PANEL (SHAP)
+   ========================================================================== */
+.explainability-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+    padding: 12px 16px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.explainability-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 6px;
+}
+
+.explainability-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.explainability-tag {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.explainability-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.explainability-placeholder {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.contrib-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 0.78rem;
+}
+
+.contrib-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.impact-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 2px 6px;
+    text-transform: uppercase;
+}
+
+.impact-pos {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.impact-neg {
+    background: rgba(244, 63, 94, 0.15);
+    color: #f43f5e;
+    border: 1px solid rgba(244, 63, 94, 0.3);
+}
+
+.contrib-name {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.contrib-val {
+    font-family: monospace;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.contrib-val.pos {
+    color: #10b981;
+}
+
+.contrib-val.neg {
+    color: #f43f5e;
+}
+
+/* ==========================================================================
+   MATCH REPLAY ANNOTATION LEGEND
+   ========================================================================== */
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.timeline-header h3 {
+    margin-bottom: 0;
+}
+
+.annotation-legend {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.legend-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-wicket {
+    background-color: #f43f5e;
+    box-shadow: 0 0 8px rgba(244, 63, 94, 0.6);
+}
+
+.dot-six {
+    background-color: #a855f7;
+    box-shadow: 0 0 8px rgba(168, 85, 247, 0.6);
+}
+
+.dot-four {
+    background-color: #00f2fe;
+    box-shadow: 0 0 8px rgba(0, 242, 254, 0.6);
+}
+
+
+
+
+/* ==========================================================================
+   MONTE CARLO SIMULATOR
+   ========================================================================== */
+.battle-bar-container {
+    width: 100%;
+    height: 12px;
+    background: rgba(239, 68, 68, 0.6); /* Default team B red */
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid var(--card-border);
+}
+
+.battle-bar-fill {
+    height: 100%;
+    background: #00f2fe; /* Default team A teal */
+    width: 50%;
+    transition: width 0.6s ease;
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.4);
+}
+
+.leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.leaderboard-item {
+    display: grid;
+    grid-template-columns: 22px 1fr auto auto;
+    align-items: center;
+    column-gap: 12px;
+    row-gap: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--card-border);
+    padding: 10px 14px 10px 16px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.25s ease, background 0.25s ease;
+}
+
+.leaderboard-item:hover {
+    border-color: rgba(0, 242, 254, 0.22);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Live-scraped player with no historical rating (neutral 1500 default) -- see
+   playerRowHTML()'s `rated` handling and app.py's build_live_team(). */
+.leaderboard-item-unrated {
+    border-color: rgba(245, 158, 11, 0.35);
+}
+
+.player-unrated-flag {
+    color: #f59e0b;
+    margin-left: 6px;
+    font-size: 0.8em;
+    cursor: help;
+}
+
+/* team-coloured accent stripe down the left edge */
+.lb-accent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+}
+
+.leaderboard-rank {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.leaderboard-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.leaderboard-prob {
+    font-size: 0.92rem;
+    color: #00f2fe;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.leaderboard-odds {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    min-width: 42px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.leaderboard-raw-elo {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    cursor: help;
+}
+
+.leaderboard-se {
+    grid-column: 3 / -1;
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    margin-top: -4px;
+}
+
+/* mini likelihood bar spanning the full row */
+.lb-mini {
+    grid-column: 1 / -1;
+    height: 4px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.lb-mini > i {
+    display: block;
+    height: 100%;
+    border-radius: 999px;
+    background: var(--primary-grad);
+}
+
+/* ==========================================================================
+   WIN SPLIT — proportional team-coloured win prediction (Option B)
+   ========================================================================== */
+.winsplit {
+    display: flex;
+    border-radius: 18px;
+    overflow: hidden;
+    min-height: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: var(--card-shadow);
+}
+
+.winsplit-seg {
+    position: relative;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    isolation: isolate;
+    min-width: 0;
+    transition: flex-grow 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* dark scrim so white text stays legible on any team gradient (incl. yellows/oranges) */
+.winsplit-seg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.55));
+}
+
+.winsplit-seg.right {
+    text-align: right;
+    align-items: flex-end;
+}
+
+.winsplit-verdict {
+    display: inline-block;
+    margin-bottom: 7px;
+    font-size: 0.58rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #05070f;
+    background: #fff;
+    padding: 3px 8px;
+    border-radius: 999px;
+}
+
+.winsplit-team {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.01em;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.winsplit-pct {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.55);
+}
+
+.winsplit-pct small {
+    font-size: 0.35em;
+    font-weight: 700;
+    opacity: 0.85;
+    margin-left: 1px;
+}
+
+.winsplit-odds {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    margin-top: 2px;
+}
+
+.winsplit-divider {
+    position: relative;
+    width: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+    z-index: 2;
+}
+
+/* Tie as its own middle segment: flex-grow is proportional to the tie probability, but
+   min-width keeps it noticeable and legible when that probability is small. */
+.winsplit-tie-seg {
+    position: relative;
+    min-width: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 8px 6px;
+    background: #6b7280;
+    border-left: 1px solid rgba(255, 255, 255, 0.35);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    white-space: nowrap;
+    isolation: isolate;
+    transition: flex-grow 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.winsplit-tie-seg .wt-label {
+    font-size: 0.52rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1;
+}
+
+.winsplit-tie-seg .wt-val {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+/* neutral placeholder shown before a win probability is available (live 1st innings) */
+.winsplit-empty {
+    min-height: 92px;
+    border: 1px dashed var(--card-border);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/* Determinate loading bar shown while the Monte Carlo sim runs. Width is driven from JS
+   against an adaptive time estimate (see runMcProgress in app.js) that self-corrects from
+   each run's actual elapsed time. */
+.mc-progress {
+    position: relative;
+    max-width: 320px;
+    height: 6px;
+    margin: 18px auto 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+
+.mc-progress-bar {
+    height: 100%;
+    width: 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #00c6ff, #00f2fe);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+    transition: width 0.2s ease;
+}
+
+.mc-progress-pct {
+    max-width: 320px;
+    margin: 8px auto 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+/* Match-level markets strip (projected victory margins; tie sits on the win bar) */
+.mc-match-markets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 16px 0 4px;
+}
+
+.mm-chip {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 12px 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+}
+
+.mm-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+.mm-val {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+.mm-val small {
+    font-size: 0.55em;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-left: 2px;
+}
+
+.mm-sub {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #00f2fe;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Total-runs over/under for the selected side */
+.mc-overunder {
+    margin: 4px 0 14px;
+}
+
+.ou-head {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.ou-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.ou-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+}
+
+.ou-cell.over { border-left: 3px solid rgba(0, 242, 254, 0.6); }
+.ou-cell.under { border-left: 3px solid rgba(148, 163, 184, 0.5); }
+
+.ou-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+.ou-prob {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+.ou-odds {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #00f2fe;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Second-row (Batting/Bowling) selector sits tighter under the team tabs */
+.mc-roletabs {
+    margin-top: 8px;
+}
+
+/* Histogram caption (score in batting view, wickets taken in bowling view) */
+.mc-hist-title {
+    margin: 16px 0 8px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Up-to-three market leaderboards side by side, wrapping on narrow screens */
+.mc-market-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.mc-market-grid h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+/* Team A / Team B selector for the MC tab's exotic markets */
+.mc-subtabs {
+    display: flex;
+    gap: 8px;
+    margin: 18px 0 4px;
+    padding: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+}
+
+.mc-subtab {
+    flex: 1 1 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-secondary);
+    font-family: var(--font-stack);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.mc-subtab:hover {
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.mc-subtab.active {
+    color: var(--text-primary);
+    background: rgba(0, 242, 254, 0.1);
+    box-shadow: inset 0 0 12px rgba(0, 242, 254, 0.08);
+}
+
+/* ==========================================================================
+   STAT TILES — projected-score distribution (P5 / Median / P95)
+   ========================================================================== */
+.stat-tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 18px 0;
+}
+
+/* Lineups & Elo panels' 4-tile stat row (Overall/Batting/Bowling/Effective Elo) -- a modifier
+   on .stat-tiles rather than changing its base column count, since that's shared with the MC
+   score-distribution tiles (P5/Median/P95) elsewhere. */
+.stat-tiles-4col {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.stat-tile {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+    padding: 15px 12px;
+    text-align: center;
+}
+
+.stat-tile .st-label {
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-secondary);
+    font-weight: 700;
+}
+
+.stat-tile .st-val {
+    font-size: 1.85rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    margin-top: 3px;
+}
+
+.stat-tile .st-sub {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 1px;
+}
+
+.stat-tile.hi {
+    border-color: rgba(0, 242, 254, 0.25);
+}
+
+.stat-tile.hi .st-val {
+    background: var(--primary-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ==========================================================================
+   MOBILE RESPONSIVENESS (PHASE 6)
+   ========================================================================== */
+@media (max-width: 768px) {
+    .nav-tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 5px;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start;
+    }
+    
+    .tab-btn {
+        flex: 0 0 auto;
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    #mc-form {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .stat-tiles-4col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ==========================================================================
+   ACCESSIBILITY
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Visible keyboard-focus ring for controls that reset the native outline.
+   Deliberately scoped to :focus-visible so mouse/touch clicks stay clean. */
+a:focus-visible,
+button:focus-visible,
+.tab-btn:focus-visible,
+.glow-btn:focus-visible,
+.adjust-btn:focus-visible,
+.mc-subtab:focus-visible,
+.info-tip:focus-visible {
+    outline: 2px solid #00f2fe;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+input[type="range"]:focus-visible::-webkit-slider-thumb {
+    box-shadow: 0 0 0 4px rgba(0, 242, 254, 0.35), 0 0 10px rgba(0, 242, 254, 0.5);
+}
+
+.visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ==========================================================================
+   UTILITY CLASSES (static, one-off spacing/text — not for JS-driven state)
+   ========================================================================== */
+.u-hidden { display: none !important; }
+.u-mt-8 { margin-top: 8px; }
+.u-mt-10 { margin-top: 10px; }
+.u-mt-12 { margin-top: 12px; }
+.u-mt-15 { margin-top: 15px; }
+.u-mt-16 { margin-top: 16px; }
+.u-mt-20 { margin-top: 20px; }
+.u-mb-5 { margin-bottom: 5px; }
+.u-mb-12 { margin-bottom: 12px; }
+.u-mb-16 { margin-bottom: 16px; }
+.u-mb-24 { margin-bottom: 24px; }
+.u-my-6 { margin: 6px 0; }
+.u-text-secondary { color: var(--text-secondary); }
+.u-text-muted { color: var(--text-muted); }
+.u-text-sm { font-size: 0.85rem; }
+.u-text-xs { font-size: 0.8rem; }
+.u-max-w-220 { max-width: 220px; }
+.u-max-w-320 { max-width: 320px; }
+
+.live-scoreline {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+/* Compact variant of the First Innings tab's projection display, scaled down for the
+   Live Games detail card where it sits alongside the scoreline/win-split rather than
+   owning its own dedicated card. */
+.live-first-innings {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+    padding: 14px 16px 16px;
+    margin-bottom: 16px;
+}
+.live-first-innings .projection-display-container { margin-bottom: 10px; }
+.live-first-innings .projection-value { font-size: 2.6rem; }
+.live-first-innings .metrics-grid { margin-top: 0; }
+
+.live-games-list {
+    margin-top: 16px;
+    display: grid;
+    gap: 10px;
+}
+
+/* Secondary (purple) call-to-action variant of .glow-btn */
+.btn-alt {
+    background: var(--secondary-grad);
+    box-shadow: 0 0 20px rgba(127, 0, 255, 0.3);
+}
+
+.card-compact {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.analytics-select-group {
+    margin: 0;
+}
+
+.analytics-select-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.analytics-select {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: white;
+    font-family: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.analytics-select option {
+    background: #1a1528;
+}
+
+.balls-ring {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.balls-ring-inner {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--card-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   ICONS (inline SVG / CSS replacements for emoji glyphs)
+   ========================================================================== */
+.brand-icon-svg {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: block;
+    margin-bottom: 8px;
+    filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.5));
+    animation: pulse-glow-icon 2s infinite;
+}
+
+@keyframes pulse-glow-icon {
+    0%, 100% { filter: drop-shadow(0 0 6px rgba(0, 242, 254, 0.4)); }
+    50% { filter: drop-shadow(0 0 14px rgba(0, 242, 254, 0.9)); }
+}
+
+.live-dot-icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ef4444;
+    display: inline-block;
+    margin-right: 7px;
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.7);
+    animation: live-pulse 1.6s infinite;
+    vertical-align: middle;
+}
+
+@keyframes live-pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.55; transform: scale(0.85); }
+}
+
+.icon-svg {
+    width: 1.05em;
+    height: 1.05em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   SKELETON LOADERS (replace the formerly-undefined .spinner placeholders)
+   ========================================================================== */
+.skeleton-block {
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0.04) 25%,
+        rgba(255, 255, 255, 0.10) 37%,
+        rgba(255, 255, 255, 0.04) 63%);
+    background-size: 400% 100%;
+    animation: skeleton-shimmer 1.4s ease-in-out infinite;
+    border-radius: 10px;
+}
+
+@keyframes skeleton-shimmer {
+    0% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.skeleton-loader {
+    padding: 6px 4px 2px;
+}
+
+.skeleton-title {
+    height: 16px;
+    width: 60%;
+    margin: 0 auto 18px;
+}
+
+.skeleton-tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.skeleton-tile {
+    height: 76px;
+    border-radius: 14px;
+}
+
+.skeleton-chart {
+    height: 240px;
+    border-radius: 14px;
+}
+
+.skeleton-chart--tall {
+    height: 320px;
+}
+
+.skeleton-lines {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skeleton-line {
+    height: 44px;
+    border-radius: 12px;
+}
+
+.skeleton-line:nth-child(2) { width: 88%; }
+.skeleton-line:nth-child(3) { width: 76%; }
+
+.skeleton-caption {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-top: 16px;
+}
+
+/* ==========================================================================
+   TOAST NOTIFICATIONS (replaces blocking alert() calls)
+   ========================================================================== */
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 360px;
+    width: calc(100% - 40px);
+}
+
+.toast {
+    background: #10131f;
+    border: 1px solid var(--card-border);
+    border-left: 3px solid #4facfe;
+    backdrop-filter: blur(16px);
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: var(--card-shadow);
+    color: var(--text-primary);
+    font-size: 0.88rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    animation: toast-in 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.toast.toast-error { border-left-color: #ef4444; }
+.toast.toast-success { border-left-color: #10b981; }
+.toast.toast-info { border-left-color: #4facfe; }
+
+.toast-icon {
+    flex: 0 0 auto;
+    font-weight: 800;
+    line-height: 1;
+    margin-top: 1px;
+}
+
+.toast.toast-error .toast-icon { color: #ef4444; }
+.toast.toast-success .toast-icon { color: #10b981; }
+.toast.toast-info .toast-icon { color: #4facfe; }
+
+.toast-body {
+    flex: 1 1 auto;
+}
+
+.toast-close {
+    flex: 0 0 auto;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0;
+}
+
+.toast-close:hover {
+    color: var(--text-primary);
+}
+
+.toast.toast-out {
+    animation: toast-out 0.25s ease-in forwards;
+}
+
+@keyframes toast-in {
+    from { opacity: 0; transform: translateX(30px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toast-out {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(30px); }
+}
+
+@media (max-width: 768px) {
+    .toast-container {
+        left: 12px;
+        right: 12px;
+        top: 12px;
+        max-width: none;
+        width: auto;
+    }
+}
+
+/* ==========================================================================
+   INFO TOOLTIPS (accessible ⓘ helper for jargon: Elo, SHAP, Brier, CI, etc.)
+   ========================================================================== */
+.info-tip {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-secondary);
+    font-size: 0.66rem;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    cursor: help;
+    vertical-align: middle;
+}
+
+.info-tip:hover,
+.info-tip:focus-visible {
+    background: rgba(0, 242, 254, 0.18);
+    color: #00f2fe;
+}
+
+.info-tip-bubble {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    width: max-content;
+    max-width: 240px;
+    background: #10131f;
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.4;
+    padding: 9px 11px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: 50;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.info-tip-bubble::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #10131f;
+}
+
+.info-tip:hover .info-tip-bubble,
+.info-tip:focus-visible .info-tip-bubble {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Modifier for triggers with little room above (e.g. a card's top-most heading) —
+   opens the bubble downward instead of upward. */
+.info-tip--below .info-tip-bubble {
+    bottom: auto;
+    top: calc(100% + 8px);
+    transform: translateX(-50%) translateY(-4px);
+}
+
+.info-tip--below .info-tip-bubble::after {
+    top: auto;
+    bottom: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #10131f;
+}
+
+.info-tip--below:hover .info-tip-bubble,
+.info-tip--below:focus-visible .info-tip-bubble {
+    transform: translateX(-50%) translateY(0);
+}
+
+/* ==========================================================================
+   BETTING TAB — dashboard KPIs, equity curve, bet ledger + scanner tables
+   ========================================================================== */
+.bet-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+}
+
+/* Colour semantics shared by KPI values, ledger P&L cells and scanner edges */
+.bet-pos { color: #34d399; }   /* profit / positive edge */
+.bet-neg { color: #f87171; }   /* loss / negative */
+
+.bet-table-wrap {
+    width: 100%;
+    overflow-x: auto;   /* wide table scrolls inside its own container, never the page */
+}
+
+.bet-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.bet-table th,
+.bet-table td {
+    padding: 9px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.bet-table th {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-secondary);
+    position: sticky;
+    top: 0;
+    background: #0d1121;
+}
+
+.bet-table th.num,
+.bet-table td.num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.bet-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.bet-table td .match-cell {
+    font-weight: 600;
+    color: var(--text-primary);
+    white-space: normal;
+}
+
+/* Result pills */
+.bet-result {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.bet-result.win { background: rgba(52, 211, 153, 0.15); color: #34d399; }
+.bet-result.loss { background: rgba(248, 113, 113, 0.15); color: #f87171; }
+.bet-result.pending { background: rgba(148, 163, 184, 0.15); color: var(--text-secondary); }
+.bet-result.void,
+.bet-result.unresolvable { background: rgba(148, 163, 184, 0.10); color: var(--text-muted); }
+
+/* Format chip in tables */
+.bet-fmt {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4facfe;
+}
+
+/* Scanner: highlight rows the model flags as value */
+.bet-table tr.bet-value-row {
+    background: rgba(0, 242, 254, 0.06);
+}
+
+.bet-table tr.bet-value-row td:first-child {
+    box-shadow: inset 3px 0 0 0 #00f2fe;
+}
+
+.bet-empty {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    padding: 18px 4px;
+}
+
+/* ==========================================================================
+   PLAYER & TEAM DATA (Elo progression explorer)
+   ========================================================================== */
+#tab-eloexplorer .explorer-header {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#tab-eloexplorer .select-wrapper select,
+#tab-eloexplorer .select-wrapper input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    padding: 9px 13px;
+    border-radius: 11px;
+    font-family: var(--font-stack);
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+#tab-eloexplorer .select-wrapper select:focus,
+#tab-eloexplorer .select-wrapper input:focus {
+    outline: none;
+    border-color: #00f2fe;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.15);
+}
+
+.elo-range-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+    padding: 16px 20px;
+}
+
+.elo-range-presets.mc-subtabs {
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.elo-range-presets .mc-subtab {
+    flex: 1 1 auto;
+    padding: 7px 16px;
+}
+
+.elo-range-custom {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.elo-range-custom .select-wrapper {
+    gap: 4px;
+}
+
+.elo-range-custom input[type="date"] {
+    color-scheme: dark;
+    min-width: 150px;
+}
+
+.elo-add-wrapper {
+    justify-content: flex-end;
+}
+
+.elo-add-btn {
+    padding: 9px 16px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.elo-placeholder {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 48px 24px;
+    font-size: 1rem;
+}
+
+/* Compare bar: removable chips for each team/player queued in the chart, + a clear-all action */
+.elo-compare-bar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.elo-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    flex: 1;
+}
+
+.elo-chip {
+    --chip-color: #00f2fe;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--card-border);
+    border-radius: 999px;
+    padding: 5px 6px 5px 12px;
+    font-size: 0.82rem;
+    box-shadow: inset 3px 0 0 0 var(--chip-color);
+}
+
+.elo-chip-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--chip-color);
+    flex-shrink: 0;
+}
+
+.elo-chip-label {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.elo-chip-remove {
+    background: rgba(255, 255, 255, 0.06);
+    border: none;
+    color: var(--text-secondary);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.elo-chip-remove:hover {
+    background: rgba(244, 63, 94, 0.25);
+    color: #f43f5e;
+}
+
+/* Rating-source provenance badge (Player & Team Data leaderboard, ICC-style source only) --
+   markdowns/win_predictor/rating_source_toggle_plan.md Phase 4. Color says how directly a
+   row's "current" figure is anchored: international ratings first, then progressively more
+   inferred (single-hop bridge, multi-hop bridge), then a neutral fallback with no coverage. */
+.pool-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.pool-badge--intl {
+    color: #00f2fe;
+    background: rgba(0, 242, 254, 0.1);
+    border: 1px solid rgba(0, 242, 254, 0.25);
+}
+
+.pool-badge--bridge_a {
+    color: #4ade80;
+    background: rgba(74, 222, 128, 0.1);
+    border: 1px solid rgba(74, 222, 128, 0.25);
+}
+
+.pool-badge--bridge_bc {
+    color: #facc15;
+    background: rgba(250, 204, 21, 0.1);
+    border: 1px solid rgba(250, 204, 21, 0.25);
+}
+
+.pool-badge--uncovered {
+    color: #94a3b8;
+    background: rgba(148, 163, 184, 0.08);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+/* Rating-source indicator (Phase 7, rating_source_toggle_plan.md) -- mandatory on-screen badge
+   next to any prediction number, so two rating systems disagreeing never looks like a bug. */
+.source-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.source-badge--elo {
+    color: #94a3b8;
+    background: rgba(148, 163, 184, 0.08);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.source-badge--icc {
+    color: #00f2fe;
+    background: rgba(0, 242, 254, 0.1);
+    border: 1px solid rgba(0, 242, 254, 0.25);
+}
+
+.elo-clear-btn {
+    background: transparent;
+    border: 1px solid var(--card-border);
+    color: var(--text-secondary);
+    padding: 7px 14px;
+    border-radius: 10px;
+    font-size: 0.82rem;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.elo-clear-btn:hover {
+    border-color: #f43f5e;
+    color: #f43f5e;
+}
+
+.elo-compare-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.elo-compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.elo-compare-table th,
+.elo-compare-table td {
+    padding: 9px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.elo-compare-table th {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-secondary);
+}
+
+.elo-compare-table th.num,
+.elo-compare-table td.num,
+.elo-compare-table th:nth-child(n+3),
+.elo-compare-table td:nth-child(n+3) {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.elo-compare-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.elo-compare-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s ease;
+}
+
+.elo-compare-table th.sortable:hover {
+    color: var(--text-primary);
+}
+
+.elo-compare-table th.sortable.sorted {
+    color: #00f2fe;
+}
+
+.sort-arrow {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 0.65rem;
+    width: 8px;
+}

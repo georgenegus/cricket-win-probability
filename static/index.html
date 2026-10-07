@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheInsideEdge — Cricket Win Probability & Simulation Engine</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="glass-bg"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <header class="app-header">
+            <div class="brand">
+                <svg class="brand-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="brand-icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#00f2fe"/>
+                            <stop offset="100%" stop-color="#4facfe"/>
+                        </linearGradient>
+                    </defs>
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" fill="url(#brand-icon-grad)"/>
+                </svg>
+                <h1>TheInsideEdge</h1>
+                <span class="brand-tag">Win & Score Simulator</span>
+            </div>
+            <nav class="nav-tabs" role="tablist" aria-label="Main sections">
+                <button class="tab-btn" id="tab-btn-live" data-tab="live" role="tab" aria-selected="false" aria-controls="tab-live" tabindex="-1"><span class="live-dot-icon" aria-hidden="true"></span>Live Games</button>
+                <button class="tab-btn active" id="tab-btn-simulator" data-tab="simulator" role="tab" aria-selected="true" aria-controls="tab-simulator" tabindex="0">Live Simulator</button>
+                <button class="tab-btn" id="tab-btn-firstinnings" data-tab="firstinnings" role="tab" aria-selected="false" aria-controls="tab-firstinnings" tabindex="-1">First Innings</button>
+                <button class="tab-btn" id="tab-btn-explorer" data-tab="explorer" role="tab" aria-selected="false" aria-controls="tab-explorer" tabindex="-1">Match Explorer</button>
+                <button class="tab-btn" id="tab-btn-analytics" data-tab="analytics" role="tab" aria-selected="false" aria-controls="tab-analytics" tabindex="-1">Model Analytics</button>
+                <button class="tab-btn" id="tab-btn-eloexplorer" data-tab="eloexplorer" role="tab" aria-selected="false" aria-controls="tab-eloexplorer" tabindex="-1">Player &amp; Team Data</button>
+                <button class="tab-btn" id="tab-btn-betting" data-tab="betting" role="tab" aria-selected="false" aria-controls="tab-betting" tabindex="-1"><svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 14l3-4 3 3 5-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Betting</button>
+            </nav>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="app-main">
+            <!-- TAB: LIVE GAMES -->
+            <section class="tab-content" id="tab-live" role="tabpanel" aria-labelledby="tab-btn-live" tabindex="0">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <h2>🔴 Live Games</h2>
+                        <p>Real in-progress matches scraped live. Pick one to run win-probability and Monte Carlo exotic markets on the current state.</p>
+                    </div>
+                    <button id="live-refresh-btn" class="glow-btn u-max-w-220">Refresh Live Games</button>
+                    <div id="live-games-status" class="u-mt-12 u-text-secondary"></div>
+                    <div id="live-games-list" class="live-games-list"></div>
+                </div>
+
+                <!-- Selected-game detail -->
+                <div class="glass-card" id="live-detail" style="display:none; margin-top:20px;">
+                    <div class="card-header">
+                        <h2 id="live-detail-title"></h2>
+                        <p id="live-detail-sub"></p>
+                    </div>
+                    <div class="select-wrapper u-max-w-220 u-mb-16" id="live-source-wrapper">
+                        <label for="live-source">Rating Source<span class="info-tip" tabindex="0" aria-label="Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.</span></span></label>
+                        <select id="live-source" class="rating-source-select">
+                            <option value="elo" selected>Elo</option>
+                            <option value="icc">ICC-style</option>
+                        </select>
+                    </div>
+                    <div id="live-scoreline" class="live-scoreline"></div>
+                    <div id="live-scoreline-meta" class="u-text-secondary u-mb-16"></div>
+
+                    <!-- Live 1st-innings score projection (XGB first-innings regressor) --
+                         shown only while innings 1 is in progress; hidden once the chase starts. -->
+                    <div id="live-first-innings" class="live-first-innings" style="display:none;">
+                        <div class="projection-display-container">
+                            <span class="projection-label">Projected 1st Innings Total <span class="source-badge source-badge--elo" id="live-fi-source-badge">Elo</span></span>
+                            <span class="projection-value" id="live-fi-predicted-display">--</span>
+                            <span class="runs-unit">runs</span>
+                        </div>
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <span class="metric-title">Run-Rate Projection</span>
+                                <span class="metric-value" id="live-fi-proj-display">--</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-title">Current Run Rate</span>
+                                <span class="metric-value" id="live-fi-crr-display">--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Match-result win probability (team-coloured split) -->
+                    <div id="live-winsplit"></div>
+                    <div id="live-wp-source" class="u-text-muted u-text-xs u-mt-8"></div>
+
+                    <!-- Lineups & Elo preview: shown as soon as a match is selected (from
+                         /api/live/squads), before the user commits to running the full Monte
+                         Carlo simulation -- includes a warning banner when a side's live XI
+                         has too many players with no historical rating to trust the squad
+                         Elo (see LOW_CONFIDENCE_UNRATED_THRESHOLD in app.py). -->
+                    <div id="live-squad-preview" style="display:none; margin-top:16px;">
+                        <div id="live-squad-quality-warning" class="live-squad-warning" style="display:none;"></div>
+                        <div id="live-mc-squad-note" class="u-text-secondary u-text-sm u-mb-12"></div>
+                        <div class="grid-container grid-container-equal u-mb-24" id="live-lineups-grid">
+                            <div class="glass-card" id="live-lineups-team-1-card">
+                                <div class="card-header">
+                                    <h2 id="live-lineups-team-1-name">Team 1</h2>
+                                    <p>Batting — Elo shown is each player's current rating</p>
+                                </div>
+                                <div class="stat-tiles stat-tiles-4col" id="live-lineups-team-1-stats"></div>
+                                <h4 class="mc-hist-title">Batting Lineup</h4>
+                                <div class="leaderboard-list" id="live-lineups-team-1-batting"></div>
+                                <h4 class="mc-hist-title">Bowling Attack</h4>
+                                <div class="leaderboard-list" id="live-lineups-team-1-bowling"></div>
+                            </div>
+                            <div class="glass-card" id="live-lineups-team-2-card">
+                                <div class="card-header">
+                                    <h2 id="live-lineups-team-2-name">Team 2</h2>
+                                    <p>Bowling — Elo shown is each player's current rating</p>
+                                </div>
+                                <div class="stat-tiles stat-tiles-4col" id="live-lineups-team-2-stats"></div>
+                                <h4 class="mc-hist-title">Batting Lineup</h4>
+                                <div class="leaderboard-list" id="live-lineups-team-2-batting"></div>
+                                <h4 class="mc-hist-title">Bowling Attack</h4>
+                                <div class="leaderboard-list" id="live-lineups-team-2-bowling"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ODI Monte Carlo is wired up but experimental -- its full-match
+                         calibration battery has never been run (only T20's has, and even
+                         that fails 2 of 5 gates). Shown whenever the selected match is 'od'. -->
+                    <div id="live-mc-experimental-warning" class="live-squad-warning" style="display:none;">
+                        ⚠ ODI Monte Carlo is experimental — match-level simulation accuracy (innings totals, win probability) has not been validated for this format. Treat prices with caution.
+                    </div>
+
+                    <button id="live-mc-btn" class="glow-btn u-mt-16 u-max-w-320">Run Monte Carlo (exotic markets)</button>
+                    <div id="live-mc-loading" style="display:none; text-align:center; padding:30px;">
+                        <div class="skeleton-loader" role="status" aria-live="polite">
+                            <div class="skeleton-block skeleton-title"></div>
+                            <div class="skeleton-tiles">
+                                <div class="skeleton-block skeleton-tile"></div>
+                                <div class="skeleton-block skeleton-tile"></div>
+                                <div class="skeleton-block skeleton-tile"></div>
+                            </div>
+                            <div class="skeleton-block skeleton-chart"></div>
+                            <p class="skeleton-caption">Simulating the rest of the match…</p>
+                        </div>
+                    </div>
+
+                    <!-- MC results (mirrors the Match Explorer Monte Carlo panel's structure) -->
+                    <div id="live-mc-results" style="display:none; margin-top:16px;">
+                        <div id="live-mc-winsplit"></div>
+                        <div class="mc-match-markets" id="live-mc-match-markets"></div>
+                        <!-- side selector: whichever team batted first (inn1) vs second (inn2) -->
+                        <div class="mc-subtabs" id="live-mc-subtabs">
+                            <button type="button" class="mc-subtab active" data-mc-side="1"></button>
+                            <button type="button" class="mc-subtab" data-mc-side="2"></button>
+                        </div>
+                        <div class="mc-subtabs mc-roletabs" id="live-mc-roletabs">
+                            <button type="button" class="mc-subtab active" data-mc-role="batting">Batting</button>
+                            <button type="button" class="mc-subtab" data-mc-role="bowling">Bowling</button>
+                        </div>
+                        <div id="live-mc-batting-block">
+                            <div class="stat-tiles" id="live-mc-stat-tiles"></div>
+                            <div class="mc-overunder" id="live-mc-overunder"></div>
+                        </div>
+                        <h4 id="live-mc-hist-title" class="mc-hist-title"></h4>
+                        <div class="chart-wrapper"><canvas id="live-mc-histogram"></canvas></div>
+                        <div class="mc-market-grid">
+                            <div><h4 id="live-mc-m1-title"></h4><div id="live-mc-m1-list" class="leaderboard-list"></div></div>
+                            <div><h4 id="live-mc-m2-title"></h4><div id="live-mc-m2-list" class="leaderboard-list"></div></div>
+                            <div><h4 id="live-mc-m3-title"></h4><div id="live-mc-m3-list" class="leaderboard-list"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 0: LIVE SIMULATOR MODE -->
+            <section class="tab-content active" id="tab-simulator" role="tabpanel" aria-labelledby="tab-btn-simulator" tabindex="0">
+                <div class="grid-container simulator-layout">
+                    <!-- Setup Card -->
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <h2>Live Match Setup</h2>
+                            <p>Configure team Elo ratings, venue benchmarks, and live chase progress.</p>
+                        </div>
+                        <form id="sim-form" class="predict-form">
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label>Match Format</label>
+                                    <div class="segmented-control" id="sim-format-control">
+                                        <input type="radio" id="fmt-t20" name="sim-format" value="t20" checked>
+                                        <label for="fmt-t20">T20</label>
+                                        
+                                        <input type="radio" id="fmt-od" name="sim-format" value="od">
+                                        <label for="fmt-od">ODI</label>
+                                        
+                                        <input type="radio" id="fmt-hnd" name="sim-format" value="hnd">
+                                        <label for="fmt-hnd">The Hundred</label>
+
+                                        <input type="radio" id="fmt-t20w" name="sim-format" value="t20w">
+                                        <label for="fmt-t20w">T20 (Women)</label>
+
+                                        <input type="radio" id="fmt-odw" name="sim-format" value="odw">
+                                        <label for="fmt-odw">ODI (Women)</label>
+
+                                        <input type="radio" id="fmt-hndw" name="sim-format" value="hndw">
+                                        <label for="fmt-hndw">The Hundred (Women)</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sim-source">Rating Source<span class="info-tip" tabindex="0" aria-label="Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.</span></span></label>
+                                    <select id="sim-source" class="rating-source-select">
+                                        <option value="elo" selected>Elo</option>
+                                        <option value="icc">ICC-style</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label for="sim-batting-team">Batting Team</label>
+                                    <select id="sim-batting-team">
+                                        <option value="">-- Select Batting Team --</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sim-bowling-team">Bowling Team</label>
+                                    <select id="sim-bowling-team">
+                                        <option value="">-- Select Bowling Team --</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label for="sim-batting-elo">Batting Team Elo<span class="info-tip" tabindex="0" aria-label="Elo is a relative team-strength rating updated after every match. Around 1500 is average; higher means a historically stronger side.">ⓘ<span class="info-tip-bubble" aria-hidden="true">A relative team-strength rating updated after every match. Around 1500 is average; higher means a historically stronger side.</span></span></label>
+                                    <input type="number" id="sim-batting-elo" value="1500" min="1000" max="2500" step="5">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sim-bowling-elo">Bowling Team Elo<span class="info-tip" tabindex="0" aria-label="Elo is a relative team-strength rating updated after every match. Around 1500 is average; higher means a historically stronger side.">ⓘ<span class="info-tip-bubble" aria-hidden="true">A relative team-strength rating updated after every match. Around 1500 is average; higher means a historically stronger side.</span></span></label>
+                                    <input type="number" id="sim-bowling-elo" value="1500" min="1000" max="2500" step="5">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sim-venue">Match Venue</label>
+                                <select id="sim-venue">
+                                    <option value="">-- Select Venue --</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label for="sim-venue-avg">Venue 1st Innings Avg Score</label>
+                                    <input type="number" id="sim-venue-avg" value="160" min="50" max="450">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sim-target">Target Score</label>
+                                    <input type="number" id="sim-target" value="160" min="10">
+                                </div>
+                            </div>
+
+                            <div class="slider-group u-mt-15">
+                                <div class="slider-header">
+                                    <span class="slider-title">Runs Remaining (Needed)</span>
+                                    <span class="slider-val" id="sim-runs-val">50 runs</span>
+                                </div>
+                                <div class="slider-controls">
+                                    <button type="button" class="adjust-btn" data-target="sim-runs-slider" data-step="-1">−</button>
+                                    <input type="range" id="sim-runs-slider" min="0" max="200" value="50">
+                                    <button type="button" class="adjust-btn" data-target="sim-runs-slider" data-step="1">+</button>
+                                </div>
+                            </div>
+
+                            <div class="slider-group">
+                                <div class="slider-header">
+                                    <span class="slider-title">Balls Remaining</span>
+                                    <span class="slider-val" id="sim-balls-val">30 balls (5.0 ov)</span>
+                                    <div id="sim-balls-ring-container" class="balls-ring" style="display:none; background:conic-gradient(var(--primary-grad) 50%, rgba(255,255,255,0.1) 0);">
+                                       <div class="balls-ring-inner" id="sim-balls-ring-text">30</div>
+                                    </div>
+                                </div>
+                                <div class="slider-controls">
+                                    <button type="button" class="adjust-btn" data-target="sim-balls-slider" data-step="-1">−</button>
+                                    <input type="range" id="sim-balls-slider" min="0" max="120" value="30">
+                                    <button type="button" class="adjust-btn" data-target="sim-balls-slider" data-step="1">+</button>
+                                </div>
+                            </div>
+
+                            <div class="slider-group">
+                                <div class="slider-header">
+                                    <span class="slider-title">Wickets Fallen</span>
+                                    <span class="slider-val" id="sim-wickets-val">3 wickets</span>
+                                </div>
+                                <div class="slider-controls">
+                                    <button type="button" class="adjust-btn" data-target="sim-wickets-slider" data-step="-1">−</button>
+                                    <input type="range" id="sim-wickets-slider" min="0" max="10" value="3">
+                                    <button type="button" class="adjust-btn" data-target="sim-wickets-slider" data-step="1">+</button>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="glow-btn u-mt-10">Simulate Live Probability</button>
+                        </form>
+                    </div>
+
+                    <!-- Visual Dashboard Card -->
+                    <div class="glass-card flex-center">
+                        <div class="gauge-container">
+                            <canvas id="sim-gauge-chart"></canvas>
+                            <div class="gauge-overlay">
+                                <span class="probability-label">Chasing Win Probability <span class="source-badge source-badge--elo" id="sim-source-badge">Elo</span></span>
+                                <span class="probability-value" id="sim-prob-display">--%</span>
+                            </div>
+                        </div>
+
+                        <!-- 95% Confidence Interval Visualizer -->
+                        <div class="ci-container">
+                            <div class="ci-header">
+                                <span class="ci-title">95% Ensemble Confidence Interval<span class="info-tip" tabindex="0" aria-label="The range the true win probability likely falls in, based on how much the model's 5 cross-validation folds agree with each other.">ⓘ<span class="info-tip-bubble" aria-hidden="true">The range the true win probability likely falls in, based on how much the model's 5 cross-validation folds agree with each other.</span></span></span>
+                                <span class="ci-badge" id="sim-uncertainty-badge">±0.0% variance</span>
+                            </div>
+                            <div class="ci-bar-wrapper">
+                                <div class="ci-bar-bg">
+                                    <div class="ci-bar-fill" id="sim-ci-bar-fill" style="left: 20%; width: 60%;"></div>
+                                    <div class="ci-marker-point" id="sim-ci-marker" style="left: 50%;"></div>
+                                </div>
+                            </div>
+                            <div class="ci-labels">
+                                <span>Lower Bound: <strong id="sim-ci-lower">--%</strong></span>
+                                <span>Upper Bound: <strong id="sim-ci-upper">--%</strong></span>
+                            </div>
+                        </div>
+
+                        <!-- 5-Fold Model Predictions Badges -->
+                        <div class="fold-badges-container">
+                            <span class="fold-badges-title">5-Fold Model Predictions:</span>
+                            <div class="fold-badges-list" id="sim-fold-badges">
+                                <span class="fold-badge">--%</span>
+                                <span class="fold-badge">--%</span>
+                                <span class="fold-badge">--%</span>
+                                <span class="fold-badge">--%</span>
+                                <span class="fold-badge">--%</span>
+                            </div>
+                        </div>
+
+                        <!-- Metrics Grid -->
+                        <div class="metrics-grid u-mt-15">
+                            <div class="metric-card">
+                                <span class="metric-title">Req. Run Rate</span>
+                                <span class="metric-value" id="sim-rrr-display">--</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-title">Curr. Run Rate</span>
+                                <span class="metric-value" id="sim-crr-display">--</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-title">Elo Advantage</span>
+                                <span class="metric-value" id="sim-elo-diff-display">--</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-title">Match Phase<span class="info-tip" tabindex="0" aria-label="The Hundred powerplay is the first 25 balls.">ⓘ<span class="info-tip-bubble" aria-hidden="true">The Hundred powerplay is the first 25 balls.</span></span></span>
+                                <span class="metric-value" id="sim-phase-display">--</span>
+                            </div>
+                        </div>
+
+                        <!-- TreeSHAP Model Explainability Panel -->
+                        <div class="explainability-container">
+                            <div class="explainability-header">
+                                <span class="explainability-title">Top 5 Prediction Drivers (SHAP)<span class="info-tip" tabindex="0" aria-label="SHAP values show how much each factor pushed this prediction's win probability up or down, relative to the model's average prediction.">ⓘ<span class="info-tip-bubble" aria-hidden="true">SHAP values show how much each factor pushed this prediction's win probability up or down, relative to the model's average prediction.</span></span></span>
+                                <span class="explainability-tag">Feature Contributions</span>
+                            </div>
+                            <div class="explainability-list" id="sim-explainability-list">
+                                <div class="explainability-placeholder">Run simulation to view top factors...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 1.5: FIRST INNINGS PREDICTOR -->
+            <section class="tab-content" id="tab-firstinnings" role="tabpanel" aria-labelledby="tab-btn-firstinnings" tabindex="0">
+                <div class="mc-subtabs explorer-mode-tabs" id="fi-mode-tabs">
+                    <button type="button" class="mc-subtab active" data-fi-mode="live">Live State Predictor</button>
+                    <button type="button" class="mc-subtab" data-fi-mode="mc">Monte Carlo Sim (1st Innings)</button>
+                </div>
+
+                <div id="fi-live">
+                <div class="grid-container">
+                    <!-- Input Card -->
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <h2>First Innings Situation Input</h2>
+                            <p>Enter the live first-innings details to project the final score.</p>
+                        </div>
+                        <form id="firstinnings-predict-form" class="predict-form">
+                            <div class="form-group">
+                                <label>Match Format</label>
+                                <div class="segmented-control u-mb-5" id="firstinnings-format-control">
+                                    <input type="radio" id="fi-fmt-t20" name="fi-format" value="t20" checked>
+                                    <label for="fi-fmt-t20">T20</label>
+                                    
+                                    <input type="radio" id="fi-fmt-od" name="fi-format" value="od">
+                                    <label for="fi-fmt-od">ODI</label>
+                                    
+                                    <input type="radio" id="fi-fmt-hnd" name="fi-format" value="hnd">
+                                    <label for="fi-fmt-hnd">100-Ball</label>
+
+                                    <input type="radio" id="fi-fmt-t20w" name="fi-format" value="t20w">
+                                    <label for="fi-fmt-t20w">T20 (Women)</label>
+
+                                    <input type="radio" id="fi-fmt-odw" name="fi-format" value="odw">
+                                    <label for="fi-fmt-odw">ODI (Women)</label>
+
+                                    <input type="radio" id="fi-fmt-hndw" name="fi-format" value="hndw">
+                                    <label for="fi-fmt-hndw">100-Ball (Women)</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="fi-source">Rating Source<span class="info-tip" tabindex="0" aria-label="Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.</span></span></label>
+                                <select id="fi-source" class="rating-source-select">
+                                    <option value="elo" selected>Elo</option>
+                                    <option value="icc">ICC-style</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="firstinnings-runs">Current Runs Scored</label>
+                                <input type="number" id="firstinnings-runs" value="105" min="0" required>
+                                <span class="input-desc">Total runs scored so far</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="firstinnings-balls">Balls Bowled</label>
+                                <input type="number" id="firstinnings-balls" value="90" min="0" max="300" required>
+                                <span class="input-desc" id="firstinnings-balls-desc">Deliveries bowled (max 120)</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="firstinnings-wickets">Wickets Lost</label>
+                                <input type="number" id="firstinnings-wickets" value="4" min="0" max="10" required>
+                                <span class="input-desc">Wickets fallen</span>
+                            </div>
+                            <div class="form-group">
+                                <label>Match Context</label>
+                                <div class="segmented-control u-mb-5" id="firstinnings-context-control">
+                                    <input type="radio" id="fi-ctx-comp" name="fi-context" value="competition" checked>
+                                    <label for="fi-ctx-comp">Competition</label>
+
+                                    <input type="radio" id="fi-ctx-teams" name="fi-context" value="teams">
+                                    <label for="fi-ctx-teams">Two Sides</label>
+                                </div>
+                            </div>
+                            <div class="form-group" id="fi-context-competition-group">
+                                <label for="firstinnings-comp">Competition</label>
+                                <select id="firstinnings-comp">
+                                    <option value="general" selected>General / Combined</option>
+                                    <option value="ipl">IPL</option>
+                                    <option value="bbl">BBL</option>
+                                    <option value="psl">PSL</option>
+                                    <option value="cpl">CPL</option>
+                                    <option value="sat">SA20</option>
+                                    <option value="ntb">T20 Blast</option>
+                                    <option value="t20s">International T20Is</option>
+                                </select>
+                            </div>
+                            <div id="fi-context-teams-group" style="display:none;">
+                                <div class="form-group">
+                                    <label for="firstinnings-team-batting">Batting Team</label>
+                                    <select id="firstinnings-team-batting">
+                                        <option value="">-- Select Batting Team --</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="firstinnings-team-bowling">Bowling Team (Opponent)</label>
+                                    <select id="firstinnings-team-bowling">
+                                        <option value="">-- Select Bowling Team --</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="firstinnings-venue">Venue</label>
+                                <select id="firstinnings-venue">
+                                    <option value="">-- Select Venue (optional) --</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="firstinnings-venue-avg">Venue 1st Innings Avg Score</label>
+                                <input type="number" id="firstinnings-venue-avg" value="160" min="50" max="450">
+                                <span class="input-desc">Auto-fills from venue selection; editable</span>
+                            </div>
+                            <button type="submit" class="glow-btn btn-alt">Predict Innings Total</button>
+                        </form>
+                    </div>
+
+                    <!-- Visual Results Card -->
+                    <div class="glass-card flex-center">
+                        <div class="projection-display-container">
+                            <span class="projection-label">Predicted Innings Total <span class="source-badge source-badge--elo" id="fi-source-badge">Elo</span></span>
+                            <span class="projection-value" id="firstinnings-predicted-display">--</span>
+                            <span class="runs-unit">runs</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="firstinnings-progress-fill" style="width: 0%;"></div>
+                            <div class="progress-bar-markers">
+                                <span>50</span>
+                                <span>150</span>
+                                <span>250</span>
+                            </div>
+                        </div>
+                        <div class="metrics-grid">
+                            <div class="metric-card">
+                                <span class="metric-title">Run Rate Projection</span>
+                                <span class="metric-value" id="firstinnings-proj-display">--</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-title">Current Run Rate</span>
+                                <span class="metric-value" id="firstinnings-crr-display">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div><!-- /#fi-live -->
+
+                <!-- Monte Carlo sub-panel: 1st-innings-only sim for two sides picked at a point in time -->
+                <div id="fi-mc-panel" style="display:none;">
+                    <div class="explorer-header glass-card">
+                        <div class="explorer-filters">
+                            <div class="select-wrapper">
+                                <label for="fi-filter-format">Format</label>
+                                <select id="fi-filter-format"><option value="">All</option></select>
+                            </div>
+                            <div class="select-wrapper">
+                                <label for="fi-filter-year">Year</label>
+                                <select id="fi-filter-year"><option value="">All</option></select>
+                            </div>
+                            <div class="select-wrapper">
+                                <label for="fi-filter-league">League</label>
+                                <select id="fi-filter-league"><option value="">All</option></select>
+                            </div>
+                            <div class="select-wrapper">
+                                <label for="fi-filter-team">Team</label>
+                                <select id="fi-filter-team"><option value="">All</option></select>
+                            </div>
+                        </div>
+                        <div class="explorer-picker-row">
+                            <div class="select-wrapper">
+                                <label for="fi-match-select">Select Historical Match: <span id="fi-match-count" class="match-count"></span></label>
+                                <select id="fi-match-select">
+                                    <option value="">-- Select a match from database --</option>
+                                </select>
+                            </div>
+                            <div class="select-wrapper" id="fi-mc-source-wrapper">
+                                <label for="fi-mc-source">Rating Source<span class="info-tip" tabindex="0" aria-label="Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.</span></span></label>
+                                <select id="fi-mc-source" class="rating-source-select">
+                                    <option value="elo" selected>Elo</option>
+                                    <option value="icc">ICC-style</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="match-summary-card" id="fi-match-summary" style="display: none;">
+                            <div class="team-vs">
+                                <span id="fi-batting-team" class="chasing">Team A</span>
+                                <span class="vs">bat vs bowl</span>
+                                <span id="fi-bowling-team" class="defending">Team B</span>
+                            </div>
+                            <div class="match-details">
+                                <span>Date: <strong id="fi-match-date">--</strong></span>
+                                <span>Actual 1st-Inn Score: <strong id="fi-actual-score">--</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lineups & Elo: both sides' point-in-time XI + each player's Elo entering this
+                         match, fetched via /api/match/<id>/squads as soon as a match is picked above. -->
+                    <div class="grid-container grid-container-equal u-mb-24" id="fi-lineups-grid" style="display:none;">
+                        <div class="glass-card" id="fi-lineups-team-1-card">
+                            <div class="card-header">
+                                <h2 id="fi-lineups-team-1-name">Team 1</h2>
+                                <p>Batting — Elo shown is each player's rating entering this match</p>
+                            </div>
+                            <div class="stat-tiles stat-tiles-4col" id="fi-lineups-team-1-stats"></div>
+                            <h4 class="mc-hist-title">Batting Lineup</h4>
+                            <div class="leaderboard-list" id="fi-lineups-team-1-batting"></div>
+                        </div>
+                        <div class="glass-card" id="fi-lineups-team-2-card">
+                            <div class="card-header">
+                                <h2 id="fi-lineups-team-2-name">Team 2</h2>
+                                <p>Bowling — Elo shown is each player's rating entering this match</p>
+                            </div>
+                            <div class="stat-tiles stat-tiles-4col" id="fi-lineups-team-2-stats"></div>
+                            <h4 class="mc-hist-title">Bowling Attack</h4>
+                            <div class="leaderboard-list" id="fi-lineups-team-2-bowling"></div>
+                        </div>
+                    </div>
+
+                    <div id="fi-mc-experimental-warning" class="live-squad-warning" style="display:none;">
+                        ⚠ ODI Monte Carlo is experimental — match-level simulation accuracy has not been validated for this format. Treat prices with caution.
+                    </div>
+
+                    <button type="button" class="glow-btn btn-alt u-mb-24" id="fi-mc-run-btn" disabled>Run First-Innings Simulation</button>
+
+                    <div id="fi-mc-loading" style="display:none; text-align:center; padding:40px;">
+                        <div class="skeleton-loader" role="status" aria-live="polite">
+                            <div class="skeleton-block skeleton-title"></div>
+                            <div class="skeleton-tiles">
+                                <div class="skeleton-block skeleton-tile"></div>
+                                <div class="skeleton-block skeleton-tile"></div>
+                                <div class="skeleton-block skeleton-tile"></div>
+                            </div>
+                            <div class="skeleton-block skeleton-chart"></div>
+                            <p class="skeleton-caption">Running 10,000 Monte Carlo iterations (1st innings)…</p>
+                        </div>
+                        <div class="mc-progress"><div class="mc-progress-bar" id="fi-mc-progress-bar"></div></div>
+                        <div class="mc-progress-pct" id="fi-mc-progress-pct">0%</div>
+                    </div>
+
+                    <div class="glass-card" id="fi-mc-results" style="display:none;">
+                        <span class="source-badge source-badge--elo u-mb-12" id="fi-mc-source-badge" style="display:inline-block;">Elo</span>
+                        <div class="mc-subtabs mc-roletabs" id="fi-mc-roletabs">
+                            <button type="button" class="mc-subtab active" data-fi-role="batting">Batting</button>
+                            <button type="button" class="mc-subtab" data-fi-role="bowling">Bowling</button>
+                        </div>
+                        <div id="fi-mc-batting-block">
+                            <div class="stat-tiles" id="fi-mc-stat-tiles"></div>
+                            <div class="mc-overunder" id="fi-mc-overunder"></div>
+                        </div>
+                        <h4 id="fi-mc-hist-title" class="mc-hist-title"></h4>
+                        <div class="chart-wrapper"><canvas id="fi-mc-histogram"></canvas></div>
+                        <div class="mc-market-grid">
+                            <div><h4 id="fi-mc-m1-title"></h4><div id="fi-mc-m1-list" class="leaderboard-list"></div></div>
+                            <div><h4 id="fi-mc-m2-title"></h4><div id="fi-mc-m2-list" class="leaderboard-list"></div></div>
+                            <div><h4 id="fi-mc-m3-title"></h4><div id="fi-mc-m3-list" class="leaderboard-list"></div></div>
+                        </div>
+                    </div>
+                </div><!-- /#fi-mc-panel -->
+            </section>
+
+            <!-- TAB 2: MATCH EXPLORER -->
+            <section class="tab-content" id="tab-explorer" role="tabpanel" aria-labelledby="tab-btn-explorer" tabindex="0">
+                <div class="explorer-header glass-card">
+                    <div class="explorer-filters">
+                        <div class="select-wrapper">
+                            <label for="expl-filter-format">Format</label>
+                            <select id="expl-filter-format"><option value="">All</option></select>
+                        </div>
+                        <div class="select-wrapper">
+                            <label for="expl-filter-year">Year</label>
+                            <select id="expl-filter-year"><option value="">All</option></select>
+                        </div>
+                        <div class="select-wrapper">
+                            <label for="expl-filter-competition">Competition</label>
+                            <select id="expl-filter-competition"><option value="">All</option></select>
+                        </div>
+                        <div class="select-wrapper">
+                            <label for="expl-filter-team">Team</label>
+                            <select id="expl-filter-team"><option value="">All</option></select>
+                        </div>
+                    </div>
+                    <div class="explorer-picker-row">
+                        <div class="select-wrapper">
+                            <label for="match-select">Select Historical Match: <span id="expl-match-count" class="match-count"></span></label>
+                            <select id="match-select">
+                                <option value="">-- Select a match from database --</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper" id="expl-source-wrapper">
+                            <label for="expl-source">Timeline Rating Source<span class="info-tip" tabindex="0" aria-label="Replays this match's ball-by-ball win probability using either Elo (this app's deployed system) or the ICC-style engine, on that rating system's own recorded ratings for this match.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Replays this match's ball-by-ball win probability using either Elo (this app's deployed system) or the ICC-style engine, on that rating system's own recorded ratings for this match.</span></span></label>
+                            <select id="expl-source" class="rating-source-select">
+                                <option value="elo" selected>Elo</option>
+                                <option value="icc">ICC-style</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="match-summary-card" id="explorer-match-summary" style="display: none;">
+                        <div class="team-vs">
+                            <span id="expl-chasing-team" class="chasing">Team A</span>
+                            <span class="vs">vs</span>
+                            <span id="expl-defending-team" class="defending">Team B</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Target: <strong id="expl-target">--</strong></span>
+                            <span>Outcome: <strong id="expl-result">--</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mc-subtabs explorer-mode-tabs" id="explorer-mode-tabs">
+                    <button type="button" class="mc-subtab active" data-expl-mode="bbb">Ball-by-Ball Data</button>
+                    <button type="button" class="mc-subtab" data-expl-mode="lineups">Lineups &amp; Elo</button>
+                    <button type="button" class="mc-subtab" data-expl-mode="mc">Monte Carlo Sim</button>
+                </div>
+
+                <div id="explorer-bbb">
+                <div id="explorer-loading" style="display:none; text-align:center; padding:40px;">
+                    <div class="skeleton-loader" role="status" aria-live="polite">
+                        <div class="skeleton-block skeleton-title"></div>
+                        <div class="skeleton-block skeleton-chart skeleton-chart--tall"></div>
+                        <div class="skeleton-lines">
+                            <div class="skeleton-block skeleton-line"></div>
+                            <div class="skeleton-block skeleton-line"></div>
+                            <div class="skeleton-block skeleton-line"></div>
+                        </div>
+                        <p class="skeleton-caption">Computing ball-by-ball win probability…</p>
+                    </div>
+                    <div class="mc-progress"><div class="mc-progress-bar" id="expl-progress-bar"></div></div>
+                    <div class="mc-progress-pct" id="expl-progress-pct">0%</div>
+                </div>
+
+                <div class="glass-card timeline-card" id="timeline-chart-container" style="display: none;">
+                    <div class="timeline-header">
+                        <h3>Win Probability Timeline (Ball-by-Ball) <span class="source-badge source-badge--elo" id="expl-source-badge">Elo</span></h3>
+                        <div class="annotation-legend">
+                            <span class="legend-item"><span class="legend-dot dot-wicket"></span> Wicket</span>
+                            <span class="legend-item"><span class="legend-dot dot-six"></span> Six (6)</span>
+                            <span class="legend-item"><span class="legend-dot dot-four"></span> Four (4)</span>
+                        </div>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="timeline-chart"></canvas>
+                    </div>
+                    <div class="key-moments" id="key-moments">
+                        <h4 class="key-moments-title">Most Impactful Deliveries of the Chase</h4>
+                        <div class="mc-subtabs" id="key-moments-tabs">
+                            <button type="button" class="mc-subtab active" data-km-mode="combined">Combined</button>
+                            <button type="button" class="mc-subtab" data-km-mode="wickets">Wickets</button>
+                            <button type="button" class="mc-subtab" data-km-mode="boundaries">Boundaries</button>
+                        </div>
+                        <div class="key-moments-list" id="key-moments-list"></div>
+                    </div>
+                </div>
+
+                <div class="glass-card timeline-card" id="worm-chart-container" style="display: none;">
+                    <div class="timeline-header">
+                        <h3>Run Worm — Cumulative Runs</h3>
+                        <div class="annotation-legend">
+                            <span class="legend-item"><span class="legend-dot dot-wicket"></span> Wicket</span>
+                        </div>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="worm-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="glass-card timeline-card" id="manhattan-chart-container" style="display: none;">
+                    <div class="timeline-header">
+                        <h3>Manhattan — Runs Per Over</h3>
+                        <div class="annotation-legend">
+                            <span class="legend-item"><span class="legend-dot dot-wicket"></span> Wicket (one circle per wicket)</span>
+                        </div>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="manhattan-chart"></canvas>
+                    </div>
+                </div>
+                </div><!-- /#explorer-bbb -->
+
+                <!-- Lineups & Elo sub-panel: both teams' point-in-time XI + each player's Elo
+                     entering this specific match (same squad data /api/montecarlo uses internally,
+                     surfaced here read-only via /api/match/<id>/squads). -->
+                <div id="explorer-lineups" style="display:none;">
+                    <div id="lineups-empty" class="glass-card" style="text-align:center; padding:40px; color:var(--text-secondary);">
+                        Select a match above to see both sides' lineups.
+                    </div>
+                    <div class="grid-container grid-container-equal" id="lineups-grid" style="display:none;">
+                        <div class="glass-card" id="lineups-team-1-card">
+                            <div class="card-header">
+                                <h2 id="lineups-team-1-name">Team 1</h2>
+                                <p>Batted first — Elo shown is each player's rating entering this match</p>
+                            </div>
+                            <div class="stat-tiles stat-tiles-4col" id="lineups-team-1-stats"></div>
+                            <h4 class="mc-hist-title">Batting Lineup</h4>
+                            <div class="leaderboard-list" id="lineups-team-1-batting"></div>
+                            <h4 class="mc-hist-title">Bowling Attack</h4>
+                            <div class="leaderboard-list" id="lineups-team-1-bowling"></div>
+                        </div>
+                        <div class="glass-card" id="lineups-team-2-card">
+                            <div class="card-header">
+                                <h2 id="lineups-team-2-name">Team 2</h2>
+                                <p>Batted second (chasing) — Elo shown is each player's rating entering this match</p>
+                            </div>
+                            <div class="stat-tiles stat-tiles-4col" id="lineups-team-2-stats"></div>
+                            <h4 class="mc-hist-title">Batting Lineup</h4>
+                            <div class="leaderboard-list" id="lineups-team-2-batting"></div>
+                            <h4 class="mc-hist-title">Bowling Attack</h4>
+                            <div class="leaderboard-list" id="lineups-team-2-bowling"></div>
+                        </div>
+                    </div>
+                </div><!-- /#explorer-lineups -->
+
+                <!-- Monte Carlo sub-panel (moved in from its own tab) -->
+                <div id="explorer-mc" style="display:none;">
+                <div class="glass-card">
+                    <div class="card-header"><h2>Monte Carlo Match Simulator</h2>
+                        <p>10,000 simulated innings → score distribution, market odds &amp; player props. Pick any match above to auto-run, or set a custom matchup below.</p></div>
+
+                    <form id="mc-form" class="predict-form">
+                        <div class="form-row-2">
+                            <div class="form-group"><label for="mc-format">Format</label>
+                                <select id="mc-format">
+                                    <option value="t20">T20</option><option value="od">ODI</option>
+                                    <option value="hnd" selected>The Hundred</option>
+                                    <option value="t20w">T20 (Women)</option>
+                                    <option value="odw">ODI (Women)</option>
+                                    <option value="hndw">The Hundred (Women)</option>
+                                </select></div>
+                            <div class="form-group"><label for="mc-team-a">Team A</label><select id="mc-team-a" required></select></div>
+                            <div class="form-group"><label for="mc-team-b">Team B</label><select id="mc-team-b" required></select></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mc-source">Rating Source<span class="info-tip" tabindex="0" aria-label="Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.</span></span></label>
+                            <select id="mc-source" class="rating-source-select">
+                                <option value="elo" selected>Elo</option>
+                                <option value="icc">ICC-style</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="glow-btn" id="mc-btn">Run Simulation</button>
+                    </form>
+
+                    <div id="mc-loading" style="display:none; text-align:center; padding:40px;">
+                        <div class="skeleton-loader" role="status" aria-live="polite">
+                            <div class="skeleton-block skeleton-title"></div>
+                            <div class="skeleton-tiles">
+                                <div class="skeleton-block skeleton-tile"></div>
+                                <div class="skeleton-block skeleton-tile"></div>
+                                <div class="skeleton-block skeleton-tile"></div>
+                            </div>
+                            <div class="skeleton-block skeleton-chart"></div>
+                            <p class="skeleton-caption">Running 10,000 Monte Carlo iterations…</p>
+                        </div>
+                        <div class="mc-progress"><div class="mc-progress-bar" id="mc-progress-bar"></div></div>
+                        <div class="mc-progress-pct" id="mc-progress-pct">0%</div>
+                    </div>
+
+                    <div id="mc-results" style="display:none;">
+                        <span class="source-badge source-badge--elo u-mb-12" id="mc-source-badge" style="display:inline-block;">Elo</span>
+                        <div id="mc-experimental-warning" class="live-squad-warning" style="display:none;">
+                            ⚠ ODI Monte Carlo is experimental — match-level simulation accuracy has not been validated for this format. Treat prices with caution.
+                        </div>
+                        <!-- win prediction: proportional team-coloured split -->
+                        <div id="mc-winsplit"></div>
+                        <!-- match-level exotic markets: tie & projected victory margin -->
+                        <div class="mc-match-markets" id="mc-match-markets"></div>
+                        <!-- team selector for exotic markets -->
+                        <div class="mc-subtabs" id="mc-subtabs">
+                            <button type="button" class="mc-subtab active" data-mc-side="a"></button>
+                            <button type="button" class="mc-subtab" data-mc-side="b"></button>
+                        </div>
+                        <!-- batting / bowling discipline selector -->
+                        <div class="mc-subtabs mc-roletabs" id="mc-roletabs">
+                            <button type="button" class="mc-subtab active" data-mc-role="batting">Batting</button>
+                            <button type="button" class="mc-subtab" data-mc-role="bowling">Bowling</button>
+                        </div>
+                        <!-- batting-only: score distribution + total-runs over/under (hidden in bowling view) -->
+                        <div id="mc-batting-block">
+                            <div class="stat-tiles" id="mc-stat-tiles"></div>
+                            <div class="mc-overunder" id="mc-overunder"></div>
+                        </div>
+                        <h4 id="mc-hist-title" class="mc-hist-title"></h4>
+                        <div class="chart-wrapper"><canvas id="mc-histogram"></canvas></div>
+                        <!-- markets: 3 leaderboards (batting: top batsman / 30+ / 50+ · bowling: most wkts / 2+ / 3+) -->
+                        <div class="mc-market-grid">
+                            <div><h4 id="mc-m1-title"></h4><div id="mc-m1-list" class="leaderboard-list"></div></div>
+                            <div><h4 id="mc-m2-title"></h4><div id="mc-m2-list" class="leaderboard-list"></div></div>
+                            <div><h4 id="mc-m3-title"></h4><div id="mc-m3-list" class="leaderboard-list"></div></div>
+                        </div>
+                    </div>
+                </div>
+                </div><!-- /#explorer-mc -->
+            </section>
+
+            <!-- TAB 5: MODEL ANALYTICS -->
+            <section class="tab-content" id="tab-analytics" role="tabpanel" aria-labelledby="tab-btn-analytics" tabindex="0">
+                <div class="glass-card card-compact">
+                    <div class="form-group analytics-select-group">
+                        <label for="analytics-format-select" class="analytics-select-label">Select Model Format:</label>
+                        <select id="analytics-format-select" class="analytics-select">
+                            <optgroup label="Men's">
+                                <option value="t20" selected>T20 Format Models</option>
+                                <option value="od">One-Day Format Models</option>
+                                <option value="hnd">The Hundred Models</option>
+                            </optgroup>
+                            <optgroup label="Women's">
+                                <option value="t20w">Women's T20 Models</option>
+                                <option value="odw">Women's One-Day Models</option>
+                                <option value="hndw">Women's Hundred Models</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mc-subtabs explorer-mode-tabs" id="analytics-view-tabs">
+                    <button type="button" class="mc-subtab active" data-analytics-view="overview">Accuracy Overview</button>
+                    <button type="button" class="mc-subtab" data-analytics-view="feature-importance">Feature Importance</button>
+                    <button type="button" class="mc-subtab" data-analytics-view="first-innings">First Innings Predictor</button>
+                    <button type="button" class="mc-subtab" data-analytics-view="mc-performance">Monte Carlo Sim</button>
+                </div>
+
+                <!-- VIEW: ACCURACY OVERVIEW (Brier + Calibration) -->
+                <div id="analytics-view-overview" class="analytics-view">
+                    <div class="grid-container">
+                        <!-- Brier Card -->
+                        <div class="glass-card">
+                            <h3>Per-Phase Brier Score<span class="info-tip info-tip--below" tabindex="0" aria-label="Brier score measures probability accuracy: the average squared error between predicted and actual outcomes. Lower is better, 0 is a perfect forecast.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Measures probability accuracy: the average squared error between predicted and actual outcomes. Lower is better, 0 is a perfect forecast.</span></span></h3>
+                            <p class="subtitle">Lower values represent better prediction accuracy (Trained on 1.0M+ states).</p>
+                            <div class="chart-wrapper">
+                                <canvas id="brier-bar-chart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Calibration Card -->
+                        <div class="glass-card">
+                            <h3>Model Calibration Curve</h3>
+                            <p class="subtitle">Compares predicted win probabilities vs. historical outcome frequencies.</p>
+                            <div class="chart-wrapper">
+                                <canvas id="calibration-curve-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: FEATURE IMPORTANCE -->
+                <div id="analytics-view-feature-importance" class="analytics-view" style="display:none;">
+                    <div id="fi-importance-unavailable" class="glass-card" style="display:none;">
+                        <p class="subtitle" id="fi-importance-unavailable-msg">Feature importance data is not available for this format.</p>
+                    </div>
+                    <div id="fi-importance-content" class="grid-container">
+                        <div class="glass-card">
+                            <h3>Win Probability Classifier<span class="info-tip info-tip--below" tabindex="0" aria-label="XGBoost split-gain contribution of each input feature to the win-probability classifier, averaged across GroupKFold cross-validation folds.">ⓘ<span class="info-tip-bubble" aria-hidden="true">XGBoost split-gain contribution of each feature to the win-probability classifier, averaged across cross-validation folds.</span></span></h3>
+                            <p class="subtitle" id="fi-classifier-subtitle">Ranked by mean gain %.</p>
+                            <div class="bet-table-wrap">
+                                <table class="bet-table">
+                                    <thead>
+                                        <tr><th>Rank</th><th>Feature</th><th class="num">Mean Gain</th><th class="num">Std Dev</th></tr>
+                                    </thead>
+                                    <tbody id="fi-classifier-body"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="glass-card">
+                            <h3>First Innings Regressor<span class="info-tip info-tip--below" tabindex="0" aria-label="XGBoost split-gain contribution of each input feature to the first-innings score regressor, averaged across GroupKFold cross-validation folds.">ⓘ<span class="info-tip-bubble" aria-hidden="true">XGBoost split-gain contribution of each feature to the first-innings score regressor, averaged across cross-validation folds.</span></span></h3>
+                            <p class="subtitle" id="fi-regressor-subtitle">Ranked by mean gain %.</p>
+                            <div class="bet-table-wrap">
+                                <table class="bet-table">
+                                    <thead>
+                                        <tr><th>Rank</th><th>Feature</th><th class="num">Mean Gain</th><th class="num">Std Dev</th></tr>
+                                    </thead>
+                                    <tbody id="fi-regressor-body"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: FIRST INNINGS PREDICTOR PERFORMANCE -->
+                <div id="analytics-view-first-innings" class="analytics-view" style="display:none;">
+                    <div id="fip-unavailable" class="glass-card" style="display:none;">
+                        <p class="subtitle" id="fip-unavailable-msg">First innings predictor performance data is not available for this format.</p>
+                    </div>
+                    <div id="fip-content">
+                        <div class="bet-kpi-grid">
+                            <div class="metric-card"><span class="metric-title">Overall MAE<span class="info-tip" tabindex="0" aria-label="Mean Absolute Error between predicted and actual first-innings score, in runs.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Mean Absolute Error between predicted and actual first-innings score, in runs. Lower is better.</span></span></span><span class="metric-value" id="fip-kpi-mae">--</span></div>
+                            <div class="metric-card"><span class="metric-title">Overall RMSE</span><span class="metric-value" id="fip-kpi-rmse">--</span></div>
+                            <div class="metric-card"><span class="metric-title">Sample Size</span><span class="metric-value" id="fip-kpi-samples">--</span></div>
+                        </div>
+                        <div class="glass-card u-mt-20">
+                            <h3>Mean Absolute Error by Phase</h3>
+                            <p class="subtitle">Lower values represent tighter score predictions at that stage of the innings.</p>
+                            <div class="chart-wrapper">
+                                <canvas id="fip-phase-mae-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIEW: MONTE CARLO SIM PERFORMANCE -->
+                <div id="analytics-view-mc-performance" class="analytics-view" style="display:none;">
+                    <div id="mcp-unavailable" class="glass-card" style="display:none;">
+                        <p class="subtitle" id="mcp-unavailable-msg">Monte Carlo calibration metrics have not been generated yet.</p>
+                    </div>
+                    <div id="mcp-content">
+                        <p class="subtitle u-mt-20" id="mcp-run-meta"></p>
+                        <div class="bet-kpi-grid">
+                            <div class="metric-card"><span class="metric-title">Coverage [P5, P95]<span class="info-tip" tabindex="0" aria-label="Share of actual historical first-innings totals falling within the simulator's 5th-95th percentile forecast range. Target: 70%-95%.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Share of actual totals falling within the simulator's [P5, P95] forecast range. Target: 70%-95%.</span></span></span><span class="metric-value" id="mcp-kpi-coverage">--</span></div>
+                            <div class="metric-card"><span class="metric-title">Score MAE<span class="info-tip" tabindex="0" aria-label="Mean absolute error between simulated mean score and actual first-innings score. Target: under 25 runs.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Mean absolute error between simulated mean score and actual score. Target: &lt;25 runs.</span></span></span><span class="metric-value" id="mcp-kpi-mae">--</span></div>
+                            <div class="metric-card"><span class="metric-title">Systematic Bias<span class="info-tip" tabindex="0" aria-label="Average signed difference between simulated mean score and actual score. Target: within +/-8 runs.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Average signed difference between simulated and actual scores. Target: within &plusmn;8 runs.</span></span></span><span class="metric-value" id="mcp-kpi-bias">--</span></div>
+                            <div class="metric-card"><span class="metric-title">Win-Prob Skill<span class="info-tip" tabindex="0" aria-label="How much better the simulator's win probability scores against actual match winners than always predicting the sample's base rate, measured as a Brier score improvement. Positive means real skill.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Brier improvement vs. always predicting the base rate, scored against actual winners. Positive = real skill. (Agreement with the pre-match model is now a diagnostic only.)</span></span></span><span class="metric-value" id="mcp-kpi-agreement">--</span></div>
+                            <div class="metric-card"><span class="metric-title">Over/Under Brier<span class="info-tip" tabindex="0" aria-label="Brier score of the simulator's over/under total-runs market pricing against actual outcomes. Target: under 0.25.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Brier score of the simulator's over/under total-runs pricing. Target: &lt;0.25.</span></span></span><span class="metric-value" id="mcp-kpi-brier">--</span></div>
+                            <div class="metric-card"><span class="metric-title">Score Std Dev<span class="info-tip" tabindex="0" aria-label="Average standard deviation of simulated innings totals, checking the simulator produces realistic score spread. Target: 25-55 runs.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Average std. dev. of simulated innings totals. Target: 25-55 runs.</span></span></span><span class="metric-value" id="mcp-kpi-stddev">--</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 6: BETTING (paper-bet dashboard + pre-match value scanner) -->
+            <section class="tab-content" id="tab-betting" role="tabpanel" aria-labelledby="tab-btn-betting" tabindex="0">
+                <div class="mc-subtabs explorer-mode-tabs" id="betting-subtabs">
+                    <button type="button" class="mc-subtab active" data-bet-view="dashboard">Dashboard</button>
+                    <button type="button" class="mc-subtab" data-bet-view="scanner">Pre-Match Scanner</button>
+                </div>
+
+                <!-- DASHBOARD (read-only ledger) -->
+                <div id="betting-dashboard">
+                    <div class="bet-kpi-grid">
+                        <div class="metric-card"><span class="metric-title">Bankroll</span><span class="metric-value" id="bet-kpi-bankroll">--</span></div>
+                        <div class="metric-card"><span class="metric-title">Total P&amp;L</span><span class="metric-value" id="bet-kpi-pnl">--</span></div>
+                        <div class="metric-card"><span class="metric-title">ROI</span><span class="metric-value" id="bet-kpi-roi">--</span></div>
+                        <div class="metric-card"><span class="metric-title">Win Rate</span><span class="metric-value" id="bet-kpi-winrate">--</span></div>
+                        <div class="metric-card"><span class="metric-title">Record (W-L-P)</span><span class="metric-value" id="bet-kpi-record">--</span></div>
+                        <div class="metric-card"><span class="metric-title">Avg Edge<span class="info-tip" tabindex="0" aria-label="Average model edge over the fair market price across all logged bets — the core value signal the scanner bets on.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Average model edge over the fair market price across all logged bets — the value signal the scanner bets on.</span></span></span><span class="metric-value" id="bet-kpi-edge">--</span></div>
+                    </div>
+
+                    <div class="glass-card u-mt-20">
+                        <div class="card-header">
+                            <h2>Bankroll Equity Curve</h2>
+                            <p>Running balance after each settled bet (paper trading).</p>
+                        </div>
+                        <div class="chart-wrapper"><canvas id="bet-equity-chart"></canvas></div>
+                    </div>
+
+                    <div class="glass-card u-mt-20">
+                        <div class="card-header">
+                            <h2>Bet Ledger</h2>
+                            <p id="bet-ledger-status">Loading bets…</p>
+                        </div>
+                        <div class="bet-table-wrap">
+                            <table class="bet-table">
+                                <thead>
+                                    <tr>
+                                        <th>Match</th><th>Fmt</th><th>Bet On</th>
+                                        <th class="num">Model</th><th class="num">Fair</th><th class="num">Edge</th>
+                                        <th class="num">Odds</th><th class="num">Stake</th>
+                                        <th>Result</th><th class="num">P&amp;L</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="bet-ledger-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRE-MATCH SCANNER -->
+                <div id="betting-scanner" style="display:none;">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <h2>Pre-Match Value Scanner</h2>
+                            <p>Scans upcoming Betfair cricket markets, compares your model's win probability against the fair market price, and logs value bets in <strong>paper mode</strong>. This calls the live Betfair API and can take several seconds.</p>
+                        </div>
+                        <form id="betting-scan-form" class="predict-form">
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label for="scan-format">Format</label>
+                                    <select id="scan-format">
+                                        <option value="both" selected>Both (T20 &amp; ODI)</option>
+                                        <option value="t20">T20</option>
+                                        <option value="od">ODI</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="scan-hours">Scan Window (hours ahead)</label>
+                                    <input type="number" id="scan-hours" value="48" min="1" max="168">
+                                </div>
+                            </div>
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label for="scan-edge">Min Edge %<span class="info-tip" tabindex="0" aria-label="Minimum model edge over the fair market price required to flag a value bet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Minimum model edge over the fair market price required to flag a value bet.</span></span></label>
+                                    <input type="number" id="scan-edge" value="3" min="0" max="50" step="0.5">
+                                </div>
+                                <div class="form-group">
+                                    <label for="scan-kelly">Kelly Fraction<span class="info-tip" tabindex="0" aria-label="Fraction of the full Kelly stake to bet. 0.25 = quarter-Kelly, a common conservative choice.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Fraction of the full Kelly stake to bet. 0.25 = quarter-Kelly, a conservative choice.</span></span></label>
+                                    <input type="number" id="scan-kelly" value="0.25" min="0.05" max="1" step="0.05">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="scan-bankroll">Bankroll (£)</label>
+                                <input type="number" id="scan-bankroll" value="1000" min="1">
+                            </div>
+                            <button type="submit" class="glow-btn" id="betting-scan-btn">Scan Now (paper)</button>
+                        </form>
+
+                        <div id="betting-scan-loading" style="display:none;">
+                            <div class="skeleton-loader" role="status" aria-live="polite">
+                                <div class="skeleton-block skeleton-title"></div>
+                                <div class="skeleton-lines">
+                                    <div class="skeleton-block skeleton-line"></div>
+                                    <div class="skeleton-block skeleton-line"></div>
+                                    <div class="skeleton-block skeleton-line"></div>
+                                </div>
+                                <p class="skeleton-caption">Logging into Betfair and scanning upcoming markets…</p>
+                            </div>
+                        </div>
+
+                        <div id="betting-scan-results" style="display:none;">
+                            <p id="betting-scan-status" class="u-text-secondary u-text-sm u-mt-16"></p>
+                            <div class="bet-table-wrap">
+                                <table class="bet-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Match</th><th>Fmt</th>
+                                            <th class="num">Model</th><th class="num">Fair</th><th class="num">Edge</th>
+                                            <th class="num">Odds</th><th>Recommended Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="betting-scan-body"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 7: PLAYER & TEAM DATA (Elo progression explorer, up to 8-way comparison) -->
+            <section class="tab-content" id="tab-eloexplorer" role="tabpanel" aria-labelledby="tab-btn-eloexplorer" tabindex="0">
+                <div class="mc-subtabs explorer-mode-tabs" id="elo-view-tabs">
+                    <button type="button" class="mc-subtab active" data-elo-view="explorer">Elo Explorer</button>
+                    <button type="button" class="mc-subtab" data-elo-view="leaderboard">Leaderboard</button>
+                </div>
+
+                <div id="elo-view-explorer" class="elo-view">
+                <div class="explorer-header glass-card">
+                    <div class="explorer-filters">
+                        <div class="select-wrapper">
+                            <label for="elo-type">Search for</label>
+                            <select id="elo-type">
+                                <option value="team" selected>Team</option>
+                                <option value="player">Player</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper">
+                            <label for="elo-format">Format</label>
+                            <select id="elo-format">
+                                <option value="t20" selected>T20</option>
+                                <option value="od">One-Day</option>
+                                <option value="hnd">The Hundred</option>
+                                <option value="t20w">T20 (Women)</option>
+                                <option value="odw">ODI (Women)</option>
+                                <option value="hndw">The Hundred (Women)</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper" id="elo-role-wrapper" style="display: none;">
+                            <label for="elo-role">Discipline</label>
+                            <select id="elo-role">
+                                <option value="batter" selected>Batting Elo</option>
+                                <option value="bowler">Bowling Elo</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper">
+                            <label for="elo-source">Rating Source<span class="info-tip" tabindex="0" aria-label="Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.</span></span></label>
+                            <select id="elo-source" class="rating-source-select">
+                                <option value="elo" selected>Elo</option>
+                                <option value="icc">ICC-style</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper elo-search-wrapper">
+                            <label for="elo-entity-input" id="elo-entity-label">Select Team</label>
+                            <input list="elo-entity-list" id="elo-entity-input" placeholder="Type to search…" autocomplete="off">
+                            <datalist id="elo-entity-list"></datalist>
+                        </div>
+                        <div class="select-wrapper elo-add-wrapper">
+                            <label>&nbsp;</label>
+                            <button type="button" class="glow-btn elo-add-btn" id="elo-add-btn">+ Add to compare</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card elo-range-bar">
+                    <div class="elo-range-presets mc-subtabs" id="elo-range-presets">
+                        <button type="button" class="mc-subtab active" data-range="all">All time</button>
+                        <button type="button" class="mc-subtab" data-range="1y">1Y</button>
+                        <button type="button" class="mc-subtab" data-range="3y">3Y</button>
+                        <button type="button" class="mc-subtab" data-range="5y">5Y</button>
+                        <button type="button" class="mc-subtab" data-range="10y">10Y</button>
+                    </div>
+                    <div class="elo-range-custom">
+                        <div class="select-wrapper">
+                            <label for="elo-range-from">From</label>
+                            <input type="date" id="elo-range-from">
+                        </div>
+                        <div class="select-wrapper">
+                            <label for="elo-range-to">To</label>
+                            <input type="date" id="elo-range-to">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="elo-compare-bar" id="elo-compare-bar" style="display: none;">
+                    <div class="elo-chips" id="elo-chips"></div>
+                    <button type="button" class="elo-clear-btn" id="elo-clear-btn">Clear all</button>
+                </div>
+
+                <div class="glass-card elo-placeholder" id="elo-empty">
+                    <p>Choose <strong>Team</strong> or <strong>Player</strong>, pick a format, search for a name, then <strong>Add to compare</strong>. Add up to 8 teams or players to chart their Elo progression side by side. Use the time range above to zoom into a specific period.</p>
+                </div>
+
+                <div class="glass-card timeline-card" id="elo-chart-container" style="display: none;">
+                    <div class="timeline-header">
+                        <h3 id="elo-chart-title">Elo Progression</h3>
+                        <p class="subtitle" id="elo-range-label"></p>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="elo-history-chart"></canvas>
+                    </div>
+                    <div class="elo-compare-table-wrap">
+                        <table class="elo-compare-table" id="elo-compare-table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th class="sortable" data-sort="current">Current<span class="sort-arrow"></span></th>
+                                    <th class="sortable" data-sort="peak">Peak<span class="sort-arrow"></span></th>
+                                    <th class="sortable" data-sort="low">Low<span class="sort-arrow"></span></th>
+                                    <th class="sortable" data-sort="matches">Matches<span class="sort-arrow"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="elo-compare-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+                </div>
+
+                <div id="elo-view-leaderboard" class="elo-view" style="display: none;">
+                    <div class="explorer-header glass-card">
+                        <div class="explorer-filters">
+                            <div class="select-wrapper">
+                                <label for="lb-type">Rank</label>
+                                <select id="lb-type">
+                                    <option value="team" selected>Teams</option>
+                                    <option value="player">Players</option>
+                                </select>
+                            </div>
+                            <div class="select-wrapper">
+                                <label for="lb-format">Format</label>
+                                <select id="lb-format">
+                                    <option value="t20" selected>T20</option>
+                                    <option value="od">One-Day</option>
+                                    <option value="hnd">The Hundred</option>
+                                    <option value="t20w">T20 (Women)</option>
+                                    <option value="odw">ODI (Women)</option>
+                                    <option value="hndw">The Hundred (Women)</option>
+                                </select>
+                            </div>
+                            <div class="select-wrapper" id="lb-role-wrapper" style="display: none;">
+                                <label for="lb-role">Discipline</label>
+                                <select id="lb-role">
+                                    <option value="batter" selected>Batting Elo</option>
+                                    <option value="bowler">Bowling Elo</option>
+                                </select>
+                            </div>
+                            <div class="select-wrapper">
+                                <label for="lb-source">Rating Source<span class="info-tip" tabindex="0" aria-label="Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.">ⓘ<span class="info-tip-bubble" aria-hidden="true">Elo is this app's deployed rating system. ICC-style is an alternate engine (international ratings plus a franchise-league bridge) being trialled alongside it. Coverage varies by format -- disabled here means no data for this format yet.</span></span></label>
+                                <select id="lb-source" class="rating-source-select">
+                                    <option value="elo" selected>Elo</option>
+                                    <option value="icc">ICC-style</option>
+                                </select>
+                            </div>
+                            <div class="select-wrapper">
+                                <label for="lb-limit">Show top</label>
+                                <select id="lb-limit">
+                                    <option value="10">10</option>
+                                    <option value="25" selected>25</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card elo-placeholder" id="lb-empty" style="display: none;">
+                        <p id="lb-empty-msg">No ranked data found for this format yet.</p>
+                    </div>
+
+                    <div class="glass-card timeline-card" id="lb-table-container">
+                        <div class="timeline-header">
+                            <h3 id="lb-table-title">Team Elo Leaderboard</h3>
+                            <p class="subtitle" id="lb-table-subtitle"></p>
+                        </div>
+                        <div class="elo-compare-table-wrap">
+                            <table class="elo-compare-table" id="lb-table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th id="lb-pool-th" class="lb-pool-col" style="display:none;">Pool</th>
+                                        <th class="sortable" data-sort="current">Current<span class="sort-arrow"></span></th>
+                                        <th class="sortable" data-sort="peak">Peak<span class="sort-arrow"></span></th>
+                                        <th class="sortable" data-sort="low">Low<span class="sort-arrow"></span></th>
+                                        <th class="sortable" data-sort="matches">Matches<span class="sort-arrow"></span></th>
+                                        <th>Last Played</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="lb-table-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Toast notifications (replaces blocking alert() calls) -->
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="false"></div>
+
+    <!-- Client Logic JS -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
