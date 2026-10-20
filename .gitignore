@@ -11,6 +11,10 @@ build/
 .vscode/
 .idea/
 
+# AI coding-assistant settings
+.claude/
+CLAUDE.md
+
 # OS
 .DS_Store
 Thumbs.db
