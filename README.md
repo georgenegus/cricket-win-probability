@@ -178,6 +178,14 @@ More write-ups are indexed in [docs/README.md](docs/README.md).
 
 ---
 
+## How this was built
+
+AI coding assistants wrote the vast majority of the implementation, whilst I set the direction
+for the project. I also designed the validation gates and decided whether to ship or revert a
+change.
+
+---
+
 ## Running it
 
 The match data and trained models are not in the repository: they are rebuilt from Cricsheet.
