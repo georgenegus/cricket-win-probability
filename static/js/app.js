@@ -190,12 +190,12 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>`).join("");
     }
 
-    // Three-tile projected-score distribution (P5 / Median / P95), median emphasised.
+    // Three-tile projected-score distribution (P5 / Mean / P95), mean emphasised.
     function statTilesHTML(dist, subLabel) {
         return `
-            <div class="stat-tile"><div class="st-label">P5</div><div class="st-val">${dist.p5_score}</div><div class="st-sub">floor</div></div>
-            <div class="stat-tile hi"><div class="st-label">Median</div><div class="st-val">${Math.round(dist.mean_score)}</div><div class="st-sub">${subLabel || ""}</div></div>
-            <div class="stat-tile"><div class="st-label">P95</div><div class="st-val">${dist.p95_score}</div><div class="st-sub">ceiling</div></div>`;
+            <div class="stat-tile"><div class="st-label">P5</div><div class="st-val">${Math.round(dist.p5_score)}</div><div class="st-sub">floor</div></div>
+            <div class="stat-tile hi"><div class="st-label">Mean</div><div class="st-val">${Math.round(dist.mean_score)}</div><div class="st-sub">${subLabel || ""}</div></div>
+            <div class="stat-tile"><div class="st-label">P95</div><div class="st-val">${Math.round(dist.p95_score)}</div><div class="st-sub">ceiling</div></div>`;
     }
 
     // --------------------------------------------------
